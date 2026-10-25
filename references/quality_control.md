@@ -31,11 +31,11 @@ A phase is not finished until its gate passes. The gates below are the short for
 | Phase | Gate |
 |---|---|
 | 1 Brief | Every content item classified by necessity and provenance; mandatory text verbatim; fixed assets and exclusions recorded; blocking gaps resolved or asked; no invented facts |
-| 2 Analysis | Communication Problem stated; tensions listed; differentiation strategy chosen; every design implication traceable to a finding or the brief; research limited to decisions it informed |
-| 3 Design Plan | Core idea is specific, visual, generative, truthful, functional; brand design and theme separated; alternatives genuinely compared; style defined across dimensions; hero decided; swap test and category test passed |
-| 4 Design Elements | Color strategy, typography, mark decision, supporters, background and unifying devices defined; each element has a role and passes the removal test; fixed assets intact; consistent rendering treatment |
-| 5 Execution | One-sentence message; hierarchy resolved; layout derived, not stock; distance and material conditions satisfied; composition review passed |
-| 6 Prompt | Prompt audit and release checklist passed |
+| 2 Analysis | Communication Problem stated; Environment Profile (landscape, competing stimuli, light, audience behavior, viewing stages, departure and fit dimensions) built; tensions listed; differentiation strategy chosen; every design implication traceable to a finding or the brief; research limited to decisions it informed |
+| 3 Design Plan | Core idea, style, and hero each chosen from at least three distinct candidates, evaluated and engineered; core idea is specific, visual, generative, truthful, functional; impression expressed through the environment; brand design and theme separated; swap, category, and context-swap tests passed |
+| 4 Design Elements | Color strategy, typographic voice, and mark each chosen from at least three candidates (mark fixed if supplied); color judged against the surrounding landscape; mark distinct from surrounding typography by named mechanisms; each element has a role and passes the removal test; consistent rendering treatment |
+| 5 Execution | One-sentence message; every item assigned to a reading stage; tiers sized to stage minimums plus hierarchy needs; intended quiet space realized; spatial strategy chosen from three candidates; mark region secured; context-fit review passed |
+| 6 Prompt | Prompt audit and release checklist passed, including the prompt-focus test |
 
 ## 4. Diagnostic tests
 
@@ -44,12 +44,19 @@ These tests are used wherever relevant. They are tools of judgment, not a requir
 - **Swap test**: substitute a competitor; if the design still works unchanged, it is generic.
 - **Category test**: remove the product from the description; if the identity could belong to the industry in general, it is stereotyped.
 - **Removal test**: take away an element; if nothing is lost, delete it.
-- **Distance test**: judge the piece from the farthest realistic viewing distance; the primary message and brand must survive.
+- **Distance test**: judge each reading tier at the distance of its own stage. The glance content and brand must survive the farthest stage; closer-stage content must be workable at its stage, without being enlarged to the farthest.
 - **Squint test**: blur mentally; the hierarchy and grouping should remain evident as masses of tone and shape.
 - **First-glance test**: what is understood in the first moments, and does it match the objective?
 - **Isolation test** (mark): remove everything but the mark; it must be recognizable and distinct.
 - **Reduction test** (mark): render in one color and small; it must remain clear.
 - **Separation test** (mark): the mark must be visually distinct from the hero, lettering, and decoration around it.
+- **Text-neighborhood test** (mark): place the mark beside the densest text; squint. It must resolve as a distinct object before any word is read.
+- **Proportion test**: for each element name its reading stage and minimum; anything far above its minimum that is not the hero or glance message is oversized.
+- **Breathing test**: the quiet space matches the intended share; removing a small element does not simply invite another to fill the gap.
+- **Environment test**: place the design among its actual neighbors and light. It must fit the place and separate on the intended dimension.
+- **Context-swap test**: the design would not be equally right in a different setting.
+- **Candidate test**: each consequential decision shows three candidates that would look different in the real setting, not variants of one idea.
+- **Prompt-focus test**: every prompt clause changes the image or constrains the output; deleting it would alter the result.
 - **Single-voice test**: do the typography, illustration, color, and decoration appear to come from one designer with one intention?
 - **Restraint test**: remove the weakest decorative element; if the design improves, leave it out.
 - **Truth test**: can the business honestly stand behind every claim, depiction, and mark the design makes?
@@ -83,6 +90,10 @@ Diagnose by mechanism, not by naming forbidden looks. Apply these during design 
 - **Fake culture**: heritage or regional signals added as flavor without connection.
 - **Style stacking**: many aesthetic labels combined to appear sophisticated, producing an average.
 - **Malformed content**: garbled lettering, invented words, impossible object structures.
+- **Crowded dominance**: many elements sized for the farthest distance, leaving no hierarchy or rest.
+- **Mark absorbed into typography**: the identifier shares form, weight, and color role with the text around it.
+- **Environment-blind direction**: a look chosen from the category and brand alone that would be right anywhere.
+- **Unchallenged default**: the obvious aesthetic or first idea adopted without competing candidates.
 
 When detected, return to the phase where the default entered (usually Phase 3 or 4), and replace it with a decision traceable to the brief.
 
@@ -101,6 +112,7 @@ When detected, return to the phase where the default entered (usually Phase 3 or
 | Cultural integrity | No unverified or misused cultural reference; user's language register preserved |
 | Originality | No copying of competitor or existing designs |
 | Output contract | Prompt standalone; no analysis exposed unless requested |
+| Prompt focus | Contains only visual instructions, format, mandatory text, and necessary exclusions; no rationale or context |
 
 ## 8. Issue triage and where to return
 
@@ -121,11 +133,15 @@ When detected, return to the phase where the default entered (usually Phase 3 or
 | Type unreadable or unrelated to identity | Typographic system | Phase 4 |
 | Clutter or noise | Visual supporters or unifying devices | Phase 4 |
 | Message unclear at first glance | Hierarchy | Phase 5 |
-| Content does not fit or cramps | Hero/layout capacity | Phase 5, then 3 if hero cannot carry content |
+| Content does not fit or cramps; everything competes | Reading stages, area budget, triage; or hero/layout capacity | Phase 5, then 3 if the concept demands too much content |
 | Unreadable at distance | Scale and contrast decisions | Phase 5 |
 | Prompt needs content not in plan | Plan gap | Phase indicated by the missing content |
 | Text corrupted or missing in prompt | Synthesis error | Phase 6 |
 | Missing or ambiguous user information | Brief gap | Phase 1 |
+| Design blends into or clashes with its surroundings | Environment Profile or expression of the impression | Phase 2, then 3 |
+| Mark reads as part of the typography | Distinction mechanisms or mark region | Phase 4, then 5 |
+| Obvious or unexamined direction | Exploration not applied | Phase 3 (or 4, 5) |
+| Prompt contains reasoning, context, or blanket emphasis | Synthesis | Phase 6 |
 
 Fix at the earliest responsible point. Never repair a prompt with extra clauses that fight an earlier decision.
 
@@ -157,5 +173,7 @@ Confirm each item before delivery:
 12. The prompt is delivered in one code block; any outside notes are short and only the permitted kinds.
 13. The reply language matches the user's.
 14. If several concepts or faces were requested, each prompt is standalone and the concepts genuinely differ.
+15. Every sentence changes the image or constrains the output; no rationale, strategy, audience or environment commentary, or blanket emphasis words.
+16. Scale is stated as proportion and hierarchy, quiet space is preserved, and the mark is described as a distinct object.
 
 If any item fails, route it using section 8 and correct it before sending.

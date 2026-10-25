@@ -22,8 +22,10 @@ Indonesian briefs are often informal, mix Indonesian with regional or colloquial
 ### A. Print medium and context
 - Physical piece and format; single face or multiple faces/panels; folds or assembly.
 - Dimensions and aspect ratio. If only a common name is given, infer the conventional proportions and tag them *inferred*.
+- Record the physical area available and the volume of content it must carry. Phase 5 budgets space from their ratio, so a vague answer here becomes a crowded layout later.
 - Purpose and communication objective, as the user understands it.
 - Placement and viewing environment: indoors or outdoors, mounted, handheld, on a product, on a counter, on a wall, on a vehicle.
+- If the setting is not stated, infer the most probable setting from the medium and business, tag it *inferred*, and pass it to Phase 2. Ask only if plausible settings would require opposing designs.
 - Viewing distance, orientation, dwell time, lighting, weather or handling exposure.
 - Production constraints that are known: material, finish, color limitation, quantity, budget tier, printer capability.
 

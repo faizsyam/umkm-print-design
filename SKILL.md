@@ -34,10 +34,10 @@ Work as one team. Each perspective must change decisions, not decorate the proce
 | Phase | Purpose | Exit artifact (internal) | Read |
 |---|---|---|---|
 | 1. Brief | Capture and classify everything given; find real gaps | Brief Ledger | `references/01_brief_and_requirements.md` |
-| 2. Analysis | Understand business, audience, environment, and the piece's actual job | Communication Problem + design implications | `references/02_research_and_analysis.md` |
-| 3. Design Plan | Decide the unified creative direction | Design Plan (brand design, theme, style, hero, principles) | `references/03_design_plan.md` |
+| 2. Analysis | Understand business, audience, physical environment, and the piece's actual job | Communication Problem + Environment Profile + design implications | `references/02_research_and_analysis.md` |
+| 3. Design Plan | Decide the unified creative direction through structured exploration | Design Plan (brand design, theme, style, hero, principles) | `references/03_design_plan.md` |
 | 4. Design Elements | Build the coherent visual system | Element system incl. logo mark decision | `references/04_design_elements.md` |
-| 5. Design Execution | Compose the piece for its medium and viewing conditions | Execution Specification | `references/05_design_execution.md` |
+| 5. Design Execution | Compose the piece for its medium, reading stages, and area | Execution Specification (hierarchy tiers, space budget, layout) | `references/05_design_execution.md` |
 | 6. Prompt Synthesis | Express the design as a standalone prompt | Final prompt | `references/06_prompt_synthesis.md` |
 
 Cross-cutting: `references/quality_control.md` defines the gate at the end of each phase, the whole-composition review, the prompt audit, and the mapping from problem to the phase that must be revisited.
@@ -53,19 +53,22 @@ Read each phase's reference when you enter that phase, not all at once, and do n
 - **Brand design**: the enduring visual expression of the brand. **Print-piece theme**: the idea for this specific piece. The theme must not overwrite the brand design.
 - **Core idea**: the single unifying concept from which theme, hero, style, and layout follow.
 - **Face**: one printed side or panel. Multi-face pieces share one identity but are planned as a set.
+- **Environment Profile**: the physical setting, its surrounding visual landscape, competing stimuli, light, audience behavior there, and the viewing stages. It is a design input, not background.
+- **Reading stages**: the glance, approach, and close-inspection moments a viewer passes through; every content item is assigned to the stage at which it is needed.
+- **Consequential decision**: one that defines identity, effectiveness, or coherence (core idea, style synthesis, hero, logo mark, color strategy, typographic voice, composition strategy). All others are trivial.
 
 ## Operating principles
 
 1. **Whole-system thinking.** Judge every decision by its effect on the entire piece, never in isolation.
-2. **Proportional exploration.** Compare genuinely different alternatives for the decisions that define identity (core idea, hero, logo mark, style synthesis). Decide quickly on the rest.
+2. **Structured exploration.** Every consequential decision is made by the exploration protocol below. Trivial decisions are decided directly.
 3. **Evidence-informed judgment.** Separate fact, interpretation, assumption, and creative choice. Research only what could change a decision.
 4. **Contextual specificity.** A direction is justified only by this business and this piece. If it would work unchanged for a competitor, it is not finished.
 5. **Functional creativity.** Novelty must improve communication, distinctiveness, brand expression, or composition. Otherwise reject it.
-6. **Intentional restraint.** Every element earns its place. Neither minimalism nor richness is a default.
+6. **Intentional restraint.** Every element earns its place, including the share of attention and space it takes. Neither minimalism nor richness is a default.
 7. **Internal consistency.** Brand, theme, style, color, type, mark, imagery, and layout must reinforce each other. Resolve contradictions before Phase 6.
 8. **Fidelity to the brief.** Never silently override stated requirements, content, exclusions, or fixed assets.
 9. **Iterate at the root.** When a problem appears, return to the earliest decision that caused it. Do not patch the prompt around it.
-10. **Effort follows impact.** Spend depth on identity-defining decisions; move briskly through routine ones.
+10. **Effort follows impact.** Spend depth on consequential decisions; move briskly through routine ones.
 
 ## Depth calibration
 
@@ -75,7 +78,18 @@ Scale effort to the brief, not to a fixed ritual.
 - **Sparse brief, high visibility or large format**: invest in analysis and research, ask blocking questions first.
 - **Multi-face or multi-piece request**: establish the shared identity once, then plan each face's job separately.
 
-Whatever the depth, every phase's exit artifact must exist in your working notes before the next phase begins. Compact is acceptable; missing is not.
+Whatever the depth, every phase's exit artifact must exist in your working notes before the next phase begins. Compact is acceptable; missing is not. A compact depth shortens notes; it never waives the exploration protocol for consequential decisions.
+
+## Exploration protocol
+
+Applies to each consequential decision, in Phases 3, 4, and 5. It does not apply to trivial decisions.
+
+1. **Generate at least three candidates** that differ on a structural axis: what carries the identity, what the viewer is asked to do first, how information is structured, the register and commercial posture, or the image-making method. Differences in color or ornament alone do not count. Drawing candidates from different idea sources (product truth, customer moment, environment, differentiator, category tension, name or origin, material) helps. The obvious choice may be one candidate; name it as such so it is scrutinized and must win on merit.
+2. **Evaluate each** against the brief, analysis, Environment Profile, audience, objective, content capacity, and feasibility. Note concrete strengths, weaknesses, and trade-offs, not adjectives.
+3. **Engineer the strongest solution**: select outright, transplant a specific strength from another candidate, combine candidates under one logic, repair an identified weakness, or build a new candidate from what the comparison revealed. A hybrid is valid only if it can be stated as one idea; if it needs "and also," it is a compromise.
+4. **Record** the choice, the decisive reason, and what was kept from the others.
+
+Candidates are brief working notes of a few lines each. Keep them internal unless the user asks for concepts.
 
 ## Conflict priority
 
@@ -124,9 +138,10 @@ Limit each unresolved issue to two revision cycles. After that, choose the best 
 Before Phase 6, the working notes must contain explicit answers to the following. Each answer must be justified by a finding in the Brief Ledger or analysis; a decision that can only be justified by "it looks good" or "it is typical for this industry" is not committed and must be redone.
 
 - The one-sentence message the viewer takes away first.
-- The core idea, and the strongest alternative rejected with the reason.
-- The hero decision (what, or deliberately none) and why it is recognizable and truthful.
-- The logo mark decision: fixed asset, new mark with its construction, or wordmark-only with the reason.
+- The Environment Profile in brief: what surrounds the piece, what the design shares with it to be appropriate, and the dimension on which it deliberately departs to be seen.
+- The core idea, style direction, and hero, each chosen from at least three candidates, with the decisive reason.
+- The logo mark decision: fixed asset, new mark chosen from at least three candidates with its construction, or wordmark-only with the reason, and the mechanisms that keep it distinct from the typography around it.
+- Every content item assigned to a reading stage, and the intended share of quiet space.
 - The reading order of all content and imagery.
 - The placement and role of every mandatory text item.
 - The traits that make this design unlike a neighboring competitor's.
@@ -148,7 +163,7 @@ If the user asked for several concepts or variations, deliver one complete stand
 
 Reply in the user's language. Write the prompt in English by default for model reliability, keeping all on-piece text verbatim in its original language, unless the user requests a different prompt language or names a model that performs better in another.
 
-Exposing the analysis, alternatives, or rationale is permitted only on request, and then separately from the prompt.
+The prompt contains only what shapes the picture or constrains the output: format, depicted forms and their relationships, typography, mandatory text, color, surface treatment, mark construction, and necessary exclusions. Business strategy, audience and environment analysis, rationale, alternatives, and process stay internal and reach the prompt only as the visible traits they produced (see `references/06_prompt_synthesis.md`). Exposing analysis, alternatives, or rationale is permitted only on request, and then separately from the prompt.
 
 ## Before delivering
 

@@ -26,6 +26,7 @@ For every element:
 4. **Cost**: what attention, space, or legibility does it consume?
 
 Explore alternatives proportionally. Spend real comparison effort on the logo mark, the typographic voice, the color logic, and the hero's treatment. Decide quickly on secondary details.
+**Consequential element decisions** are the color strategy, the typographic voice, and the logo mark (unless fixed), plus any hero treatment left open by Phase 3. Each follows the exploration protocol in `SKILL.md`: at least three structurally distinct candidates, evaluated against the plan, Environment Profile, content, and feasibility, then engineered into the strongest solution. Other element decisions are trivial and are decided directly.
 
 ## 3. Color system
 
@@ -35,6 +36,7 @@ Decide:
 - **The logic**: what the color is doing (identifying the brand, signaling the product, creating contrast, setting mood, separating information zones).
 - **Roles**: which colors dominate, which support, which accent. Not every design needs the same number of colors. A single-hue system, a restrained two-tone, a controlled multicolor, or a rich full palette are all valid when the strategy justifies them.
 - **Contrast structure**: which pairs carry text, which carry attention, and how they perform under the actual ambient light of Phase 2.
+- **Environmental position**: judge the palette against the surrounding color field and the ambient light, not only against the brand. Decide whether it should depart from the landscape or sit within it, and on which dimension (hue, value, saturation, area), consistent with Phase 2.
 - **Relationship to imagery**: how photographic or illustrated color sits with the flat palette; whether imagery is harmonized with the palette or allowed to be the exception.
 - **Brand continuity**: existing brand colors are fixed assets and take precedence; extend them, do not replace them.
 - **Cultural and category associations**: verify rather than assume; colors read differently across communities and categories, and category defaults may be exactly what to avoid or to deliberately use.
@@ -58,6 +60,7 @@ Define:
 When describing type to an image model, describe the *characteristics* of the lettering, because exact font names are unreliable across models. Use a font name only if it is a brand requirement and the user has stated it, and pair it with a characteristic description as a fallback.
 
 Large amounts of text increase rendering risk. Plan typographic structure so that dense information is grouped, consistently styled, and large enough for the model to reproduce accurately.
+**Landscape and scale economy.** Judge the typographic voice against the lettering of the surrounding landscape: it should depart on an open dimension while staying appropriate to the place. Keep the number of roles small. Set role sizes as ratios between roles that follow reading stages (see `05_design_execution.md`), not as independent sizes, so that no role is large merely because it must be legible.
 
 ## 5. Brand logo mark
 
@@ -68,28 +71,38 @@ The mark is a critical identity decision. Treat it with the same seriousness as 
 - The **logo mark** (symbol) is a distinctive visual form that can stand for the brand independently of the name.
 - A **lockup** is how they combine.
 
-Setting the name in an attractive typeface creates a styled name, not a logo mark. A styled name is a legitimate decision (some identities are properly wordmark-led) but it must be a *decision* with a reason, not the default that happens when no mark was designed.
+Setting the name in an attractive typeface creates a styled name, not a logo mark. A styled name is a legitimate decision (some identities are properly wordmark-led), but it must be a *decision* with a reason, not what happens when no mark was designed.
 
 ### Fixed assets
-If the user supplied a logo or has an established mark, use it as given. Do not redesign, restyle, simplify, or recolor it unless asked. Design everything else around it. Record how it constrains color, type, and layout.
+If the user supplied a logo or has an established mark, use it as given. Do not redesign, restyle, simplify, or recolor it unless asked. Design everything else around it, and record how it constrains color, type, and layout. The distinction mechanisms below then apply to everything around the mark.
 
-### Developing a new mark
-1. **Find the conceptual source.** Where does a recognizable idea come from: the name, the product's defining feature, the origin, a gesture, a process, a founder's story, a visual signature of the business? Only choose concepts supported by the brief or research.
-2. **Explore constructions as real alternatives.** Evaluate at least these structural families against each other for the specific brand: an enclosed form (symbol contained within a defined boundary), a contained arrangement (elements held together by a frame or shape), an integrated construction (symbol fused with lettering), an emblematic composition (a unified crest-like arrangement), and an open construction (a freestanding symbol with no boundary). Choose the one that best serves the brand and the style; do not default to a single structure across businesses.
-3. **Evaluate against criteria**:
-   - *Conceptual relevance*: does it mean something true about this business?
-   - *Silhouette*: is the outline recognizable and distinct?
-   - *Distinctiveness*: would it be confused with category defaults?
-   - *Scalability*: does it remain clear small, and from distance?
-   - *Visual weight*: is its mass right for its role in the hierarchy?
-   - *Relationship with the wordmark*: do they share a logic of proportion, weight, and character without merging into mush?
-   - *Independence*: can it stand alone, separate from surrounding type, illustration, and decoration?
-4. **Run the tests**: isolation (remove all else; is it still identifiable?), reduction (single color, small size), and separation (is it visually distinct from the hero and from decoration, not blending into them?).
-5. **Prepare it for generation.** Image models render simple, geometric, clearly described marks far more reliably than intricate ones. Describe the mark's geometry, key shapes, relationships, and color in concrete terms. Prefer a bold, legible silhouette to fine internal detail.
+### Conceptual development of a new mark
+1. **Find conceptual sources.** Where could a recognizable idea come from: the name, the product's defining feature, the origin, a gesture, a process, a founder's story, a visual signature of the business? Use only concepts the brief or research supports and the business can truthfully claim.
+2. **Develop at least three distinct candidates** that differ in concept source or in construction. Construction families to weigh against each other: enclosed (symbol held within a boundary), contained (elements held together by a frame or shape), integrated (symbol fused with lettering), emblematic (a unified crest-like arrangement), and open (a freestanding symbol with no boundary). Do not default to one structure across businesses.
+3. **Evaluate against**: conceptual relevance; silhouette; distinctiveness from category defaults; scalability; visual weight; relationship with the wordmark; independence from surrounding content (next subsection).
+4. **Engineer the strongest mark** by selection, transplant, or a single-logic combination, as the exploration protocol describes.
+5. **Run the tests**: isolation (everything else removed, is it still identifiable?), reduction (one color, small), separation (distinct from hero, lettering, and decoration), and the text-neighborhood test below.
+6. **Prepare it for generation.** Image models render simple, geometric, clearly described marks far more reliably than intricate ones. Define its geometry, key shapes, relationships, and color concretely. Prefer a bold, legible silhouette to fine internal detail.
 
-Avoid: a mark that merely repeats the hero illustration; a mark identical in character to category defaults; a mark so intricate that it cannot reproduce; a badge border added only to look "official"; a mark whose meaning the business cannot truthfully claim.
+### Distinction from typography and content
+A mark is recognized as a mark when it belongs to a different visual class from the text around it. When it shares the class of the typography, it reads as more type, and the identity dissolves, most severely in text-heavy layouts. Judge distinction as a relationship in the composition, not only as a property of the mark. Mechanisms, of which the composition should use as many as its conditions require, usually two or more in dense layouts:
 
-If a mark is genuinely not warranted (very small label, minimal identifier, a fixed wordmark-only identity), the decision to rely on the wordmark must be explicit and justified.
+- **Form class**: a silhouette built from shapes and masses rather than from the rhythm of letter strokes. If it uses letters, they must be transformed enough to read as a shape first and a letter second.
+- **Mass and texture**: a compact, solid visual weight that contrasts with the linear, evenly textured weight of text blocks.
+- **Color role**: a color or color field that the mark holds and the body text does not share.
+- **Scale step**: a deliberate size step from adjacent text, large enough to be read as an object and sized to its hierarchy role, not enlarged to compensate for weak distinction.
+- **Isolation**: protected clear space that no text, ornament, or pattern enters.
+- **Containment or anchoring**: a container, field, or fixed anchor region that gives it a stable edge and position, and repeats consistently across faces or pieces.
+
+**Relationship with the wordmark.** Share a logic of proportion, weight, and geometry so the two read as one identity, but not the same form class. The wordmark should recede in form so the mark stays the identifier, or the lockup should be built as one object with a clearly distinct symbol part. The mark must remain recognizable when separated from the wordmark.
+
+**Dense layouts.** The more text on the piece, the more the mark's distinction has to be designed rather than assumed. Resolve it by composition, not by endless enlargement: give the mark its own region, keep neighboring type from echoing its form or crowding its space, and make sure body-text styling does not borrow its color role or construction. Choose the mechanisms from the actual composition; no single arrangement is universal.
+
+**Text-neighborhood test.** Place the mark beside the densest text of the layout and squint. If it does not resolve as a distinct object before any word is read, strengthen the mechanisms or reconsider the construction.
+
+Avoid: a mark that repeats the hero illustration; a mark with the character of category defaults; a mark too intricate to reproduce; a badge border added only to look official; a mark whose meaning the business cannot truthfully claim; a mark whose letters are merely decorated.
+
+If a mark is genuinely not warranted (a minimal identifier, or a fixed wordmark-only identity), the decision to rely on the wordmark must be explicit and justified, and the wordmark itself must still be distinct from the surrounding typography through the mechanisms above.
 
 ## 6. Visual supporters
 
@@ -114,6 +127,7 @@ For each supporter specify: role, relevance, treatment (consistent with style), 
 **People and characters.** Use them only when they serve the concept. Avoid real identifiable individuals, tokenistic or stereotyped portrayals, and compositions that require complex hands, many faces, or fine facial detail unless reliability allows.
 
 **Micro-details.** Fine finishing details (small rules, subtle texture shifts, tiny marks, edge treatments) are valuable when they show deliberate craft. Select a few that carry meaning or refine transitions. Accumulation of micro-details is noise.
+**Quantity and scale follow the space budget.** Supporters sit at a lower reading level than the hero, mark, and primary message. Add only as many as the intended share of quiet space allows; a supporter that must be shrunk to fit, or that crowds a glance-stage element, should be removed instead.
 
 ## 7. Background and unifying devices
 
@@ -127,6 +141,7 @@ Decide:
 - **Unifying devices**: whether separate zones need connection: recurring shapes, graphic motifs, rules, borders, patterns, material treatments, continuing lines, repeated proportions. Use them only where fragmentation is a real risk.
 
 A background and its unifying devices should be quiet where information lives and expressive where the piece can afford it.
+**Environmental role.** The background is also what separates the piece from its landscape. Judge its tone, texture, and finish against the neighbors and the ambient light, and keep it quiet where information lives.
 
 ## 8. Additional design systems
 
@@ -158,9 +173,13 @@ Apply the same critical process as in Phase 3.
 | Product misrepresentation | Image shows things the business does not offer | Align to actual offering |
 | Inconsistent rendering | Mixed finishes and abstraction levels | Unify to the style direction |
 | Redesigned fixed asset | Supplied logo altered | Restore as given |
+| Mark absorbed by type | Mark passes the isolation test but fails the text-neighborhood test | Apply distinction mechanisms; reconsider form class |
+| Mark rescued by size | Mark only distinct because it is oversized | Replace scale with form, color role, isolation, or containment |
+| Unexplored element decision | Color, type voice, or mark chosen from a single idea | Run the exploration protocol |
 
 ## 11. Completion criteria and hand-off
 
 Complete when: the color strategy and palette, typographic roles and character, the mark decision (fixed, new with justification, or deliberate wordmark-only), visual supporters with roles, background and unifying device decisions, and any additional systems are defined and mutually consistent, and each has survived the removal test.
 
 Hand-off to Phase 5: the element system, with each element's role, treatment, and relationships, and a note of the elements most at risk of competing.
+The color strategy, typographic voice, and mark were each chosen from at least three candidates, and the mark's distinction from the surrounding typography is secured by named mechanisms.

@@ -24,6 +24,7 @@ Synthesize the analysis into one coherent, strategically justified creative dire
 **Print-piece theme** is the creative concept for this specific piece, built on the brand design but shaped by the medium, objective, audience, content, and environment. It may change between pieces for the same brand; the brand design should not.
 
 Keep them separate in your thinking. If the theme requires contradicting the brand design, either the theme is wrong or the brand design needs a deliberate, justified evolution the user has approved.
+**Expression follows the environment.** Hold the brand's impression constant and let the Environment Profile decide how it is expressed in this piece. The theme is where that translation happens: the same brand may be expressed through restraint in one landscape and through density or contrast in another, without the identity changing.
 
 ## 3. The core idea
 
@@ -39,45 +40,38 @@ A mood word is not a core idea. A product category is not a core idea. A core id
 
 ## 4. Generating genuinely different directions
 
-Do not accept the first plausible concept. Derive ideas from different *sources*, then confirm they differ in substance.
+This applies to each consequential Phase 3 decision, taken in this order so each informs the next: the **core idea**, the **style synthesis**, and the **main visual concept** (hero). Follow the exploration protocol in `SKILL.md`.
 
-**Sources of ideas** (use those that fit; do not iterate through them mechanically):
-- the product's tangible truth (material, form, process, sensory character)
-- the customer's ritual or moment of use
-- the physical environment of the piece
-- the strongest differentiator
-- a tension in the category that the business can resolve or exploit
-- the business's name, origin, or language
-- the production method or material of the print piece itself
-
-**Directions differ meaningfully when they differ on at least one structural axis**, not only in color or ornament:
-- what carries the identity (typography, a mark, a product, a person, an environment, an abstraction)
-- what the viewer is asked to do first (recognize, desire, compare, understand, trust)
-- the information structure (single message, sequential reading, catalog scan)
-- the emotional register and commercial posture
-- the visual language and image-making method
-
-Produce two or three real alternatives for a significant piece. For a small, low-stakes piece, one strong direction plus a considered rejection of the obvious alternative is enough. Writing three variants of the same idea in different colors is not exploration.
+- **At least three candidates per decision.** They must differ on a structural axis, not in color or ornament.
+- **Different sources.** Draw candidates from different origins: the product's tangible truth, the customer's ritual or moment of use, the physical environment and its landscape, the strongest differentiator, a tension in the category, the name or origin, the material or process of the print piece itself. At least one candidate should be generated from the Environment Profile's departure dimensions.
+- **Confront the obvious.** The default association of the category or the user's first-stated style is a legitimate candidate, named as such. It is chosen only if it beats the others on the criteria below.
+- **Fake variety check.** If two candidates would look alike to a viewer in the real setting, replace one.
+- **Working notes only.** Each candidate is a few lines: what it is, what carries it, how it would look and behave in the setting.
 
 ## 5. Evaluating and selecting
 
-Judge each direction against the whole brief, with weights set by the Communication Problem.
+Judge every candidate for each decision against the whole brief, weighted by the Communication Problem.
 
 | Criterion | Question |
 |---|---|
-| Objective fit | Does it make the weakest link in the attention-comprehension-credibility-action chain stronger? |
-| Brand fit | Is it true to the brand design and differentiation strategy? |
-| Audience and environment fit | Will this audience read it correctly in this setting? |
+| Objective fit | Does it strengthen the weakest link in the attention, comprehension, credibility, action chain? |
+| Brand fit | Is it true to the brand design and the differentiation strategy? |
+| Audience fit | Will this audience read it correctly? |
+| Environmental fit and contrast | Is it appropriate to the place, and does it depart from the surrounding landscape on an open dimension? |
 | Distinctiveness | Would it stand apart from the category's default look? |
-| Content capacity | Can it carry the mandatory content legibly and elegantly? |
-| Feasibility | Can an image model render it reliably, and can the user's printing handle it? |
+| Content capacity | Can it carry the mandatory content with the space and hierarchy the reading stages need? |
+| Feasibility | Can an image model render it reliably, and can the user's printing hold it? |
 | Coherence | Does it generate a unified system rather than a patchwork? |
 
-Selection rules:
-- Choose on overall fit, not on novelty, personal preference, or any single criterion.
-- Combine directions only when the combination has a single logic. A blend of two ideas that dilutes both is a compromise, not a synthesis; prefer the stronger one.
-- Record why the rejected directions lose. This prevents drifting back to them during execution.
-- Challenge the winner: what assumption is it betting on, and what is the cost if that assumption is wrong?
+For each candidate record concrete strengths, weaknesses, and trade-offs. Then engineer the strongest solution:
+
+- **Select** a candidate outright when it clearly wins.
+- **Transplant** a specific strength from another candidate into the winner when it fixes a named weakness.
+- **Combine** candidates only under one logic. State the result as a single idea; if it needs "and also," it is a compromise, so prefer the stronger candidate.
+- **Repair** the winner's weakness directly when the fix does not alter its identity.
+- **Rebuild**: when all candidates fail the same criterion, construct a new one from what the comparison revealed.
+
+Challenge the result: what assumption is it betting on, and what happens if that assumption is wrong? Record the choice, the decisive reason, what was kept from the others, and why the rejected directions lose, so execution does not drift back to them.
 
 ## 6. General style direction
 
@@ -94,6 +88,7 @@ The style direction is the precise aesthetic approach that expresses the core id
 Use established, specific vocabulary whose meaning is shared by designers and by image models. Prefer a precise two- or three-dimension synthesis to an inflated string of adjectives. If you cannot say what an illustrator or printer would do differently because of a style term, the term is decoration; replace it with a concrete description.
 
 Creativity comes from synthesis driven by the brief's conditions, not from adding unusual elements. Check that the chosen style is not simply the default association of the industry.
+The style direction is a consequential decision and goes through the exploration protocol. Test the winner for obviousness: if the category's customers would predict it before reading the brief, it needs a reason strong enough to justify the lack of surprise, or a stronger candidate.
 
 ## 7. Main visual concept
 
@@ -106,6 +101,7 @@ Decisions to make:
 - **Reproducibility**: can the model render the hero consistently? Complex scenes with many subjects, intricate hands, or large crowds are high-risk; prefer simpler, bolder subjects when reliability matters.
 
 If the hero is a product, its depiction must match what the business really offers. If it involves people, avoid depicting real identifiable individuals and avoid stereotyped or tokenistic representation.
+The hero is also a consequential decision: generate at least three structurally different candidates (different hero types, or none), evaluate them as in section 5, and engineer the result. Check the winner against the viewing stages: it must register at the stage where it is needed, and it must leave the space the hierarchy requires.
 
 ## 8. Governing design principles
 
@@ -118,6 +114,7 @@ State the principles that will govern Phases 4 and 5. They are decisions about c
 - **Commercial positioning**: where the piece sits on the spectrum from accessible to premium, and what that implies about finish, restraint, and ornament.
 - **Dominant and supporting relationships**: what leads, what accompanies, what recedes.
 - **Boundaries**: what the design must never become, drawn from the rejected directions and the AI-slop diagnostics in `quality_control.md`.
+- **Space and mark role**: the intended share of quiet space given the content volume and positioning, and whether the logo mark leads, anchors, or signs off.
 
 Keep principles short and mutually consistent. Each should be actionable in Phase 4 or 5.
 
@@ -130,6 +127,7 @@ Apply before accepting the plan:
 - **Distance and attention test**: imagine the piece in the environment from Phase 2. Is the plan's first impression strong enough there?
 - **Contradiction scan**: do the brand design, theme, style, hero, and principles agree? Do any tensions from Phase 2 remain unresolved?
 - **Ambition check**: is the plan more elaborate than the content, budget, or format can support?
+- **Context-swap test**: place the same design in a different setting. If it would be equally right there, it was not shaped by this environment; revisit the expression.
 
 ## 10. Failure modes
 
@@ -143,9 +141,13 @@ Apply before accepting the plan:
 | Unrenderable hero | Hero depends on complex rendering | Simplify or reframe |
 | Over-prescription | Plan dictates every placement and size | Leave execution decisions to Phases 4–5 |
 | Decorative cultural borrowing | Heritage used without a real connection | Tie to a genuine link or remove |
+| Single-candidate decision | A consequential decision lacks three distinct candidates | Generate and compare them |
+| Environment as afterthought | Direction justified by category and brand only | Re-derive using the departure and fit dimensions |
+| Style by default | The obvious aesthetic won without being challenged | Name it as a candidate and make it compete |
 
 ## 11. Completion criteria and hand-off
 
 Complete when the plan contains: brand design definition; print-piece theme; core idea; style direction across relevant dimensions; main visual concept with the hero decision; governing principles and boundaries; and a record of why alternatives were rejected. It must pass the stress tests.
 
 Hand-off to Phase 4: the Design Plan plus the unresolved questions it deliberately leaves to element design: the logo mark construction, the color logic, and the typographic voice.
+Each consequential decision shows at least three distinct candidates, an evaluation, and an engineered result. The plan states how the brand impression is expressed in this environment.

@@ -69,14 +69,23 @@ Reject differentiators that fit dozens of competitors equally well. If none is s
 
 ## 6. Understanding the environment
 
-Reconstruct the real encounter with the piece:
-- Where does it physically sit, and what surrounds it? Competing signage, clutter, glare, shade, motion, crowd density, indoor atmosphere.
-- What ambient light will it live under, and what does that do to color and contrast?
-- How is it viewed: static or while moving, deliberate or incidental, at arm's length or from across a street, once or repeatedly?
-- What are the neighbors communicating, and what visual behavior would make this piece stand out *appropriately* rather than merely louder?
-- What cultural context does the setting carry: community expectations, occasion, local reading habits?
+The environment is a design parameter, not background. Build an **Environment Profile** that Phase 3 can generate from, and not merely check against.
 
-Distinguish an environment that rewards boldness from one that rewards calm. Contrast with the surroundings is a tool, not a rule.
+**Reconstruct the real encounter**
+- **Physical setting**: where the piece sits and what it is attached to or surrounded by.
+- **Surrounding visual landscape**: the dominant colors, density of text and graphics, scale of neighboring signage or packaging, degree of order or clutter, and finish level of what is nearby. Describe the field the piece joins, not only individual neighbors.
+- **Competing stimuli**: what else is asking for attention, what each promises, and how loudly.
+- **Light and conditions**: ambient light quality and direction, glare, shade, weather, handling, and what these do to color, contrast, and fine detail.
+- **Audience behavior there**: moving or still, attention state, dwell time, alone or in a group, deliberate or incidental.
+- **Cultural context of the place**: community expectations, occasion, reading habits, local conventions of how such pieces look and speak.
+- **Viewing stages**: the glance, approach, and close-inspection moments that actually occur, the distance and duration of each, and whether the piece has only one. Different content serves different stages; Phase 5 assigns it.
+
+**Separate impression from expression.** The brand's desired impression (the quality it wants to be read as) is one thing; the visual expression that delivers it is another. The same impression may need substantially different expression in different landscapes, because a cue that signals the quality in one setting is invisible or means something else in another. Determine what the landscape already says, and what expression would still carry the impression there.
+
+**Find where to depart and where to fit.** List the dimensions along which the neighbors are uniform (color field, density, scale, form language, finish, tone). Standing out means departing along a dimension the landscape leaves open, in a way the audience still reads as appropriate for the place and the business. Louder than neighbors is not the same as distinct, and quieter can be the departure in a loud landscape. Name the dimensions where fitting matters for credibility or cultural appropriateness, and keep them.
+
+If the setting cannot be established, state the most probable one and mark the profile provisional; avoid choices whose correctness depends on the unverified part.
+**How the profile is used downstream.** It is a working input, not a summary. Phase 3 draws at least one candidate from its departure dimensions and scores every candidate on environmental fit and contrast. Phase 4 judges color against the surrounding color field and light, typographic voice against neighboring lettering, and the mark against neighboring marks and signage. Phase 5 builds reading stages and density from the viewing stages and judges the finished composition among its actual neighbors. If a downstream decision cannot name the part of the profile it answers to, it was made from category habit.
 
 ## 7. Understanding the audience
 
@@ -105,6 +114,7 @@ Write the piece's job in plain terms, internally:
 - **Chain**: how attention, comprehension, credibility, and action depend on each other for this piece. Identify which link is weakest in this situation.
 
 Then list **tensions**: visibility versus sophistication; information density versus legibility; memorability versus commercial clarity; brand ambition versus the printing budget; user taste versus audience expectation. Do not resolve tensions yet; flag them for Phase 3 to resolve deliberately.
+Include the tension between legibility at the required distance, the volume of content, and the physical area available; Phase 5 resolves it through reading stages and triage, not by enlarging everything.
 
 ## 9. Cultural grounding in the Indonesian context
 
@@ -124,7 +134,7 @@ Produce a compact list of implications, each of the form: *because [finding], th
 - What must be seen first, second, and last.
 - What the brand must feel like and must not feel like.
 - What the audience will expect and what would surprise them productively.
-- What the environment demands in contrast, scale, and simplicity.
+- What the environment demands: the dimensions on which to depart from the surrounding landscape, the dimensions on which to fit it, and the contrast and simplicity the viewing stages require.
 - Which differentiator is the strongest candidate to carry the identity.
 - Which constraints (budget, material, distance) cap the available complexity.
 
@@ -141,6 +151,7 @@ If an implication cannot be traced to a finding, it is a creative choice and bel
 | Copying competitors | Conclusions of the form "do what they do" | Extract the convention, then choose how to depart or deliberately align |
 | Analysis paralysis | No communication problem statement after extended work | Write the problem now; refine in Phase 3 |
 | Shallow cultural use | Culture treated as decoration | Tie any cultural reference to a real business connection or drop it |
+| Environment as backdrop | Profile lists the setting but no departure or fit dimensions | Inventory the landscape and name where to depart and where to fit |
 
 ## 12. Completion criteria and hand-off
 
@@ -148,7 +159,7 @@ Phase 2 is complete when:
 - The communication problem (objective, response, necessary information, perception, weakest link) is stated.
 - Tensions are listed.
 - At least one defensible differentiation strategy is identified, or the execution-led alternative is chosen.
-- The environment and audience encounter are described concretely enough to constrain design.
+- The Environment Profile (landscape, competing stimuli, light, behavior, cultural context, viewing stages, departure and fit dimensions) and the audience encounter are concrete enough to constrain design.
 - Design implications are listed, tagged, and traceable to findings or the brief.
 
-Hand-off to Phase 3: Communication Problem, tension list, differentiation strategy, environment and audience profile, tagged design implications.
+Hand-off to Phase 3: Communication Problem, tension list, differentiation strategy, Environment Profile, audience profile, tagged design implications.

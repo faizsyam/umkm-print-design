@@ -18,7 +18,17 @@
 
 ## 1. Purpose and scope
 
-The prompt is the final design specification written in language an image model can follow. It communicates the selected design and its implementation; it does not replay the reasoning. Prompt synthesis is translation, not invention. Nothing new may enter at this stage. If synthesis forces you to invent a concept, style, or element, the plan or execution had a gap: return to that phase.
+The prompt is the final design specification written in language an image model can follow. It states the selected design and its implementation as what is seen; it does not replay how the design was reached. Prompt synthesis is translation, not invention. Nothing new may enter at this stage. If synthesis forces you to invent a concept, style, or element, the plan or execution had a gap: return to that phase.
+
+**Visual-effect test.** Every clause must change what the model draws or constrain the output (format, mandatory text, a necessary exclusion). If deleting a clause would not change the image, delete it.
+
+**Stays internal.** Business strategy and positioning, brand story, audience analysis, environment analysis, research findings, the purpose or business goal of the piece, success criteria, alternatives considered, and any "because" or "in order to" justification. These inputs have already acted through the decisions. The prompt carries the *visible traits* they produced, never the inputs or the reasons.
+
+**Goes in the prompt.** The type and format of the piece (orientation, aspect ratio, faces); what is depicted and how; composition and relationships; hierarchy expressed through relative scale and position; typography character and the mandatory text; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; the rendering technique; necessary exclusions.
+
+**Convert intention into visible means.** When the plan states an intended impression, write the visible features that produce it. An impression word may remain only as a brief anchor for overall tone when it steers rendering and carries no justification. Environment and audience reach the prompt only as their consequences: a contrast treatment, a density, a quiet field, a color relationship.
+
+**Convert scale into proportion.** Express size as proportions of the format and as steps between elements. Do not apply blanket emphasis words (huge, large, prominent, bold, eye-catching) across many elements; emphasis is stated for the elements that hold it, so the others read as subordinate and quiet space is preserved.
 
 ## 2. Assumptions about the target model
 
@@ -37,8 +47,8 @@ Models differ in strength. Assume that fine small text, long strings of copy, co
 
 Order the content from concept to execution, adapting to complexity:
 
-1. **Identity of the piece**: what it is, its format, orientation, and aspect ratio, and the purpose.
-2. **The central creative concept and overall aesthetic**: the core idea and style direction in a form the model can visualize.
+1. **The piece and its format**: what kind of piece it is, orientation, aspect ratio, and number of faces. No statement of purpose, audience, or business context.
+2. **The overall visual approach**: the core idea and style direction expressed as what is seen, in a form the model can visualize.
 3. **Composition and hierarchy**: the spatial organization and reading order, with relative scale and relationships.
 4. **Hero and main visuals**: what they are and how they are treated.
 5. **Logo mark and brand identifier**: construction, placement, and relationship to the name.
@@ -70,7 +80,7 @@ Text accuracy is the most failure-prone area. Protect it.
 - **Say each text string once.** Duplication creates doubled or garbled text.
 - **State that the piece contains only the specified text** and no additional words, invented slogans, filler copy, or pseudo-text, when the risk of hallucinated text is significant. Use plain positive phrasing where possible.
 - **Group dense text**: for menus, price lists, and catalogs, structure items into labeled groups in reading order, and describe the consistent row or column behavior (alignment of item and price, separation between groups) once rather than repeating it per item.
-- **Make high-stakes text easy**: prices, phone numbers, and handles should be assigned generous size, strong contrast, and clean spacing in the description.
+- **Make high-stakes text clear, not oversized**: prices, phone numbers, and handles get crisp rendering, strong contrast, unambiguous spacing, and a size proportionate to the reading stage that uses them. Do not inflate them beyond the hierarchy.
 - **Do not omit mandatory text to shorten the prompt.** If volume truly exceeds what models render reliably, keep all of it in the prompt and mention the risk in one outside line, instead of silently dropping content.
 - **Optional text** is included only if the design has room for it without damaging hierarchy.
 - Specify language and diacritic-free or special characters as given. Do not add characters the user did not provide.
@@ -80,6 +90,7 @@ Text accuracy is the most failure-prone area. Protect it.
 - **Supplied logo and the model accepts reference images**: instruct the model to reproduce the supplied logo exactly as provided, specify its position and relative scale, and state that it must not be redrawn or altered.
 - **Supplied logo described textually, or model cannot ingest images**: describe the logo's structure, shapes, colors, and lettering faithfully and concretely. If its complexity makes faithful reproduction unrealistic, say so in one outside line; do not substitute an invented logo silently.
 - **New mark**: describe its construction as decided in Phase 4: the form, geometry, silhouette, color, boundary type, and relationship to the wordmark, in a way the model can draw consistently.
+- **Mark distinction**: describe the mark in terms of its form class, mass, color role, and the clear space or container that separates it from adjacent type, so the model renders it as a distinct object and not as more lettering.
 - Do not leave a blank area reserved for a logo to be added later.
 - Supplied photographs, brand colors, and fonts follow the same principle: use as given, describe precisely, never replace.
 
@@ -111,6 +122,7 @@ Length is proportional to the design's complexity and distinctiveness. Every sen
 - Include exact dimensions, ratio, and orientation when the brief requires them.
 
 If the draft reads like a mood board of adjectives, it lacks decisions. If it reads like a coordinate sheet, it is over-specified. The target is the way a skilled art director briefs a skilled illustrator: clear intent, firm on what matters, free on the rest.
+Check for context padding: sentences about the business, its customers, the setting, or the intent that do not alter the image are removed. What remains should be only what an illustrator would need to paint the piece.
 
 ## 11. Multi-face pieces and multiple concepts
 
@@ -129,6 +141,7 @@ Before delivery, reread the prompt as the model would, and as the user would.
 6. **Exclusions**: are user exclusions respected and the exclusion clause minimal?
 7. **Standalone check**: no reference to analysis, alternatives, earlier phases, or user conversation; no placeholders or manual completion.
 8. **Readability**: does it read as a clear, ordered, usable instruction? Could someone who has never seen the brief produce the intended design?
+9. **Prompt focus**: apply the visual-effect test to every sentence. No strategy, audience or environment commentary, rationale, purpose statements, or blanket emphasis words remain; scale is stated as proportion and hierarchy.
 
 ## 13. Failure modes
 
@@ -144,6 +157,10 @@ Before delivery, reread the prompt as the model would, and as the user would.
 | Meta-leak | Phrases explaining design reasoning | Remove |
 | Placeholder leak | Blank areas or "add later" language | Resolve in the design |
 | Mockup contamination | Scene or surface surrounding the artwork | Describe flat artwork |
+| Rationale leak | Phrases of the form "to convey", "because", "in order to" | Replace with the visible trait or delete |
+| Context padding | Business, customer, or setting description that changes nothing drawn | Delete |
+| Blanket emphasis | Many elements described as large, bold, or prominent | State emphasis only for the elements that hold it |
+| Oversized text by instruction | Prices or contacts described as huge | Describe clarity at their reading stage |
 
 ## 14. Completion criteria and delivery
 
