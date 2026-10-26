@@ -9,9 +9,9 @@
 | Receives | From Phase 4: element system. From Phase 3: Design Plan, including space intent and mark role. From Phase 2: Environment Profile (viewing stages, landscape, light). From Phase 1: mandatory content, format, area, production constraints |
 | Principles in force | **1 Whole-system thinking** (the Design Log governs every placement); **2 Structured exploration** (the spatial strategy is a consequential decision); **6 Intentional restraint** (space allocated before content; legibility is a minimum); **7 Internal consistency** (composition follows plan, elements, profile); **9 Iterate at the root** (a failed review returns to its cause, then re-runs forward); **10 Effort follows impact** (the space plan and spatial strategy get the deepest attention) |
 | Exploration protocol | Full (SKILL.md 7.1 and 7.2) for the **spatial strategy**, with the decision quality standard (SKILL.md 7.3) including the realization trace. The reading-stage assignment and the space plan are decided by the rules in B, with reasons recorded, and are not run as candidate comparisons. Hierarchy ranking is a justified decision, not a competition |
-| Required decisions | The one-sentence message; reading-stage assignment of every content item; the space plan with proportions; the spatial strategy; hierarchy and reading order; placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
+| Required decisions | The one-sentence message; reading-stage assignment of every content item; the space plan with proportions; the spatial strategy; the capacity check; hierarchy and reading order; placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
 | Outputs | The Execution Specification |
-| Before leaving | Could a designer lay out the piece from the specification? Does every content device keep its own form, with different-function items distinguishable (squint-and-sort)? Does a visible feature deliver each attribute of the sensory-emotional target? Is the message understood at first glance? Is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Have the consumer-behavior researcher, senior art director, print designer, and visual communication specialist each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
+| Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does every text string fit its container at its final size, checked before sizes were printed? Are designed copy items and supporters placed as specified? Does the composed whole carry every quality requirement at the glance stage? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Have the consumer-behavior researcher, senior art director, print designer, and visual communication specialist each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
 
 ## Contents
 1. Process
@@ -25,7 +25,7 @@
 2. Assign every content item to a reading stage (B.1).
 3. Decide the space plan before placing anything (B.2).
 4. Decide the spatial strategy by the protocol (C).
-5. Rank and place content (A), sizing each tier to its legibility minimum plus hierarchy needs, and triaging if content exceeds the space plan (B.4 and B.5).
+5. Rank and place content (A), sizing each tier to its legibility minimum plus hierarchy needs, and triaging if content exceeds the space plan (B.4 and B.5); run the capacity check (B.8) so no size changes after the gate.
 6. Implement elements (D) and backgrounds and transitions (E).
 7. Account for physical print conditions (F) and multi-face structure (G).
 8. Trace every placement to the plan and elements (H).
@@ -79,6 +79,10 @@ Visibility requirements guide prioritization; they do not entitle every element 
 7. **Check.**
    - Name each element's stage and minimum; reduce any element far above its minimum that is neither the hero nor the glance message.
    - Run the **fill test** on each quiet area: an area with a job is kept; an area with none is reassigned in the plan, never filled with an item.
+8. **Capacity check (before any size is printed).**
+   - For each text string, estimate its width as characters times cap height times a width factor (about 0.75 to 0.9 for text faces, up to about 1.0 for heavy or wide display faces) and compare it with its container at the planned size; count the lines needed against the container height.
+   - On failure, change in this order: line breaks and grouping, container size or shape, tier size down to (never below) its legibility minimum, triage.
+   - Only then record final sizes. The sizes printed at this gate are the sizes the prompt uses.
 
 ### C. Composition and layout (the spatial strategy)
 
@@ -90,7 +94,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 5. How the space plan is realized (margin, isolation, resting fields).
 6. Edge behavior and foreground-background relationship.
 7. Behavior at each reading stage; fit with and departure from neighbors.
-8. How the content devices are distributed and related to the hero and to each other, and where the richness of the piece concentrates.
+8. Where supporters and designed copy sit, and how they relieve, group, and balance the text areas.
 
 **Evaluate**
 - The context matrix, interaction with the plan and elements, and the originality tests (SKILL.md 7.3).
@@ -105,12 +109,11 @@ Visibility requirements guide prioritization; they do not entitle every element 
 
 **Rules**
 - Typography sizes follow reading stages.
-- Every content device keeps the form designed for its function in Phase 4 G. Placement and scale follow the stage at which the viewer needs it (offer and action devices are sized for the stage at which the viewer decides), and the device is never flattened into a uniform text block.
-- Promise copy is composed as an image in its own right and placed in relation to the hero.
-- Different function classes stay distinguishable by form (the squint-and-sort test, Phase 4 G).
+- Prices, calls to action, and contact details are functional text, clear at their own stage, not enlarged by default.
 - The identity unit claims its own region with protected clear space measured from the unit.
 - Elements interact as one art-directed whole.
 - Specify where every mandatory text item sits and in what typographic role.
+- Designed copy items are placed with their Phase 4 treatment (line breaks, emphasis, container, color role); they do not revert to plain text during layout. Supporters are placed where they answer their deficit.
 
 ### E. Backgrounds and transitions
 
@@ -150,9 +153,8 @@ Visibility requirements guide prioritization; they do not entitle every element 
 **Review from each team perspective** and assess:
 - message at first glance;
 - hierarchy;
+- every stated quality requirement, read off the composed whole at the glance stage (value key included);
 - the identity unit: integrated, distinctive, and passing the text-neighborhood test;
-- the squint-and-sort test: each content item's function readable from its form alone;
-- the target delivery test: a visible feature delivers each attribute of the sensory-emotional target at the glance stage;
 - concept consistency and the plan-realization trace;
 - the contribution of every element;
 - legibility;
@@ -161,6 +163,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - specificity to this business and context;
 - proportion and space;
 - fit among actual neighbors and light, with departure on the intended dimension;
+- visual variety: more than type and one motif carries the eye across the piece, with supporters where they relieve, group, or balance;
 - absence of generic, templated, overdecorated, or AI-typical appearance.
 
 On failure, name the earliest responsible decision (plan, element, or placement), return there, and re-run forward; cap at two cycles per issue.
@@ -182,16 +185,16 @@ On failure, name the earliest responsible decision (plan, element, or placement)
 | Fit without departure, or the reverse | Review shows blending into neighbors, or alienating them | Re-balance on the chosen dimension |
 | Stock layout | The composition would work for any business | Re-derive from the core idea and the Environment Profile |
 | Dense text ignored | Dense content with no grouping or row behavior | Group in reading order; describe rows once |
-| Uniform text blocks | Content devices flattened into same-style text in the layout | Restore each device's form; recompose |
-| Hierarchy of text by size only | Function classes distinguished only by size | Distinguish by form (treatment dimensions) as designed in Phase 4 G |
-| Richness lost in layout | The features that deliver the target are shrunk or crowded out | Restore their space and scale; triage elsewhere |
+| Sizes changed after printing | Text does not fit its container, found late | Run the capacity check before the gate; amend only genuine returns |
+| Treatment lost in layout | A designed copy item or supporter appears as plain text or is missing | Restore the Phase 4 treatment and placement |
+| Qualities lost in composition | The composed whole signals the opposite of a stated quality | Return to the earliest responsible decision and re-run forward |
 
 ## 4. Completion criteria, summary print, and hand-off
 
 Complete when the phase card's "Before leaving" check holds.
 
 **Print for the decision summary (Design Execution entry, at the gate):**
-- the reading-stage assignment in brief (what sits at glance, approach, close inspection) and the space plan with proportions, stated as decided by rule, not by candidate comparison;
+- the reading-stage assignment in brief (what sits at glance, approach, close inspection) and the space plan with proportions, stated as decided by rule, not by candidate comparison; the capacity check passed;
 - the spatial strategy: candidates compared (one line each: name, strength, weakness), selection, decisive criterion, runner-up.
 
 Update the Design Log: reading stages, space plan, open issues.

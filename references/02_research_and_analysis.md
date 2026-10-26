@@ -5,17 +5,17 @@
 | Item | Content |
 |---|---|
 | Professional analogue | Strategic discovery and planning: a brand strategist and researcher who establish the real problem and the real setting before anyone sketches |
-| Goal | Understand the business, audience, environment, and the piece's actual job well enough that every later decision can be justified by a finding; know what each content item is *for* and what the viewer should *feel*; reduce that understanding to design implications plus three creative inputs: the Environment Profile, the Visual source inventory, and the content function map with the sensory-emotional target |
+| Goal | Understand the business, audience, environment, and the piece's actual job well enough that every later decision can be justified by a finding; reduce that understanding to design implications plus two creative inputs, the Environment Profile and the Visual source inventory |
 | Receives | From Phase 1: Brief Ledger, research questions, tensions. From outside: research, only where it can change a decision |
 | Principles in force | **3 Evidence-informed judgment** (research only what changes a decision; fact, interpretation, assumption, and creative choice kept apart); **4 Contextual specificity** (differentiate against this landscape and these competitors, not the category in general); **2 Structured exploration** (weigh genuine options for differentiation, weakest link, departure and fit dimensions; look past the apparent option when sourcing visual ideas); **1 Whole-system thinking** (connect brand, audience, environment, content); **10 Effort follows impact** (stop research at diminishing returns) |
 | Exploration protocol | Applies to genuine option sets only: the differentiation strategy, the choice of weakest link, the departure and fit dimensions. Weigh the real options and record why the choice wins. Where evidence leaves a single defensible option, record that and do not manufacture alternatives. The Visual source inventory is this phase's main contribution to later exploration |
-| Required decisions | Which research questions to pursue; the differentiation strategy (or execution-led differentiation); the weakest link; the departure and fit dimensions; the contents of the Visual source inventory; the function class, job, and required response of every content item; the sensory-emotional target; the design implications |
-| Outputs | Communication Problem; Environment Profile; audience encounter; differentiation strategy with options weighed; Visual source inventory; content function map; sensory-emotional target; tagged design implications; tension list |
-| Before leaving | Does every finding change or confirm a decision? Could someone who never visited picture the setting and name where the piece departs and where it must fit? Is any brand narrative richer than its evidence? Does the inventory go beyond emblems, stay true, and stay respectful? Does every content item have a function class, a job, a required response, and form requirements (not just a size)? Is every preference word decomposed into observable visual attributes, with conflicts against the environment resolved by the nearest surviving attribute? Does every implication name its evidence? Have the brand strategist and the consumer-behavior researcher each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
+| Required decisions | Which research questions to pursue; the differentiation strategy (or execution-led differentiation); the weakest link; the departure and fit dimensions; the contents of the Visual source inventory; the design implications |
+| Outputs | Communication Problem; Environment Profile; audience encounter; differentiation strategy with options weighed; Visual source inventory; tagged design implications; tension list |
+| Before leaving | Does every finding change or confirm a decision? Could someone who never visited picture the setting and name where the piece departs and where it must fit? Is any brand narrative richer than its evidence? Does the inventory go beyond emblems, stay true, and stay respectful? Does every implication name its evidence? Is the chosen departure compatible with every quality requirement, and does the primary objective follow the user's stated priority? Have the brand strategist and the consumer-behavior researcher each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
 
 ## Contents
 1. Process
-2. Detailed guidance (A to I)
+2. Detailed guidance (A to G)
 3. Failure modes
 4. Completion criteria, summary record, and hand-off
 
@@ -23,18 +23,16 @@
 
 1. Triage the research questions: name the decision each informs; drop those that inform none.
 2. Understand the brand beyond its description (A).
-3. Find differentiation: list candidate differentiators, evaluate each for truth, relevance, distinctiveness, and visualizability, choose a strategy (or execution-led differentiation), and record the options weighed (B).
+3. Find differentiation: list candidate differentiators, evaluate each for truth, relevance, distinctiveness, and visualizability, choose a strategy (or execution-led differentiation if none is strong), and record the options weighed (B).
 4. Build the Environment Profile (C).
 5. Build the audience encounter (D).
 6. Define the Communication Problem, including its weakest link and tensions (E).
 7. Research per F, evaluating source reliability and confirming that a found business is the right one.
 8. Ground culturally and build the Visual source inventory (G).
-9. Build the content function map (H).
-10. Set the sensory-emotional target (I).
-11. Convert findings into design implications. Discard any finding that yields none.
-12. Pass the gate; print the decision-summary entry to the user (SKILL.md 13.1) before Phase 3 begins.
+9. Convert findings into design implications. Discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
+10. Pass the gate; print the decision-summary entry to the user (SKILL.md 13.1) before Phase 3 begins.
 
-Steps 3 to 10 interleave in practice; the order above is the order of conclusions, not of fact-finding. Research early enough that the Environment Profile and inventory rest on it.
+Steps 3 to 8 interleave in practice; the order above is the order of conclusions, not of fact-finding. Research early enough that the Environment Profile and inventory rest on it.
 
 ## 2. Detailed guidance
 
@@ -107,9 +105,10 @@ Choose a strategy; if none is strong, choose execution-led differentiation (the 
 - Impression versus expression: what the landscape already says, and what expression would still carry the intended impression there. Hold impression constant; let the setting decide expression.
 - Where neighbors are uniform (color field, density, scale, form language, finish, tone) and where fitting is required for credibility or appropriateness.
 - That louder is not the same as distinct; quieter can be the departure in a loud landscape.
+- That departure serves visibility and never overrides what the brief asks the piece to look and feel like; the same dimension can usually be expressed in a way that keeps every quality intact.
 
 **Evaluate**
-- The departure dimension(s), chosen by weighing real options against the actual landscape.
+- The departure dimension(s), chosen by weighing real options against the actual landscape and screened for compatibility with every quality requirement. An option that would contradict one is ineligible; choose another dimension or another expression of it.
 - The fit dimensions that must be respected.
 - Whether the setting is established or must be marked provisional (state the most probable setting if it cannot be established).
 
@@ -143,7 +142,8 @@ Choose a strategy; if none is strong, choose execution-led differentiation (the 
 **Purpose.** Define the piece's job precisely, so every later decision can be tested against it.
 
 **Analyze**
-- Primary and secondary objectives.
+- Primary and secondary objectives. A priority the user states (what must come first) fixes the primary objective; the weakest link is chosen within it and never replaces it.
+- The quality requirements from Phase 1, as part of the desired response and brand perception.
 - The desired audience response.
 - The necessary information.
 - The desired brand perception.
@@ -214,55 +214,6 @@ Choose a strategy; if none is strong, choose execution-led differentiation (the 
 2. Deeper true specifics that could become visual ideas.
 3. Which of those are visually workable.
 
-### H. Content function map
-
-**Purpose.** Decide what each content item is *for* before anyone decides how it looks, so later forms are derived from jobs and no item is treated as generic text.
-
-**Analyze**
-- Every mandatory and optional item from the Brief Ledger, grouped by function class: identity, promise, offer, proof, action, wayfinding, small print, supporting description.
-- For each item: its **job** (what the viewer must think, feel, or do because of it), the **response** it must produce, and the **viewing stage** at which it must work.
-
-**Consider**
-- For promise copy: split it into beats, and for each beat state the literal claim, the sensation it names, and the emotion it should trigger.
-- The emotional register each class needs (craving, assurance, urgency, ease, belonging).
-- Which items work together in one decision (an offer with its price) and which must stay apart.
-- Which items carry the weakest link.
-
-**Evaluate**
-- Which items must be **felt** (visualized as meaning), which **believed** (structured as proof), which **acted on** (made frictionless), which **found** (made navigable).
-- What a form must do to serve each job, stated as requirements, not shapes.
-- Items of the same class may share a treatment; items of different classes may not (Phase 4 G).
-
-**Record**
-- The map: item, class, job, response, stage, emotional register, form requirements.
-
-### I. The sensory-emotional target
-
-**Purpose.** Convert the brief's feeling words and the piece's objective into observable visual requirements, so that "how it should feel" is checkable at every gate instead of being lost.
-
-**Analyze**
-- The user's preference words, verbatim from the ledger.
-- The desired audience response and brand perception.
-- The sensation the product is consumed for (temperature, taste, texture, ritual, satisfaction).
-
-**Consider** each preference word, and decompose it into observable attributes:
-- value key and chroma;
-- temperature and light quality;
-- surface and tactility;
-- energy and motion;
-- depiction richness (how much appetizing or sensory detail the image carries);
-- density.
-
-Check the attributes against the Environment Profile (glare, neighbors, distance). Where an attribute conflicts with the setting, keep the nearest surviving form of it and say how; never drop it silently.
-
-**Evaluate**
-- Which attributes are essential and which supportive.
-- How the attributes interact with the departure dimension.
-- Which attributes the hero must carry and which the expressive copy must carry.
-
-**Record**
-- The target as a list of attributes, each with its required direction. Every later gate checks that a visible feature delivers each one, and that no decision contradicts one.
-
 ## 3. Failure modes
 
 | Failure | Detection | Correction |
@@ -277,15 +228,13 @@ Check the attributes against the Environment Profile (glare, neighbors, distance
 | Competitor copying | A finding about a competitor's visuals carried forward as a model rather than a baseline to differ from | Re-state it as a departure dimension; never reproduce it |
 | Manufactured alternatives | Differentiation options that are one idea reworded | State that evidence leaves one defensible option |
 | Stereotyped audience | Demographic assumptions without evidence | Replace with observed or inferred behavior at each viewing stage |
-| Items treated as generic text | The map lists items with only a size or stage, no job or response | Complete the map: class, job, response, form requirements |
-| Promise copy mapped as a caption | The tagline's beats, sensations, and emotions are not stated | Split into beats and state each |
-| Feeling words left as adjectives | "Fresh" or "bright" recorded with no observable attributes | Decompose into value, chroma, temperature, light, surface, energy, depiction richness |
-| Attribute dropped for the setting | A feeling attribute removed because the environment conflicts | Keep the nearest surviving form and record how |
+| Departure overrides the brief | The chosen departure signals the opposite of a stated quality | Re-weigh; choose a compatible dimension or expression |
+| Weakest link displaces the user's priority | The primary objective differs from what the user said comes first | Restore the stated priority; use the weakest link as a secondary lens |
 
 ## 4. Completion criteria, summary record, and hand-off
 
 Complete when the phase card's "Before leaving" check holds.
 
-**Print for the decision summary (Analysis entry, at the gate):** the weakest link and the options weighed; the departure and fit dimensions chosen and why; the sensory-emotional target as a short attribute list; the content function map in one line per function class (which items must be felt, believed, acted on, found); the differentiation strategy and options weighed (or "fixed by evidence"). Mark any decision the evidence fixed as such. Update the Design Log: Communication Problem, content function map, sensory-emotional target, Environment Profile, Visual source inventory, open issues.
+**Print for the decision summary (Analysis entry, at the gate):** the weakest link and the options weighed; the departure and fit dimensions chosen and why; the differentiation strategy and options weighed (or "fixed by evidence"). Mark any decision the evidence fixed as such. Update the Design Log: Communication Problem, Environment Profile, Visual source inventory, open issues.
 
-**Hand-off to Phase 3:** Communication Problem; Environment Profile; Visual source inventory; content function map; sensory-emotional target; differentiation strategy; tagged design implications; tension list; plus Phase 1's content volume, fixed assets, preferences, and exclusions.
+**Hand-off to Phase 3:** Communication Problem; Environment Profile; Visual source inventory; differentiation strategy; tagged design implications; tension list; plus Phase 1's content volume, fixed assets, preferences, and exclusions.

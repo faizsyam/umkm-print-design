@@ -11,7 +11,7 @@
 | Exploration protocol | Not applicable. This phase translates decisions already made. If translation requires a new concept, style, or element, the plan or execution had a gap: return to the responsible phase, then re-run forward |
 | Required decisions | What is in the prompt and what stays out; the prompt's structure; placement and wording of every mandatory text item; how the mark and any fixed asset are described; how space is expressed; which minimal exclusions apply; the ratio handling; the language policy; the notes |
 | Outputs | The final prompt(s) and any short notes (SKILL.md 13.2). The decision summary was printed phase by phase at earlier gates and is not repeated |
-| Before leaving | Could an illustrator who has never seen the brief produce the intended design? Does every sentence pass the visual-effect test? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, mark construction and personality device, hero treatment, typographic character, unifying device, space plan)? Is length proportional to complexity? Have the senior art director and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? |
+| Before leaving | Could an illustrator who has never seen the brief produce the intended design? Does every sentence pass the visual-effect test? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, stated qualities as visible look, mark construction and personality device, hero treatment, typographic character and designed copy treatments, supporters, unifying device, space plan)? Is length proportional to complexity? Have the senior art director and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? |
 
 ## Contents
 1. Process
@@ -36,13 +36,13 @@
 ### A. What belongs in the prompt, and what does not
 **Stays out:** business strategy, brand story, audience and environment analysis, research findings, the piece's business purpose, success criteria, alternatives, and any "because" or "in order to" justification. These acted through decisions; the prompt carries the visible traits they produced. An impression word may remain only as a brief tone anchor that steers rendering and justifies nothing.
 
-**Goes in:** type and format of the piece (orientation, aspect ratio, faces); what is depicted and how; composition and relationships; hierarchy through relative scale and position; typography character; mandatory text; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; rendering technique; necessary exclusions.
+**Goes in:** type and format of the piece (orientation, aspect ratio, faces); the overall look as seen (value key, dominant field, mood, finish); what is depicted and how; composition and relationships; hierarchy through relative scale and position; typography character and the treatment of designed copy; mandatory text; supporters as concrete forms; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; rendering technique; necessary exclusions.
 
 **Scale as proportion:** express size as proportions of the format and steps between elements. State emphasis only for the elements that hold it; avoid blanket emphasis words across many elements.
 
 ### B. Structure
 
-- Order: piece and format; the overall visual approach expressed as what is seen; composition and hierarchy; hero and main visuals; identity unit; typography; color; background and unifying devices; supporting details; mandatory text placed in context.
+- Order by consequence: piece and format; the overall look as seen (value key and dominant field first, so the stated qualities govern generation); composition and hierarchy; hero and main visuals; identity unit; typography; color; background and unifying devices; supporting details; mandatory text placed in context.
 - Adapt the order to complexity; do not force a rigid template.
 - Keep one coherent style logic from first sentence to last.
 
@@ -72,14 +72,16 @@ For each state: where it is, roughly how much of the format it takes, what it fr
 
 ### F. Text, logos, and fixed assets
 - **Mandatory text** is included verbatim in quotation marks, once, tied to position and typographic role. Dense text (menus, price lists) is grouped in reading order, with row behavior described once. Prices and contacts get clarity proportionate to their stage, not oversize. State that the piece contains only the specified text when hallucinated text is a risk. Never omit mandatory text to shorten the prompt; flag volume risk in the notes.
+- **Designed copy** is described by its traits: letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
+- **Supporters** are described as concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never as "decorative elements".
 - **A supplied logo** is reproduced as provided (by reference if the model accepts images, otherwise described faithfully) and never replaced by an invention.
 - **A new mark** is described by form class, geometry, silhouette, color, boundary type, personality device, relationship to the wordmark, and separation from adjacent type, concretely enough to be drawn the same way each time.
-- **Every content device** is described by its form before its text is quoted: container or shape, letterform construction and behavior, scale step, color role, orientation or gesture, position, and any accompanying graphic component. Promise copy is described as lettering that carries its meaning (how the words behave and why they read as that sensation, stated as visible traits); the proof device as a structure of its own; offer, action, and location each by its own form. Different function classes are never described with the same treatment. The quoted words stay verbatim, once.
 - **The identity unit** (mark with wordmark) is described as one object: arrangement, the shared construction logic of mark and lettering, the proportion and spacing relationship, the alignment axis, the color roles within the unit, and the clear space and region that distinguish the whole unit from surrounding type and content. Never describe mark and wordmark as two unrelated items.
 
 ### G. Detail and length
 
 - No pixel measurements, coordinates, or exact angles unless essential.
+- State a proportion only where the model's default would break the design (the margin, the hero's share, the large scale steps); elsewhere use relational words (larger than, flush with, beside). A prompt crowded with percentages dilutes the decisions that matter and repeats the plan instead of translating it.
 - Include exact dimensions, ratios, and required text when essential.
 - Length is proportional to complexity: every sentence carries a decision or a relationship.
 - If a required ratio exceeds what the model supports, use the nearest supported ratio, keep the design valid at it, and flag it in the notes.
@@ -106,7 +108,8 @@ Check:
 - standalone and readable;
 - the visual-effect test on every sentence;
 - space and the identity unit described as concrete positive features;
-- every content device described by its own form, and every sensory-emotional attribute carried by a described feature.
+- every stated quality visible in the opening lines through named features, and none contradicted;
+- designed copy and supporters described by traits and forms, matching the printed decisions.
 
 The full audit is in `quality_control.md`.
 
@@ -126,9 +129,10 @@ The full audit is in `quality_control.md`.
 | Filler adjectives | A clause fails the visual-effect test | Delete |
 | Prompt too long or too short | Padding, or distinctive decisions lost | Cut filler first; restore specifics |
 | Prompt and printed decisions disagree | A printed or amended decision is not visible in the prompt, or the prompt contradicts one | Fix the prompt, or print an amendment if the decision changed |
-| Uniform text description | Three or more items of different function described with the same typographic treatment | Describe each content device by its own form |
-| Target not visible in the prompt | A sensory-emotional attribute has no described feature | Add the delivering features, as visible traits |
 | Mark and wordmark described as separate objects | The unit has no shared logic, spacing, or region stated | Describe the identity unit as one object |
+| Qualities absent from the prompt | The opening lines give no look, value key, or mood | Open with the look and its carriers |
+| Numeric overload | Many percentages and cap heights the model will ignore | Keep only proportions that change the result |
+| Designed copy flattened | A designed item is described as plain text | Describe its treatment traits |
 
 ## 4. Completion criteria, hand-off, and delivery
 

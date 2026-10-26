@@ -5,30 +5,29 @@
 | Item | Content |
 |---|---|
 | Professional analogue | Identity and visual-system design by a graphic designer under art direction: turning a concept into a coherent set of buildable parts, each chosen for its effect on the whole |
-| Goal | A coherent visual system of color, typography, the identity unit (logo mark, wordmark, and their lockup), content devices (one designed form per content function), visual supporters, background and unifying devices, and any additional systems, where every element is derived from its job, realizes a named plan commitment, and has a role, treatment, relationships, effect profile, and space cost |
+| Goal | A coherent visual system of color, typography, the identity unit (logo mark, wordmark, and their lockup), visual supporters, background and unifying devices, and any additional systems, where every element realizes a named plan commitment and has a role, treatment, relationships, effect profile, and space cost |
 | Receives | From Phase 3: Design Plan (core idea, style across seven dimensions, hero, governing principles, space intent, mark role). From Phase 2: Environment Profile, Visual source inventory. From Phase 1: content list, fixed assets, production constraints, preferences |
 | Principles in force | **2 Structured exploration** (color strategy, typographic voice, and the mark and lockup each need candidate cards; the mark follows the extended protocol); **5 Functional creativity** (each element has a role it alone performs); **6 Intentional restraint** (every element has a space cost; the total fits the space intent); **7 Internal consistency** (one designer, one voice; consistent rendering treatment); **8 Fidelity to the brief** (supplied logos, colors, fonts are fixed); **4 Contextual specificity** (judge color, type, and mark against the landscape, not only the brand); **10 Effort follows impact** (the identity unit gets the longest deliberation in this phase) |
-| Exploration protocol | Full (SKILL.md 7.1 and 7.2) for color strategy, typographic voice, the logo mark and lockup (extended development, C), the promise, offer, and proof devices (G), and any hero treatment left open by Phase 3, with the decision quality standard (SKILL.md 7.3) including the realization trace. Other element decisions are decided directly but are still evaluated through the effect profile (H) |
-| Required decisions | Color strategy and palette; typographic families and the role for each function class; the identifier (fixed asset, or new mark with personality device, lockup, and distinction mechanisms); the content device for every function class (promise, offer, and proof by the full protocol); visual supporters (from the deficit analysis); background and unifying devices; additional systems; the realization trace; the treatment-difference and squint-and-sort checks; element allowance check |
+| Exploration protocol | Full (SKILL.md 7.1 and 7.2) for color strategy, typographic voice, the logo mark and lockup (extended development, C), and any hero treatment left open by Phase 3, with the decision quality standard (SKILL.md 7.3) including the realization trace. Other element decisions are decided directly but are still evaluated through the effect profile (G) |
+| Required decisions | Color strategy and palette; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, and distinction mechanisms); color value key; content-role treatment of every text item; visual supporters (from the text-only baseline and the supporter families surveyed); background and unifying devices; additional systems; the realization trace; element allowance check |
 | Outputs | The element system: each element with role, treatment, relationships, effect profile, and space cost |
-| Before leaving | Could a designer build every element from the specification? Does every element name the job it does and the plan commitment it realizes, and is every plan commitment realized? Was each form derived from its job (purpose-to-form), not chosen first? Does every content item have a content device, with items of different function classes differing on at least three treatment dimensions and passing the squint-and-sort test? Is the promise copy visualized so its meaning is felt, and the proof a structure of its own that imitates no official mark? Were palette and typography judged against surroundings, light, and the full parameter set, and does the palette deliver the sensory-emotional target? Does the mark meet the mark bar and show the extended development? Do mark and wordmark form one integrated identity unit distinct from the rest of the design? Does every element pass the removal test while the target-delivering features keep their richness? Does the total fit the space intent? Have the senior art director, the graphic designer, and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
+| Before leaving | Could a designer build every element from the specification? Does every element name the plan commitment it realizes, and is every plan commitment realized? Were palette and typography judged against surroundings and light and against the full parameter set? Does the mark meet the mark bar and show the extended development? Do mark and wordmark form one integrated identity unit that is distinct from the rest of the design? Does every element pass the removal test? Does the total fit the space intent? Is treatment consistent? Does the value key support every quality requirement? Does each text item's treatment fit its content role? Was a text-only baseline run, were at least two supporter families weighed per real deficit, does each supporter name its deficit, and is the visual variety sufficient? Have the brand strategist, the senior art director, the graphic designer, and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
 
 ## Contents
 1. Process
-2. Detailed guidance (A to H)
+2. Detailed guidance (A to G, with B2)
 3. Failure modes
 4. Completion criteria, summary print, and hand-off
 
 ## 1. Process
 
 1. Inventory fixed assets and production constraints.
-2. Decide the color strategy (A) and the typographic families (B) by the protocol, as provisional constraints for the mark. Both must realize the Phase 3 style dimensions and the sensory-emotional target.
+2. Decide the color strategy (A) and the typographic voice (B) by the protocol, as provisional constraints for the mark. Both must realize the Phase 3 style dimensions (chromatic stance; typographic expression).
 3. Develop the mark and lockup through the extended development (C). If it reveals a conflict with color or type, return within the phase and adjust those decisions.
-4. Design the content devices from the content function map and the content expression system (G).
-5. Run the deficit analysis and select visual supporters (D).
-6. Decide background and unifying devices (E) and any additional systems (F).
-7. Evaluate the system as a whole (H): effect profiles, interactions, realization trace, treatment-difference check, element allowance check, removal and subtraction passes.
-8. Record candidates and choices; pass the gate; print the entry.
+4. Decide copy treatment by content role (B2); run the text-only baseline and select visual supporters (D).
+5. Decide background and unifying devices (E) and any additional systems (F).
+6. Evaluate the system as a whole (G): effect profiles, interactions, realization trace, element allowance check, removal and subtraction passes.
+7. Record candidates and choices; pass the gate; print the entry.
 
 ## 2. Detailed guidance
 
@@ -36,7 +35,6 @@
 
 **Analyze**
 - The Phase 3 chromatic stance and the light and atmosphere it sets.
-- The sensory-emotional target's value, chroma, and temperature attributes: the palette must deliver them in the real light.
 - Fixed brand colors (fixed assets) and production limits (ink count, substrate, finish).
 - The surrounding color field and ambient light from the Environment Profile.
 
@@ -48,19 +46,20 @@
 5. Relationship to imagery and to the mark.
 6. Behavior under the production limits and in the real light.
 7. Cultural and category associations (verified).
+8. Value key (area-weighted light, mid, dark balance), chroma, and temperature, and compatibility with each quality requirement.
 
 **Evaluate**
 - Monochrome, dual-tone, restrained multicolor, and complex systems are all valid when justified.
 - Whether the palette departs from or sits within the landscape, and on which dimension.
+- **Value-key check:** compute the key from the area proportions, counting the ground and every large band or block. Dark masses make a low-key piece however light the accents are. Eliminate a candidate whose key contradicts a quality requirement; achieve departure through hue, chroma, or form within a compatible key.
 - The context matrix, interaction with the style and hero, and the originality tests.
-- A palette that contradicts a color attribute of the target (a value key opposite to the one the brief asks for) fails the target delivery test unless the nearest surviving form of the attribute is stated and visible.
 - Describe colors to a model by named hues with qualifiers and roles; use hex values only for supplied brand colors or where precision is essential.
 
 ### B. Typography
 
 **Analyze**
 - The Phase 3 typographic expression.
-- The roles the content needs, taken from the content function map: one role per function class present, not a generic display-and-informational split.
+- The roles the content needs: display, supporting, informational, numerals and prices, small print.
 - The lettering of the surroundings.
 
 **Candidate card fields (typographic voice)**
@@ -71,13 +70,33 @@
 5. Readability at the real distance and light.
 6. How the wordmark's lettering relates to, and differs from, the informational type (see C, unit distinction).
 7. Rendering risk for an image model.
+8. Treatment of designed copy items by content role (B2).
 
 **Evaluate**
-- Keep type **families** few; do not keep **roles** few. Distinct function classes get distinct roles, and the difference is carried by letterform construction, scale, weight, width, color role, and treatment, not by adding families.
+- Keep roles few.
 - Set sizes as ratios between roles, not as independent sizes.
 - Dense text raises rendering risk; plan structure accordingly (grouping, rows, fewer styles).
 - Describe type to a model by characteristics, because font names are unreliable; use a name only for a stated brand requirement.
 - The context matrix and interaction with the mark and hero.
+
+### B2. Content roles and copy treatment
+
+**Purpose.** Every text item is an element with a job. Its treatment follows that job, not only its size.
+
+**Analyze** each text item: content role (identify, hook, transact, inform, reassure, act), reading stage, and the quality requirements it can carry (voice, warmth, confidence).
+
+**Decide the treatment grade** (a one-line comparison of two treatments per designed item)
+- **Designed** for items that carry voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and for the transaction itself (prices, sizes, offers): graphic lettering with at least one deliberate device, chosen from the style's lettering lineage. Devices include line breaks that set rhythm, scale or weight contrast between lines or words, emphasis on the key word, a baseline or alignment play, a shaped or cut container, a fitted motif or underline, and a distinct color role.
+- **Reassurance claims** that matter at the approach stage: a marked line or badge-like container made as a graphic (never a regulated or trust mark).
+- **Set** for informational and functional items (descriptions, item lists, addresses, contact lines): plain typesetting in the informational face, with hierarchy by size, weight, spacing, and grouping.
+
+**Rules**
+- A voice-bearing line set in the informational face on bare ground, differing only in size or color, is under-served.
+- Designed treatments cost space and attention: no more than the reading tiers can carry, all in one lettering logic, none competing with the identity unit.
+- Write each treatment as a concise spec (letterform character, line breaks, emphasis, container, color role, relation to neighbors) so Phases 5 and 6 can place and describe it.
+- Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
+
+**Test.** *Role-fit:* name each item's role and show that its treatment serves it.
 
 ### C. The identity unit: logo mark, wordmark, and lockup
 
@@ -133,20 +152,46 @@ In dense layouts, resolve distinction by composition (the unit's own region, nei
 
 ### D. Visual supporters
 
-**Analyze: the deficit analysis**
-- What would be missing if the piece consisted only of its required text?
-- Across the full range of functions: primary attention and storytelling; product or service representation; brand identity reinforcement; emotional and atmospheric communication; information comprehension and categorization; supporting illustration and iconography; decorative refinement and compositional balance; connection between content groups.
+**Purpose.** Find what the piece lacks beyond its text, identity unit, and background, and meet each real lack with the resource best suited to it, in the piece's own style register. Restraint is carried by scale, count, finish, and form language, not by the absence of supporters.
 
-**Consider** for each supporter
-- Role, relevance, treatment, scale, placement, and relationship to the hero and identity unit.
-- Source: draw motifs and illustrations from the Visual source inventory and the Phase 3 survey; treat the category's or culture's obvious decorative signifiers as the benchmark to beat.
-- Accuracy: product depictions match what the business offers.
-- Reliability: avoid real identifiable people, tokenistic portrayals, and compositions that depend on complex hands, crowds, or fine faces unless reliability allows.
+**Step 1: text-only baseline.** Imagine the piece as only its required text, identity unit, and background. Name the deficits as concrete observations across:
+- visual interest and variety (any focal point or surface other than type);
+- evidence of the offer (can the viewer see or sense what is offered; use, sensory, or appetite cues);
+- mood and emotion beyond what type and color deliver;
+- scanning and hierarchy aids (entry points, markers, category cues, rhythm along long lists);
+- balance (areas of weight with nothing in them, lopsided mass);
+- brand personality, material, and cultural grounding;
+- reading comfort of dense text (breaks, row guidance);
+- quality requirements whose carriers type and color cannot supply alone.
+
+A deficit is real when its absence would weaken a stated quality, the message, the reading, or the balance. Record each real deficit.
+
+**Step 2: survey the families.** For each real deficit consider at least two families before choosing, and adapt the chosen one to the style register.
+
+| Family | Typical jobs | Register adaptations |
+|---|---|---|
+| Icons and pictograms | category cues, scanning aids, attribute shorthand | premium: fine monoline, one ink, one grid; minimal: few, small, uniform; clean: geometric set of equal weight; warm: hand-drawn or stamp-like |
+| Spot illustration | personality, evidence of the offer, story, mood | premium: single-ink line or engraving-like, small scale; minimal: one reduced silhouette; clean: flat geometric; warm: cut-paper, painted, or inked |
+| Product imagery (photographic, rendered, illustrated, silhouetted, cropped) | appetite or desire, evidence, scale reference | premium: one controlled crop with space around it; minimal: one isolated product; clean: evenly lit products in a consistent frame; warm: generous, close crop; finish always matches the style |
+| Pattern and repeat texture | surface richness, ownership, zone fills | premium: tonal, low contrast; minimal: sparse repeat; clean: fine geometric; warm: bolder motif repeat; always quiet under information |
+| Borders, frames, panels | grouping, containment, edge definition | premium: hairline or double rule; minimal: a single rule or none; clean: solid panels or rounded cards; craft: cut or irregular edges |
+| Dividers and ornaments | separation, rhythm, pacing along lists | thin rule with a small ornament; space alone; color bands; a repeat motif strip |
+| Color and shape blocks | zoning, emphasis, balance, anchoring | tonal blocks; one large field; geometric or organic shapes |
+| Material surfaces | tactile mood, authenticity (paper, grain, wood, fabric, metal) | low contrast beneath text; may serve as ground or accent |
+| Lettering-as-graphic and numerals | hook, price emphasis, brand memory (see B2) | follows the style's lettering lineage |
+| Badge-like devices drawn as graphics | reassurance, claim emphasis | never a regulated or trust mark, never an invented claim |
+
+Draw forms from the Visual source inventory and the Phase 3 survey; the category's obvious decorative signifiers are the benchmark to beat.
+
+**Step 3: record a supporter card** for each chosen supporter: the deficit answered; family and form; the job it serves (balance, hierarchy, readability, style reinforcement, mood, personality); relation to the hero and identity unit; scale tier and region; space cost; renderability.
 
 **Evaluate**
-- Add a supporter only to answer a real deficit.
-- Supporters sit below the hero, identity unit, and primary message in the hierarchy and are limited by the element allowance; remove one that must be shrunk to fit or that crowds a glance-stage element.
-- Micro-details demonstrate craft and are few; accumulation is noise.
+- Each supporter answers a named deficit and shares the style's form language, line quality, and finish.
+- Include at least one supporter family beyond type and the identity unit unless the user excludes imagery or the baseline shows no real deficit (record why). Check visual variety: scale, form class, density, and surface vary across the piece.
+- A text-dense piece usually shows deficits of interest, scanning, and rhythm. The answer is purposeful visuals and structure, never more words and never filler.
+- Supporters sit below the hero, identity unit, and primary message, and are limited by the element allowance; remove or merge one before shrinking another.
+- Micro-details are few; accumulation is noise.
+- Accuracy and reliability: depictions of the offer match what is offered; avoid real identifiable people, tokenistic portrayals, and compositions that depend on complex hands, crowds, or fine faces unless reliability allows.
 
 ### E. Background and unifying devices
 
@@ -160,7 +205,8 @@ In dense layouts, resolve distinction by composition (the unit's own region, nei
 
 **Evaluate**
 - It stays quiet where information lives.
-- Its effect profile (H) on mark, hero, and text.
+- Whether its surface (grain, material, tonal pattern) should carry a supporter job (D) rather than stay plain.
+- Its effect profile (G) on mark, hero, and text.
 
 ### F. Additional design systems
 
@@ -171,49 +217,11 @@ In dense layouts, resolve distinction by composition (the unit's own region, nei
 - Include only what improves the design, each with a named job.
 - Lighting and shadow are decisions, not inherited defaults: state direction and softness, or leave them out.
 
-### G. Content devices
-
-**Purpose.** Give every content item the form its job demands. Plain typeset text is the form for items whose job is only to be found; it is a decision, not the default. Uniform text is the commonest cause of a flat, lifeless piece.
-
-**Analyze**
-- From the content function map: for every function class present, the job, the required response, the stage, the emotional register, and the form requirements.
-- From the Design Plan: the content expression system, and the hero, mark, and style that every device must belong to.
-
-**Decide, by function class** (derive each form from its job: SKILL.md 7.3 h)
-- **Promise (expressive copy).** The words must be *felt*.
-  - Split the copy into beats; for each, state the literal claim, the sensation, and the emotion.
-  - Decide how the lettering itself makes each sensation visible: scale rhythm between words, weight and width shifts, baseline and orientation behavior, color temperature, treatment of the key word, and how it interacts with the imagery.
-  - Line breaks follow the beats, not the grammar.
-  - The lettering is an image in its own right. Promise copy set as a caption fails.
-  - Words, spelling, order, and punctuation stay verbatim; size, weight, color, breaks, and arrangement are designed.
-- **Offer (product, sizes, prices).** The choice must be obvious and the price unmissable.
-  - The form shows how the options relate (the difference between them is visible at a glance) and binds each price to what it buys.
-- **Proof (credibility claim).** The claim must be believed.
-  - A self-contained structured form of its own, whose shape, border logic, and internal hierarchy signal assurance, built from the business's own world, with the claim as its focus.
-  - It is a designed container for the user's own claim. It never imitates an official or regulated mark and adds no unsupplied wording, numbers, or symbols that read as certification.
-- **Action (how to order).** The next step must be frictionless.
-  - The channel and the number are separated into recognizable parts; the number is set for accurate reading; the form signals "act now" through gesture and structure, not volume.
-- **Wayfinding (location).** The place must be found.
-  - The form locates or directs, is subordinate to the offer, and is grouped with action only when viewers use them together.
-- **Identity, small print, supporting description.** Identity follows C; the others are set quietly in a form that shows they are reference, still derived from their function.
-
-**Protocol depth**
-- The promise, offer, and proof devices are consequential decisions: each runs the full protocol with candidate cards.
-- Candidate card fields (device): the job restated; the form (container, letterform construction, scale, color role, gesture, position, graphic component); how it makes the viewer feel, believe, or act; its relation to the hero and the mark; its behavior at its stage; renderability; its space cost.
-- Action and wayfinding devices are decided directly, with the function check and the treatment-difference check.
-
-**Differentiation of treatment**
-- Items of different function classes differ on at least three of the seven treatment dimensions; items of the same class may share a treatment.
-- **Squint-and-sort test:** squinting at the layout, can each item's function be read from its form alone? If two different-function items cannot be told apart, redesign one.
-- Families stay few (B); the difference lives in treatment, not in extra families.
-
-**Belonging.** Devices share one world with the hero and mark: line quality, geometry, material, light logic. They differ in form and role, never in unrelated styles.
-
-### H. Element selection and evaluation in the system
+### G. Element selection and evaluation in the system
 
 **Purpose.** Select each element for what it does to the whole design, and evaluate it in relation to the complete system, not in isolation.
 
-**1. Effect profile (for every element, content devices included).** State the element's effect on each of the following as supports, neutral, or strains, with one concrete line wherever it matters:
+**1. Effect profile (for every element).** State the element's effect on each of the following as supports, neutral, or strains, with one concrete line wherever it matters:
 - brand design and positioning;
 - the core idea and theme;
 - the style dimensions;
@@ -221,19 +229,19 @@ In dense layouts, resolve distinction by composition (the unit's own region, nei
 - the audience encounter at each viewing stage;
 - the environment (neighbors, light, distance; fit and departure);
 - content capacity and space cost;
-- the sensory-emotional target (which attribute it delivers or strains);
 - production and renderability.
 
 **2. Interaction check.** For each pair of major elements (identity unit and type, hero and background, color and imagery, supporters and hero), state whether they amplify, compete, or are neutral, and repair any competition.
 
-**3. Realization trace** (SKILL.md 7.3 f). Each element names the plan commitment it realizes; an element that realizes none is removed; a plan commitment realized by no element is a gap to close.
+**3. Realization trace** (SKILL.md 7.3 f). Each element names the plan commitment it realizes; an element that realizes none is removed; a plan commitment realized by no element is a gap to close. Quality requirements count as plan commitments: each needs a visible carrier among the elements.
 
 **4. System-level checks**
 - **Element allowance:** every element has a space cost; sum the costs against the Phase 3 space intent; if the total exceeds it, remove or merge elements before any is shrunk.
-- **Removal test:** if removing the element changes nothing the piece needs, remove it. Features that deliver the sensory-emotional target are needs: do not strip them for cleanliness (SKILL.md 7.3 i).
+- **Removal test:** if removing the element changes nothing the piece needs, remove it.
 - **Cumulative effect and single voice:** does the whole read as one designer's work?
 - **Consistency:** line quality, finish, level of abstraction, light direction, rendering treatment.
 - **Subtraction pass:** remove one more thing and see whether the piece improves.
+- **Additive pass:** then re-read the text-only baseline (D). If the system still lacks interest, evidence of the offer, scanning aids, or balance, close each real gap with a purposeful supporter, never with filler.
 
 System-wide coherence outranks isolated appeal.
 
@@ -257,23 +265,21 @@ System-wide coherence outranks isolated appeal.
 | Inconsistent rendering | Mixed line quality, finish, or light direction | Unify treatment |
 | Default lighting and shadow | Shadow or glow no decision explains | Decide or remove |
 | First-candidate color or type | No candidate cards or alternatives | Run the protocol |
-| Content as uniform text | Tagline, proof, offer, action, and location share one typographic treatment | Design a content device per function class; pass the squint-and-sort test |
-| Promise copy as a caption | The tagline is set like information and its beats and sensations are not visible | Derive the lettering from the beats; make the words felt |
-| Proof as plain text or imitation seal | The claim has no structure of its own, or the form mimics an official or regulated mark | Design a self-contained structure from the business's world; remove imitation cues |
-| Roles collapsed to look tidy | Fewer roles than function classes; difference sought only by adding families | Restore one role per function class; differ by construction, scale, color role, treatment |
-| Palette contradicts the target | A feeling attribute is contradicted by the palette's value, chroma, or temperature | Rebuild the palette to deliver it, or state and show the nearest surviving form |
-| Richness stripped | The subtraction pass removed the features that deliver the target | Restore them; subtract elsewhere |
+| Value-key drift | Dominant field or large bands signal the opposite of a stated quality | Recompute the key; revise color strategy before any element |
+| Voice-bearing copy set plain | A hook, slogan, or tagline is typeset like informational text | Apply B2: choose a designed treatment |
+| Text-only look | Visual content is type plus one motif; no variety of scale, form, or surface | Run the text-only baseline and the additive pass |
+| Supporter as filler | A supporter names no deficit, or shares no form language with the system | Remove it or re-derive it from a deficit |
+| Supporter families unexamined | Whole families dismissed without comparison | Weigh at least two families per real deficit |
 
 ## 4. Completion criteria, summary print, and hand-off
 
 Complete when the phase card's "Before leaving" check holds.
 
 **Print for the decision summary (Design Elements entry, at the gate):**
-- color strategy and typographic voice: apparent option, candidates compared (one line each: name, strength, weakness), selection and why it beat the runner-up;
+- color strategy (with its value key) and typographic voice (with the designed copy treatments by role): apparent option, candidates compared (one line each: name, strength, weakness), selection and why it beat the runner-up;
 - the identity unit: the truth it expresses, the personality device, the construction family chosen against the other candidates, the runner-up, how mark and wordmark are integrated, and the distinction mechanisms used (or "fixed asset");
-- the content devices: for the promise, offer, and proof devices, the candidates compared and the selection; for the others, the form chosen and the job it serves; how items of different function classes differ;
-- any supporter or system decision that had real alternatives.
+- each supporter with the deficit it answers and the families weighed (or the finding that the baseline has none); any system decision that had real alternatives.
 
-Update the Design Log: color, type, mark and lockup, content devices, element costs, open issues.
+Update the Design Log: color, type, mark and lockup, element costs, open issues.
 
-**Hand-off to Phase 5:** the element system, including every content device, with every element's role, treatment, relationships, effect profile, and space cost; the identity unit with its mechanisms; the constraints that the prompt must preserve.
+**Hand-off to Phase 5:** the element system with every element's role, treatment, relationships, effect profile, and space cost; the identity unit with its mechanisms; the constraints that the prompt must preserve.
