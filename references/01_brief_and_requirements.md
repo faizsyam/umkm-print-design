@@ -1,141 +1,84 @@
-# Phase 1: Brief and Requirements
+# Phase 1: Brief
 
 ## Phase card
 
-**Principles in force** (see Principle map in `SKILL.md`): 8 Fidelity to the brief: verbatim text, no invented facts, fixed assets untouched. 3 Evidence-informed judgment: tag every item by provenance. 10 Effort follows impact: ask only about gaps that would change the design.
-
-**Inputs**: the user's message and any attachments.
-
-**Required decisions**
-1. Every content item classified by necessity and provenance, with mandatory text captured verbatim.
-2. Fixed assets, exclusions, and preferences separated from creative latitude.
-3. Medium, format, area, content volume, and probable setting recorded (inferred and tagged where not stated).
-4. Each gap sorted: explicit, inferable, researchable, or blocking; blocking gaps asked or defaulted.
-
-**Outputs**: Brief Ledger, research questions that could change a decision, tensions noticed.
-
-**Before leaving**: re-read the principles above; confirm no fact in the ledger lacks a source.
+| Item | Content |
+|---|---|
+| Professional analogue | Client intake and creative briefing: an account lead who captures everything, verifies it, and refuses to guess at facts |
+| Goal | A complete, classified, verifiable record of what is known, what is required, and what remains uncertain, so no later phase has to guess or invent |
+| Receives | The user's message, attachments (logos, photos, references), prior conversation; for a revision, the prior design state. No earlier phase |
+| Principles in force | **8 Fidelity to the brief** (mandatory content verbatim, exclusions honored, nothing invented, fixed assets untouched); **3 Evidence-informed judgment** (provenance on every item; fact apart from inference); **10 Effort follows impact** (ask only about gaps that would change the design); **1 Whole-system thinking** (record how items interact, including content volume against physical area) |
+| Exploration protocol | Not applicable. This phase records and classifies; it does not choose among designs. An ambiguous phrase is resolved by the interpretation best supported by the rest of the brief, and tagged |
+| Required decisions | Necessity and provenance of every item; the verbatim form of every mandatory string; the gap class of every gap; which gaps are blocking; whether the outcome is a ledger or clarification questions |
+| Outputs | Brief Ledger; research questions that could change a decision; tensions noticed. If a blocking gap remains and the user has not signaled urgency: the clarification questions only, and no later phase runs yet |
+| Before leaving | Could a colleague start designing from the ledger without reading the original message? Is every mandatory string exact? Does every item carry necessity and provenance? Is any fact unsourced? Are clarification questions at most three, each with a default, none answerable from the brief? Has the print designer's objection been raised and resolved? |
 
 ## Contents
-1. Purpose and scope
-2. What to extract
-3. Classifying content
-4. Assessing completeness and ambiguity
-5. The clarification protocol
-6. Inference rules
-7. Fixed assets and multi-face pieces
-8. Failure modes
-9. Completion criteria and hand-off
+1. Process
+2. Detailed guidance (A to E)
+3. Failure modes
+4. Completion criteria and hand-off
 
-## 1. Purpose and scope
+## 1. Process
 
-Convert whatever the user wrote, which may be a single casual sentence or a detailed specification, into a **Brief Ledger**: an organized, provenance-tagged account of what is known, what is inferred, what needs investigation, and what is genuinely uncertain. This phase decides *what is true and required*. It does not decide what the design should look like.
+1. Read everything given, including attachments, and list what each contributes.
+2. Capture the print medium and context (A). Infer what is missing and tag it.
+3. Capture the business and brand (B).
+4. Capture and classify the content (C): necessity, provenance, verbatim form, and volume relative to the area.
+5. Capture preferences, fixed assets, exclusions, and sensitivities (D). Treat references as evidence of taste, not templates.
+6. Sort every gap into its gap class (E). Infer the inferable (tagged), pass the researchable to Phase 2 as research questions, and ask about blocking gaps under the clarification protocol.
+7. Note tensions visible in the brief.
+8. Pass the gate (see `quality_control.md`): the print designer's required objection concerns whether medium, size, material, and viewing conditions are captured well enough to design for.
 
-Indonesian briefs are often informal, mix Indonesian with regional or colloquial terms, and may describe the piece by its everyday name rather than its specification. Interpret generously, but never rewrite the user's own text.
-
-## 2. What to extract
+## 2. Detailed guidance
 
 ### A. Print medium and context
-- Physical piece and format; single face or multiple faces/panels; folds or assembly.
-- Dimensions and aspect ratio. If only a common name is given, infer the conventional proportions and tag them *inferred*.
-- Record the physical area available and the volume of content it must carry. Phase 5 budgets space from their ratio, so a vague answer here becomes a crowded layout later.
-- Purpose and communication objective, as the user understands it.
-- Placement and viewing environment: indoors or outdoors, mounted, handheld, on a product, on a counter, on a wall, on a vehicle.
-- If the setting is not stated, infer the most probable setting from the medium and business, tag it *inferred*, and pass it to Phase 2. Ask only if plausible settings would require opposing designs.
-- Viewing distance, orientation, dwell time, lighting, weather or handling exposure.
-- Production constraints that are known: material, finish, color limitation, quantity, budget tier, printer capability.
+Capture: medium and format; single or multiple faces; dimensions, aspect ratio, physical area; purpose and communication objectives; placement and viewing environment; viewing distance, orientation, dwell time, visibility, lighting, exposure; practical production constraints (material, finish, color limits, budget tier, quantity).
+
+If the setting is not stated, infer the most probable setting, tag it inferred, and pass it to Phase 2. Ask only if the plausible settings would require opposing designs. Physical area is a design input in its own right: record it next to content volume, because the relation between the two drives density, space, and scale decisions later.
 
 ### B. Business and brand
-- Name, industry, products and services, operating context (location type, scale, channel: physical, online, marketplace, event).
-- Target audience as described.
-- Stated differentiators and positioning.
-- Existing visual identity: logo, colors, fonts, mascots, previous materials, signage already in place.
+Name and industry; products and services; operating context; target audience; differentiators; brand identity, positioning, existing visual identity. Record what the user said, not what the category usually implies.
 
 ### C. Content
-Everything that must or may appear: logo and identifiers, headline and body text, product names, descriptions, tagline, promotions, calls to action, prices, menus, variants, offers, trust indicators, contact details, social handles, addresses, operating hours, payment or ordering information, legal or certification marks.
+Capture all content that must or may appear: logo and brand identifiers, primary and secondary text, product and service names, descriptions, taglines, promotional messages, calls to action, prices, menus, variants, offers, trust indicators, contact details, social media, addresses, supporting information.
+
+For each item record: the exact string, necessity, provenance, the face it belongs to, and its approximate share of the content volume.
+
+- **Preserve verbatim:** spelling, capitalization, punctuation, numbers, price and contact formatting, names, non-standard brand spellings. If something looks like a typo, preserve it and flag it for the notes.
+- **Never fabricate** prices, claims, testimonials, certifications, regulated or trust marks, contacts, ingredients, years in business, or statistics. Regulated or trust marks appear only when the user provides them.
+- **Generated copy.** Functional labels derived from supplied content are acceptable. A headline, tagline, or descriptor the user did not supply is written only when the piece cannot function without one or the user requested copy; keep it factual and modest, tag it creative choice, and flag it in the notes.
+- **Necessity judgment.** Mark an item mandatory if the user said it must appear or the piece cannot work without it; optional if offered or helpful; excluded if the user said to leave it out. When unsure whether something is mandatory, treat it as mandatory until a later phase triages it under the rules in Phase 5.
 
 ### D. Preferences and constraints
-Style, color, mood, theme, references, existing assets, taboos, religious or cultural sensitivities, explicit exclusions, and anything the user said they dislike. Treat a reference image or reference description as evidence of taste, not as a template to reproduce.
+Style, color, mood, theme, references, existing assets, exclusions, cultural or religious sensitivities. A supplied reference shows taste; extract what the user responds to (structure, tone, density, material) and never reproduce the reference. Fixed assets are listed with exactly what is fixed about each (a logo's form and color; a palette's values; a typeface). For a supplied logo image, record its form, construction, and colors precisely, so that Phase 6 can reproduce it by description if the model cannot take image input.
 
-### E. Intent signals between the lines
-Note the register of the request (formal, playful, price-driven, aspirational), what the owner emphasized or repeated, and what they conspicuously omitted. These guide inference but are never promoted to facts.
+### E. Completeness, ambiguity, and clarification
+Sort every gap:
+- **Explicit:** stated. Record it.
+- **Inferable:** reliably deducible from the rest of the brief. Infer and tag.
+- **Researchable:** discoverable externally. Pass to Phase 2 as a research question, naming the decision it could change; drop it if it changes none.
+- **Materially uncertain:** missing, not discoverable, and would change the design. If a wrong guess would waste the generation or mislead the audience, it is a **blocking gap**.
 
-## 3. Classifying content
+Resolve noncritical ambiguity by informed interpretation. Do not invent business facts. For blocking gaps: ask once, in the user's language, at most three questions, each stating the default that applies if unanswered (or the omission of the item when no honest default exists). Do not ask what can be derived or investigated. If the user signals urgency, proceed on the stated defaults and flag consequential assumptions.
 
-For every content item assign two labels.
+A gap is blocking when the answer would change which face carries the message, whether mandatory content exists at all, or whether the piece can physically contain the content. A missing aesthetic preference is never blocking: Phase 3 decides it.
 
-**Necessity**
-- *Mandatory*: the user said it must appear, or the piece cannot do its job without it.
-- *Optional*: the user offered it, or it would help, but the piece survives without it.
-- *Excluded*: the user said not to include it.
-
-**Provenance**: given, fixed asset, inferred, researched, creative choice.
-
-Rules:
-- **Verbatim preservation.** Keep spelling, capitalization pattern, punctuation, numerals, price formatting, phone number grouping, handle spelling, and non-standard brand spellings exactly as given. Do not normalize, translate, or "correct." If something looks like a typo, preserve it and flag it in a note outside the prompt.
-- **No fabrication.** Missing content is either left out or requested. Never fill a gap with plausible filler: invented taglines presented as the brand's own, made-up prices, fake reviews, unverified certifications, or unsupported superlatives.
-- **Generated copy is a creative choice.** Functional labels derived directly from supplied content (a section heading for a group of items the user listed) are always acceptable. A headline, tagline, or descriptor the user did not supply may be written only when the piece cannot do its job without one or the user asked for copy; keep it factual, modest, and free of claims, tag it *creative choice*, and mention it in the outside note. Otherwise omit it.
-- **Regulated or trust marks** (halal status, food-safety registration, health claims, official numbers) appear only when the user provides them. Their presence is a fact claim.
-
-## 4. Assessing completeness and ambiguity
-
-Sort every gap into one of four bins.
-
-| Bin | Meaning | Action |
-|---|---|---|
-| Explicit | Stated by the user | Record verbatim |
-| Inferable | Reliably deducible from the brief or common practice for the medium | Infer, tag, move on |
-| Researchable | Discoverable externally and relevant to a decision | Investigate in Phase 2 |
-| Materially uncertain | Missing, cannot be researched, and would change the design | Candidate for clarification |
-
-A gap is **blocking** only if guessing wrong would waste the generation or mislead the audience. Typical blocking gaps: the business name when it must appear and cannot be found; the core product or offer when the piece exists to promote it; the physical format when it changes composition fundamentally and cannot be inferred; the content of a price list or menu the user wants reproduced; whether an existing logo must be used.
-
-Typical non-blocking gaps: exact color preferences, mood, fonts, secondary details, optional contact channels. Decide these through analysis.
-
-## 5. The clarification protocol
-
-1. Resolve everything inferable or researchable first. Questions that analysis can answer are a failure of diligence.
-2. If blocking gaps remain, ask in one message, at most three questions, written in the user's language, concise and non-technical.
-3. For each question, state what you will do if it goes unanswered (a default, or omission of the item when no honest default exists, as with a business name or price), so the user can reply with a single word.
-4. Do not ask about aesthetics the user cannot reasonably articulate. Make those decisions yourself.
-5. If the user indicates they want immediate output, or has already declined to answer, proceed on defaults and mention consequential assumptions in the outside note.
-6. After one round of questions, do not ask again unless the answers reveal a new blocking gap.
-
-## 6. Inference rules
-
-Infer boldly where the evidence is strong and the cost of error is low; infer cautiously or not at all where the claim would appear to the public as a business fact.
-
-- Infer *format behavior* (reading distance, orientation, typical hierarchy demands) from the medium.
-- Infer *audience and tone* from products, price points, channel, and the user's own language, but keep it provisional until Phase 2.
-- Do not infer *facts the customer will read as promises*: ingredients, guarantees, discounts, delivery coverage, hours, origin claims.
-- When two interpretations of an ambiguous phrase are both plausible and lead to materially different designs, treat it as a clarification candidate; if not blocking, choose the interpretation best supported by the rest of the brief and tag it.
-
-## 7. Fixed assets and multi-face pieces
-
-**Logo and identity supplied by the user.** Treat as fixed. Record what can be seen or described: structure, colors, typographic character, relationship between symbol and wordmark. Phase 4 must design around it. If the target model cannot ingest reference images, the prompt must describe the logo faithfully enough to reproduce its essential structure; if that is unrealistic for a complex logo, say so in the outside note rather than inventing a replacement.
-
-**Supplied photos or product images.** Record what they show and what they must be used for. They influence imagery decisions but are not automatically the hero.
-
-**Multi-face or multi-piece requests.** Record the shared elements (identity, content that repeats) and each face's distinct job and content. Do not merge faces into one overloaded composition.
-
-## 8. Failure modes
+## 3. Failure modes
 
 | Failure | Detection | Correction |
 |---|---|---|
-| Interrogating the user | Questions answerable from the brief or by research | Delete them; resolve yourself |
-| Silent consequential assumption | A decision depends on an untagged guess | Tag it; if blocking, ask |
-| Content drift | Text in the ledger differs from the user's | Restore verbatim |
-| Brief inflation | Ledger contains "facts" the user never stated | Remove or retag as inferred/creative |
-| Missing the real objective | Ledger lists content but not what the piece must achieve | Restate the objective before proceeding |
-| Preference treated as constraint | A taste hint recorded as mandatory | Reclassify as preference |
+| Interrogating the user | More than three questions, or a question the brief or research could answer | Cut to blocking gaps; infer and tag the rest |
+| Silent normalization of text | A mandatory string differs from the user's in spelling, case, numerals, or formatting | Restore verbatim; flag suspected typos in notes |
+| Invented fact | An item with no provenance, or provenance "inferred" for a price, claim, mark, or contact | Remove it, or ask if blocking |
+| Reference treated as template | The ledger records a reference's layout as a requirement | Re-record as taste evidence only |
+| Missing area or volume | No physical area, or no content count, recorded | Capture or infer and tag; it is needed in Phases 3 and 5 |
+| Fixed asset altered in the record | A logo or palette described as "to be improved" | Restore as fixed; flag only if the user asked for change |
+| Setting left unstated | No setting, not even inferred | Infer the most probable setting and tag it provisional |
+| Skipping the phase because the brief is simple | No ledger exists | Write a short ledger; simplicity shortens it, never removes it |
 
-## 9. Completion criteria and hand-off
+## 4. Completion criteria and hand-off
 
-Phase 1 is complete when:
-- Medium, format, viewing context, and objective are recorded (inferred where necessary and tagged).
-- Every content item is classified by necessity and provenance, with mandatory content captured verbatim.
-- Fixed assets and exclusions are explicit.
-- Blocking gaps are either answered, defaulted with the user's implicit consent, or have been asked.
-- Non-blocking gaps are assigned to Phase 2 (research or analysis) or to creative decision.
+Complete when the phase card's "Before leaving" check holds. Phase 1 is not summarized to the user; record no decision-summary entry. Update the Design Log with the content volume against area, fixed assets, exclusions, and open issues.
 
-Hand-off to Phase 2: the Brief Ledger, a short list of research questions that could change a decision, and a list of unresolved tensions noticed in the brief.
+**Hand-off to Phase 2:** the Brief Ledger (every item classified), the research questions (each naming the decision it informs), the tensions noticed, and the inferred setting if one was inferred.

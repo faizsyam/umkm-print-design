@@ -2,188 +2,90 @@
 
 ## Phase card
 
-**Principles in force**: 8 Fidelity to the brief: every mandatory string verbatim, once. 7 Internal consistency: no contradictions, nothing new. 10 Effort follows impact: keep the distinctive decisions, cut the filler. Also the Non-negotiables and Output contract in `SKILL.md`.
-
-**Inputs**: Execution Specification, Design Log, mandatory text, decision commitments.
-
-**Required decisions**
-1. The prompt's structure, from concept to execution.
-2. Placement and role of every mandatory text string.
-3. How the logo or fixed assets are described.
-4. How the quiet space and margins are expressed as positive design features.
-5. What stays out of the prompt.
-6. The audit.
-
-**Outputs**: the final prompt(s).
-
-**Before leaving**: re-read the principles above; confirm the prompt matches the decision summary.
+| Item | Content |
+|---|---|
+| Professional analogue | A production brief from an art director to an illustrator: the design is finished; the task is to describe it so exactly that someone who never saw the original brief could produce it |
+| Goal | A polished, standalone image-generation prompt that translates the Execution Specification into visible instructions. Synthesis is translation, not invention |
+| Receives | From Phase 5: Execution Specification. From the Design Log: all earlier decisions. From Phase 1: mandatory text verbatim, fixed assets. From SKILL.md section 11: the decision commitments. From the user: target model if named, language preference |
+| Principles in force | **8 Fidelity to the brief** (every mandatory string verbatim, once; fixed assets reproduced as provided); **7 Internal consistency** (no contradictions; nothing new introduced); **10 Effort follows impact** (retain the distinctive decisions; cut filler before specifics); the non-negotiables and the output contract (SKILL.md sections 10 and 13) |
+| Exploration protocol | Not applicable. This phase translates decisions already made. If translation requires a new concept, style, or element, the plan or execution had a gap: return to the responsible phase, then re-run forward |
+| Required decisions | What is in the prompt and what stays out; the prompt's structure; placement and wording of every mandatory text item; how the mark and any fixed asset are described; how space is expressed; which minimal exclusions apply; the ratio handling; the language policy; the notes |
+| Outputs | The final prompt(s), the decision summary, and any short notes, as the output contract requires |
+| Before leaving | Could an illustrator who has never seen the brief produce the intended design? Does every sentence pass the visual-effect test? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, mark construction and personality device, hero treatment, typographic character, unifying device, space plan)? Is length proportional to complexity? Have the senior art director and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? |
 
 ## Contents
-1. Purpose and scope
-2. Assumptions about the target model
-3. Language policy
-4. Structuring the prompt
-5. Writing for image models
-6. Handling text on the piece
-7. Handling logos and fixed assets
-8. Flat artwork versus staged scenes
-9. Exclusions
-10. Level of detail and length
-11. Multi-face pieces and multiple concepts
-12. Consistency and fidelity audit
-13. Failure modes
-14. Completion criteria and delivery
+1. Process
+2. Detailed guidance (A to J)
+3. Failure modes
+4. Completion criteria, hand-off, and delivery
 
-## 1. Purpose and scope
+## 1. Process
 
-The prompt is the final design specification written in language an image model can follow. It states the selected design and its implementation as what is seen; it does not replay how the design was reached. Prompt synthesis is translation, not invention. Nothing new may enter at this stage. If synthesis forces you to invent a concept, style, or element, the plan or execution had a gap: return to that phase.
+1. Confirm the entry condition: the Phase 5 gate passed and the decision commitments (SKILL.md section 11) are complete.
+2. Sort every element of the design into "in the prompt" or "stays out" using A.
+3. Choose a structure from concept to execution suited to the design's complexity (B).
+4. Write each clause with specificity, in relationships, and with space as a positive feature (C to E).
+5. Place text and describe logos and fixed assets exactly (F).
+6. Calibrate detail and length, describe flat artwork, set minimal exclusions, handle ratio limits (G, H).
+7. Apply the language policy and the multi-concept and multi-face rules (I).
+8. Run the prompt audit (J); on failure, return to the earliest cause.
+9. After the prompt passes the audit, compose the decision summary and notes and deliver per SKILL.md section 13.
 
-**Visual-effect test.** Every clause must change what the model draws or constrain the output (format, mandatory text, a necessary exclusion). If deleting a clause would not change the image, delete it.
+## 2. Detailed guidance
 
-**Stays out of the prompt.** Business strategy and positioning, brand story, audience analysis, environment analysis, research findings, the purpose or business goal of the piece, success criteria, alternatives considered, and any "because" or "in order to" justification. These inputs have already acted through the decisions. The prompt carries the *visible traits* they produced, never the inputs or the reasons.
+### A. What belongs in the prompt, and what does not
+**Stays out:** business strategy, brand story, audience and environment analysis, research findings, the piece's business purpose, success criteria, alternatives, and any "because" or "in order to" justification. These acted through decisions; the prompt carries the visible traits they produced. An impression word may remain only as a brief tone anchor that steers rendering and justifies nothing.
 
-**Goes in the prompt.** The type and format of the piece (orientation, aspect ratio, faces); what is depicted and how; composition and relationships; hierarchy expressed through relative scale and position; typography character and the mandatory text; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; the rendering technique; necessary exclusions.
+**Goes in:** type and format of the piece (orientation, aspect ratio, faces); what is depicted and how; composition and relationships; hierarchy through relative scale and position; typography character; mandatory text; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; rendering technique; necessary exclusions.
 
-**Convert intention into visible means.** When the plan states an intended impression, write the visible features that produce it. An impression word may remain only as a brief anchor for overall tone when it steers rendering and carries no justification. Environment and audience reach the prompt only as their consequences: a contrast treatment, a density, a quiet field, a color relationship.
+**Scale as proportion:** express size as proportions of the format and steps between elements. State emphasis only for the elements that hold it; avoid blanket emphasis words across many elements.
 
-**Convert scale into proportion.** Express size as proportions of the format and as steps between elements. Do not apply blanket emphasis words (huge, large, prominent, bold, eye-catching) across many elements; emphasis is stated for the elements that hold it, so the others read as subordinate and quiet space is preserved.
-**Entry condition.** Enter Phase 6 only after the Phase 5 gate has passed and the decision commitments in `SKILL.md` are complete. The decision summary sits outside the prompt: the prompt expresses the chosen directions as visible traits, and never carries the summary's rationale or alternatives.
+### B. Structure
+Order: piece and format; the overall visual approach expressed as what is seen; composition and hierarchy; hero and main visuals; mark; typography; color; background and unifying devices; supporting details; mandatory text placed in context. Adapt to complexity; do not force a rigid template. Keep one coherent style logic from first sentence to last.
 
-## 2. Assumptions about the target model
+### C. Specificity
+Precise design vocabulary and concrete visual description; no vague adjectives. A sentence that an illustrator could read two ways is not yet specific.
 
-Unless the user names a model, assume a capable current image model that follows natural-language descriptions, renders legible text reasonably well in moderate amounts, and responds to composition and style description. Do not use model-specific syntax, parameter flags, weighting notation, or tool commands unless the user requests a specific model that needs them. Include aspect ratio and orientation in plain language. If the required ratio is more extreme than the model supports (common for long banners), use the nearest ratio it supports, compose the design so it remains valid at that ratio with no unplanned empty zones, and mention the substitution in an outside note.
+### D. Relationships, not inventories
+Describe relative prominence, grouping, contrast, integration, spatial relationships, and how identity, message, and supporting visuals interact. Position by relationship and broad region, not coordinates.
 
-Models differ in strength. Assume that fine small text, long strings of copy, complex logos, intricate hands, and crowded scenes are high-risk. Design the description to make high-risk content easier: group text, state it plainly, and prefer clear, bold forms where reliability matters.
+### E. Space as a design feature
+Image models fill space unless told otherwise. Describe the outer margin, isolation around key elements, and resting fields as positive parts of the design: where they are, roughly how much of the format they take, what they frame, and that they stay quiet and uncluttered. Add no filler decoration to relieve emptiness. This is designed negative space, not a placeholder.
 
-## 3. Language policy
+### F. Text, logos, and fixed assets
+- **Mandatory text** is included verbatim in quotation marks, once, tied to position and typographic role. Dense text (menus, price lists) is grouped in reading order, with row behavior described once. Prices and contacts get clarity proportionate to their stage, not oversize. State that the piece contains only the specified text when hallucinated text is a risk. Never omit mandatory text to shorten the prompt; flag volume risk in the notes.
+- **A supplied logo** is reproduced as provided (by reference if the model accepts images, otherwise described faithfully) and never replaced by an invention.
+- **A new mark** is described by form class, geometry, silhouette, color, boundary type, personality device, relationship to the wordmark, and separation from adjacent type, concretely enough to be drawn the same way each time.
 
-- Write the prompt in English by default, because descriptive precision usually transfers better. Keep every piece of on-piece text in its original language, exactly as given.
-- If the user asks for a prompt in another language, or names a model that performs better in another language, comply.
-- Reply to the user in the language they wrote in.
-- Do not translate user-specified text unless asked. Do not mix instruction language into the on-piece text.
+### G. Detail and length
+No pixel measurements, coordinates, or exact angles unless essential. Include exact dimensions, ratios, and required text when essential. Length is proportional to complexity: every sentence carries a decision or a relationship. If a required ratio exceeds what the model supports, use the nearest supported ratio, keep the design valid at it, and flag it in the notes.
 
-## 4. Structuring the prompt
+### H. Flat artwork and exclusions
+Describe finished flat artwork unless a mockup is requested or the physical form is itself the deliverable. No crop marks, bleed guides, or annotations unless requested. Express desired traits positively. Allow minimal, specific exclusions only for: explicit user exclusions; high-probability failures that matter; cultural or factual risks.
 
-Order the content from concept to execution, adapting to complexity:
+### I. Language, multiple concepts, and faces
+Write the prompt in English by default, keeping on-piece text verbatim in its original language, unless the user requests otherwise or names a model that performs better in another language. Reply in the user's language. For several concepts, write one complete standalone prompt each, differing in underlying creative approach. For several faces, write one standalone prompt each, restating the shared identity in the same words.
 
-1. **The piece and its format**: what kind of piece it is, orientation, aspect ratio, and number of faces. No statement of purpose, audience, or business context.
-2. **The overall visual approach**: the core idea and style direction expressed as what is seen, in a form the model can visualize.
-3. **Composition and hierarchy**: the spatial organization and reading order, with relative scale and relationships.
-4. **Hero and main visuals**: what they are and how they are treated.
-5. **Logo mark and brand identifier**: construction, placement, and relationship to the name.
-6. **Typography**: the role and character of each text category and where it lives.
-7. **Color treatment**: strategy and how it distributes across the composition.
-8. **Background and unifying devices**: surface, texture, tone, and connections between zones.
-9. **Supporting details and finishing**: only the ones that matter.
-10. **All mandatory text**, placed in context, or collected in a clearly organized section, whichever communicates the arrangement more clearly.
+### J. Prompt audit
+Check: plan fidelity; mandatory content verbatim and placed; no contradictions; no generic drift; no unsupported claims; exclusions respected; standalone and readable; the visual-effect test on every sentence; space and mark described as concrete positive features. The full audit is in `quality_control.md`.
 
-Do not force this order into rigid headings if prose communicates the relationships better. Simple pieces may be one or two compact paragraphs; dense pieces may need clear segments.
-
-## 5. Writing for image models
-
-- **Describe what is seen.** Use concrete visual terms for form, composition, material, and light, not abstract aspirations. A phrase must change what the model draws.
-- **Use precise design vocabulary** where it has a shared meaning, and plain description where it does not. Replace vague adjectives with the observable trait behind them.
-- **Describe relationships, not inventories.** State what dominates and what supports, how elements overlap or align, how groups are separated, how the eye travels, and how brand mark, headline, and imagery relate in prominence. A list of attractive objects does not make a design.
-- **Encode hierarchy through relative language**: larger than, nested within, set apart from, anchored to, balanced against. Hierarchy lives in relationships.
-- **Retain the distinctive decisions**: the idea, the mark's construction, the hero's treatment, the typographic character, the unifying device. These are what prevent a generic output. Cut generic filler before cutting distinctive specifics.
-- **Keep style language coherent.** Use one consistent style logic. Adding many unrelated style terms invites a muddled average.
-- **Express space as a design feature.** Image models fill space unless told otherwise. Describe the outer margin, the isolation around the key elements, and the resting fields as positive parts of the design: where they are, roughly how much of the format they take, and what they frame. Say that these areas stay quiet and uncluttered. Do not add filler decoration to relieve emptiness. This is designed negative space, not a placeholder.
-- **State physical qualities only when they alter the picture**, limited to the surface character and finish that define the style.
-- **Avoid pixel measurements, coordinates, and exact angles** unless essential. Position by relationship and broad region when placement matters.
-
-## 6. Handling text on the piece
-
-Text accuracy is the most failure-prone area. Protect it.
-
-- **Include all mandatory text, verbatim**, inside quotation marks so the model recognizes it as literal. Preserve capitalization, punctuation, numerals, price formatting, and contact formatting.
-- **Say where each text item lives and what role it plays.** Tie each string to a position and a typographic treatment.
-- **Say each text string once.** Duplication creates doubled or garbled text.
-- **State that the piece contains only the specified text** and no additional words, invented slogans, filler copy, or pseudo-text, when the risk of hallucinated text is significant. Use plain positive phrasing where possible.
-- **Group dense text**: for menus, price lists, and catalogs, structure items into labeled groups in reading order, and describe the consistent row or column behavior (alignment of item and price, separation between groups) once rather than repeating it per item.
-- **Make high-stakes text clear, not oversized**: prices, phone numbers, and handles get crisp rendering, strong contrast, unambiguous spacing, and a size proportionate to the reading stage that uses them. Do not inflate them beyond the hierarchy.
-- **Do not omit mandatory text to shorten the prompt.** If volume truly exceeds what models render reliably, keep all of it in the prompt and mention the risk in one outside line, instead of silently dropping content.
-- **Optional text** is included only if the design has room for it without damaging hierarchy.
-- Specify language and diacritic-free or special characters as given. Do not add characters the user did not provide.
-
-## 7. Handling logos and fixed assets
-
-- **Supplied logo and the model accepts reference images**: instruct the model to reproduce the supplied logo exactly as provided, specify its position and relative scale, and state that it must not be redrawn or altered.
-- **Supplied logo described textually, or model cannot ingest images**: describe the logo's structure, shapes, colors, and lettering faithfully and concretely. If its complexity makes faithful reproduction unrealistic, say so in one outside line; do not substitute an invented logo silently.
-- **New mark**: describe the mark as decided in Phase 4: its form class, geometry, silhouette, color, boundary type, and the personality device, stated concretely enough to be drawn the same way each time, and its relationship to the wordmark. Never reduce it to "a logo" or to a styled name.
-- **Mark distinction**: describe the mark in terms of its form class, mass, color role, and the clear space or container that separates it from adjacent type, so the model renders it as a distinct object and not as more lettering.
-- Do not leave a blank area reserved for a logo to be added later.
-- Supplied photographs, brand colors, and fonts follow the same principle: use as given, describe precisely, never replace.
-
-## 8. Flat artwork versus staged scenes
-
-A print design prompt should normally describe the **finished flat artwork** as the print file would appear: full frame, edge to edge, viewed straight on, without a surrounding room, hand, table, shadow beneath the sheet, or perspective, because the user needs the design itself.
-
-Describe a staged scene or mockup only if the user explicitly wants a presentation mockup, or if the physical form of the piece is itself part of the deliverable. In that case describe the form plainly and keep the design legible on its surfaces.
-
-Do not add crop marks, bleed guides, color bars, rulers, or technical annotations to the artwork unless requested.
-
-## 9. Exclusions
-
-Image models can respond poorly to long negative lists, because mentioning an unwanted thing can invite it. Therefore:
-
-- Express desired traits positively whenever possible. State what the design is instead of listing what it is not.
-- Add a short exclusion clause only for: explicit user exclusions, high-probability model failures that matter for this piece (invented extra text, watermarks, surrounding mockup scenery, border artifacts), and cultural or factual risks.
-- Keep exclusions minimal and specific.
-
-Do not carry the internal AI-slop diagnostics (`quality_control.md`) into the prompt as a blanket negative list. They are applied during design, not recited to the model.
-
-## 10. Level of detail and length
-
-Length is proportional to the design's complexity and distinctiveness. Every sentence should carry a decision or a relationship. Compact means few wasted words, not few details.
-
-- Include the specifics that determine identity, hierarchy, and distinctiveness.
-- Omit adjectives that do not change the image, restatements of the same instruction, rationale, and any instruction about what to do after generation.
-- Rigid placement, pixel-level detail, and excessive micro-instructions reduce the model's ability to compose well. Use region and relationship language instead.
-- Include exact dimensions, ratio, and orientation when the brief requires them.
-
-If the draft reads like a mood board of adjectives, it lacks decisions. If it reads like a coordinate sheet, it is over-specified. The target is the way a skilled art director briefs a skilled illustrator: clear intent, firm on what matters, free on the rest.
-Check for context padding: sentences about the business, its customers, the setting, or the intent that do not alter the image are removed. What remains should be only what an illustrator would need to paint the piece.
-
-## 11. Multi-face pieces and multiple concepts
-
-- **Multi-face**: write one complete prompt per face. Each prompt must stand alone, restating the shared identity (mark construction, palette logic, typographic voice, style) in the same words so that faces match. Make the face's role clear. Do not refer to "the other side."
-- **Multiple concepts**: write one complete prompt per concept. Each must derive from a different core idea, differing structurally as defined in `03_design_plan.md`. Label them minimally for the user's convenience outside the prompts. Do not produce variants that differ only in color or decoration.
-
-## 12. Consistency and fidelity audit
-
-Before delivery, reread the prompt as the model would, and as the user would.
-
-1. **Plan fidelity**: does it express the core idea, style, hero, mark, typography, color, background, and hierarchy as decided? Is anything added that was not in the plan?
-2. **Mandatory content**: is every mandatory item present, verbatim, and placed? Check each string against the Brief Ledger.
-3. **Contradictions**: scan for conflicting statements about style, color, density, hierarchy, and placement. Resolve at the source.
-4. **Generic drift**: have distinctive specifics been softened into safe generalities? Restore them.
-5. **Unsupported claims**: has any claim, quantity, or label slipped in that the user did not provide?
-6. **Exclusions**: are user exclusions respected and the exclusion clause minimal?
-7. **Standalone check**: no reference to analysis, alternatives, earlier phases, or user conversation; no placeholders or manual completion.
-8. **Readability**: does it read as a clear, ordered, usable instruction? Could someone who has never seen the brief produce the intended design?
-9. **Prompt focus**: apply the visual-effect test to every sentence. No strategy, audience or environment commentary, rationale, purpose statements, or blanket emphasis words remain; scale is stated as proportion and hierarchy.
-10. **Space and mark**: margins, isolation zones, and resting fields are described as positive features with approximate proportions, and the identifier is described with its personality device as a distinct object.
-
-## 13. Failure modes
+## 3. Failure modes
 
 | Failure | Detection | Correction |
 |---|---|---|
-| Adjective soup | Descriptors that do not alter the image | Replace with observable traits |
-| Inventory prompt | Lists of objects with no relationships | Add hierarchy, grouping, and relational language |
-| Lost distinctiveness | Unique decisions replaced with category defaults | Restore specifics |
-| Text corruption | Strings duplicated, paraphrased, or altered | Restore verbatim, once, with role and position |
-| Over-specification | Coordinates, pixel sizes, exact angles | Use region and relationship language |
-| Contradictory style terms | Competing aesthetics | Reduce to one logic |
-| Negative-list bloat | Long "no X, no Y" sections | Positive phrasing plus minimal exclusions |
-| Meta-leak | Phrases explaining design reasoning | Remove |
-| Placeholder leak | Blank areas or "add later" language | Resolve in the design |
-| Mockup contamination | Scene or surface surrounding the artwork | Describe flat artwork |
-| Rationale leak | Phrases of the form "to convey", "because", "in order to" | Replace with the visible trait or delete |
-| Context padding | Business, customer, or setting description that changes nothing drawn | Delete |
-| Blanket emphasis | Many elements described as large, bold, or prominent | State emphasis only for the elements that hold it |
-| Oversized text by instruction | Prices or contacts described as huge | Describe clarity at their reading stage |
-| Space omitted | Prompt describes only objects, so the model fills every area | Describe margins, isolation, and resting fields as designed features |
+| Rationale in the prompt | "because", "in order to", audience or strategy language | Delete; keep the visible trait |
+| New idea introduced | A clause with no source in the specification | Remove, or return to the responsible phase |
+| Mandatory text altered, dropped, or repeated | Mismatch against the ledger's verbatim strings | Restore verbatim, once, with position and role |
+| Blanket emphasis | Intensifiers on many elements | Keep emphasis only where the specification holds it |
+| Mark described as a name in a typeface | No geometry, device, or separation stated | Describe form class, geometry, device, boundary, separation |
+| Space omitted | No margin, isolation, or resting field stated | Add as positive features with proportions |
+| Mockup by accident | Scene, perspective, or surroundings described | Return to flat artwork |
+| Placeholders or blank zones | Any region left for the user to fill, or a bracketed stand-in for content | Resolve in the responsible phase; deliver a complete design or omit the item and note it |
+| Workflow output leaking | Analysis, alternatives, or process in the reply beyond summary, prompt(s), and allowed notes | Cut it, unless the user asked for analysis |
+| Filler adjectives | A clause fails the visual-effect test | Delete |
+| Prompt too long or too short | Padding, or distinctive decisions lost | Cut filler first; restore specifics |
+| Summary and prompt disagree | A chosen direction is not visible in the prompt | Fix the cause; the summary follows the audited prompt |
 
-## 14. Completion criteria and delivery
+## 4. Completion criteria, hand-off, and delivery
 
-The prompt is complete when it passes the audit in section 12 and the prompt audit in `quality_control.md`. Deliver it in a single code block, after the decision summary. Add outside the block only the brief notes defined in the output contract of `SKILL.md`.
+Complete when the phase card's "Before leaving" check holds and the audit in `quality_control.md` passes. Phase 6 is not summarized. **Hand-off:** the audited prompt(s) and the Design Log go to the reply. Deliver per SKILL.md section 13: decision summary, then each prompt in its own code block, then any short notes.
