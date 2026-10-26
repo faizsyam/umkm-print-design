@@ -1,5 +1,24 @@
 # Phase 5: Design Execution
 
+## Phase card
+
+**Principles in force**: 1 Whole-system thinking: the Design Log governs every placement. 2 Structured exploration: the spatial strategy is a consequential decision. 6 Intentional restraint: space is allocated before content. 7 Internal consistency. 9 Iterate at the root: a failed review returns to the cause. 10 Effort follows impact.
+
+**Inputs**: element system, Design Plan, Environment Profile, mandatory content, space intent.
+
+**Required decisions**
+1. The one-sentence message.
+2. Every content item assigned to a reading stage.
+3. The space plan: margins, isolation zones, separations, resting fields, as proportions, decided before placement.
+4. The spatial strategy, from at least three candidates.
+5. Hierarchy and placement of every element and text item.
+6. Backgrounds, transitions, and print-condition checks.
+7. The whole-composition review.
+
+**Outputs**: Execution Specification; reading-stage and space decisions and strategy candidates for the decision summary.
+
+**Before leaving**: re-read the principles above; confirm the space plan was decided first and the fill test passed.
+
 ## Contents
 1. Purpose and scope
 2. Establishing visual hierarchy
@@ -33,27 +52,34 @@ Test: can you describe the piece by the order of what the eye finds? If the orde
 
 ## 3. Scale, reading stages, and density
 
-Visibility requirements guide prioritization. They do not entitle every element to be large. Crowding comes from treating "must be legible" as "must be big" for all content at once.
+Visibility requirements guide prioritization; they do not entitle every element to be large. Crowding has three sources: treating "legible" as "big" for all content at once, filling area because it is available, and accepting elements upstream for which no space was ever reserved. This section fixes the order: reading stages first, the space plan second, sizes third, placement last.
 
-**Assign content to reading stages.** Using the viewing stages from Phase 2, place every content item at the stage where the viewer needs it:
+**1. Assign content to reading stages.** Using the viewing stages from Phase 2, place every content item at the stage where the viewer needs it:
 - **Glance**: what must register in the shortest realistic exposure. Usually the identifier and the single primary message, often the hero. This tier is small in number and is the only one sized for the farthest distance.
 - **Approach**: what holds interest as the viewer comes closer: the offer, the differentiator, the structure of categories.
 - **Close inspection**: what is consulted deliberately: descriptions, itemized detail, small print, contact and ordering information.
 
 Assign by when the viewer needs the item, not by how important the owner feels it is. Importance to the business can raise an item's emphasis within its stage; it does not move it to an earlier stage. A piece may have only one stage, in which case the tiers become levels within it.
 
-**Treat legibility as a minimum.** For each tier, the distance of its stage, the material, the light, and the contrast set a smallest workable size. Aim for that minimum plus whatever extra the hierarchy requires. Size beyond that must buy emphasis, and emphasis only works when most elements do not have it.
+**2. Decide the space plan before placing anything.** Space is a design material, allocated first, from the space intent set in Phase 3, as proportions of the format:
+- **Outer margin**: generous and consistent. It scales with the format, so large formats need proportionally wide margins. Content does not approach the edge unless a deliberate bleed is part of the concept.
+- **Isolation zones**: protected space around the glance-stage content, the hero, and the mark, sized so each registers on its own.
+- **Separations**: space between content groups, enough that each group reads as one unit. Space is the first separator, ahead of rules and boxes.
+- **Resting fields**: one or more areas that stay quiet, positioned where they support the eye's path, not scattered as leftovers.
 
-**Set an area budget.** Relate the volume of content at each tier to the physical area and to the sizes the tiers require.
-- Decide the intended share of quiet space before placing content, from the content volume and the positioning. A premium or calm positioning, a very distant glance, and a sparse offer all argue for more; a catalog-like piece argues for less but never for none.
-- If tiered content needs more area than the budget allows, **triage**: demote items to a later stage, group them, simplify structure, or omit optional content. Never delete mandatory content, and never shrink a tier below its minimum or inflate all tiers to fill the space.
-- Larger media do not automatically justify larger elements. A larger area either serves a farther viewer, in which case the glance tier grows, or hosts more content at the same tier sizes. Decide which applies.
+Content is then placed into what remains. If it does not fit, change the content, the groupings, or the sizes. Never change the space plan to make room.
 
-**Use space as visibility.** Isolation raises glance-stage visibility more reliably than size. Rest areas also separate tiers and let the hierarchy read.
+**3. Respect the medium's scale.** A larger medium has more area but not a different viewer. It either serves a farther viewer, in which case the glance tier grows and everything else stays modest, or it lets the same content breathe. It rarely justifies more elements or proportionally larger everything. When the content seems too small for the area, the answers are a bolder single idea, a larger glance tier, or more space, never more items to fill it. The urge to fill is a signal to re-check the plan, not an instruction.
 
-**Express scale as relationships.** Define sizes as proportions of the area and as steps between tiers, so the result is a hierarchy rather than a set of independent large sizes.
+**4. Treat legibility as a minimum.** For each tier, the distance of its stage, the material, the light, and the contrast set a smallest workable size. Aim for that minimum plus whatever extra the hierarchy requires. Size beyond that must buy emphasis, and emphasis only works when most elements do not have it.
 
-**Check for proportion.** For each element ask which stage needs it and what its minimum is. If it is much larger than that minimum and is neither the hero nor the glance message, reduce it.
+**5. Budget the content.** Count the groups and items at each tier. The number of competing groups at one stage should be what the viewer can parse in that stage's time. If tiered content needs more area than the space plan leaves, **triage**: demote items to a later stage, group them, simplify structure, or omit optional content. Never delete mandatory content, never shrink a tier below its minimum, never inflate all tiers to fill the space, and never raid the space plan.
+
+**6. Use space as visibility.** Isolation raises glance-stage visibility more reliably than size. Rest areas also separate tiers and let the hierarchy read.
+
+**7. Express scale as relationships.** Define sizes as proportions of the area and as steps between tiers, so the result is a hierarchy rather than a set of independent large sizes.
+
+**8. Check.** For each element, name its stage and its minimum; if it is much larger than that minimum and is neither the hero nor the glance message, reduce it. For each quiet area, name the job it does; if it has none, reassign it in the plan, and do not fill it with an item.
 
 ## 4. Developing composition and layout
 
@@ -64,13 +90,13 @@ Decide:
 - **Zones and groupings**: which content belongs together by function, which must be separated, and how groupings are made evident (proximity, alignment, shared treatment, containment).
 - **Scale relationships**: the ratio between dominant and supporting elements, large enough to create clarity, not so extreme that supporting content becomes unreadable.
 - **Alignment and structure**: the underlying order, whether strict, relaxed, or deliberately broken, that gives the layout its logic. It should be felt, not necessarily visible.
-- **Negative space**: where the eye rests and what that rest communicates. It is allocated from the space budget in section 3 before content is placed, and it is not leftover area. It isolates glance-stage content so it registers, separates reading tiers, and sets the piece's positioning. Distinguish intentional emptiness from unplanned gaps.
+- **Negative space**: where the eye rests and what that rest communicates. It is the space plan from section 3, allocated before content is placed, and never leftover area. It isolates glance-stage content so it registers, separates reading tiers, and sets the piece's positioning. Distinguish intentional emptiness from unplanned gaps.
 - **Density and rhythm**: how often emphasis recurs, how information is paced, and whether the density suits the viewing time.
 - **Directional flow**: the path the eye takes from first to last element, helped by orientation, gaze or gesture of depicted figures, lines, alignment, and weight distribution.
 - **Foreground and background relationship**: depth, overlap, and containment.
 - **Aspect ratio behavior**: extreme horizontal or vertical formats need specific strategies for flow and scale. A tall narrow format reads in sequence; a very wide format reads as a band and tolerates distance; a near-square format tolerates central organization but risks static composition.
 - **Behavior relative to the landscape**: judge density, scale, rhythm, and finish against what surrounds the piece. What counts as loud or quiet is set by the neighbors, so choose the composition's character by how it departs on an open dimension while remaining appropriate to the place.
-- **Edge behavior**: whether elements bleed, are contained, or sit within a margin, and how important content stays safe from edges and trimming.
+- **Edge behavior**: whether elements bleed, are contained, or sit within a margin. The outer margin comes from the space plan and scales with the format. Important content stays clear of trimming edges, and nothing crowds the margin unless a deliberate bleed is part of the concept.
 
 Avoid a universal grid, a fixed number of zones, or a default center-aligned stack. If the composition could be applied to any business by swapping text, it has not been designed.
 
@@ -131,7 +157,7 @@ Evaluate the assembled design from each team perspective, in the frame of the Co
 - **Detail**: do the background and micro-details enhance without distracting?
 - **Specificity**: is it tailored to this business and print context?
 - **Authenticity**: does it avoid generic, templated, overdecorated, or AI-typical appearance?
-- **Proportion**: is every element sized to its reading stage, with only the glance-stage content and the hero given real dominance, and is the quiet space what the budget intended?
+- **Proportion and space**: is every element sized to its reading stage, with only the glance-stage content and the hero given real dominance? Does the realized space match the space plan, and does every quiet area have a job? Run the fill test: if adding something to a quiet area seems tempting, name the job the area does before deciding.
 - **Context**: placed among its actual neighbors and light, does it fit the place and still separate from the landscape on the intended dimension?
 
 Use the tests and severity mapping in `quality_control.md`. If a criterion fails, return to the earliest cause (hierarchy, element system, plan) rather than adjusting the surface.
@@ -154,10 +180,14 @@ Use the tests and severity mapping in `quality_control.md`. If a criterion fails
 | Density by triage failure | Content volume exceeds area and elements shrink or crowd | Demote, group, or restructure; never delete mandatory content |
 | Mark absorbed by type | Mark and neighboring text share form class | Apply distinction mechanisms and give the mark its own region |
 | Layout blind to context | Composition would work unchanged in another setting | Rework against the Environment Profile |
+| Fill instinct | Area filled because it was available; more items on larger media | Reassign the space; strengthen the glance tier or the single idea |
+| Margin starvation | Content close to the edges | Restore the outer margin from the space plan |
+| Space raided | Plan reduced to make content fit | Triage the content instead |
 
 ## 11. Completion criteria and hand-off
 
 Complete when the Execution Specification states: the one-sentence message; the hierarchy and reading order; the spatial organization and groupings; each element's scale, weight, color, treatment, and position relative to others; background and transition behavior; how the design responds to the physical conditions; and the review has passed.
 
 Hand-off to Phase 6: the Execution Specification, the exact mandatory text and where each item sits, and a short list of the traits that make the design distinctive and must not be lost.
-Every content item is assigned to a reading stage, each tier is sized to its stage minimum plus hierarchy needs, and the intended share of quiet space is realized.
+The space plan was decided before placement, every content item is assigned to a reading stage, each tier is sized to its stage minimum plus hierarchy needs, and the realized margins, isolation zones, separations, and resting fields match the plan.
+Record for the decision summary the reading-stage assignment, the intended share of quiet space, and the spatial strategies compared with the reason for the choice.

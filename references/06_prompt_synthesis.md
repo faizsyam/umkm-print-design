@@ -1,5 +1,23 @@
 # Phase 6: Prompt Synthesis
 
+## Phase card
+
+**Principles in force**: 8 Fidelity to the brief: every mandatory string verbatim, once. 7 Internal consistency: no contradictions, nothing new. 10 Effort follows impact: keep the distinctive decisions, cut the filler. Also the Non-negotiables and Output contract in `SKILL.md`.
+
+**Inputs**: Execution Specification, Design Log, mandatory text, decision commitments.
+
+**Required decisions**
+1. The prompt's structure, from concept to execution.
+2. Placement and role of every mandatory text string.
+3. How the logo or fixed assets are described.
+4. How the quiet space and margins are expressed as positive design features.
+5. What stays out of the prompt.
+6. The audit.
+
+**Outputs**: the final prompt(s).
+
+**Before leaving**: re-read the principles above; confirm the prompt matches the decision summary.
+
 ## Contents
 1. Purpose and scope
 2. Assumptions about the target model
@@ -22,13 +40,14 @@ The prompt is the final design specification written in language an image model 
 
 **Visual-effect test.** Every clause must change what the model draws or constrain the output (format, mandatory text, a necessary exclusion). If deleting a clause would not change the image, delete it.
 
-**Stays internal.** Business strategy and positioning, brand story, audience analysis, environment analysis, research findings, the purpose or business goal of the piece, success criteria, alternatives considered, and any "because" or "in order to" justification. These inputs have already acted through the decisions. The prompt carries the *visible traits* they produced, never the inputs or the reasons.
+**Stays out of the prompt.** Business strategy and positioning, brand story, audience analysis, environment analysis, research findings, the purpose or business goal of the piece, success criteria, alternatives considered, and any "because" or "in order to" justification. These inputs have already acted through the decisions. The prompt carries the *visible traits* they produced, never the inputs or the reasons.
 
 **Goes in the prompt.** The type and format of the piece (orientation, aspect ratio, faces); what is depicted and how; composition and relationships; hierarchy expressed through relative scale and position; typography character and the mandatory text; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; the rendering technique; necessary exclusions.
 
 **Convert intention into visible means.** When the plan states an intended impression, write the visible features that produce it. An impression word may remain only as a brief anchor for overall tone when it steers rendering and carries no justification. Environment and audience reach the prompt only as their consequences: a contrast treatment, a density, a quiet field, a color relationship.
 
 **Convert scale into proportion.** Express size as proportions of the format and as steps between elements. Do not apply blanket emphasis words (huge, large, prominent, bold, eye-catching) across many elements; emphasis is stated for the elements that hold it, so the others read as subordinate and quiet space is preserved.
+**Entry condition.** Enter Phase 6 only after the Phase 5 gate has passed and the decision commitments in `SKILL.md` are complete. The decision summary sits outside the prompt: the prompt expresses the chosen directions as visible traits, and never carries the summary's rationale or alternatives.
 
 ## 2. Assumptions about the target model
 
@@ -68,6 +87,7 @@ Do not force this order into rigid headings if prose communicates the relationsh
 - **Encode hierarchy through relative language**: larger than, nested within, set apart from, anchored to, balanced against. Hierarchy lives in relationships.
 - **Retain the distinctive decisions**: the idea, the mark's construction, the hero's treatment, the typographic character, the unifying device. These are what prevent a generic output. Cut generic filler before cutting distinctive specifics.
 - **Keep style language coherent.** Use one consistent style logic. Adding many unrelated style terms invites a muddled average.
+- **Express space as a design feature.** Image models fill space unless told otherwise. Describe the outer margin, the isolation around the key elements, and the resting fields as positive parts of the design: where they are, roughly how much of the format they take, and what they frame. Say that these areas stay quiet and uncluttered. Do not add filler decoration to relieve emptiness. This is designed negative space, not a placeholder.
 - **State physical qualities only when they alter the picture**, limited to the surface character and finish that define the style.
 - **Avoid pixel measurements, coordinates, and exact angles** unless essential. Position by relationship and broad region when placement matters.
 
@@ -89,7 +109,7 @@ Text accuracy is the most failure-prone area. Protect it.
 
 - **Supplied logo and the model accepts reference images**: instruct the model to reproduce the supplied logo exactly as provided, specify its position and relative scale, and state that it must not be redrawn or altered.
 - **Supplied logo described textually, or model cannot ingest images**: describe the logo's structure, shapes, colors, and lettering faithfully and concretely. If its complexity makes faithful reproduction unrealistic, say so in one outside line; do not substitute an invented logo silently.
-- **New mark**: describe its construction as decided in Phase 4: the form, geometry, silhouette, color, boundary type, and relationship to the wordmark, in a way the model can draw consistently.
+- **New mark**: describe the mark as decided in Phase 4: its form class, geometry, silhouette, color, boundary type, and the personality device, stated concretely enough to be drawn the same way each time, and its relationship to the wordmark. Never reduce it to "a logo" or to a styled name.
 - **Mark distinction**: describe the mark in terms of its form class, mass, color role, and the clear space or container that separates it from adjacent type, so the model renders it as a distinct object and not as more lettering.
 - Do not leave a blank area reserved for a logo to be added later.
 - Supplied photographs, brand colors, and fonts follow the same principle: use as given, describe precisely, never replace.
@@ -142,6 +162,7 @@ Before delivery, reread the prompt as the model would, and as the user would.
 7. **Standalone check**: no reference to analysis, alternatives, earlier phases, or user conversation; no placeholders or manual completion.
 8. **Readability**: does it read as a clear, ordered, usable instruction? Could someone who has never seen the brief produce the intended design?
 9. **Prompt focus**: apply the visual-effect test to every sentence. No strategy, audience or environment commentary, rationale, purpose statements, or blanket emphasis words remain; scale is stated as proportion and hierarchy.
+10. **Space and mark**: margins, isolation zones, and resting fields are described as positive features with approximate proportions, and the identifier is described with its personality device as a distinct object.
 
 ## 13. Failure modes
 
@@ -161,7 +182,8 @@ Before delivery, reread the prompt as the model would, and as the user would.
 | Context padding | Business, customer, or setting description that changes nothing drawn | Delete |
 | Blanket emphasis | Many elements described as large, bold, or prominent | State emphasis only for the elements that hold it |
 | Oversized text by instruction | Prices or contacts described as huge | Describe clarity at their reading stage |
+| Space omitted | Prompt describes only objects, so the model fills every area | Describe margins, isolation, and resting fields as designed features |
 
 ## 14. Completion criteria and delivery
 
-The prompt is complete when it passes the audit in section 12 and the prompt audit in `quality_control.md`. Deliver it in a single code block. Add outside the block only the brief notes defined in the output contract of `SKILL.md`.
+The prompt is complete when it passes the audit in section 12 and the prompt audit in `quality_control.md`. Deliver it in a single code block, after the decision summary. Add outside the block only the brief notes defined in the output contract of `SKILL.md`.

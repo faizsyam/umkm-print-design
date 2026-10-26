@@ -1,5 +1,13 @@
 # Quality Control
 
+## Phase card
+
+**Principles in force**: 9 Iterate at the root: route each problem to its cause. 7 Internal consistency. 1 Whole-system thinking: review the assembled design, not parts. 10 Effort follows impact: spend review effort where decisions are consequential.
+
+**Use**: consult the matching gate at the end of every phase; run the composition review after Phase 5; run the prompt audit before delivery.
+
+**Required**: no gate skipped; each failure routed through section 8; revisions capped as in `SKILL.md`.
+
 ## Contents
 1. Purpose and scope
 2. Three levels of review
@@ -31,11 +39,12 @@ A phase is not finished until its gate passes. The gates below are the short for
 | Phase | Gate |
 |---|---|
 | 1 Brief | Every content item classified by necessity and provenance; mandatory text verbatim; fixed assets and exclusions recorded; blocking gaps resolved or asked; no invented facts |
-| 2 Analysis | Communication Problem stated; Environment Profile (landscape, competing stimuli, light, audience behavior, viewing stages, departure and fit dimensions) built; tensions listed; differentiation strategy chosen; every design implication traceable to a finding or the brief; research limited to decisions it informed |
-| 3 Design Plan | Core idea, style, and hero each chosen from at least three distinct candidates, evaluated and engineered; core idea is specific, visual, generative, truthful, functional; impression expressed through the environment; brand design and theme separated; swap, category, and context-swap tests passed |
-| 4 Design Elements | Color strategy, typographic voice, and mark each chosen from at least three candidates (mark fixed if supplied); color judged against the surrounding landscape; mark distinct from surrounding typography by named mechanisms; each element has a role and passes the removal test; consistent rendering treatment |
-| 5 Execution | One-sentence message; every item assigned to a reading stage; tiers sized to stage minimums plus hierarchy needs; intended quiet space realized; spatial strategy chosen from three candidates; mark region secured; context-fit review passed |
+| 2 Analysis | Communication Problem stated; Environment Profile built (landscape, competing stimuli, light, audience behavior, viewing stages, departure and fit dimensions); Visual source inventory names the apparent associations and lists deeper true specifics; tensions listed; differentiation strategy chosen from weighed options; every design implication traceable to a finding or the brief; research limited to decisions it informed |
+| 3 Design Plan | Apparent option named; core idea, style, and hero each chosen from at least three candidates (at most one apparent, one from beyond the apparent), evaluated in a different order than generated, runner-up named, decisive criterion stated; impression expressed through the environment; space intent set; swap, category, apparent-choice, and context-swap tests passed |
+| 4 Design Elements | Color strategy and typographic voice chosen from at least three candidates; mark a supplied fixed asset or a new mark developed through the extended protocol with a personality device, never a styled name; mark distinct from surrounding typography by named mechanisms; elements fit the space intent; each element has a role and passes the removal test; consistent rendering treatment |
+| 5 Execution | One-sentence message; every item assigned to a reading stage; space plan decided before placement (margins, isolation zones, separations, resting fields); tiers sized to stage minimums plus hierarchy needs; spatial strategy chosen from three candidates; mark region secured; fill test and context-fit review passed |
 | 6 Prompt | Prompt audit and release checklist passed, including the prompt-focus test |
+No gate may be skipped, and a phase is entered only after the previous gate has passed. A gate that passes without an objection raised or without its required decisions recorded has not been applied.
 
 ## 4. Diagnostic tests
 
@@ -55,7 +64,11 @@ These tests are used wherever relevant. They are tools of judgment, not a requir
 - **Breathing test**: the quiet space matches the intended share; removing a small element does not simply invite another to fill the gap.
 - **Environment test**: place the design among its actual neighbors and light. It must fit the place and separate on the intended dimension.
 - **Context-swap test**: the design would not be equally right in a different setting.
-- **Candidate test**: each consequential decision shows three candidates that would look different in the real setting, not variants of one idea.
+- **Candidate test**: each consequential decision shows three candidates that would look different in the real setting, with at most one apparent and at least one from beyond the apparent.
+- **Anchoring test**: remove the leading candidate. If the best remaining candidate would have been chosen and the leader's margin over it cannot be stated as one decisive criterion, the choice was anchored.
+- **Apparent-choice test**: would a stranger predict the visual idea from the category, culture, or place alone? If yes, a stated decisive criterion must justify it.
+- **Mark memory test**: the mark can be described in one true sentence and redrawn from memory, and removing its personality device returns it to plain lettering.
+- **Fill test**: for each quiet area, name its job. An area with no job is reassigned in the plan, never filled with an item.
 - **Prompt-focus test**: every prompt clause changes the image or constrains the output; deleting it would alter the result.
 - **Single-voice test**: do the typography, illustration, color, and decoration appear to come from one designer with one intention?
 - **Restraint test**: remove the weakest decorative element; if the design improves, leave it out.
@@ -87,7 +100,7 @@ Diagnose by mechanism, not by naming forbidden looks. Apply these during design 
 - **Reflexive symmetry and centering**: composition chosen by default rather than by content.
 - **Inconsistent rendering**: mixed styles, light directions, or finish levels across elements.
 - **Stock hero**: a generic subject with no tie to the business's actual product or story.
-- **Fake culture**: heritage or regional signals added as flavor without connection.
+- **Emblem shortcut and fake culture**: the first-association emblem of a culture, place, or category used as flavor without a real connection, in place of truer lived specifics.
 - **Style stacking**: many aesthetic labels combined to appear sophisticated, producing an average.
 - **Malformed content**: garbled lettering, invented words, impossible object structures.
 - **Crowded dominance**: many elements sized for the farthest distance, leaving no hierarchy or rest.
@@ -96,6 +109,8 @@ Diagnose by mechanism, not by naming forbidden looks. Apply these during design 
 - **Unchallenged default**: the obvious aesthetic or first idea adopted without competing candidates.
 
 When detected, return to the phase where the default entered (usually Phase 3 or 4), and replace it with a decision traceable to the brief.
+- **Wordmark dressed as a logo**: an identifier that is only the name in styled type, with no personality device.
+- **Filled space**: areas packed with elements or decoration because they were available, not because a decision called for them.
 
 ## 7. Compliance audit
 
@@ -111,7 +126,7 @@ When detected, return to the phase where the default entered (usually Phase 3 or
 | Viewing conditions | Legible and effective in the stated setting |
 | Cultural integrity | No unverified or misused cultural reference; user's language register preserved |
 | Originality | No copying of competitor or existing designs |
-| Output contract | Prompt standalone; no analysis exposed unless requested |
+| Output contract | Decision summary present for Phases 2 to 5, in order, genuine, compact; prompt standalone and in its own code block; no analysis beyond the summary unless requested |
 | Prompt focus | Contains only visual instructions, format, mandatory text, and necessary exclusions; no rationale or context |
 
 ## 8. Issue triage and where to return
@@ -138,6 +153,8 @@ When detected, return to the phase where the default entered (usually Phase 3 or
 | Prompt needs content not in plan | Plan gap | Phase indicated by the missing content |
 | Text corrupted or missing in prompt | Synthesis error | Phase 6 |
 | Missing or ambiguous user information | Brief gap | Phase 1 |
+| Mark generic, forgettable, or a styled name | Shallow mark development or no personality device | Phase 4 (concept mining), then 5 |
+| Layout tight although a budget was set | Space plan decided late, raided, or never set | Phase 5 section 3; Phase 3 if the space intent is missing |
 | Design blends into or clashes with its surroundings | Environment Profile or expression of the impression | Phase 2, then 3 |
 | Mark reads as part of the typography | Distinction mechanisms or mark region | Phase 4, then 5 |
 | Obvious or unexamined direction | Exploration not applied | Phase 3 (or 4, 5) |
@@ -170,10 +187,14 @@ Confirm each item before delivery:
 9. Format, aspect ratio, and orientation are stated; the artwork is described as a flat finished design unless a mockup was requested.
 10. Exclusions are minimal and specific.
 11. No reasoning, rationale, alternative concepts, references to phases, or meta-commentary inside the prompt.
-12. The prompt is delivered in one code block; any outside notes are short and only the permitted kinds.
+12. The prompt is delivered in one code block, after the decision summary; any outside notes are short and only the permitted kinds.
 13. The reply language matches the user's.
 14. If several concepts or faces were requested, each prompt is standalone and the concepts genuinely differ.
 15. Every sentence changes the image or constrains the output; no rationale, strategy, audience or environment commentary, or blanket emphasis words.
 16. Scale is stated as proportion and hierarchy, quiet space is preserved, and the mark is described as a distinct object.
+17. The decision summary covers Phases 2, 3, 4, and 5 in that order, shows real alternatives with key strengths and weaknesses and a chosen direction with a one-sentence rationale, invents no alternatives, and reflects the final decisions after any revision.
+18. Every chosen direction in the summary is visible in the prompt, and nothing in the prompt contradicts it; the summary is outside the prompt's code block.
+19. The identifier is a supplied fixed asset or a new mark with a personality device, described concretely, and never only a styled name.
+20. Margins, isolation zones, and resting fields are described as designed features, and no filler was added to relieve emptiness.
 
 If any item fails, route it using section 8 and correct it before sending.

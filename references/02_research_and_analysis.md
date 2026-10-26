@@ -1,5 +1,23 @@
 # Phase 2: Research and Analysis
 
+## Phase card
+
+**Principles in force**: 3 Evidence-informed judgment: research only what changes a decision; separate fact from interpretation. 4 Contextual specificity: differentiate against this landscape, not the category in general. 2 Structured exploration: weigh genuine options for the differentiation strategy and the departure dimension, and look past the apparent option when sourcing visual ideas. 10 Effort follows impact.
+
+**Inputs**: Brief Ledger, research questions, tensions.
+
+**Required decisions**
+1. The Communication Problem, including its weakest link and tensions.
+2. The Environment Profile: landscape, competing stimuli, light, audience behavior, cultural context, viewing stages, and the dimensions on which to depart and to fit.
+3. The audience's encounter with the piece.
+4. The differentiation strategy, with the options weighed.
+5. The Visual source inventory: the apparent associations named as such, and deeper true specifics worth drawing on.
+6. Design implications, each traceable to a finding.
+
+**Outputs**: Communication Problem, Environment Profile, Visual source inventory, differentiation strategy, tagged implications.
+
+**Before leaving**: re-read the principles above; confirm every implication names its evidence and the inventory goes beyond first associations.
+
 ## Contents
 1. Purpose and scope
 2. Deciding whether and what to research
@@ -66,6 +84,7 @@ Evaluate each candidate on:
 - **Visualizability**: can it become a recognizable visual or verbal identifier?
 
 Reject differentiators that fit dozens of competitors equally well. If none is strong, differentiate through execution: a sharper point of view, a more disciplined system, a distinctive hero, or a better-resolved mark, and record that this is the strategy.
+Record the leading differentiator candidates and the execution-led option you weighed, with why the chosen strategy wins, so the decision summary can show them. Where the evidence leaves only one defensible option, record it as such and do not manufacture alternatives.
 
 ## 6. Understanding the environment
 
@@ -126,6 +145,14 @@ Principles, not formulas:
 - Language register matters: formality, regional words, and colloquialisms signal who the business is talking to. Preserve the user's register on the piece.
 - Local commercial conventions affect content: how prices, contact channels, ordering methods, payment acceptance, and trust marks are typically presented. Respect what the user supplies; do not add conventions they did not provide.
 - Practical contexts are often modest in budget and fast in consumption. A design should look credible and considered at the user's actual production level, not aspire to a production it cannot afford.
+**Look past the first association.** The emblem most widely linked to a culture, place, category, or product is what everyone reaches for first. It is instantly recognizable and just as easily confused with every other piece that reaches for it. Cultures and businesses hold much more that is true and distinctive: their practices and rituals, the materials and tools they use, how things are made, handled, and shared, the spatial and sensory details of daily life, sounds, textures, and rhythms, language and its play, geography and seasons, and the history of this particular business. Representing a culture or business through a lesser-seen but true element often signals belonging more convincingly than its emblem does.
+
+Build a **Visual source inventory** during analysis:
+1. Name the apparent associations explicitly, as the baseline to beat.
+2. List the deeper specifics that are true of this business, product, place, or community and could become visual ideas.
+3. Mark which are visually workable at the piece's scale and in an image model.
+
+Ground each entry in the brief or in research, and apply the cultural cautions above. Phases 3 and 4 draw candidate ideas from this inventory, and the apparent associations must compete against it.
 
 ## 10. Converting analysis into design implications
 
@@ -152,6 +179,7 @@ If an implication cannot be traced to a finding, it is a creative choice and bel
 | Analysis paralysis | No communication problem statement after extended work | Write the problem now; refine in Phase 3 |
 | Shallow cultural use | Culture treated as decoration | Tie any cultural reference to a real business connection or drop it |
 | Environment as backdrop | Profile lists the setting but no departure or fit dimensions | Inventory the landscape and name where to depart and where to fit |
+| First-association inventory | Inventory lists only emblems and category clichés | Dig into practices, materials, processes, sensory and local specifics that are true |
 
 ## 12. Completion criteria and hand-off
 
@@ -160,6 +188,8 @@ Phase 2 is complete when:
 - Tensions are listed.
 - At least one defensible differentiation strategy is identified, or the execution-led alternative is chosen.
 - The Environment Profile (landscape, competing stimuli, light, behavior, cultural context, viewing stages, departure and fit dimensions) and the audience encounter are concrete enough to constrain design.
+- The Visual source inventory names the apparent associations and lists deeper true specifics beyond them.
 - Design implications are listed, tagged, and traceable to findings or the brief.
 
-Hand-off to Phase 3: Communication Problem, tension list, differentiation strategy, Environment Profile, audience profile, tagged design implications.
+Hand-off to Phase 3: Communication Problem, tension list, differentiation strategy, Environment Profile, Visual source inventory, audience profile, tagged design implications.
+Record for the decision summary: the weakest link chosen for the communication problem, the departure and fit dimensions selected from those considered, and the differentiation strategy with the options it beat.

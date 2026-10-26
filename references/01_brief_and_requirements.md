@@ -1,5 +1,21 @@
 # Phase 1: Brief and Requirements
 
+## Phase card
+
+**Principles in force** (see Principle map in `SKILL.md`): 8 Fidelity to the brief: verbatim text, no invented facts, fixed assets untouched. 3 Evidence-informed judgment: tag every item by provenance. 10 Effort follows impact: ask only about gaps that would change the design.
+
+**Inputs**: the user's message and any attachments.
+
+**Required decisions**
+1. Every content item classified by necessity and provenance, with mandatory text captured verbatim.
+2. Fixed assets, exclusions, and preferences separated from creative latitude.
+3. Medium, format, area, content volume, and probable setting recorded (inferred and tagged where not stated).
+4. Each gap sorted: explicit, inferable, researchable, or blocking; blocking gaps asked or defaulted.
+
+**Outputs**: Brief Ledger, research questions that could change a decision, tensions noticed.
+
+**Before leaving**: re-read the principles above; confirm no fact in the ledger lacks a source.
+
 ## Contents
 1. Purpose and scope
 2. What to extract

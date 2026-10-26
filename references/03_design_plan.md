@@ -1,5 +1,22 @@
 # Phase 3: Design Plan
 
+## Phase card
+
+**Principles in force**: 2 Structured exploration: apparent option named, three candidates, one from beyond the apparent, anti-anchoring evaluation. 4 Contextual specificity: swap, category, and context-swap tests. 5 Functional creativity: every novel idea does a job. 6 Intentional restraint: set the space intent now, before elements accumulate. 7 Internal consistency. 10 Effort follows impact: this phase fixes the design's identity.
+
+**Inputs**: Communication Problem, Environment Profile, Visual source inventory, differentiation strategy, implications.
+
+**Required decisions**
+1. Brand design (enduring) separated from print-piece theme (this piece), with the impression expressed through the environment.
+2. Core idea, from at least three candidates.
+3. Style direction, from at least three candidates.
+4. Hero or deliberate absence of one, from at least three candidates.
+5. Governing principles, including the space intent and the mark's role.
+
+**Outputs**: Design Plan; the candidates, strengths, weaknesses, and reasons for the decision summary.
+
+**Before leaving**: re-read the principles above; confirm none of the three decisions was won by being the apparent option without a stated decisive criterion.
+
 ## Contents
 1. Purpose and scope
 2. Brand design versus print-piece theme
@@ -42,9 +59,9 @@ A mood word is not a core idea. A product category is not a core idea. A core id
 
 This applies to each consequential Phase 3 decision, taken in this order so each informs the next: the **core idea**, the **style synthesis**, and the **main visual concept** (hero). Follow the exploration protocol in `SKILL.md`.
 
-- **At least three candidates per decision.** They must differ on a structural axis, not in color or ornament.
-- **Different sources.** Draw candidates from different origins: the product's tangible truth, the customer's ritual or moment of use, the physical environment and its landscape, the strongest differentiator, a tension in the category, the name or origin, the material or process of the print piece itself. At least one candidate should be generated from the Environment Profile's departure dimensions.
-- **Confront the obvious.** The default association of the category or the user's first-stated style is a legitimate candidate, named as such. It is chosen only if it beats the others on the criteria below.
+- **At least three candidates per decision, at most one of them the apparent option.** Name the apparent option first as the benchmark (see the exploration protocol in `SKILL.md`). Candidates must differ on a structural axis, not in color or ornament, and all are written before any is evaluated.
+- **Different sources, including beyond the apparent.** Draw candidates from different origins: the product's tangible truth, the customer's ritual or moment of use, the physical environment and its landscape, the strongest differentiator, a tension in the category, the name or origin, the material or process of the print piece itself, and the Visual source inventory from Phase 2. At least one candidate comes from the inventory's deeper specifics, and at least one from the Environment Profile's departure dimensions.
+- **Burden of proof on the apparent.** The default association of the category, the culture, or the user's first-stated style may stay in the field, but it wins only by naming the criterion on which the less obvious candidates fell short. Being familiar, expected, or fitting is not such a criterion.
 - **Fake variety check.** If two candidates would look alike to a viewer in the real setting, replace one.
 - **Working notes only.** Each candidate is a few lines: what it is, what carries it, how it would look and behave in the setting.
 
@@ -101,7 +118,7 @@ Decisions to make:
 - **Reproducibility**: can the model render the hero consistently? Complex scenes with many subjects, intricate hands, or large crowds are high-risk; prefer simpler, bolder subjects when reliability matters.
 
 If the hero is a product, its depiction must match what the business really offers. If it involves people, avoid depicting real identifiable individuals and avoid stereotyped or tokenistic representation.
-The hero is also a consequential decision: generate at least three structurally different candidates (different hero types, or none), evaluate them as in section 5, and engineer the result. Check the winner against the viewing stages: it must register at the stage where it is needed, and it must leave the space the hierarchy requires.
+The hero is also a consequential decision: generate at least three structurally different candidates (different hero types, or none), evaluate them as in section 5, and engineer the result. Check the winner against the viewing stages: it must register at the stage where it is needed, and it must leave the space the hierarchy requires. Treat the apparent hero (the emblem or product image everyone would reach for) as the benchmark and require a candidate that represents the business through a lesser-seen but true element from the Visual source inventory.
 
 ## 8. Governing design principles
 
@@ -114,7 +131,7 @@ State the principles that will govern Phases 4 and 5. They are decisions about c
 - **Commercial positioning**: where the piece sits on the spectrum from accessible to premium, and what that implies about finish, restraint, and ornament.
 - **Dominant and supporting relationships**: what leads, what accompanies, what recedes.
 - **Boundaries**: what the design must never become, drawn from the rejected directions and the AI-slop diagnostics in `quality_control.md`.
-- **Space and mark role**: the intended share of quiet space given the content volume and positioning, and whether the logo mark leads, anchors, or signs off.
+- **Space intent and mark role**: the share of the format that must stay quiet and what that space does (isolating the glance content, framing the hero, separating tiers, setting the positioning), derived from the medium's size, the viewing distance, the content volume, and the positioning. Larger media raise the space intent; they do not raise the number of elements. Also whether the logo mark leads, anchors, or signs off. Phases 4 and 5 are bound by this intent.
 
 Keep principles short and mutually consistent. Each should be actionable in Phase 4 or 5.
 
@@ -128,6 +145,7 @@ Apply before accepting the plan:
 - **Contradiction scan**: do the brand design, theme, style, hero, and principles agree? Do any tensions from Phase 2 remain unresolved?
 - **Ambition check**: is the plan more elaborate than the content, budget, or format can support?
 - **Context-swap test**: place the same design in a different setting. If it would be equally right there, it was not shaped by this environment; revisit the expression.
+- **Apparent-choice test**: would a stranger predict the hero and style from the category and place alone? If yes, the plan needs a stated decisive reason for the apparent choice, or a stronger candidate.
 
 ## 10. Failure modes
 
@@ -144,6 +162,9 @@ Apply before accepting the plan:
 | Single-candidate decision | A consequential decision lacks three distinct candidates | Generate and compare them |
 | Environment as afterthought | Direction justified by category and brand only | Re-derive using the departure and fit dimensions |
 | Style by default | The obvious aesthetic won without being challenged | Name it as a candidate and make it compete |
+| Apparent option adopted unchallenged | The winner is the first idea or the category default, with no decisive criterion named | Run the challenge step; name the runner-up |
+| Anchored on the first candidate | Evaluation followed generation order and the first candidate won by default | Re-evaluate from the last candidate; remove the leader and re-compare |
+| Space intent missing | Plan states no share of quiet space | Derive it from medium size, viewing distance, content volume, positioning |
 
 ## 11. Completion criteria and hand-off
 
@@ -151,3 +172,4 @@ Complete when the plan contains: brand design definition; print-piece theme; cor
 
 Hand-off to Phase 4: the Design Plan plus the unresolved questions it deliberately leaves to element design: the logo mark construction, the color logic, and the typographic voice.
 Each consequential decision shows at least three distinct candidates, an evaluation, and an engineered result. The plan states how the brand impression is expressed in this environment.
+Record for the decision summary the candidates compared for the core idea, style direction, and hero, with their key strengths and weaknesses and the reason the chosen direction won.
