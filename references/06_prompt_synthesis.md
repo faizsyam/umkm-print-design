@@ -74,6 +74,7 @@ For each state: where it is, roughly how much of the format it takes, what it fr
 - **Mandatory text** is included verbatim in quotation marks, once, tied to position and typographic role. Dense text (menus, price lists) is grouped in reading order, with row behavior described once. Prices and contacts get clarity proportionate to their stage, not oversize. State that the piece contains only the specified text when hallucinated text is a risk. Never omit mandatory text to shorten the prompt; flag volume risk in the notes.
 - **A supplied logo** is reproduced as provided (by reference if the model accepts images, otherwise described faithfully) and never replaced by an invention.
 - **A new mark** is described by form class, geometry, silhouette, color, boundary type, personality device, relationship to the wordmark, and separation from adjacent type, concretely enough to be drawn the same way each time.
+- **Every content device** is described by its form before its text is quoted: container or shape, letterform construction and behavior, scale step, color role, orientation or gesture, position, and any accompanying graphic component. Promise copy is described as lettering that carries its meaning (how the words behave and why they read as that sensation, stated as visible traits); the proof device as a structure of its own; offer, action, and location each by its own form. Different function classes are never described with the same treatment. The quoted words stay verbatim, once.
 - **The identity unit** (mark with wordmark) is described as one object: arrangement, the shared construction logic of mark and lettering, the proportion and spacing relationship, the alignment axis, the color roles within the unit, and the clear space and region that distinguish the whole unit from surrounding type and content. Never describe mark and wordmark as two unrelated items.
 
 ### G. Detail and length
@@ -104,7 +105,8 @@ Check:
 - exclusions respected;
 - standalone and readable;
 - the visual-effect test on every sentence;
-- space and the identity unit described as concrete positive features.
+- space and the identity unit described as concrete positive features;
+- every content device described by its own form, and every sensory-emotional attribute carried by a described feature.
 
 The full audit is in `quality_control.md`.
 
@@ -124,6 +126,8 @@ The full audit is in `quality_control.md`.
 | Filler adjectives | A clause fails the visual-effect test | Delete |
 | Prompt too long or too short | Padding, or distinctive decisions lost | Cut filler first; restore specifics |
 | Prompt and printed decisions disagree | A printed or amended decision is not visible in the prompt, or the prompt contradicts one | Fix the prompt, or print an amendment if the decision changed |
+| Uniform text description | Three or more items of different function described with the same typographic treatment | Describe each content device by its own form |
+| Target not visible in the prompt | A sensory-emotional attribute has no described feature | Add the delivering features, as visible traits |
 | Mark and wordmark described as separate objects | The unit has no shared logic, spacing, or region stated | Describe the identity unit as one object |
 
 ## 4. Completion criteria, hand-off, and delivery

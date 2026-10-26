@@ -38,9 +38,9 @@ Read the reference for a phase when you enter it, never earlier and never skippe
 | Phase | Purpose | Exit artifact | Read |
 |---|---|---|---|
 | 1 Brief | Capture, classify, and verify everything known; find blocking gaps | Brief Ledger, research questions, tensions (or clarification questions only) | `references/01_brief_and_requirements.md` |
-| 2 Analysis | Establish the real problem, setting, and visual sources | Communication Problem, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications | `references/02_research_and_analysis.md` |
-| 3 Design Plan | Choose the one idea the piece is built on | Design Plan: brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), rejected directions | `references/03_design_plan.md` |
-| 4 Design Elements | Build the coherent visual system | Element system: color, type, identifier (mark, wordmark, and their identity unit), supporters, background, additional systems, each with role and space cost | `references/04_design_elements.md` |
+| 2 Analysis | Establish the real problem, setting, and visual sources | Communication Problem, Environment Profile, audience encounter, differentiation strategy, content function map, sensory-emotional target, Visual source inventory, design implications | `references/02_research_and_analysis.md` |
+| 3 Design Plan | Choose the one idea the piece is built on | Design Plan: brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), content expression system, aesthetic proposition, rejected directions | `references/03_design_plan.md` |
+| 4 Design Elements | Build the coherent visual system | Element system: color, type, identifier (mark, wordmark, and their identity unit), content devices, supporters, background, additional systems, each with role and space cost | `references/04_design_elements.md` |
 | 5 Design Execution | Compose for how the piece is actually seen | Execution Specification incl. reading-stage assignment and space plan | `references/05_design_execution.md` |
 | 6 Prompt Synthesis | Translate the specification into visible instructions | Final prompt(s) and short notes (disclosures were printed at earlier gates) | `references/06_prompt_synthesis.md` |
 | Cross-cutting | Evaluate decisions, composition, prompt | Gate results, audit, release checklist | `references/quality_control.md` |
@@ -72,6 +72,8 @@ Each term has one meaning in every file. Where two are close, the distinction is
 | Departure and fit dimensions | **Departure dimensions** are those where the neighbors are uniform and the piece can differ to be seen (color field, density, scale, form language, finish, tone). **Fit dimensions** are those where the piece must conform for credibility or appropriateness |
 | Visual source inventory | The Phase 2 list of (1) the apparent associations, named as the baseline, (2) deeper true specifics of the business, product, place, or community that could become visual ideas, (3) which of those are visually workable |
 | Design implication | A finding converted to a consequence: "because [finding], the design must / should / must avoid [consequence]", tagged by provenance |
+| Content function / content function map | The job one content item does for the viewer, assigned to one class: **identity**, **promise** (expressive copy that must be felt), **offer** (what is sold, in which sizes, at what price), **proof** (the claim that earns belief), **action** (how to order or reach), **wayfinding** (where), **small print**, **supporting description**. The Phase 2 **content function map** records each item's class, its job, the viewer response it must produce, the stage at which it must, and the form qualities that job demands |
+| Sensory-emotional target | What the viewer should feel or crave on meeting the piece, decomposed from the user's stated preference words, the objective, and the product's own sensation into observable visual attributes (value key, chroma, temperature, light quality, surface and tactility, energy, depiction richness). Phase 2 sets it; every later gate checks that visible features deliver it |
 
 **Decisions and exploration**
 
@@ -88,6 +90,10 @@ Each term has one meaning in every file. Where two are close, the distinction is
 | Brand design / print-piece theme | **Brand design** is the enduring visual expression of the brand, stable across pieces. **Theme** is the creative idea for this piece, built on the brand design |
 | Core idea | The single unifying concept from which theme, hero, style, and layout follow: specific, visual, generative, truthful, functional |
 | Hero | The dominant visual idea of the piece, or the deliberate absence of one |
+| Content device | The designed visual form that executes one content item's function, as opposed to plain typeset text: container or shape, letterform construction, scale, color role, orientation or gesture, position, and any accompanying graphic component. The words stay verbatim; the form is designed. A proof device is a designed container for a user-supplied claim and never imitates an official or regulated mark |
+| Treatment dimensions | Exactly seven: container or form; letterform construction; scale; color role; orientation or gesture; position in the composition; accompanying graphic component. Items of different function classes must differ on at least three; items of the same class may share a treatment |
+| Aesthetic proposition | The specific aesthetic effects by which a style is compelling to look at, stated as visual effects (contrast of scale, rhythm, tension, harmony, tactility, atmosphere, surprise) and tied to the sensory-emotional target it delivers |
+| Gate criterion / merit criterion | A **gate criterion** must be passed: feasibility, renderability, legibility minimums, production limits, fixed assets, exclusions. A candidate failing a gate is simplified or repaired, and passing earns no advantage. **Merit criteria** (effectiveness, distinctiveness, sensory-emotional power, aesthetic strength, fit) decide among candidates that pass |
 
 **Identity**
 
@@ -144,7 +150,7 @@ Each term has one meaning in every file. Where two are close, the distinction is
 - *One decision at a time,* each with full attention.
 - *Phase exit (the gate):* every required decision made; exploration protocol and decision quality standard applied where they apply; one objection raised by each owning role (see team table) and resolved, or accepted with a recorded reason; completion criteria met; Design Log updated; then, for Phases 2 to 5, the decision-summary entry **printed to the user as visible text immediately, before the next phase begins** (section 13). Never accumulate entries for the end.
 - *When lost or overloaded:* return to the phase card, then the Design Log, then the decision commitments. Do not rush to the prompt.
-- *Design Log contents:* Communication Problem, Environment Profile, Visual source inventory, design territory survey, core idea, style, hero, color, type, mark and lockup, reading stages, space plan, open issues.
+- *Design Log contents:* Communication Problem, content function map, sensory-emotional target, Environment Profile, Visual source inventory, design territory survey, core idea, style, hero, content expression system, color, type, mark and lockup, content devices, reading stages, space plan, open issues.
 
 **Return, then re-run forward.** A failed gate or a flaw exposed later sends the work to the earliest responsible phase; every affected later phase is redone in order. Cap each issue at two revision cycles, then choose the best available resolution and record it.
 
@@ -156,8 +162,8 @@ Principle-driven, not template-driven. Ten principles apply throughout:
 2. **Structured exploration.** Consequential decisions go through the exploration protocol and the decision quality standard (section 7); trivial ones are decided directly, and Phase 3 governing principles get a lighter option comparison.
 3. **Evidence-informed judgment.** Use expertise, reliable research, and the brief; keep fact, interpretation, assumption, and creative choice apart through provenance tags.
 4. **Contextual specificity.** Every direction is justified by this business and this piece. If it would work unchanged for a competitor, it is unfinished.
-5. **Functional creativity.** Novelty must name the job it does.
-6. **Intentional restraint.** Every element earns its place, including its share of space and attention. Neither minimalism nor maximalism is a default.
+5. **Functional creativity.** Novelty must name the job it does, and every element's form is derived from that job (7.3 h), never chosen first and justified afterward.
+6. **Intentional restraint.** Every element earns its place, including its share of space and attention. Restraint concentrates richness where it serves the piece and withholds it elsewhere (7.3 i); neither minimalism nor maximalism is a default.
 7. **Internal consistency.** Brand, theme, style, color, type, mark, imagery, and composition reinforce one another; resolve contradictions at their source.
 8. **Fidelity to the brief.** Mandatory content, user text, exclusions, and fixed assets are never silently overridden.
 9. **Iterate at the root.** Return to the earliest responsible decision rather than patching the prompt, then re-run forward. Cap: two revision cycles per issue.
@@ -171,8 +177,8 @@ Environment-as-parameter and proportion-over-maximization are phase-level values
 | 2 Structured exploration | Phases 2 to 5 | Apparent option named, three complete candidate cards, one beyond the apparent, full-context matrix, interaction check, runner-up named, weaknesses mitigated or accepted, originality tests |
 | 3 Evidence-informed judgment | Phases 1 and 2; mark and hero sourcing | Provenance tags; research only what changes a decision; nothing invented |
 | 4 Contextual specificity | Phase 3 stress tests, Phase 4 mark, quality control | Swap, category, context-swap tests; nothing that works unchanged for a competitor |
-| 5 Functional creativity | Phases 3 to 5 | Every novel element names the job it does |
-| 6 Intentional restraint | Phases 3 to 5 | Space intent, element allowance, space plan, removal and fill tests |
+| 5 Functional creativity | Phases 2 to 6 | Every novel element names its job; every form is derived from its job; every content item has a content device |
+| 6 Intentional restraint | Phases 3 to 5 | Space intent, element allowance, space plan, removal and fill tests; richness concentrated where it serves the target, never stripped |
 | 7 Internal consistency | Phases 3 to 6, gates | Resolve contradictions at their source; single-voice test; realization trace from plan to element to placement to prompt |
 | 8 Fidelity to the brief | Phases 1, 4, 6 | Verbatim text, fixed assets untouched, exclusions honored |
 | 9 Iterate at the root | Every gate | Return to the earliest cause; re-run forward |
@@ -199,7 +205,7 @@ A consequential decision resolved in one pass, with no recorded challenge step, 
 1. **Name the apparent option first,** as the benchmark. It may stay in the field as one candidate but must earn its place.
 2. **Generate at least three candidate cards,** at most one apparent, at least one from beyond the apparent. Candidates differ on a structural axis. Source them differently: product truth, customer moment, environment, differentiator, category tension, name or origin, material, the Visual source inventory, the design territory survey (Phase 3). Write and complete all cards before evaluating any.
 3. **Evaluate in a different order than generated,** starting with the last, through the context matrix (7.3). Record concrete strengths, weaknesses, and trade-offs, one line each, not adjectives.
-4. **Challenge before choosing.** Name the runner-up. State the strongest case against the leader and for the runner-up. Remove the leader and see which of the rest would be chosen; then compare head to head. State the leader's margin as one decisive criterion; if it cannot be stated, keep working. An apparent option wins only by naming the criterion on which the less obvious candidates fell short; "it is fitting" or "it is common for this category" is not a reason.
+4. **Challenge before choosing.** Name the runner-up. State the strongest case against the leader and for the runner-up. Remove the leader and see which of the rest would be chosen; then compare head to head. State the leader's margin as one decisive criterion, which must be a merit criterion and never a gate criterion (printability, renderability, cost); if it cannot be stated, keep working. An apparent option wins only by naming the criterion on which the less obvious candidates fell short; "it is fitting" or "it is common for this category" is not a reason.
 5. **Engineer the strongest solution** (7.4): select outright, transplant a specific strength, combine under one logic (a hybrid, never a compromise), repair an identified weakness, or build a new candidate from what the comparison revealed.
 6. **Record** (decision record below) and, at the gate, print the entry.
 
@@ -213,6 +219,8 @@ Shallow, generic, or isolated decisions come from labels instead of candidates a
 
 **b. Context matrix.** Evaluate every candidate against the full parameter set, not the one that favors it:
 - communication objective and the weakest link;
+- the sensory-emotional target and the user's stated preferences;
+- the content function map (does each item's job get a form that serves it);
 - brand identity and positioning;
 - audience encounter at each viewing stage;
 - environment: neighbors, light, distance, and the chosen departure and fit dimensions;
@@ -224,6 +232,8 @@ Shallow, generic, or isolated decisions come from labels instead of candidates a
 - coherence with every decision already made, and with those still to come.
 
 For each parameter record strength, weakness, or neutral, in one line, wherever the parameter matters to the candidate. An argument from one parameter ("it looks refined") is not an evaluation.
+
+Classify the parameters before scoring. Feasibility, renderability, legibility minimums, production limits, fixed assets, and exclusions are **gate criteria**: a failing candidate is simplified or repaired, never replaced by a blander one, and passing earns no points. The rest are **merit criteria**, and the decision is made among passing candidates on them. A choice that rests on a gate criterion ("fewest fragile details") has been made by fear, not by merit.
 
 **c. Interaction check.** For each decision already made, state how the candidate amplifies it, conflicts with it, or is neutral. Name weaknesses that would compound across decisions.
 
@@ -253,6 +263,14 @@ A failing candidate is rebuilt, not defended.
 
 A prestigious word that cannot be defined is vagueness, and it is cut.
 
+**h. Purpose-to-form derivation (every element, including every content item).** Derive each form in this order: the job (what the viewer must think, feel, or do because of it); the response it must produce and at which viewing stage; the form qualities that would produce that response; only then the form. A form chosen first and justified afterward is decoration. Content items are elements: each gets a content device derived from its function (Phase 4 G).
+
+**i. Richness with purpose.** Restraint concentrates richness; it does not abolish it.
+- Name the visible features that deliver each attribute of the sensory-emotional target.
+- Give those features craft depth (surface, light, material, depiction detail, expressive lettering) where they serve the target, usually the hero and the expressive copy.
+- Keep surrounding information quiet so the richness reads.
+- Cleanliness achieved by stripping the sensory or emotional payload is a failure, not restraint.
+
 ## 8. Depth calibration
 
 - A rich brief shortens Phase 1 and 2 notes.
@@ -275,9 +293,10 @@ When requirements collide, resolve in this order: (1) factual integrity and the 
 
 Each is also enforced at a gate, in a failure mode, and in the audit (see `references/quality_control.md`).
 - No invented business facts: prices, claims, testimonials, certifications, regulated or trust marks, contacts, ingredients, years in business, statistics.
-- Verbatim preservation of user text, including suspected typos (flag, do not fix).
+- Verbatim preservation of user text, including suspected typos (flag, do not fix). Words, spelling, order, and punctuation stay verbatim; size, weight, color, line breaks, and arrangement are design decisions.
 - No redesign, restyling, simplification, or recoloring of supplied logos.
 - No copying of competitors or existing designs.
+- A proof device is a designed container for a user-supplied claim only; it never imitates an official or regulated mark and adds no unsupplied wording, numbers, or symbols that read as certification.
 - No identifier that is only a styled name, unless supplied or explicitly requested as plain text.
 - No placeholders or blank zones for manual completion.
 - No workflow output beyond the phase disclosures, the prompt(s), and allowed notes unless requested.
@@ -296,6 +315,8 @@ Each is also enforced at a gate, in a failure mode, and in the audit (see `refer
 - every content item's reading stage, and the space plan with proportions;
 - the reading order;
 - the placement and role of every mandatory text item;
+- every content item's function and the content device that executes it;
+- the sensory-emotional target and the visible features that deliver each of its attributes;
 - the traits that distinguish the design from a neighboring competitor's.
 
 A decision justified only by "it looks good" or "it is typical" is not committed.

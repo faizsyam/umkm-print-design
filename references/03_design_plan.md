@@ -6,16 +6,16 @@
 |---|---|
 | Professional analogue | Creative concepting led by a senior art director: surveying real design territory, building fully specified directions, and choosing the one the whole piece will be built on only after testing every option against the full context |
 | Goal | One unified, defensible, original creative direction: brand design, theme, core idea, style direction, hero decision, and governing principles (including space intent and mark role). It synthesizes all findings into a single concept rather than assigning a style to each insight |
-| Receives | From Phase 2: Communication Problem, Environment Profile, Visual source inventory, differentiation strategy, tagged implications, tensions. From Phase 1: content volume, fixed assets, preferences, exclusions |
+| Receives | From Phase 2: Communication Problem, Environment Profile, Visual source inventory, content function map, sensory-emotional target, differentiation strategy, tagged implications, tensions. From Phase 1: content volume, fixed assets, preferences, exclusions |
 | Principles in force | **2 Structured exploration** (full protocol on every consequential decision; decision quality standard on every other decision here); **4 Contextual specificity** (swap, category, apparent-choice, and context-swap tests); **5 Functional creativity** (each novel idea names its job); **6 Intentional restraint** (set the space intent now); **7 Internal consistency** (brand design, theme, style, hero agree); **10 Effort follows impact** (this phase fixes the design's identity) |
 | Exploration protocol | Full (SKILL.md 7.1 and 7.2) for, in this order: core idea, style synthesis, hero. Each decision informs the next. At least one candidate per decision comes from the design territory survey, the Visual source inventory, or the Environment Profile's departure dimensions. Candidates are candidate cards (fields in C to F) evaluated through the context matrix and the other parts of the decision quality standard (SKILL.md 7.3) |
-| Required decisions | The design territory survey; brand design; theme; core idea; style direction (with its seven dimensions); hero (or its deliberate absence); each governing principle (character and tone, commercial positioning, energy and rhythm, density, dominant and supporting relationships, boundaries, space intent, mark role); resolution of each Phase 2 tension; stress-test results |
+| Required decisions | The design territory survey; brand design; theme; core idea; style direction (seven dimensions, with its aesthetic proposition and target delivery); hero (or its deliberate absence); the content expression system; each governing principle (character and tone, commercial positioning, energy and rhythm, density, dominant and supporting relationships, boundaries, space intent, mark role); resolution of each Phase 2 tension; stress-test results |
 | Outputs | The Design Plan and the record of rejected directions |
-| Before leaving | Does the survey cover at least five territories from at least three source families? Does every candidate card have every field filled in specialist terms? Was every candidate evaluated against the full parameter set and every already-made decision, with each weakness mitigated or accepted? Does the core idea fit one sentence and meet the five properties? Does the style name lineage and traits an illustrator or printer could act on? Does the hero register at the stage where it is needed and truthfully represent what is sold? Does each governing principle show compared options? Is the space intent stated and derived from format size, viewing distance, content volume, and positioning? Did any apparent option win without a decisive criterion? Did every leading candidate pass the originality tests? Have the brand strategist and the senior art director each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
+| Before leaving | Does the survey cover at least five territories from at least three source families, including at least two chosen for how strongly they could deliver the sensory-emotional target? Does every candidate card have every field filled in specialist terms? Was every candidate evaluated against the full parameter set and every already-made decision, with gate criteria passed or repaired and the decisive criterion a merit criterion? Does the core idea fit one sentence and meet the five properties? Does the style state an aesthetic proposition and name the visible features that deliver each attribute of the target? Does the hero register at the stage where it is needed and truthfully represent what is sold? Does the content expression system give every function class a form direction? Does each governing principle show compared options? Is the space intent stated? Did any apparent option win without a decisive criterion? Did every leading candidate pass the originality tests? Have the brand strategist and the senior art director each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
 
 ## Contents
 1. Process
-2. Detailed guidance (A to I)
+2. Detailed guidance (A to J)
 3. Failure modes
 4. Completion criteria, summary print, and hand-off
 
@@ -24,11 +24,12 @@
 1. Separate brand design from print-piece theme; decide how the brand's impression is expressed in this environment (A, B).
 2. Survey design territory (C).
 3. Decide the core idea by the protocol (D).
-4. Decide the style direction by the protocol, resolving its seven dimensions (E).
+4. Decide the style direction by the protocol, resolving its seven dimensions and its aesthetic proposition (E).
 5. Decide the hero, or its deliberate absence, by the protocol (F).
 6. Decide each governing principle, including space intent and mark role, by option comparison; resolve the Phase 2 tensions (G).
-7. Evaluate the assembled plan across the full context (H) and run the stress tests (I).
-8. Record candidates, strengths, weaknesses, decisive criteria, and rejected directions; pass the gate; print the entry.
+7. Decide the content expression system (H).
+8. Evaluate the assembled plan across the full context (I) and run the stress tests (J).
+9. Record candidates, strengths, weaknesses, decisive criteria, and rejected directions; pass the gate; print the entry.
 
 The three protocol decisions are sequential: the winning core idea becomes a criterion for style; the winning style becomes a criterion for the hero. Do not write style candidates before the core idea is chosen. Check each candidate's renderability by an image model (the prompt specialist's standing duty in Phases 3 to 5).
 
@@ -79,12 +80,15 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 - contemporary practice in other categories and regions (cross-category, not competitor copying);
 - the business's own world (the Visual source inventory and the Environment Profile).
 
+At least two of the surveyed territories must be chosen for how strongly they could deliver the sensory-emotional target, not for safety or ease of production.
+
 **For each territory, study and record**
 - Its defining traits: depiction mode, image-making technique, line and form behavior, material and surface character, light and atmosphere, chromatic logic, typographic stance, compositional behavior.
 - Its lineage and the conditions it arose from, so that it is used with understanding rather than as a surface.
 - Where it is true to this business, and where it would be imported whole.
 - Its behavior at the glance and approach stages in the real setting, and its fit with the departure and fit dimensions.
-- Its print and renderability demands.
+- Its print and renderability demands (gate criteria: to be met by simplifying execution, not by abandoning a strong territory).
+- How strongly it could deliver each attribute of the sensory-emotional target.
 
 **How to research**
 - When search tools are available, look at real precedents (visual references, design histories, local material culture) before judging; when they are not, reason from knowledge and mark the survey provisional.
@@ -92,7 +96,7 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 - Verify the meaning and standing of any culturally loaded territory; omit it if uncertain.
 
 **Record**
-- The survey as a short table: territory, source family, defining traits, fit, risk. Candidates in D to F draw on it, and at least one candidate per decision must.
+- The survey as a short table: territory, source family, defining traits, target delivery, fit, risk. Candidates in D to F draw on it, and at least one candidate per decision must.
 
 ### D. The core idea
 
@@ -127,12 +131,20 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 6. **Typographic expression:** classification and stance, stroke contrast, proportion, spacing character.
 7. **Light, atmosphere, and chromatic stance:** direction and quality of light, tonal key, value structure, temperature and harmony logic (the palette itself is decided in Phase 4 and must realize this stance).
 
-**Candidate card fields (style).** A complete synthesis: one entry per dimension, plus the survey territories it draws on and the core idea it realizes. A list of mood adjectives is not a candidate.
+**Candidate card fields (style).** A complete synthesis:
+- one entry per dimension;
+- the survey territories it draws on and the core idea it realizes;
+- its **aesthetic proposition**: the specific visual effects by which it is compelling to look at (contrast of scale, rhythm, tension, harmony, tactility, atmosphere, surprise), and why a passer-by would stop for it;
+- **target delivery**: for each attribute of the sensory-emotional target, the visible feature of this style that delivers it.
+
+A list of mood adjectives is not a candidate. A style that is merely clean, flat, and correct has no aesthetic proposition.
 
 **Evaluate**
 - For each dimension of the leading candidates, compare at least two options and record how each interacts with the others (a dimension that conflicts with another is repaired before the style is chosen).
 - Run the context matrix, the interaction check against the core idea, and the originality tests; test the winner for obviousness.
 - Creativity comes from synthesis of the brief's conditions, not arbitrary additions; avoid familiar combinations unless evaluated and justified.
+- Treat printability, renderability, and cost as gate criteria: a candidate that fails one is simplified or repaired, never swapped for a blander style. The decisive criterion is a merit criterion: sensory-emotional power, aesthetic strength, distinctiveness, effectiveness.
+- Apply richness with purpose (SKILL.md 7.3 i): decide where the style concentrates craft depth, and where it stays quiet.
 
 **Record**
 - The decision record and the seven resolved dimensions.
@@ -152,6 +164,7 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 
 **Evaluate**
 - Run the context matrix, the interaction check against core idea and style, and the originality tests.
+- Check that the hero carries the attributes of the sensory-emotional target assigned to it.
 - For a standalone logo request the mark is the hero by definition; the protocol still runs for the core idea and style, and the mark is developed in Phase 4.
 
 **Record**
@@ -173,19 +186,42 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 
 **Resolve the Phase 2 tensions** one by one: state which side leads and what the other side is allowed to keep.
 
-### H. Evaluating the assembled plan across the full context
+### H. Content expression system
+
+**Purpose.** Decide, at plan level, how each content function class will be *expressed* in this piece, so that the tagline, the proof, the offer, the action and the location are each given a purposeful form direction and not a uniform text style.
+
+**Analyze**
+- The content function map (job, response, stage, emotional register, form requirements) for every class present.
+- The core idea, style, and hero, as the world every form must belong to.
+
+**Decide, for each function class present** (at least two directions compared, each with strength and weakness across the parameter set)
+- The form direction: what kind of object carries this job, in the language of the chosen style (the specific device is designed in Phase 4 G).
+- The emotional register and the relation to the hero (embedded in it, answering it, or standing apart).
+- How it differs from the other classes on at least three treatment dimensions.
+
+**Evaluate**
+- Expressive copy: is the direction one that lets the words be felt, rather than read as a caption?
+- Proof: is the direction a structure of its own that signals assurance, built without imitating an official or regulated mark?
+- Offer and action: do the directions make the decision and the next step obvious?
+- Do the directions together read as one world while staying distinguishable by function?
+
+**Record**
+- One line per function class: form direction, register, relation to the hero, the options compared.
+
+### I. Evaluating the assembled plan across the full context
 
 **Check** (not decision by decision, but as one system)
 - Do brand design, theme, core idea, style, hero, and governing principles reinforce one another, or does any pair conflict?
 - Does the plan, taken whole, answer the weakest link in the Environment Profile's real setting?
+- Does the plan deliver the sensory-emotional target, or has safety quietly replaced it?
 - Does the plan fit the content volume, space intent, medium, budget, and renderability together, not separately?
 - Which weaknesses were accepted, and do accepted costs compound?
 
 Return to the decision responsible for any conflict; cap at two revision cycles per issue.
 
-### I. Stress tests
+### J. Stress tests
 
-Run all seven and record the result of each:
+Run all eight and record the result of each:
 1. **Swap test.** Substitute a competitor; if the plan still works unchanged, it is generic.
 2. **Category test.** Remove the product; if the identity could belong to the industry, it is stereotyped.
 3. **Apparent-choice test.** Would a stranger predict the hero and style from category and place alone?
@@ -193,6 +229,7 @@ Run all seven and record the result of each:
 5. **Distance and attention test.** Does the first impression hold at the glance stage in the real setting?
 6. **Contradiction scan.** Do all plan decisions agree?
 7. **Ambition check.** Against content, budget, and format.
+8. **Target delivery test.** For each attribute of the sensory-emotional target and each stated user preference, name the visible plan feature that delivers it. An attribute with no feature, or one contradicted by a decision, fails. Also ask: at the glance stage, what does the viewer feel, and which features make them feel it? A design that is clean but delivers no sensation fails.
 
 ## 3. Failure modes
 
@@ -215,11 +252,16 @@ Run all seven and record the result of each:
 | Brand design and theme collapse | The theme alters the enduring identity without approval | Separate them again |
 | Imported territory | A survey territory used as surface, with no lineage understood | Study its conditions, or drop it |
 | Borrowed design | A direction mirrors a competitor's or an existing design | Re-source from this business's world |
+| Safety-led selection | The decisive criterion is a gate criterion (printability, fewest fragile details, cost) | Reclassify as a gate; repair the candidate; decide on a merit criterion |
+| Style without an aesthetic proposition | The style is clean and correct but nothing about it is compelling | Rebuild the candidate around named visual effects and the target it delivers |
+| Austerity as restraint | The plan strips texture, light, depth, and sensory detail everywhere | Concentrate craft depth in the hero and expressive copy (SKILL.md 7.3 i) |
+| Preference drift | A stated preference or a target attribute is contradicted by a decision | Restore it by its nearest surviving form; run the target delivery test |
+| Content left to later | The plan gives no form direction for the tagline, proof, offer, or action | Decide the content expression system |
 
 ## 4. Completion criteria, summary print, and hand-off
 
 Complete when the phase card's "Before leaving" check holds.
 
-**Print for the decision summary (Design Plan entry, at the gate):** for the core idea, style, and hero, each: the apparent option, the candidates compared (one line each: name, key strength, key weakness), the selection with a one-sentence rationale including why it beat the runner-up, the decisive criterion, and what was combined or repaired. Add one line each for the governing principles that had real alternatives (space intent and mark role always). Mark any decision fixed by the user or evidence as such. Update the Design Log: survey, core idea, style, hero, space intent, mark role, open issues.
+**Print for the decision summary (Design Plan entry, at the gate):** for the core idea, style, and hero, each: the apparent option, the candidates compared (one line each: name, key strength, key weakness), the selection with a one-sentence rationale including why it beat the runner-up, the decisive criterion, and what was combined or repaired. State the style's aesthetic proposition in one line and how it delivers the sensory-emotional target. Add one line per function class for the content expression system, and one line each for the governing principles that had real alternatives (space intent and mark role always). Mark any decision fixed by the user or evidence as such. Update the Design Log: survey, core idea, style, hero, content expression system, space intent, mark role, open issues.
 
-**Hand-off to Phase 4:** the Design Plan (core idea, style across seven dimensions, hero, governing principles including space intent and mark role), the survey, the rejected directions, plus the Environment Profile, Visual source inventory, and Phase 1's content, fixed assets, and constraints.
+**Hand-off to Phase 4:** the Design Plan (core idea, style across seven dimensions with its aesthetic proposition, hero, content expression system, governing principles including space intent and mark role), the survey, the rejected directions, plus the Environment Profile, Visual source inventory, and Phase 1's content, fixed assets, and constraints.

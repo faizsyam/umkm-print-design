@@ -11,7 +11,7 @@
 | Exploration protocol | Full (SKILL.md 7.1 and 7.2) for the **spatial strategy**, with the decision quality standard (SKILL.md 7.3) including the realization trace. The reading-stage assignment and the space plan are decided by the rules in B, with reasons recorded, and are not run as candidate comparisons. Hierarchy ranking is a justified decision, not a competition |
 | Required decisions | The one-sentence message; reading-stage assignment of every content item; the space plan with proportions; the spatial strategy; hierarchy and reading order; placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
 | Outputs | The Execution Specification |
-| Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Have the consumer-behavior researcher, senior art director, print designer, and visual communication specialist each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
+| Before leaving | Could a designer lay out the piece from the specification? Does every content device keep its own form, with different-function items distinguishable (squint-and-sort)? Does a visible feature deliver each attribute of the sensory-emotional target? Is the message understood at first glance? Is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Have the consumer-behavior researcher, senior art director, print designer, and visual communication specialist each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
 
 ## Contents
 1. Process
@@ -90,6 +90,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 5. How the space plan is realized (margin, isolation, resting fields).
 6. Edge behavior and foreground-background relationship.
 7. Behavior at each reading stage; fit with and departure from neighbors.
+8. How the content devices are distributed and related to the hero and to each other, and where the richness of the piece concentrates.
 
 **Evaluate**
 - The context matrix, interaction with the plan and elements, and the originality tests (SKILL.md 7.3).
@@ -104,7 +105,9 @@ Visibility requirements guide prioritization; they do not entitle every element 
 
 **Rules**
 - Typography sizes follow reading stages.
-- Prices, calls to action, and contact details are functional text, clear at their own stage, not enlarged by default.
+- Every content device keeps the form designed for its function in Phase 4 G. Placement and scale follow the stage at which the viewer needs it (offer and action devices are sized for the stage at which the viewer decides), and the device is never flattened into a uniform text block.
+- Promise copy is composed as an image in its own right and placed in relation to the hero.
+- Different function classes stay distinguishable by form (the squint-and-sort test, Phase 4 G).
 - The identity unit claims its own region with protected clear space measured from the unit.
 - Elements interact as one art-directed whole.
 - Specify where every mandatory text item sits and in what typographic role.
@@ -148,6 +151,8 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - message at first glance;
 - hierarchy;
 - the identity unit: integrated, distinctive, and passing the text-neighborhood test;
+- the squint-and-sort test: each content item's function readable from its form alone;
+- the target delivery test: a visible feature delivers each attribute of the sensory-emotional target at the glance stage;
 - concept consistency and the plan-realization trace;
 - the contribution of every element;
 - legibility;
@@ -177,6 +182,9 @@ On failure, name the earliest responsible decision (plan, element, or placement)
 | Fit without departure, or the reverse | Review shows blending into neighbors, or alienating them | Re-balance on the chosen dimension |
 | Stock layout | The composition would work for any business | Re-derive from the core idea and the Environment Profile |
 | Dense text ignored | Dense content with no grouping or row behavior | Group in reading order; describe rows once |
+| Uniform text blocks | Content devices flattened into same-style text in the layout | Restore each device's form; recompose |
+| Hierarchy of text by size only | Function classes distinguished only by size | Distinguish by form (treatment dimensions) as designed in Phase 4 G |
+| Richness lost in layout | The features that deliver the target are shrunk or crowded out | Restore their space and scale; triage elsewhere |
 
 ## 4. Completion criteria, summary print, and hand-off
 

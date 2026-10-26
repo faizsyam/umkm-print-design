@@ -51,6 +51,8 @@ For each item record: the exact string, necessity, provenance, the face it belon
 - **Necessity judgment.** Mark an item mandatory if the user said it must appear or the piece cannot work without it; optional if offered or helpful; excluded if the user said to leave it out. When unsure whether something is mandatory, treat it as mandatory until a later phase triages it under the rules in Phase 5.
 
 ### D. Preferences and constraints
+
+Record the user's preference words **verbatim** (how they want the piece to feel). Do not interpret them here; Phase 2 decomposes them into a sensory-emotional target, and every later gate checks that target.
 Style, color, mood, theme, references, existing assets, exclusions, cultural or religious sensitivities. A supplied reference shows taste; extract what the user responds to (structure, tone, density, material) and never reproduce the reference. Fixed assets are listed with exactly what is fixed about each (a logo's form and color; a palette's values; a typeface). For a supplied logo image, record its form, construction, and colors precisely, so that Phase 6 can reproduce it by description if the model cannot take image input.
 
 ### E. Completeness, ambiguity, and clarification
@@ -82,6 +84,7 @@ Style, color, mood, theme, references, existing assets, exclusions, cultural or 
 | Invented fact | An item with no provenance, or provenance "inferred" for a price, claim, mark, or contact | Remove it, or ask if blocking |
 | Reference treated as template | The ledger records a reference's layout as a requirement | Re-record as taste evidence only |
 | Missing area or volume | No physical area, or no content count, recorded | Capture or infer and tag; it is needed in Phases 3 and 5 |
+| Preference words paraphrased | The ledger replaces the user's wording with the model's interpretation | Restore the user's words verbatim; decomposition belongs to Phase 2 |
 | Fixed asset altered in the record | A logo or palette described as "to be improved" | Restore as fixed; flag only if the user asked for change |
 | Setting left unstated | No setting, not even inferred | Infer the most probable setting and tag it provisional |
 | Skipping the phase because the brief is simple | No ledger exists | Write a short ledger; simplicity shortens it, never removes it |
