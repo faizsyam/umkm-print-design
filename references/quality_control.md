@@ -18,7 +18,7 @@ No gate may be skipped. Read this file at every gate, at the release step, and w
 |---|---|---|
 | Decision | Immediately after each consequential decision (protocol step 6) | Was it chosen against genuine candidates, with the apparent option named, a runner-up, and a decisive criterion? Can it trace to a source? |
 | Composition | After Phase 5, and whenever Phase 3 to 5 decisions change | Does the assembled design work as one piece for this viewer, in this setting, at each viewing stage? |
-| Prompt | After Phase 6 drafting, before the summary is written | Does the prompt carry exactly the design, and only what shapes the picture? |
+| Prompt | After Phase 6 drafting, before delivery | Does the prompt carry exactly the design, and only what shapes the picture? |
 
 A defect found at a higher level is traced to the earliest responsible decision (section 6).
 
@@ -26,20 +26,20 @@ A defect found at a higher level is traced to the earliest responsible decision 
 
 Every gate has the same six checks, then the phase-specific checks below.
 1. Every required decision of the phase is made.
-2. The exploration protocol was applied where it applies (SKILL.md section 7).
+2. The exploration protocol and the decision quality standard were applied where they apply (SKILL.md 7.1 to 7.3).
 3. One objection was raised by each owning role and resolved, or accepted with a recorded reason. The owning roles: Phase 1 print designer; Phase 2 brand strategist and consumer-behavior researcher; Phase 3 brand strategist and senior art director; Phase 4 senior art director, graphic designer, image-generation prompt specialist; Phase 5 consumer-behavior researcher, senior art director, print designer, visual communication specialist; Phase 6 senior art director and image-generation prompt specialist.
 4. The completion criteria in the phase card's "Before leaving" are met, and every decision made in the phase names its source (traceability: Brief Ledger item or finding → implication → plan → element → execution → prompt clause). A decision with no nameable source was made from habit and fails.
-5. The decision-summary entry is recorded (Phases 2 to 5 only; Phases 1 and 6 are not summarized).
+5. For Phases 2 to 5 only: the decision-summary entry has been **printed to the user as visible text, immediately, before the next phase begins** (SKILL.md 13.1). Held-back or end-loaded entries fail the gate. Phases 1 and 6 are not summarized.
 6. The Design Log is updated, and the hand-off is complete and consumed by the next phase.
 
 | Phase | Phase-specific gate checks |
 |---|---|
 | 1 Brief | Every mandatory string exact; every item has necessity and provenance; no unsourced fact; fixed assets and exclusions listed; at most three clarification questions, each with a default, none answerable from the brief; if a blocking gap remains and no urgency was signaled, the output is the questions only |
 | 2 Analysis | Every finding changes or confirms a decision; the Environment Profile is concrete and names departure and fit dimensions; the weakest link is chosen with options weighed; the Visual source inventory has all three parts and goes beyond emblems; every implication names its evidence; no narrative richer than the evidence; research stopped at diminishing returns |
-| 3 Design Plan | Core idea, style, hero each decided by the full protocol with a decisive criterion; at least one candidate per decision from the inventory or the departure dimensions; the core idea passes the five properties; every novel idea names the job it does; no direction derives from a competitor's or an existing design; the style is actionable; all seven stress tests recorded; space intent and mark role set; every Phase 2 tension resolved; brand design and theme consistent |
-| 4 Design Elements | Color, type, mark each decided by the protocol; supplied logo, colors, and fonts untouched; every novel element names the job it does; the mark shows at least six seeds, three developed candidates, a revision, all eight scrutiny questions, and all five tests (or the logo is a fixed asset, recorded as such); a personality device exists; distinction mechanisms named; deficit analysis done; element allowance fits the space intent; removal and subtraction passes done; rendering treatment consistent |
-| 5 Design Execution | One-sentence message; every item has a reading stage; the space plan is set with proportions before placement; the spatial strategy chosen from at least three structurally different candidates; legibility minimums set and respected; triage applied only as defined; every quiet area passes the fill test; hierarchy by several means; mark in its own region; the whole-composition review passed |
-| 6 Prompt Synthesis | The decision commitments complete; the prompt audit (section 5) passed; no placeholders or blank zones for manual completion; no output beyond the summary, prompt(s), and allowed notes; the summary is written only after the audit and agrees with the prompt |
+| 3 Design Plan | Survey of at least five territories from at least three source families recorded; every candidate is a complete card; every candidate evaluated through the context matrix and interaction check, each weakness mitigated or accepted; leading candidates passed the originality tests; each governing principle shows compared options; core idea, style, hero each decided by the full protocol with a decisive criterion; at least one candidate per decision from the inventory or the departure dimensions; the core idea passes the five properties; every novel idea names the job it does; no direction derives from a competitor's or an existing design; the style is actionable; all seven stress tests recorded; space intent and mark role set; every Phase 2 tension resolved; brand design and theme consistent |
+| 4 Design Elements | Mark and wordmark form one identity unit (arrangement, shared construction logic, derived spacing, alignment, color logic, separability decided; unit and disconnection tests passed) and the unit is distinct from the rest of the design by named mechanisms applied to the whole unit; every element has an effect profile and names the plan commitment it realizes (realization trace; no orphan element, no unrealized commitment); color, type, mark each decided by the protocol; supplied logo, colors, and fonts untouched; every novel element names the job it does; the mark shows at least six seeds, three developed candidates, a revision, all eight scrutiny questions, and all five tests (or the logo is a fixed asset, recorded as such); a personality device exists; distinction mechanisms named; deficit analysis done; element allowance fits the space intent; removal and subtraction passes done; rendering treatment consistent |
+| 5 Design Execution | Spatial strategy candidates are complete cards; every placement traces to the plan and elements; the identity unit sits in one region; one-sentence message; every item has a reading stage; the space plan is set with proportions before placement; the spatial strategy chosen from at least three structurally different candidates; legibility minimums set and respected; triage applied only as defined; every quiet area passes the fill test; hierarchy by several means; mark in its own region; the whole-composition review passed |
+| 6 Prompt Synthesis | Every printed or amended decision visible in the prompt and none contradicted; the identity unit described as one object; the decision commitments complete; the prompt audit (section 5) passed; no placeholders or blank zones for manual completion; no output beyond the summary, prompt(s), and allowed notes; any change to a printed decision was announced as an amendment |
 
 ## 3. Diagnostic tests
 
@@ -58,6 +58,9 @@ Use the tests that apply; record failures with their routing.
 | Subtraction | Does removing one more thing improve the piece? | Phase 4 or 5 |
 | Fill | Does every quiet area have a named job? | Phase 5 |
 | Single-voice | Does the system read as one designer's work? | Phase 4 |
+| Unit and disconnection | Does the mark with wordmark read as one object, and does each stay recognizably of the same identity when the other is covered? | Phase 4 |
+| Realization trace | Does every element and placement name the plan commitment it realizes, and is every commitment realized? | Phase 4 or 5 |
+| Originality (apparent-choice, lineage, synthesis, depth, distinctness) | Is the leader unpredictable, nameable by lineage, derived from this brief, specialist-grade, and more than competent? | Phase 3 to 5 |
 | Text-neighborhood | Is the mark distinct beside the densest text, squinting? | Phase 4 or 5 |
 | Visual-effect | Would removing this prompt clause change what is drawn? | Phase 6 |
 | Standalone | Could an illustrator who never saw the brief produce the design? | Phase 6 |
@@ -80,6 +83,9 @@ Generic output has causes. Diagnose the mechanism, then fix its source decision,
 | Space inflation | More elements because the format is large | Phase 5 B.3 |
 | Text hallucination | Extra, garbled, or missing words in the output | Phase 6 F: state text-only-as-specified; reduce text volume risk |
 | Rationale leakage | Strategy language in the prompt | Phase 6 A |
+| Label candidates | Candidate cards with empty or adjectival fields | Phase 3 to 5: fill every field in specialist terms |
+| Single-variable decisions | A choice justified by one parameter | Run the context matrix and interaction check |
+| Disconnected identity | Mark and wordmark read as two objects, or the unit is absorbed by body type | Phase 4: redesign the lockup (shared logic, derived spacing) and apply unit-level distinction |
 | Invented specifics | Claims, prices, marks, or details with no source | Phase 1 provenance; non-negotiables |
 | Borrowed design | A direction or mark that mirrors a competitor's or an existing design | Phase 3 or 4: re-source from this business's inventory and re-run the protocol |
 
@@ -102,10 +108,12 @@ Run on the drafted prompt, then on the reply.
 - Standalone and readable; one coherent style logic.
 
 **Reply audit**
-- Order: summary, prompt(s) each in its own code block, optional notes.
-- Summary: Phases 2 to 5 only, one compact block each, genuine alternatives only, in the user's language, consistent with the prompt and written after it, not inside the code block.
+- Phase by phase: each of Phases 2 to 5 had its entry printed as visible text at its own gate, in order, before the next phase began; none was held for the end.
+- Each entry shows decisions considered, options (one line each: name, strength, weakness), and the selection with its rationale; alternatives are genuine only; fixed decisions are marked as such; the language is the user's.
+- Amendments were printed at once when a later return changed a printed decision.
+- Final reply: the prompt(s), each in its own code block, then optional notes only; no repeated summary.
 - Notes: only what the contract allows, ordered by consequence, no design rationale.
-- No workflow output beyond the summary and prompt unless requested.
+- No workflow output beyond the phase disclosures, the prompt(s), and allowed notes unless requested.
 
 ## 6. Issue triage: severity and routing
 
@@ -141,10 +149,10 @@ When a symptom has several possible causes, choose the earliest. Fixing a sympto
 Before delivering, confirm all of the following.
 1. Phases 1 to 6 ran in order; every gate passed.
 2. The decision commitments (SKILL.md section 11) are complete.
-3. Every consequential decision shows a recorded challenge, a runner-up, and a decisive criterion (or is marked fixed by the user or evidence).
-4. The mark is a fixed asset, or a new mark with a personality device developed through the extended development, with named distinction mechanisms.
+3. Every consequential decision shows a complete decision record: candidate cards, context-matrix evaluation, a runner-up, a decisive criterion, and mitigated or accepted weaknesses (or is marked fixed by the user or evidence).
+4. The identifier is a fixed asset, or a new mark with a personality device developed through the extended development, integrated with the wordmark as one identity unit, with named mechanisms that distinguish the whole unit.
 5. The space plan is set with proportions and every quiet area has a job.
 6. The prompt audit and reply audit passed.
-7. The summary shows only genuine alternatives, is in the user's language, and matches the prompt.
+7. Every phase entry was printed at its gate, shows only genuine alternatives, is in the user's language, and matches the prompt (with amendments where decisions changed).
 8. Notes include every consequential assumption, omission, written copy, yielded preference, suspected typo, fidelity risk, and ratio limit, and no design rationale.
 9. If a blocking gap exists and no urgency was signaled, the reply is the clarification questions only (at most three, each with a default).

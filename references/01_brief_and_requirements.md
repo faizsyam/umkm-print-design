@@ -54,15 +54,24 @@ For each item record: the exact string, necessity, provenance, the face it belon
 Style, color, mood, theme, references, existing assets, exclusions, cultural or religious sensitivities. A supplied reference shows taste; extract what the user responds to (structure, tone, density, material) and never reproduce the reference. Fixed assets are listed with exactly what is fixed about each (a logo's form and color; a palette's values; a typeface). For a supplied logo image, record its form, construction, and colors precisely, so that Phase 6 can reproduce it by description if the model cannot take image input.
 
 ### E. Completeness, ambiguity, and clarification
-Sort every gap:
+
+**Sort every gap**
 - **Explicit:** stated. Record it.
 - **Inferable:** reliably deducible from the rest of the brief. Infer and tag.
 - **Researchable:** discoverable externally. Pass to Phase 2 as a research question, naming the decision it could change; drop it if it changes none.
 - **Materially uncertain:** missing, not discoverable, and would change the design. If a wrong guess would waste the generation or mislead the audience, it is a **blocking gap**.
 
-Resolve noncritical ambiguity by informed interpretation. Do not invent business facts. For blocking gaps: ask once, in the user's language, at most three questions, each stating the default that applies if unanswered (or the omission of the item when no honest default exists). Do not ask what can be derived or investigated. If the user signals urgency, proceed on the stated defaults and flag consequential assumptions.
+**Resolve**
+- Noncritical ambiguity: informed interpretation, tagged.
+- Business facts: never invented.
+- A missing aesthetic preference is never blocking; Phase 3 decides it.
+- A gap is blocking when its answer would change which face carries the message, whether mandatory content exists at all, or whether the piece can physically contain the content.
 
-A gap is blocking when the answer would change which face carries the message, whether mandatory content exists at all, or whether the piece can physically contain the content. A missing aesthetic preference is never blocking: Phase 3 decides it.
+**Clarify (blocking gaps only)**
+- Ask once, in the user's language, at most three questions.
+- State, for each, the default that applies if unanswered (or the omission of the item when no honest default exists).
+- Do not ask what can be derived or investigated.
+- If the user signals urgency, proceed on the stated defaults and flag consequential assumptions.
 
 ## 3. Failure modes
 
@@ -79,6 +88,6 @@ A gap is blocking when the answer would change which face carries the message, w
 
 ## 4. Completion criteria and hand-off
 
-Complete when the phase card's "Before leaving" check holds. Phase 1 is not summarized to the user; record no decision-summary entry. Update the Design Log with the content volume against area, fixed assets, exclusions, and open issues.
+Complete when the phase card's "Before leaving" check holds. Phase 1 is not summarized to the user; print no decision-summary entry. Update the Design Log with the content volume against area, fixed assets, exclusions, and open issues.
 
 **Hand-off to Phase 2:** the Brief Ledger (every item classified), the research questions (each naming the decision it informs), the tensions noticed, and the inferred setting if one was inferred.
