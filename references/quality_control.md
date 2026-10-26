@@ -29,12 +29,12 @@ Every gate has the same six checks, then the phase-specific checks below.
 2. The exploration protocol and the decision quality standard were applied where they apply (SKILL.md 7.1 to 7.3).
 3. One objection was raised by each owning role and resolved, or accepted with a recorded reason. The owning roles: Phase 1 print designer; Phase 2 brand strategist and consumer-behavior researcher; Phase 3 brand strategist and senior art director; Phase 4 brand strategist, senior art director, graphic designer, image-generation prompt specialist; Phase 5 consumer-behavior researcher, senior art director, print designer, visual communication specialist; Phase 6 senior art director and image-generation prompt specialist.
 4. The completion criteria in the phase card's "Before leaving" are met, and every decision made in the phase names its source (traceability: Brief Ledger item or finding → implication → plan → element → execution → prompt clause). A decision with no nameable source was made from habit and fails.
-5. For Phases 2 to 5 only: the decision-summary entry has been **printed to the user as visible text, immediately, before the next phase begins** (SKILL.md 13.1). Held-back or end-loaded entries fail the gate. Phases 1 and 6 are not summarized.
+5. User-facing: for Phases 2 to 5, a wait note opened the work and the phase entry was **printed to the user immediately** in plain Indonesian and the compact table layout (`00_conversation_ux.md` section 5); held-back or end-loaded entries fail. Phase 1 closed with the user's confirmed summary; after Phases 2 and 3 the turn ended with the confirmation question and the next phase waited for the go-ahead; Phase 6 is the final reply.
 6. The Design Log is updated, and the hand-off is complete and consumed by the next phase.
 
 | Phase | Phase-specific gate checks |
 |---|---|
-| 1 Brief | Every mandatory string exact; every item has necessity and provenance; no unsourced fact; fixed assets and exclusions listed; at most three clarification questions, each with a default, none answerable from the brief; every stated quality has a translation and carriers; if a blocking gap remains and no urgency was signaled, the output is the questions only |
+| 1 Brief | Every mandatory string exact; every item has necessity and provenance; no unsourced fact; fixed assets and exclusions listed; intake within the question limits, each question with an example or default, none answerable from the brief; the user confirmed the compact summary; every stated quality has a translation and carriers; if a blocking gap remains and no urgency was signaled, the output is the questions only |
 | 2 Analysis | Every finding changes or confirms a decision; the Environment Profile is concrete and names departure and fit dimensions; the weakest link is chosen with options weighed; the Visual source inventory has all three parts and goes beyond emblems; every implication names its evidence; no narrative richer than the evidence; research stopped at diminishing returns; the chosen departure compatible with every quality requirement; the primary objective follows the user's stated priority |
 | 3 Design Plan | Survey of at least five territories from at least three source families recorded; every candidate is a complete card; every candidate evaluated through the context matrix and interaction check, each weakness mitigated or accepted; leading candidates passed the originality tests; each governing principle shows compared options; core idea, style, hero each decided by the full protocol with a decisive criterion; at least one candidate per decision from the inventory or the departure dimensions; the core idea passes the five properties; every novel idea names the job it does; no direction derives from a competitor's or an existing design; the style is actionable; all eight stress tests recorded; space intent (capacity-tested), imagery stance, and mark role set; every candidate marked against each quality requirement and each requirement carried by the plan; every Phase 2 tension resolved; brand design and theme consistent |
 | 4 Design Elements | Mark and wordmark form one identity unit (arrangement, shared construction logic, derived spacing, alignment, color logic, separability decided; unit and disconnection tests passed) and the unit is distinct from the rest of the design by named mechanisms applied to the whole unit; every element has an effect profile and names the plan commitment it realizes (realization trace; no orphan element, no unrealized commitment); color, type, mark each decided by the protocol; supplied logo, colors, and fonts untouched; every novel element names the job it does; the mark shows at least six seeds, three developed candidates, a revision, all eight scrutiny questions, and all five tests (or the logo is a fixed asset, recorded as such); a personality device exists; distinction mechanisms named; deficit analysis done; element allowance fits the space intent; removal and subtraction passes done; rendering treatment consistent; value key computed and compatible with every quality requirement; every text item has a content role and treatment grade (voice-bearing copy designed); a text-only baseline run, at least two supporter families weighed per real deficit, each supporter tied to a deficit, additive pass done, visual variety met |
@@ -100,6 +100,9 @@ Generic output has causes. Diagnose the mechanism, then fix its source decision,
 | Supporter as filler | A supporter answers no deficit or breaks the form language | Phase 4 D |
 | Late amendment | Sizes or decisions change after the gate | Phase 5 capacity check; Phase 4 value-key check |
 | Numeric overload | The prompt repeats the plan as percentages | Phase 6 G |
+| Jargon wall | User-facing text uses unexplained design terms or exceeds the entry limits | UX reference 1 and 5 |
+| Interrogation | More than three questions in a message or more than three discovery messages | UX reference 3 |
+| Silent advance | Phase 3 or 4 began without the user's go-ahead after Phase 2 or 3 | UX reference 2 |
 
 ## 5. Compliance audit
 
@@ -122,13 +125,13 @@ Run on the drafted prompt, then on the reply.
 - Standalone and readable; one coherent style logic.
 
 **Reply audit**
-- Phase by phase: each of Phases 2 to 5 had its entry printed as visible text at its own gate, in order, before the next phase began; none was held for the end.
-- Each entry shows decisions considered, options (one line each: name, strength, weakness), and the selection with its rationale; alternatives are genuine only; fixed decisions are marked as such; the language is the user's.
+- Phase by phase: each of Phases 2 to 5 opened with a wait note and had its entry printed at its own gate, in order; none was held for the end; Phases 2 and 3 ended with a confirmation question and waited; Phases 4 and 5 did not stop.
+- Each entry shows, in tables, the options (Pilihan, Kelebihan, Kekurangan), the choice marked, and a one-line reason; alternatives are genuine only; fixed decisions are marked as such; the language is casual, plain Indonesian with no unexplained jargon; the length is within the UX limits.
 - Amendments were printed at once when a later return changed a printed decision.
-- Final reply: the prompt(s), each in its own code block, then optional notes only; no repeated summary.
+- Final reply: short lead-in, the prompt(s) each alone in a code block in English, simple how-to-use steps recommending ChatGPT, optional short notes in plain Indonesian, a closing line; no repeated summary.
 - Concision: entries within the length rules, no transition lines, no restated inputs.
 - Notes: only what the contract allows, ordered by consequence, no design rationale.
-- No workflow output beyond the phase disclosures, the prompt(s), and allowed notes unless requested.
+- No workflow output beyond the messages the UX reference defines unless requested; no English reasoning or internal phase jargon shown to the user.
 
 ## 6. Issue triage: severity and routing
 
@@ -171,8 +174,9 @@ Before delivering, confirm all of the following.
 4. The identifier is a fixed asset, or a new mark with a personality device developed through the extended development, integrated with the wordmark as one identity unit, with named mechanisms that distinguish the whole unit.
 5. The space plan is set with proportions and every quiet area has a job.
 6. The prompt audit and reply audit passed.
-7. Every phase entry was printed at its gate, shows only genuine alternatives, is in the user's language, and matches the prompt (with amendments where decisions changed).
+7. Every phase entry was printed at its gate after a wait note, shows only genuine alternatives, is in plain Indonesian, and matches the prompt (with amendments where decisions changed); the user confirmed the Phase 1 summary and gave a go-ahead after Phases 2 and 3.
 8. Notes include every consequential assumption, omission, written copy, yielded preference, suspected typo, fidelity risk, and ratio limit, and no design rationale.
-9. If a blocking gap exists and no urgency was signaled, the reply is the clarification questions only (at most three, each with a default).
+9. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only (at most three, each with an example or default).
 10. Every quality requirement has a translation, a visible carrier in the composed design, and a place in the opening lines of the prompt; the value key is compatible.
 11. Voice-bearing copy is designed, every supporter answers a deficit, visual variety is met, and no size changed after its gate.
+12. User-facing text is casual plain Indonesian; reasoning and the prompt are English; the prompt sits alone in a code block followed by simple how-to-use steps.

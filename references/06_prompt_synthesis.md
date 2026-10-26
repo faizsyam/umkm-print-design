@@ -92,7 +92,7 @@ Describe finished flat artwork unless a mockup is requested or the physical form
 ### I. Language, multiple concepts, and faces
 
 - Write the prompt in English by default, keeping on-piece text verbatim in its original language, unless the user requests otherwise or names a model that performs better in another language.
-- Reply in the user's language.
+- Everything the user reads outside the prompt is plain Indonesian (`00_conversation_ux.md`); the prompt stays English and sits alone in its code block.
 - Several concepts: one complete standalone prompt each, differing in underlying creative approach.
 - Several faces: one standalone prompt each, restating the shared identity in the same words.
 

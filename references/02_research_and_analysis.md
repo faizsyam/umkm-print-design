@@ -11,7 +11,7 @@
 | Exploration protocol | Applies to genuine option sets only: the differentiation strategy, the choice of weakest link, the departure and fit dimensions. Weigh the real options and record why the choice wins. Where evidence leaves a single defensible option, record that and do not manufacture alternatives. The Visual source inventory is this phase's main contribution to later exploration |
 | Required decisions | Which research questions to pursue; the differentiation strategy (or execution-led differentiation); the weakest link; the departure and fit dimensions; the contents of the Visual source inventory; the design implications |
 | Outputs | Communication Problem; Environment Profile; audience encounter; differentiation strategy with options weighed; Visual source inventory; tagged design implications; tension list |
-| Before leaving | Does every finding change or confirm a decision? Could someone who never visited picture the setting and name where the piece departs and where it must fit? Is any brand narrative richer than its evidence? Does the inventory go beyond emblems, stay true, and stay respectful? Does every implication name its evidence? Is the chosen departure compatible with every quality requirement, and does the primary objective follow the user's stated priority? Have the brand strategist and the consumer-behavior researcher each raised an objection, resolved or accepted with a reason? Is the decision-summary entry printed to the user? |
+| Before leaving | Does every finding change or confirm a decision? Could someone who never visited picture the setting and name where the piece departs and where it must fit? Is any brand narrative richer than its evidence? Does the inventory go beyond emblems, stay true, and stay respectful? Does every implication name its evidence? Is the chosen departure compatible with every quality requirement, and does the primary objective follow the user's stated priority? Have the brand strategist and the consumer-behavior researcher each raised an objection, resolved or accepted with a reason? Is the phase entry printed in plain Indonesian, with the confirmation question asked and the turn stopped? |
 
 ## Contents
 1. Process
@@ -30,7 +30,7 @@
 7. Research per F, evaluating source reliability and confirming that a found business is the right one.
 8. Ground culturally and build the Visual source inventory (G).
 9. Convert findings into design implications. Discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
-10. Pass the gate; print the decision-summary entry to the user (SKILL.md 13.1) before Phase 3 begins.
+10. Pass the gate; print the Phase 2 entry in plain Indonesian (`00_conversation_ux.md` section 5), ask for the user's confirmation, and stop. Phase 3 begins only on the go-ahead.
 
 Steps 3 to 8 interleave in practice; the order above is the order of conclusions, not of fact-finding. Research early enough that the Environment Profile and inventory rest on it.
 
