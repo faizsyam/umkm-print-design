@@ -58,6 +58,9 @@ Use the tests that apply; record failures with their routing.
 | Value-key | Does the area-weighted light, mid, and dark balance, ground and large bands included, match every quality requirement? | Phase 4 (or 3) |
 | Role-fit | Does each text item's treatment grade fit its content role? | Phase 4 |
 | Text-only baseline | With the supporters covered, what is lacking, and is each real deficit answered by a supporter? | Phase 4 |
+| Distinct-job | Does each element hold a job no other element holds? | Phase 4 |
+| Weight-ceiling | Does any decoration outrank the required information it serves, at that information's stage? | Phase 4 or 5 |
+| Figure-role | Does each figure appearance name one role, share one design, and stay within its weight ceiling? | Phase 4 or 5 |
 | Capacity | Does every string fit its container at its final size? | Phase 5 |
 | Referent | For each text item, is it nearest the thing it refers to? | Phase 5 (A2) |
 | Caption | If the text were covered, would a picture with captions beneath it remain? | Phase 5 (A2), or Phase 3 integration stance |
@@ -76,7 +79,7 @@ Run on the drafted prompt, then on the reply.
 - Identifier: not merely a styled name unless supplied or explicitly requested as plain text; a new mark described by form class, geometry, silhouette, color, boundary, personality device, wordmark relationship, separation from adjacent type.
 - Space: outer margin, isolation, and resting fields stated as concrete positive features, with proportions where they matter.
 - Qualities: every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.
-- Copy and supporters: designed copy and each supporter described by traits and forms, matching the printed decisions.
+- Copy and supporters: designed copy and each supporter described by traits and forms, matching the printed decisions, none outweighing required text.
 - No contradictions; no rationale; no placeholders; no blank zones other than a reserved asset panel for a supplied asset; no post-generation editing instructions; no blanket emphasis; no crop marks or annotations unless requested.
 - Flat artwork unless a mockup was requested or the form is the deliverable.
 - The visual-effect test on every sentence.
@@ -106,6 +109,8 @@ Routing from symptom to responsible phase:
 | Rationale in the prompt; vague wording; mandatory text misplaced; space not stated | 6 |
 | Stated quality missing from the ledger, or contradicted by a decision | 1 for the translation; otherwise the earliest contradicting phase |
 | Value-key drift; plain-set voice copy; text-only look; unanchored supporters | 4 (3 if the plan caused it) |
+| Duplicate-job elements; decoration outranking information; a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark | 4 |
+| Bleed against content; a pointer with no referent; a figure covering information | 5 |
 | Text overflowing its container; sizes changed late | 5 |
 
 When a symptom has several possible causes, choose the earliest. Fixing a symptom at a later phase while its cause stands is a patch and is not permitted.

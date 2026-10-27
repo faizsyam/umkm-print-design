@@ -11,7 +11,7 @@
 | Exploration protocol | Full (`protocol.md` sections 1 and 2) for the **spatial strategy**, with the decision quality standard (`protocol.md` section 3) including the realization trace. The stage assignment and the space plan are decided by the rules in B, with reasons recorded, and are not run as candidate comparisons. Hierarchy ranking is a justified decision, not a competition |
 | Required decisions | The one-sentence message; stage assignment of every content item; the relationship map and coupling modes; the space plan with proportions; the spatial strategy; the capacity check; hierarchy and reading order; placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
 | Outputs | The Execution Specification |
-| Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is the spatial strategy chosen from three structurally different candidates, and is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does every text item sit nearest what it refers to, with the hero group reading as one object and the hero dominant? Does every text string fit its container at its final size, checked before sizes were printed? Are legibility minimums set and respected, and triage used only as defined? Are designed copy items and supporters placed as specified? Does the composed whole carry every quality requirement at the glance stage? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed (auto mode: nothing printed)? |
+| Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is the spatial strategy chosen from three structurally different candidates, and is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does every text item sit nearest what it refers to, with the hero group reading as one object and the hero dominant? Does every text string fit its container at its final size, checked before sizes were printed? Are legibility minimums set and respected, and triage used only as defined? Are designed copy items and supporters placed as specified, none outranking the required information it serves? Does the composed whole carry every quality requirement at the glance stage? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed (auto mode: nothing printed)? |
 
 ## Contents
 1. Process
@@ -46,6 +46,7 @@ The order of steps 2 to 5 is fixed: viewing stages, then space plan, then sizes,
 **Assign dominance by several means**
 - Scale, contrast, color, isolation, position, weight.
 - The identity unit's prominence matches its Phase 3 role; its distinction is secured by mechanisms (Phase 4), not size alone.
+- Elements are ranked with the text: each takes the weight its job needs, within its Phase 4 weight ceiling. The hero and the identity unit (per mark role) lead; evidence imagery and designed hooks follow; guides, structure, and ground stay below the required information they serve. Decoration never outranks required information at that information's stage.
 
 ### A2. Relationship map and grouping
 
@@ -67,6 +68,8 @@ The order of steps 2 to 5 is fixed: viewing stages, then space plan, then sizes,
 - **Verbatim.** Integration changes position and form, never wording or order. Split a string across labels only if each fragment is verbatim, in order, and reads correctly alone; otherwise attach it whole. A group title stays with its items.
 - **Group count.** Count the perceptual groups at the glance stage. Merging by relationship lowers the count; many equal separate bands make a list.
 - **Reliability.** Use only forms the image model renders reliably: one short line on one smooth arc, straight pointers, few labels. If reliability is doubtful, attach instead.
+- **Isolation.** An integrated form that overlaps or wraps the hero needs a hero with a clean, isolated edge (Phase 4 image treatment); without one, attach.
+- **Row guidance.** Where a label and its value sit far apart, a fine leader or a shared alignment rail ties the pair; where proximity already does, nothing is added.
 
 **Tests.** *Referent test:* for every item, name what it refers to and confirm it sits nearest that thing. *Caption test:* if covering the text leaves a picture with captions beneath it, the coupling is missing.
 
@@ -115,7 +118,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 3. How the hero, identity unit, and information divide the format; figure-ground relation.
 4. Visual weight distribution and tension; density and rhythm.
 5. How the space plan is realized (margin, isolation, resting fields).
-6. Edge behavior and foreground-background relationship.
+6. Edge behavior (which elements run off the trim, which hold the safe margin) and foreground-background relationship.
 7. Behavior at each viewing stage; fit with and departure from neighbors.
 8. Where supporters and designed copy sit, and how they relieve, group, and balance the text areas.
 9. Coupling: which content is integrated with, attached to, or separate from the hero group (A2), and the resulting group count.
@@ -138,8 +141,9 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - The identity unit claims its own region with protected clear space measured from the unit.
 - Elements interact as one art-directed whole.
 - Specify where every mandatory text item sits and in what typographic role. Integrated items name the part they point to or follow, their side or path, and the pointer style; attached items name the group they join.
-- Designed copy items are placed with their Phase 4 treatment (line breaks, emphasis, container, color role); they do not revert to plain text during layout. Supporters are placed where they answer their deficit.
+- Designed copy items are placed with their Phase 4 treatment (line breaks, emphasis, container, color role); they do not revert to plain text during layout. Supporters are placed where they answer their deficit, by their job: markers and glyphs align with the items they label at one size; pointers and arrows end on what they name and never cross; a path carries only a given sequence; borders and frames stay inside the safe margin unless they bleed deliberately; a block or band holds one content group; a tag attaches to the one fact it flags and does not compete with the hero; a scrim sits behind only the text zone it serves.
 - A supplied asset the generator cannot reproduce faithfully (a QR or QRIS code, a barcode, a supplied photograph, a supplied logo file that cannot be attached) gets a reserved asset panel: its own region at the size it needs (a code sized to scan at its use distance, with its quiet zone), inside the space plan, with isolation and a quiet frame in the system's colors. Never an invented stand-in.
+- A figure is placed by its Phase 4 role: a lead figure as the hero; a demonstrating figure within the hero group, subordinate to the offer; a guiding figure with gesture or gaze ending on the named target and covering no information; a mood figure at supporter scale; a figure in the mark inside the identity unit's region. A supplied figure is never redrawn, and every appearance keeps one design.
 
 ### E. Backgrounds and transitions
 
@@ -149,6 +153,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - Subordination to hierarchy.
 - Edge-to-edge consistency.
 - That the background stays quiet where information lives.
+- Realization of the Phase 4 ground, scrim, edge behavior, zone transitions, and surface, each only where decided and each subordinate to the hierarchy.
 
 ### F. Physical print conditions
 
@@ -156,12 +161,13 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - Viewing distance per stage, ambient light, material and finish.
 - Production limits, handling and exposure.
 - Format behavior (folds, panels, curvature).
+- Trim tolerance: what bleeds, and what holds the safe margin (content, the identity unit, fine borders); bleed is visual direction only, never guides or marks in the prompt.
 - Carry forward only what changes the look or the generation; separate visual direction from technical production specifications.
 
 ### G. Multi-face and multi-panel pieces
 
 **Decide**
-- The shared identity, established once.
+- The shared identity, established once, with the identity form each face uses and one figure design wherever a figure appears.
 - A distinct job per face.
 - Consistent treatment and continuity between panels.
 - For each face: stage assignment, space plan, and spatial strategy, because faces differ in job and possibly viewing conditions.
@@ -182,7 +188,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - every stated quality requirement, read off the composed whole at the glance stage (value key included);
 - the identity unit: integrated, distinctive, and passing the text-neighborhood test;
 - concept consistency and the plan-realization trace;
-- the contribution of every element;
+- the contribution of every element, each with a distinct job, and no decoration outranking the required information it serves;
 - legibility;
 - balance and completeness;
 - background and detail;
@@ -190,7 +196,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - proportion and space;
 - fit among actual neighbors and light, with departure on the intended dimension;
 - relationships: each text item nearest its referent; supporting text never competes with the hero; no picture-with-captions bands;
-- visual variety: more than type and one motif carries the eye across the piece, with supporters where they relieve, group, or balance;
+- visual variety: the hero, ground, scale, and form carry the eye across the piece, with supporters only where a deficit exists and never added for variety;
 - absence of generic, templated, overdecorated, or AI-typical appearance.
 
 On failure, name the earliest responsible decision (plan, element, or placement), return there, and re-run forward; cap at two cycles per issue.
@@ -219,6 +225,10 @@ On failure, name the earliest responsible decision (plan, element, or placement)
 | Hero hosts nothing | Empty ground beside the hero while its text is squeezed elsewhere | Move the hero group's text into the hero's field |
 | Overintegration | Many labels, crossing pointers, or text over detailed parts | Keep the few that matter; attach the rest |
 | List of bands | Many equal separate groups stacked | Merge by relationship; lower the group count |
+| Decoration outranks information | An ornament, tag, pattern, or border out-weighs the information it serves | Lower it to its weight ceiling or remove it (Phase 4) |
+| Bleed against content | Mandatory content, the identity unit, or a fine border sits at the trim | Move it inside the safe margin, or stop the element bleeding |
+| Floating pointer | A connector or arrow names nothing, or crosses another | Anchor it to its referent or remove it |
+| Figure covering information | A figure's body, hands, or gesture hides or crowds required text | Re-place or reduce it within its role |
 
 ## 4. Completion criteria, summary print, and hand-off
 

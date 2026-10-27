@@ -9,9 +9,9 @@
 | Receives | From Phase 3: Design Plan (core idea, style across seven dimensions, hero, governing principles, space intent, mark role). From Phase 2: Environment Profile, Visual source inventory. From Phase 1: content list, fixed assets, production constraints, preferences |
 | Principles in force | **2 Structured exploration** (color strategy, typographic voice, and the mark and lockup each need candidate cards; the mark follows the extended protocol); **5 Functional creativity** (each element has a role it alone performs); **6 Intentional restraint** (every element has a space cost; the total fits the space intent); **7 Internal consistency** (one designer, one voice; consistent rendering treatment); **8 Fidelity to the brief** (supplied logos, colors, fonts are fixed); **4 Contextual specificity** (judge color, type, and mark against the landscape, not only the brand); **10 Effort follows impact** (the identity unit gets the longest deliberation in this phase) |
 | Exploration protocol | Full (`protocol.md` sections 1 and 2) for color strategy, typographic voice, the logo mark and lockup (extended development, C), and any hero treatment left open by Phase 3, with the decision quality standard (`protocol.md` section 3) including the realization trace. Other element decisions are decided directly but are still evaluated through the effect profile (G) |
-| Required decisions | Color strategy and palette; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, and distinction mechanisms); color value key; content-role treatment of every text item; visual supporters (from the text-only baseline and the supporter families surveyed); background and unifying devices; additional systems; the realization trace; element allowance check |
+| Required decisions | Color strategy and palette; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, and distinction mechanisms) and its identity forms; color value key; content-role treatment of every text item; visual supporters (from the text-only baseline and the supporter families surveyed); background and unifying devices; additional systems; the realization trace; element allowance, distinct-job, and weight-ceiling checks |
 | Outputs | The element system: each element with role, treatment, relationships, effect profile, and space cost |
-| Before leaving | Could a designer build every element from the specification? Does every element name the plan commitment it realizes, and is every plan commitment realized? Were palette and typography judged against surroundings and light and against the full parameter set? Does the mark show the extended development, and are supplied logo, colors, and fonts untouched? Do mark and wordmark form one integrated identity unit that is distinct from the rest of the design? Does every element pass the removal test? Does the total fit the space intent? Is treatment consistent? Does the value key support every quality requirement? Does each text item's treatment fit its content role? Was a text-only baseline run, were at least two supporter families weighed per real deficit, does each supporter name its deficit, and is the visual variety sufficient? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed with the confirmation question asked and the turn stopped (auto mode: nothing printed)? |
+| Before leaving | Could a designer build every element from the specification? Does every element name the plan commitment it realizes, and is every plan commitment realized? Were palette and typography judged against surroundings and light and against the full parameter set? Does the mark show the extended development, and are supplied logo, colors, and fonts untouched? Do mark and wordmark form one integrated identity unit that is distinct from the rest of the design? Does every element pass the removal test and hold a job no other element holds, with none outranking the required information it serves? Where a figure appears, does each appearance name its role and share one design? Does the total fit the space intent? Is treatment consistent? Does the value key support every quality requirement? Does each text item's treatment fit its content role? Was a text-only baseline run, were at least two supporter families weighed per real deficit, does each supporter name its deficit (a baseline with none is a valid result), and does variety come from the whole system rather than from supporters added for it? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed with the confirmation question asked and the turn stopped (auto mode: nothing printed)? |
 
 ## Contents
 1. Process
@@ -106,9 +106,10 @@ A basic, generic, or forgettable identifier is a failure even if it passes every
 **Hard rules**
 - **A new identifier is never only a styled name.** Every identifier the skill creates carries a personality device: formed by transforming part of the lettering, integrating a symbol with the name, a distinctive silhouette or container, a symbol beside the name, or a combination. Never decoration added to look designed.
 - **Fixed assets are respected.** A supplied logo, including a plain wordmark, is used as given: not redesigned, restyled, simplified, or recolored unless the user asks. If the user explicitly asks for plain text, that governs. With a supplied lockup, record that mark development was not required; the remaining decisions are its role, region, clear space, and relation to the system. With a supplied mark and a separately supplied name, leave both assets unaltered and decide only arrangement, spacing, alignment, and color roles.
+- **Characters, taglines, and seals.** A supplied mascot or brand character is a fixed asset, never redrawn; its role (part of the unit, hero, or supporter) is decided. A figure the user wants created as part of a new mark is a mark seed like any other: it passes the same scrutiny, with extra attention to cliché and to reduced, renderable geometry, and its roles beyond the mark follow Figures in D. A tagline is copy (B2) unless supplied as part of a lockup, where it belongs to the fixed asset. An emblematic form is a construction choice only and never borrows the look of an official seal or certification.
 
 **Extended development** (do not collapse into one pass)
-1. **Concept mining.** Write raw concept seeds (Full: at least six; Focused: at least four) from different sources: the name's meaning, sound, or shape; the product's defining truth; process or craft; origin; the customer's ritual; the Visual source inventory and the Phase 3 survey; the Environment Profile; a visual signature of the business. Include seeds beyond the apparent. Mark each as true, ownable, and visually workable, or discard it. Discard any seed the business cannot honestly claim.
+1. **Concept mining.** Write raw concept seeds (Full: at least six; Focused: at least four) from different sources: the name's meaning, sound, shape, or initials; the product's defining truth; process or craft; origin; the customer's ritual; the Visual source inventory and the Phase 3 survey; the Environment Profile; a visual signature of the business. Include seeds beyond the apparent. Mark each as true, ownable, and visually workable, or discard it. Discard any seed the business cannot honestly claim.
 2. **Three developed candidates.** Each candidate card is a complete identity unit idea:
    - seed and personality device;
    - construction family;
@@ -151,9 +152,13 @@ Tests: *unit test* (squint: does it read as one object?); *disconnection test* (
 
 In dense layouts, resolve distinction by composition (the unit's own region, neighboring type not echoing its form), never by endless enlargement. The unit's weight follows the mark role set in Phase 3.
 
+**Identity forms.** Decide which forms of the identity appear, and where. The full unit identifies the source once in a view; a second identifier in the same view is removed unless it does a job the unit cannot. The symbol-only form serves compact or repeated recognition (a small area, a later viewing stage, a repeat across faces) and appears only where the viewer can link it to the name: the unit is already present in the same view or set, or the symbol is established or supplied. A name-only form exists only for a supplied wordmark. The weight of every form follows the mark role.
+
 ### D. Visual supporters
 
-**Purpose.** Find what the piece lacks beyond its text, identity unit, and background, and meet each real lack with the resource best suited to it, in the piece's own style register. Restraint is carried by scale, count, finish, and form language, not by the absence of supporters.
+**Purpose.** Find what the piece lacks beyond its text, identity unit, and background, and meet each real lack with the resource best suited to it, in the piece's own style register. Restraint is carried by scale, count, finish, and form language, not by the absence of supporters where a real deficit exists.
+
+**Selection principle.** No supporter is a default; the whole context decides. A supporter is chosen only when it answers a real deficit, holds a job no other element holds, and takes a weight ceiling below the required information it serves. A piece that needs none is a valid result.
 
 **Step 1: text-only baseline.** Imagine the piece as only its required text, identity unit, and background. Name the deficits as concrete observations across:
 - visual interest and variety (any focal point or surface other than type);
@@ -169,31 +174,44 @@ A deficit is real when its absence would weaken a stated quality, the message, t
 
 **Step 2: survey the families.** For each real deficit consider at least two families before choosing, and adapt the chosen one to the style register.
 
-| Family | Typical jobs | Register adaptations |
-|---|---|---|
-| Icons and pictograms | category cues, scanning aids, attribute shorthand | premium: fine monoline, one ink, one grid; minimal: few, small, uniform; clean: geometric set of equal weight; warm: hand-drawn or stamp-like |
-| Spot illustration | personality, evidence of the offer, story, mood | premium: single-ink line or engraving-like, small scale; minimal: one reduced silhouette; clean: flat geometric; warm: cut-paper, painted, or inked |
-| Product imagery (photographic, rendered, illustrated, silhouetted, cropped) | appetite or desire, evidence, scale reference | premium: one controlled crop with space around it; minimal: one isolated product; clean: evenly lit products in a consistent frame; warm: generous, close crop; finish always matches the style |
-| Pattern and repeat texture | surface richness, ownership, zone fills | premium: tonal, low contrast; minimal: sparse repeat; clean: fine geometric; warm: bolder motif repeat; always quiet under information |
-| Borders, frames, panels | grouping, containment, edge definition | premium: hairline or double rule; minimal: a single rule or none; clean: solid panels or rounded cards; craft: cut or irregular edges |
-| Pointers and connectors (leader lines, dots, brackets) | tie text to the depicted part it describes; guide the eye | premium: hairline ending in a small dot; minimal: few, straight; clean: uniform weight, right-angle bends; warm: hand-drawn or ribbon-like |
-| Dividers and ornaments | separation, rhythm, pacing along lists | thin rule with a small ornament; space alone; color bands; a repeat motif strip |
-| Color and shape blocks | zoning, emphasis, balance, anchoring | tonal blocks; one large field; geometric or organic shapes |
-| Material surfaces | tactile mood, authenticity (paper, grain, wood, fabric, metal) | low contrast beneath text; may serve as ground or accent |
-| Lettering-as-graphic and numerals | hook, price emphasis, brand memory (see B2) | follows the style's lettering lineage |
-| Badge-like devices drawn as graphics | reassurance, claim emphasis | never a regulated or trust mark, never an invented claim |
+| Family and elements | Job each performs | Use when; avoid when | Register adaptations |
+|---|---|---|---|
+| Icons and symbols: icon set; instruction pictogram; list marker; level mark; contact and channel glyph | Icon set: recognition of parallel items. Pictogram: an action or direction understood without words. Marker: rhythm along a list. Level mark: a supplied degree at a glance. Glyph: faster scanning of contact lines | Use when parallel items or lines need quick identification and the meaning needs no explanation. Avoid when ambiguous or merely decorative, for a lone self-evident item, for a pictogram that imitates a regulated, safety, or trust symbol, for a level mark showing anything not supplied (never a review or popularity rating), or for a platform glyph of an unlisted channel or an invented logo (the handle stays verbatim) | premium: fine monoline, one ink, one grid; minimal: few, small, uniform; clean: geometric set of equal weight; warm: hand-drawn or stamp-like |
+| Subject, in-use, and place imagery | Subject: proof and recognition of the offer. In-use: the outcome or experience of the offer. Place: location and atmosphere | Use when the viewer must see or sense the offer, its benefit is experiential, or the place is part of the value, and the generator can depict it accurately. Avoid when the appearance is irrelevant or not accurately renderable (a depiction that misrepresents the offer is a fault), the context distracts, the place is generic or unrepresentative, or the scene depends on complex hands, crowds, or fine faces | premium: one controlled crop with space around it; minimal: one isolated product; clean: evenly lit products in a consistent frame; warm: generous, close crop; finish always matches the style |
+| Figures: mascot, character, or person (see Figures below) | One role per appearance: identify, lead, demonstrate, guide, or carry mood | Use when a role answers a real deficit and the figure is supplied or wanted by the user. Avoid when the figure is unasked, another element already holds the role, permission for a supplied person is unknown, or it would be a likeness of a real person or imply an endorsement | Draws on the style's form language; a supplied photograph the generator cannot reproduce faithfully gets the reserved asset panel (Phase 5, D) |
+| Spot illustration | Personality, story, or mood at a content block | Use when a block needs a small visual cue. Avoid when it only fills space or crowds adjacent content | premium: single-ink line or engraving-like, small scale; minimal: one reduced silhouette; clean: flat geometric; warm: cut-paper, painted, or inked |
+| Image treatment and sets: cutout or mask; image set | Cutout: lets an image overlap, wrap, or align with other elements and host integrated text. Set: breadth across several equally important images | Use when the image must interact with the layout and its edge will read clean, or several subjects share equal importance and no hero leads. Avoid when the original surroundings carry meaning, the edge would render poorly, one message must dominate, or the set exceeds what the generator keeps consistent (few cells, one frame logic) | Follows the imagery's finish and the style's form language |
+| Pattern and texture: pattern or shape rhythm; texture or material surface | Pattern: ownership and rhythm in a ground. Texture: tactile depth and authenticity in a flat ground | Use when the ground itself needs identity or depth and can stay secondary. Avoid when information sits directly on it, it muddies fine content, or it fills a quiet field the plan reserved (quiet space is a feature, not a gap) | premium: tonal, low contrast; minimal: sparse repeat; clean: fine geometric; warm: bolder motif repeat; textures stay low contrast beneath text and may be ground or accent |
+| Borders and frames: border (inset, layered, and corner details are its treatments); frame | Border: closes the composition at its outer boundary. Frame: isolates one item | Use when the composition needs closure, or one item needs emphasis apart from the rest. Avoid when the border sits near the trim (keep it inside the safe margin or let it bleed), the layout is dense, many items are framed so none stands out, or corners are cropped or busy | premium: hairline or double rule; minimal: a single rule or none; clean: solid panels or rounded cards; craft: cut or irregular edges |
+| Dividers: rule (plain, broken, or ornamented) | Separates content groups | Use when space alone cannot separate the groups. Avoid when spacing already does, or an ornament interrupts reading or duplicates another separator | thin rule with a small ornament; space alone; color bands; a repeat motif strip |
+| Pointers, connectors, and direction: connector or leader line (callout pointers included); direction arrow; path line with sequence markers | Connector: ties related items across a gap (a depicted part and its label, an item and its value). Arrow: directs attention or movement. Path: shows a given progression | Use when a relationship, direction, or sequence would otherwise be unclear. Avoid when proximity already groups the items, the flow is already obvious, the content has no given order, or pointers are many or crossing | premium: hairline ending in a small dot; minimal: few, straight; clean: uniform weight, right-angle bends; warm: hand-drawn or ribbon-like |
+| Shapes: block; band (edge band included); tag (ribbon or burst); edge shape | Block: a zone or base for content. Band: segments the layout or anchors an edge that carries information. Tag: flags one short fact or reassurance line. Edge shape: gives a transition between zones direction | Use when a region needs separation, the layout needs segmentation, one fact truly needs notice, or a transition should feel directed. Avoid when a shape carries nothing, a band cuts through a focal element, a tag flags a long or unimportant message, competes with other tags, imitates a regulated or trust mark, or states an invented claim, or an edge shape collides with aligned content | tonal blocks; one large field; geometric or organic shapes |
+| Lettering-as-graphic and numerals | Hook, price emphasis, brand memory (see B2) | As B2 | follows the style's lettering lineage |
 
 Draw forms from the Visual source inventory and the Phase 3 survey; the category's obvious decorative signifiers are the benchmark to beat.
 
-**Step 3: record a supporter card** for each chosen supporter: the deficit answered; family and form; the job it serves (balance, hierarchy, readability, style reinforcement, mood, personality); relation to the hero and identity unit; scale tier and region; space cost; renderability.
+**Figures (mascot, character, or person).** A figure is a designed element, never a default. Origin decides how it enters: supplied, it is a fixed asset; wanted by the user (or accepted after a labeled suggestion), it is created here; otherwise it is absent. Every appearance names one role:
+
+| Role | Job | Standing in the hierarchy | Care |
+|---|---|---|---|
+| Identify | Part of the identity unit, as its mark or personality device | Per the mark role | Follows C; reads as a silhouette and in one color |
+| Lead | The hero, carrying the glance message | Leads, within the hero's hosting capacity | One clear pose and expression; no competing mark |
+| Demonstrate | Shows the offer in use or the service performed | Subordinate to the offer, which stays the visual subject | Simple interaction; the offer rendered accurately |
+| Guide | Leads the eye or hand to a named target | Below the information it points to | Gesture or gaze ends on the target and covers nothing |
+| Carry mood | Personality or humanity at small scale, as illustration, icon, pictogram, or marker | Below required information | The same figure, reduced, in the system's line quality |
+
+Principles for every role: one figure, one design, defined once (form class, proportions, silhouette, signature trait, palette) and described the same way everywhere, so roles change scale and detail, never identity; a figure inside the mark recurs elsewhere only for a job the mark does not do, never as a second identifier; a created figure is fictional and non-identifiable, never a likeness of a real person and never implying a customer, staff member, or endorsement; its dress, features, and gesture are checked for cultural fit and tokenism; and it is rendered only in forms the generator holds reliably (reduced shapes, few simple poses; hands, faces, and groups only where reliable).
+
+**Step 3: record a supporter card** for each chosen supporter: the deficit answered; family and form; the one distinct job it serves (balance, hierarchy, readability, style reinforcement, mood, personality); relation to the hero and identity unit; scale tier and region; weight ceiling; space cost; renderability.
 
 **Evaluate**
 - Each supporter answers a named deficit and shares the style's form language, line quality, and finish.
-- Include at least one supporter family beyond type and the identity unit unless the user excludes imagery or the baseline shows no real deficit (record why). Check visual variety: scale, form class, density, and surface vary across the piece.
+- Supporters exist only for real deficits; a baseline with none is a valid result, recorded with its reason, and a user's exclusion of imagery stands. Read variety of scale, form class, density, and surface from the whole system (hero, ground, type, supporters); never answer it with a supporter that has no deficit.
 - A text-dense piece usually shows deficits of interest, scanning, and rhythm. The answer is purposeful visuals and structure, never more words and never filler.
-- Supporters sit below the hero, identity unit, and primary message, and are limited by the element allowance; remove or merge one before shrinking another.
+- **Weight ceiling.** Decoration never outranks required information. Supporters sit below the hero, identity unit, primary message, and the required information they serve or sit beside, in scale, contrast, color, and isolation at that information's stage; they are limited by the element allowance, and one is removed or merged before another is shrunk.
+- **Distinct job.** No two elements perform the same job. When two do, keep the one that serves the hierarchy better and merge or remove the other.
 - Micro-details are few; accumulation is noise.
-- Accuracy and reliability: depictions of the offer match what is offered; avoid real identifiable people, tokenistic portrayals, and compositions that depend on complex hands, crowds, or fine faces unless reliability allows.
+- Accuracy and reliability: depictions of the offer match what is offered; avoid real identifiable people, tokenistic portrayals, and compositions that depend on complex hands, crowds, or fine faces unless reliability allows. Supplied people, characters, and photographs follow the fixed-asset rules; created figures follow Figures above.
 
 ### E. Background and unifying devices
 
@@ -204,6 +222,13 @@ Draw forms from the Visual source inventory and the Phase 3 survey; the category
 - The relationship to the foreground.
 - Whether connecting devices are needed to unify zones.
 - That the background separates the piece from its landscape; judge it against neighbors and light.
+
+**Decide** (each only where the piece needs it; none is a default)
+- **Ground:** the base field, solid or graphic, that unifies the piece and separates it from its landscape; it keeps contrast with the foreground content.
+- **Scrim:** a translucent tonal layer behind a text zone, only when content must sit on an image or field of uneven contrast and a quiet ground cannot be planned instead; quiet ground is the first remedy.
+- **Edge behavior:** which elements run off the trim (ground, hero, large blocks, surface) and which stay inside. Mandatory content, the identity unit, and fine borders stay inside the safe margin.
+- **Zone transitions:** how adjacent zones meet: a plain edge, or a curved or angled boundary where the transition should feel directed, never colliding with aligned content.
+- **Surface:** pattern or texture (D) when the ground needs identity or depth; secondary, quiet under information, never filling a quiet field the plan reserved.
 
 **Evaluate**
 - It stays quiet where information lives.
@@ -216,7 +241,7 @@ Draw forms from the Visual source inventory and the Phase 3 survey; the category
 - Graphic shapes, framing, borders, patterns, textures, material effects, lighting, shadows, image treatments, iconography, information graphics, spatial transitions.
 
 **Evaluate**
-- Include only what improves the design, each with a named job.
+- Include only what improves the design, each with a named job; each system is drawn from the catalogue in D, so its use and avoid principles apply.
 - Lighting and shadow are decisions, not inherited defaults: state direction and softness, or leave them out.
 
 ### G. Element selection and evaluation in the system
@@ -240,6 +265,8 @@ Draw forms from the Visual source inventory and the Phase 3 survey; the category
 **4. System-level checks**
 - **Element allowance:** every element has a space cost; sum the costs against the Phase 3 space intent; if the total exceeds it, remove or merge elements before any is shrunk.
 - **Removal test:** if removing the element changes nothing the piece needs, remove it.
+- **Distinct-job check:** name each element's one job; two elements with the same job are merged toward the one that serves the hierarchy better.
+- **Weight-ceiling check:** read each viewing stage; no decoration outranks the required information it serves.
 - **Cumulative effect and single voice:** does the whole read as one designer's work?
 - **Consistency:** line quality, finish, level of abstraction, light direction, rendering treatment.
 - **Subtraction pass:** remove one more thing and see whether the piece improves.
@@ -272,6 +299,12 @@ System-wide coherence outranks isolated appeal.
 | Text-only look | Visual content is type plus one motif; no variety of scale, form, or surface | Run the text-only baseline and the additive pass |
 | Supporter as filler | A supporter names no deficit, or shares no form language with the system | Remove it or re-derive it from a deficit |
 | Supporter families unexamined | Whole families dismissed without comparison | Weigh at least two families per real deficit |
+| Duplicate jobs | Two elements do the same job (two identifiers, two separators, two flags) | Keep the one that serves the hierarchy better; merge or remove the other |
+| Decoration outranks information | An ornament, pattern, tag, or border out-weighs the information it serves | Lower it to its weight ceiling, or remove it |
+| Second identifier | A symbol-only or repeated identifier appears where the unit already identifies the source and adds no new job | Remove it |
+| Invented asset | A rating or level mark nobody supplied, or a figure that is a likeness of a real person or implies an endorsement | Remove it |
+| Unwanted or roleless figure | A figure the user neither supplied nor wanted, or one with no role that only it performs | Remove it, or offer it once as a suggestion |
+| Drifting figure | The same figure drawn differently across roles or faces | Define it once; restate it identically |
 
 ## 4. Completion criteria, summary print, and hand-off
 
@@ -279,8 +312,8 @@ Complete when the phase card's "Before leaving" check holds.
 
 **Print for the decision summary (Design Elements entry, at the gate):**
 - color strategy (with its value key) and typographic voice (with the designed copy treatments by role): apparent option, candidates compared (one line each: name, strength, weakness), selection and why it beat the runner-up;
-- the identity unit: the truth it expresses, the personality device, the construction family chosen against the other candidates, the runner-up, how mark and wordmark are integrated, and the distinction mechanisms used (or "fixed asset");
-- each supporter with the deficit it answers and the families weighed (or the finding that the baseline has none); any system decision that had real alternatives.
+- the identity unit: the truth it expresses, the personality device, the construction family chosen against the other candidates, the runner-up, how mark and wordmark are integrated, the distinction mechanisms used (or "fixed asset"), and any symbol-only form with where it appears;
+- each supporter with the deficit it answers and the families weighed (or the finding that the baseline has none); any figure with its origin and roles; any system decision that had real alternatives.
 
 Update the Design Log: color, type, mark and lockup, element costs, open issues.
 

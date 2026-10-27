@@ -208,6 +208,7 @@ Choose a strategy; if none is strong, choose execution-led differentiation (the 
 - Respect: is it free of tokenism?
 - Meaning: verify any culturally loaded symbol; omit it if uncertain.
 - Visual workability: can it be seen, drawn, and rendered at the viewing distance?
+- Depiction fit: how a workable source can be shown truthfully (the offer itself, in use, a place) and which depend on supplied imagery; a depiction the generator cannot render accurately is not workable. A figure the user wants is sourced from the same true specifics, never from the category's stock mascot.
 
 **Record** the inventory in three parts, each entry grounded in the brief or research:
 1. The apparent associations, named as the baseline.

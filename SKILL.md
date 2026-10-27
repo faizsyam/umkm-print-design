@@ -1,6 +1,7 @@
 ---
 name: umkm-print-design
-description: Guides Indonesian UMKM owners, who may not know design, through a friendly conversation in casual Indonesian (guided questions, short decision tables, confirmations, wait notes) and returns a standalone English image-generation prompt in a code block, ready to paste into ChatGPT. Runs six strict phases (brief, analysis, design plan, design elements, design execution, prompt synthesis) with environment-driven concepting, brief qualities turned into checkable targets, developed logo marks, planned negative space and reading hierarchy. Use for print visuals: spanduk, banner, X-banner, roll-up, baliho, papan nama, neon box, menu, daftar harga, poster, flyer, brosur, stiker, label, kemasan, kartu nama, signage, gerobak, backdrop, umbul-umbul, or a logo; for requests like "prompt gambar", "desain cetak", "bikin spanduk/menu/banner"; or to revise such a design. Not for digital-only design.
+description: >-
+  Guides Indonesian UMKM owners, who may not know design, through a friendly conversation in casual Indonesian (guided questions, short decision tables, confirmations, wait notes) and returns a standalone English image-generation prompt in a code block, ready to paste into ChatGPT. Runs six strict phases (brief, analysis, design plan, design elements, design execution, prompt synthesis) with environment-driven concepting, brief qualities turned into checkable targets, developed logo marks, planned negative space and reading hierarchy. Use for print visuals: spanduk, banner, X-banner, roll-up, baliho, papan nama, neon box, menu, daftar harga, poster, flyer, brosur, stiker, label, kemasan, kartu nama, signage, gerobak, backdrop, umbul-umbul, or a logo; for requests like "prompt gambar", "desain cetak", "bikin spanduk/menu/banner"; or to revise such a design. Not for digital-only design.
 ---
 
 # UMKM Print Design
@@ -43,7 +44,7 @@ Each file is read once, when first needed, and stays in context; afterwards reop
 | 1 Brief | Capture, classify, and verify everything known; find blocking gaps | Brief Ledger with quality translations, research questions, tensions, built through a short guided conversation and closed by the user's confirmation of a compact summary | `references/01_brief_and_requirements.md` |
 | 2 Analysis | Establish the real problem, setting, and visual sources | Communication Problem, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications; (guided mode) the user's go-ahead | `references/02_research_and_analysis.md` |
 | 3 Design Plan | Choose the one idea the piece is built on | Design Plan: brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), rejected directions; (guided mode) the user's go-ahead | `references/03_design_plan.md` |
-| 4 Design Elements | Build the coherent visual system | Element system: color with value key, type with content-role treatments, identifier (mark, wordmark, and their identity unit), supporters (each tied to a deficit), background, additional systems, each with role and space cost; (guided mode) the user's go-ahead | `references/04_design_elements.md` |
+| 4 Design Elements | Build the coherent visual system | Element system: color with value key, type with content-role treatments, identifier (mark, wordmark, and their identity unit), supporters (each tied to a deficit and holding a distinct job), background, additional systems, each with role and space cost; (guided mode) the user's go-ahead | `references/04_design_elements.md` |
 | 5 Design Execution | Compose for how the piece is actually seen | Execution Specification incl. stage assignment and space plan | `references/05_design_execution.md` |
 | 6 Prompt Synthesis | Translate the specification into visible instructions | Final prompt(s) in code blocks, simple how-to-use steps, short notes in plain Indonesian | `references/06_prompt_synthesis.md` |
 | Cross-cutting | Evaluate decisions, composition, prompt | Gate results, audit, release checklist | `references/quality_control.md` |
@@ -83,7 +84,7 @@ Principle-driven, not template-driven. Ten principles apply throughout:
 3. **Evidence-informed judgment.** Use expertise, reliable research, and the brief; keep fact, interpretation, assumption, and creative choice apart through provenance tags.
 4. **Contextual specificity.** Every direction is justified by this business and this piece. If it would work unchanged for a competitor, it is unfinished.
 5. **Functional creativity.** Novelty must name the job it does.
-6. **Intentional restraint.** Every element earns its place, including its share of space and attention. Neither minimalism nor maximalism is a default. Restraint removes what has no job; it does not excuse leaving out what the piece lacks (interest, evidence of the offer, mood, scanning aids).
+6. **Intentional restraint.** Every element earns its place, including its share of space and attention, and holds a job no other element holds. Neither minimalism nor maximalism is a default, and no visual supporter is: each is chosen only when the whole context shows a need it answers. Restraint removes what has no job; it does not excuse leaving out what the piece lacks (interest, evidence of the offer, mood, scanning aids). Decoration never outranks the required information it serves.
 7. **Internal consistency.** Brand, theme, style, color, type, mark, imagery, and composition reinforce one another; resolve contradictions at their source. Content is grouped by what it refers to, not only by when it is read: text that labels, explains, qualifies, or prices a depicted thing is composed with that thing.
 8. **Fidelity to the brief.** Mandatory content, user text, exclusions, fixed assets, and stated qualities (including named style, color, and technique) and priorities are never silently overridden, including by the skill's own strategy (departure, restraint, style).
 9. **Iterate at the root.** Return to the earliest responsible decision rather than patching the prompt, then re-run forward. Cap: two revision cycles per issue.
@@ -135,9 +136,9 @@ A lower tier yields only to a higher one and keeps its closest surviving express
 ## 10. Non-negotiables
 
 Each is also enforced at a gate, in a failure mode, and in the audit (see `references/quality_control.md`).
-- No invented business facts: prices, claims, testimonials, certifications, regulated or trust marks, contacts, ingredients, years in business, statistics.
+- No invented business facts: prices, claims, testimonials, ratings or levels, certifications, regulated or trust marks, contacts, ingredients, years in business, statistics.
 - Verbatim preservation of user text, including suspected typos (flag, do not fix).
-- No redesign, restyling, simplification, or recoloring of supplied logos.
+- No redesign, restyling, simplification, or recoloring of supplied logos and characters. No figure (mascot, brand character, or person) is introduced unasked: it appears when supplied or when the user wants one, never as a likeness of a real person and never as an implied endorsement or testimonial.
 - No copying of competitors or existing designs.
 - No identifier that is only a styled name, unless supplied or explicitly requested as plain text.
 - No placeholders or blank zones for content the skill should create. The one reserved region is an asset panel for a supplied asset the generator cannot reproduce faithfully (a QR or QRIS code, a barcode, a supplied photograph, a supplied logo file that cannot be attached), designed into the composition and flagged in the notes. Codes are never imitated.
@@ -156,10 +157,11 @@ Each is also enforced at a gate, in a failure mode, and in the audit (see `refer
 - the one-sentence message;
 - each quality requirement: its translation, its carriers, and the resulting value key;
 - each content item's role and treatment grade;
-- the supporter set: for each supporter, the deficit it answers, or the reasoned finding that the text-only baseline has none;
+- the supporter set: for each supporter, the deficit it answers, its distinct job, and its weight ceiling below the required information it serves, or the reasoned finding that the text-only baseline has none;
+- any figure (mascot, character, or person): its origin (supplied or wanted), each role it plays, and the one design every appearance shares;
 - the Environment Profile in brief: what the design shares with its surroundings and the dimension on which it departs;
 - the Visual source inventory and, for the core idea, style, and hero: the apparent option, the candidates compared, the choice, and why it beat the runner-up;
-- the logo mark and its lockup: a fixed asset, or a new mark with its personality device, the truth it expresses, evidence of the extended development, the integration logic that makes mark and wordmark one identity unit, and the mechanisms that distinguish the unit from the rest of the design;
+- the logo mark and its lockup: a fixed asset, or a new mark with its personality device, the truth it expresses, evidence of the extended development, the integration logic that makes mark and wordmark one identity unit, the mechanisms that distinguish the unit from the rest of the design, and which identity forms appear where;
 - every content item's viewing stage, and the space plan with proportions;
 - the reading order;
 - the placement and role of every mandatory text item;

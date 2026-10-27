@@ -23,10 +23,12 @@ Each term has one meaning in every file. This file holds only terms used in more
 | Content role | The job a text item does: identify, hook (voice, persuasion, memory), transact (price, size, offer), inform, reassure (trust claim), act (contact, location) |
 | Treatment grade | **Designed** (built as a graphic: lettering or layout with its own scale play, emphasis, rhythm, container, or motif) or **set** (plain typesetting in the informational face), by content role |
 | Text-only baseline | The piece imagined with only its required text, identity unit, and background; the reference for finding visual deficits |
-| Supporter family | A class of non-text visual resource: icon or pictogram, spot illustration, product imagery, pattern or texture, border or frame, pointer or connector, divider or ornament, color or shape block, material surface, lettering-as-graphic, badge-like device (never a regulated or trust mark) |
+| Supporter family | A class of non-text visual resource: icons and symbols; subject, in-use, or place imagery; figures; spot illustration; image treatment or set; pattern or texture; border or frame; divider; pointer, connector, or direction cue; shape block, band, tag, or edge shape; lettering-as-graphic. A tag is never a regulated or trust mark |
 | Referent | What a content item is about: the business, the offer, the hero as a whole, a specific depicted part, or an action the viewer takes |
 | Coupling mode | How an item relates to its referent: **integrated** (on, around, or pointing into the thing it describes), **attached** (in the same group, sharing its field, axis, or rail), or **separate** (its own zone) |
 | Hero group | The hero plus the content coupled to it, read as one object at the glance stage; supporting text inside it is always subordinate to the hero |
+| Distinct job | The one purpose an element performs that no other element in the piece performs; two elements with the same job are merged toward the one that serves the hierarchy better |
+| Weight ceiling | The most weight (scale, contrast, color, isolation) an element may take: below the required information it serves. Only the hero, the identity unit (per mark role), and a designed hook or transaction lead; decoration never outranks required information |
 
 ## Context and analysis
 
@@ -62,6 +64,8 @@ Each term has one meaning in every file. This file holds only terms used in more
 | Personality device | An ownable, conceptually grounded feature that gives an identifier character, is specific to the business, is readable at small size, and could not be removed without the identifier collapsing back into plain lettering |
 | Form class | The kind of visual construction a shape belongs to. A mark reads as a mark when its form class differs from the text around it |
 | Mark role | Whether the identity unit **leads** the hierarchy, **anchors** it, or **signs off** |
+| Figure | A mascot, brand character, or depicted person: supplied, or created only when the user wants one. Each appearance holds one role (identify, lead, demonstrate, guide, or carry mood), with one design shared across roles and faces |
+| Identity forms | The ways the identity appears: the full unit (the one identifier in a view), a symbol-only form (only where the viewer can link it to the name), and a supplied name-only wordmark |
 
 ## Space
 
