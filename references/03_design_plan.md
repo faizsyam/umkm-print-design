@@ -8,10 +8,10 @@
 | Goal | One unified, defensible, original creative direction: brand design, theme, core idea, style direction, hero decision, and governing principles (including space intent and mark role). It synthesizes all findings into a single concept rather than assigning a style to each insight |
 | Receives | From Phase 2: Communication Problem, Environment Profile, Visual source inventory, differentiation strategy, tagged implications, tensions. From Phase 1: content volume, fixed assets, preferences, exclusions, quality translations |
 | Principles in force | **2 Structured exploration** (full protocol on every consequential decision; decision quality standard on every other decision here); **4 Contextual specificity** (swap, category, apparent-choice, and context-swap tests); **5 Functional creativity** (each novel idea names its job); **6 Intentional restraint** (set the space intent now); **7 Internal consistency** (brand design, theme, style, hero agree); **10 Effort follows impact** (this phase fixes the design's identity) |
-| Exploration protocol | Full (SKILL.md 7.1 and 7.2) for, in this order: core idea, style synthesis, hero. Each decision informs the next. At least one candidate per decision comes from the design territory survey, the Visual source inventory, or the Environment Profile's departure dimensions. Candidates are candidate cards (fields in C to F) evaluated through the context matrix and the other parts of the decision quality standard (SKILL.md 7.3) |
+| Exploration protocol | Full (`protocol.md` sections 1 and 2) for, in this order: core idea, style synthesis, hero. Each decision informs the next. At least one candidate per decision comes from the design territory survey, the Visual source inventory, or the Environment Profile's departure dimensions. Candidates are candidate cards (fields in C to F) evaluated through the context matrix and the other parts of the decision quality standard (`protocol.md` section 3) |
 | Required decisions | The design territory survey; brand design; theme; core idea; style direction (with its seven dimensions); hero (or its deliberate absence); each governing principle (character and tone, commercial positioning, energy and rhythm, density, dominant and supporting relationships, boundaries, imagery stance, integration stance, space intent, mark role); the carriers each quality requirement receives in the plan; resolution of each Phase 2 tension; stress-test results |
 | Outputs | The Design Plan and the record of rejected directions |
-| Before leaving | Does the survey cover at least five territories from at least three source families? Does every candidate card have every field filled in specialist terms? Was every candidate evaluated against the full parameter set and every already-made decision, with each weakness mitigated or accepted? Does the core idea fit one sentence and meet the five properties? Does the style name lineage and traits an illustrator or printer could act on? Does the hero register at the stage where it is needed and truthfully represent what is sold? Does each governing principle show compared options? Is the space intent stated, derived from format size, viewing distance, content volume, and positioning, and tested against a rough capacity estimate? Does every candidate show its compatibility with each quality requirement, and does each requirement have carriers in the plan? Is the imagery stance open to the supporter families Phase 4 may need? Did any apparent option win without a decisive criterion? Did every leading candidate pass the originality tests? Have the brand strategist and the senior art director each raised an objection, resolved or accepted with a reason? In guided mode, is the entry printed with the confirmation question asked and the turn stopped (auto mode: nothing printed)? |
+| Before leaving | Does the survey meet the depth's minimum (Full: five territories from three source families; Focused: three from two)? Does every candidate card have every field filled in specialist terms? Was every candidate evaluated against the full parameter set and every already-made decision, with each weakness mitigated or accepted? Does the core idea fit one sentence and meet the five properties? Does the style name lineage and traits an illustrator or printer could act on? Does the hero register at the stage where it is needed and truthfully represent what is sold? Does each governing principle show compared options (at Focused depth, the four named in `SKILL.md` section 8)? Is the space intent stated, derived from format size, viewing distance, content volume, and positioning, and tested against a rough capacity estimate? Does every candidate show its compatibility with each quality requirement, and does each requirement have carriers in the plan? Is the imagery stance open to the supporter families Phase 4 may need? Did any apparent option win without a decisive criterion? Did every leading candidate pass the originality tests, were all eight stress tests recorded, and does no direction derive from a competitor or an existing design? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed with the confirmation question asked and the turn stopped (auto mode: nothing printed)? |
 
 ## Contents
 1. Process
@@ -44,7 +44,7 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 - For an established brand: what is discovered and must be respected (fixed assets bind it).
 - For a new brand: what the evidence supports, proposed with restraint proportional to that evidence.
 
-**Evaluate** (at least two options for how the identity is expressed, each with strengths and weaknesses across the parameter set in SKILL.md 7.3)
+**Evaluate** (at least two options for how the identity is expressed, each with strengths and weaknesses across the parameter set in `protocol.md` section 3)
 - Fit with the brand reading and positioning.
 - Durability across formats.
 - Distance from neighbors in the Environment Profile.
@@ -72,7 +72,7 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 
 **Purpose.** Shallow options come from drawing only on what the model already associates with the category. The survey widens the field before any candidate is written.
 
-**Survey at least five distinct territories from at least three source families:**
+**Survey distinct territories across source families (Full: at least five territories from three families; Focused: three from two):**
 - historical and movement lineages in design, illustration, lettering, and print;
 - regional and vernacular visual traditions connected to the business's place or community;
 - craft, material, and production traditions (how things are made, printed, painted, carved, woven, stamped);
@@ -112,10 +112,10 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 - Name the apparent core idea first as the benchmark.
 - Candidates differ on a structural axis (what carries the identity, what the viewer does first, how information is structured, register, image-making method), not on color or ornament.
 - Test every candidate on five properties: **specific** (belongs to this business), **visual** (suggests something seen), **generative** (theme, hero, style, and layout can follow), **truthful** (the business can honestly claim it), **functional** (helps the piece do its job in its setting).
-- Run the context matrix, the interaction check against brand design and theme, and the originality tests (SKILL.md 7.3).
+- Run the context matrix, the interaction check against brand design and theme, and the originality tests (`protocol.md` section 3).
 
 **Record**
-- The decision record (SKILL.md 7.2).
+- The decision record (`protocol.md` section 2).
 
 ### E. Style direction
 
@@ -163,7 +163,7 @@ The three protocol decisions are sequential: the winning core idea becomes a cri
 
 ### G. Governing principles
 
-**Purpose.** Each governing principle is a decision with alternatives, not a default. For each, compare at least two options against the core idea, style, hero, and the parameter set, with one line of strength and weakness each, then select.
+**Purpose.** Each governing principle is a decision with alternatives, not a default. At Focused depth only space intent, imagery stance, integration stance, and mark role are compared; the rest are decided directly with a one-line basis. For each, compare at least two options against the core idea, style, hero, and the parameter set, with one line of strength and weakness each, then select.
 
 **Decide**
 - **Character and tone.**
@@ -206,7 +206,7 @@ Run all eight and record the result of each:
 
 | Failure | Detection | Correction |
 |---|---|---|
-| Options from the model's first associations | No survey, or survey territories all from one source family | Run the survey across at least three source families |
+| Options from the model's first associations | No survey, or survey territories all from one source family | Run the survey across the depth's minimum of source families |
 | Label candidates | A candidate card has empty or adjectival fields | Fill every field in specialist terms, or discard |
 | Single-variable evaluation | An option chosen on one parameter ("it looks premium") | Run the full context matrix and interaction check |
 | Unmitigated weakness | A chosen direction has a weakness with no move and no accepted cost | Apply strength-weakness engineering |

@@ -11,7 +11,7 @@
 | Exploration protocol | Not applicable. This phase translates decisions already made. If translation requires a new concept, style, or element, the plan or execution had a gap: return to the responsible phase, then re-run forward |
 | Required decisions | What is in the prompt and what stays out; the prompt's structure; placement and wording of every mandatory text item; how the mark and any fixed asset are described; how space is expressed; which minimal exclusions apply; the ratio handling; the language policy; the notes |
 | Outputs | The final prompt(s) and any short notes (SKILL.md 13.2). The decision summary was printed phase by phase at earlier gates and is not repeated |
-| Before leaving | Could an illustrator who has never seen the brief produce the intended design? Does every sentence pass the visual-effect test? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, stated qualities as visible look, mark construction and personality device, hero treatment, typographic character and designed copy treatments, supporters, unifying device, space plan)? Is length proportional to complexity? Have the senior art director and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? |
+| Before leaving | Could an illustrator who has never seen the brief produce the intended design, and is every printed or amended decision visible in the prompt and none contradicted? Does every sentence pass the visual-effect test? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, stated qualities as visible look, mark construction and personality device, hero treatment, typographic character and designed copy treatments, supporters, unifying device, space plan)? Is length proportional to complexity? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? |
 
 ## Contents
 1. Process
@@ -48,7 +48,7 @@
 
 ### C. Specificity
 
-- Use precise design vocabulary (SKILL.md 7.3 g) and concrete visual description; no vague adjectives.
+- Use precise design vocabulary (`protocol.md` 3g) and concrete visual description; no vague adjectives.
 - A sentence an illustrator could read two ways is not yet specific.
 
 ### D. Relationships, not inventories
@@ -76,6 +76,7 @@ For each state: where it is, roughly how much of the format it takes, what it fr
 - **Designed copy** is described by its traits: letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
 - **Supporters** are described as concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never as "decorative elements".
 - **A supplied logo** is reproduced as provided (by reference if the model accepts images, otherwise described faithfully) and never replaced by an invention.
+- **A reserved asset panel** is described as a designed region: position, share of the format, flat color, frame, and isolation, with nothing inside. No code or photograph is imitated.
 - **A new mark** is described by form class, geometry, silhouette, color, boundary type, personality device, relationship to the wordmark, and separation from adjacent type, concretely enough to be drawn the same way each time.
 - **The identity unit** (mark with wordmark) is described as one object: arrangement, the shared construction logic of mark and lettering, the proportion and spacing relationship, the alignment axis, the color roles within the unit, and the clear space and region that distinguish the whole unit from surrounding type and content. Never describe mark and wordmark as two unrelated items.
 
@@ -99,21 +100,7 @@ Describe finished flat artwork unless a mockup is requested or the physical form
 
 ### J. Prompt audit
 
-Check:
-- plan fidelity, including every printed or amended decision;
-- mandatory content verbatim and placed;
-- no contradictions;
-- no generic drift;
-- no unsupported claims;
-- exclusions respected;
-- standalone and readable;
-- the visual-effect test on every sentence;
-- space and the identity unit described as concrete positive features;
-- every stated quality visible in the opening lines through named features, and none contradicted;
-- designed copy and supporters described by traits and forms, matching the printed decisions;
-- the hero group described as one composition, with each integrated item tied to its part.
-
-The full audit is in `quality_control.md`.
+Run the prompt audit in `quality_control.md` section 4, with the visual-effect test on every sentence.
 
 ## 3. Failure modes
 
@@ -126,7 +113,8 @@ The full audit is in `quality_control.md`.
 | Mark described as a name in a typeface | No geometry, device, or separation stated | Describe form class, geometry, device, boundary, separation |
 | Space omitted | No margin, isolation, or resting field stated | Add as positive features with proportions |
 | Mockup by accident | Scene, perspective, or surroundings described | Return to flat artwork |
-| Placeholders or blank zones | Any region left for the user to fill, or a bracketed stand-in for content | Resolve in the responsible phase; deliver a complete design or omit the item and note it |
+| Placeholders or blank zones | Any region left for the user to fill other than a reserved asset panel, or a bracketed stand-in for content | Resolve in the responsible phase; deliver a complete design or omit the item and note it |
+| Text hallucination | Extra, garbled, or missing words expected in the output | State that the piece contains only the specified text; reduce text volume risk (F) |
 | Workflow output leaking | Analysis, alternatives, or process in the final reply beyond prompt(s) and allowed notes | Cut it, unless the user asked for analysis |
 | Filler adjectives | A clause fails the visual-effect test | Delete |
 | Prompt too long or too short | Padding, or distinctive decisions lost | Cut filler first; restore specifics |

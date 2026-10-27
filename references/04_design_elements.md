@@ -8,10 +8,10 @@
 | Goal | A coherent visual system of color, typography, the identity unit (logo mark, wordmark, and their lockup), visual supporters, background and unifying devices, and any additional systems, where every element realizes a named plan commitment and has a role, treatment, relationships, effect profile, and space cost |
 | Receives | From Phase 3: Design Plan (core idea, style across seven dimensions, hero, governing principles, space intent, mark role). From Phase 2: Environment Profile, Visual source inventory. From Phase 1: content list, fixed assets, production constraints, preferences |
 | Principles in force | **2 Structured exploration** (color strategy, typographic voice, and the mark and lockup each need candidate cards; the mark follows the extended protocol); **5 Functional creativity** (each element has a role it alone performs); **6 Intentional restraint** (every element has a space cost; the total fits the space intent); **7 Internal consistency** (one designer, one voice; consistent rendering treatment); **8 Fidelity to the brief** (supplied logos, colors, fonts are fixed); **4 Contextual specificity** (judge color, type, and mark against the landscape, not only the brand); **10 Effort follows impact** (the identity unit gets the longest deliberation in this phase) |
-| Exploration protocol | Full (SKILL.md 7.1 and 7.2) for color strategy, typographic voice, the logo mark and lockup (extended development, C), and any hero treatment left open by Phase 3, with the decision quality standard (SKILL.md 7.3) including the realization trace. Other element decisions are decided directly but are still evaluated through the effect profile (G) |
+| Exploration protocol | Full (`protocol.md` sections 1 and 2) for color strategy, typographic voice, the logo mark and lockup (extended development, C), and any hero treatment left open by Phase 3, with the decision quality standard (`protocol.md` section 3) including the realization trace. Other element decisions are decided directly but are still evaluated through the effect profile (G) |
 | Required decisions | Color strategy and palette; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, and distinction mechanisms); color value key; content-role treatment of every text item; visual supporters (from the text-only baseline and the supporter families surveyed); background and unifying devices; additional systems; the realization trace; element allowance check |
 | Outputs | The element system: each element with role, treatment, relationships, effect profile, and space cost |
-| Before leaving | Could a designer build every element from the specification? Does every element name the plan commitment it realizes, and is every plan commitment realized? Were palette and typography judged against surroundings and light and against the full parameter set? Does the mark meet the mark bar and show the extended development? Do mark and wordmark form one integrated identity unit that is distinct from the rest of the design? Does every element pass the removal test? Does the total fit the space intent? Is treatment consistent? Does the value key support every quality requirement? Does each text item's treatment fit its content role? Was a text-only baseline run, were at least two supporter families weighed per real deficit, does each supporter name its deficit, and is the visual variety sufficient? Have the brand strategist, the senior art director, the graphic designer, and the image-generation prompt specialist each raised an objection, resolved or accepted with a reason? In guided mode, is the entry printed with the confirmation question asked and the turn stopped (auto mode: nothing printed)? |
+| Before leaving | Could a designer build every element from the specification? Does every element name the plan commitment it realizes, and is every plan commitment realized? Were palette and typography judged against surroundings and light and against the full parameter set? Does the mark show the extended development, and are supplied logo, colors, and fonts untouched? Do mark and wordmark form one integrated identity unit that is distinct from the rest of the design? Does every element pass the removal test? Does the total fit the space intent? Is treatment consistent? Does the value key support every quality requirement? Does each text item's treatment fit its content role? Was a text-only baseline run, were at least two supporter families weighed per real deficit, does each supporter name its deficit, and is the visual variety sufficient? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed with the confirmation question asked and the turn stopped (auto mode: nothing printed)? |
 
 ## Contents
 1. Process
@@ -42,7 +42,7 @@
 1. The logic: what color is doing in this piece (organize, signal, separate, evoke, depart from the landscape).
 2. Roles: dominant, supporting, accent where relevant; how many hues and the area proportion of each.
 3. Harmony structure, value structure, chroma, and temperature.
-4. Contrast structure for each reading stage.
+4. Contrast structure for each viewing stage.
 5. Relationship to imagery and to the mark.
 6. Behavior under the production limits and in the real light.
 7. Cultural and category associations (verified).
@@ -65,7 +65,7 @@
 **Candidate card fields (typographic voice)**
 1. Classification and stance for each role.
 2. Construction traits: stroke contrast, proportion, x-height, widths, terminals, spacing and line-spacing character.
-3. Relationships between roles (pairing logic) and size ratios that follow reading stages.
+3. Relationships between roles (pairing logic) and size ratios that follow viewing stages.
 4. Treatment of numerals and prices.
 5. Readability at the real distance and light.
 6. How the wordmark's lettering relates to, and differs from, the informational type (see C, unit distinction).
@@ -83,7 +83,7 @@
 
 **Purpose.** Every text item is an element with a job. Its treatment follows that job, not only its size.
 
-**Analyze** each text item: content role (identify, hook, transact, inform, reassure, act), reading stage, and the quality requirements it can carry (voice, warmth, confidence).
+**Analyze** each text item: content role (identify, hook, transact, inform, reassure, act), viewing stage, and the quality requirements it can carry (voice, warmth, confidence).
 
 **Decide the treatment grade** (a one-line comparison of two treatments per designed item)
 - **Designed** for items that carry voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and for the transaction itself (prices, sizes, offers): graphic lettering with at least one deliberate device, chosen from the style's lettering lineage. Devices include line breaks that set rhythm, scale or weight contrast between lines or words, emphasis on the key word, a baseline or alignment play, a shaped or cut container, a fitted motif or underline, a distinct color role, text following an arc or contour of the hero, a tag overlapping the hero, and text that appears to emerge from or be carried by the depicted thing.
@@ -93,7 +93,7 @@
 **Rules**
 - A voice-bearing line set in the informational face on bare ground, differing only in size or color, is under-served.
 - A hook or claim about the depicted thing is designed with it: consider a treatment that shares the thing's shape or motion (an arc over a dome, a flow with an overflow), within the hero's dominance (Phase 5, A2).
-- Designed treatments cost space and attention: no more than the reading tiers can carry, all in one lettering logic, none competing with the identity unit.
+- Designed treatments cost space and attention: no more than the tiers can carry, all in one lettering logic, none competing with the identity unit.
 - Write each treatment as a concise spec (letterform character, line breaks, emphasis, container, color role, relation to neighbors) so Phases 5 and 6 can place and describe it.
 - Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
 
@@ -108,7 +108,7 @@ A basic, generic, or forgettable identifier is a failure even if it passes every
 - **Fixed assets are respected.** A supplied logo, including a plain wordmark, is used as given: not redesigned, restyled, simplified, or recolored unless the user asks. If the user explicitly asks for plain text, that governs. With a supplied lockup, record that mark development was not required; the remaining decisions are its role, region, clear space, and relation to the system. With a supplied mark and a separately supplied name, leave both assets unaltered and decide only arrangement, spacing, alignment, and color roles.
 
 **Extended development** (do not collapse into one pass)
-1. **Concept mining.** Write at least six raw concept seeds from different sources: the name's meaning, sound, or shape; the product's defining truth; process or craft; origin; the customer's ritual; the Visual source inventory and the Phase 3 survey; the Environment Profile; a visual signature of the business. Include seeds beyond the apparent. Mark each as true, ownable, and visually workable, or discard it. Discard any seed the business cannot honestly claim.
+1. **Concept mining.** Write raw concept seeds (Full: at least six; Focused: at least four) from different sources: the name's meaning, sound, or shape; the product's defining truth; process or craft; origin; the customer's ritual; the Visual source inventory and the Phase 3 survey; the Environment Profile; a visual signature of the business. Include seeds beyond the apparent. Mark each as true, ownable, and visually workable, or discard it. Discard any seed the business cannot honestly claim.
 2. **Three developed candidates.** Each candidate card is a complete identity unit idea:
    - seed and personality device;
    - construction family;
@@ -235,7 +235,7 @@ Draw forms from the Visual source inventory and the Phase 3 survey; the category
 
 **2. Interaction check.** For each pair of major elements (identity unit and type, hero and background, color and imagery, supporters and hero), state whether they amplify, compete, or are neutral, and repair any competition.
 
-**3. Realization trace** (SKILL.md 7.3 f). Each element names the plan commitment it realizes; an element that realizes none is removed; a plan commitment realized by no element is a gap to close. Quality requirements count as plan commitments: each needs a visible carrier among the elements.
+**3. Realization trace** (`protocol.md` 3f). Each element names the plan commitment it realizes; an element that realizes none is removed; a plan commitment realized by no element is a gap to close. Quality requirements count as plan commitments: each needs a visible carrier among the elements.
 
 **4. System-level checks**
 - **Element allowance:** every element has a space cost; sum the costs against the Phase 3 space intent; if the total exceeds it, remove or merge elements before any is shrunk.

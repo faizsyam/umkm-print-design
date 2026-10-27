@@ -1,16 +1,15 @@
 # Quality Control
 
-No gate may be skipped. Read this file at every gate, at the release step, and whenever a defect is suspected.
+No gate may be skipped. Read this file at the first gate; afterwards reopen the section the moment requires (gate checks, audit, triage, release checklist).
 
 ## Contents
 1. Three review levels
 2. Gates, one per phase
 3. Diagnostic tests
-4. AI-slop diagnostics by mechanism
-5. Compliance audit
-6. Issue triage: severity and routing
-7. Iteration control
-8. Release checklist
+4. Compliance audit
+5. Issue triage: severity and routing
+6. Iteration control
+7. Release checklist
 
 ## 1. Three review levels
 
@@ -20,26 +19,17 @@ No gate may be skipped. Read this file at every gate, at the release step, and w
 | Composition | After Phase 5, and whenever Phase 3 to 5 decisions change | Does the assembled design work as one piece for this viewer, in this setting, at each viewing stage? |
 | Prompt | After Phase 6 drafting, before delivery | Does the prompt carry exactly the design, and only what shapes the picture? |
 
-A defect found at a higher level is traced to the earliest responsible decision (section 6).
+A defect found at a higher level is traced to the earliest responsible decision (section 5).
 
 ## 2. Gates, one per phase
 
-Every gate has the same six checks, then the phase-specific checks below.
+Every gate has the same six checks, then the phase card's own "Before leaving" checks, which are the phase-specific checks.
 1. Every required decision of the phase is made.
-2. The exploration protocol and the decision quality standard were applied where they apply (SKILL.md 7.1 to 7.3).
-3. One objection was raised by each owning role and resolved, or accepted with a recorded reason. The owning roles: Phase 1 print designer; Phase 2 brand strategist and consumer-behavior researcher; Phase 3 brand strategist and senior art director; Phase 4 brand strategist, senior art director, graphic designer, image-generation prompt specialist; Phase 5 consumer-behavior researcher, senior art director, print designer, visual communication specialist; Phase 6 senior art director and image-generation prompt specialist.
+2. The exploration protocol and the decision quality standard were applied where they apply (`protocol.md`).
+3. **One substantive objection** is raised at the gate (the strongest case against the phase's weakest decision) and resolved, or accepted with a recorded reason. Full depth: one per owning role (Phase 1 print designer; Phase 2 brand strategist and consumer-behavior researcher; Phase 3 brand strategist and senior art director; Phase 4 brand strategist, senior art director, graphic designer, image-generation prompt specialist; Phase 5 consumer-behavior researcher, senior art director, print designer, visual communication specialist; Phase 6 senior art director and image-generation prompt specialist). Focused depth: one, from the owning role holding the phase's riskiest decision.
 4. The completion criteria in the phase card's "Before leaving" are met, and every decision made in the phase names its source (traceability: Brief Ledger item or finding → implication → plan → element → execution → prompt clause). A decision with no nameable source was made from habit and fails.
 5. User-facing: Phase 1 closed with the user's confirmed summary and chosen mode. Guided mode: each of Phases 2 to 6 opened with a wait note; the Phase 2 to 5 entries were printed at their gates as one compact table in plain Indonesian (`00_conversation_ux.md` section 5); the turn stopped for confirmation after Phases 2, 3, and 4. Auto mode: one wait note, nothing printed at gates, and the checks still ran. Phase 6 is the final reply.
-6. The Design Log is updated, and the hand-off is complete and consumed by the next phase.
-
-| Phase | Phase-specific gate checks |
-|---|---|
-| 1 Brief | Every mandatory string exact; every item has necessity and provenance; no unsourced fact; fixed assets and exclusions listed; intake within the question limits, each question with an example or default, none answerable from the brief; the user confirmed the compact summary; every stated quality has a translation and carriers; every item has a referent; if a blocking gap remains and no urgency was signaled, the output is the questions only |
-| 2 Analysis | Every finding changes or confirms a decision; the Environment Profile is concrete and names departure and fit dimensions; the weakest link is chosen with options weighed; the Visual source inventory has all three parts and goes beyond emblems; every implication names its evidence; no narrative richer than the evidence; research stopped at diminishing returns; the chosen departure compatible with every quality requirement; the primary objective follows the user's stated priority |
-| 3 Design Plan | Survey of at least five territories from at least three source families recorded; every candidate is a complete card; every candidate evaluated through the context matrix and interaction check, each weakness mitigated or accepted; leading candidates passed the originality tests; each governing principle shows compared options; core idea, style, hero each decided by the full protocol with a decisive criterion; at least one candidate per decision from the inventory or the departure dimensions; the core idea passes the five properties; every novel idea names the job it does; no direction derives from a competitor's or an existing design; the style is actionable; all eight stress tests recorded; space intent (capacity-tested), imagery stance, integration stance, and mark role set; the hero's scale and edge behavior express the message; every candidate marked against each quality requirement and each requirement carried by the plan; every Phase 2 tension resolved; brand design and theme consistent |
-| 4 Design Elements | Mark and wordmark form one identity unit (arrangement, shared construction logic, derived spacing, alignment, color logic, separability decided; unit and disconnection tests passed) and the unit is distinct from the rest of the design by named mechanisms applied to the whole unit; every element has an effect profile and names the plan commitment it realizes (realization trace; no orphan element, no unrealized commitment); color, type, mark each decided by the protocol; supplied logo, colors, and fonts untouched; every novel element names the job it does; the mark shows at least six seeds, three developed candidates, a revision, all eight scrutiny questions, and all five tests (or the logo is a fixed asset, recorded as such); a personality device exists; distinction mechanisms named; deficit analysis done; element allowance fits the space intent; removal and subtraction passes done; rendering treatment consistent; value key computed and compatible with every quality requirement; every text item has a content role and treatment grade (voice-bearing copy designed); a text-only baseline run, at least two supporter families weighed per real deficit, each supporter tied to a deficit, additive pass done, visual variety met |
-| 5 Design Execution | Spatial strategy candidates are complete cards; every placement traces to the plan and elements; the identity unit sits in one region; one-sentence message; every item has a reading stage; the space plan is set with proportions before placement; the spatial strategy chosen from at least three structurally different candidates; legibility minimums set and respected; triage applied only as defined; every quiet area passes the fill test; hierarchy by several means; mark in its own region; relationship map made and each item nearest its referent; capacity check passed before sizes were printed; designed copy and supporters placed as specified; every quality requirement read off the composed whole; the whole-composition review passed |
-| 6 Prompt Synthesis | Every printed or amended decision visible in the prompt and none contradicted; the identity unit described as one object; the decision commitments complete; the prompt audit (section 5) passed; no placeholders or blank zones for manual completion; no output beyond the summary, prompt(s), and allowed notes; any change to a printed decision was announced as an amendment; the stated qualities visible in the opening lines; no number changed after its gate that a gate check should have caught |
+6. The Design Log holds the phase's complete hand-off (persisted per `SKILL.md` section 5) and the next phase read it.
 
 ## 3. Diagnostic tests
 
@@ -72,46 +62,7 @@ Use the tests that apply; record failures with their routing.
 | Referent | For each text item, is it nearest the thing it refers to? | Phase 5 (A2) |
 | Caption | If the text were covered, would a picture with captions beneath it remain? | Phase 5 (A2), or Phase 3 integration stance |
 
-## 4. AI-slop diagnostics by mechanism
-
-Generic output has causes. Diagnose the mechanism, then fix its source decision, never by adding another effect.
-
-| Mechanism | Detection | Source and fix |
-|---|---|---|
-| Default by association | The hero, style, or motif is what category, culture, or place first suggests, and no decisive criterion defends it | Phase 3 or 4: re-run the protocol with a candidate from the inventory |
-| Decoration as filler | Ornament with no deficit it answers; quiet areas filled | Phase 4 deficit analysis; Phase 5 fill test |
-| Uniform emphasis | Many elements share the highest weight, scale, or intensity | Phase 5: restore tiers; emphasis only where the specification holds it |
-| Styled-name identity | The identifier is lettering with an attractive typeface | Phase 4: concept mining; require a personality device |
-| Default polish | Lighting, shadow, glow, or gloss that no decision explains | Phase 4 F: decide or remove |
-| Averaged composition | A centered, evenly weighted arrangement that would suit any business | Phase 5: re-run the spatial strategy from the core idea |
-| Context blindness | The piece ignores neighbors, light, and distance | Phase 2 profile; Phase 3 departure dimension |
-| Mood-word style | Style defined only by adjectives | Phase 3 D: restate across the seven style dimensions |
-| Stacked styles | Different treatments assigned to different insights | Phase 3: synthesize one style |
-| Space inflation | More elements because the format is large | Phase 5 B.3 |
-| Text hallucination | Extra, garbled, or missing words in the output | Phase 6 F: state text-only-as-specified; reduce text volume risk |
-| Rationale leakage | Strategy language in the prompt | Phase 6 A |
-| Label candidates | Candidate cards with empty or adjectival fields | Phase 3 to 5: fill every field in specialist terms |
-| Single-variable decisions | A choice justified by one parameter | Run the context matrix and interaction check |
-| Disconnected identity | Mark and wordmark read as two objects, or the unit is absorbed by body type | Phase 4: redesign the lockup (shared logic, derived spacing) and apply unit-level distinction |
-| Invented specifics | Claims, prices, marks, or details with no source | Phase 1 provenance; non-negotiables |
-| Borrowed design | A direction or mark that mirrors a competitor's or an existing design | Phase 3 or 4: re-source from this business's inventory and re-run the protocol |
-| Environment over brief | A departure or style choice contradicts a stated quality | Phase 2 or 3: eliminate by quality compatibility and re-run |
-| Value-key drift | Large masses signal the opposite of a stated quality | Phase 4 color strategy |
-| Plain-set voice copy | Hooks, slogans, or taglines typeset like informational text | Phase 4 B2 |
-| Text-only look | Visual content is type plus one motif | Phase 4 D: baseline, families, additive pass |
-| Supporter as filler | A supporter answers no deficit or breaks the form language | Phase 4 D |
-| Late amendment | Sizes or decisions change after the gate | Phase 5 capacity check; Phase 4 value-key check |
-| Numeric overload | The prompt repeats the plan as percentages | Phase 6 G |
-| Jargon wall | User-facing text uses unexplained design terms or exceeds the entry limits | UX reference 1 and 5 |
-| Interrogation | More than three questions in a message or more than three discovery messages | UX reference 3 |
-| Silent advance | In guided mode, a phase began without the go-ahead after Phase 2, 3, or 4 | UX reference 2 |
-| Unrequested printing | Auto mode printed entries or wait notes between phases | UX reference 2 |
-| Entry overload | An entry has several tables, long cells, or per-option pros and cons | UX reference 5 |
-| Picture with captions | Text about the depicted thing sits apart from it, in bands or zones | Phase 5 A2 |
-| Hero scale off-message | The hero's size or edge behavior contradicts the message it carries | Phase 3 hero |
-| Wasted hero field | Empty ground beside the hero while its text is squeezed elsewhere | Phase 5 A2 |
-
-## 5. Compliance audit
+## 4. Compliance audit
 
 Run on the drafted prompt, then on the reply.
 
@@ -126,21 +77,16 @@ Run on the drafted prompt, then on the reply.
 - Space: outer margin, isolation, and resting fields stated as concrete positive features, with proportions where they matter.
 - Qualities: every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.
 - Copy and supporters: designed copy and each supporter described by traits and forms, matching the printed decisions.
-- No contradictions; no rationale; no placeholders; no blank zones for manual completion; no post-generation editing instructions; no blanket emphasis; no crop marks or annotations unless requested.
+- No contradictions; no rationale; no placeholders; no blank zones other than a reserved asset panel for a supplied asset; no post-generation editing instructions; no blanket emphasis; no crop marks or annotations unless requested.
 - Flat artwork unless a mockup was requested or the form is the deliverable.
 - The visual-effect test on every sentence.
 - Standalone and readable; one coherent style logic.
 
 **Reply audit**
-- Phase by phase: guided mode opened Phases 2 to 6 with a wait note, printed each entry at its gate in order, and waited for confirmation after Phases 2, 3, and 4; auto mode printed nothing before the final reply.
-- Each entry is one table (three to five rows): decision, the choice with a one-short-sentence reason, and at most two alternatives with their drawbacks; fixed decisions are marked; casual plain Indonesian; about ten lines.
-- Amendments were printed at once when a later return changed a printed decision.
-- Final reply: one-line lead-in, the prompt(s) each alone in a code block in English, at most three how-to steps recommending ChatGPT, at most three short notes, a closing line, and in auto mode three to five key decisions; no repeated summary.
-- Concision: entries within the length rules, no transition lines, no restated inputs.
-- Notes: only what the contract allows, ordered by consequence, no design rationale.
-- No workflow output beyond the messages the UX reference defines unless requested; no English reasoning or internal phase jargon shown to the user.
+- The reply follows `00_conversation_ux.md` (turn map, entry format, final reply, failure modes) and `SKILL.md` section 13: guided mode printed each entry at its gate and waited after Phases 2 to 4; auto mode printed nothing before the final reply; amendments were printed at once.
+- Final reply: prompt(s) alone in code blocks in English; notes limited to the disclosure rule (`SKILL.md` 13.2); no design rationale, no repeated summary.
 
-## 6. Issue triage: severity and routing
+## 5. Issue triage: severity and routing
 
 | Severity | Definition | Action |
 |---|---|---|
@@ -156,7 +102,7 @@ Routing from symptom to responsible phase:
 | Unsupported narrative; environment-blind; weak or absent inventory | 2 |
 | Generic idea, style, or hero; no space intent; tension unresolved | 3 |
 | Weak or styled-name mark; clashing color or type; decoration with no deficit; element costs over the space intent | 4 |
-| Poor hierarchy; wrong reading stage; crowding or filling; mark absorbed in composition | 5 |
+| Poor hierarchy; wrong viewing stage; crowding or filling; mark absorbed in composition | 5 |
 | Rationale in the prompt; vague wording; mandatory text misplaced; space not stated | 6 |
 | Stated quality missing from the ledger, or contradicted by a decision | 1 for the translation; otherwise the earliest contradicting phase |
 | Value-key drift; plain-set voice copy; text-only look; unanchored supporters | 4 (3 if the plan caused it) |
@@ -164,7 +110,7 @@ Routing from symptom to responsible phase:
 
 When a symptom has several possible causes, choose the earliest. Fixing a symptom at a later phase while its cause stands is a patch and is not permitted.
 
-## 7. Iteration control
+## 6. Iteration control
 
 - A flawed decision returns the work to the earliest responsible phase; every affected later phase is re-run in order.
 - Cap each issue at two revision cycles. After the second, choose the best available resolution, record it, and continue.
@@ -172,18 +118,12 @@ When a symptom has several possible causes, choose the earliest. Fixing a sympto
 - If the same issue recurs after two cycles, the cause is upstream of where it was being fixed; record that and choose the best available resolution.
 - Re-review the whole design after any change: check consistency, transitions, terminology, and that nothing is left stale or contradictory.
 
-## 8. Release checklist
+## 7. Release checklist
 
-Before delivering, confirm all of the following.
-1. Phases 1 to 6 ran in order; every gate passed.
-2. The decision commitments (SKILL.md section 11) are complete.
-3. Every consequential decision shows a complete decision record: candidate cards, context-matrix evaluation, a runner-up, a decisive criterion, and mitigated or accepted weaknesses (or is marked fixed by the user or evidence).
-4. The identifier is a fixed asset, or a new mark with a personality device developed through the extended development, integrated with the wordmark as one identity unit, with named mechanisms that distinguish the whole unit.
-5. The space plan is set with proportions and every quiet area has a job.
-6. The prompt audit and reply audit passed.
-7. Guided mode: every entry was printed at its gate after a wait note, as one compact table of genuine alternatives in plain Indonesian, with a go-ahead after Phases 2 to 4. Auto mode: nothing was printed before the final reply, which lists the key decisions. Either way the Phase 1 summary and the mode were confirmed, and the decisions match the prompt (with amendments where they changed).
-8. Notes include every consequential assumption, omission, written copy, yielded preference, suspected typo, fidelity risk, and ratio limit, and no design rationale.
-9. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only (at most three, each with an example or default).
-10. Every quality requirement has a translation, a visible carrier in the composed design, and a place in the opening lines of the prompt; the value key is compatible.
-11. Voice-bearing copy is designed, every supporter answers a deficit, visual variety is met, and no size changed after its gate.
-12. User-facing text is casual plain Indonesian; reasoning and the prompt are English; the prompt sits alone in a code block followed by simple how-to-use steps.
+Gates and audits cover the detail; before delivering, confirm:
+1. Phases 1 to 6 ran in order and every gate passed.
+2. The decision commitments (`SKILL.md` section 11) are complete, and every consequential decision shows its decision record (or is marked fixed by the user or evidence).
+3. The prompt audit and the reply audit passed.
+4. The Phase 1 summary and the mode were confirmed, guided-mode go-aheads were obtained, and the printed decisions match the prompt (with amendments where they changed).
+5. Disclosure (`SKILL.md` 13.2) is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, volume risk, and ratio limit reached the user once, with no design rationale.
+6. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only (at most three, each with an example or default).
