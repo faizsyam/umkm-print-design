@@ -24,7 +24,7 @@
 1. Read everything given, including attachments, and list what each contributes.
 2. Capture the print medium and context (A). Infer what is missing and tag it.
 3. Capture the business and brand (B).
-4. Capture and classify the content (C): necessity, provenance, verbatim form, and volume relative to the area.
+4. Capture and classify the content (C): necessity, provenance, verbatim form, referent (what each item is about), and volume relative to the area.
 5. Capture preferences, fixed assets, exclusions, and sensitivities (D). Treat references as evidence of taste, not templates. Record every stated quality and priority and translate it (D).
 6. Sort every gap into its gap class (E). Infer the inferable (tagged), pass the researchable to Phase 2 as research questions, and ask about blocking and valuable gaps through the guided intake (`00_conversation_ux.md` section 3).
 7. Note tensions visible in the brief.
@@ -44,7 +44,7 @@ Name and industry; products and services; operating context; target audience; di
 ### C. Content
 Capture all content that must or may appear: logo and brand identifiers, primary and secondary text, product and service names, descriptions, taglines, promotional messages, calls to action, prices, menus, variants, offers, trust indicators, contact details, social media, addresses, supporting information.
 
-For each item record: the exact string, necessity, provenance, the face it belongs to, and its approximate share of the content volume.
+For each item record: the exact string, necessity, provenance, its referent (the business, the offer, the main subject, a specific part of the subject, or an action), the face it belongs to, and its approximate share of the content volume.
 
 - **Preserve verbatim:** spelling, capitalization, punctuation, numbers, price and contact formatting, names, non-standard brand spellings. If something looks like a typo, preserve it and flag it for the notes.
 - **Never fabricate** prices, claims, testimonials, certifications, regulated or trust marks, contacts, ingredients, years in business, or statistics. Regulated or trust marks appear only when the user provides them.

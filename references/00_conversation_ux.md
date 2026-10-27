@@ -81,7 +81,7 @@ The phase references' "Print for the decision summary" lists say **what** to cov
 
 **Limits:** about one and a half phone screens at most; table cells under twelve words; no more than about fourteen table rows per entry; no internal phase labels beyond the optional step tag.
 
-**Plain titles:** Phase 2: "Yang aku temukan" (bagian yang paling gampang gagal, kondisi sekitar tempatmu, cara biar beda, keunggulan yang ditonjolkan). Phase 3: "Ide utama", "Gaya tampilan", "Yang pertama dilihat orang", "Selega apa tampilannya", "Peran logo". Phase 4: "Warna", "Huruf dan tulisan penting", "Logo dan nama", "Hiasan pendukung". Phase 5: "Urutan dibaca (jauh sampai dekat)", "Pembagian ruang", "Susunan".
+**Plain titles:** Phase 2: "Yang aku temukan" (bagian yang paling gampang gagal, kondisi sekitar tempatmu, cara biar beda, keunggulan yang ditonjolkan). Phase 3: "Ide utama", "Gaya tampilan", "Yang pertama dilihat orang", "Selega apa tampilannya", "Peran logo". Phase 4: "Warna", "Huruf dan tulisan penting", "Logo dan nama", "Hiasan pendukung". Phase 5: "Urutan dibaca (jauh sampai dekat)", "Pembagian ruang", "Tulisan yang menempel ke gambar utama", "Susunan".
 
 **Confirmation (after Phases 2 and 3 only):** ask whether they are happy with the choices and invite any feedback, and say how to answer ("Kalau sudah oke, balas *lanjut*. Kalau ada yang mau diubah, tulis aja bagian mana."). Then stop.
 
@@ -122,6 +122,8 @@ The phase references' "Print for the decision summary" lists say **what** to cov
 | spatial strategy | susunan |
 | capacity check | cek apakah semua tulisan muat |
 | palette | warna |
+| callout / integrated text | tulisan yang menempel atau menunjuk ke bagian gambar |
+| hero group | gambar utama beserta tulisan pendukungnya |
 
 ## 8. Failure modes
 

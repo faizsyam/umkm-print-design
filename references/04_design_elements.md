@@ -86,12 +86,13 @@
 **Analyze** each text item: content role (identify, hook, transact, inform, reassure, act), reading stage, and the quality requirements it can carry (voice, warmth, confidence).
 
 **Decide the treatment grade** (a one-line comparison of two treatments per designed item)
-- **Designed** for items that carry voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and for the transaction itself (prices, sizes, offers): graphic lettering with at least one deliberate device, chosen from the style's lettering lineage. Devices include line breaks that set rhythm, scale or weight contrast between lines or words, emphasis on the key word, a baseline or alignment play, a shaped or cut container, a fitted motif or underline, and a distinct color role.
+- **Designed** for items that carry voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and for the transaction itself (prices, sizes, offers): graphic lettering with at least one deliberate device, chosen from the style's lettering lineage. Devices include line breaks that set rhythm, scale or weight contrast between lines or words, emphasis on the key word, a baseline or alignment play, a shaped or cut container, a fitted motif or underline, a distinct color role, text following an arc or contour of the hero, a tag overlapping the hero, and text that appears to emerge from or be carried by the depicted thing.
 - **Reassurance claims** that matter at the approach stage: a marked line or badge-like container made as a graphic (never a regulated or trust mark).
 - **Set** for informational and functional items (descriptions, item lists, addresses, contact lines): plain typesetting in the informational face, with hierarchy by size, weight, spacing, and grouping.
 
 **Rules**
 - A voice-bearing line set in the informational face on bare ground, differing only in size or color, is under-served.
+- A hook or claim about the depicted thing is designed with it: consider a treatment that shares the thing's shape or motion (an arc over a dome, a flow with an overflow), within the hero's dominance (Phase 5, A2).
 - Designed treatments cost space and attention: no more than the reading tiers can carry, all in one lettering logic, none competing with the identity unit.
 - Write each treatment as a concise spec (letterform character, line breaks, emphasis, container, color role, relation to neighbors) so Phases 5 and 6 can place and describe it.
 - Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
@@ -175,6 +176,7 @@ A deficit is real when its absence would weaken a stated quality, the message, t
 | Product imagery (photographic, rendered, illustrated, silhouetted, cropped) | appetite or desire, evidence, scale reference | premium: one controlled crop with space around it; minimal: one isolated product; clean: evenly lit products in a consistent frame; warm: generous, close crop; finish always matches the style |
 | Pattern and repeat texture | surface richness, ownership, zone fills | premium: tonal, low contrast; minimal: sparse repeat; clean: fine geometric; warm: bolder motif repeat; always quiet under information |
 | Borders, frames, panels | grouping, containment, edge definition | premium: hairline or double rule; minimal: a single rule or none; clean: solid panels or rounded cards; craft: cut or irregular edges |
+| Pointers and connectors (leader lines, dots, brackets) | tie text to the depicted part it describes; guide the eye | premium: hairline ending in a small dot; minimal: few, straight; clean: uniform weight, right-angle bends; warm: hand-drawn or ribbon-like |
 | Dividers and ornaments | separation, rhythm, pacing along lists | thin rule with a small ornament; space alone; color bands; a repeat motif strip |
 | Color and shape blocks | zoning, emphasis, balance, anchoring | tonal blocks; one large field; geometric or organic shapes |
 | Material surfaces | tactile mood, authenticity (paper, grain, wood, fabric, metal) | low contrast beneath text; may serve as ground or accent |

@@ -55,6 +55,7 @@ Claude bekerja berurutan dalam enam tahap. Tiap tahap punya pemeriksaan kualitas
 - **Keinginanmu mengikat.** Setiap kesan yang kamu sebut diterjemahkan menjadi ciri visual yang bisa dicek, lalu dipantau sampai prompt akhir.
 - **Keputusan berbasis lingkungan.** Desain dirancang untuk tempat dan jarak pandang yang sebenarnya.
 - **Selalu membandingkan pilihan.** Pilihan paling gampang tidak otomatis dipakai; alternatif ditimbang dulu.
+- **Tulisan dikelompokkan menurut maknanya.** Tulisan yang menjelaskan gambar utama (misalnya bahan, slogan, atau harga) ditempatkan menyatu dengan gambar itu, bukan dipisah seperti keterangan di bawah foto.
 - **Tulisanmu persis.** Teks wajib dipertahankan apa adanya; dugaan salah ketik hanya ditanyakan.
 - **Tidak ada fakta karangan.** Saran dari Claude ditandai sebagai saran dan baru dipakai jika kamu setuju.
 - **Ruang kosong disengaja.** Setiap area kosong punya fungsi, dan tiap hiasan punya alasan.

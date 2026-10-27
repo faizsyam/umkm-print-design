@@ -73,6 +73,9 @@ Each term has one meaning in every file. Where two are close, the distinction is
 | Text-only baseline | The piece imagined with only its required text, identity unit, and background; the reference for finding visual deficits |
 | Supporter family | A class of non-text visual resource: icon or pictogram, spot illustration, product imagery, pattern or texture, border or frame, divider or ornament, color or shape block, material surface, lettering-as-graphic, badge-like device (never a regulated or trust mark) |
 | Visual variety | Variation in scale, form class, density, and surface across the piece's visual carriers, so interest does not rest on type and one motif alone |
+| Referent | What a content item is about: the business, the offer, the hero as a whole, a specific depicted part, or an action the viewer takes |
+| Coupling mode | How an item relates to its referent: **integrated** (on, around, or pointing into the thing it describes: callout with pointer, label on the object, text following its contour or arc, tag overlapping it), **attached** (in the same group, sharing its field, axis, or rail), or **separate** (its own zone) |
+| Hero group | The hero plus the content coupled to it, read as one object at the glance stage; supporting text inside it is always subordinate to the hero |
 | Capacity check | The Phase 5 estimate that each text string fits its container at its final size, run before any size is printed |
 
 **Context and analysis**
@@ -175,7 +178,7 @@ Principle-driven, not template-driven. Ten principles apply throughout:
 4. **Contextual specificity.** Every direction is justified by this business and this piece. If it would work unchanged for a competitor, it is unfinished.
 5. **Functional creativity.** Novelty must name the job it does.
 6. **Intentional restraint.** Every element earns its place, including its share of space and attention. Neither minimalism nor maximalism is a default. Restraint removes what has no job; it does not excuse leaving out what the piece lacks (interest, evidence of the offer, mood, scanning aids).
-7. **Internal consistency.** Brand, theme, style, color, type, mark, imagery, and composition reinforce one another; resolve contradictions at their source.
+7. **Internal consistency.** Brand, theme, style, color, type, mark, imagery, and composition reinforce one another; resolve contradictions at their source. Content is grouped by what it refers to, not only by when it is read: text that labels, explains, qualifies, or prices a depicted thing is composed with that thing.
 8. **Fidelity to the brief.** Mandatory content, user text, exclusions, fixed assets, and stated qualities and priorities are never silently overridden, including by the skill's own strategy (departure, restraint, style).
 9. **Iterate at the root.** Return to the earliest responsible decision rather than patching the prompt, then re-run forward. Cap: two revision cycles per issue.
 10. **Effort follows impact.** Longest deliberation on the mark, the core idea, the hero, and the space plan; brisk on routine decisions.
@@ -190,7 +193,7 @@ Environment-as-parameter and proportion-over-maximization are phase-level values
 | 4 Contextual specificity | Phase 3 stress tests, Phase 4 mark, quality control | Swap, category, context-swap tests; nothing that works unchanged for a competitor |
 | 5 Functional creativity | Phases 3 to 5 | Every novel element names the job it does |
 | 6 Intentional restraint | Phases 3 to 5 | Space intent, element allowance, space plan, removal and fill tests, balanced by the additive pass |
-| 7 Internal consistency | Phases 3 to 6, gates | Resolve contradictions at their source; single-voice test; realization trace from plan to element to placement to prompt |
+| 7 Internal consistency | Phases 3 to 6, gates | Resolve contradictions at their source; single-voice test; realization trace from plan to element to placement to prompt; relationship map (each item nearest its referent) |
 | 8 Fidelity to the brief | Phases 1 to 6 | Verbatim text, fixed assets untouched, exclusions honored, quality requirements translated and realized |
 | 9 Iterate at the root | Every gate | Return to the earliest cause; re-run forward |
 | 10 Effort follows impact | Every phase | Longest deliberation on the mark, core idea, hero, space plan |

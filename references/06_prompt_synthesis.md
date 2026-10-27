@@ -72,6 +72,7 @@ For each state: where it is, roughly how much of the format it takes, what it fr
 
 ### F. Text, logos, and fixed assets
 - **Mandatory text** is included verbatim in quotation marks, once, tied to position and typographic role. Dense text (menus, price lists) is grouped in reading order, with row behavior described once. Prices and contacts get clarity proportionate to their stage, not oversize. State that the piece contains only the specified text when hallucinated text is a risk. Never omit mandatory text to shorten the prompt; flag volume risk in the notes.
+- **The hero group** is described as one composition: the hero first, then each integrated item with the exact part it points to, its side or path, and the pointer style (for example, a thin straight line ending in a small dot on the named part), attached items by their position against the hero, and the relationship in one sentence. Arched or contour-following text is one short line on one smooth curve.
 - **Designed copy** is described by its traits: letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
 - **Supporters** are described as concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never as "decorative elements".
 - **A supplied logo** is reproduced as provided (by reference if the model accepts images, otherwise described faithfully) and never replaced by an invention.
@@ -109,7 +110,8 @@ Check:
 - the visual-effect test on every sentence;
 - space and the identity unit described as concrete positive features;
 - every stated quality visible in the opening lines through named features, and none contradicted;
-- designed copy and supporters described by traits and forms, matching the printed decisions.
+- designed copy and supporters described by traits and forms, matching the printed decisions;
+- the hero group described as one composition, with each integrated item tied to its part.
 
 The full audit is in `quality_control.md`.
 
@@ -133,6 +135,7 @@ The full audit is in `quality_control.md`.
 | Qualities absent from the prompt | The opening lines give no look, value key, or mood | Open with the look and its carriers |
 | Numeric overload | Many percentages and cap heights the model will ignore | Keep only proportions that change the result |
 | Designed copy flattened | A designed item is described as plain text | Describe its treatment traits |
+| Hero and its text described apart | Callouts or the hook sit in separate paragraphs or zones instead of one composition | Describe the hero group as one composition |
 
 ## 4. Completion criteria, hand-off, and delivery
 
