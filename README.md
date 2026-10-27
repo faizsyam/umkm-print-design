@@ -44,9 +44,9 @@ Claude bekerja berurutan dalam enam tahap. Tiap tahap punya pemeriksaan kualitas
 | Tahap | Apa yang dikerjakan | Yang kamu lihat |
 |---|---|---|
 | 1. Kenalan (Brief) | Menggali usaha, tempat pasang, isi tulisan, dan kesan yang diinginkan | Pertanyaan singkat (maksimal 3 per pesan), lalu ringkasan yang kamu konfirmasi |
-| 2. Analisa | Memahami lingkungan, pesaing, dan bagian yang paling gampang gagal | Tabel temuan, lalu Claude meminta persetujuanmu |
-| 3. Rencana desain | Memilih ide utama, gaya, dan fokus tampilan | Tabel pilihan, lalu Claude meminta persetujuanmu |
-| 4. Elemen desain | Memilih warna, huruf, logo, dan hiasan pendukung | Tabel pilihan singkat |
+| 2. Analisa | Memahami lingkungan, pesaing, dan bagian yang paling gampang gagal | Satu tabel ringkas, lalu persetujuanmu (mode konfirmasi) |
+| 3. Rencana desain | Memilih ide utama, gaya, dan fokus tampilan | Satu tabel ringkas, lalu persetujuanmu (mode konfirmasi) |
+| 4. Elemen desain | Memilih warna, huruf, logo, dan hiasan pendukung | Satu tabel ringkas, lalu persetujuanmu (mode konfirmasi) |
 | 5. Penataan | Mengatur urutan baca, ruang kosong, dan susunan | Tabel pilihan singkat |
 | 6. Prompt akhir | Menulis prompt dan memeriksa semua tulisan | Prompt dalam kotak kode, cara pakai, dan catatan |
 
@@ -72,7 +72,7 @@ Claude bekerja berurutan dalam enam tahap. Tiap tahap punya pemeriksaan kualitas
 2. **Mulai obrolan baru dan ceritakan kebutuhanmu.**
    Contoh: *"Tolong buatkan prompt desain spanduk untuk warung bakso saya."* Makin lengkap ceritamu (jenis usaha, ukuran, tempat pasang, tulisan yang harus ada), makin cepat prosesnya.
 3. **Jawab pertanyaan dan konfirmasi.**
-   Claude akan bertanya singkat, merangkum, lalu meminta persetujuanmu di akhir tahap 1, 2, dan 3. Kamu boleh menjawab "lanjut" atau menulis bagian yang ingin diubah.
+   Claude bertanya singkat, lalu merangkum. Setelah itu kamu memilih mode: **konfirmasi tiap tahap** (kamu setuju di tahap 2, 3, dan 4, lalu menjawab "lanjut" atau menulis yang ingin diubah) atau **serahkan semua ke Claude** (langsung ke hasil akhir beserta keputusan pentingnya).
 4. **Salin prompt akhir.**
    Di akhir, Claude memberi prompt dalam kotak kode. Salin seluruh isinya tanpa diubah atau diterjemahkan.
 5. **Tempel di ChatGPT.**
@@ -99,9 +99,9 @@ Claude bekerja berurutan dalam enam tahap. Tiap tahap punya pemeriksaan kualitas
 1. Kamu: "Aku jualan es teh di gerobak, mau bikin spanduk."
 2. Claude menyapa, merangkum, lalu bertanya tiga hal singkat (tempat jualan, yang bikin usahamu beda, tulisan yang harus ada).
 3. Claude menanyakan preferensi warna dan hal yang ingin dihindari, lalu menampilkan ringkasan untuk dikonfirmasi.
-4. Claude meminta kamu menunggu, lalu menampilkan hasil analisa dan meminta persetujuan.
-5. Setelah kamu setuju, Claude menampilkan ide utama dan gaya, lalu meminta persetujuan lagi.
-6. Claude menyelesaikan elemen desain dan penataan, lalu memberikan prompt akhir dalam kotak kode beserta cara pakainya.
+4. Claude menawarkan dua mode: konfirmasi tiap tahap, atau serahkan semua ke Claude.
+5. Mode konfirmasi: Claude menampilkan satu tabel ringkas di tahap 2, 3, dan 4, dan kamu setuju atau minta ubah. Mode serahkan: Claude langsung bekerja sampai selesai.
+6. Claude memberikan prompt akhir dalam kotak kode, keputusan penting (mode serahkan), dan cara pakainya.
 
 ---
 

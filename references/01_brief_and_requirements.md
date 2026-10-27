@@ -10,8 +10,8 @@
 | Principles in force | **8 Fidelity to the brief** (mandatory content verbatim, exclusions honored, nothing invented, fixed assets untouched); **3 Evidence-informed judgment** (provenance on every item; fact apart from inference); **10 Effort follows impact** (ask only about gaps that would change the design); **1 Whole-system thinking** (record how items interact, including content volume against physical area) |
 | Exploration protocol | Not applicable. This phase records and classifies; it does not choose among designs. An ambiguous phrase is resolved by the interpretation best supported by the rest of the brief, and tagged |
 | Required decisions | Necessity and provenance of every item; the verbatim form of every mandatory string; the gap class of every gap; which gaps are blocking; the quality translation of every stated quality and priority; whether the outcome is a ledger or clarification questions |
-| Outputs | Brief Ledger (including quality requirements with their translations); research questions that could change a decision; tensions noticed. Then the guided intake (`00_conversation_ux.md` section 3): questions, a preference check, and a compact summary the user confirms. No later phase runs before that confirmation |
-| Before leaving | Could a colleague start designing from the ledger without reading the original message? Is every mandatory string exact? Does every item carry necessity and provenance? Is any fact unsourced? Does every stated quality and priority, however vague, carry a translation (visual targets, carriers, contradicting signals)? Did the intake stay within the question limits, with an example or default on every question and none answerable from the brief? Did the user confirm the compact summary? Has the print designer's objection been raised and resolved? |
+| Outputs | Brief Ledger (including quality requirements with their translations); research questions that could change a decision; tensions noticed. Then the guided intake (`00_conversation_ux.md` section 3): questions, a preference check, and a compact summary the user confirms, together with the mode (confirm each phase, or auto). No later phase runs before that |
+| Before leaving | Could a colleague start designing from the ledger without reading the original message? Is every mandatory string exact? Does every item carry necessity and provenance? Is any fact unsourced? Does every stated quality and priority, however vague, carry a translation (visual targets, carriers, contradicting signals)? Did the intake stay within the question limits, with an example or default on every question and none answerable from the brief? Did the user confirm the compact summary and choose the mode? Has the print designer's objection been raised and resolved? |
 
 ## Contents
 1. Process
@@ -29,7 +29,7 @@
 6. Sort every gap into its gap class (E). Infer the inferable (tagged), pass the researchable to Phase 2 as research questions, and ask about blocking and valuable gaps through the guided intake (`00_conversation_ux.md` section 3).
 7. Note tensions visible in the brief.
 8. Pass the gate (see `quality_control.md`): the print designer's required objection concerns whether medium, size, material, and viewing conditions are captured well enough to design for.
-9. Show the compact summary and wait for the user's confirmation; corrections update the ledger and show only the changed rows.
+9. Show the compact summary, ask for confirmation and the mode (guided or auto), and wait; corrections update the ledger and show only the changed rows.
 
 ## 2. Detailed guidance
 

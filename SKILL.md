@@ -7,7 +7,7 @@ description: Guides Indonesian UMKM owners, who may not know design, through a f
 
 ## 1. Mission and scope
 
-Guide an Indonesian UMKM owner, who may know nothing about design, through a friendly conversation that turns their business and needs into a finished, standalone image-generation prompt for a physical print piece. Everything the user reads is casual, plain Indonesian, short, and interactive: guided questions and a confirmed summary in Phase 1, compact decision tables in Phases 2 to 5 with the user's confirmation after Phases 2 and 3, brief wait notes between phases, and a copy-paste prompt with simple instructions at the end. Working notes, reasoning, the Design Log, and the final prompt are in English. Full working notes stay internal unless the user asks for analysis. `references/00_conversation_ux.md` governs every message to the user.
+Guide an Indonesian UMKM owner, who may know nothing about design, through a friendly conversation that turns their business and needs into a finished, standalone image-generation prompt for a physical print piece. Everything the user reads is casual, plain, direct Indonesian: guided questions and a confirmed summary in Phase 1, then the user's choice of mode (confirm each phase, or leave everything to the AI), then either one compact table per phase with confirmation after Phases 2 to 4 and brief wait notes, or a silent run to a short final reply. The final reply always holds a copy-paste prompt with simple instructions. Working notes, reasoning, the Design Log, and the final prompt are in English. Full working notes stay internal unless the user asks for analysis. `references/00_conversation_ux.md` governs every message to the user.
 
 The skill succeeds when it:
 - runs six phases strictly in order, each with full attention: **Brief → Analysis → Design Plan → Design Elements → Design Execution → Prompt Synthesis**;
@@ -39,9 +39,9 @@ Read `references/00_conversation_ux.md` before the first message and before ever
 | Phase | Purpose | Exit artifact | Read |
 |---|---|---|---|
 | 1 Brief | Capture, classify, and verify everything known; find blocking gaps | Brief Ledger with quality translations, research questions, tensions, built through a short guided conversation and closed by the user's confirmation of a compact summary | `references/01_brief_and_requirements.md` |
-| 2 Analysis | Establish the real problem, setting, and visual sources | Communication Problem, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications; the user's go-ahead | `references/02_research_and_analysis.md` |
-| 3 Design Plan | Choose the one idea the piece is built on | Design Plan: brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), rejected directions; the user's go-ahead | `references/03_design_plan.md` |
-| 4 Design Elements | Build the coherent visual system | Element system: color with value key, type with content-role treatments, identifier (mark, wordmark, and their identity unit), supporters (each tied to a deficit), background, additional systems, each with role and space cost | `references/04_design_elements.md` |
+| 2 Analysis | Establish the real problem, setting, and visual sources | Communication Problem, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications; (guided mode) the user's go-ahead | `references/02_research_and_analysis.md` |
+| 3 Design Plan | Choose the one idea the piece is built on | Design Plan: brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), rejected directions; (guided mode) the user's go-ahead | `references/03_design_plan.md` |
+| 4 Design Elements | Build the coherent visual system | Element system: color with value key, type with content-role treatments, identifier (mark, wordmark, and their identity unit), supporters (each tied to a deficit), background, additional systems, each with role and space cost; (guided mode) the user's go-ahead | `references/04_design_elements.md` |
 | 5 Design Execution | Compose for how the piece is actually seen | Execution Specification incl. reading-stage assignment and space plan | `references/05_design_execution.md` |
 | 6 Prompt Synthesis | Translate the specification into visible instructions | Final prompt(s) in code blocks, simple how-to-use steps, short notes in plain Indonesian | `references/06_prompt_synthesis.md` |
 | Cross-cutting | Evaluate decisions, composition, prompt | Gate results, audit, release checklist | `references/quality_control.md` |
@@ -141,7 +141,7 @@ Each term has one meaning in every file. Where two are close, the distinction is
 | Decision commitments | The explicit, evidence-justified answers required before Phase 6 (section 11) |
 | Revision cycle | One return to an earlier phase to fix a named issue, followed by re-running every affected later phase |
 | Execution Specification | The Phase 5 output: a complete account of the composed design from which a designer could lay out the piece |
-| Phase entry | The compact, genuine record of a phase's decisions, options (in tables), and choices, written in plain Indonesian and **printed to the user at the gate of each of Phases 2 to 5, one phase at a time**; Phases 2 and 3 add a confirmation question |
+| Phase entry | The compact, genuine record of a phase's decisions, options (in tables), and choices, written in plain Indonesian and **printed to the user at the gate of each of Phases 2 to 5, one phase at a time (guided mode only)**; Phases 2 to 4 add a confirmation question |
 | Visual-effect test | A prompt clause is kept only if removing it would change what the model draws or lift a constraint on the output |
 | Flat artwork | The finished design shown full frame, straight on, with no surrounding scene |
 | Phase card | The opening block of each reference file |
@@ -162,7 +162,7 @@ Each term has one meaning in every file. Where two are close, the distinction is
 **Staying oriented.**
 - *Phase entry:* read the phase reference; restate in working notes the inputs, principles in force, and required decisions; re-read the Design Log.
 - *One decision at a time,* each with full attention.
-- *Phase exit (the gate):* every required decision made; exploration protocol and decision quality standard applied where they apply; one objection raised by each owning role (see team table) and resolved, or accepted with a recorded reason; completion criteria met; Design Log updated; then, for Phases 2 to 5, the phase entry **printed to the user immediately, in plain Indonesian, before the next phase begins** (section 13); after Phases 2 and 3 the turn ends with the confirmation question and the next phase starts only on the user's go-ahead. Never accumulate entries for the end.
+- *Phase exit (the gate):* every required decision made; exploration protocol and decision quality standard applied where they apply; one objection raised by each owning role (see team table) and resolved, or accepted with a recorded reason; completion criteria met; Design Log updated; then, for Phases 2 to 5, in guided mode the phase entry **printed to the user immediately, in plain Indonesian, before the next phase begins** (section 13), with the turn ending in a confirmation question after Phases 2 to 4 and the next phase starting only on the user's go-ahead; in auto mode nothing is printed at gates and the checks still run. Never accumulate entries for the end.
 - *When lost or overloaded:* return to the phase card, then the Design Log, then the decision commitments. Do not rush to the prompt.
 - *Design Log contents:* Communication Problem, Environment Profile, Visual source inventory, design territory survey, core idea, style, hero, color, type, mark and lockup, reading stages, space plan, open issues.
 
@@ -308,7 +308,7 @@ Each is also enforced at a gate, in a failure mode, and in the audit (see `refer
 
 ## 11. Clarification and research policies
 
-**Clarification (guided intake).** Phase 1 is a short conversation, not a form: follow `references/00_conversation_ux.md` section 3. Ask about blocking gaps and about gaps whose answer would change the story, setting, content, or look; never about what can be inferred or researched. At most three questions per message and three discovery messages, each question with examples and the default that applies if unanswered (or the omission of the item when no honest default exists). Suggestions are offered as suggestions and never enter the brief unconfirmed. After the facts are enough, ask about preferences and limits if they are not yet known, then show the compact summary and wait for the user's confirmation before Phase 2. If the user signals urgency, go straight to the summary on stated defaults and flag consequential assumptions.
+**Clarification (guided intake).** Phase 1 is a short conversation, not a form: follow `references/00_conversation_ux.md` section 3. Ask about blocking gaps and about gaps whose answer would change the story, setting, content, or look; never about what can be inferred or researched. At most three questions per message and three discovery messages, each question with examples and the default that applies if unanswered (or the omission of the item when no honest default exists). Suggestions are offered as suggestions and never enter the brief unconfirmed. After the facts are enough, ask about preferences and limits if they are not yet known, then show the compact summary, ask for confirmation and the mode (confirm each phase, or leave it to the AI), and wait before Phase 2. If the user signals urgency, go straight to the summary on stated defaults and flag consequential assumptions.
 
 **Research.** Research only what can change a decision; stop at diminishing returns. Prefer authoritative and first-hand sources; treat reviews as perception, not fact; confirm a found business is the right one; never copy competitors. If tools are unavailable, reason from the brief, mark conclusions provisional, and avoid choices that depend on unverified specifics.
 
@@ -331,7 +331,7 @@ A decision justified only by "it looks good" or "it is typical" is not committed
 
 - Re-enter at the earliest affected phase: content → Phase 1; concept or mood → Phase 3; color, value key, type, copy treatment, mark, lockup, or supporters → Phase 4; arrangement or emphasis → Phase 5; wording → Phase 6.
 - Keep unaffected decisions. When the Design Log is not in view, reconstruct it from the prior disclosures and prompt.
-- Re-run every affected later phase, telling the user briefly what is being redone and showing only what changed (a short before-and-after table in plain Indonesian). Feedback at the Phase 2 or Phase 3 confirmation follows the same route.
+- Re-run every affected later phase, telling the user briefly what is being redone and showing only what changed (a short before-and-after table in plain Indonesian). Feedback at any confirmation follows the same route.
 - Deliver a fresh complete prompt.
 
 ## 13. Output contract
@@ -342,30 +342,21 @@ All user-facing text follows `references/00_conversation_ux.md`: casual, plain I
 
 | Moment | Message |
 |---|---|
-| Phase 1 | Guided questions (at most three per message), a preference check if needed, then a compact summary the user confirms |
-| Before work in any phase from 2 on | A one- or two-line wait note saying in everyday words what is being done |
-| Phases 2 to 5 | A compact phase entry: per main decision, a table of options (Pilihan, Kelebihan, Kekurangan) with the choice marked, one line of reasoning, and the decisions fixed by the user or the facts |
-| After Phases 2 and 3 | The entry ends with a confirmation question and the turn stops; the next phase starts only on the user's go-ahead |
-| After Phases 4 and 5 | No stop: continue to the next phase after its wait note |
-| Phase 6 | The final reply (13.2) |
+| Phase 1 | Guided questions (three per message at most), preference check, compact summary, then one question that confirms it and sets the mode |
+| Guided mode, Phases 2 to 4 | Wait note, one compact table entry, confirmation question; the turn stops until the go-ahead |
+| Guided mode, Phase 5 | Wait note, entry, then the final reply after its wait note |
+| Auto mode | One wait note, silent Phases 2 to 6, then the final reply with the key decisions |
 
 **Rules.**
 - **Genuine only.** Decisions fixed by the user, a supplied asset, or the evidence are listed as fixed. Never invent alternatives.
-- **Compact:** phrases, not paragraphs; no process narration, chain of thought, or restating of inputs or earlier entries; at most three option rows per decision and about fourteen table rows per entry.
+- **Compact:** one table per entry (three to five rows), each choice with a one-short-sentence reason and at most two alternatives named with their drawback; no process narration, chain of thought, or restating of inputs or earlier entries; about ten lines per entry.
 - **Content versus wording.** The "Print for the decision summary" lists in the phase references say what to cover; the UX reference says how to word and lay it out.
 - **Amendments.** If a later return changes a printed decision, say so at once in one plain line (what changed to what, and why). The Phase 6 audit checks that every printed or amended decision is visible in the prompt and that nothing contradicts one.
 - **Several concepts or faces.** Phase 2 once; per phase, one entry with a short subsection per concept; shared face decisions once, face-specific Phase 5 decisions per face.
 
 ### 13.2 Final reply
 
-After Phase 6 passes its audit, the reply contains, in order:
-1. **A short lead-in** (one or two lines).
-2. **The final prompt(s),** each alone in its own code block, in English, with a short label line when there are several.
-3. **Simple instructions** (at most four short steps) for using the prompt, recommending ChatGPT's image feature, checking the on-image text, and asking the print shop about size and resolution.
-4. **Optional short notes** in plain Indonesian, at most four one-line bullets, ordered by consequence: a consequential assumption; content left out; copy written for the user; a preference that had to yield; a suspected typo (as a question); a supplied logo the model may not reproduce faithfully; a ratio the model cannot match exactly. Never design rationale.
-5. **A closing line** inviting revisions.
-
-The decision tables are not repeated in the final reply.
+After Phase 6 passes its audit, the reply is short and ordered: a one-line lead-in; the prompt(s), each alone in a code block in English; in auto mode three to five one-line key decisions; at most three simple how-to-use steps recommending ChatGPT's image feature, checking the on-image text, and asking the print shop about size and resolution; at most three one-line notes in plain Indonesian only when needed (a suspected typo as a question, a supplied logo to attach, a ratio to crop; never design rationale); and a closing line inviting revisions. The decision tables are not repeated.
 
 ### 13.3 The final prompt
 

@@ -29,7 +29,7 @@ Every gate has the same six checks, then the phase-specific checks below.
 2. The exploration protocol and the decision quality standard were applied where they apply (SKILL.md 7.1 to 7.3).
 3. One objection was raised by each owning role and resolved, or accepted with a recorded reason. The owning roles: Phase 1 print designer; Phase 2 brand strategist and consumer-behavior researcher; Phase 3 brand strategist and senior art director; Phase 4 brand strategist, senior art director, graphic designer, image-generation prompt specialist; Phase 5 consumer-behavior researcher, senior art director, print designer, visual communication specialist; Phase 6 senior art director and image-generation prompt specialist.
 4. The completion criteria in the phase card's "Before leaving" are met, and every decision made in the phase names its source (traceability: Brief Ledger item or finding → implication → plan → element → execution → prompt clause). A decision with no nameable source was made from habit and fails.
-5. User-facing: for Phases 2 to 5, a wait note opened the work and the phase entry was **printed to the user immediately** in plain Indonesian and the compact table layout (`00_conversation_ux.md` section 5); held-back or end-loaded entries fail. Phase 1 closed with the user's confirmed summary; after Phases 2 and 3 the turn ended with the confirmation question and the next phase waited for the go-ahead; Phase 6 is the final reply.
+5. User-facing: Phase 1 closed with the user's confirmed summary and chosen mode. Guided mode: each of Phases 2 to 6 opened with a wait note; the Phase 2 to 5 entries were printed at their gates as one compact table in plain Indonesian (`00_conversation_ux.md` section 5); the turn stopped for confirmation after Phases 2, 3, and 4. Auto mode: one wait note, nothing printed at gates, and the checks still ran. Phase 6 is the final reply.
 6. The Design Log is updated, and the hand-off is complete and consumed by the next phase.
 
 | Phase | Phase-specific gate checks |
@@ -104,7 +104,9 @@ Generic output has causes. Diagnose the mechanism, then fix its source decision,
 | Numeric overload | The prompt repeats the plan as percentages | Phase 6 G |
 | Jargon wall | User-facing text uses unexplained design terms or exceeds the entry limits | UX reference 1 and 5 |
 | Interrogation | More than three questions in a message or more than three discovery messages | UX reference 3 |
-| Silent advance | Phase 3 or 4 began without the user's go-ahead after Phase 2 or 3 | UX reference 2 |
+| Silent advance | In guided mode, a phase began without the go-ahead after Phase 2, 3, or 4 | UX reference 2 |
+| Unrequested printing | Auto mode printed entries or wait notes between phases | UX reference 2 |
+| Entry overload | An entry has several tables, long cells, or per-option pros and cons | UX reference 5 |
 | Picture with captions | Text about the depicted thing sits apart from it, in bands or zones | Phase 5 A2 |
 | Hero scale off-message | The hero's size or edge behavior contradicts the message it carries | Phase 3 hero |
 | Wasted hero field | Empty ground beside the hero while its text is squeezed elsewhere | Phase 5 A2 |
@@ -130,10 +132,10 @@ Run on the drafted prompt, then on the reply.
 - Standalone and readable; one coherent style logic.
 
 **Reply audit**
-- Phase by phase: each of Phases 2 to 5 opened with a wait note and had its entry printed at its own gate, in order; none was held for the end; Phases 2 and 3 ended with a confirmation question and waited; Phases 4 and 5 did not stop.
-- Each entry shows, in tables, the options (Pilihan, Kelebihan, Kekurangan), the choice marked, and a one-line reason; alternatives are genuine only; fixed decisions are marked as such; the language is casual, plain Indonesian with no unexplained jargon; the length is within the UX limits.
+- Phase by phase: guided mode opened Phases 2 to 6 with a wait note, printed each entry at its gate in order, and waited for confirmation after Phases 2, 3, and 4; auto mode printed nothing before the final reply.
+- Each entry is one table (three to five rows): decision, the choice with a one-short-sentence reason, and at most two alternatives with their drawbacks; fixed decisions are marked; casual plain Indonesian; about ten lines.
 - Amendments were printed at once when a later return changed a printed decision.
-- Final reply: short lead-in, the prompt(s) each alone in a code block in English, simple how-to-use steps recommending ChatGPT, optional short notes in plain Indonesian, a closing line; no repeated summary.
+- Final reply: one-line lead-in, the prompt(s) each alone in a code block in English, at most three how-to steps recommending ChatGPT, at most three short notes, a closing line, and in auto mode three to five key decisions; no repeated summary.
 - Concision: entries within the length rules, no transition lines, no restated inputs.
 - Notes: only what the contract allows, ordered by consequence, no design rationale.
 - No workflow output beyond the messages the UX reference defines unless requested; no English reasoning or internal phase jargon shown to the user.
@@ -179,7 +181,7 @@ Before delivering, confirm all of the following.
 4. The identifier is a fixed asset, or a new mark with a personality device developed through the extended development, integrated with the wordmark as one identity unit, with named mechanisms that distinguish the whole unit.
 5. The space plan is set with proportions and every quiet area has a job.
 6. The prompt audit and reply audit passed.
-7. Every phase entry was printed at its gate after a wait note, shows only genuine alternatives, is in plain Indonesian, and matches the prompt (with amendments where decisions changed); the user confirmed the Phase 1 summary and gave a go-ahead after Phases 2 and 3.
+7. Guided mode: every entry was printed at its gate after a wait note, as one compact table of genuine alternatives in plain Indonesian, with a go-ahead after Phases 2 to 4. Auto mode: nothing was printed before the final reply, which lists the key decisions. Either way the Phase 1 summary and the mode were confirmed, and the decisions match the prompt (with amendments where they changed).
 8. Notes include every consequential assumption, omission, written copy, yielded preference, suspected typo, fidelity risk, and ratio limit, and no design rationale.
 9. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only (at most three, each with an example or default).
 10. Every quality requirement has a translation, a visible carrier in the composed design, and a place in the opening lines of the prompt; the value key is compatible.
