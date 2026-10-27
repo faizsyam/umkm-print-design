@@ -63,7 +63,7 @@ Use the tests that apply; record failures with their routing.
 | Figure-role | Does each figure appearance name one role, share one design, and stay within its weight ceiling? | Phase 4 or 5 |
 | Capacity | Does every string fit its container at its final size? | Phase 5 |
 | Referent | For each text item, is it nearest the thing it refers to? | Phase 5 (A2) |
-| Caption | If the text were covered, would a picture with captions beneath it remain? | Phase 5 (A2), or Phase 3 integration stance |
+| Caption | Where the stance couples, if the text were covered, would a picture with captions beneath it remain? | Phase 5 (A2), or Phase 3 integration stance |
 
 ## 4. Compliance audit
 

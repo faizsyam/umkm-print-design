@@ -11,7 +11,7 @@
 | Exploration protocol | Full (`protocol.md` sections 1 and 2) for the **spatial strategy**, with the decision quality standard (`protocol.md` section 3) including the realization trace. The stage assignment and the space plan are decided by the rules in B, with reasons recorded, and are not run as candidate comparisons. Hierarchy ranking is a justified decision, not a competition |
 | Required decisions | The one-sentence message; stage assignment of every content item; the relationship map and coupling modes; the space plan with proportions; the spatial strategy; the capacity check; hierarchy and reading order; placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
 | Outputs | The Execution Specification |
-| Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is the spatial strategy chosen from three structurally different candidates, and is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does every text item sit nearest what it refers to, with the hero group reading as one object and the hero dominant? Does every text string fit its container at its final size, checked before sizes were printed? Are legibility minimums set and respected, and triage used only as defined? Are designed copy items and supporters placed as specified, none outranking the required information it serves? Does the composed whole carry every quality requirement at the glance stage? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed (auto mode: nothing printed)? |
+| Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is the spatial strategy chosen from three structurally different candidates, and is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does every text item sit nearest what it refers to, with the hero group reading as one object and the hero dominant (or, where the hero carries the message alone, isolated and dominant)? Does every text string fit its container at its final size, checked before sizes were printed? Are legibility minimums set and respected, and triage used only as defined? Are designed copy items and supporters placed as specified, none outranking the required information it serves? Does the composed whole carry every quality requirement at the glance stage? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed (auto mode: nothing printed)? |
 
 ## Contents
 1. Process
@@ -45,6 +45,7 @@ The order of steps 2 to 5 is fixed: viewing stages, then space plan, then sizes,
 
 **Assign dominance by several means**
 - Scale, contrast, color, isolation, position, weight.
+- Make the steps between levels decisive: a level that differs only slightly from its neighbor is a hedge; merge it or separate it clearly, within the legibility minimums (B.4) and without inflating tiers (B.5).
 - The identity unit's prominence matches its Phase 3 role; its distinction is secured by mechanisms (Phase 4), not size alone.
 - Elements are ranked with the text: each takes the weight its job needs, within its Phase 4 weight ceiling. The hero and the identity unit (per mark role) lead; evidence imagery and designed hooks follow; guides, structure, and ground stay below the required information they serve. Decoration never outranks required information at that information's stage.
 
@@ -52,7 +53,9 @@ The order of steps 2 to 5 is fixed: viewing stages, then space plan, then sizes,
 
 **Purpose.** Group content by what it refers to, not only by when it is read. Text that labels, explains, qualifies, or prices a depicted thing delivers one message with that thing and is composed with it. Grouping by attention order alone yields a picture with captions.
 
-**Map every text item** from its Ledger referent and Phase 4 content role: what it refers to, whether the hero's form can show or host it (Phase 3 hosting capacity), and its coupling mode.
+**Confirm the stance first.** Test the Phase 3 integration stance against the one-sentence message and the content inventory. Where the hero carries the message alone, or coupling would dilute it, its text stays separate by stage and the hero keeps its isolation and resting field, whose job is then isolation; the modes and rules below apply only to what is still coupled. If the message or the map shows the stance was wrong, return to Phase 3 and amend the printed stance.
+
+**Map every text item** from its Ledger referent and Phase 4 content role: what it refers to (the hero, a depicted part, or another item it qualifies or completes), whether the hero's form can show or host it (Phase 3 hosting capacity), and its coupling mode.
 
 | Mode | Use when | Forms |
 |---|---|---|
@@ -71,7 +74,7 @@ The order of steps 2 to 5 is fixed: viewing stages, then space plan, then sizes,
 - **Isolation.** An integrated form that overlaps or wraps the hero needs a hero with a clean, isolated edge (Phase 4 image treatment); without one, attach.
 - **Row guidance.** Where a label and its value sit far apart, a fine leader or a shared alignment rail ties the pair; where proximity already does, nothing is added.
 
-**Tests.** *Referent test:* for every item, name what it refers to and confirm it sits nearest that thing. *Caption test:* if covering the text leaves a picture with captions beneath it, the coupling is missing.
+**Tests.** *Referent test:* for every item, name what it refers to and confirm it sits nearest that thing; if two coupled items could trade positions without changing the meaning, they are only allocated, not integrated. *Caption test:* where the stance couples, if covering the text leaves a picture with captions beneath it, the coupling is missing.
 
 ### B. Scale, viewing stages, space, and density
 
@@ -127,7 +130,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - The context matrix, interaction with the plan and elements, and the originality tests (`protocol.md` section 3).
 - Judge density, scale, and finish relative to the surroundings.
 - No universal grid, fixed number of zones, or stock layout without a compelling reason.
-- At least one candidate couples the hero's related content to the hero (integrated or attached); zoning is kept only where A2 marks content separate. Message coherence outweighs tidy zoning.
+- Unless the stance is a hero that carries the message alone, at least one candidate couples the hero's related content to the hero (integrated or attached); zoning is kept only where A2 marks content separate. Message coherence outweighs tidy zoning.
 - Extreme aspect ratios change how the eye travels; decide the path explicitly.
 
 ### D. Implementing elements
@@ -195,7 +198,8 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - specificity to this business and context;
 - proportion and space;
 - fit among actual neighbors and light, with departure on the intended dimension;
-- relationships: each text item nearest its referent; supporting text never competes with the hero; no picture-with-captions bands;
+- relationships: where coupled, each text item nearest its referent, supporting text never competing with the hero, and no picture-with-captions bands;
+- the point of tension, if the plan set one: it reads at the glance stage and everything else supports it;
 - visual variety: the hero, ground, scale, and form carry the eye across the piece, with supporters only where a deficit exists and never added for variety;
 - absence of generic, templated, overdecorated, or AI-typical appearance.
 
@@ -212,7 +216,7 @@ On failure, name the earliest responsible decision (plan, element, or placement)
 | Space plan shrunk to fit | Margins or isolation reduced to hold content | Restore the plan; triage content |
 | Mandatory content deleted | A mandatory string missing from the specification | Restore it; regroup or rescale instead |
 | Identity unit swallowed or split | Fails the text-neighborhood or unit test in composition; mark and wordmark separated across the layout | Give the unit one region; add mechanisms; change neighboring type |
-| One-axis hierarchy | Dominance by size alone | Add contrast, isolation, position, weight, color |
+| One-axis hierarchy | Dominance by size alone, or adjacent levels that barely differ | Add contrast, isolation, position, weight, color |
 | Strategies that are one layout | Three "strategies" with the same organizing logic | Rewrite on structurally different logics |
 | Untraced placement | A placement names no plan or element source | Remove it, or fix the upstream gap |
 | Fit without departure, or the reverse | Review shows blending into neighbors, or alienating them | Re-balance on the chosen dimension |
@@ -221,8 +225,8 @@ On failure, name the earliest responsible decision (plan, element, or placement)
 | Sizes changed after printing | Text does not fit its container, found late | Run the capacity check before the gate; amend only genuine returns |
 | Treatment lost in layout | A designed copy item or supporter appears as plain text or is missing | Restore the Phase 4 treatment and placement |
 | Qualities lost in composition | The composed whole signals the opposite of a stated quality | Return to the earliest responsible decision and re-run forward |
-| Picture with captions | Text about the depicted thing sits in a separate band or zone | Apply A2: integrate or attach it |
-| Hero hosts nothing | Empty ground beside the hero while its text is squeezed elsewhere | Move the hero group's text into the hero's field |
+| Picture with captions | Where the stance couples, text about the depicted thing sits in a separate band or zone | Apply A2: integrate or attach it |
+| Hero hosts nothing | Where the stance couples, empty ground beside the hero while its text is squeezed elsewhere | Move the hero group's text into the hero's field |
 | Overintegration | Many labels, crossing pointers, or text over detailed parts | Keep the few that matter; attach the rest |
 | List of bands | Many equal separate groups stacked | Merge by relationship; lower the group count |
 | Decoration outranks information | An ornament, tag, pattern, or border out-weighs the information it serves | Lower it to its weight ceiling or remove it (Phase 4) |

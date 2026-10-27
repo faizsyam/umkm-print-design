@@ -264,8 +264,8 @@ Principles for every role: one figure, one design, defined once (form class, pro
 
 **4. System-level checks**
 - **Element allowance:** every element has a space cost; sum the costs against the Phase 3 space intent; if the total exceeds it, remove or merge elements before any is shrunk.
-- **Removal test:** if removing the element changes nothing the piece needs, remove it.
-- **Distinct-job check:** name each element's one job; two elements with the same job are merged toward the one that serves the hierarchy better.
+- **Removal test:** if removing the element changes nothing the piece needs, remove it, after asking whether a second job its form or position could carry (information, structure, guidance, emphasis, mood) would earn it a distinct place. Extra jobs never raise its space cost or weight above its ceiling and are never added to justify it.
+- **Distinct-job check:** name each element's distinct job; two elements with the same job are merged toward the one that serves the hierarchy better.
 - **Weight-ceiling check:** read each viewing stage; no decoration outranks the required information it serves.
 - **Cumulative effect and single voice:** does the whole read as one designer's work?
 - **Consistency:** line quality, finish, level of abstraction, light direction, rendering treatment.
