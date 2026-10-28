@@ -9,7 +9,7 @@
 | Receives | From Phase 4: element system. From Phase 3: Design Plan, including space intent and mark role. From Phase 2: Environment Profile (viewing stages, landscape, light). From Phase 1: mandatory content, format, area, production constraints |
 | Principles in force | **1 Whole-system thinking** (the Design Log governs every placement); **2 Structured exploration** (the spatial strategy is a consequential decision); **6 Intentional restraint** (space allocated before content; legibility is a minimum); **7 Internal consistency** (composition follows plan, elements, profile); **9 Iterate at the root** (a failed review returns to its cause, then re-runs forward); **10 Effort follows impact** (the space plan and spatial strategy get the deepest attention) |
 | Exploration protocol | Full (`protocol.md` sections 1 and 2) for the **spatial strategy**, with the decision quality standard (`protocol.md` section 3) including the realization trace. The stage assignment and the space plan are decided by the rules in B, with reasons recorded, and are not run as candidate comparisons. Hierarchy ranking is a justified decision, not a competition |
-| Required decisions | The one-sentence message; stage assignment of every content item; the relationship map and coupling modes; the space plan with proportions; the spatial strategy; the capacity check; hierarchy and reading order; placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
+| Required decisions | The one-sentence message; stage assignment of every content item; the relationship map and coupling modes; the space plan with proportions; the spatial strategy; the capacity check; hierarchy and reading order (plane order included); placement, scale, weight, color, and treatment of every element and text item (each tracing to a plan or element decision); background and transitions; print-condition adjustments; multi-face structure; the review result |
 | Outputs | The Execution Specification |
 | Before leaving | Could a designer lay out the piece from the specification? Is the message understood at first glance? Is the spatial strategy chosen from three structurally different candidates, and is hierarchy created by several means? Is only glance-stage content sized for the farthest distance? Does every text item sit nearest what it refers to, with the hero group reading as one object and the hero dominant (or, where the hero carries the message alone, isolated and dominant)? Does every text string fit its container at its final size, checked before sizes were printed? Are legibility minimums set and respected, and triage used only as defined? Are designed copy items and supporters placed as specified, none outranking the required information it serves? Does the composed whole carry every quality requirement at the glance stage? Does the realized space match the space plan, with a job for every quiet area? Does the identity unit have its own region and stay distinct from nearby type? Does every placement trace to the plan and elements? Does the piece fit its neighbors and light while departing on the intended dimension? Would it fail unchanged for another business? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? In guided mode, is the entry printed (auto mode: nothing printed)? |
 
@@ -44,10 +44,17 @@ The order of steps 2 to 5 is fixed: viewing stages, then space plan, then sizes,
 - Text and imagery ranked together.
 
 **Assign dominance by several means**
-- Scale, contrast, color, isolation, position, weight.
+- Scale, contrast, color, isolation, position, weight, plane (forward reads as more important).
 - Make the steps between levels decisive: a level that differs only slightly from its neighbor is a hedge; merge it or separate it clearly, within the legibility minimums (B.4) and without inflating tiers (B.5).
 - The identity unit's prominence matches its Phase 3 role; its distinction is secured by mechanisms (Phase 4), not size alone.
 - Elements are ranked with the text: each takes the weight its job needs, within its Phase 4 weight ceiling. The hero and the identity unit (per mark role) lead; evidence imagery and designed hooks follow; guides, structure, and ground stay below the required information they serve. Decoration never outranks required information at that information's stage.
+
+**Assign planes** (from the Phase 3 layering stance; a single-plane stance skips the first two rules)
+- Plane order agrees with rank: the hero and lead content take the nearest plane that serves them; supporters and structure sit on or behind the plane of what they serve. An element placed forward for another reason (framing, mood, integration) is held to its weight ceiling through the other means, because the plane already adds prominence.
+- Each plane differs from its neighbor by more than one layer cue, and one element's cues agree with each other.
+- Overlap never hides required information or removes the identifying shape of a mandatory letterform, and keeps the legibility minimum (B.4); an overlap that fails moves to another plane or separates.
+- Choose cues by stage: only cues that survive the farthest distance and the production method carry the glance stage; fine cues serve approach and close inspection.
+- A single-plane or flat stance carries richness by tonal steps, quiet surface detail, and overlap of flat shapes, within the weight ceiling and the space plan.
 
 ### A2. Relationship map and grouping
 
@@ -121,7 +128,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 3. How the hero, identity unit, and information divide the format; figure-ground relation.
 4. Visual weight distribution and tension; density and rhythm.
 5. How the space plan is realized (margin, isolation, resting fields).
-6. Edge behavior (which elements run off the trim, which hold the safe margin) and foreground-background relationship.
+6. Edge behavior (which elements run off the trim, which hold the safe margin) and plane order (what sits on each plane and how the planes overlap).
 7. Behavior at each viewing stage; fit with and departure from neighbors.
 8. Where supporters and designed copy sit, and how they relieve, group, and balance the text areas.
 9. Coupling: which content is integrated with, attached to, or separate from the hero group (A2), and the resulting group count.
@@ -136,7 +143,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 ### D. Implementing elements
 
 **For each element specify**
-- Role, scale, weight, color, treatment, position, relationship, and the decision it traces to.
+- Role, scale, weight, color, treatment, plane, position, relationship, and the decision it traces to.
 
 **Rules**
 - Typography sizes follow viewing stages.
@@ -156,7 +163,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - Subordination to hierarchy.
 - Edge-to-edge consistency.
 - That the background stays quiet where information lives.
-- Realization of the Phase 4 ground, scrim, edge behavior, zone transitions, and surface, each only where decided and each subordinate to the hierarchy.
+- Realization of the Phase 4 ground (layered where decided), scrim, edge behavior, zone transitions, and surface, each only where decided and each subordinate to the hierarchy.
 
 ### F. Physical print conditions
 
@@ -200,8 +207,9 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - fit among actual neighbors and light, with departure on the intended dimension;
 - relationships: where coupled, each text item nearest its referent, supporting text never competing with the hero, and no picture-with-captions bands;
 - the point of tension, if the plan set one: it reads at the glance stage and everything else supports it;
+- layering: the plane order reads at the glance stage and agrees with the hierarchy, cues agree, required information is unoccluded, and a single-plane piece is flat by the style's choice with its surface richness carried, not by omission;
 - visual variety: the hero, ground, scale, and form carry the eye across the piece, with supporters only where a deficit exists and never added for variety;
-- decided, not defaulted: every attribute that shapes the look (composition axis and symmetry, rendering finish, light, ground, color proportions, lettering, how the subject is depicted) traces to a decision, since an undecided one takes the image model's apparent value; and no generic, templated, or overdecorated appearance.
+- decided, not defaulted: every attribute that shapes the look (composition axis and symmetry, plane order, rendering finish, light, ground, color proportions, lettering, how the subject is depicted) traces to a decision, since an undecided one takes the image model's apparent value; and no generic, templated, or overdecorated appearance.
 
 On failure, name the earliest responsible decision (plan, element, or placement), return there, and re-run forward; cap at two cycles per issue.
 
@@ -230,6 +238,8 @@ On failure, name the earliest responsible decision (plan, element, or placement)
 | Overintegration | Many labels, crossing pointers, or text over detailed parts | Keep the few that matter; attach the rest |
 | List of bands | Many equal separate groups stacked | Merge by relationship; lower the group count |
 | Decoration outranks information | An ornament, tag, pattern, or border out-weighs the information it serves | Lower it to its weight ceiling or remove it (Phase 4) |
+| Accidental flatness | Every element on one plane and the ground bare, with no stated reason | Return to the layering stance; add planes or surface richness |
+| Plane conflict | An element's cues disagree (forward by scale, recessive in contrast), or a forward element outweighs the information behind it | Align the cues, or lower it to its weight ceiling |
 | Bleed against content | Mandatory content, the identity unit, or a fine border sits at the trim | Move it inside the safe margin, or stop the element bleeding |
 | Floating pointer | A connector or arrow names nothing, or crosses another | Anchor it to its referent or remove it |
 | Figure covering information | A figure's body, hands, or gesture hides or crowds required text | Re-place or reduce it within its role |

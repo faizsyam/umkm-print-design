@@ -47,6 +47,7 @@ Use the tests that apply; record failures with their routing.
 | Removal | Does removing the element change anything the piece needs? | Phase 4 |
 | Subtraction | Does removing one more thing improve the piece? | Phase 4 or 5 |
 | Fill | Does every quiet area have a named job? | Phase 5 |
+| Layering | Does the plane order read at the glance stage, agree with the hierarchy, and leave required information unoccluded; if the piece is one plane, is that the style's choice, with surface richness carried? | Phase 3 (stance), 4, or 5 |
 | Single-voice | Does the system read as one designer's work? | Phase 4 |
 | Unit and disconnection | Does the mark with wordmark read as one object, and does each stay recognizably of the same identity when the other is covered? | Phase 4 |
 | Realization trace | Does every element and placement name the plan commitment it realizes, and is every commitment realized? | Phase 4 or 5 |
@@ -110,7 +111,7 @@ Routing from symptom to responsible phase:
 | Poor hierarchy; wrong viewing stage; crowding or filling; mark absorbed in composition | 5 |
 | Rationale in the prompt; vague wording; mandatory text misplaced; space not stated | 6 |
 | Stated quality missing from the ledger, or contradicted by a decision | 1 for the translation; otherwise the earliest contradicting phase |
-| Value-key drift; plain-set voice copy; text-only look; unanchored supporters | 4 (3 if the plan caused it) |
+| Value-key drift; plain-set voice copy; text-only look; accidental flatness; unanchored supporters | 4 (3 if the plan caused it) |
 | Duplicate-job elements; decoration outranking information; a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark | 4 |
 | Bleed against content; a pointer with no referent; a figure covering information | 5 |
 | Text overflowing its container; sizes changed late | 5 |

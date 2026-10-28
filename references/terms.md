@@ -74,6 +74,14 @@ Each term has one meaning in every file. This file holds only terms used in more
 | Space intent | Decided in Phase 3: the share of the format that must stay quiet and what that space does. Its Phase 4 application is the **element allowance**: every element has a space cost and the total must fit the space intent; elements are removed or merged before any is shrunk |
 | Space plan | Decided in Phase 5 before placement, as proportions of the format: the **outer margin** (quiet border), **isolation zones** (protected space around glance content, hero, or mark), **separations** (space between content groups), and **resting fields** (quiet areas placed to support the eye's path). Space intent decides how much stays quiet; the space plan decides where |
 
+## Layering
+
+| Term | Meaning |
+|---|---|
+| Plane | One level in the piece's front-to-back order: **front** (nearest the viewer), **middle**, and **ground** (the base field, rearmost). A piece may use a single plane |
+| Layering | Assigning elements to planes, with the **layer cues** that make the order readable: overlap, relative scale, contrast and detail (stronger and sharper forward, quieter behind), tonal and temperature step, focus, light and cast shadow, surface texture. Plane order is a hierarchy means beside scale, contrast, color, isolation, position, and weight, and a way to integrate content with the hero. In a flat style the cues stay in the picture plane: tonal steps, surface detail, overlap of flat shapes |
+| Depth | Always the scale of the work (**Full** or **Focused**, `SKILL.md` section 8), never the picture. The picture's front-to-back order is called layering or plane order |
+
 ## Control
 
 | Term | Meaning |

@@ -36,7 +36,7 @@
 ### A. What belongs in the prompt, and what does not
 **Stays out:** business strategy, brand story, audience and environment analysis, research findings, the piece's business purpose, success criteria, alternatives, and any "because" or "in order to" justification. These acted through decisions; the prompt carries the visible traits they produced. An impression word may remain only as a brief tone anchor that steers rendering and justifies nothing.
 
-**Goes in:** type and format of the piece (orientation, aspect ratio, faces); the overall look as seen (value key, dominant field, mood, finish); what is depicted and how; composition and relationships; hierarchy through relative scale and position; typography character and the treatment of designed copy; mandatory text; supporters as concrete forms; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; rendering technique; necessary exclusions.
+**Goes in:** type and format of the piece (orientation, aspect ratio, faces); the overall look as seen (value key, dominant field, mood, finish); what is depicted and how; composition and relationships; hierarchy through relative scale, position, and plane order; typography character and the treatment of designed copy; mandatory text; supporters as concrete forms; color and surface treatment; mark construction; background and unifying devices; the few finishing details that matter; rendering technique; necessary exclusions.
 
 **Scale as proportion:** express size as proportions of the format and steps between elements. State emphasis only for the elements that hold it; avoid blanket emphasis words across many elements.
 
@@ -59,6 +59,7 @@ Describe:
 - relative prominence and grouping;
 - contrast and integration;
 - spatial relationships;
+- plane order, from rearmost to front;
 - how identity, message, and supporting visuals interact.
 
 Position by relationship and broad region, not coordinates.
@@ -78,6 +79,7 @@ For each state: where it is, roughly how much of the format it takes, what it fr
 - **Designed copy** is described by its traits: letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
 - **Supporters** are described as concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never as "decorative elements". Each is stated at a weight below the information beside it, and nothing outweighs required text.
 - **Grounds and edges.** A texture or pattern is described as a low-contrast surface beneath the content; a scrim as a translucent tonal layer behind the named text zone; a bleed as an element running off the trim while the text stays inside the stated margin; a cutout as an isolated form on a plain ground; a curved or angled edge as the boundary between two named zones.
+- **Planes.** State the plane order in relational words (in front of, behind, over), from rearmost to front, with the visible layer cues that carry it. Keep mandatory text where every letterform stays whole and unobstructed, and say so; describe any overlap involving text once, only as the plan decided it.
 - **A supplied logo or character** is reproduced as provided (by reference if the model accepts images, otherwise described faithfully) and never replaced by an invention.
 - **A figure** is described as one designed character or person: form class, proportions, silhouette, signature trait, palette, and the pose, gesture, and relation to the offer its role requires; fictional and non-identifiable; the same wording on every face; hands, faces, and groups only as simply as the generator holds them.
 - **A reserved asset panel** is described as a designed region: position, share of the format, flat color, frame, and isolation, with nothing inside. No code or photograph is imitated.

@@ -14,7 +14,7 @@ The skill succeeds when it:
 - runs six phases strictly in order, each with full attention: **Brief → Analysis → Design Plan → Design Elements → Design Execution → Prompt Synthesis**;
 - decides like a professional team: grounded in the business and its physical setting, tested against genuine alternatives, never defaulted to the first or most obvious idea;
 - treats every quality the brief asks for (mood, tone, brightness, warmth, priority, or a named style, color, or technique), however vaguely worded, as a binding requirement translated into visible, checkable features and carried through every phase;
-- produces a distinctive, well-composed, appropriately spacious design with a genuinely designed identifier, deliberately treated copy, purpose-driven visual supporters, and no generic AI aesthetics;
+- produces a distinctive, well-composed, appropriately spacious design with a genuinely designed identifier, deliberately treated copy, purpose-driven visual supporters, deliberate front-to-back layering, and no generic AI aesthetics;
 - delivers a prompt containing only what shapes the picture, inside a jargon-free conversation that keeps the user informed, consulted at the right moments, and never overloaded.
 
 Decision quality matters more than text volume. Scope: physical print pieces for small businesses. Mixed print and screen pieces treat print conditions as primary. A standalone logo request follows the same workflow: Phase 3 fixes the mark as the hero, Phase 4 develops it through the extended mark development, Phase 5 composes it as a single-stage piece on a plain field with a generous space plan, and the prompt describes the mark itself. A digital-only request is flagged: tell the user the skill covers print, offer to adapt, and run only on confirmation.
@@ -98,7 +98,7 @@ Defined in `references/protocol.md`, which phase references apply by pointing to
 
 ## 8. Depth and multiple outputs
 
-**Depth.** Phase 1 ends by setting the depth and recording it in the Design Log. Depth scales the work inside every phase; no phase, required decision, protocol step, or gate is dropped.
+**Depth.** Phase 1 ends by setting the depth and recording it in the Design Log. Depth scales the work inside every phase (it never means the picture's front-to-back order, which is layering; see `terms.md`); no phase, required decision, protocol step, or gate is dropped.
 - **Full:** a new identity mark must be created, or the piece is large-format or high-visibility, multi-face, or content-dense for its area.
 - **Focused:** every other piece: one face, a supplied or modest identity, ordinary viewing conditions, content that fits comfortably.
 - Raise to Full as soon as any phase shows a Full condition.
