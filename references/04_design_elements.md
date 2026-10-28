@@ -6,8 +6,8 @@
 |---|---|
 | Goal | A coherent visual system of color, type, identity unit (mark, wordmark, lockup), supporters, background and unifying devices; every element realizes a named plan commitment and has a role, treatment, job, weight, and space cost |
 | Receives | Phase 3 plan (core idea, style, hero, principles, space intent, mark role, survey); Phase 2 Environment Profile and Visual source inventory; Phase 1 content, fixed assets, production limits, preferences |
-| Decisions | Color strategy, palette, and value key; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, distinction mechanisms) and its identity forms; treatment grade of every text item; supporters (from the text-only baseline); background and unifying devices; system checks |
-| Exploration | Full protocol with the extended development for the **mark and lockup** (C). Compact comparison for **color** (A), **type** (B), copy treatments (B2), and supporters (D) |
+| Decisions | Color strategy, palette, and value key; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, distinction mechanisms) and its identity forms; treatment grade of every text item; supporters (from the text-only baseline) and a deployable counterweight; container jobs, shape language, and fill modes; background and unifying devices; system checks |
+| Exploration | Full protocol with the extended development for the **mark and lockup** (C). Compact comparison for **color** (A), **type** (B), copy treatments (B2), supporters (D), and containers and shape language (D2) |
 | Output | The element system: each element with role, treatment, plane, job, weight, space cost |
 | Hand-off to Phase 5 | The element system; the identity unit with its mechanisms; constraints the prompt must preserve |
 
@@ -16,7 +16,7 @@
 1. Inventory fixed assets and production limits.
 2. Decide color (A) and type (B) as provisional constraints for the mark; both must realize Phase 3 style dimensions 6 and 7.
 3. Develop the mark and lockup (C). If it exposes a conflict with color or type, adjust them within this phase.
-4. Decide copy treatment by content role (B2); run the text-only baseline and choose supporters (D).
+4. Decide copy treatment by content role (B2); run the text-only baseline and choose supporters (D); decide container jobs, shape language, and fill modes (D2).
 5. Decide background and unifying devices (E).
 6. Evaluate the system as a whole (F); gate.
 
@@ -36,7 +36,7 @@ Roles the content needs (display, supporting, informational, numerals and prices
 Every text item is an element with a job; its treatment follows its content role, viewing stage, and the qualities it can carry (voice, warmth, confidence).
 **Treatment follows purpose and rank.** An item is Designed when its role carries voice, persuasion, memory, or the transaction, or when its rank is first or second at any stage: scale alone is not treatment. A ranked item left plain must have plain setting recorded as the style's intentional choice, and then holds its rank through the other levers (position, isolation, contrast). Designing changes form only (letterform character, breaks, emphasis, mixed scale or weight within the line, container, integrated graphic detail) and never the words; wording changes only for copy the skill itself wrote.
 
-- **Designed** for items carrying voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and the transaction itself (prices, sizes, offers): graphic lettering with at least one deliberate device from the style's lettering lineage: line breaks that set rhythm; scale or weight contrast between lines or words; emphasis on the key word; baseline or alignment play; a shaped or cut container; a fitted motif or underline; a distinct color role; text following the arc or contour of the hero; a tag overlapping the hero; text emerging from or carried by the depicted thing; text passing in front of or behind part of the hero with every letterform kept whole.
+- **Designed** for items carrying voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and the transaction itself (prices, sizes, offers): graphic lettering with at least one deliberate device from the style's lettering lineage: line breaks that set rhythm; scale or weight contrast between lines or words; emphasis on the key word; baseline or alignment play; a container (D2); a fitted motif or underline; a distinct color role; text following the arc or contour of the hero; a tag overlapping the hero; text emerging from or carried by the depicted thing; text passing in front of or behind part of the hero with every letterform kept whole.
 - **Reassurance claims** that matter at approach: a marked line or badge-like container made as a graphic (never a regulated or trust mark).
 - **Set** for informational and functional items (descriptions, item lists, addresses, contact lines): plain typesetting in the informational face, hierarchy by size, weight, spacing, grouping.
 
@@ -76,6 +76,8 @@ Find what the piece lacks beyond text, identity unit, and background, and meet e
 
 **Order of remedy: enrich before add.** Close a deficit by the route that adds the least new weight: (1) *deepen the main elements*: integrate layered information into the hero and main text, give them finish, crop, or surface that rewards a closer look; (2) *link* the major elements (shared axis, overlap, shared color or shape, echoed motif, connector); (3) *quiet surface*: subtle pattern, texture, tonal steps; (4) *small supporters*: simple icons, spot forms, dividers, an ownable recurring motif from the inventory; (5) *typographic and edge detail*: secondary-line detail, labels, container or border character. Each stays below the information it serves and inside the space intent.
 
+**Counterweight provision.** Balance depends on a layout Phase 5 settles. Unless the stance is strictly symmetric, the element system includes at least one deployable counterweight: a quiet, scalable, low-intensity carrier (surface field, pattern, echoed motif or object, large tonal shape) in the shape and imagery language, whose scale and position Phase 5 sets inside the space intent. A piece with none that later measures unbalanced returns here.
+
 **Step 2: weigh at least two families per real deficit** and adapt the chosen one to the style register (premium: fine monoline, one ink, one grid, low contrast; minimal: few, small, uniform; clean: geometric, equal weight; warm: hand-drawn, cut-paper, stamp-like, bolder motifs). Draw forms from the inventory and survey; the category's obvious decorative signifiers are the benchmark to beat.
 
 | Family | Job | Use when | Avoid when |
@@ -89,7 +91,7 @@ Find what the piece lacks beyond text, identity unit, and background, and meet e
 | Borders and frames | Border closes the composition; frame isolates one item | The composition needs closure, or one item needs emphasis | Near the trim (keep inside the safe margin or bleed deliberately); dense layout; many framed items so none stands out |
 | Dividers | Separate content groups | Space alone cannot separate | Spacing already does; an ornament interrupts reading |
 | Pointers, connectors, direction | Tie a depicted part to its label or an item to its value; direct attention; show a given sequence | A relationship, direction, or sequence would otherwise be unclear | Proximity already groups; no given order; pointers many or crossing |
-| Shapes (block, band, tag, edge shape) | Zone or base for content; segment or anchor an edge; flag one short fact; give a transition direction | A region needs separation, one fact truly needs notice, or a transition should feel directed | Carries nothing; a band cuts a focal element; a tag flags a long or unimportant message, competes with other tags, imitates a trust mark, or states an invented claim |
+| Shapes (block, band, tag, edge shape) | Zone or base for content; segment or anchor an edge; flag one short fact; give a transition direction | A region needs separation, one fact truly needs notice, or a transition should feel directed | Carries nothing, or is the model's default form with no named job (D2); a band cuts a focal element; a tag flags a long or unimportant message, competes with other tags, imitates a trust mark, or states an invented claim |
 | Lettering-as-graphic and numerals | Hook, price emphasis, brand memory | As B2 | As B2 |
 
 **Figures (mascot, character, person).** A designed element, never a default. Origin decides entry: supplied → fixed asset; wanted by the user (or accepted after a labeled suggestion) → created here; otherwise absent. Each appearance names one role:
@@ -106,12 +108,22 @@ One figure, one design, defined once (form class, proportions, silhouette, signa
 
 **Step 3: supporter card** per chosen supporter: deficit answered; family and form; the one distinct job (balance, hierarchy, readability, style reinforcement, mood, personality); relation to hero and identity unit; scale tier, region, plane; weight ceiling; space cost; renderability. Each supporter shares the style's form language, line quality, and finish; micro-details are few.
 
+### D2. Containers and shape language
+Containers and shapes are decided, not defaulted. The model's apparent form is a rounded, pill-like container, solid or outlined; it is the benchmark in every piece and wins only by naming the criterion the alternatives failed.
+1. **Job first.** Name what the form does: separate groups, bind related items, host text over uneven ground, flag one short fact, lift a rank, direct the eye, close or anchor an edge, carry material or character, or counterweight mass. No job, no form.
+2. **Lightest device.** Ladder: spacing and alignment → rule or tonal step → bounded container. Take the lightest rung that does the job; a container needs a stated reason the lighter rungs fail (uneven ground, a fact to flag, a rank to lift, character to carry).
+3. **One shape language,** derived from Phase 3 corner and edge geometry and the business's own material, craft, or origin, shared by every container, rule, and supporter (the mark and hero may differ by decision). Fix: geometry class (rectilinear, faceted, curvilinear, organic, hand-made or irregular, arched or circular); corner treatment (square, chamfered, notched, scalloped, cut, or radiused at a stated proportion); edge quality (clean, deckled, torn, stitched); line behavior (single, double, broken, weight). Rounding is one option, chosen only when style and business call for softness.
+4. **Form by job, within the language.** Different jobs may take different forms; the same job takes the same form everywhere. Forms: panel, band, ribbon or banner, tag, ticket or tab, badge or seal, arch or window, frame, corner brackets, rule or underline, notched or cut edge, offset plate, layered paper, tonal field with no edge, image mask. Choose by what the form signifies and how it hosts its text (aspect, padding, direction).
+5. **Fill mode by job and rank.** Solid, outline, tonal field, textured or patterned, image-filled, edge-only (rule, brackets, underline, offset line), depth (offset plate or shadow), or none. Higher ranks take higher-contrast modes; one mode per role across the piece; text on it stays legible; solid-or-outline is a decision only after the others were weighed.
+6. **Compare compactly:** the apparent form, then at least two alternatives differing in rung, geometry, or fill mode; decisive criterion; renderability (straight, geometric, simply notched edges hold reliably; fine torn or intricate cut edges do not) and text fit (padding, no clipping).
+7. **Cost:** every container counts against the element allowance and weight ceiling and never creates a rival of the same rank.
+
 ### E. Background, unifying devices, and other systems
 Each only where the piece needs it; none is a default.
 - **Ground:** the base field that unifies the piece, separates it from its landscape, and keeps contrast with foreground content. **Layered ground:** where the layering stance calls for it, in more than one quiet step (tonal fields, overlapping shapes, surface detail); quiet where information lives; in a flat style the main way to enrich the piece.
 - **Scrim:** a translucent tonal layer behind a text zone, only when content must sit on an uneven image or field and a quiet ground cannot be planned (quiet ground is the first remedy).
 - **Edge behavior:** which elements run off the trim (ground, hero, large blocks, surface) and which stay inside; mandatory content, the identity unit, and fine borders stay inside the safe margin.
-- **Zone transitions:** a plain edge, or a curved or angled boundary where the transition should feel directed, never colliding with aligned content.
+- **Zone transitions:** a plain edge, or a boundary drawn in the shape language where the transition should feel directed, never colliding with aligned content.
 - **Surface:** pattern or texture (D) as secondary, quiet under information, never filling a quiet field the plan reserved.
 - **Other systems** (shapes, framing, material effects, image treatments, information graphics): include only what improves the design, each with a named job, drawn from the D catalogue. Lighting and shadow are decisions: state direction and softness, or leave them out.
 
@@ -133,7 +145,7 @@ Each element is judged in relation to the whole.
 - Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests); personality device present; mark and wordmark pass the unit and disconnection tests; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; no cliché; geometry describable in a few concrete shapes.
 - Each text item's treatment fits its content role and rank; no first- or second-rank text left as scaled plain type without a recorded style reason; roles in one group are distinguishable by a clear typographic contrast and same-role items share one style; font names appear only for a stated brand requirement.
 - The text-only baseline was run; each supporter names its deficit, holds a distinct job, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design; no invented level, rating, or trust mark.
-- Character carriers and links are named for the system; total fits the space intent; treatment is consistent; shadow or glow exists only by decision.
+- Every container names its job and the rung it needed; one shape language and one fill mode per role hold across the system; the apparent form appears only by decisive criterion; a deployable counterweight exists unless the stance is strictly symmetric; character carriers and links are named for the system; total fits the space intent; treatment is consistent; shadow or glow exists only by decision.
 - Objection raised and resolved (owner of the riskiest decision, usually the mark: graphic designer or senior art director; two objections at Full depth, the second often from the prompt specialist on renderability).
 
 **Entry content:** color strategy (with value key) and typographic voice (with designed copy treatments by role): apparent option, candidates (name, strength, weakness), choice and why it beat the runner-up. The identity unit: the truth it expresses, personality device, construction family chosen against the others, runner-up, how mark and wordmark integrate, distinction mechanisms used (or "fixed asset"), any symbol-only form and where. Each supporter with the deficit it answers (or the finding that the baseline has none); any figure with origin and roles; any system decision with real alternatives.

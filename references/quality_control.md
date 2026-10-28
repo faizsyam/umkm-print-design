@@ -33,6 +33,7 @@ Run on the drafted prompt, then on the reply.
 - **Exclusions:** every user exclusion respected; only minimal, specific exclusions added. No invented business facts. No competitor copying.
 - **Identifier:** not merely a styled name unless supplied or requested as plain text; a new mark described by form class, geometry, silhouette, color, boundary, personality device, wordmark relationship, separation from adjacent type; the unit described as one object.
 - **Order and roles:** the reading order is stated with ranks; type roles are distinguished; overlaps name the front element and the visible part of the covered one.
+- **Containers and balance:** every container states form, corner and edge geometry, and fill mode; any counterweight is a concrete form and region; none relies on a default.
 - **Space:** outer margin, isolation, and resting fields as concrete positive features, with proportions where they matter.
 - **Qualities:** every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.
 - **Copy and supporters:** designed copy and each supporter described by traits and forms, matching the printed decisions, none outweighing required text.
@@ -55,8 +56,8 @@ Run on the drafted prompt, then on the reply.
 | Wrong, missing, or altered content; unsourced fact; a quality missing from the ledger | 1 |
 | Unsupported narrative; environment-blind profile; weak inventory | 2 |
 | Generic idea, style, or hero; no space intent; tension unresolved | 3 |
-| Weak or styled-name mark; clashing color or type; ranked text left as scaled plain type; indistinguishable type roles; blank or category-generic piece at its density (3 if no character carriers were planned); value-key drift; plain-set voice copy; text-only look; decoration with no deficit; duplicate jobs; decoration outranking information; a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark; element costs over the space intent | 4 (3 if the plan caused it) |
-| Competing elements or unclear first read; every tier enlarged in a large format; overlap hiding an essential part; unlinked elements; poor hierarchy; wrong viewing stage; crowding or filling; mark absorbed in composition; text overflowing its container or sizes changed late; bleed against content; a pointer with no referent; a figure covering information; picture-with-captions | 5 |
+| Containers that all share the model's default form or only solid-or-outline fills (3 if the plan set no corner and edge geometry); a container with no job; weak or styled-name mark; clashing color or type; ranked text left as scaled plain type; indistinguishable type roles; blank or category-generic piece at its density (3 if no character carriers were planned); value-key drift; plain-set voice copy; text-only look; decoration with no deficit; duplicate jobs; decoration outranking information; a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark; element costs over the space intent | 4 (3 if the plan caused it) |
+| Competing elements or unclear first read; every tier enlarged in a large format; overlap hiding an essential part; unlinked elements; lopsided mass (4 if no counterweight was provided); poor hierarchy; wrong viewing stage; crowding or filling; mark absorbed in composition; text overflowing its container or sizes changed late; bleed against content; a pointer with no referent; a figure covering information; picture-with-captions | 5 |
 | Rationale in the prompt; vague wording; mandatory text misplaced; space not stated | 6 |
 | A stated quality contradicted by a decision | The earliest contradicting phase |
 

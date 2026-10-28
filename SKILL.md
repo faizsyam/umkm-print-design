@@ -129,6 +129,7 @@ Before Phase 6 the log must hold explicit, evidence-justified answers to:
 - the Environment Profile in brief: what the design shares with its surroundings and the dimension on which it departs;
 - core idea, style, hero: apparent option, candidates, choice, why it beat the runner-up;
 - the identifier: a fixed asset, or a new mark with personality device, the truth it expresses, development evidence, integration logic, distinction mechanisms, and which identity forms appear where;
+- the shape language with each container's job and fill mode, and the balance type with its counterweight;
 - the space plan with proportions, the reading order, and the placement and role of every mandatory text item;
 - the traits that distinguish the design from a neighboring competitor's.
 

@@ -20,8 +20,9 @@ Fixed order for steps 2 to 5: stages, space plan, strategy, sizes and placement.
 3. Decide the space plan before placing anything, reserving the hero group's field as one region (B2).
 4. Decide the spatial strategy by the protocol (C).
 5. Rank and place content (A, D), sizing each tier to its legibility minimum plus hierarchy needs, triaging if content exceeds the space plan (B4, B5); run the capacity check (B7) so no size changes after the gate.
-6. Backgrounds, print conditions, multi-face structure (E).
-7. Review the composition (F). On failure return to the earliest responsible decision and re-run forward. Gate.
+6. Check balance (A3) on the placed composition and remedy it.
+7. Backgrounds, print conditions, multi-face structure (E).
+8. Review the composition (F). On failure return to the earliest responsible decision and re-run forward. Gate.
 
 ## 2. Guidance
 
@@ -34,6 +35,12 @@ Decide the order in which the audience should notice, interpret, and use the inf
 - **Connection.** Every major element is linked to at least one other by a stated link (shared axis, overlap, shared color or shape, echoed motif, connector, proximity group), so the piece reads as one composition; links never outrank what they connect.
 - **Planes** (skip the first two rules for a single-plane stance): plane order agrees with rank; the hero and lead content take the nearest plane that serves them; supporters sit on or behind what they serve; an element forward for another reason is held to its weight ceiling through the other means. Each plane differs from its neighbor by more than one layer cue, and one element's cues agree. Only cues that survive the farthest distance and the production method carry the glance stage. A flat stance carries richness by tonal steps, quiet surface detail, and overlap of flat shapes.
 - **Overlap principle.** Overlap is a depth device with four purposes: depth and rank (the front reads as nearer), integration (text and hero read as one object), connection (linking major elements), richness. Use it when it serves one of them and the covered element keeps its **essential part**: for text every letterform whole, for the mark the whole mark, for the hero or product the identifying silhouette and the features that prove the offer, for information whatever the viewer needs at its stage. Cover only inessential parts (redundant body of an image, ground, decoration, bleed). Do not overlap when it hides an essential part, when the covering item lacks contrast against what it covers, when the render cannot hold it reliably, when the amount is a graze or near-touch that reads as an accident, or when looks are the only reason. *Function test:* after the overlap, can each element still do its job at its stage?
+
+### A3. Balance
+Balance is judged on the composed whole after placement; it is measured, not assumed, face by face (and across a spread).
+- **Weight.** Estimate each element's weight as area share of the format × intensity (1 pale, low-contrast, sparse; 2 medium; 3 dark or saturated against its ground, dense, detailed), raised for isolation, a figure or face, warm saturated color, or an irregular silhouette. Rough values suffice. Pull grows with distance from center, so a small heavy element far out can offset a large one near the center. Empty area weighs nothing: a resting field balances only by letting heavy mass sit nearer the center.
+- **Check.** Give each element coordinates x, y in [-1, 1] from the center (y positive downward); centroid X = Σ(w·x)/Σw, Y = Σ(w·y)/Σw. Balanced: |X| ≤ 0.1 and −0.1 ≤ Y ≤ 0.2 (a slightly low centroid is stable; a high one is top-heavy). Leaning: 0.1 < |X| ≤ 0.25 is acceptable only as the chosen asymmetric equilibrium or deliberate tension, with its counterweight named. Beyond that, or outside the Y range, is unbalanced. A radial stance is read about its focal center. Quick cross-check: fold along each axis and squint; the eye must not settle on one side or find one half emptier than planned.
+- **Remedy, least new weight first.** (1) Reposition or reorder existing elements: heavy mass toward the center, swap sides, shift a group axis, resize the hero within its rank. (2) Rebalance within ranks: lighten the heavy side or strengthen the light side by intensity or area without breaking the rank order or any weight ceiling. (3) Deploy the Phase 4 counterweight on the light side, gaining weight from area and distance rather than intensity, linked to the composition, below every rank, never carrying required information. (4) If the element system has none, return to Phase 4. Counterweights count against the element allowance and space intent.
 
 ### A2. Relationship map and grouping
 Group content by what it refers to, not only by when it is read; grouping by attention order alone yields a picture with captions.
@@ -70,7 +77,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 8. **Proportion and fill checks.** Reduce any element far above its minimum that is neither the hero nor the glance message. **Fill test:** every quiet area has a job (rest, isolation, hosting the hero group's text) or is reassigned in the plan, never filled with an item.
 
 ### C. Spatial strategy
-Compare at least three structurally different strategies (different organizing logic, not a different position of the same arrangement). **Card fields:** (1) where the eye enters and how it travels, including behavior at the aspect ratio (extreme ratios change the path: decide it explicitly); (2) how groups relate: zones, alignments, grid logic; (3) how hero, identity unit, and information divide the format; figure-ground; (4) weight distribution, tension, density, rhythm; (5) how the space plan is realized; (6) edge behavior and plane order; (7) behavior at each stage, fit with and departure from neighbors; (8) where supporters and designed copy sit and how they relieve, group, and balance text areas; (9) coupling: what is integrated, attached, separate, and the resulting group count.
+Compare at least three structurally different strategies (different organizing logic, not a different position of the same arrangement). **Card fields:** (1) where the eye enters and how it travels, including behavior at the aspect ratio (extreme ratios change the path: decide it explicitly); (2) how groups relate: zones, alignments, grid logic; (3) how hero, identity unit, and information divide the format; figure-ground; (4) balance type and where its counterweight comes from, tension, density, rhythm; (5) how the space plan is realized; (6) edge behavior and plane order; (7) behavior at each stage, fit with and departure from neighbors; (8) where supporters and designed copy sit and how they relieve, group, and balance text areas; (9) coupling: what is integrated, attached, separate, and the resulting group count.
 
 Judge with the protocol lenses; density, scale, and finish are judged relative to the surroundings; no universal grid, fixed zone count, or stock layout without compelling reason. Unless the stance is a hero carrying the message alone, at least one card couples the hero's related content to it; message coherence outweighs tidy zoning.
 
@@ -94,11 +101,11 @@ Review the composed whole through each team role (`SKILL.md` section 2). Check:
 - message understood at first glance; the blurred reading order equals the recorded ranks and no element competes with its rank; the piece carries character at its density, not blank or category-generic; the unit integrated, distinctive, and passing the text-neighborhood test;
 - every stated quality requirement read off the composed whole at the glance stage, value key included;
 - every element has a distinct job and no decoration outranks the required information it serves; every placement traces to a plan or element decision and every plan commitment is visibly realized;
-- legibility; balance and completeness; proportion and space (realized space matches the plan);
+- legibility; balance as measured in A3; completeness; proportion and space (realized space matches the plan);
 - fit with actual neighbors and light while departing on the intended dimension; would it fail unchanged for another business?
 - relationships: coupled items nearest their referents, no picture-with-captions bands, hero dominant (or isolated and dominant where it carries the message alone);
 - the point of tension, if the plan set one, reads at glance; layering: plane order reads at glance, agrees with hierarchy, leaves required information unoccluded, and a single plane is the style's choice with surface richness carried;
-- decided, not defaulted: every look-shaping attribute (composition axis and symmetry, plane order, rendering finish, light, ground, color proportions, lettering, how the subject is depicted) traces to a decision, since an undecided one takes the model's apparent value; nothing generic, templated, or overdecorated.
+- decided, not defaulted: every look-shaping attribute (composition axis and symmetry, container form, corner and edge geometry, fill mode, plane order, rendering finish, light, ground, color proportions, lettering, how the subject is depicted) traces to a decision, since an undecided one takes the model's apparent value; nothing generic, templated, or overdecorated.
 
 ## 3. Gate checks (fails if any is false)
 
@@ -107,7 +114,7 @@ Review the composed whole through each team role (`SKILL.md` section 2). Check:
 - Capacity check passed before sizes were printed; no size changed after.
 - Space plan stated with proportions and realized; every quiet area has a job; the unit has its own region; the space plan was not shrunk to fit.
 - Designed copy and supporters placed as specified; bleed never meets mandatory content, the unit, or fine borders; every pointer ends on its referent; no figure covers information.
-- Every major element is linked; every overlap passes the function test; the composition review passed; failures were routed to their earliest cause.
+- Balance measured in A3 and remedied in order, with any counterweight named; every major element is linked; every overlap passes the function test; the composition review passed; failures were routed to their earliest cause.
 - Objection raised and resolved (owner of the riskiest decision: visual communication specialist, print designer, consumer-behavior researcher, or senior art director; two objections at Full depth).
 
 **Entry content:** the stage assignment in brief (what sits at glance, approach, close inspection); the space plan with proportions (decided by rule, not comparison); capacity check passed; what is integrated, attached, or separate; the spatial strategy with candidates (name, strength, weakness), choice, decisive criterion, runner-up.
