@@ -4,158 +4,58 @@
 
 | Item | Content |
 |---|---|
-| Professional analogue | Strategic discovery: a brand strategist and researcher who establish the real problem and setting before anyone sketches |
-| Goal | Understand business, audience, environment, and the piece's actual job well enough that every later decision is justified by a finding; reduce it to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
-| Receives | Phase 1: Brief Ledger, research questions, tensions. Outside: research, only where it can change a decision |
-| Principles in force | **3 Evidence-informed judgment** (research only what changes a decision; fact, interpretation, assumption, creative choice kept apart); **4 Contextual specificity** (differentiate against this landscape and these competitors, not the category); **2 Structured exploration** (weigh genuine options; look past the apparent option when sourcing visual ideas); **1 Whole-system thinking** (connect brand, audience, environment, content); **10 Effort follows impact** (stop research at diminishing returns) |
-| Exploration protocol | Genuine option sets only: differentiation strategy, weakest link, departure and fit dimensions. Weigh real options and record why the choice wins; where evidence leaves one defensible option, record that and manufacture no alternatives. The Visual source inventory is this phase's main contribution to later exploration |
-| Required decisions | Which research questions to pursue; the differentiation strategy (or execution-led differentiation); the weakest link; departure and fit dimensions; Visual source inventory contents; design implications |
-| Outputs | Communication Problem; Environment Profile; audience encounter; differentiation strategy with options weighed; Visual source inventory; tagged design implications; tension list |
-| Before leaving | Does every finding change or confirm a decision? Could someone who never visited picture the setting and name where the piece departs and fits? Any brand narrative richer than its evidence? Does the inventory go beyond emblems, stay true, stay respectful? Does every implication name its evidence? Is the departure compatible with every quality requirement, and does the primary objective follow the user's stated priority? Gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? Guided mode: entry printed, confirmation asked, turn stopped (auto: nothing printed)? |
-
+| Goal | Establish the piece's real problem and setting well enough that every later decision rests on a finding, reduced to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
+| Receives | Phase 1 hand-off. Outside: research, only where it can change a decision |
+| Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; departure and fit dimensions; Visual source inventory; design implications |
+| Exploration | Compact comparison (`protocol.md` section 3), genuine option sets only |
+| Output | Communication Problem; Environment Profile; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; tensions |
+| Entry | Guided mode: no separate stop. Its findings lead the Phase 3 entry in two lines: the weakest link, the setting, how the piece will stand out |
+| Hand-off to Phase 3 | The outputs above, plus Phase 1 content volume, fixed assets, preferences, exclusions, and quality translations |
 
 ## 1. Process
 
-1. Triage the research questions: name the decision each informs; drop those that inform none.
-2. Understand the brand beyond its description (A).
-3. Find differentiation: list candidate differentiators, evaluate each for truth, relevance, distinctiveness, and visualizability, choose a strategy (or execution-led differentiation if none is strong), record the options weighed (B).
-4. Build the Environment Profile (C).
-5. Build the audience encounter (D).
-6. Define the Communication Problem, including its weakest link and tensions (E).
-7. Research per F, evaluating source reliability and confirming a found business is the right one.
-8. Ground culturally and build the Visual source inventory (G).
-9. Convert findings into design implications; discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
-10. Pass the gate. Guided mode: print the Phase 2 entry (`00_conversation_ux.md` section 5), ask for confirmation, stop; Phase 3 begins on the go-ahead. Auto mode: print nothing and continue.
+1. Triage research questions: keep only those naming a decision they inform.
+2. Read the brand (A), find differentiation (B), build the Environment Profile (C), the audience encounter (D), and the Communication Problem (E).
+3. Research (F) early enough that C and G rest on it, then ground culturally and build the Visual source inventory (G).
+4. Convert findings into design implications ("because [finding], the design must / should / must avoid …", tagged); discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
+5. Gate.
 
-Steps 3 to 8 interleave in practice; the order above is the order of conclusions, not of fact-finding. Research early enough that the Environment Profile and inventory rest on it.
+## 2. Guidance
 
-## 2. Detailed guidance
-
-Each part uses five blocks: **Purpose**, **Analyze**, **Consider**, **Evaluate**, **Record**. Work through each; a part is complete when its Record items exist.
-
-### A. The brand beyond its description
-
-**Purpose.** Read the brand as it truly is, so identity decisions rest on evidence, not an invented narrative.
-
-**Analyze:** values, personality, and character as shown in what the business does and says; core message and positioning; credibility the business actually holds (origin, skill, history, proof supplied); the owner's stated aspirations; the customer relationship (regular, one-off, community) and its intimacy.
-
-**Consider:** how much evidence exists for each trait; the owner's voice and register in supplied materials; the business's scale and how it limits what can honestly be claimed.
-
-**Evaluate:** which traits are established facts and which plausible interpretations; which are aspiration, not current reality; what the brand can truthfully claim visually; whether any part of the reading is richer than its evidence (if so, downgrade it).
-
-**Record:** a provenance-tagged brand reading no richer than its evidence; the traits that must be expressed and the claims that must not be made.
+### A. The brand as it is
+Values, personality, and positioning as shown by what the business does and says; credibility it actually holds (origin, skill, history, proof supplied); the owner's aspirations; the customer relationship. Separate established fact from plausible interpretation and aspiration from reality. A reading richer than its evidence is downgraded. Record the traits to express and the claims not to make.
 
 ### B. Differentiation
+List candidate differentiators from product specifics, process, materials, origin, scale and intimacy, service behavior, price logic, location, people, name, signature item, ritual, and what each neighbor already claims. Test each: **true** (the business can honestly claim it; failure discards it), **relevant** (the audience cares at the moment of encounter), **distinctive** (not shared by dozens of competitors), **visualizable** (can become something seen; a failure may still shape tone or hierarchy). Choose a strategy; if none is strong, choose execution-led differentiation (the piece differs through how it is composed and made) and say so. Record options with test results.
 
-**Purpose.** Find what genuinely sets this business apart in this landscape, and decide how the design carries it.
+### C. Environment Profile (governing parameter)
+Reconstruct the real encounter: physical setting and neighbors (dominant colors, density, scale, order or clutter, finish), competing stimuli, ambient light, audience behavior there (moving or still, dwell time), cultural context, and the viewing stages with distance and duration.
+- Hold the **impression** constant; let the setting decide the **expression**.
+- Find where neighbors are uniform (departure dimensions: color field, density, scale, form language, finish, tone) and where fitting is needed for credibility (fit dimensions). Louder is not distinct; quieter can be the departure in a loud landscape.
+- Choose the departure by weighing real options against the actual landscape, screened for compatibility with every quality requirement: an option contradicting one is ineligible; choose another dimension or another expression of it. Departure serves visibility and never overrides what the brief asks the piece to feel like.
+- If the setting cannot be established, state the most probable one and mark it provisional.
 
-**Analyze:** candidate differentiators from product specifics, process, materials, origin, scale and intimacy, service behavior, price logic, location, people, name, signature item, consumption ritual; the local competitive landscape and what each neighbor already claims.
+### D. Audience encounter
+Cultural references, behavior, motivations, purchasing considerations, the language register they trust, trust cues the setting provides or lacks. Record what the audience does and must conclude at each viewing stage. Drop demographic stereotypes and unsupported psychology.
 
-**Consider:** which differentiators the audience can verify at the moment of encounter; positioning that fits dozens of competitors (avoid it); whether the real difference lies in execution rather than in any single claim.
-
-**Evaluate** each candidate on four tests:
-- **True:** the business can honestly claim it. A failure discards it.
-- **Relevant:** the audience cares at the moment of encounter.
-- **Distinctive:** not shared by dozens of competitors.
-- **Visualizable:** it can become something seen. A failure may still shape tone or content hierarchy.
-
-Choose a strategy; if none is strong, choose execution-led differentiation (the piece differs through how it is composed and made) and say so.
-
-**Record:** the differentiators weighed with each test result; the chosen strategy, or the statement that evidence fixed it.
-
-### C. The Environment Profile (a governing design parameter)
-
-**Purpose.** Reconstruct the real encounter so the setting generates and constrains design decisions in every later phase.
-
-**Analyze:** physical setting and surrounding visual landscape (dominant colors, density, scale, order or clutter, finish level); competing stimuli and what they promise; ambient light and conditions; audience behavior there (moving or still, attention, dwell time); cultural context of the place; viewing stages (glance, approach, close inspection; a piece may have only one), each with distance and duration.
-
-**Consider:**
-- Impression versus expression: what the landscape already says, and what expression would still carry the intended impression there. Hold impression constant; let the setting decide expression.
-- Where neighbors are uniform (color field, density, scale, form language, finish, tone) and where fitting is required for credibility or appropriateness.
-- Louder is not distinct; quieter can be the departure in a loud landscape.
-- Departure serves visibility and never overrides what the brief asks the piece to look and feel like; the same dimension can usually be expressed in a way that keeps every quality intact.
-
-**Evaluate:** the departure dimension(s), chosen by weighing real options against the actual landscape and screened for compatibility with every quality requirement (an option that would contradict one is ineligible; choose another dimension or another expression of it); the fit dimensions to respect; whether the setting is established or must be marked provisional (state the most probable setting if it cannot be established).
-
-**Record:** the profile in concrete terms, with departure and fit dimensions. Downstream use: candidate source and scoring criterion in Phase 3; basis for color, typographic, mark, and background judgments in Phase 4; basis for viewing stages, density, and the final context review in Phase 5.
-
-### D. The audience
-
-**Purpose.** Understand how these people actually meet the piece, so the design answers their behavior, not a stereotype.
-
-**Analyze:** cultural references and expectations; behavior, motivations, needs, purchasing considerations; the language register they use and trust; trust cues the setting already provides or lacks.
-
-**Consider:** at each viewing stage, what earns attention, makes the offer relevant, builds confidence, and prompts action; what the audience already knows about the category and this business.
-
-**Evaluate:** which audience claims rest on evidence and which on assumption (drop demographic stereotypes and unsupported psychology); what the audience must conclude at each viewing stage for the piece to work.
-
-**Record:** the audience encounter as a short sequence of what they do and decide at each viewing stage.
-
-### E. The Communication Problem
-
-**Purpose.** Define the piece's job precisely, so every later decision can be tested against it.
-
-**Analyze:** primary and secondary objectives (a user-stated priority, what must come first, fixes the primary objective; the weakest link is chosen within it and never replaces it); the Phase 1 quality requirements, as part of desired response and brand perception; the desired audience response; the necessary information; the desired brand perception.
-
-**Consider** the tensions, and list each: visibility versus sophistication; density versus readability; memorability versus commercial clarity; legibility distance versus content volume versus area; ambition versus production budget.
-
-**Evaluate:** the **weakest link** in attention → comprehension → credibility → action: the link most likely to fail in this setting, chosen by weighing the options and the cost of each failure.
-
-**Record:** the Communication Problem, the weakest link with options weighed, the tension list. Phase 3 resolves the tensions.
+### E. Communication Problem
+Objectives (a user-stated priority fixes the primary objective; the weakest link is chosen within it and never replaces it); desired response; necessary information; desired brand perception (quality requirements included). List tensions: visibility vs sophistication; density vs readability; memorability vs commercial clarity; legibility distance vs content volume vs area; ambition vs budget. Choose the **weakest link** in attention → comprehension → credibility → action: the link most likely to fail in this setting, weighing the cost of each failure. Phase 3 resolves the tensions.
 
 ### F. Research
-
-**Purpose.** Replace assumption with evidence, only where evidence can change a decision.
-
-**Analyze** (priority order): the actual business and its public materials; category visual conventions to differentiate from; local competitive context; the environment; cultural references; product reality.
-
-**Consider:** source reliability (prefer authoritative and first-hand; reviews signal perception, not verified fact); whether a found business is the right one (same name is not same business); tool availability (without research tools, reason from the brief, mark conclusions provisional, avoid choices that depend on unverified specifics).
-
-**Evaluate:** whether each finding changes or confirms a decision, stopping when further research would not; competitor visuals are studied as a baseline to differ from, never copied.
-
-**Record:** findings with provenance tags and the decision each informs.
+Only what can change a decision; stop at diminishing returns; run independent searches together. Priority: the business and its public materials; category visual conventions to differ from; local competitors; the environment; cultural references; product reality. Prefer authoritative and first-hand sources; reviews show perception, not fact; confirm a found business is the right one (same name is not same business); competitor visuals are a baseline to differ from, never a model. Without research tools, reason from the brief, mark conclusions provisional, and avoid choices that depend on unverified specifics. Record findings with provenance and the decision each informs.
 
 ### G. Cultural grounding and the Visual source inventory
+Identify the cultures, languages, religions, and commercial conventions actually relevant ("Indonesian" is not one aesthetic or audience); preserve the user's register; use regional or traditional references only where the business genuinely connects to them. Mine deeper specifics across seven dimensions: practices and rituals; materials and tools; how things are made, handled, and shared; spatial and sensory details of daily life; language and its play; geography and seasons; the history of this business. Screen each: **true** (the business can claim it), **respectful** (no tokenism), **meaning verified** (omit a culturally loaded symbol if uncertain), **workable** (can be seen, drawn, and rendered at distance), and how it can be depicted truthfully (the offer, in use, a place, or from supplied imagery; a depiction the generator cannot render accurately is not workable). A figure the user wants is sourced from the same true specifics, never the category's stock mascot.
 
-**Purpose.** Ground the design in true, specific, respectful visual sources beyond the emblem everyone reaches for first.
+Record the inventory in three parts: (1) apparent associations as baseline; (2) deeper true specifics that could become visual ideas (at least one beyond the baseline); (3) which are visually workable.
 
-**Analyze:** the cultures, languages, religions, and commercial conventions actually relevant ("Indonesian" is not one aesthetic or audience); the user's language register (preserve it); regional or traditional references, used only where the business genuinely connects to them.
+## 3. Gate checks (fails if any is false)
 
-**Consider** the deeper specifics, across seven dimensions: practices and rituals; materials and tools; how things are made, handled, and shared; spatial and sensory details of daily life; language and its play; geography and seasons; the history of this business.
+- Every finding changes or confirms a decision; no narrative richer than its evidence; every implication names its evidence.
+- Differentiation fits this business, not dozens of competitors, and shows its option set (or "fixed by evidence"); no manufactured alternatives.
+- Someone who never visited could picture the setting and name where the piece departs and fits; the profile is concrete, not applicable to any location; departure is more than "bigger or brighter" and compatible with every quality requirement.
+- Primary objective follows the user's stated priority; the weakest link is a secondary lens, not a replacement.
+- Inventory goes beyond emblems, stays true and respectful; no unverified symbol; no competitor treated as a model; audience claims rest on evidence.
+- Objection raised and resolved (owner of the riskiest decision: brand strategist or consumer-behavior researcher; two objections at Full depth).
 
-**Evaluate:**
-- Truth: can the business honestly claim it?
-- Respect: is it free of tokenism?
-- Meaning: verify any culturally loaded symbol; omit it if uncertain.
-- Visual workability: can it be seen, drawn, and rendered at the viewing distance?
-- Depiction fit: how a workable source can be shown truthfully (the offer itself, in use, a place) and which depend on supplied imagery; a depiction the generator cannot render accurately is not workable. A figure the user wants is sourced from the same true specifics, never the category's stock mascot.
-
-**Record** the inventory in three parts, each entry grounded in the brief or research:
-1. The apparent associations, named as the baseline.
-2. Deeper true specifics that could become visual ideas.
-3. Which of those are visually workable.
-
-## 3. Failure modes
-
-| Failure | Detection | Correction |
-|---|---|---|
-| Research for its own sake | Findings that change no decision | Drop them; keep those with an implication |
-| Narrative richer than evidence | Brand claims with no source | Downgrade to modest reading; tag as inference |
-| Category-level differentiation | Strategy fits dozens of competitors | Re-run B with this business's specifics, or choose execution-led |
-| Abstract environment | Profile could describe any location | Add concrete neighbors, light, distance, behavior; mark provisional if unknown |
-| Loud equals distinct | Departure chosen as simply "bigger or brighter" | Re-weigh departure dimensions against the actual landscape |
-| Inventory of emblems | Part 2 holds only the apparent associations or variants | Mine the seven dimensions again; require at least one true specific beyond the baseline |
-| Unverified symbol | A culturally loaded element with no checked meaning | Verify or omit |
-| Competitor copying | A competitor's visuals carried forward as a model, not a baseline | Restate as a departure dimension; never reproduce |
-| Manufactured alternatives | Differentiation options that are one idea reworded | State that evidence leaves one defensible option |
-| Stereotyped audience | Demographic assumptions without evidence | Replace with observed or inferred behavior at each viewing stage |
-| Departure overrides the brief | Chosen departure signals the opposite of a stated quality | Re-weigh; choose a compatible dimension or expression |
-| Weakest link displaces the user's priority | Primary objective differs from what the user said comes first | Restore the stated priority; use the weakest link as a secondary lens |
-
-## 4. Completion criteria, summary record, and hand-off
-
-Complete when the phase card's "Before leaving" check holds.
-
-**Print for the decision summary (Analysis entry, at the gate):** the weakest link and options weighed; the departure and fit dimensions chosen and why; the differentiation strategy and options weighed (or "fixed by evidence"). Mark any decision the evidence fixed as such. Update the Design Log: Communication Problem, Environment Profile, Visual source inventory, open issues.
-
-**Hand-off to Phase 3:** Communication Problem; Environment Profile; Visual source inventory; differentiation strategy; tagged design implications; tension list; plus Phase 1's content volume, fixed assets, preferences, and exclusions.
+**Entry content:** weakest link and options weighed; departure and fit dimensions and why; differentiation strategy and options weighed (or "fixed by evidence"). Mark decisions fixed by evidence as such.
