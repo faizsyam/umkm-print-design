@@ -201,7 +201,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
 - relationships: where coupled, each text item nearest its referent, supporting text never competing with the hero, and no picture-with-captions bands;
 - the point of tension, if the plan set one: it reads at the glance stage and everything else supports it;
 - visual variety: the hero, ground, scale, and form carry the eye across the piece, with supporters only where a deficit exists and never added for variety;
-- absence of generic, templated, overdecorated, or AI-typical appearance.
+- decided, not defaulted: every attribute that shapes the look (composition axis and symmetry, rendering finish, light, ground, color proportions, lettering, how the subject is depicted) traces to a decision, since an undecided one takes the image model's apparent value; and no generic, templated, or overdecorated appearance.
 
 On failure, name the earliest responsible decision (plan, element, or placement), return there, and re-run forward; cap at two cycles per issue.
 

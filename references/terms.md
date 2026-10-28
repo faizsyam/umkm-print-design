@@ -47,7 +47,7 @@ Each term has one meaning in every file. This file holds only terms used in more
 | Term | Meaning |
 |---|---|
 | Consequential decision | A decision that defines identity, effectiveness, or coherence: core idea, style synthesis, hero, logo mark, color strategy, typographic voice, composition (spatial) strategy. All others are **trivial** and decided directly |
-| Apparent option | What most people produce on first association from the category, culture, place, or product. A benchmark to beat, never a default. **Beyond the apparent** means drawn from true, lesser-seen specifics (typically the Visual source inventory) |
+| Apparent option | What most people produce on first association from the category, culture, place, or product. A benchmark to beat, never a default. The image model has its own: the value it supplies for any attribute left undecided. **Beyond the apparent** means drawn from true, lesser-seen specifics (typically the Visual source inventory) |
 | Candidate | One complete, distinct alternative for one consequential decision; in Phases 3 to 5 a **candidate card** whose fields the phase reference sets, each filled in specialist terms (a label alone is not a candidate) |
 | Structural axis | A dimension on which candidates must differ to count as distinct: what carries the identity, what the viewer is asked to do first, how information is structured, register and commercial posture, image-making method. Color or ornament alone do not count |
 | Hybrid / compromise | A **hybrid** combines candidates and can be stated as one idea. A **compromise** needs "and also" to describe and is rejected |

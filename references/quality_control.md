@@ -53,6 +53,7 @@ Use the tests that apply; record failures with their routing.
 | Originality (apparent-choice, lineage, synthesis, depth, distinctness) | Is the leader unpredictable, nameable by lineage, derived from this brief, specialist-grade, and more than competent? | Phase 3 to 5 |
 | Text-neighborhood | Is the mark distinct beside the densest text, squinting? | Phase 4 or 5 |
 | Visual-effect | Would removing this prompt clause change what is drawn? | Phase 6 |
+| Decided-attribute | Is any look-shaping attribute unstated, or decided by no one, so the model's apparent value fills it? | Phase 6 if decided; otherwise the earliest phase that should own it |
 | Standalone | Could an illustrator who never saw the brief produce the design? | Phase 6 |
 | Brief-quality | Does each stated quality have a visible carrier at the glance stage, and does any decision signal its opposite? | Phase 1 (translation) or the earliest contradicting phase |
 | Value-key | Does the area-weighted light, mid, and dark balance, ground and large bands included, match every quality requirement? | Phase 4 (or 3) |
@@ -83,6 +84,7 @@ Run on the drafted prompt, then on the reply.
 - No contradictions; no rationale; no placeholders; no blank zones other than a reserved asset panel for a supplied asset; no post-generation editing instructions; no blanket emphasis; no crop marks or annotations unless requested.
 - Flat artwork unless a mockup was requested or the form is the deliverable.
 - The visual-effect test on every sentence.
+- Specifics: depicted things appear by their true specifics, and no look-shaping attribute is left to the model's apparent value.
 - Standalone and readable; one coherent style logic.
 
 **Reply audit**

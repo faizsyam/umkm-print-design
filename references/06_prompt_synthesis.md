@@ -11,7 +11,7 @@
 | Exploration protocol | Not applicable. This phase translates decisions already made. If translation requires a new concept, style, or element, the plan or execution had a gap: return to the responsible phase, then re-run forward |
 | Required decisions | What is in the prompt and what stays out; the prompt's structure; placement and wording of every mandatory text item; how the mark and any fixed asset are described; how space is expressed; which minimal exclusions apply; the ratio handling; the language policy; the notes |
 | Outputs | The final prompt(s) and any short notes (SKILL.md 13.2). The decision summary was printed phase by phase at earlier gates and is not repeated |
-| Before leaving | Could an illustrator who has never seen the brief produce the intended design, and is every printed or amended decision visible in the prompt and none contradicted? Does every sentence pass the visual-effect test? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, stated qualities as visible look, mark construction and personality device, hero treatment, typographic character and designed copy treatments, supporters, unifying device, space plan)? Is length proportional to complexity? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? |
+| Before leaving | Could an illustrator who has never seen the brief produce the intended design, and is every printed or amended decision visible in the prompt and none contradicted? Does every sentence pass the visual-effect test, and is every look-shaping attribute stated rather than left to the model's apparent value? Is all mandatory text present, verbatim, once, with role and position? Are there no contradictions, no rationale, no placeholders, no blanket emphasis words? Do the distinctive decisions survive (idea, stated qualities as visible look, mark construction and personality device, hero treatment, typographic character and designed copy treatments, supporters, unifying device, space plan)? Is length proportional to complexity? Was the gate objection raised and resolved, or accepted with a reason (`quality_control.md` section 2)? |
 
 ## Contents
 1. Process
@@ -50,6 +50,8 @@
 
 - Use precise design vocabulary (`protocol.md` 3g) and concrete visual description; no vague adjectives.
 - A sentence an illustrator could read two ways is not yet specific.
+- Describe each depicted thing by its true specifics (form, material, construction, arrangement) as decided in Phases 3 and 4, not by its category name; a category name alone summons the image model's apparent instance.
+- State every look-shaping attribute where the plan decided it. An attribute left unstated takes the model's apparent value; if no earlier phase decided it, return to the phase that owns it rather than invent it here. Silence is allowed only where that value is the intended result.
 
 ### D. Relationships, not inventories
 
@@ -119,6 +121,7 @@ Run the prompt audit in `quality_control.md` section 4, with the visual-effect t
 | Text hallucination | Extra, garbled, or missing words expected in the output | State that the piece contains only the specified text; reduce text volume risk (F) |
 | Workflow output leaking | Analysis, alternatives, or process in the final reply beyond prompt(s) and allowed notes | Cut it, unless the user asked for analysis |
 | Filler adjectives | A clause fails the visual-effect test | Delete |
+| Attribute left to the model | A look-shaping attribute is unstated, or a depicted thing appears by category name only | State the decided trait; if none was decided, return to the owning phase |
 | Prompt too long or too short | Padding, or distinctive decisions lost | Cut filler first; restore specifics |
 | Prompt and printed decisions disagree | A printed or amended decision is not visible in the prompt, or the prompt contradicts one | Fix the prompt, or print an amendment if the decision changed |
 | Mark and wordmark described as separate objects | The unit has no shared logic, spacing, or region stated | Describe the identity unit as one object |

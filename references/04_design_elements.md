@@ -208,8 +208,7 @@ Principles for every role: one figure, one design, defined once (form class, pro
 - Each supporter answers a named deficit and shares the style's form language, line quality, and finish.
 - Supporters exist only for real deficits; a baseline with none is a valid result, recorded with its reason, and a user's exclusion of imagery stands. Read variety of scale, form class, density, and surface from the whole system (hero, ground, type, supporters); never answer it with a supporter that has no deficit.
 - A text-dense piece usually shows deficits of interest, scanning, and rhythm. The answer is purposeful visuals and structure, never more words and never filler.
-- **Weight ceiling.** Decoration never outranks required information. Supporters sit below the hero, identity unit, primary message, and the required information they serve or sit beside, in scale, contrast, color, and isolation at that information's stage; they are limited by the element allowance, and one is removed or merged before another is shrunk.
-- **Distinct job.** No two elements perform the same job. When two do, keep the one that serves the hierarchy better and merge or remove the other.
+- **Weight ceiling and distinct job.** Each supporter card states both; the system-level checks in G enforce them.
 - Micro-details are few; accumulation is noise.
 - Accuracy and reliability: depictions of the offer match what is offered; avoid real identifiable people, tokenistic portrayals, and compositions that depend on complex hands, crowds, or fine faces unless reliability allows. Supplied people, characters, and photographs follow the fixed-asset rules; created figures follow Figures above.
 
