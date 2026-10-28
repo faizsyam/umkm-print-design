@@ -28,6 +28,8 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Referent | What a content item is about: the business, the offer, the hero, a specific depicted part, or an action |
 | Coupling mode | **integrated** (on, around, or pointing into the thing described), **attached** (same group, sharing its field, axis, or rail), **separate** (its own zone) |
 | Hero group | The hero plus the content coupled to it, read as one object at the glance stage; its text is always subordinate to the hero |
+| Rank / lever | **Rank**: an element's place in the stated order of attention at a viewing stage (first, second, third …). **Levers** are the means that create it: size, position, color, value contrast, weight, shape or container, spacing and isolation, plane and overlap, detail density, alignment, typographic style, edge contact |
+| Character carrier / link | **Character carrier**: a quiet, ownable feature that keeps a piece interesting and specific to its business at its density (depth within a main element, a recurring signature motif, subtle surface, small iconography, typographic detail, edge or container character). **Link**: a stated tie between two major elements (shared axis, overlap, shared color or shape, echoed motif, connector, proximity group) |
 | Distinct job | The one purpose an element performs that no other element performs; two elements with the same job merge toward the one that serves the hierarchy better |
 | Weight ceiling | The most weight (scale, contrast, color, isolation) an element may take: below the required information it serves. Only the hero, the identity unit (per mark role), and a designed hook or transaction lead |
 
