@@ -8,8 +8,8 @@
 | Receives | User message, attachments (logos, photos, references), prior conversation; for a revision, the log |
 | Decisions | Necessity and provenance of every item; verbatim form of every mandatory string; gap class of every gap and which are blocking; quality translation of every stated quality and priority; intake questions; depth |
 | Exploration | None: record and classify. An ambiguous phrase takes the interpretation best supported by the rest of the brief, tagged |
-| Output | Brief Ledger (with quality translations), research questions (each naming the decision it could change), tensions; then the guided intake and the confirmed summary and mode (`00_conversation_ux.md` section 3) |
-| Hand-off to Phase 2 | Ledger, research questions, tensions, inferred setting if any, depth |
+| Output | Brief Ledger (with quality translations), research questions (each naming the decision it could change), tensions; then the guided intake and the confirmed summary and mode (`00_conversation_ux.md` section 3). On confirmation the ledger becomes S (`SKILL.md` section 4) |
+| Forward | S (ledger fields, quality translations, depth, mode); research questions; tensions; open flags (inferred setting and other tagged assumptions) |
 
 ## 1. Process
 
@@ -18,12 +18,12 @@
 3. Record every stated quality and priority in the user's words and translate it (D).
 4. Sort every gap (E). Infer the inferable (tagged), pass the researchable to Phase 2, ask about blocking and valuable gaps through the guided intake.
 5. Note tensions; set the depth.
-6. Run the gate checks (`quality_control.md` section 1), show the compact summary, ask for confirmation and mode, and wait. Corrections update the ledger and show only changed rows. Phase 1 closes on the user's confirmation; then create the Design Log with the Phase 1 hand-off.
+6. Run the gate checks (`quality_control.md` section 1), show the compact summary, ask for confirmation and mode, and wait. Corrections update the ledger and show only changed rows. Phase 1 closes on the user's confirmation; then create the Design Log with S and the Phase 1 Forward block.
 
 ## 2. Guidance
 
 ### A. Print medium and context
-Medium and format; faces; dimensions, aspect ratio, physical area; purpose and objectives; placement and viewing environment (distance, orientation, dwell time, visibility, lighting); production limits (material, finish, color limits, budget tier, quantity). If the setting is not stated, infer the most probable one, tag it provisional, and pass it on; ask only if plausible settings would need opposing designs. Record physical area beside content volume: their relation drives density, space, and scale later.
+Medium and format; faces; dimensions, aspect ratio, physical area; purpose and objectives; placement and viewing environment (distance, orientation, dwell time, visibility, lighting); production limits (material, finish, color limits, budget tier, quantity). If the setting is not stated, infer the most probable one, tag it provisional, and pass it on; ask only if plausible settings would need opposing designs. Record physical area beside content volume: their relation drives density, space, and scale later. Record any image generator or output language the user names (Phase 6 uses it) and the print aspect ratio (Phase 5 decides the canvas).
 
 ### B. Business and brand
 Name and industry; products and services; operating context; audience; differentiators; positioning and existing visual identity. Record what the user said, not what the category implies.
@@ -56,4 +56,5 @@ Style, color, mood, theme, references, assets, exclusions, cultural or religious
 - Physical area, content volume, and setting are recorded (inferred and tagged if unstated); references recorded as taste, never layout requirements; supplied visual material listed as fixed assets.
 - Intake stayed within limits, every question had an example or default, none answerable from the brief; summary shown with the mode question (Phase 2 starts only after the user confirms).
 - Objection (print designer): are medium, size, material, and viewing conditions captured well enough to design for?
+- Depth is recorded with the Full condition that set it, or none.
 - Even a simple brief has a written ledger; simplicity shortens it, never removes it.

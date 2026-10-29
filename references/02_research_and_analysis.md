@@ -5,12 +5,12 @@
 | Item | Content |
 |---|---|
 | Goal | Establish the piece's real problem and setting well enough that every later decision rests on a finding, reduced to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
-| Receives | Phase 1 hand-off. Outside: research, only where it can change a decision |
-| Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; departure and fit dimensions; Visual source inventory; design implications |
+| Receives | S and the Phase 1 Forward block (research questions, tensions, open flags). Outside: research, only where it can change a decision |
+| Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; the message; departure and fit dimensions; Visual source inventory; design implications |
 | Exploration | Compact comparison (`protocol.md` section 3), genuine option sets only |
-| Output | Communication Problem; Environment Profile; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; tensions |
-| Entry | Guided mode: no separate stop. Its findings lead the Phase 3 entry in two lines: the weakest link, the setting, how the piece will stand out |
-| Hand-off to Phase 3 | The outputs above, plus Phase 1 content volume, fixed assets, preferences, exclusions, and quality translations |
+| Output | Communication Problem (with the message); Environment Profile; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; tensions |
+| Entry fields | Guided mode: no separate stop. Its findings lead the Phase 3 entry in two lines, from these fields: weakest link; the setting and where the piece departs from it; how it stands out (or "fixed by evidence") |
+| Forward | Communication Problem (primary objective, weakest link, message, tensions with the lead side where `SKILL.md` section 7 decides it); Environment Profile with viewing stages, departure and fit; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; open flags (provisional setting, unverified specifics). S is not restated |
 
 ## 1. Process
 
@@ -39,7 +39,7 @@ Reconstruct the real encounter: physical setting and neighbors (dominant colors,
 Cultural references, behavior, motivations, purchasing considerations, the language register they trust, trust cues the setting provides or lacks. Record what the audience does and must conclude at each viewing stage. Drop demographic stereotypes and unsupported psychology.
 
 ### E. Communication Problem
-Objectives (a user-stated priority fixes the primary objective; the weakest link is chosen within it and never replaces it); desired response; necessary information; desired brand perception (quality requirements included). List tensions: visibility vs sophistication; density vs readability; memorability vs commercial clarity; legibility distance vs content volume vs area; ambition vs budget. Choose the **weakest link** in attention → comprehension → credibility → action: the link most likely to fail in this setting, weighing the cost of each failure. Phase 3 resolves the tensions.
+Objectives (a user-stated priority fixes the primary objective; the weakest link is chosen within it and never replaces it); desired response; necessary information; desired brand perception (quality requirements included). List tensions: visibility vs sophistication; density vs readability; memorability vs commercial clarity; legibility distance vs content volume vs area; ambition vs budget. Choose the **weakest link** in attention → comprehension → credibility → action: the link most likely to fail in this setting, weighing the cost of each failure. Where `SKILL.md` section 7 or the user's stated priority decides a tension, record its lead side; Phase 3 decides the rest. **Message:** one sentence naming what the glance-stage viewer takes away and does next, compressed from the desired response and the necessary information; it serves the primary objective and never contradicts a quality requirement. Phase 3 builds the core idea to carry it; Phase 5 confirms it after triage.
 
 ### F. Research
 Only what can change a decision; stop at diminishing returns; run independent searches together. Priority: the business and its public materials; category visual conventions to differ from; local competitors; the environment; cultural references; product reality. Prefer authoritative and first-hand sources; reviews show perception, not fact; confirm a found business is the right one (same name is not same business); competitor visuals are a baseline to differ from, never a model. Without research tools, reason from the brief, mark conclusions provisional, and avoid choices that depend on unverified specifics. Record findings with provenance and the decision each informs.
@@ -56,6 +56,7 @@ Record the inventory in three parts: (1) apparent associations as baseline; (2) 
 - Someone who never visited could picture the setting and name where the piece departs and fits; the profile is concrete, not applicable to any location; departure is more than "bigger or brighter" and compatible with every quality requirement.
 - Primary objective follows the user's stated priority; the weakest link is a secondary lens, not a replacement.
 - Inventory goes beyond emblems, stays true and respectful; no unverified symbol; no competitor treated as a model; audience claims rest on evidence.
+- The message is one takeaway, serves the primary objective, and contradicts no quality requirement.
 - Objection raised and resolved (owner of the riskiest decision: brand strategist or consumer-behavior researcher; two objections at Full depth).
 
-**Entry content:** weakest link and options weighed; departure and fit dimensions and why; differentiation strategy and options weighed (or "fixed by evidence"). Mark decisions fixed by evidence as such.
+**Entry fields:** in the phase card; mark decisions fixed by evidence as such.

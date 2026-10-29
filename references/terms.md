@@ -12,7 +12,8 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Fixed asset | A user-supplied element used exactly as provided: logo, brand colors, typefaces, photographs, QR, QRIS or other codes, mascots, established identity |
 | Gap classes | **explicit**, **inferable**, **researchable**, **materially uncertain**. A **blocking gap** is materially uncertain and a wrong guess would waste the generation or mislead the audience |
 | Face | One printed side or panel of a piece |
-| Design Log | The persisted state record (`SKILL.md` section 4) |
+| Design Log | The persisted state record (`SKILL.md` section 4): the standing block **S**, one **Forward block** per phase (decisions as specifications, carry-forward obligations, open flags), and the **Record** (candidates, reasons, objections, rejected directions, research), which never travels forward |
+| Carry-forward obligation | A mitigation, accepted cost, or "amplify here" move recorded by the protocol that a later phase must realize or record as accepted |
 
 ## Qualities, copy, supporters
 
@@ -39,7 +40,7 @@ One meaning per term in every file. Only terms used in more than one file are he
 
 | Term | Meaning |
 |---|---|
-| Communication Problem | The piece's job: objectives, desired audience response, necessary information, desired brand perception, the weakest link in attention → comprehension → credibility → action, and the tensions between needs |
+| Communication Problem | The piece's job: objectives, desired audience response, necessary information, desired brand perception, the **message** (the one sentence the glance viewer takes away: written here, carried by the core idea, confirmed in Phase 5), the weakest link in attention → comprehension → credibility → action, and the tensions between needs |
 | Environment Profile | The setting as a design input: physical setting, neighbors (colors, density, scale, finish), competing stimuli, light, audience behavior there, cultural context, viewing stages, departure and fit dimensions |
 | Viewing stage | **glance** (shortest exposure, farthest distance), **approach** (closer, interest sustained), **close inspection** (deliberate reading); a piece may have only one. **Stage assignment** gives every content item the one stage at which it is needed; items sharing a stage form a **tier** |
 | Departure / fit dimensions | **Departure**: dimensions where neighbors are uniform and the piece can differ to be seen (color field, density, scale, form language, finish, tone). **Fit**: dimensions where the piece must conform for credibility |
@@ -78,3 +79,4 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Space intent | Phase 3: the share of the format that must stay quiet and what that space does. Phase 4 applies it as the **element allowance**: every element has a space cost, the total fits the space intent, and elements are removed or merged before any is shrunk |
 | Space plan | Phase 5, before placement, as proportions of the format: **outer margin**, **isolation zones** (around glance content, hero, mark), **separations** between groups, **resting fields** supporting the eye's path. Space intent decides how much stays quiet; the space plan decides where |
 | Plane / layering | **Planes**: front, middle, ground (a piece may use one). **Layering** assigns elements to planes with **layer cues** (overlap, relative scale, contrast and detail, tonal and temperature step, focus, light and shadow, surface texture). Plane order is a hierarchy means and a way to integrate content with the hero. A flat style keeps cues in the picture plane: tonal steps, surface detail, overlap of flat shapes |
+| Canvas | The ratio the image is generated at, decided in Phase 5: the print ratio when the generator renders it, otherwise the nearest ratio it accepts plus the crop; content sits inside the crop-safe region |

@@ -37,7 +37,7 @@ A **go-ahead** is any agreement ("lanjut", "oke", "sip", a thumbs-up). Approval 
 1. **Read first.** Fill the Brief Ledger. Rank gaps by power to change the design: (a) business story and what makes it special; (b) where and how the piece is seen, and by whom; (c) exact content; (d) feeling wanted, colors, logo; (e) limits (size, material, budget, deadline) only where they matter.
 2. **Opening:** one line reflecting what you understood, then at most three questions on the top gaps.
 3. **Question rules.**
-   - At most three questions per message and three discovery messages (more only for a remaining blocking gap). Ask about blocking gaps and gaps whose answer would change story, setting, content, or look; never about what can be inferred or researched; never repeat.
+   - At most three questions per message and three discovery messages (a remaining blocking gap gets one more message, reworded). Ask about blocking gaps and gaps whose answer would change story, setting, content, or look; never about what can be inferred or researched; never ask what was already answered. A blocking gap still open after that goes into the summary as a flagged assumption with its default, or as an item the user must supply when no honest default exists, and the user confirms it there.
    - Each question is one short line with two to four example answers and the default if skipped ("Kalau belum tahu, aku anggap ..."), or the item's omission when no honest default exists.
    - Ask about people, place, and feelings, never fonts, layout, or palettes. Accept short or "terserah" answers.
    - A tap-to-answer option tool, when available, may carry pure choice questions (2 to 4 options).
@@ -62,7 +62,7 @@ A **go-ahead** is any agreement ("lanjut", "oke", "sip", a thumbs-up). Approval 
 
 ## 5. Phase entries (guided mode)
 
-What an entry covers is listed in each phase file under "Entry"; this section says how to word and lay it out. One entry per phase, built to be skimmed in seconds.
+Each phase file lists its "Entry fields" as the source; this section decides what is shown and how to word and lay it out. Show only the choice, its reason, and the alternatives; never more than two alternatives, decisive criteria in design terms, or internal terms. One entry per phase, built to be skimmed in seconds.
 
 ```
 **Tahap 3 dari 6: Ide dan gaya**

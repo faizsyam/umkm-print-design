@@ -5,24 +5,25 @@
 | Item | Content |
 |---|---|
 | Goal | An Execution Specification: a composition whose hierarchy, space, scale, and placement are decided relative to the viewer's stages and the surrounding landscape, every decision realizing the plan and element system |
-| Receives | Phase 4 element system; Phase 3 core idea, hero (with hosting capacity), style's compositional behavior, space intent, mark role, integration and layering stances; Phase 2 viewing stages, landscape, light; Phase 1 mandatory content, format, area, production limits |
-| Decisions | The one-sentence message; stage assignment; relationship map and coupling modes; space plan with proportions; spatial strategy; capacity check; hierarchy, reading order, plane order; placement, scale, weight, color, treatment of every element and text item; print-condition adjustments; multi-face structure; review result |
+| Receives | S (mandatory content, format, area and ratio, production limits, exclusions, carrier map); Phase 4 Forward (element system and its specs, counterweight); Phase 3 Forward (core idea, hero with hosting capacity, style's compositional behavior and balance type, space intent, mark role, integration, layering, density, point of tension, boundaries, character carriers and links); Phase 2 Forward (message, viewing stages, landscape, light) |
+| Decisions | Confirmation of the message; canvas; stage assignment; relationship map and coupling modes; space plan with proportions; spatial strategy; hierarchy, reading order, plane order; placement, scale, weight, color, treatment of every element and text item; balance remedy; capacity check and size freeze; print-condition adjustments; multi-face structure; review result |
 | Exploration | Full protocol for the **spatial strategy** (C). Stage assignment, space plan, and hierarchy follow the rules below; record reasons, not candidate comparisons |
 | Output | The Execution Specification |
-| Hand-off to Phase 6 | The message; hierarchy and reading order; stage assignment; space plan with proportions; spatial strategy; placement, scale, weight, color, and treatment of every element and text item (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; print-condition adjustments; review result |
+| Forward | The message; canvas (ratio and crop); hierarchy and reading order; stage assignment; space plan with proportions; spatial strategy; placement, scale, weight, color, and treatment of every element and text item (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; print-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record |
 
 ## 1. Process
 
-Fixed order for steps 2 to 5: stages, space plan, strategy, sizes and placement. The strategy follows the space plan because it arranges content inside space already reserved.
+Fixed order for steps 2 to 6: canvas, stages, space plan, strategy, placement. The strategy follows the space plan because it arranges content inside space already reserved. Balance is measured before the capacity check because balance remedies can change sizes and positions; the capacity check then freezes the sizes.
 
-1. State the one-sentence message the viewer takes away first.
-2. Assign every content item to a viewing stage (B1); map referents and coupling modes (A2).
+1. Confirm the message from Phase 2: reword it only if triage or content volume changes what the glance viewer can take away, and record the change.
+2. Decide the canvas (B9), then assign every content item to a viewing stage (B1); map referents and coupling modes (A2).
 3. Decide the space plan before placing anything, reserving the hero group's field as one region (B2).
 4. Decide the spatial strategy by the protocol (C).
-5. Rank and place content (A, D), sizing each tier to its legibility minimum plus hierarchy needs, triaging if content exceeds the space plan (B4, B5); run the capacity check (B7) so no size changes after the gate.
+5. Rank and place content (A, D) with provisional sizes (each tier at its legibility minimum plus hierarchy needs), triaging if content exceeds the space plan (B4, B5). An item promoted to first or second rank with no treatment decision takes the Phase 4 treatment check (B2 there).
 6. Check balance (A3) on the placed composition and remedy it.
-7. Backgrounds, print conditions, multi-face structure (E).
-8. Review the composition (F). On failure return to the earliest responsible decision and re-run forward. Gate.
+7. Run the capacity check (B7) and freeze sizes; a remedy that moves or resizes an element re-estimates that element's balance only.
+8. Backgrounds, print conditions, multi-face structure (E).
+9. Review the composition (F). On failure return to the earliest responsible decision and re-run forward. Gate.
 
 ## 2. Guidance
 
@@ -45,7 +46,7 @@ Balance is judged on the composed whole after placement; it is measured, not ass
 ### A2. Relationship map and grouping
 Group content by what it refers to, not only by when it is read; grouping by attention order alone yields a picture with captions.
 
-**Confirm the stance first.** Test the Phase 3 integration stance against the message and the content inventory. Where the hero carries the message alone, or coupling would dilute it, its text stays separate by stage and the hero keeps its isolation (the modes below then apply only to what is still coupled). If the stance proves wrong, return to Phase 3 and amend the printed stance.
+**Apply the stance.** The Phase 3 integration stance stands unless a named failure appears: the hero cannot host an item the stance couples to it; more items would be integrated than stay readable (below); or coupling would hide or crowd the hero's identifying form. Where the hero carries the message alone, or coupling would dilute it, its text stays separate by stage and the hero keeps its isolation (the modes below then apply only to what is still coupled). On a named failure, return to Phase 3 and amend the printed stance.
 
 **Map every text item** from its referent and content role: what it refers to, whether the hero's form can host it, and its mode.
 
@@ -73,8 +74,9 @@ Visibility requirements guide prioritization; they do not entitle every element 
 4. **Legibility is a minimum** per tier, from its own stage. Size beyond it buys emphasis, which works only when most elements lack it.
 5. **Budget the content.** Count groups and items per tier against what the viewer can parse in that stage's time. If content exceeds the space plan, triage: demote to a later stage, group, simplify, or omit optional content. Never delete mandatory content, shrink below the minimum, inflate every tier, or reduce the space plan. If triage cannot fit mandatory content, record a volume risk for the notes and keep it.
 6. **Space as visibility and scale as relationships:** isolation raises glance visibility more reliably than size; express scale as proportions and steps between tiers.
-7. **Capacity check (before any size is printed).** For each text string estimate width as characters × cap height × a width factor (about 0.75 to 0.9 for text faces, up to about 1.0 for heavy or wide display faces) against its container at the planned size, and count lines against container height. On failure change, in order: line breaks and grouping, container size or shape, tier size down to (never below) its minimum, triage. Only then record final sizes; the sizes printed at this gate are the sizes the prompt uses.
+7. **Capacity check (before any size is printed).** For each text string estimate width as characters × cap height × a width factor (about 0.75 to 0.9 for text faces, up to about 1.0 for heavy or wide display faces) against its container at the planned size, and count lines against container height. On failure change, in order: line breaks and grouping, container size or shape, tier size down to (never below) its minimum, triage. Only then record final sizes; the sizes printed at this gate are the sizes the prompt uses. The check runs after balance (A3).
 8. **Proportion and fill checks.** Reduce any element far above its minimum that is neither the hero nor the glance message. **Fill test:** every quiet area has a job (rest, isolation, hosting the hero group's text) or is reassigned in the plan, never filled with an item.
+9. **Canvas.** Decide the ratio the image is generated at before the space plan: the print ratio when the target generator renders it; otherwise (extreme spanduk, X-banner, and roll-up ratios) the nearest ratio it accepts and the crop the owner will make. When the generator's ratios are unknown, assume only a square, a moderate landscape, and a moderate portrait. Compose the full canvas with all glance content, mandatory content, the identity unit, and fine borders inside the crop-safe region and the remainder as plain extendable ground; state every later proportion for the canvas. Phase 6 applies this decision and flags the crop in the notes; it does not make it.
 
 ### C. Spatial strategy
 Compare at least three structurally different strategies (different organizing logic, not a different position of the same arrangement). **Card fields:** (1) where the eye enters and how it travels, including behavior at the aspect ratio (extreme ratios change the path: decide it explicitly); (2) how groups relate: zones, alignments, grid logic; (3) how hero, identity unit, and information divide the format; figure-ground; (4) balance type and where its counterweight comes from, tension, density, rhythm; (5) how the space plan is realized; (6) edge behavior and plane order; (7) behavior at each stage, fit with and departure from neighbors; (8) where supporters and designed copy sit and how they relieve, group, and balance text areas; (9) coupling: what is integrated, attached, separate, and the resulting group count.
@@ -97,9 +99,9 @@ For each element specify role, scale, weight, color, treatment, plane, position,
 - **Multi-face:** shared identity established once with the identity form each face uses and one figure design; a distinct job per face; consistent treatment; per face its own stage assignment, space plan, and strategy; one standalone prompt per face.
 
 ### F. Composition review
-Review the composed whole through each team role (`SKILL.md` section 2). Check:
+Review the composed whole once against the checks below, each read through the role that owns it (`SKILL.md` section 2); a borderline check draws that role's objection. Check:
 - message understood at first glance; the blurred reading order equals the recorded ranks and no element competes with its rank; the piece carries character at its density, not blank or category-generic; the unit integrated, distinctive, and passing the text-neighborhood test;
-- every stated quality requirement read off the composed whole at the glance stage, value key included;
+- every stated quality requirement read off the composed whole at the glance stage, value key included (recompute the key only if this phase changed the area of ground, bands, or hero);
 - every element has a distinct job and no decoration outranks the required information it serves; every placement traces to a plan or element decision and every plan commitment is visibly realized;
 - legibility; balance as measured in A3; completeness; proportion and space (realized space matches the plan);
 - fit with actual neighbors and light while departing on the intended dimension; would it fail unchanged for another business?
@@ -115,6 +117,7 @@ Review the composed whole through each team role (`SKILL.md` section 2). Check:
 - Space plan stated with proportions and realized; every quiet area has a job; the unit has its own region; the space plan was not shrunk to fit.
 - Designed copy and supporters placed as specified; bleed never meets mandatory content, the unit, or fine borders; every pointer ends on its referent; no figure covers information.
 - Balance measured in A3 and remedied in order, with any counterweight named; every major element is linked; every overlap passes the function test; the composition review passed; failures were routed to their earliest cause.
+- Canvas decided; glance content, mandatory content, the unit, and fine borders sit inside the crop-safe region.
 - Objection raised and resolved (owner of the riskiest decision: visual communication specialist, print designer, consumer-behavior researcher, or senior art director; two objections at Full depth).
 
-**Entry content:** the stage assignment in brief (what sits at glance, approach, close inspection); the space plan with proportions (decided by rule, not comparison); capacity check passed; what is integrated, attached, or separate; the spatial strategy with candidates (name, strength, weakness), choice, decisive criterion, runner-up.
+**Entry fields** (the source for the user's table; `00_conversation_ux.md` section 5 decides what is shown): the reading order in brief (what is seen from far, near, and very near); what is attached to the picture and what stands apart; the arrangement chosen with at most two alternatives and their weakness, and the share of quiet space. The capacity check passes silently.

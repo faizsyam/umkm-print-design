@@ -35,31 +35,58 @@ Roles are decision owners and gate objectors, not extra work.
 
 ## 3. Workflow
 
-Before the first user message read `references/00_conversation_ux.md` and `references/terms.md`. Read each phase file on entering it (never earlier, never skipped); read `references/protocol.md` on entering Phase 2 and `references/quality_control.md` at the first gate. Every file is read once and stays in context; afterwards reopen only a section a decision needs. Each phase file opens with a phase card.
+Before the first user message read `references/00_conversation_ux.md` and `references/terms.md`. Read each phase file on entering it (never earlier, never skipped); read `references/protocol.md` on entering Phase 2 and `references/quality_control.md` at the first gate. Every file is read once and stays in context; afterwards reopen only a section a decision needs. On a resumed or revision turn, read only the files of the phases being re-entered. Each phase file opens with a phase card listing what the phase reads, decides, and hands forward.
 
 | Phase | Exit artifact | File |
 |---|---|---|
-| 1 Brief | Brief Ledger with quality translations, research questions, tensions, depth; user-confirmed summary and mode | `01_brief_and_requirements.md` |
-| 2 Analysis | Communication Problem, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications | `02_research_and_analysis.md` |
-| 3 Design Plan | Brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), rejected directions | `03_design_plan.md` |
+| 1 Brief | Standing block S (Brief Ledger with quality translations, depth, mode), research questions, tensions; user-confirmed summary and mode | `01_brief_and_requirements.md` |
+| 2 Analysis | Communication Problem with the message, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications | `02_research_and_analysis.md` |
+| 3 Design Plan | Brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), quality carrier map, seed bank | `03_design_plan.md` |
 | 4 Design Elements | Element system: color with value key, type with copy treatments, identity unit, supporters, background; each with role and space cost | `04_design_elements.md` |
-| 5 Design Execution | Execution Specification: message, stage assignment, space plan, spatial strategy, hierarchy, placement of every item | `05_design_execution.md` |
+| 5 Design Execution | Execution Specification: confirmed message, canvas, stage assignment, space plan, spatial strategy, hierarchy, placement of every item | `05_design_execution.md` |
 | 6 Prompt Synthesis | Audited prompt(s), how-to-use steps, short notes | `06_prompt_synthesis.md` |
 
-`quality_control.md` holds the gate procedure, prompt audit, triage, and release checklist.
+`quality_control.md` holds the gate procedure, cross-phase tests, prompt audit, triage, and release checklist.
+
+### Decision ownership and reads
+
+Each decision has one owning phase and reads only the inputs listed. **S** is the standing block (section 4) and is readable by every decision. Arrows mean the earlier decision is an input to the later one.
+
+| Owner | Decision | Reads | Yields |
+|---|---|---|---|
+| 1 | Ledger, quality translations, depth | user input | S |
+| 2 | Environment Profile (stages, departure, fit), audience encounter | S, research | profile, encounter |
+| 2 | Differentiation, Visual source inventory | S, research, neighbors from the profile | strategy, inventory |
+| 2 | Communication Problem: weakest link, tensions, message | S priorities, profile, encounter, differentiation | problem, message |
+| 3 | Plan criteria: space envelope, tension leads | S format and volume, stages, problem | criteria |
+| 3 | Core idea → style → hero | message, inventory, differentiation, survey, criteria, S qualities, brand design (each reads the one before) | the three choices; hero's hosting capacity and permitted mark roles |
+| 3 | Governing principles, quality carrier map | the three choices, criteria, S qualities | space intent, imagery, integration, mark role and the rest; carrier map |
+| 4 | Color, type → mark and lockup | style dimensions 6 and 7, S fixed assets and production limits, profile surroundings, carrier map, mark role, seed bank | palette with value key, type roles, identity unit |
+| 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, message, hero, mark role, imagery stance, space intent, corner and edge geometry, layering stance | element system |
+| 5 | Canvas → stages → space plan → strategy | S format and ratio, profile stages, element system, hero hosting, integration stance, space intent | composition plan |
+| 5 | Ranks, placement, balance, capacity freeze | strategy, element system, density, counterweight | Execution Specification |
+| 6 | Prompt | S, Execution Specification, the Phase 4 specs it names, style dimensions, hero specifics | prompt, notes |
+
+A later phase applies the decisions it reads and does not re-weigh them. Records are never inputs.
 
 ## 4. Execution rules
 
 - **Order.** Phase N+1 starts only when Phase N's required decisions are made, its exit artifact exists, and its gate has passed. No phase is skipped, merged, or deferred, however simple the brief: simplicity shortens the work, never removes it. A conclusion held early is a hypothesis to test in its own phase.
-- **Hand-offs stay narrow.** Each phase works from the hand-off its card lists. Rejected options, survey detail, and research notes stay in the log; they do not travel forward.
-- **Traceability.** Every decision names its source (Ledger item or finding → implication → plan → element → execution → prompt clause); a decision with no nameable source was made from habit and fails its gate. Every quality requirement traces Phase 1 translation → plan carrier → value key and element carrier → placement → prompt clause; one that any phase contradicts, or that reaches no visible carrier, fails that gate.
+- **Hand-offs stay narrow.** A phase reads S and the Forward fields its card lists, nothing else. Candidates, rejected options, survey detail, research notes, and rationale stay in the Record and do not travel forward. A reason a later phase must honor travels as a carry-forward obligation (see State), not as narrative.
+- **Ownership.** Each decision has one owning phase (section 3 map). Later phases apply it and do not re-decide it. It reopens only through the return rule, on a named failed check, test, or contradiction, never on preference.
+- **Traceability.** Every decision names its source (Ledger item or finding → implication → plan → element → execution → prompt clause); a decision with no nameable source was made from habit and fails its gate. Every quality requirement traces Phase 1 translation → plan carrier → value key and element carrier → placement → prompt clause; one that any phase contradicts, or that reaches no visible carrier, fails that gate. Every carry-forward obligation is realized by a named later decision or recorded as an accepted cost.
 - **Gate integrity.** Print no number or decision until the checks that could change it have run (value key in Phase 4, capacity check in Phase 5). Amendments are for genuine returns only.
-- **Return, then re-run forward.** A failed gate or a flaw exposed later goes to the earliest responsible phase; every affected later phase is redone in order. Cap each issue at two revision cycles, then take the best available resolution and record it. Never patch the prompt for an upstream cause.
+- **Return, then re-run forward.** A failed gate or a flaw exposed later goes to the earliest responsible phase. Redo, in order, only the decisions that read the changed one (section 3 map); a dependent whose inputs did not materially change is re-checked, not redecided. Cap each issue at two revision cycles, then take the best available resolution and record it. Never patch the prompt for an upstream cause.
 - **Gates and printing.** Each phase ends at its gate (`quality_control.md` section 1). Guided mode: print the entry immediately, in plain Indonesian (Phase 2's findings lead the Phase 3 entry; there is no separate Phase 2 stop); end the turn with a confirmation question after Phases 3 and 4 and continue only on the go-ahead; Phase 5's entry is printed and Phase 6 follows without stopping. Auto mode: print nothing at gates; the checks still run.
-- **Phase entry.** Read the phase file, take the hand-off from the Design Log or context, and decide one decision at a time. When lost or overloaded, return to the phase card, then the log. Do not rush to the prompt.
-- **Working notes** record decisions and reasons, not deliberation. Trivial decisions are made directly.
+- **Phase entry.** Read the phase file, take S and the Forward fields its card lists from the Design Log or context, and decide one decision at a time. When lost or overloaded, return to the phase card, then the log. Do not rush to the prompt.
+- **Working notes** record decisions and reasons, not deliberation. Trivial decisions are made directly. A gate that passes is one line in the log; only failures, fixes, objections, and amendments are written out.
 
-**State: the Design Log.** The only carrier of state between phases and turns. Compact English: Brief Ledger (mandatory strings verbatim), quality translations, depth, each finished phase's hand-off, decisions with one-line reasons, printed amendments, open issues. With file tools, persist it as `/home/claude/design_log.md`: create it when the user confirms the summary (with the Phase 1 hand-off), append one block per later phase at its gate, read it when a turn resumes work and before any revision; it is never presented. Without file tools keep it in notes. If lost, rebuild from the confirmed summary, printed entries, prompt, and user messages, marking rebuilt items provisional.
+**State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
+- **S, the standing block.** Created when the user confirms the summary; readable by every phase. Format, area, aspect ratio, setting (provisional if inferred), generator and output language if named; mandatory strings verbatim with role and face; fixed assets (exactly what is fixed); exclusions; production limits; quality requirements (user's words, translation); depth; mode. Phase 3 adds the quality carrier map; apart from that, S changes only by user corrections.
+- **Forward block**, one per phase, appended at its gate: the phase's decisions as specifications later phases act on (each with its source tag), the **carry-forward obligations** (every mitigation, accepted cost, and "amplify here" move the protocol recorded, so a later phase can realize them), and **open flags** (assumptions, provisional items, unresolved uncertainty). A decision that rests only on provisional items stays tagged and is disclosed in the summary or entry (auto mode: the key decisions). Each phase card lists its Forward fields.
+- **Record:** candidates and tables, runner-ups, decisive criteria, objections with resolutions, rejected directions, research notes, printed amendments. Read only by gates and audits, by revisions, and by the return rule; never passed to a later decision and never to Phase 6.
+
+With file tools, persist it as `/home/claude/design_log.md`: create it when the user confirms the summary (S and the Phase 1 Forward block), append one Forward block and its Record entries per later phase at its gate, read S and the Forward blocks when a turn resumes work and before any revision; it is never presented. Without file tools keep it in notes. If lost, rebuild from the confirmed summary, printed entries, prompt, and user messages, marking rebuilt items provisional.
 
 ## 5. Principles
 
@@ -89,9 +116,9 @@ Phase 1 sets the depth and records it in the log. Depth scales the work inside e
 | New mark (Phase 4) | 6 seeds, every check recorded | 4 seeds, checks as pass/fail lines |
 | Gate objections | two (the two riskiest decisions) | one |
 
-Depth never changes the apparent option, three or more candidates, runner-up and decisive criterion, the quality checks, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research.
+Depth never changes the apparent option, three or more candidates, runner-up and decisive criterion, the quality checks, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research. **Raising to Full** applies from the current phase on; reduced work in an earlier phase is reopened only where the missing depth could change a decision already made (a Focused survey that must now feed six mark seeds gains territories first).
 
-**Several concepts.** Run Phases 1 and 2 once; run each of Phases 3 to 5 across all concepts before moving on. Each concept starts from a core-idea candidate that differs on a structural axis (never only color or decoration) and ends in its own standalone prompt; one entry per phase with a short subsection per concept. **Several faces.** Establish the shared identity once; decide stage assignment, space plan, and spatial strategy per face; one standalone prompt per face.
+**Several concepts.** Run Phases 1 and 2 once; run each of Phases 3 to 5 across all concepts before moving on. Each concept starts from a core-idea candidate that differs on a structural axis (never only color or decoration) and ends in its own standalone prompt; one entry per phase with a short subsection per concept. Forward blocks and Records are kept per concept; S is shared. **Several faces.** Establish the shared identity once; decide stage assignment, space plan, and spatial strategy per face; one standalone prompt per face.
 
 ## 7. Conflict priority
 
@@ -103,7 +130,7 @@ When requirements collide, resolve in this order:
 5. established brand identity not supplied as an asset;
 6. creative ambition.
 
-A lower tier yields only to a higher one and keeps its closest surviving expression. A named choice that weakens the objective stays: mitigate inside it and offer the concern once as a labeled suggestion (in the entry; in auto mode, in the key decisions).
+A lower tier yields only to a higher one and keeps its closest surviving expression. A named choice that weakens the objective stays: mitigate inside it and offer the concern once as a labeled suggestion (in the entry; in auto mode, in the key decisions). Phase 2 tensions take their lead side from this order where it decides them; Phase 3 decides the rest.
 
 ## 8. Non-negotiables
 
@@ -120,25 +147,30 @@ A lower tier yields only to a higher one and keeps its closest surviving express
 
 ## 9. Ready for Phase 6
 
-Before Phase 6 the log must hold explicit, evidence-justified answers to:
-- the one-sentence message;
-- each quality requirement: translation, carriers, resulting value key;
-- each content item's role, treatment grade, and viewing stage;
-- the supporter set (per supporter: deficit, distinct job, weight ceiling) or the finding that the text-only baseline has none;
-- any figure: origin, roles, the one design every appearance shares;
-- the Environment Profile in brief: what the design shares with its surroundings and the dimension on which it departs;
-- core idea, style, hero: apparent option, candidates, choice, why it beat the runner-up;
-- the identifier: a fixed asset, or a new mark with personality device, the truth it expresses, development evidence, integration logic, distinction mechanisms, and which identity forms appear where;
-- the shape language with each container's job and fill mode, and the balance type with its counterweight;
-- the space plan with proportions, the reading order, and the placement and role of every mandatory text item;
-- the traits that distinguish the design from a neighboring competitor's.
+A completeness check on the Forward blocks, run at the Phase 5 gate. It confirms that each commitment exists as a visible, drawable specification. Reasons were verified at their own gates (with sources, section 4) and are not re-argued here or passed to Phase 6. A missing or vague item returns to its owning phase.
 
-"It looks good" or "it is typical" is not a justification.
+| Commitment | Must exist as |
+|---|---|
+| Message | one sentence, confirmed in Phase 5 |
+| Each quality requirement | its carriers and the resulting value key, as visible features |
+| Each content item | role, treatment grade, viewing stage, placement |
+| Supporter set | per supporter: the deficit it answers, its distinct job, its weight ceiling; or the finding that the text-only baseline has none |
+| Any figure | origin, roles, the one design every appearance shares |
+| Setting | what the design shares with its surroundings and the dimension on which it departs, as visible traits |
+| Core idea, style, hero | the chosen option in drawable terms, with the true specifics of what is depicted |
+| Identifier | a fixed asset, or a new mark: personality device, geometry, integration logic, distinction mechanisms, and which identity forms appear where |
+| Shape language and balance | each container's job, form, and fill mode; the balance type and its counterweight |
+| Space plan | proportions, reading order, and the placement and role of every mandatory text item |
+| Canvas | ratio, and the crop if any |
+| Distinguishing traits | the traits that set the design apart from a neighboring competitor's |
+| Carry-forward obligations | each realized by a named decision or recorded as an accepted cost |
+
+A reason that is only "it looks good" or "it is typical" fails its gate.
 
 ## 10. Revision requests
 
-- Re-enter at the earliest affected phase: content → 1; concept or mood → 3; color, value key, type, copy treatment, mark, lockup, supporters → 4; arrangement or emphasis → 5; wording → 6.
-- Keep unaffected decisions; read the log; re-run every affected later phase, telling the user briefly what is being redone and showing only what changed (a short Sebelum | Sesudah table in plain Indonesian). Feedback at any confirmation takes the same route. Deliver a fresh complete prompt.
+- Re-enter at the earliest affected phase: content → 1; concept or mood → 3; color, value key, type, copy treatment, mark, lockup, supporters → 4; arrangement, emphasis, or canvas → 5; wording → 6.
+- Keep unaffected decisions as settled. Read S and the Forward blocks of the re-entered and dependent phases (Records only where the return rule needs them), and only those phases' files. Redo, in order, the decisions that read the changed one (section 3 map), telling the user briefly what is being redone and showing only what changed (a short Sebelum | Sesudah table in plain Indonesian). Re-run only the design checks the change touches, plus the contradiction scan and any quality whose carrier changed; the prompt audit always runs in full on the fresh prompt. Feedback at any confirmation takes the same route. Deliver a fresh complete prompt.
 
 ## 11. Output contract
 

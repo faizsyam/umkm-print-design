@@ -5,14 +5,14 @@
 | Item | Content |
 |---|---|
 | Goal | A standalone image-generation prompt describing the finished design so exactly that an illustrator who never saw the brief could produce it. Synthesis is translation, not invention |
-| Receives | The Execution Specification; the Phase 4 element specifications it places (palette, type character, mark and lockup construction, copy treatments, supporter forms, figure design); Phase 3 style dimensions and hero specifics; Phase 1 mandatory strings (verbatim) and fixed assets; the "Ready for Phase 6" commitments (`SKILL.md` section 9); the target model and language preference if named |
-| Decisions | What is in the prompt and what stays out; structure; placement and wording of every mandatory text item; how the mark and fixed assets are described; how space is expressed; minimal exclusions; ratio handling; the notes |
+| Receives | S (mandatory strings verbatim, fixed assets, exclusions, quality requirements with their carriers, the generator and language if named); the Execution Specification; the Phase 4 element specifications it names (palette, type character, mark and lockup construction, copy treatments, supporter forms, figure design); Phase 3 style dimensions and hero specifics. **Not received:** any Record, candidate or rejected option, research, tension, or rationale text. Source tags on Forward fields are not prompt content. The pre-synthesis check (`SKILL.md` section 9) has already passed |
+| Decisions | What is in the prompt and what stays out; structure; placement and wording of every mandatory text item; how the mark and fixed assets are described; how space is expressed; minimal exclusions; applying the Phase 5 canvas; the notes |
 | Exploration | None. If translation needs a new concept, style, or element, an earlier phase had a gap: return to it and re-run forward |
 | Output | The audited prompt(s) and any short notes, delivered per `00_conversation_ux.md` section 6. Phase 6 is not summarized or printed as an entry |
 
 ## 1. Process
 
-1. Confirm entry: the Phase 5 gate passed and the commitments are complete.
+1. Confirm entry: the Phase 5 gate passed and the pre-synthesis check (`SKILL.md` section 9) is complete.
 2. Sort every design element into "in the prompt" or "stays out" (A).
 3. Choose a structure suited to the design's complexity (B); write each clause specifically, as relationships, with space as a positive feature (C to E); place text and describe marks and fixed assets exactly (E).
 4. Calibrate length, describe flat artwork, set minimal exclusions, handle ratio limits (F); apply language and multiples (G).
@@ -55,7 +55,7 @@ State the reading order explicitly (few ranks, each with its distinguishing mean
 - Length is proportional to complexity: every sentence carries a decision or a relationship. Cut filler before specifics; restore specifics before adding length.
 - Describe finished flat artwork unless a mockup is requested or the physical form is the deliverable; no crop marks, bleed guides, or annotations unless requested.
 - Express traits positively. Exclusions only for explicit user exclusions, high-probability failures that matter, and cultural or factual risks.
-- If a required ratio exceeds what the model supports, use the nearest supported ratio, keep the design valid at it, and flag it in the notes.
+- Apply the Phase 5 canvas: state its ratio in the opening line and flag any crop in the notes. A canvas the generator rejects is a Phase 5 return, not a prompt edit.
 
 ### G. Language and multiples
 The prompt is English by default, with on-piece text verbatim in its original language, unless the user requests otherwise or names a model that performs better in another language. Everything outside the prompt is plain Indonesian; the prompt stays alone in its code block. Several concepts or faces: one complete standalone prompt each (concepts differing in underlying approach; faces restating the shared identity in the same words).
