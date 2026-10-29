@@ -23,7 +23,7 @@
 ## 2. Guidance
 
 ### A. Print medium and context
-Medium and format; faces; dimensions, aspect ratio, physical area; purpose and objectives; placement and viewing environment (distance, orientation, dwell time, visibility, lighting); production limits (material, finish, color limits, budget tier, quantity). If the setting is not stated, infer the most probable one, tag it provisional, and pass it on; ask only if plausible settings would need opposing designs. Record physical area beside content volume: their relation drives density, space, and scale later. Record any image generator or output language the user names (Phase 6 uses it) and the print aspect ratio (Phase 5 decides the canvas).
+Medium and format; faces; dimensions, aspect ratio, physical area; purpose and objectives; placement and viewing environment (distance, orientation, dwell time, visibility, lighting); production limits (material, finish, color limits, budget tier, quantity). If the setting is not stated, infer the most probable one, tag it provisional, and pass it on; ask only if plausible settings would need opposing designs. Record physical area beside content volume: their relation drives density, space, and scale later. Record any image generator or output language the user names (Phase 6 uses it) and the design aspect ratio: the user's intended ratio or, if not given, one derived from stated dimensions or the medium's standard proportions and tagged inferred. The piece is designed and generated at this ratio, never substituted.
 
 ### B. Business and brand
 Name and industry; products and services; operating context; audience; differentiators; positioning and existing visual identity. Record what the user said, not what the category implies.
@@ -53,7 +53,7 @@ Style, color, mood, theme, references, assets, exclusions, cultural or religious
 - A colleague could design from the ledger without the original message.
 - Every mandatory string is exact; every item has necessity, provenance, and referent; fixed assets and exclusions are listed; no unsourced fact; no suggestion recorded as given.
 - Every stated quality and priority is kept in the user's words with a full translation (a mood-word brief that yields no qualities fails).
-- Physical area, content volume, and setting are recorded (inferred and tagged if unstated); references recorded as taste, never layout requirements; supplied visual material listed as fixed assets.
+- Physical area, design ratio, content volume, and setting are recorded (inferred and tagged if unstated); references recorded as taste, never layout requirements; supplied visual material listed as fixed assets.
 - Intake stayed within limits, every question had an example or default, none answerable from the brief; summary shown with the mode question (Phase 2 starts only after the user confirms).
 - Objection (print designer): are medium, size, material, and viewing conditions captured well enough to design for?
 - Depth is recorded with the Full condition that set it, or none.

@@ -43,7 +43,7 @@ Before the first user message read `references/00_conversation_ux.md` and `refer
 | 2 Analysis | Communication Problem with the message, Environment Profile, audience encounter, differentiation strategy, Visual source inventory, design implications | `02_research_and_analysis.md` |
 | 3 Design Plan | Brand design, theme, core idea, style, hero, governing principles (incl. space intent, mark role), quality carrier map, seed bank | `03_design_plan.md` |
 | 4 Design Elements | Element system: color with value key, type with copy treatments, identity unit, supporters, background; each with role and space cost | `04_design_elements.md` |
-| 5 Design Execution | Execution Specification: confirmed message, canvas, stage assignment, space plan, spatial strategy, hierarchy, placement of every item | `05_design_execution.md` |
+| 5 Design Execution | Execution Specification: confirmed message, stage assignment, space plan, spatial strategy, hierarchy, placement of every item | `05_design_execution.md` |
 | 6 Prompt Synthesis | Audited prompt(s), how-to-use steps, short notes | `06_prompt_synthesis.md` |
 
 `quality_control.md` holds the gate procedure, cross-phase tests, prompt audit, triage, and release checklist.
@@ -63,7 +63,7 @@ Each decision has one owning phase and reads only the inputs listed. **S** is th
 | 3 | Governing principles, quality carrier map | the three choices, criteria, S qualities | space intent, imagery, integration, mark role and the rest; carrier map |
 | 4 | Color, type → mark and lockup | style dimensions 6 and 7, S fixed assets and production limits, profile surroundings, carrier map, mark role, seed bank | palette with value key, type roles, identity unit |
 | 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, message, hero, mark role, imagery stance, space intent, corner and edge geometry, layering stance | element system |
-| 5 | Canvas → stages → space plan → strategy | S format and ratio, profile stages, element system, hero hosting, integration stance, space intent | composition plan |
+| 5 | Stages → space plan → strategy | S format and ratio, profile stages, element system, hero hosting, integration stance, space intent | composition plan |
 | 5 | Ranks, placement, balance, capacity freeze | strategy, element system, density, counterweight | Execution Specification |
 | 6 | Prompt | S, Execution Specification, the Phase 4 specs it names, style dimensions, hero specifics | prompt, notes |
 
@@ -82,7 +82,7 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
 - **Working notes** record decisions and reasons, not deliberation. Trivial decisions are made directly. A gate that passes is one line in the log; only failures, fixes, objections, and amendments are written out.
 
 **State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
-- **S, the standing block.** Created when the user confirms the summary; readable by every phase. Format, area, aspect ratio, setting (provisional if inferred), generator and output language if named; mandatory strings verbatim with role and face; fixed assets (exactly what is fixed); exclusions; production limits; quality requirements (user's words, translation); depth; mode. Phase 3 adds the quality carrier map; apart from that, S changes only by user corrections.
+- **S, the standing block.** Created when the user confirms the summary; readable by every phase. Format, area, aspect ratio (the user's intended ratio, or derived and tagged inferred), setting (provisional if inferred), generator and output language if named; mandatory strings verbatim with role and face; fixed assets (exactly what is fixed); exclusions; production limits; quality requirements (user's words, translation); depth; mode. Phase 3 adds the quality carrier map; apart from that, S changes only by user corrections.
 - **Forward block**, one per phase, appended at its gate: the phase's decisions as specifications later phases act on (each with its source tag), the **carry-forward obligations** (every mitigation, accepted cost, and "amplify here" move the protocol recorded, so a later phase can realize them), and **open flags** (assumptions, provisional items, unresolved uncertainty). A decision that rests only on provisional items stays tagged and is disclosed in the summary or entry (auto mode: the key decisions). Each phase card lists its Forward fields.
 - **Record:** candidates and tables, runner-ups, decisive criteria, objections with resolutions, rejected directions, research notes, printed amendments. Read only by gates and audits, by revisions, and by the return rule; never passed to a later decision and never to Phase 6.
 
@@ -161,7 +161,7 @@ A completeness check on the Forward blocks, run at the Phase 5 gate. It confirms
 | Identifier | a fixed asset, or a new mark: personality device, geometry, integration logic, distinction mechanisms, and which identity forms appear where |
 | Shape language and balance | each container's job, form, and fill mode; the balance type and its counterweight |
 | Space plan | proportions, reading order, and the placement and role of every mandatory text item |
-| Canvas | ratio, and the crop if any |
+| Design ratio | the ratio in S, stated in the prompt and never substituted |
 | Distinguishing traits | the traits that set the design apart from a neighboring competitor's |
 | Carry-forward obligations | each realized by a named decision or recorded as an accepted cost |
 
@@ -169,12 +169,12 @@ A reason that is only "it looks good" or "it is typical" fails its gate.
 
 ## 10. Revision requests
 
-- Re-enter at the earliest affected phase: content → 1; concept or mood → 3; color, value key, type, copy treatment, mark, lockup, supporters → 4; arrangement, emphasis, or canvas → 5; wording → 6.
+- Re-enter at the earliest affected phase: content, format, or ratio → 1; concept or mood → 3; color, value key, type, copy treatment, mark, lockup, supporters → 4; arrangement or emphasis → 5; wording → 6.
 - Keep unaffected decisions as settled. Read S and the Forward blocks of the re-entered and dependent phases (Records only where the return rule needs them), and only those phases' files. Redo, in order, the decisions that read the changed one (section 3 map), telling the user briefly what is being redone and showing only what changed (a short Sebelum | Sesudah table in plain Indonesian). Re-run only the design checks the change touches, plus the contradiction scan and any quality whose carrier changed; the prompt audit always runs in full on the fresh prompt. Feedback at any confirmation takes the same route. Deliver a fresh complete prompt.
 
 ## 11. Output contract
 
 - **Genuine only.** Decisions fixed by the user, a supplied asset, or evidence are listed as fixed; alternatives are never invented.
 - **Amendments** (guided mode; auto mode prints no decisions). If a later return changes a printed decision, say so at once in one plain line (what changed to what, and why). The audit checks that every printed or amended decision is visible in the prompt and none is contradicted.
-- **Final reply** (layout in the UX file, section 6): the prompt(s) plus whatever the user must still know, once. Notes carry suspected typos, copy the skill wrote, supplied assets to attach, a reserved asset panel, volume risk, and ratio limits, never design rationale or repeated tables. Assumptions and yielded preferences are disclosed in the summary and entries (auto mode: the key decisions).
+- **Final reply** (layout in the UX file, section 6): the prompt(s) plus whatever the user must still know, once. Notes carry suspected typos, copy the skill wrote, supplied assets to attach, a reserved asset panel, and volume risk, never design rationale or repeated tables. Assumptions and yielded preferences are disclosed in the summary and entries (auto mode: the key decisions).
 - **The prompt**, built and audited per `06_prompt_synthesis.md`: self-contained, English with on-piece text verbatim in its original language, alone in its code block, carrying every printed or amended decision and all mandatory content.

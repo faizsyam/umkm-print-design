@@ -37,7 +37,7 @@ Run on the drafted prompt, then on the reply.
 - **Identifier:** not merely a styled name unless supplied or requested as plain text; a new mark described by form class, geometry, silhouette, color, boundary, personality device, wordmark relationship, separation from adjacent type; the unit described as one object.
 - **Order and roles:** the reading order is stated with ranks; type roles are distinguished; overlaps name the front element and the visible part of the covered one.
 - **Containers and balance:** every container states form, corner and edge geometry, and fill mode; any counterweight is a concrete form and region; none relies on a default.
-- **Space:** outer margin, isolation, and resting fields as concrete positive features, with proportions where they matter. The stated ratio is the Phase 5 canvas.
+- **Space:** outer margin, isolation, and resting fields as concrete positive features, with proportions where they matter. The stated ratio is the design ratio from S, unchanged.
 - **Qualities:** every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.
 - **Copy and supporters:** designed copy and each supporter described by traits and forms, matching the printed decisions, none outweighing required text.
 - **Visual-effect test** on every sentence: would removing it change what is drawn? If not, delete it.
@@ -60,7 +60,7 @@ Run on the drafted prompt, then on the reply.
 | Unsupported narrative; environment-blind profile; weak inventory | 2 |
 | Generic idea, style, or hero; no space intent; tension unresolved | 3 |
 | Containers that all share the model's default form or only solid-or-outline fills (3 if the plan set no corner and edge geometry); a container with no job; weak or styled-name mark; clashing color or type; ranked text left as scaled plain type; indistinguishable type roles; blank or category-generic piece at its density (3 if no character carriers were planned); value-key drift; plain-set voice copy, or an item Phase 5 promoted to first or second rank with no treatment decision; text-only look; decoration with no deficit; duplicate jobs; decoration outranking information; a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark; element costs over the space intent | 4 (3 if the plan caused it) |
-| Competing elements or unclear first read; every tier enlarged in a large format; overlap hiding an essential part; unlinked elements; lopsided mass (4 if no counterweight was provided); poor hierarchy; wrong viewing stage; crowding or filling; composition invalid at the generated canvas or after the crop; mark absorbed in composition; text overflowing its container or sizes changed late; bleed against content; a pointer with no referent; a figure covering information; picture-with-captions | 5 |
+| Competing elements or unclear first read; every tier enlarged in a large format; overlap hiding an essential part; unlinked elements; lopsided mass (4 if no counterweight was provided); poor hierarchy; wrong viewing stage; crowding or filling; mark absorbed in composition; text overflowing its container or sizes changed late; bleed against content; a pointer with no referent; a figure covering information; picture-with-captions | 5 |
 | Rationale in the prompt; vague wording; mandatory text misplaced; space not stated | 6 |
 | A stated quality contradicted by a decision | The earliest contradicting phase |
 | A carry-forward obligation realized by no element, placement, or accepted-cost record | The phase that should have realized it |
@@ -73,5 +73,5 @@ Gates and audits cover the detail; before delivering confirm:
 1. Phases 1 to 6 ran in order and every gate passed; every gate has its log line; the pre-synthesis check (`SKILL.md` section 9) is complete and every consequential decision has its record (or is marked fixed by the user or evidence).
 2. The prompt audit and reply audit passed; printed decisions match the prompt (amendments where they changed).
 3. The Phase 1 summary and mode were confirmed and guided-mode go-aheads obtained.
-4. Disclosure is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, volume risk, and ratio limit reached the user once, with no design rationale.
+4. Disclosure is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, and volume risk reached the user once, with no design rationale.
 5. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only.
