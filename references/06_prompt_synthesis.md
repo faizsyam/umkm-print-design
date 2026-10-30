@@ -37,7 +37,7 @@ State the reading order explicitly (few ranks, each with its distinguishing mean
 
 ### E. Text, marks, and fixed assets
 - **Mandatory text:** verbatim in quotation marks, once, tied to position and typographic role. Dense text is grouped in reading order with row behavior described once. Prices and contacts get clarity proportionate to their stage. State that the piece contains only the specified text when hallucinated text is a risk. Never omit mandatory text to shorten the prompt; flag volume risk in the notes.
-- **Hero group:** one composition: the hero first, then each integrated item with the exact part it points to, its side or path, and the pointer style (e.g. a thin straight line ending in a small dot on the named part), attached items by position against the hero, and the relationship in one sentence. Arched text is one short line on one smooth curve.
+- **Hero group:** one composition: the hero first, then each integrated item with the exact part it points to, its side or path, and the pointer style (its form, weight, terminal, and the exact part it ends on), attached items by position against the hero, and the relationship in one sentence. Arched text is one short line on one smooth curve.
 - **Type per role:** the distinguishing contrast of each role (classification, weight, posture, case, scale, color) stated once, so descriptions read clearly and hooks stand apart.
 - **Designed copy:** letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
 - **Supporters:** concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never "decorative elements"; each below the weight of the information beside it.

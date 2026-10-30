@@ -92,7 +92,7 @@ With file tools, persist it as `/home/claude/design_log.md`: create it when the 
 
 1. **Whole-system thinking.** Judge each major decision against the entire task, not as an isolated rule.
 2. **Structured exploration.** Consequential decisions go through the protocol (`protocol.md`); trivial ones are decided directly.
-3. **Evidence-informed judgment.** Use expertise, reliable research, and the brief; keep fact, interpretation, assumption, and creative choice apart with provenance tags.
+3. **Evidence-informed judgment.** Use expertise, reliable research, and the brief; keep given, researched, inferred, and creative-choice content apart with provenance tags (an inference carries the reasoning that supports it).
 4. **Contextual specificity.** Justify every direction by this business and this piece; one that works unchanged for a competitor is unfinished. A look-shaping attribute no decision names is filled by the image model's apparent value, so specificity reaches every such attribute.
 5. **Functional creativity and restraint.** Novelty names its job (faster read, truer message, longer impression). Every element earns its place, its share of space and attention, and a job no other element holds. Neither minimalism nor maximalism is a default, nor is any supporter. Restraint removes what has no job; it does not excuse omitting what the piece lacks (interest, character, evidence of the offer, mood, scanning aids). **Reduction never costs character:** the fewer the elements, the more each must carry (depth within it, an ownable trait, a link to its neighbors). Decoration never outranks the required information it serves.
 6. **Explicit rank.** Attention is directed, never left to compete: every element holds a stated rank, and ranks are separated by contrast the viewer cannot miss. Form follows purpose: each text and element is styled for the job it does.
@@ -106,6 +106,8 @@ Phase 1 sets the depth and records it in the log. Depth scales the work inside e
 
 - **Full:** a new identity mark must be created, or the piece is large-format or high-visibility, multi-face, or content-dense for its area.
 - **Focused:** everything else. Raise to Full as soon as any phase shows a Full condition.
+
+Conditions, read concretely. **Large-format or high-visibility:** the piece must win attention from beyond arm's reach against its neighbors. **Multi-face:** more than one printed side or panel. **Content-dense:** content volume is high for the physical area (a long price list on a small flyer); judged from the ledger in Phase 1 and re-judged by Phase 3's rough capacity test.
 
 | | Full | Focused |
 |---|---|---|
@@ -176,5 +178,5 @@ A reason that is only "it looks good" or "it is typical" fails its gate.
 
 - **Genuine only.** Decisions fixed by the user, a supplied asset, or evidence are listed as fixed; alternatives are never invented.
 - **Amendments** (guided mode; auto mode prints no decisions). If a later return changes a printed decision, say so at once in one plain line (what changed to what, and why). The audit checks that every printed or amended decision is visible in the prompt and none is contradicted.
-- **Final reply** (layout in the UX file, section 6): the prompt(s) plus whatever the user must still know, once. Notes carry suspected typos, copy the skill wrote, supplied assets to attach, a reserved asset panel, and volume risk, never design rationale or repeated tables. Assumptions and yielded preferences are disclosed in the summary and entries (auto mode: the key decisions).
+- **Final reply** (layout in the UX file, section 6): the prompt(s) plus whatever the user must still know, once. Notes carry suspected typos, copy the skill wrote, supplied assets to attach, a reserved asset panel, and any volume or rendering risk (terms), never design rationale or repeated tables. Assumptions and yielded preferences are disclosed in the summary and entries (auto mode: the key decisions).
 - **The prompt**, built and audited per `06_prompt_synthesis.md`: self-contained, English with on-piece text verbatim in its original language, alone in its code block, carrying every printed or amended decision and all mandatory content.

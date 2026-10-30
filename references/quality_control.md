@@ -73,5 +73,5 @@ Gates and audits cover the detail; before delivering confirm:
 1. Phases 1 to 6 ran in order and every gate passed; every gate has its log line; the pre-synthesis check (`SKILL.md` section 9) is complete and every consequential decision has its record (or is marked fixed by the user or evidence).
 2. The prompt audit and reply audit passed; printed decisions match the prompt (amendments where they changed).
 3. The Phase 1 summary and mode were confirmed and guided-mode go-aheads obtained.
-4. Disclosure is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, and volume risk reached the user once, with no design rationale.
+4. Disclosure is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, and volume or rendering risk reached the user once, with no design rationale.
 5. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only.

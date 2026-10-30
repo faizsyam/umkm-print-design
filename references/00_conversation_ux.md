@@ -69,7 +69,7 @@ Each phase file lists its "Entry fields" as the source; this section decides wha
 Yang kupelajari: tantangan terbesar …; kondisi sekitar …; cara tampil beda …
 | Keputusan | Pilihan kita ✅ | Opsi lain |
 |---|---|---|
-| Ide utama | **Satu objek besar** — langsung terbaca dari jauh | Pola ramai (sulit dibaca) |
+| Ide utama | **[pilihan, maks. 8 kata]** — [alasan satu kalimat] | [opsi lain] ([kekurangannya]) |
 Maumu "…" → wujudnya: …
 Oke? Balas *lanjut* atau tulis yang mau diubah.
 ```
@@ -90,7 +90,7 @@ Short, in this order:
 2. **Prompt(s):** each alone in a ``` code block, in English, with a label line when there are several.
 3. **Keputusan penting (auto mode only):** three to five one-line bullets: ide utama, gaya dan warna, yang jadi fokus, and any assumption or preference that had to yield.
 4. **Cara pakai:** at most three steps: (1) salin seluruh isi kotak; (2) tempel di ChatGPT (paling disarankan) lewat fitur buat gambar, tanpa diubah atau diterjemahkan; (3) cek semua tulisan (nama, harga, nomor, alamat), minta betulkan yang salah, dan tanya percetakan soal ukuran dan resolusi. Other image tools may work.
-5. **Catatan:** only when needed, at most three one-line bullets ordered by consequence, merging related ones: a suspected typo as a question, copy written for them, a supplied logo to attach in ChatGPT, a reserved asset panel (QR or QRIS, barcode, photo) to replace, or a volume risk. Never design rationale; assumptions live in the summary, entries, or (auto mode) the key decisions.
+5. **Catatan:** only when needed, at most three one-line bullets ordered by consequence, merging related ones: a suspected typo as a question, copy written for them, a supplied logo to attach in ChatGPT, a reserved asset panel (QR or QRIS, barcode, photo) to replace, or a volume or rendering risk (a long string, digits, or non-Latin script to check in the result). Never design rationale; assumptions live in the summary, entries, or (auto mode) the key decisions.
 6. **Closing:** one line inviting revisions.
 
 ## 7. Plain-word glossary
