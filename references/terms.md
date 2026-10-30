@@ -22,7 +22,7 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Quality requirement | Any experiential, tonal, affective, or priority statement in the brief, and any style, color, or technique the user names, however vague ("calm", "premium", "brand first", "easy to scan"). Binding, not a preference; a minimal brief makes these the primary requirements |
 | Quality translation | For one quality requirement: the visual targets it implies, 2 to 4 **quality carriers** (visible features that deliver it), and the contradicting signals |
 | Value key | The area-weighted balance of light, mid, and dark masses (ground and large bands included), with chroma and temperature: high-key, mid-key, low-key. Read by area, not by accent: a small dark logo on a light field is still high-key |
-| Content role | The job a text item does: identify, hook (voice, persuasion, memory), transact (price, size, offer), inform, reassure (trust claim), act (contact, location) |
+| Content role | The job a text item does: identify, hook (voice, persuasion, memory), transact (price, size, offer), inform, reassure (a claim or credential the viewer weighs for credibility; each is its own unit), act (contact, location) |
 | Treatment grade | **Designed** (built as a graphic with its own scale play, emphasis, rhythm, container, or motif) or **set** (plain typesetting in the informational face), by content role |
 | Text-only baseline | The piece imagined with only its required text, identity unit, and background; the reference for finding visual deficits |
 | Supporter family | A class of non-text visual resource: icons and symbols; subject, in-use, or place imagery; figures; spot illustration; image treatment or set; pattern or texture; border or frame; divider; pointer, connector, or direction cue; shape block, band, tag, or edge shape; lettering-as-graphic. A tag or badge never imitates a regulated or trust mark |
@@ -36,6 +36,8 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Distinct job | The one purpose an element performs that no other element performs; two elements with the same job merge toward the one that serves the hierarchy better |
 | Weight ceiling | The most weight (scale, contrast, color intensity, isolation, plane prominence) an element may take. Every element's ceiling sits below the required information it serves; only the hero, the identity unit (per mark role), and a designed hook or transaction lead may exceed it |
 | Regulated or trust mark | Any mark whose presence a viewer would take as proof: official authorization, certification, third-party endorsement, an institution's or authority's identity, or a rating. Used only as supplied, never invented or imitated. A decorative badge form is acceptable; one built to read as an official seal is not |
+| Shape language / form | **Shape language** is the family likeness shared by every container, rule, and supporter: geometry class, corner treatment, edge quality, line behavior. **Form** is the specific container type, chosen per job and information role within that language. Shared language never means one form |
+| Letterform proportions | A text role's width class, posture, and baseline, decided per role. Fitting text into space never alters them |
 
 ## Context and analysis
 
@@ -55,7 +57,7 @@ One meaning per term in every file. Only terms used in more than one file are he
 |---|---|
 | Consequential decision | Core idea, style synthesis, hero, logo mark and lockup, spatial strategy: Full protocol. Other exploratory decisions use the compact comparison or are direct (`protocol.md` section 1) |
 | Apparent option | What most people produce on first association from category, culture, place, or product: a benchmark to beat, never a default. The image model has its own, the **apparent value**: what it supplies for any undecided attribute. **Beyond the apparent** means drawn from true, lesser-seen specifics |
-| Look-shaping attribute | Any visible property that changes what is drawn: composition axis and symmetry, container form, corner and edge geometry, fill mode, plane order, rendering finish, light, ground, color proportions, lettering, how the subject is depicted. One that no decision names takes the model's apparent value |
+| Look-shaping attribute | Any visible property that changes what is drawn: composition axis and symmetry, container form, corner and edge geometry, fill mode, plane order, rendering finish, light, ground, color proportions, lettering with its proportions and baseline, how the subject is depicted. One that no decision names takes the model's apparent value |
 | Candidate / card | One complete, distinct alternative for one decision; a card has the fields the phase sets, filled in specialist terms (a label alone is not a candidate) |
 | Structural axis | A dimension on which candidates must differ to count as distinct: what carries the identity, what the viewer does first, how information is structured, register, image-making method. Color or ornament alone do not count |
 | Hybrid / compromise | A **hybrid** combines candidates under one logic, statable as one idea. A **compromise** needs "and also" and is rejected |
@@ -79,7 +81,7 @@ One meaning per term in every file. Only terms used in more than one file are he
 
 | Term | Meaning |
 |---|---|
-| Space intent | Phase 3: the share of the format that must stay quiet and what that space does. Phase 4 applies it as the **element allowance**: every element has a space cost, the total fits the space intent, and elements are removed or merged before any is shrunk |
+| Space intent | Phase 3: the share of the format that must stay quiet and what that space does. Quiet means free of competing content, not blank: a quiet field may carry subtle surface. Phase 4 applies it as the **element allowance**: every element has a space cost, the total fits the space intent, and elements are removed or merged before any is shrunk |
 | Space plan | Phase 5, before placement, as proportions of the format: **outer margin**, **isolation zones** (around glance content, hero, mark), **separations** between groups, **resting fields** supporting the eye's path. Space intent decides how much stays quiet; the space plan decides where |
 | Plane / layering | **Planes**: front, middle, ground (a piece may use one). **Layering** assigns elements to planes with **layer cues** (overlap, relative scale, contrast and detail, tonal and temperature step, focus, light and shadow, surface texture). Plane order is a hierarchy means and a way to integrate content with the hero. A flat style keeps cues in the picture plane: tonal steps, surface detail, overlap of flat shapes |
 
