@@ -31,7 +31,7 @@ Name the apparent option. Compare two or more alternatives (three where real opt
 ## 4. Specialist terminology
 
 Name things at a specialist's precision and use a term only if it can be defined; an undefinable prestigious word is vagueness and is cut.
-- Style: lineage and defining traits. Imagery: depiction mode, technique, light, finish.
+- Style: lineage and defining traits. Imagery: depiction mode, lineage, proportions, linework, technique, texture, detail level, color treatment, stylization, light, finish.
 - Color: hue family, value structure, chroma, temperature, harmony structure, area proportion.
 - Type: classification, stroke contrast, proportion, x-height, widths, spacing.
 - Composition: axis, alignment, grid logic, figure-ground, focal hierarchy, grouping, visual weight, tension.
