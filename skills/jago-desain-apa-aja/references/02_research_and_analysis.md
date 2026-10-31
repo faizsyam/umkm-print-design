@@ -15,10 +15,12 @@
 ## 1. Process
 
 1. Triage research questions: keep only those naming a decision they inform.
-2. Read the brand (A), find differentiation (B), build the Environment Profile (C), the audience encounter (D), and the Communication Problem (E).
-3. Research (F) early enough that C and G rest on it, then ground culturally and build the Visual source inventory (G).
-4. Convert findings into design implications ("because [finding], the design must / should / must avoid …", tagged); discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
-5. Gate.
+2. Read the brand (A) and run the research (F), early enough that the profile, differentiation, and inventory rest on it.
+3. Build the Environment Profile (C) and the audience encounter (D).
+4. Find differentiation (B) against the peers the profile identifies, and ground culturally to build the Visual source inventory (G).
+5. Build the Communication Problem (E), which reads the profile, the encounter, and the differentiation.
+6. Convert findings into design implications ("because [finding], the design must / should / must avoid …", tagged); discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
+7. Gate.
 
 ## 2. Guidance
 
@@ -34,15 +36,21 @@ One profile per distinct context; deliverables that share a context share it. St
 - **Encounter stages** (`terms.md`): the ordered moments of engagement that follow from the encounter, each with what the audience can perceive, the attention and time it has, what it is trying to decide or do, and whether it can reach the stage (a stage the audience cannot reach cannot carry content). Derive their number and nature; do not assume the usual three.
 - **Medium reading:** what the medium **imposes** (what making, reproducing, or displaying does to an image between the generated file and the audience, and the limits it sets), what the audience **relies on** (conventions learned for this kind of piece: structure, reading path, where information is expected), and what it **affords** (what this medium can do that others cannot). Record only what changes a decision. No medium convention is applied by default (`SKILL.md` principle 10): keep a convention where departing costs the audience effort or credibility; depart where it is the apparent option and the purpose gains.
 - Hold the **impression** constant; let the setting decide the **expression**. The impression is what the viewer should feel and conclude about the subject (from the desired perception and the quality requirements); the expression is the visual means that deliver it (palette, density, scale, form), chosen to suit this context.
-- Find where neighbors are uniform on a dimension (color, density, scale, order, finish, form). Distinctness is relative to neighbors on a dimension and can lie in either direction; more intensity is not by itself departure. Then record the **fit dimensions**: what must still match the context (conventions the audience relies on, credibility cues) so the piece is not rejected or misread.
-- Choose the **departure** dimensions where the piece differs and the **fit** dimensions where it conforms. The departure is a decision with a reason, never a default.
+- Find where neighbors are uniform on a dimension (color, density, scale, order, finish, form). Distinctness is relative to neighbors on a dimension and can lie in either direction; more intensity is not by itself departure.
+- Choose the **departure** dimensions where the piece differs, and record the **fit** dimensions where it must still conform (conventions the audience relies on, credibility cues) so it is not rejected or misread. The departure is a decision with a reason, never a default.
 - If the context cannot be established, state the most probable one and mark it provisional.
 
 ### D. Audience encounter
 Cultural references, behavior, motivations, decision considerations, the language register the audience trusts, and the trust cues the context provides or lacks. Record what the audience does and must conclude at each encounter stage. Drop demographic stereotypes and unsupported psychology.
 
 ### E. Communication Problem
-Objectives (a user-stated priority fixes the primary objective; the weakest link is chosen within it and never replaces it); desired response; necessary information; desired perception of the subject (quality requirements included). List tensions: pairs of needs that compete for the same limited resource (attention at the glance stage, space, legibility distance, budget, register), each stated as the two needs and the resource they share. Choose the **weakest link** in the chain from encounter to the intended outcome (attention → comprehension → credibility → action, keeping the links the purpose needs): the link most likely to fail in this context, weighing the cost of each failure. Test the brief's own assumptions (the deliverables asked for, the audience assumed, the success measure): where one would undermine the objective, record it as a tension and handle it per `SKILL.md` section 7. Where `SKILL.md` section 7 or the user's stated priority decides a tension, record its lead side; Phase 3 decides the rest. **Message:** one sentence naming what the glance-stage viewer takes away and does next, compressed from the desired response and the necessary information; it serves the primary objective and never contradicts a quality requirement. Phase 3 builds the core idea to carry it; Phase 5 confirms it after triage.
+**Objectives and response.** A user-stated priority fixes the primary objective; the weakest link is chosen within it and never replaces it. Record the desired response, the necessary information, and the desired perception of the subject (quality requirements included).
+
+**Tensions.** List tensions: pairs of needs that compete for the same limited resource (attention at the glance stage, space, legibility distance, budget, register), each stated as the two needs and the resource they share.
+
+**Weakest link.** Choose the link in the chain from encounter to the intended outcome (attention → comprehension → credibility → action, keeping the links the purpose needs): the link most likely to fail in this context, weighing the cost of each failure. Test the brief's own assumptions (the deliverables asked for, the audience assumed, the success measure): where one would undermine the objective, record it as a tension and handle it per `SKILL.md` section 7. Where `SKILL.md` section 7 or the user's stated priority decides a tension, record its lead side; Phase 3 decides the rest.
+
+**Message.** One sentence naming what the glance-stage viewer takes away and does next, compressed from the desired response and the necessary information; it serves the primary objective and never contradicts a quality requirement. Phase 3 builds the core idea to carry it; Phase 5 confirms it after triage.
 
 ### F. Research
 Only what can change a decision; stop at diminishing returns; run independent searches together. Priority: the subject and its public materials; visual conventions of the category and medium to differ from or conform to; peers and alternatives; the environment; cultural references; the offering's reality. Prefer authoritative and first-hand sources; reviews show perception, not fact; confirm a found subject is the right one (same name is not same subject); competitor visuals are a baseline to differ from, never a model. Without research tools, reason from the brief, mark conclusions provisional, and avoid choices that depend on unverified specifics. Record findings with provenance and the decision each informs.

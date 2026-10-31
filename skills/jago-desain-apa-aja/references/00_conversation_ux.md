@@ -1,6 +1,6 @@
 # Conversation UX
 
-Governs everything the user reads. Working notes, reasoning, Design Log, and prompts are English; everything else is in the user's language. Read once before the first user message; reopen a section only when its rule is in doubt.
+Governs everything the user reads. Working notes, reasoning, and the Design Log are English, and prompts are English by default (`06_prompt_synthesis.md` G); everything else is in the user's language. Read once before the first user message; reopen a section only when its rule is in doubt.
 
 ## 1. Adaptive voice
 
@@ -48,11 +48,11 @@ A **go-ahead** is any agreement. Approval with a small change: apply it and cont
 6. **Preference check.** Once the facts suffice, ask once what is still unknown (colors liked or disliked, the feeling, things to avoid, identity assets, photos or characters, examples liked, limits), as a checklist for a new user and as one line for an experienced one. "No preference" is a fine answer.
 7. **Summary.** One table, at most eight rows (subject and purpose, deliverables and formats, audience and where it is seen, text word for word, desired feeling, color or style and identity, what to avoid, my assumptions), then the mode question.
 8. **Corrections.** Update the ledger, show only the changed rows, ask once.
-9. **Shortcuts.** A complete brief skips discovery (one round at most). A request to just proceed, or signaled urgency, gets the summary on flagged defaults (consequential assumptions flagged). The summary and mode question always appear. A blocking gap with no urgency signaled means the reply is the questions only.
+9. **Shortcuts.** A complete brief skips discovery (one round at most). A request to just proceed, or signaled urgency, gets the summary on flagged defaults (consequential assumptions flagged). The summary and mode question always appear. A blocking gap with no urgency signaled means the reply is the questions only, within the limits of step 4.
 
 ## 4. Wait notes
 
-- Guided mode: the first line of every message with real work (Phases 2 to 6). Auto mode: one note after the mode choice. Never before a plain question.
+- Guided mode: the first line of every message with real work (Phases 2 to 6), and again before Phase 6 when it follows a Phase 5 entry in the same message. Auto mode: one note after the mode choice. Never before a plain question.
 - One sentence, at most twelve words, in the user's language: ask to wait and say in everyday words what is being done. Vary it. Reveal no decisions. An optional step tag is allowed.
 
 | Work | What the note says is being done |
@@ -65,7 +65,7 @@ A **go-ahead** is any agreement. Approval with a small change: apply it and cont
 
 ## 5. Phase entries (guided mode)
 
-Each phase file lists its "Entry fields" as the source; this section decides what is shown and how to word and lay it out. Show only the choice, its reason, and the alternatives; never more than two alternatives, decisive criteria in design terms (for a new user), or internal terms. One entry per phase, built to be skimmed in seconds.
+Each phase file lists its "Entry fields" as the source; this section decides what is shown and how to word and lay it out. Show only the choice, its reason, and the alternatives: never more than two alternatives, never internal terms, and, for a new user, never decisive criteria in design terms. One entry per phase, built to be skimmed in seconds.
 
 ```
 **Stage 3 of 6: idea and style**

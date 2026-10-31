@@ -8,7 +8,7 @@ description: >-
 
 ## 1. Mission and scope
 
-Turn a design need, from anyone between a first-time requester and a professional designer, into one or more finished, standalone image-generation prompts for static visual outputs, through a short design conversation. The skill adapts how it communicates (language, register, terminology, depth of questions and guidance) to the user's design literacy and how complete the brief is, never the depth of its design reasoning. The user reads only the intake questions, a confirmed summary, a mode choice (**guided**: confirm at key points; **auto**: leave everything to the AI), short phase entries, and a final reply holding the prompts with brief usage steps. Working notes, the Design Log, and the prompts are English, with on-image text kept verbatim in its original language; notes stay internal unless the user asks. `references/00_conversation_ux.md` governs every user message.
+Turn a design need, from anyone between a first-time requester and a professional designer, into one or more finished, standalone image-generation prompts for static visual outputs, through a short design conversation. The skill adapts how it communicates (language, register, terminology, depth of questions and guidance) to the user's design literacy and how complete the brief is, never the depth of its design reasoning. The user reads only the intake questions, the confirmed summary with its mode choice (**guided**: confirm at key points; **auto**: leave everything to the AI), wait notes, short phase entries, amendments and revision tables, and a final reply holding the prompts with brief usage steps. Working notes and the Design Log are English and stay internal unless the user asks; prompts are English by default, with on-image text kept verbatim in its original language. `references/00_conversation_ux.md` governs every user message.
 
 The skill succeeds when it:
 - runs six phases in order: **Brief → Analysis → Design Plan → Design Elements → Design Execution → Prompt Synthesis**;
@@ -37,7 +37,7 @@ Roles are decision owners and gate objectors, not extra work.
 
 ## 3. Workflow
 
-Before the first user message read `references/00_conversation_ux.md` and `references/terms.md`. Read each phase file on entering it (never earlier, never skipped); read `references/protocol.md` on entering Phase 2 and `references/quality_control.md` at the first gate. Every file is read once and stays in context; afterwards reopen only a section a decision needs. On a resumed or revision turn, read only the files of the phases being re-entered. Each phase file opens with a phase card listing what the phase reads, decides, and hands forward.
+Before the first user message read `references/00_conversation_ux.md` and `references/terms.md`. Read each phase file on entering it (never earlier, never skipped); read `references/protocol.md` on entering Phase 2 and `references/quality_control.md` at the first gate (Phase 1's). Every file is read once and stays in context; afterwards reopen only a section a decision needs. On a resumed or revision turn, read only the files of the phases being re-entered. Each phase file opens with a phase card listing what the phase reads, decides, and hands forward.
 
 | Phase | Exit artifact | File |
 |---|---|---|
@@ -60,16 +60,16 @@ Each decision has one owning phase and reads only the inputs listed. **S** is th
 | 2 | Environment Profile (encounter, medium reading, stages, departure, fit), audience encounter | S (deliverable set, medium, use), research | profile, encounter |
 | 2 | Differentiation, Visual source inventory | S, research, peers from the profile | strategy, inventory |
 | 2 | Communication Problem: weakest link, tensions, message | S priorities, profile, encounter, differentiation | problem, message |
-| 3 | Plan criteria: space envelope, tension leads | S formats and volume, stages, problem | criteria |
-| 3 | Core idea → style → hero | message, inventory, differentiation, survey, criteria, S qualities, brand design (each reads the one before) | the three choices; hero's hosting capacity and permitted mark roles |
+| 3 | Plan criteria: space envelope, tension leads, carry targets | S formats, volume, and qualities; stages; problem (message, tension leads) | criteria |
+| 3 | Core idea → style → hero | message, inventory, differentiation, audience encounter, survey, criteria, S qualities, brand design (each reads the one before) | the three choices; hero's hosting capacity and permitted mark roles |
 | 3 | Governing principles, quality carrier map | the three choices, criteria, S qualities | space intent, imagery, integration, mark role and the rest; carrier map |
-| 4 | Color, type → mark and lockup | style dimensions 6 and 7, S fixed assets and reproduction limits, profile surroundings and medium reading, carrier map, mark role, seed bank | palette with value key, type roles, identity unit |
-| 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, message, hero, mark role, imagery stance, space intent, corner and edge geometry, layering stance | element system with purpose lines |
-| 5 | Per deliverable: stages → space plan → strategy | S (that deliverable's format and ratio), profile stages, element system, hero hosting, integration stance, space intent | composition plan |
-| 5 | Per deliverable: ranks, placement, balance, capacity freeze | strategy, element system with purpose lines, density, counterweight | Execution Specification |
+| 4 | Color, type → mark and lockup | style dimensions 6 and 7, S fixed assets and reproduction limits, profile surroundings, encounter stages, and medium reading, carrier map, mark role, seed bank | palette with value key, type roles, identity unit |
+| 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, Communication Problem (objective, weakest link, message), encounter stages, hero, mark role, imagery stance, space intent, style dimensions 1, 4, and 5 (corner and edge geometry included), boundaries, character carriers, layering stance | element system with purpose lines |
+| 5 | Per deliverable: stages → space plan → strategy | S (that deliverable's format and ratio), message, profile (stages, reading path, medium reading), element system, hero hosting, integration stance, balance type, space intent | stage assignment, space plan, strategy |
+| 5 | Per deliverable: ranks, placement, balance, capacity freeze | strategy, element system with purpose lines, mark role, layering stance, density, point of tension, counterweight | Execution Specification |
 | 6 | Prompt set, then each prompt | S, the Execution Specifications, the Phase 4 specs they name, style dimensions, hero specifics | prompts, labels, usage steps, notes |
 
-A later phase applies the decisions it reads and does not re-weigh them. Records are never inputs.
+A later phase applies the decisions it reads and does not re-weigh them. Records are never inputs to a decision (section 4).
 
 ## 4. Execution rules
 
@@ -85,7 +85,7 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
 
 **State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
 - **S, the standing block.** Created when the user confirms the summary; readable by every phase. The deliverable set (each deliverable's purpose in the request, medium and use, format and ratio as the user intends or derived and tagged inferred, and relationship to the others); the setting of each (provisional if inferred); the generator if named; the user's language and design literacy as read; mandatory strings verbatim with role and deliverable; fixed assets (exactly what is fixed); exclusions; reproduction limits; quality requirements (user's words, translation); depth; mode. Phase 3 adds the quality carrier map; apart from that, S changes only by user corrections.
-- **Forward block**, one per phase, appended at its gate: the phase's decisions as specifications later phases act on (each with its source tag), the **carry-forward obligations** (every mitigation, accepted cost, and "amplify here" move the protocol recorded, so a later phase can realize them), and **open flags** (assumptions, provisional items, unresolved uncertainty). A decision that rests only on provisional items stays tagged and is disclosed in the summary or entry (auto mode: the key decisions). Each phase card lists its Forward fields.
+- **Forward block**, one per phase, appended at its gate: the phase's decisions as specifications later phases act on (each with its source tag), the **carry-forward obligations** (every mitigation, accepted cost, and "amplify here" move the protocol recorded, so a later phase can realize them), and **open flags** (assumptions, provisional items, unresolved uncertainty), kept apart from the decisions so nothing unresolved reads as settled. A decision that rests only on provisional items stays tagged and is disclosed in the summary or entry (auto mode: the key decisions). Each phase card lists its Forward fields.
 - **Record:** candidates and tables, runner-ups, decisive criteria, objections with resolutions, rejected directions, research notes, shown amendments. Read only by gates and audits, by revisions, and by the return rule; never passed to a later decision and never to Phase 6.
 
 With file tools, persist it as `/home/claude/design_log.md`: create it when the user confirms the summary (S and the Phase 1 Forward block), append one Forward block and its Record entries per later phase at its gate, read S and the Forward blocks when a turn resumes work and before any revision; it is never presented. Without file tools keep it in notes. If lost, rebuild from the confirmed summary, shown entries, prompts, and user messages, marking rebuilt items provisional.
@@ -117,11 +117,11 @@ Conditions, read concretely. **Contested:** the deliverable must win attention a
 | Research (Phase 2) | every question that can change a decision | the one or two that can |
 | Territory survey (Phase 3) | 5 territories, 3 source families | 3 territories, 2 families |
 | Candidate cards | every field the phase sets | fields that tell candidates apart, plus quality compatibility |
-| Governing principles (Phase 3) | compared: space intent, imagery, integration, mark role, layering, tone and positioning, density | compared: space intent, imagery, integration, mark role; rest decided directly |
+| Governing principles (Phase 3) | compared: space intent, imagery, integration, mark role, layering, tone and positioning, density and rhythm | compared: space intent, imagery, integration, mark role; rest decided directly |
 | New mark (Phase 4) | 6 seeds, every check recorded | 4 seeds, checks as pass/fail lines |
 | Gate objections | two (the two riskiest decisions) | one |
 
-Depth never changes the apparent option, three or more candidates, runner-up and decisive criterion, the quality checks, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research. **Raising to Full** applies from the current phase on; reduced work in an earlier phase is reopened only where the missing depth could change a decision already made (a Focused survey that must now feed six mark seeds gains territories first).
+Depth never changes naming the apparent option, three or more candidates, the runner-up and decisive criterion, the quality checks, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research. **Raising to Full** applies from the current phase on; reduced work in an earlier phase is reopened only where the missing depth could change a decision already made (a Focused survey that must now feed six mark seeds gains territories first).
 
 **Deliverable set.** Phase 1 records every deliverable the request needs, derived from what the user must accomplish and not only from what they named. One deliverable per image that must exist: a distinct format or ratio, a distinct side, panel, or screen, or a variant or concept the user asked for. What belongs in one image stays one image; what differs in format or encounter enough to change the composition becomes its own deliverable. A different size at the same ratio and encounter is the same deliverable.
 
@@ -188,4 +188,4 @@ A reason that is only "it looks good" or "it is typical" fails its gate.
 - **Genuine only.** Decisions fixed by the user, a supplied asset, or evidence are listed as fixed; alternatives are never invented.
 - **Amendments** (guided mode; auto mode shows no decisions). If a later return changes a shown decision, say so at once in one plain line (what changed to what, and why). The audit checks that every shown or amended decision is visible in the prompts and none is contradicted.
 - **Final reply** (layout in the UX file, section 6): the prompt set plus whatever the user must still know, once. Each prompt carries a label line stating its purpose and its place in the whole request. Usage steps are brief and state any attachment, order, or dependency that applies. Notes carry suspected typos, copy the skill wrote, supplied assets to attach, a reserved asset panel, and any volume or rendering risk (terms), never design rationale or repeated tables. Assumptions and yielded preferences are disclosed in the summary and entries (auto mode: the key decisions).
-- **Each prompt**, built and audited per `06_prompt_synthesis.md`: self-contained and executable without any other prompt, generation, or the brief; English with on-image text verbatim in its original language; alone in its code block; carrying every shown or amended decision and all mandatory content for its deliverable.
+- **Each prompt**, built and audited per `06_prompt_synthesis.md`: self-contained and executable without any other prompt, generation, or the brief; English by default (`06_prompt_synthesis.md` G) with on-image text verbatim in its original language; alone in its code block; carrying every shown or amended decision and all mandatory content for its deliverable.

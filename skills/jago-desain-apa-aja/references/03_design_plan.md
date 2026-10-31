@@ -5,11 +5,11 @@
 | Item | Content |
 |---|---|
 | Goal | One unified, defensible, original direction: brand design, theme, core idea, style, hero, governing principles (incl. space intent and mark role), synthesizing all findings into a single concept, not a style assigned to each insight |
-| Receives | S; Phase 2 Forward (Communication Problem with message and tension leads, Environment Profile, Visual source inventory, differentiation, implications) |
-| Decisions | Plan criteria (space envelope, tension leads); territory survey; brand design and theme; core idea, style (seven dimensions), hero or its deliberate absence; governing principles (F); the quality carrier map; how each Phase 2 tension is carried; stress-test results |
+| Receives | S; Phase 2 Forward (Communication Problem with message and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation, implications) |
+| Decisions | Plan criteria (space envelope, tension leads, carry targets); territory survey; brand design and theme; core idea, style (seven dimensions), hero or its deliberate absence; governing principles (F); the quality carrier map; how each Phase 2 tension is carried; stress-test results |
 | Exploration | Full protocol (`protocol.md` section 2) for core idea, style, hero, in that order: the winning idea is a criterion for style, the winning style a criterion for the hero. Write no style card before the core idea is chosen. Each decision has at least one card from the survey, inventory, or departure dimensions. Check renderability throughout |
 | Output | The Design Plan (Forward) and the record of rejected directions (Record) |
-| Forward | Brand design and theme; core idea; style (seven dimensions); hero with hosting capacity; principles (space intent, imagery stance and supporter budget, integration, mark role, layering, tone and positioning, density, character carriers and links, boundaries, point of tension, figure stance, balance type); the quality carrier map; how each tension is carried; the **seed bank** (each surveyed territory as name, defining traits, one-line lineage; not the survey tables); carry-forward obligations; open flags |
+| Forward | Brand design and theme; core idea; style (seven dimensions, balance type included); hero with hosting capacity; principles (space intent, imagery stance and supporter budget, integration, mark role, layering, tone and positioning, density, character carriers and links, boundaries, point of tension, figure stance); how each tension is carried; the **seed bank** (each surveyed territory as name, defining traits, one-line lineage; not the survey tables); carry-forward obligations; open flags. The quality carrier map is entered in S |
 
 ## 1. Process
 
