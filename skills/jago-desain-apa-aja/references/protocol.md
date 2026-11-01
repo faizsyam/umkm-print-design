@@ -26,7 +26,7 @@ Read once on entering Phase 2. Phase files point here. Depth (`SKILL.md` section
    - Rate survivors, one line each and only where cards differ, on the lenses that discriminate:
      - **quality requirements:** supports, strains, or neutral, for each one;
      - **environment:** neighbors, light, distance, departure and fit;
-     - **capacity and production:** content volume, space intent, material, budget, renderability by an image model (`terms.md`);
+     - **capacity and production:** content volume and load fit (headroom against the space budget, quiet intact), material, budget, renderability by an image model (`terms.md`);
      - **coherence** with decisions already made: amplifies, conflicts, or neutral; flag weaknesses that would compound;
      - brand, audience, and cultural fit, where they differ.
 

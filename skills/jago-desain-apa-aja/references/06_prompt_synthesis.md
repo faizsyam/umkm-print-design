@@ -32,7 +32,7 @@
 - Piece type and format (orientation, aspect ratio, sides or panels), which is all a prompt says about what the piece is for. The purpose and relationship go in the label outside the prompt.
 - The overall look as seen (value key, dominant field, mood, finish).
 - What is depicted and how.
-- Composition and relationships; the reading order stated as first, second, third, with the visible means each rank holds.
+- Composition and relationships; the hierarchy stated as first, second, third with the visible means each rank holds, and the reading route over the described regions, consistent with the placement.
 - Typography character per role and designed copy; mandatory text.
 - Supporters as concrete forms; color and surface; mark construction; background and unifying devices.
 - The few finishing details that matter; rendering technique; necessary exclusions.
@@ -61,16 +61,20 @@ Adapt the order to complexity, and keep one coherent style logic from first sent
 - Describe each depicted thing by its true specifics (form, material, construction, arrangement) as decided in Phases 3 and 4, not by category name: a category name summons the model's apparent instance.
 - State every look-shaping attribute the plan decided; an unstated one takes the model's apparent value. If no earlier phase decided it, return to the phase that owns it rather than invent it here. Silence is allowed only where that value is the intended result.
 - Describe illustration, photography, and mixed media by their decided language (lineage, proportions, linework, rendering, texture, detail level, color treatment, stylization; framing, light, grade, and finish for photography), never by the medium's name.
+- Describe color by hue with qualifiers and by role and intensity: which is the large calm field, which is the single sparing accent and where it sits, so the generator does not distribute saturation by area.
+- Describe rendering treatments (outline, shadow, gradient, highlight, texture) only as the treatment vocabulary names them, applied by role. Where the style has none, state the flat, plain rendering positively so the model adds no default effects.
 
 ### D. Relationships and space
 
 **Relationships.**
-- State the reading order explicitly (few ranks, each with its distinguishing means).
+- State the hierarchy explicitly (few ranks, each with its distinguishing means) and the reading sequence as a route over the described regions, in agreement with the placement clauses: an element described as read first or second sits where the route puts it, and no ordering word contradicts a position word.
 - Describe relative prominence and grouping, contrast and integration, plane order rearmost to front, and how identity, message, and supporting visuals interact.
 - Position by relationship and broad region, not coordinates.
+- State relationships between neighbors in relational words: alignment to a shared edge or axis, the size of the gap (small, generous), beneath, beside, in front of, and clear ground where nothing touches. An overlap names the front element and the visible part of the covered one.
 
 **Space.** Models fill space unless told otherwise.
-- Describe the outer margin, separation between zones, isolation around key elements, internal spacing within zones, and resting fields as positive features (where, roughly how much of the format, what they frame, that they stay quiet and uncluttered). Keep lower-tier text small relative to the format, enlarge no element to occupy available area, and add no decoration beyond the decided supporters and counterweights.
+- Describe the outer margin, separation between zones, isolation around key elements, internal spacing within zones, and resting fields as positive features (where, roughly how much of the format, what they frame, that they stay quiet and uncluttered). Keep lower-tier text small relative to the format, enlarge no element to occupy available area, and add no decoration beyond the decided supporters and counterweights. Describe each zone's own breathing room (generous padding inside its container, clear separation from its neighbors) and the quiet regions as plain, undecorated ground; breathing room is stated per zone, since open area elsewhere does not relieve a tight one.
+- State restraint positively: the quantity of every repeated or decorative form (exactly three panels, one icon per list line, a single border) and what is deliberately absent (no extra ornament, no filler imagery), so the generator does not multiply forms or fill the quiet.
 - Write space as the layout's own structure, not a mood or a closing phrase: name the open regions by what they separate or frame and roughly how much of the format they hold, and state the overall density in plain words as the plan set it. Both appear before element detail, with as much specificity as the elements.
 - Keep space clauses and element clauses in agreement. Each zone's clause gives its content and the open ground around it, and no clause describes an element as filling, spanning, covering, or packing its zone.
 - Group long content lists into few zones with the arrangement described once, since a long description signals importance and density to the generator.
@@ -89,12 +93,13 @@ Adapt the order to complexity, and keep one coherent style logic from first sent
   - State the distinguishing contrast of each role (classification, weight, posture, case, scale, color) once, so descriptions read clearly and hooks stand apart.
   - Each role also states its letterform proportions and baseline (natural, upright, and level unless decided otherwise).
   - Describe every text region with room to spare, so the generator has no reason to compress or tilt letters.
-  - State equivalent items once as sharing the same size, weight, and style regardless of length, with length handled by width, wrapping, or columns.
+  - State equivalent items once as sharing the same size, weight, and style regardless of length, with length handled by width, wrapping, or columns. For equivalent cards or rows, state identical outer size, identical internal layout, and fields aligned to the same positions, with longer text wrapping onto an extra line rather than shrinking.
+  - Where a string takes more than one line, state its planned wrap (the line breaks decided in Phase 5), keeping the verbatim text split only at those breaks.
 - **Designed copy:** letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
 - **Supporters:** concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never "decorative elements"; each below the weight of the information beside it.
 - **Containers and shapes:** for each, its job, form, corner and edge geometry, and fill mode, with the shape language stated once and applied by name. Never leave them unstated, since an unstated container takes the model's default rounded form. Describe containers per information role, so different roles are not collapsed into one phrase or one design.
 - **Grounds and edges:**
-  - a texture or pattern is a low-contrast surface beneath content;
+  - a texture or pattern is a low-contrast surface beneath content, in the zones assigned to it and never in the plain quiet regions, calmer where text is denser;
   - a scrim is a translucent tonal layer behind the named text zone;
   - a bleed is an element running off the trim while text stays inside the stated margin;
   - a cutout is an isolated form on a plain ground;
@@ -105,7 +110,7 @@ Adapt the order to complexity, and keep one coherent style logic from first sent
 - **Supplied logo or character:** reproduced as provided (by reference if the model accepts images, otherwise described faithfully), never replaced by an invention.
 - **Figure:** one designed character or person: form class, proportions, silhouette, signature trait, rendering language, palette, and the pose, gesture, and relation to the offer its role requires. Fictional and non-identifiable; identical wording in every deliverable; hands, faces, and groups only as simply as the generator holds them.
 - **Reserved asset panel:** a designed region with position, share of the format, flat color, frame, and isolation, and nothing inside. No code or photograph is imitated.
-- **New mark:** form class, geometry, silhouette, color, boundary type, personality device, relationship to the wordmark, and separation from adjacent type, concretely enough to be drawn the same way each time.
+- **New mark:** form class, geometry, silhouette, color, boundary type, personality device, relationship to the wordmark, and separation from adjacent type, concretely enough to be drawn the same way each time. State the name's exact letters, every letter fully formed and in order, readable as the name at first sight.
 - **Identity unit:** one object: arrangement, shared construction logic of mark and lettering, proportion and spacing relationship, alignment axis, color roles, and the clear space and region that distinguish the whole unit from surrounding type. Never two unrelated items.
 
 ### F. Length, static artwork, exclusions

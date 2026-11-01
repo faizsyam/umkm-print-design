@@ -54,6 +54,7 @@ A **go-ahead** is any agreement. Approval with a small change: apply it and cont
    - Two plausible readings that need opposite designs are asked about.
    - Requirements that cannot both hold are raised once, with the closest option that keeps both.
    - A deliverable set or format that is unspecified, not implied by the medium and purpose, and would change the composition is a blocking gap.
+   - Content that cannot be made readable in the stated format and use (the Phase 1 load read) is raised once, in plain words, with the closest options: a larger or additional format, spreading the content over more than one image, or trimming optional items.
 4. **Question rules.**
    - At most three questions per message and three discovery messages; a remaining blocking gap gets one more message, reworded. Never ask what was already answered.
    - A blocking gap still open after that goes into the summary as a flagged assumption with its default, or as an item the user must supply when no honest default exists. The user confirms it there.
@@ -144,6 +145,7 @@ For users new to design; users with design vocabulary get the terms directly. Tr
 | style synthesis | look and feel |
 | value key | how light or dark it looks |
 | space intent / negative space | breathing room so it is not crowded |
+| visual load | how busy it looks |
 | mark role | the logo's role |
 | identity unit | logo and name together |
 | supporters | supporting visuals |
@@ -165,6 +167,7 @@ For users new to design; users with design vocabulary get the terms directly. Tr
 |---|---|
 | More than three questions or three discovery messages | Keep the top three; infer the rest |
 | A question whose answer changes no decision, or could be inferred | Drop it |
+| Heavy content squeezed into a small format without telling the user | Raise the load read as a blocking gap, with options |
 | Jargon the user has not shown they use | Use the glossary |
 | Plain scaffolding for a user who writes like a professional, or design terms for a new user | Re-read literacy and adapt |
 | Entry with several tables, long cells, or per-option pros and cons | One table, one-sentence reasons, two alternatives at most |

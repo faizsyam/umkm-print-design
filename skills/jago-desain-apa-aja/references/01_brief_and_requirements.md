@@ -6,7 +6,7 @@
 |---|---|
 | Goal | A complete, classified, verifiable record of what is known, required, and uncertain, so no later phase guesses or invents |
 | Receives | User message, attachments (logos, photos, references), prior conversation; for a revision, the log |
-| Decisions | The deliverable set (each deliverable's purpose, format, ratio); necessity and provenance of every item; verbatim form of every mandatory string; gap class of every gap, and which are blocking; quality translation of every stated quality and priority; intake questions; depth |
+| Decisions | The deliverable set (each deliverable's purpose, format, ratio, load read); necessity and provenance of every item; verbatim form of every mandatory string; gap class of every gap, and which are blocking; quality translation of every stated quality and priority; intake questions; depth |
 | Exploration | None: record and classify. An ambiguous phrase takes the interpretation best supported by the rest of the brief, tagged |
 | Output | Brief Ledger (with the deliverable set and quality translations), research questions (each naming the decision it could change), tensions; then the guided intake and the confirmed summary and mode (`00_conversation_ux.md` section 3). On confirmation the ledger becomes S (`SKILL.md` section 4) |
 | Forward | S (ledger fields, deliverable set, quality translations, depth, mode, user language and literacy); research questions; tensions; open flags (inferred setting and other tagged assumptions) |
@@ -39,7 +39,7 @@ One deliverable per image that must exist; what is one image stays one; a differ
 - Record where and how each deliverable is encountered: physical or on-screen setting, orientation, who meets it and in what state, distance or display scale, dwell time, visibility, light or display conditions, neighbors.
 - Record reproduction limits, meaning what making or displaying it allows: material, finish, color limits, display constraints, budget tier, quantity.
 - If the setting is not stated, infer the most probable one from how the deliverable is made, shown, and reached. That inference fixes who encounters it, where, at what distance or scale, with what attention and time, under what conditions, and against what neighbors, and those fix the encounter stages (Phase 2). Tag it provisional and pass it on; ask only if plausible settings would need opposing designs.
-- Record the format's area or size beside content volume; their relation drives density, space, and scale later.
+- Record the format's area or size beside content volume as a **load read**: how heavy the content is for the format and use. Note the number of text items and groups, the longest strings and their lengths, strings that render at risk (digits, codes, non-Latin script; `terms.md`, Renderability), and any required non-text content (supplied images, codes, logos). Class the load light, moderate, or heavy at the legibility reach this use probably needs (the distance or display scale it is read from), never from the content alone. A heavy read sets Full depth. The read drives density, space, and scale later and is the earliest capacity signal: a read that no triage could make readable in the stated format and use is a blocking gap (E), never absorbed silently.
 - Record any image generator or output language the user names (Phase 6 uses it).
 
 ### B. Subject and identity
@@ -90,7 +90,7 @@ Record style, color, mood, theme, references, assets, exclusions, and cultural o
 - **Explicit:** record.
 - **Inferable:** infer and tag.
 - **Researchable:** pass to Phase 2 naming the decision it could change; drop it if it changes none.
-- **Materially uncertain:** a **blocking gap** when its answer would change which deliverable carries the message, the number or format of deliverables (when medium and purpose do not imply them), whether mandatory content exists, or whether the format can contain the content. Weigh the cost of a wrong guess against the cost of asking (`00_conversation_ux.md` section 3). Ask blocking gaps, and valuable gaps (answers that change story, setting, content, or look), through the intake. Never ask what can be derived or investigated.
+- **Materially uncertain:** a **blocking gap** when its answer would change which deliverable carries the message, the number or format of deliverables (when medium and purpose do not imply them), whether mandatory content exists, or whether the format can contain the content (the load read, A). Weigh the cost of a wrong guess against the cost of asking (`00_conversation_ux.md` section 3). Ask blocking gaps, and valuable gaps (answers that change story, setting, content, or look), through the intake. Never ask what can be derived or investigated.
 - Facts about the subject are never invented.
 - A missing aesthetic preference is never blocking (Phase 3 decides it). A vague quality statement is not a missing preference but the requirement.
 
@@ -99,8 +99,8 @@ Record style, color, mood, theme, references, assets, exclusions, and cultural o
 - A colleague could design from the ledger without the original message.
 - Every mandatory string is exact; every item has necessity, provenance, and referent; fixed assets and exclusions are listed; no unsourced fact; no suggestion recorded as given.
 - Every stated quality and priority is kept in the user's words with a full translation (a mood-word brief that yields no qualities fails).
-- The deliverable set is recorded with each deliverable's purpose, format, ratio, content volume, and setting (inferred and tagged if unstated); references are recorded as taste, never layout requirements; supplied visual material is listed as fixed assets.
+- The deliverable set is recorded with each deliverable's purpose, format, ratio, content volume and load read, and setting (inferred and tagged if unstated); references are recorded as taste, never layout requirements; supplied visual material is listed as fixed assets.
 - Intake stayed within limits; every question passed the clarification test and, for a new user, had options or a default; none was answerable from the brief; the summary was shown with the mode question (Phase 2 starts only after the user confirms).
-- Objection (production specialist): are the deliverables, medium, format, reproduction limits, and encounter conditions captured well enough to design for?
+- Objection (production specialist): are the deliverables, medium, format, reproduction limits, and encounter conditions captured well enough to design for, and does the content fit the format at a readable size, or has the over-capacity been raised rather than absorbed?
 - Depth is recorded with the Full condition that set it, or none.
 - Even a simple brief has a written ledger; simplicity shortens it, never removes it.

@@ -49,7 +49,7 @@ One profile per distinct context; deliverables that share a context share its pr
   - What surrounds it: neighbors' dominant colors, density, scale, order or clutter, finish; competing stimuli; the physical or on-screen setting.
   - The audience's state there: goal, passive or active, moving or still, attention and time, distance or display scale, light or display conditions, cultural context.
   - The reading path: the audience's script direction and habits.
-- **Encounter stages** (`terms.md`): the ordered moments of engagement that follow from the encounter. For each, record what the audience can perceive, the attention and time it has, what it is trying to decide or do, and whether it can reach the stage (a stage the audience cannot reach cannot carry content). Derive their number and nature; do not assume the usual three.
+- **Encounter stages** (`terms.md`): the ordered moments of engagement that follow from the encounter. For each, record what the audience can perceive, the attention and time it has, what it is trying to decide or do, and whether it can reach the stage (a stage the audience cannot reach cannot carry content). Derive their number and nature; do not assume the usual three. Record each stage's reading distance or display scale as a figure or range, and how it relates to the format's physical size and orientation: the space budget (Phase 3) and the legibility minimums (Phase 5) derive from them.
 - **Medium reading:**
   - what the medium **imposes**: what making, reproducing, or displaying does to an image between the generated file and the audience, and the limits it sets;
   - what the audience **relies on**: conventions learned for this kind of piece (structure, reading path, where information is expected);

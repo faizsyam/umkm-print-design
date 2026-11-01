@@ -38,7 +38,7 @@ Roles are decision owners and gate objectors, not extra work.
 | Senior art director | Core idea, style synthesis, restraint, taste, composition review | 3, 4, 5, 6 |
 | Graphic designer | Type, color and value key, logo mark, copy treatment, supporters | 4 |
 | Production specialist | Encounter reach, reproduction conditions, format behavior | 1, 5 |
-| Visual communication specialist | Hierarchy, grouping, comprehension speed, space plan | 5 |
+| Visual communication specialist | Hierarchy, reading sequence, grouping, comprehension speed, space budget and plan, load and fit | 3, 5 |
 | Image-generation prompt specialist | Renderability (checked in 3 to 5), prompt boundary, standalone completeness, phrasing | 4, 6 |
 
 ## 3. Workflow
@@ -71,13 +71,13 @@ Each decision has one owning phase and reads only the inputs listed. **S** is th
 | 2 | Environment Profile (encounter, medium reading, stages, departure, fit), audience encounter | S (deliverable set, medium, use), research | profile, encounter |
 | 2 | Differentiation, Visual source inventory | S, research, peers from the profile | strategy, inventory |
 | 2 | Communication Problem: weakest link, tensions, message | S priorities, profile, encounter, differentiation | problem, message |
-| 3 | Plan criteria: space envelope, tension leads, carry targets | S formats, volume, and qualities; stages; problem (message, tension leads) | criteria |
+| 3 | Plan criteria: space budget (quiet share, role allocations), tension leads, carry targets | S formats, content volume and load read, and qualities; stages and their reach; problem (message, tension leads) | criteria |
 | 3 | Core idea → style → hero | message, inventory, differentiation, audience encounter, survey, criteria, S qualities, brand design (each reads the one before) | the three choices; hero's hosting capacity and permitted mark roles |
 | 3 | Governing principles, quality carrier map | the three choices, criteria, S qualities | space intent, imagery, integration, mark role and the rest; carrier map |
 | 4 | Color, type → mark and lockup | style dimensions 6 and 7, S fixed assets and reproduction limits, profile surroundings, encounter stages, and medium reading, carrier map, mark role, seed bank | palette with value key, type roles, identity unit |
 | 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, Communication Problem (objective, weakest link, message), encounter stages, hero, mark role, imagery stance, space intent, style dimensions 1, 4, and 5 (corner and edge geometry included), boundaries, character carriers, layering stance | element system with purpose lines |
-| 5 | Per deliverable: stages → space plan → strategy | S (that deliverable's format and ratio), message, profile (stages, reading path, medium reading), element system, hero hosting, integration stance, balance type, space intent | stage assignment, space plan, strategy |
-| 5 | Per deliverable: ranks, placement, balance, capacity freeze | strategy, element system with purpose lines, mark role, layering stance, density, point of tension, counterweight | Execution Specification |
+| 5 | Per deliverable: stages → space plan → strategy | S (that deliverable's format and ratio), message, profile (stages, reading path, medium reading), element system, hero hosting, integration stance, balance type, space budget and density level | stage assignment, space plan (area shares accounting for the whole format), strategy (each card tested for fit) |
+| 5 | Per deliverable: ranks, reading sequence, placement, balance, load and capacity freeze | strategy, element system with purpose lines, mark role, layering stance, density, point of tension, counterweight | Execution Specification |
 | 6 | Prompt set, then each prompt | S, the Execution Specifications, the Phase 4 specs they name, style dimensions, hero specifics | prompts, labels, usage steps, notes |
 
 A later phase applies the decisions it reads and does not re-weigh them. Records are never inputs to a decision (section 4).
@@ -91,7 +91,7 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
   - Every decision names its source: Ledger item or finding → implication → plan → element → execution → prompt clause. A decision with no nameable source was made from habit and fails its gate.
   - Every quality requirement traces Phase 1 translation → plan carrier → value key and element carrier → placement → prompt clause. A requirement that any phase contradicts, or that reaches no visible carrier, fails that gate.
   - Every carry-forward obligation is realized by a named later decision or recorded as an accepted cost.
-- **Gate integrity.** State no number or decision to the user until the checks that could change it have run (value key in Phase 4, capacity check in Phase 5). Amendments are for genuine returns only.
+- **Gate integrity.** State no number or decision to the user until the checks that could change it have run (load budget test in Phase 3, value key in Phase 4, load and capacity checks in Phase 5). Amendments are for genuine returns only.
 - **Return, then re-run forward.** A failed gate, or a flaw exposed later, goes to the earliest responsible phase. Redo, in order, only the decisions that read the changed one (section 3 map); a dependent whose inputs did not materially change is re-checked, not redecided. Cap each issue at two revision cycles, then take the best available resolution and record it. Never patch the prompt for an upstream cause.
 - **Gates and entries.** Each phase ends at its gate (`quality_control.md` section 1).
   - Guided mode: show the entry immediately, in the user's language. Phase 2's findings lead the Phase 3 entry; there is no separate Phase 2 stop. End the turn with a confirmation question after Phases 3 and 4 and continue only on the go-ahead. Phase 5's entry is shown and Phase 6 follows without stopping.
@@ -101,7 +101,7 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
 
 **State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
 - **S, the standing block.** Created when the user confirms the summary; readable by every phase. Contents:
-  - the deliverable set: each deliverable's purpose in the request, medium and use, format and ratio (as the user intends, or derived and tagged inferred), and relationship to the others;
+  - the deliverable set: each deliverable's purpose in the request, medium and use, format and ratio (as the user intends, or derived and tagged inferred), content volume and load read, and relationship to the others;
   - the setting of each (provisional if inferred);
   - the generator if named; the user's language and design literacy as read;
   - mandatory strings verbatim, with role and deliverable;
@@ -127,23 +127,25 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
 4. **Contextual specificity.** Justify every direction by this subject and this deliverable; a direction that works unchanged for a peer is unfinished. A look-shaping attribute that no decision names is filled by the image model's apparent value, so specificity must reach every such attribute.
 5. **Functional creativity and restraint.**
    - Novelty names its purpose (faster read, truer message, longer impression).
-   - Every element carries a purpose line (`terms.md`): the function it serves toward the piece's job, what is lost without it, and the effect it must have on the viewer. It earns its place and its share of space and attention through that purpose, and no other element serves the same one.
+   - Every element carries a purpose line (`terms.md`): the function it serves toward the piece's job, what is lost without it, and the effect it must have on the viewer. It earns its place and its share of space and attention through that purpose, and no other element serves the same one. It must also be worth its marginal cost (space, attention, rendering risk): the piece is better with it than with the next-lighter alternative (nothing, spacing alone, a smaller or simpler form).
    - Design maximizes that effect within the element's rank, weight ceiling, style, and relationships.
    - Neither minimalism nor maximalism is a default, nor is any supporter. Plainness is a decision with a reason, never the safe default.
    - Restraint removes what has no purpose. It does not excuse omitting what the piece lacks (interest, character, evidence of the offer, mood, scanning aids, surface and material character).
-   - **Reduction never costs character:** the fewer the elements, the more each must carry (depth within it, an ownable trait, a link to its neighbors).
+   - **Reduction never costs character:** the fewer the elements, the more each must carry (depth within it, an ownable trait, a link to its neighbors). Character is carried first by what the piece already needs (depth in the hero and lettering, color logic, edge character) and added as new elements only where those cannot carry it.
    - Decoration never outranks the required information it serves.
-6. **Explicit rank and allocated space.**
+6. **Explicit rank, budgeted space, and cumulative load.**
    - **Rank.** Attention is directed, never left to compete: every element holds a stated rank, and ranks are separated by contrast the viewer cannot miss. Form follows purpose: each text and element is styled for the job it does.
-   - **Importance is not prominence.** Prominence is the combined effect of allocated area, scale, contrast, weight, and position, and it follows rank.
-   - **Space is allocated before content is placed,** at every level (outer margin, separation between zones, padding inside each zone, gaps between related elements), each scaled to the format, its viewing distance, and content density. Each zone's share of the canvas follows its communication role, never the volume of its content. Area that rank, legibility, and grouping do not need stays quiet and is never spent on enlarging elements.
-   - **Crowding is an allocation failure.** It is resolved by arrangement, grouping, and triage, never by shrinking below legibility minimums.
-   - **Visual load is judged cumulatively:** each element can be justified alone yet overload the whole. Relief means contiguous, calm open ground, not leftover gaps or patterned fields.
+   - **Importance is not prominence.** Prominence is the combined effect of allocated area, scale, value and chroma contrast, weight, position, and the container or treatment around it, judged for each element as drawn (its text together with its container, fill, edge, and effect). It follows rank.
+   - **Space is a budget, set before content and spent top-down.** Phase 3 fixes the quiet share and the rough share each occupying role may take. Every later size derives from its zone's share (format, then zones, then elements, then text tiers) and is never set by the element's own wish. Space is allocated before content is placed, at every level (outer margin, separation between zones, padding inside each zone, gaps between related elements), each scaled to the format, its viewing distance, and content density. A zone's share follows its communication role, never the volume of its content.
+   - **Quiet is genuinely open, protected, and local.** Quiet is contiguous, calm, undecorated ground with a job; decorated ground is occupied. Breathing room is judged where content sits (around each zone, between neighbors, inside each container): open area parked elsewhere does not compensate for a tight zone. Area the plan does not need is never spent on enlarging elements or adding decoration.
+   - **Crowding is a fit failure,** resolved in the fixed order of the fit ladder (`05_design_execution.md` B5): remove what has the least purpose, restructure, demote, omit optional content, rescale within rank, and narrow quiet last. It is never resolved by shrinking below legibility minimums or distorting letters. A composition that fits only with every item at its minimum and every gap at its tightest does not fit.
+   - **Visual load is judged cumulatively.** Each element can be justified alone yet overload the whole. Information, imagery, supporters, containers and their edges, designed and rendering treatments, surface, and color intensity are counted together against the budget and the stage's parsing time.
 7. **Internal consistency.**
-   - Brand, theme, style, color, type, mark, imagery, and composition reinforce one another; resolve contradictions at the source.
+   - Brand, theme, style, color, type, mark, imagery, and composition reinforce one another; resolve contradictions at the source. One primary visual language leads; secondary rendering treatments (outline, shadow, gradient, texture, highlight, dimensional effect) are few, named, and applied by role.
    - **Grouping by referent.** Group content by what it refers to, not only by when it is read. Text that labels, explains, prices, or substantiates a depicted thing is composed with it, unless the hero carries the message alone. Parallel items are separate units, each placed by its own referent, unless the viewer should read them as one claim.
    - **Form shows relation.** Content that relates internally (sequence, comparison, hierarchy, dependency) shows that relation in form, read from the content, never from a template.
-   - **Equivalent items** (same role, rank, and function) share one typographic treatment wherever they sit, regardless of length; layout absorbs length. Variation needs a genuine difference in importance, role, emphasis, or purpose.
+   - **Hierarchy, sequence, and placement agree.** The attention hierarchy (what is noticed first), the reading sequence (the order content is taken in), and the placement (where each item sits) are planned together and stated without contradiction through the final prompt. Relationships are specified, not implied: each element's alignment, gap, relative position, and overlap or clearance to its neighbors.
+   - **Equivalent items** (same role, rank, and function) share one typographic treatment wherever they sit, regardless of length: size encodes role and rank, never length, and layout absorbs length. Variation needs a genuine difference in importance, role, emphasis, or purpose. Equivalent units (cards, rows, panels) also share outer dimensions and internal structure, so differing content volume is absorbed inside a constant frame.
 8. **Fidelity to the brief.** Mandatory content, user text, exclusions, fixed assets, stated qualities (named style, color, technique included), and priorities are never silently overridden, not even by the skill's own strategy. Constraints are material: seek distinction inside them by committing fully, never by diluting or evading them.
 9. **Effort follows impact.** Deliberate longest on the mark, core idea, hero, and space plan; move briskly on routine decisions.
 10. **Context before convention.** Universal principles (purpose, hierarchy, coherence, specificity) hold in every medium. What the medium imposes, what its audience relies on, and what it affords are derived from the actual deliverable in Phase 2, never assumed from the medium's name. Keep any convention the audience relies on to read or use a piece wherever departing would cost them effort or credibility; spend distinction on expression and identity.
@@ -158,18 +160,18 @@ Phase 1 sets the depth and records it in the log. Depth scales the work inside e
 Reading the Full conditions:
 - **Contested:** the deliverable must win attention against its neighbors from beyond arm's reach or in a crowded field.
 - **Several deliverables:** the set holds more than one.
-- **Dense:** content volume is high for the format; judged from the ledger in Phase 1 and re-judged by Phase 3's rough capacity test.
+- **Dense:** content volume is high for the format; judged from the Phase 1 load read and re-judged by Phase 3's load budget test.
 
 | | Full | Focused |
 |---|---|---|
 | Research (Phase 2) | every question that can change a decision | the one or two that can |
 | Territory survey (Phase 3) | 5 territories, 3 source families | 3 territories, 2 families |
 | Candidate cards | every field the phase sets | fields that tell candidates apart, plus quality compatibility |
-| Governing principles (Phase 3) | compared: space intent, imagery, integration, mark role, layering, tone and positioning, density and rhythm | compared: space intent, imagery, integration, mark role; rest decided directly |
+| Governing principles (Phase 3) | compared: space intent, density and rhythm, imagery, integration, mark role, layering, tone and positioning | compared: space intent, density and rhythm, imagery, integration, mark role; rest decided directly |
 | New mark (Phase 4) | 6 seeds, every check recorded | 4 seeds, checks as pass/fail lines |
 | Gate objections | two (the two riskiest decisions) | one |
 
-Depth never changes: naming the apparent option, three or more candidates, the runner-up and decisive criterion, the quality checks, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research.
+Depth never changes: naming the apparent option, three or more candidates, the runner-up and decisive criterion, the quality checks, the load budget test, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research.
 
 **Raising to Full** applies from the current phase on. Reduced work in an earlier phase is reopened only where the missing depth could change a decision already made (a Focused survey that must now feed six mark seeds gains territories first).
 
@@ -200,7 +202,7 @@ When requirements collide, resolve in this order:
 5. established brand identity not supplied as an asset;
 6. creative ambition.
 
-A lower tier yields only to a higher one and keeps its closest surviving expression. A named choice that weakens the objective stays: mitigate inside it and offer the concern once as a labeled suggestion (in the entry; in auto mode, in the key decisions). Phase 2 tensions take their lead side from this order where it decides them; Phase 3 decides the rest.
+A lower tier yields only to a higher one and keeps its closest surviving expression. Within tier 2, space yields last: the fit ladder (`05_design_execution.md` B5) orders what gives way when content must fit, and the quiet share narrows only at its final rung. A named choice that weakens the objective stays: mitigate inside it and offer the concern once as a labeled suggestion (in the entry; in auto mode, in the key decisions). Phase 2 tensions take their lead side from this order where it decides them; Phase 3 decides the rest.
 
 ## 8. Non-negotiables
 
@@ -228,10 +230,10 @@ A completeness check on the Forward blocks, run at the Phase 5 gate. It confirms
 | Supporter set | per supporter: its purpose line, form, region, and weight ceiling; or the finding that the text-only baseline has none |
 | Any figure | origin, roles, the one design every appearance shares |
 | Context | what the design shares with its surroundings and the dimension on which it departs, as visible traits |
-| Core idea, style, hero | the chosen option in drawable terms, with the true specifics of what is depicted and the image-making language it is drawn or shot in; the hero's reinforcing content and supporters, or the reason it stands alone |
+| Core idea, style, hero | the chosen option in drawable terms, with the true specifics of what is depicted and the image-making language it is drawn or shot in; the hero's reinforcing content and supporters, or the reason it stands alone; the treatment vocabulary (the few rendering treatments in use, each with its job) |
 | Identifier | a fixed asset, or a new mark: personality device, geometry, integration logic, distinction mechanisms, and which identity forms appear where |
 | Shape language and balance | each container's function, form, and fill mode; the balance type and its counterweight |
-| Space plan | proportions, internal spacing of each zone, reading order, the arrangement form of each information group, and the placement and role of every mandatory text item, per deliverable |
+| Space plan | area shares that with the quiet reserve account for the whole format with headroom; internal spacing of each zone; gap and clearance steps between neighbors; the reading sequence as a route over the placed regions, agreeing with the attention hierarchy and the placement; the arrangement form of each information group; the quantity of every repeated form; the planned wrap of every multi-line string; and the placement and role of every mandatory text item, per deliverable |
 | Distinguishing traits | the traits that set the design apart from the peers it will be seen beside |
 | Carry-forward obligations | each realized by a named decision or recorded as an accepted cost |
 

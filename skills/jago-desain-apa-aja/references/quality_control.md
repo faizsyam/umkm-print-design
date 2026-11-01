@@ -23,10 +23,11 @@ Run these checks, then the phase file's own "Gate checks".
 
 | Test | Question | Runs at | Routes to |
 |---|---|---|---|
-| Contradiction scan | Do brand design, theme, idea, style, hero, color, type, mark, and composition agree? Across the set: are shared decisions identical in every deliverable, with composition differences explained by format or encounter? | 3 (plan stress tests), 4, 5 | the earliest conflicting phase |
+| Contradiction scan | Do brand design, theme, idea, style, hero, color, type, mark, and composition agree, and from Phase 5 do the attention hierarchy, reading sequence, and placement agree? Across the set: are shared decisions identical in every deliverable, with composition differences explained by format or encounter? | 3 (plan stress tests), 4, 5 | the earliest conflicting phase |
 | Brief-quality | Does each stated quality have a visible carrier at this phase's level of realization (plan, elements, composed glance stage), and does any decision signal its opposite? | 3, 4, 5 | Phase 1 for the translation, otherwise the earliest contradicting phase |
 | Decided-attribute | Is any look-shaping attribute left to the model's apparent value? | 5, 6 | the phase that should own it |
 | Originality | The protocol's three tests (predictable, specific, ambitious) | 3, 4, 5 | the deciding phase |
+| Load and fit | Does the cumulative visual load (information, imagery, supporters, containers, treatments, surface, color intensity) fit the space budget with headroom, with the quiet genuinely open and every addition worth its marginal cost? | 3 (load budget test), 4 (element allowance and load read), 5 (load and capacity checks) | the earliest phase whose allocation or addition broke it |
 
 ## 2. Composition review
 
@@ -41,12 +42,13 @@ Run on the drafted prompt, then on the reply.
 - **Mandatory content:** every mandatory string is present, verbatim, once, with role and position; suspected typos are preserved and flagged.
 - **Fixed assets:** supplied logos, colors, and fonts are reproduced as provided, not redesigned, restyled, simplified, or recolored.
 - **Exclusions:** every user exclusion is respected; only minimal, specific exclusions are added. No invented facts about the subject. No competitor copying.
-- **Identifier:** not merely a styled name unless supplied or requested as plain text. A new mark is described by form class, geometry, silhouette, color, boundary, personality device, wordmark relationship, and separation from adjacent type; the unit is described as one object.
-- **Order and roles:** the reading order is stated with ranks; type roles are distinguished; overlaps name the front element and the visible part of the covered one.
+- **Identifier:** not merely a styled name unless supplied or requested as plain text. A new mark is described by form class, geometry, silhouette, color, boundary, personality device, wordmark relationship, and separation from adjacent type; the unit is described as one object. The name's exact letters are stated and every letter stays fully formed and readable.
+- **Order and roles:** the hierarchy is stated with ranks and the reading route agrees with every position clause; type roles are distinguished; overlaps name the front element and the visible part of the covered one.
 - **Containers and balance:** every container states form, corner and edge geometry, and fill mode; any counterweight is a concrete form and region; none relies on a default.
 - **Space:**
   - The open regions are named by what they separate or frame, with their rough share and the overall density in plain words, placed ahead of element detail and consistent with every element clause (no wording that fills, spans, covers, or packs a zone; detail per element proportional to its rank).
   - Outer margin, separation between zones, isolation, internal zone spacing, and resting fields appear as concrete positive features, with proportions where they matter.
+  - Quiet regions are described as plain, undecorated ground; the quantity of every repeated or decorative form is stated; equivalent units are described with identical dimensions, internal structure, and field alignment; each zone's own breathing room is stated, not only the margin.
   - Each prompt states its own deliverable's ratio from S, unchanged.
 - **Qualities:** every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.
 - **Copy and supporters:** designed copy and each supporter are described by traits and forms, match the shown decisions, and none outweighs required text.
@@ -77,7 +79,8 @@ Run on the drafted prompt, then on the reply.
 - **Phase 1:**
   - wrong, missing, or altered content; unsourced fact;
   - a quality missing from the ledger;
-  - a deliverable or format missing, wrong, or needlessly split.
+  - a deliverable or format missing, wrong, or needlessly split;
+  - a content load too heavy for the stated format absorbed silently instead of raised.
 - **Phase 2:**
   - unsupported narrative;
   - environment-blind profile;
@@ -86,7 +89,7 @@ Run on the drafted prompt, then on the reply.
 - **Phase 3:**
   - generic idea, style, or hero (an image-making language that is only a medium name included);
   - a hero left standalone with no stated reason;
-  - no space intent;
+  - no space budget (a quiet share without role allocations, or a plan that fits only with every item at its minimum); density or treatment vocabulary left unstated;
   - tension unresolved.
 - **Phase 4** (Phase 3 if the plan caused it):
   - containers that all share the model's default form or only solid-or-outline fills, or one container design across different information roles or ranks (Phase 3 if the plan set no corner and edge geometry);
@@ -98,17 +101,17 @@ Run on the drafted prompt, then on the reply.
   - text-only look; a ground left uniform without a reason;
   - decoration with no deficit; duplicate purposes; decoration outranking information;
   - a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark;
-  - element costs over the space intent.
+  - element costs over the structure-and-decoration line, or a cumulative load that outgrows the density level; containers multiplied where spacing would serve; a counterweight or character carrier added as a new element while an existing one could serve; decorated ground counted as quiet; rendering treatments outside the vocabulary; a personality device that costs the name's legibility.
 - **Phase 5:**
-  - hierarchy: competing elements or unclear first read; poor hierarchy; an element whose recorded effect does not register at its stage; a zone's area share or a secondary or utility text mass outranking its rank;
-  - scale and space: every tier enlarged in a large format; crowding or filling; a zone crowded at its own scale; cumulative visual load beyond what the space plan carries;
-  - composition: overlap hiding an essential part; unlinked elements; lopsided mass (Phase 4 if no counterweight was provided); wrong encounter stage; mark absorbed in composition; a deliverable composed by resizing or cropping another's layout;
+  - hierarchy: competing elements or unclear first read; poor hierarchy; an element whose recorded effect does not register at its stage; a zone's area share or a secondary or utility text mass outranking its rank; a container or treatment lifting a secondary element into a higher rank's salience; a reading sequence that contradicts the placement;
+  - scale and space: every tier enlarged in a large format; crowding or filling; a zone crowded at its own scale; cumulative visual load beyond what the space plan carries; quiet that is leftover slivers, decorated, or parked in one band while zones are tight; an element sized by its own wish rather than its zone's share; the quiet share narrowed before the earlier rungs of the fit ladder;
+  - composition: overlap hiding an essential part; unlinked elements; lopsided mass (Phase 4 if no counterweight was provided); wrong encounter stage; mark absorbed in composition; a deliverable composed by resizing or cropping another's layout; near-touching neighbors with no decided gap or overlap; a strategy locked in that the content cannot fill comfortably;
   - text fit: text overflowing its container, sizes changed late, or letters compressed, stretched, or slanted to fit; equivalent items typeset differently by length;
-  - grouping and arrangement: picture-with-captions; parallel claims merged into one strip without being one claim; one arrangement form repeated across groups of different function, or a long or comparable-item list left as one stacked column without a reason;
+  - grouping and arrangement: picture-with-captions; parallel claims merged into one strip without being one claim; one arrangement form repeated across groups of different function, or a long or comparable-item list left as one stacked column without a reason; equivalent cards or rows whose dimensions or internal alignment vary with their content length;
   - edges and references: bleed against content; a pointer with no referent; a figure covering information.
 - **Phase 6:**
   - rationale in the prompt; vague wording; mandatory text misplaced;
-  - space, proportions, or ground character not stated;
+  - space, proportions, or ground character not stated; quantities of repeated forms unstated; an ordering word that contradicts a position word;
   - a prompt that depends on another prompt, omits shared identity, or lacks its label.
 - **The earliest contradicting phase:** a stated quality contradicted by a decision.
 - **The phase that should have realized it:** a carry-forward obligation realized by no element, placement, or accepted-cost record.
