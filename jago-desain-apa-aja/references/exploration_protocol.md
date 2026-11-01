@@ -1,6 +1,12 @@
-# Exploration protocol
+# Exploration protocol (Phases 2 to 5)
 
-Read once on entering Phase 2. Phase files point here. Depth (`SKILL.md` section 6) scales card detail, never the steps.
+The three decision tiers (full protocol, compact comparison, direct), the seven-step full protocol, and the specialist terminology that names things precisely.
+
+**Read this when:** on entering Phase 2; reopen the section for the tier a decision uses. Phase files point here.
+
+**Inputs needed:** The decision being made, its phase, and the depth recorded in S.
+
+Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_depth.md` section 6) scales card detail, never the steps.
 
 ## 1. Three tiers
 
@@ -12,7 +18,7 @@ Read once on entering Phase 2. Phase files point here. Depth (`SKILL.md` section
 
 - Phases 1 and 6 hold no exploration.
 - A Full decision resolved in one pass, with no recorded challenge, has not been decided.
-- A decision fixed by the user, a supplied asset, or evidence is recorded as fixed (`SKILL.md` section 11) and gets no cards. Only what stays open inside it is explored (a user-named style fixes the lineage, not the seven-dimension synthesis).
+- A decision fixed by the user, a supplied asset, or evidence is recorded as fixed (`prompt_and_reply_audit.md` section 11) and gets no cards. Only what stays open inside it is explored (a user-named style fixes the lineage, not the seven-dimension synthesis).
 
 ## 2. Full protocol
 
@@ -20,13 +26,13 @@ Read once on entering Phase 2. Phase files point here. Depth (`SKILL.md` section
 2. **Write at least three cards.**
    - At most one is apparent; at least one comes from beyond it. They differ on a structural axis and are sourced differently (product truth, audience moment, environment, differentiator, category tension, name or origin, material, Visual source inventory, territory survey).
    - Fill every field the phase sets, in specialist terms (section 4). Finish all cards before judging any.
-   - Where the core idea already fixes the hero's subject, hero cards differ by depiction mode, crop and scale, or how the hero hosts text instead, and need not be sourced differently. A card whose depiction mode is ineligible (`03_design_plan.md` E) is dropped, never kept as a candidate.
+   - Where the core idea already fixes the hero's subject, hero cards differ by depiction mode, crop and scale, or how the hero hosts text instead, and need not be sourced differently. A card whose depiction mode is ineligible (`03_core_idea_style_and_hero.md`, E) is dropped, never kept as a candidate.
 3. **Judge, last-written card first.**
-   - Eliminate any card that contradicts a quality requirement or mandatory content (unless `SKILL.md` section 7 forces the trade).
+   - Eliminate any card that contradicts a quality requirement or mandatory content (unless `global_standards.md` section 7 forces the trade).
    - Rate survivors, one line each and only where cards differ, on the lenses that discriminate:
      - **quality requirements:** supports, strains, or neutral, for each one;
      - **environment:** neighbors, light, distance, departure and fit;
-     - **capacity and production:** content volume and load fit (headroom against the space budget, quiet intact), material, budget, renderability by an image model (`terms.md`);
+     - **capacity and production:** content volume and load fit (headroom against the space budget, quiet intact), material, budget, renderability by an image model (`terms_brief_and_context.md`);
      - **coherence** with decisions already made: amplifies, conflicts, or neutral; flag weaknesses that would compound;
      - brand, audience, and cultural fit, where they differ.
 
@@ -65,3 +71,14 @@ Name things at a specialist's precision, and use a term only if it can be define
 - **Type:** classification, stroke contrast, proportion, x-height, widths, spacing.
 - **Composition:** axis, alignment, grid logic, figure-ground, focal hierarchy, grouping, visual weight, tension.
 - **Reproduction:** ink, substrate, finish, display.
+
+## Quality checks
+
+- A Full decision resolved in one pass, with no recorded challenge, has not been decided; a missing field means the decision is not made.
+- Apparent option named; at least three cards (at most one apparent, at least one from beyond it); every card finished before any is judged.
+- Runner-up named, strongest case against the leader stated, decisive criterion stated; the leader passed the predictable, specific, and ambitious tests.
+- Every material weakness has a named design move or accepted cost; every key strength has a named place where it is amplified.
+
+## Next
+
+Read `global_standards.md` (if not yet read), then `02_research_and_analysis.md`.

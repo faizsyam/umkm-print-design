@@ -1,5 +1,13 @@
 # Phase 2: Analysis
 
+Establish the piece's real problem and setting well enough that every later decision rests on a finding; findings are reduced to design implications plus the Environment Profile and the Visual source inventory.
+
+**Read this when:** after Phase 1 closed on the user's confirmed summary and mode, once `ux_wait_notes_entries_and_final_reply.md`, `exploration_protocol.md`, and `global_standards.md` have been read.
+
+**Inputs needed:** S and the Phase 1 Forward block (research questions, tensions, open flags). Outside: research, only where it can change a decision.
+
+**Contents:** Phase card · 1. Process · 2. Guidance · A. The subject as it is · B. Differentiation · C. Environment Profile (governing parameter) · D. Audience encounter · E. Communication Problem · F. Research · G. Cultural grounding and the Visual source inventory
+
 ## Phase card
 
 | Item | Content |
@@ -7,10 +15,10 @@
 | Goal | Establish the piece's real problem and setting well enough that every later decision rests on a finding. Findings are reduced to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
 | Receives | S and the Phase 1 Forward block (research questions, tensions, open flags). Outside: research, only where it can change a decision |
 | Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; the message; medium reading and encounter stages; departure and fit dimensions; Visual source inventory; design implications |
-| Exploration | Compact comparison (`protocol.md` section 3), genuine option sets only |
+| Exploration | Compact comparison (`exploration_protocol.md` section 3), genuine option sets only |
 | Output | Communication Problem (with the message); Environment Profile (encounter, medium reading, encounter stages); audience encounter; differentiation strategy; Visual source inventory; tagged design implications; tensions |
 | Entry fields | Guided mode: no separate stop. Findings lead the Phase 3 entry in two lines, from these fields: weakest link; the context and where the piece departs from it; how it stands out (or "fixed by evidence") |
-| Forward | Communication Problem (primary objective, weakest link, message, tensions with the lead side where `SKILL.md` section 7 decides it); Environment Profile with encounter, medium reading, encounter stages, departure and fit; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; open flags (provisional setting, unverified specifics). S is not restated |
+| Forward | Communication Problem (primary objective, weakest link, message, tensions with the lead side where `global_standards.md` section 7 decides it); Environment Profile with encounter, medium reading, encounter stages, departure and fit; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; open flags (provisional setting, unverified specifics). S is not restated |
 
 ## 1. Process
 
@@ -49,13 +57,13 @@ One profile per distinct context; deliverables that share a context share its pr
   - What surrounds it: neighbors' dominant colors, density, scale, order or clutter, finish; competing stimuli; the physical or on-screen setting.
   - The audience's state there: goal, passive or active, moving or still, attention and time, distance or display scale, light or display conditions, cultural context.
   - The reading path: the audience's script direction and habits.
-- **Encounter stages** (`terms.md`): the ordered moments of engagement that follow from the encounter. For each, record what the audience can perceive, the attention and time it has, what it is trying to decide or do, and whether it can reach the stage (a stage the audience cannot reach cannot carry content). Derive their number and nature; do not assume the usual three. Record each stage's reading distance or display scale as a figure or range, and how it relates to the format's physical size and orientation: the space budget (Phase 3) and the legibility minimums (Phase 5) derive from them.
+- **Encounter stages** (`terms_brief_and_context.md`): the ordered moments of engagement that follow from the encounter. For each, record what the audience can perceive, the attention and time it has, what it is trying to decide or do, and whether it can reach the stage (a stage the audience cannot reach cannot carry content). Derive their number and nature; do not assume the usual three. Record each stage's reading distance or display scale as a figure or range, and how it relates to the format's physical size and orientation: the space budget (Phase 3) and the legibility minimums (Phase 5) derive from them.
 - **Medium reading:**
   - what the medium **imposes**: what making, reproducing, or displaying does to an image between the generated file and the audience, and the limits it sets;
   - what the audience **relies on**: conventions learned for this kind of piece (structure, reading path, where information is expected);
   - what the medium **affords**: what it can do that others cannot.
 
-  Record only what changes a decision. No medium convention is applied by default (`SKILL.md` principle 10): keep a convention where departing costs the audience effort or credibility; depart where it is the apparent option and the purpose gains.
+  Record only what changes a decision. No medium convention is applied by default (`global_standards.md` principle 10): keep a convention where departing costs the audience effort or credibility; depart where it is the apparent option and the purpose gains.
 - **Impression versus expression.** Hold the **impression** constant and let the setting decide the **expression**. The impression is what the viewer should feel and conclude about the subject (from the desired perception and the quality requirements). The expression is the visual means that deliver it (palette, density, scale, form), chosen to suit this context.
 - **Departure and fit.**
   - Find where neighbors are uniform on a dimension (color, density, scale, order, finish, form). Distinctness is relative to neighbors on a dimension and can lie in either direction; more intensity is not by itself departure.
@@ -72,7 +80,7 @@ Record cultural references, behavior, motivations, decision considerations, the 
 
 **Tensions.** List pairs of needs that compete for the same limited resource (attention at the glance stage, space, legibility distance, budget, register). State each as the two needs and the resource they share.
 
-**Weakest link.** Choose the link in the chain from encounter to the intended outcome (attention → comprehension → credibility → action, keeping the links the purpose needs) that is most likely to fail in this context, weighing the cost of each failure. Test the brief's own assumptions (the deliverables asked for, the audience assumed, the success measure): where one would undermine the objective, record it as a tension and handle it per `SKILL.md` section 7. Where `SKILL.md` section 7 or the user's stated priority decides a tension, record its lead side; Phase 3 decides the rest.
+**Weakest link.** Choose the link in the chain from encounter to the intended outcome (attention → comprehension → credibility → action, keeping the links the purpose needs) that is most likely to fail in this context, weighing the cost of each failure. Test the brief's own assumptions (the deliverables asked for, the audience assumed, the success measure): where one would undermine the objective, record it as a tension and handle it per `global_standards.md` section 7. Where `global_standards.md` section 7 or the user's stated priority decides a tension, record its lead side; Phase 3 decides the rest.
 
 **Message.** One sentence naming what the glance-stage viewer takes away and does next, compressed from the desired response and the necessary information. It serves the primary objective and never contradicts a quality requirement. Phase 3 builds the core idea to carry it; Phase 5 confirms it after triage.
 
@@ -98,8 +106,9 @@ Research only what can change a decision; stop at diminishing returns; run indep
 
 Record the inventory in three parts: (1) apparent associations as baseline; (2) deeper true specifics that could become visual ideas (at least one beyond the baseline); (3) which of them are visually workable.
 
-## 3. Gate checks (fails if any is false)
+## Quality checks
 
+**Gate checks for this step (fails if any is false):**
 - Every finding changes or confirms a decision; no narrative is richer than its evidence; every implication names its evidence.
 - Differentiation fits this subject, not dozens of competitors, and shows its option set (or "fixed by evidence"); no manufactured alternatives.
 - Someone who never visited could picture the context and name where the piece departs and fits. The profile is concrete, not applicable to any context; departure is more than "bigger or brighter" and compatible with every quality requirement.
@@ -108,4 +117,9 @@ Record the inventory in three parts: (1) apparent associations as baseline; (2) 
 - The message is one takeaway, serves the primary objective, and contradicts no quality requirement.
 - Objection raised and resolved (owner of the riskiest decision: brand strategist or audience researcher; two objections at Full depth).
 
+
 **Entry fields:** in the phase card; mark decisions fixed by evidence as such.
+
+## Next
+
+Run the gate (`quality_gates.md` section 1, then the checks above) and append the Phase 2 Forward block to the Design Log. Guided mode: no separate stop; Phase 2's findings lead the Phase 3 entry. Read `terms_design_system.md` and then `03_core_idea_style_and_hero.md`. Carry forward: the Phase 2 Forward fields.
