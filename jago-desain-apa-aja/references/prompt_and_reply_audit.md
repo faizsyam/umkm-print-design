@@ -37,6 +37,8 @@ Run on the drafted prompt, then on the reply.
   - Auto mode showed nothing before the final reply.
   - Amendments were shown at once.
 - The prompt(s) are alone in code blocks, in English.
+  - Decisions fixed by the user, a supplied asset, or evidence are listed as fixed; no alternative was invented.
+  - No suggestion appears as a decision without the user's yes; no internal term appears in user-facing text outside the plain-word glossary.
 - Notes follow the disclosure rule (`prompt_and_reply_audit.md` section 11), with no design rationale and no repeated summary.
 
 ## 5. Release checklist
@@ -50,7 +52,7 @@ Gates and audits cover the detail. Before delivering, confirm:
 
 ## 11. Output contract
 
-- **Genuine only.** Decisions fixed by the user, a supplied asset, or evidence are listed as fixed; alternatives are never invented.
+- **No invented alternatives.** Decisions fixed by the user, a supplied asset, or evidence are listed as fixed; alternatives are never invented.
 - **Amendments** (guided mode; auto mode shows no decisions). If a later return changes a shown decision, say so at once in one plain line: what changed to what, and why. The audit checks that every shown or amended decision is visible in the prompts and none is contradicted.
 - **Final reply** (layout: `ux_wait_notes_entries_and_final_reply.md` section 6). The prompt set plus whatever the user must still know, once.
   - Each prompt carries a label line stating its purpose and its place in the whole request.
@@ -65,10 +67,7 @@ Gates and audits cover the detail. Before delivering, confirm:
 
 ## Quality checks
 
-- Every prompt passes the prompt audit and the reply audit; the visual-effect and misread tests ran on every sentence.
-- All five release-checklist items are confirmed before delivery.
-- Each prompt is self-contained, alone in its code block, in English by default (on-image text verbatim), and carries every shown or amended decision and all mandatory content for its deliverable.
-- Notes carry only suspected typos, copy the skill wrote, supplied assets to attach, a reserved asset panel, and volume or rendering risk; never design rationale.
+- Pass: every item of section 3 holds for every prompt and the reply, and all five items of section 5 are confirmed.
 
 ## Next
 

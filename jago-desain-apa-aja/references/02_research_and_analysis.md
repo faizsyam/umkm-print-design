@@ -6,13 +6,13 @@ Establish the piece's real problem and setting well enough that every later deci
 
 **Inputs needed:** S and the Phase 1 Forward block (research questions, tensions, open flags). Outside: research, only where it can change a decision.
 
-**Contents:** Phase card · 1. Process · 2. Guidance · A. The subject as it is · B. Differentiation · C. Environment Profile (governing parameter) · D. Audience encounter · E. Communication Problem · F. Research · G. Cultural grounding and the Visual source inventory
+**Contents:** Phase sheet · 1. Process · 2. Guidance · A. The subject as it is · B. Differentiation · C. Environment Profile (governing parameter) · D. Audience encounter · E. Communication Problem · F. Research · G. Cultural grounding and the Visual source inventory
 
-## Phase card
+## Phase sheet
 
 | Item | Content |
 |---|---|
-| Goal | Establish the piece's real problem and setting well enough that every later decision rests on a finding. Findings are reduced to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
+| Goal | Establish the piece's real problem and setting so that every later decision rests on a finding. Findings are reduced to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
 | Receives | S and the Phase 1 Forward block (research questions, tensions, open flags). Outside: research, only where it can change a decision |
 | Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; the message; medium reading and encounter stages; departure and fit dimensions; Visual source inventory; design implications |
 | Exploration | Compact comparison (`exploration_protocol.md` section 3), genuine option sets only |
@@ -27,7 +27,7 @@ Establish the piece's real problem and setting well enough that every later deci
 3. Build the Environment Profile (C) and the audience encounter (D).
 4. Find differentiation (B) against the peers the profile identifies, and ground culturally to build the Visual source inventory (G).
 5. Build the Communication Problem (E), which reads the profile, the encounter, and the differentiation.
-6. Convert findings into design implications ("because [finding], the design must / should / must avoid …", tagged); discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
+6. Convert findings into design implications (form: `terms_brief_and_context.md`, Design implication; tagged); discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
 7. Gate.
 
 ## 2. Guidance
@@ -109,16 +109,16 @@ Record the inventory in three parts: (1) apparent associations as baseline; (2) 
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- Every finding changes or confirms a decision; no narrative is richer than its evidence; every implication names its evidence.
-- Differentiation fits this subject, not dozens of competitors, and shows its option set (or "fixed by evidence"); no manufactured alternatives.
-- Someone who never visited could picture the context and name where the piece departs and fits. The profile is concrete, not applicable to any context; departure is more than "bigger or brighter" and compatible with every quality requirement.
+- Every finding changes or confirms a named decision; every implication cites a tagged finding; a claim with no finding is removed.
+- Differentiation fails the swap test (substituting a named peer for the subject makes it false) and shows its option set (or "fixed by evidence"), each option differing from the others on a named criterion.
+- The profile fills every part of the Environment Profile definition (`terms_brief_and_context.md`) for each deliverable and fails the context-swap test (substituting another setting of the same category invalidates at least one part). Departure names its dimension and the visible difference, differs in more than size or brightness, and contradicts no quality requirement.
 - Primary objective follows the user's stated priority; the weakest link is a secondary lens, not a replacement.
-- The inventory goes beyond emblems and stays true and respectful; no unverified symbol; no competitor treated as a model; audience claims rest on evidence.
+- The inventory holds at least one source that is not an emblem (object, material, craft, place, or visual practice); every symbol is verified for the meaning it holds for this audience; no competitor is a source; every audience claim cites evidence.
 - The message is one takeaway, serves the primary objective, and contradicts no quality requirement.
-- Objection raised and resolved (owner of the riskiest decision: brand strategist or audience researcher; two objections at Full depth).
+- Objection raised and resolved (owner of the riskiest decision: brand strategist or audience researcher).
 
 
-**Entry fields:** in the phase card; mark decisions fixed by evidence as such.
+**Entry fields:** in the phase sheet; mark decisions fixed by evidence as such.
 
 ## Next
 

@@ -48,27 +48,23 @@ Review the composed whole once against the checks below, each read through the r
 - **Effect.** Each element's recorded effect registers at its stage, and none carries more weight than its function earns.
 - **Across the set.** Shared decisions appear identically in every deliverable, and composition differs only as format or encounter requires.
 
-## Forward block (restated word for word from the phase card in `10_stage_assignment_and_relationship_map.md`)
+## Forward block (restated word for word from the phase sheet in `10_stage_assignment_and_relationship_map.md`)
 
-The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; space plan with proportions (the open regions named by what they separate or frame, and the density level); spatial strategy; placement, scale, weight, color, and treatment of every element and text item (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record
+The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; space plan with proportions (the open regions named by what they separate or frame, and the density level); spatial strategy; placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2) (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record
 
-**Entry fields** block (verbatim from the phase file):
+## Entry fields (restated word for word from the phase sheet in `10_stage_assignment_and_relationship_map.md`)
 
-**Entry fields** (the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): the reading order in brief (what is taken in at each encounter stage); what is attached to the picture and what stands apart; the arrangement chosen with at most two alternatives and their weakness; and the share of quiet space (rows for a deliverable only where it differs). The capacity check passes silently.
+(the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): the reading order in brief (what is taken in at each encounter stage); what is attached to the picture and what stands apart; the arrangement chosen with at most two alternatives and their weakness; and the share of quiet space (rows for a deliverable only where it differs). The capacity check passes silently.
 
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- A designer could lay out the piece from the specification.
+- The Execution Specification states, for every element and text item, its region, rank, size, and relationship to its neighbors, and the decided-attribute test (`quality_gates.md` section 1) finds no attribute left to the model's apparent value.
 - Bleed never meets mandatory content, the unit, or fine borders.
 - The composition review passed; failures were routed to their earliest cause.
-- Objection raised and resolved (owner of the riskiest decision: visual communication specialist, production specialist, audience researcher, or senior art director; two objections at Full depth).
+- Objection raised and resolved (owner of the riskiest decision: visual communication specialist, production specialist, audience researcher, or senior art director).
 
-**Reminders at the point of use:**
-- Review the composed whole once against the F checklist, each check read through the role that owns it; a borderline check draws that role's objection.
-- Wherever the medium can lose or cover the edge, mandatory content, the identity unit, and fine borders stay inside the safe margin; bleed is visual direction only, never guides or marks in the prompt.
-- Across the set: shared decisions appear identically in every deliverable; each deliverable has its own stage assignment, space plan, strategy, and standalone prompt.
-- On failure, return to the earliest responsible decision and re-run forward.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 1, 7; non-negotiable: fixed assets untouched.
 
 **Gate:** also run the gate checks of `10_stage_assignment_and_relationship_map.md` to `13_load_balance_and_capacity_checks.md` for every deliverable and the procedure in `quality_gates.md` section 1. Then run the pre-synthesis check (`quality_gates.md` section 9, "Ready for Phase 6"). Append the Phase 5 Forward block and Record to the Design Log.
 

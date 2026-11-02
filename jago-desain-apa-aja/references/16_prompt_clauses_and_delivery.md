@@ -39,8 +39,8 @@ Write the clauses of each prompt (relationships, space, balance, text, marks, fi
   - Describe every text region with room to spare, so the generator has no reason to compress or tilt letters.
   - State equivalent items once as sharing the same size, weight, and style regardless of length, with length handled by width, wrapping, or columns. For equivalent cards or rows, state identical outer size, identical internal layout, and fields aligned to the same positions, with longer text wrapping onto an extra line rather than shrinking.
   - Where a string takes more than one line, state its planned wrap (the line breaks decided in Phase 5), keeping the verbatim text split only at those breaks.
-- **Designed copy:** letterform character, line breaks, emphasis, container, color role, position. "Stylish text" is not a description.
-- **Supporters:** concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never "decorative elements"; each below the weight of the information beside it.
+- **Designed copy:** letterform character, line breaks, emphasis, container, color role, position. A description names letterform, line breaks, emphasis, container, color role, and position; a quality adjective alone is not a description.
+- **Supporters:** concrete forms (what, how drawn, where, how large against neighbors, what color) consistent with the style, never a generic category word; each below the weight of the information beside it.
 - **Containers and shapes:** for each, its job, form, corner and edge geometry, and fill mode, with the shape language stated once and applied by name. Never leave them unstated, since an unstated container takes the model's default rounded form. Describe containers per information role, so different roles are not collapsed into one phrase or one design.
 - **Grounds and edges:**
   - a texture or pattern is a low-contrast surface beneath content, in the zones assigned to it and never in the plain quiet regions, calmer where text is denser;
@@ -71,14 +71,9 @@ Write the clauses of each prompt (relationships, space, balance, text, marks, fi
 
 The prompt audit (`prompt_and_reply_audit.md` section 3) is this phase's gate. It covers plan fidelity, verbatim content, fixed assets, quality carriers in the opening lines, space, identifier description, standalone completeness of every prompt, the visual-effect and misread tests on every sentence, and the absence of rationale, placeholders, blanket emphasis, and unstated look-shaping attributes.
 
-Objection (senior art director or prompt specialist; two at Full depth): where would the model's apparent value silently replace a decision?
+Objection (senior art director or prompt specialist): where would the model's apparent value silently replace a decision?
 
-**Reminders at the point of use:**
-- Mandatory text appears verbatim in quotation marks, once, tied to position and typographic role; never omitted to shorten the prompt (flag volume risk in the notes).
-- Space is written as the layout's own structure before element detail: open regions named by what they separate or frame, with rough share and overall density in plain words; quantities of repeated forms stated.
-- Hierarchy is stated with ranks, and the reading route agrees with every position clause; no ordering word contradicts a position word.
-- Containers state form, corner and edge geometry, and fill mode; an unstated container takes the model's default.
-- Ratio stated in the opening line; no pixel measurements, coordinates, or exact angles unless essential; exclusions only for explicit user exclusions, high-probability failures, and cultural or factual risks.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 4, 7, 8; non-negotiables: user text verbatim, supplied assets, no placeholders.
 
 ## Next
 

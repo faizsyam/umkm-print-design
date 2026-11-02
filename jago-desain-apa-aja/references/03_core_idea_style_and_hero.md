@@ -4,19 +4,20 @@ One unified, defensible, original direction: plan criteria, brand design and the
 
 **Read this when:** on entering Phase 3, after Phase 2's gate and once `terms_design_system.md` has been read (it holds the full fit ladder used by the load budget test).
 
-**Inputs needed:** S; Phase 2 Forward (Communication Problem with message and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation, implications).
+**Inputs needed:** S; Phase 2 Forward (Communication Problem with message and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation strategy, tagged design implications).
 
-**Contents:** Phase card · 1. Process · Section map (sections of this phase and the file that holds each) · 2. Guidance · Plan criteria (set before any card) · A. Brand design and theme · B. Territory survey · C. Core idea · D. Style · E. Hero
+**Contents:** Phase sheet · 1. Process · Section map (sections of this phase and the file that holds each) · 2. Guidance · Plan criteria (set before any card) · A. Brand design and theme · B. Territory survey · C. Core idea · D. Style · E. Hero
 
-## Phase card
+## Phase sheet
 
 | Item | Content |
 |---|---|
 | Goal | One unified, defensible, original direction: brand design, theme, core idea, style, hero, and governing principles (including space intent and mark role). It synthesizes all findings into a single concept, not a style assigned to each insight |
-| Receives | S; Phase 2 Forward (Communication Problem with message and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation, implications) |
+| Receives | S; Phase 2 Forward (Communication Problem with message and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation strategy, tagged design implications) |
 | Decisions | Plan criteria (space budget, tension leads, carry targets); territory survey; brand design and theme; core idea; style (seven dimensions); hero or its deliberate absence; governing principles (`04_principles_and_plan_evaluation.md` F); the quality carrier map; how each Phase 2 tension is carried; stress-test results |
 | Exploration | Full protocol (`exploration_protocol.md` section 2) for core idea, style, and hero, in that order: the winning idea is a criterion for style, and the winning style a criterion for the hero. Write no style card before the core idea is chosen. Each decision has at least one card from the survey, inventory, or departure dimensions. Check renderability and fit throughout |
 | Output | The Design Plan (Forward) and the record of rejected directions (Record) |
+| Entry fields | (the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): for core idea, style, hero, and the principles that had real alternatives (space intent and mark role always): the choice, a one-sentence reason in the subject's terms (the decisive criterion in plain words), and at most two alternatives with their weakness, the apparent option included when weighed. Add one line on how each stated quality is carried. Mark decisions fixed by the user or evidence as such. |
 | Forward | Brand design and theme; core idea; style (seven dimensions, balance type included); hero with hosting capacity; principles (space intent, imagery stance, supporter budget and treatment vocabulary, integration, mark role, layering, tone and positioning, density, character carriers and links, boundaries, point of tension, figure stance); how each tension is carried; the **seed bank** (each surveyed territory as name, defining traits, one-line lineage; not the survey tables); carry-forward obligations; open flags. The quality carrier map is entered in S |
 
 ## 1. Process
@@ -54,7 +55,7 @@ Check that the theme does not contradict the brand design (otherwise the theme i
 
 ### B. Territory survey
 
-Shallow options come from the model's category associations; widen the field before writing any card. Survey territories across source families (Full: five territories from three families; Focused: three from two):
+Shallow options come from the model's category associations; widen the field before writing any card. Survey territories across source families (minimum counts by depth: `scope_roles_and_depth.md` section 6):
 - historical and movement lineages in design, illustration, lettering, and print;
 - regional and vernacular traditions of the subject's place or community;
 - craft, material, and production traditions;
@@ -111,7 +112,7 @@ One synthesis resolved across seven dimensions, each in specialist terms:
 ### E. Hero
 
 - **Options:** symbolic marks, objects, products, in-use scenes, places, figures (supplied or wanted), illustrations, photography, abstract forms, typography-led concepts, an equal set of images, or no hero.
-- **When to choose a hero:** only when one subject deserves primary attention and a strong, renderable depiction exists. When several messages weigh equally or no suitable depiction exists, choose no hero or a small equal set, never a forced focal image.
+- **When to choose a hero:** only when one subject deserves primary attention and a renderable depiction exists. When several messages weigh equally or no suitable depiction exists, choose no hero or a small equal set, never a forced focal image.
 - **Figures:** a figure leads only when supplied or wanted, as a designed character (Phase 4), never a stock figure or a real person's likeness.
 - **Depiction mode** follows what must be true: where the viewer must see exactly what is sold, a mode that stylizes it away is ineligible.
 - **Standalone logo request:** the mark is the hero by definition (the protocol still runs for idea and style).
@@ -136,16 +137,12 @@ The hero's scale, crop, and edge behavior must express the message, not merely f
 
 **Gate checks for this step (fails if any is false):**
 - The survey meets the depth minimum; no direction derives from a competitor or existing design; no territory is used as surface without its lineage understood.
-- Every card is filled in specialist terms; no apparent option won without a decisive criterion; the leaders passed the protocol's three tests; every material weakness has a move or an accepted cost.
-- The core idea fits one sentence and shows the five properties. Style is one synthesis an illustrator or printer could act on, its image-making language specific to this brand. The hero registers at its stage, truthfully represents what is sold, is not forced, and has its reinforcing content and supporters decided or a stated reason to stand alone. A figure exists only if supplied or wanted, and has a role.
+- Every card field the phase sets is filled in the protocol's specialist terms (`exploration_protocol.md` section 4); no apparent option won without a decisive criterion; the leaders passed the protocol's three tests; every material weakness has a move or an accepted cost.
+- The core idea fits one sentence and shows the five properties. Style is one synthesis across all seven dimensions, its image-making language names a method (not only a medium) and passes the swap test against a peer brand. The hero has a stated stage and reach, depicts only what is sold, was chosen under the hero rule (one subject deserves primary attention and a renderable depiction exists; otherwise no hero or an equal set), and has its reinforcing content and supporters decided or a recorded reason to stand alone. A figure exists only if supplied or wanted, and has a role.
 - Plan criteria were set before the first card, and any change to them is recorded.
 
-**Reminders at the point of use:**
-- Plan criteria (space budget, tension leads, carry targets) are set before the first card and constrain candidates; any change is recorded.
-- Core idea, then style, then hero, each by the full protocol (`exploration_protocol.md`, section 2); no style card is written before the core idea is chosen.
-- Territories are surveyed across source families (Full: five territories from three families; Focused: three from two); no territory is used as surface without its lineage understood.
-- A hero is chosen only when one subject deserves primary attention and a strong, renderable depiction exists; otherwise no hero or a small equal set.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 2, 3, 4, 9, 10; non-negotiables: no copying, no stated quality contradicted.
 
 ## Next
 
-Read `04_principles_and_plan_evaluation.md`. Carry forward: plan criteria, brand design and theme, the territory survey (as the seed bank), the chosen core idea, style (seven dimensions), and hero with its hosting capacity and permitted mark roles, plus the mitigations and accepted costs recorded by the protocol.
+Read `04_principles_and_plan_evaluation.md`. Carry forward: plan criteria, brand design and theme, the seed bank (each surveyed territory as name, defining traits, one-line lineage), the chosen core idea, style (seven dimensions), and hero with its hosting capacity and permitted mark roles, plus the mitigations and accepted costs recorded by the protocol.

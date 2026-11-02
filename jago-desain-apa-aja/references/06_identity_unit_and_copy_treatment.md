@@ -4,7 +4,7 @@ Develop the identifier by the full protocol with the extended mark development, 
 
 **Read this when:** after `05_color_and_typography.md` (color and type decided); if the mark exposes a conflict with color or type, adjust them within this phase.
 
-**Inputs needed:** Palette and type roles from `05_color_and_typography.md`; Phase 3 mark role, hero, style dimensions, seed bank; S fixed assets and reproduction limits; content roles and provisional ranks.
+**Inputs needed:** Palette and type roles from `05_color_and_typography.md`; Phase 3 mark role, hero, style dimensions, seed bank; S fixed assets and reproduction limits and content roles; Phase 2 message. Provisional ranks are derived in B2 from the message, content role, hero, and mark role.
 
 **Contents:** 2. Guidance (continued from `05_color_and_typography.md`) · C. The identity unit: mark, wordmark, lockup · B2. Content roles and copy treatment
 
@@ -25,7 +25,7 @@ A basic, generic, or forgettable identifier fails even if it passes every test; 
 - An emblematic form never borrows the look of an official seal or certification.
 
 **Extended development** (do not collapse into one pass)
-1. **Concept mining.** Write raw seeds (Full: six or more; Focused: four) from different sources: the name's meaning, sound, shape, or initials; the product's defining truth; process or craft; origin; the audience's ritual or use; the inventory and the Phase 3 seed bank; the environment; a visual signature of the subject. Include seeds beyond the apparent. Keep only seeds that are true, ownable, and visually workable; discard any the subject cannot honestly claim.
+1. **Concept mining.** Write raw seeds (minimum count by depth: `scope_roles_and_depth.md` section 6) from different sources: the name's meaning, sound, shape, or initials; the product's defining truth; process or craft; origin; the audience's ritual or use; the inventory and the Phase 3 seed bank; the environment; a visual signature of the subject. Include seeds beyond the apparent. Keep only seeds that are true, ownable, and visually workable; discard any the subject cannot honestly claim.
 2. **Three developed candidates,** each a complete identity-unit idea: seed and personality device; construction family; lockup (arrangement, proportion, shared construction logic); behavior at small size. They differ in concept source or construction; at most one is apparent. Construction families to weigh:
    - **enclosed:** symbol held within a boundary;
    - **contained:** elements held by a frame or shape;
@@ -106,14 +106,10 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; no cliché; geometry describable in a few concrete shapes.
-- Each text item's treatment fits its content role and rank. No first- or second-rank text is left as scaled plain type without a recorded style reason.
+- Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; the originality tests (`quality_gates.md` section 1) pass for the mark; geometry is describable in a few concrete shapes.
+- Each text item's treatment grade is the grade its content role and provisional rank call for (B2). No first- or second-rank text is left as scaled plain type without a recorded style reason.
 
-**Reminders at the point of use:**
-- A new identifier is never only a styled name; it carries a personality device. A supplied logo is used as given.
-- The device never costs the name: every letter stays complete, in order, and recognizable as itself.
-- Extended development is recorded: seeds (Full: six or more; Focused: four), three developed candidates (at most one apparent), scrutiny, at least one revision, winner tests (lockup, separation, text-neighborhood).
-- Treatment follows content role and rank; designing changes form only and never the words; a ranked item left plain has plain setting recorded as the style's intentional choice.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 2, 4, 5; non-negotiables: supplied logos and characters, no styled-name-only identifier, user text verbatim.
 
 ## Next
 

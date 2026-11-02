@@ -4,7 +4,7 @@ Rank every element, verify the attention sequence, decide planes and overlap, an
 
 **Read this when:** after `11_space_plan_and_spatial_strategy.md` (space plan and strategy decided); this is step 5 of the Phase 5 process.
 
-**Inputs needed:** Everything from `10_stage_assignment_and_relationship_map.md` and `11_space_plan_and_spatial_strategy.md`; Phase 4 element system with purpose lines and weight ceilings; Phase 3 mark role, layering stance, density, point of tension, counterweight.
+**Inputs needed:** Everything from `10_stage_assignment_and_relationship_map.md` and `11_space_plan_and_spatial_strategy.md`; Phase 4 element system with purpose lines and weight ceilings; Phase 3 mark role, layering stance, tone and positioning (price visibility, scale, space cues), density, point of tension; Phase 4 counterweight.
 
 ## 2. Guidance (continued from `11_space_plan_and_spatial_strategy.md`)
 
@@ -23,7 +23,7 @@ Decide the order in which the audience should notice, interpret, and use the inf
   - A large volume of secondary text is contained by compact arrangement and by weight and contrast kept to what legibility needs, so its area mass does not outrank the hero group or the first-rank message.
 - **Rank separation.**
   - Each rank leads the next on at least two levers, one of them primary (size, value contrast, isolation, position), so the step is decisive. A step that is only slight is a hedge: merge the ranks or separate them.
-  - Levers are scarce: the strongest value contrast, heaviest weight, largest scale, and accent color each belong to one rank (the first, unless deliberately paired), because a lever spent on many elements ranks none.
+  - Levers are scarce: the strongest value contrast, heaviest weight, largest scale, and accent color each belong to the first rank only, because a lever spent on many elements ranks none. The first rank holds exactly one element; a hero group (the hero with its coupled text) or an equal image set chosen as the hero counts as one element. First-rank pairing is not allowed.
   - Spacing groups: distance within a group is clearly less than between groups.
 - **Verification.** Predict the attention sequence from the placed composition itself, not from recorded intent.
   1. Order the elements at each stage by combined salience (allocated area, size, value contrast, chroma, weight, isolation, position on the reading path, and the container or treatment each carries, using the A3 weight estimates in `13_load_balance_and_capacity_checks.md`).
@@ -67,7 +67,7 @@ For each element specify role, scale, weight, color, treatment, plane, position,
   - a block or band holds one group;
   - a tag attaches to the one fact it flags without competing with the hero;
   - a scrim sits behind only the text zone it serves.
-- A supplied asset the generator cannot reproduce faithfully (QR or QRIS, barcode, supplied photograph, unattachable logo file) gets a **reserved asset panel**: its own region at the size it needs (a code sized to scan at its use distance, with quiet zone), inside the space plan, with isolation and a quiet frame in the system's colors. Never an invented stand-in.
+- A supplied asset the generator cannot reproduce faithfully (scannable code, supplied photograph, or logo file that cannot be attached) gets a **reserved asset panel**: its own region at the size it needs (a code sized to scan at its use distance, with quiet zone), inside the space plan, with isolation and a quiet frame in the system's colors. Never an invented stand-in.
 - Figures are placed by Phase 4 role: lead = the hero; demonstrate = within the hero group, subordinate to the offer; guide = gesture or gaze ending on the target, covering no information; mood = supporter scale; in the mark = inside the unit's region. One design everywhere; a supplied figure is never redrawn.
 
 ## Quality checks
@@ -79,12 +79,7 @@ For each element specify role, scale, weight, color, treatment, plane, position,
 - Every pointer ends on its referent; no figure covers information.
 - Every major element is linked; every overlap passes the function test.
 
-**Reminders at the point of use:**
-- Exactly one element is first at glance; every element holds a rank or is removed; each rank leads the next on at least two levers, one of them primary.
-- Predict the attention sequence from the placed composition itself (blur or squint); it must equal the recorded order.
-- Hierarchy, reading sequence (a route over placed regions), and placement agree.
-- Equivalent items share one typographic treatment; size encodes role and rank, never length.
-- Overlap only when it serves a purpose and the covered element keeps its essential part; a gap too small to read as separation or overlap is a defect.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 6, 7; non-negotiable: no placeholders or blank zones.
 
 ## Next
 

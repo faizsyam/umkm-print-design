@@ -6,7 +6,7 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 
 **Inputs needed:** S (deliverable set, mandatory strings verbatim, fixed assets, exclusions, quality requirements with carriers, generator and language if named); each deliverable's Execution Specification; the Phase 4 specifications it names; Phase 3 style dimensions and hero specifics. Not received: any Record, candidate, research, tension, rationale text, or purpose line.
 
-## Phase card
+## Phase sheet
 
 | Item | Content |
 |---|---|
@@ -22,7 +22,7 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 2. Fix the prompt set from the deliverable set (G). Sort every design element into "in the prompt" or "stays out" (A).
 3. Write each prompt separately from S, the shared specifications, and that deliverable's Execution Specification.
    - Choose a structure suited to the design's complexity (B).
-   - Write each clause specifically, as relationships, with space as a positive feature (`15_prompt_set_and_structure.md` C; `16_prompt_clauses_and_delivery.md` D, E).
+   - Write each clause specifically, as relationships, with space as a positive feature (C in this file; D and E in `16_prompt_clauses_and_delivery.md`).
    - Place text and describe marks and fixed assets exactly (`16_prompt_clauses_and_delivery.md` E).
 4. Calibrate length, describe the static artwork as seen, set minimal exclusions, and state the ratio (`16_prompt_clauses_and_delivery.md` F). Apply language and the prompt set (G).
 5. Run the prompt audit (`prompt_and_reply_audit.md` section 3) on every prompt and on the set; on failure, return to the earliest cause. If the audit forces a change to a shown decision, show the amendment first.
@@ -86,11 +86,7 @@ Adapt the order to complexity, and keep one coherent style logic from first sent
 
 ## Quality checks
 
-**Reminders at the point of use:**
-- Prompt count equals the deliverable set (times concepts); each prompt states its own piece type, format, and ratio from S, unchanged.
-- Every design element is sorted into "in the prompt" or "stays out": strategy, brand story, analysis, research, purpose, success criteria, alternatives, and any "because" or "in order to" stay out.
-- Every look-shaping attribute the plan decided is stated; if no earlier phase decided one, return to the phase that owns it rather than invent it here.
-- Synthesis is translation, not invention: if translation needs a new concept, style, or element, return to the earlier phase and re-run forward.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 4, 8; non-negotiables: no invented facts, user text verbatim.
 
 ## Next
 

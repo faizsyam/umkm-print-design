@@ -4,7 +4,7 @@ Decide container jobs, shape language, and fill modes, then the ground, scrim, e
 
 **Read this when:** after `07_visual_supporters_and_figures.md` (supporters decided).
 
-**Inputs needed:** The element system so far; Phase 3 style dimensions 1, 4, 5 (corner and edge geometry included), treatment vocabulary, layering stance, density, quiet share; content roles.
+**Inputs needed:** The element system so far; Phase 3 style dimensions 1, 4, 5 (corner and edge geometry included), treatment vocabulary, layering stance, density, quiet share, positioning cues (finish, scale, space); content roles.
 
 ## 2. Guidance (continued from `07_visual_supporters_and_figures.md`)
 
@@ -33,7 +33,7 @@ Each only where the piece needs it; none is a default.
 
 - **Ground:** the base field that unifies the piece, separates it from its surroundings, and keeps contrast with foreground content.
   - **Surface character** is decided, not defaulted to a uniform fill. It realizes the style's material character (Phase 3 D) and the deficits found against the plain-ground baseline, choosing among uniform, tonal, textured, patterned, or ornamented by what each adds (identity, material or craft feel, depth, rhythm, perceived quality). A uniform ground is a decision with a reason (style, setting, information density).
-  - Any surface stays below the information it sits behind: its contrast and detail fall inside text zones, open fields carry only tonal change or grain too fine to read as pattern so they stay genuinely quiet, and it never competes with a rank. Complexity follows density: the denser the information layer, the calmer the ground, and a patterned ground under dense text is lowered to a texture that recedes or confined to edges and open zones. Foreground content owns the contrast and detail, and the ground never softens the edge of text or the hero.
+  - Any surface stays below the information it sits behind: its contrast and detail fall inside text zones, open fields carry only tonal change or grain too fine to read as pattern so they stay quiet, and it never competes with a rank. Complexity follows density: the denser the information layer, the calmer the ground, and a patterned ground under dense text is lowered to a texture that recedes or confined to edges and open zones. Foreground content owns the contrast and detail, and the ground never softens the edge of text or the hero.
   - **Layered ground:** where the layering stance calls for it, in more than one quiet step (tonal fields, overlapping shapes, surface detail), quiet where information lives. In a flat style it is the main way to enrich the piece.
 - **Scrim:** a translucent tonal layer behind a text zone, only when content must sit on an uneven image or field and a quiet ground cannot be planned (quiet ground is the first remedy).
 - **Edge behavior:** which elements run off the trim (ground, hero, large blocks, surface) and which stay inside. Mandatory content, the identity unit, and fine borders stay inside the safe margin.
@@ -47,12 +47,8 @@ Each only where the piece needs it; none is a default.
 - Every container carries a purpose line and names the rung it needed. One shape language holds across the system, while each information role and rank has its own form and fill mode, so no two roles share one container design. The apparent form appears only by decisive criterion.
 - The ground's surface character is decided against the plain-ground baseline and the style's material character; a uniform ground carries a recorded reason; any surface stays below the information it sits behind, and no visible pattern or ornament sits in a field the plan holds as quiet.
 
-**Reminders at the point of use:**
-- Containers are decided, not defaulted: purpose line first; lightest device on the ladder (spacing and alignment, then rule or tonal step, then bounded container).
-- One shape language across the system; each information role and rank has its own form and fill mode; compare the apparent form with at least two alternatives.
-- Every container counts against the element allowance and weight ceiling and never creates a rival of the same rank.
-- No visible pattern or ornament sits in a field the plan holds as quiet; any surface stays below the information it sits behind.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 5, 6, 7.
 
 ## Next
 
-Read `09_element_system_evaluation.md`. Carry forward: shape language, containers with fill modes, ground and unifying devices.
+Read `09_element_system_evaluation.md`. Carry forward: shape language, containers with fill modes, and the ground with its scrim, edge behavior, zone transitions, surface, and unifying devices.

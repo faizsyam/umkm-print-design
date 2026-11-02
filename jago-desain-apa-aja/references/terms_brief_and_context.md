@@ -18,7 +18,7 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Necessity | **mandatory** (the user said it must appear, or the piece cannot work without it), **optional** (offered or helpful), **excluded** (the user said not to include it) |
 | Provenance | **given**, **fixed asset**, **inferred**, **researched**, **creative choice** (the skill's own decision) |
 | Fixed asset | A user-supplied element used exactly as provided: logo, brand colors, typefaces, photographs, QR, QRIS or other codes, mascots, established identity |
-| Gap classes | **explicit**, **inferable**, **researchable**, **materially uncertain**. A **blocking gap** is materially uncertain, and a wrong guess would waste the generation or mislead the audience |
+| Gap classes | **explicit**, **inferable**, **researchable**, **materially uncertain**. A **blocking gap** is a materially uncertain gap that passes the clarification test (`00_conversation_voice_modes_and_intake.md` section 3) and whose answer decides one of the four items listed in `01_brief_and_requirements.md`, section E |
 | Subject | What a deliverable represents: a business, organization, product, event, person, or topic. **Brand** is the subject's identity as perceived |
 | Deliverable | One image the request needs, with its own purpose in the whole request, medium and use, format and ratio, and relationship to the others. The **deliverable set** is all of them; each gets its own composition (Phase 5) and standalone prompt (Phase 6) |
 | Design Log | The persisted state record (`workflow_and_state.md` section 4): the standing block **S**, one **Forward block** per phase (decisions as specifications, carry-forward obligations, open flags), and the **Record** (candidates, reasons, objections, rejected directions, research), which never travels forward |
@@ -67,13 +67,6 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Renderability | Whether the image model can draw a thing accurately and repeatably from a description. Reliability falls as: the result must reproduce exact data (characters, digits, codes, specific identities) rather than plausible appearance; more independent details must each be right; detail is fine relative to the image's resolution; the subject is rare or intricate in typical imagery; the same thing must stay identical across separate generations; or it must stay correct under distortion (curves, perspective, overlap). Reduce each by design before relying on it: fewer, larger, simpler, more structured, plainly described. Some things cannot be reproduced and are never imitated: anything whose correctness depends on external truth (scannable or verifiable marks, supplied files that cannot be attached, a real person's likeness, an authority's mark). Capabilities change; a failure the user reports overrides this default |
 | Rendering risk | Mandatory text or a form in the at-risk band that design cannot reduce further (shorter lines, larger size, simpler grouping, clearer structure). Mitigate by design first, then tell the user once in the notes what to check in the result |
 | Volume risk | Mandatory content that the fit ladder could not fit at its legibility minimum inside the space plan. Kept in full and reported once in the notes |
-
-## Where "blocking gap" is worded
-
-The term appears in three places, each for its own context; the wordings are intentionally kept as written and are not merged.
-- The **Gap classes** row of "Inputs and records" above: the definition used for gap classes.
-- `01_brief_and_requirements.md`, section E: the conditions used when sorting gaps in the Brief Ledger.
-- `00_conversation_voice_modes_and_intake.md`, section 3 (clarification test, step 3): the cost test used when deciding whether to ask the user.
 
 ## Quality checks
 

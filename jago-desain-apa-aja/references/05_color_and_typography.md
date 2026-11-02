@@ -4,9 +4,9 @@ A coherent visual system of color, type, identity unit (mark, wordmark, lockup),
 
 **Read this when:** on entering Phase 4 (guided mode: after the Phase 3 go-ahead).
 
-**Inputs needed:** S (content, fixed assets, exclusions, reproduction limits, quality requirements, carrier map); Phase 3 Forward (chromatic stance, style dimensions 6 and 7, boundaries, seed bank, obligations); Phase 2 Forward (surroundings, light, encounter stages, medium reading).
+**Inputs needed:** S (content, fixed assets, exclusions, reproduction limits, quality requirements, carrier map); Phase 3 Forward (style dimensions 6 and 7, dimension 7 holding the chromatic stance; boundaries; tone and positioning; seed bank; carry-forward obligations); Phase 2 Forward (surroundings, light, encounter stages, medium reading).
 
-## Phase card
+## Phase sheet
 
 | Item | Content |
 |---|---|
@@ -15,6 +15,7 @@ A coherent visual system of color, type, identity unit (mark, wordmark, lockup),
 | Decisions | Color strategy, palette, and value key; typographic roles and character; the identifier (fixed asset, or new mark with personality device, lockup, distinction mechanisms) and its identity forms; treatment grade of every text item; supporters (from the text-only baseline) and a deployable counterweight; container purposes, shape language, and fill modes; background and unifying devices; system checks |
 | Exploration | Full protocol with the extended development for the **mark and lockup** (`06_identity_unit_and_copy_treatment.md` C). Compact comparison for **color** (A), **type** (B), copy treatments (`06_identity_unit_and_copy_treatment.md` B2), supporters (`07_visual_supporters_and_figures.md` D), and containers and shape language (`08_containers_and_ground.md` D2) |
 | Output | The element system: each element with purpose line, treatment, plane, weight ceiling, space cost |
+| Entry fields | (the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): For color (with its light or dark feel), type (with how designed text looks by role), and any system decision with real alternatives: the choice, a one-sentence reason, at most two alternatives with their weakness. For the logo and name: the idea it expresses in plain words, what it looks like, how name and symbol join (or "supplied, unchanged"). Each supporter with the lack it fills, or the finding that none is needed; any figure with its origin and role. Construction families, distinction mechanisms, and runner-ups stay in the Record. |
 | Forward | The element system (each element: purpose line, treatment, plane, weight ceiling, space cost, the commitment it realizes); palette with value key; type roles; the identity unit with its mechanisms and identity forms; copy treatments with the provisional ranks they used; supporter set; shape language, containers, fill modes; ground and unifying devices; the deployable counterweight; constraints the prompt must preserve; carry-forward obligations; open flags |
 
 ## 1. Process
@@ -40,7 +41,7 @@ A coherent visual system of color, type, identity unit (mark, wordmark, lockup),
 
 ### A. Color
 
-**Inputs:** Phase 3 chromatic stance; fixed brand colors and reproduction limits (ink count, substrate, finish, or the display's equivalents); the surrounding color field and ambient light or display conditions.
+**Inputs:** Phase 3 style dimension 7 (chromatic stance), space budget (quiet share, role allocations), hero, and mark role; Phase 2 message (these set which items rank first or second for color distribution; final ranks are Phase 5's); fixed brand colors and reproduction limits (ink count, substrate, finish, or the display's equivalents); the surrounding color field and ambient light or display conditions.
 
 **Options** differ in logic, not only hue: what color does here (organize, signal, separate, evoke, depart from the surroundings). Per option, record:
 - roles (dominant, supporting, accent; number of hues and area proportion);
@@ -61,9 +62,9 @@ Monochrome, dual-tone, restrained multicolor, and complex systems are all valid 
 Decide the roles the content needs (display, supporting, informational, numerals and prices, small print) against the lettering of the surroundings and Phase 3 typographic expression. Options differ in stance: classification and construction per role (stroke contrast, proportion, x-height, widths, terminals, spacing), pairing logic, numerals and prices, readability at real distance and light, rendering risk.
 
 **Differentiation by purpose.**
-- Each role is styled to the success measure of its purpose, which comes from what the audience needs from the item (for example, ease of reading, voice and memorability, speed of finding a figure, distinctiveness, credibility at a glance, or findability), stated per role.
+- Each role is styled to the success measure of its purpose, which comes from what the audience needs from the item, stated per role.
 - Roles present in the same text group must be told apart at a glance by at least one clear contrast (classification, weight, width, posture, case, scale, color).
-- Equivalent items share one style everywhere they appear, whatever their length or proximity to other text. Deliberate variation needs a genuine difference in importance, role, emphasis, or purpose, recorded.
+- Equivalent items share one style everywhere they appear, whatever their length or proximity to other text. Deliberate variation needs a difference in importance, role, emphasis, or purpose, recorded.
 - One family is acceptable only when weight, posture, case, or width contrast alone separates the roles. Otherwise pair two families at most, with variants, to stay within what the model renders reliably.
 - Keep roles few but never indistinguishable. Sizes are ratios between roles that follow encounter stages.
 - The wordmark's lettering must differ from the informational type in construction, weight, or treatment (`06_identity_unit_and_copy_treatment.md` C).
@@ -78,15 +79,10 @@ Decide the roles the content needs (display, supporting, informational, numerals
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- Color, type, and mark each show their comparison (apparent option named, options, decisive criterion). Palette and type were judged against surroundings and light, not only the brand. The value key supports every quality requirement, and color intensity follows rank.
-- Roles in one group are distinguishable by a clear typographic contrast, and same-role items share one style. Font names appear only for a stated brand requirement. Each text role has a decided width class, posture, and baseline.
+- Color, type, and mark each show their comparison (apparent option named, options, decisive criterion). Palette and type were each compared against the Environment Profile's surroundings and light, and the comparison is recorded. The value key supports every quality requirement, and color intensity follows rank.
+- Roles in one group differ on at least one named typographic attribute (classification, weight, width, posture, case, scale, color), and same-role items share one style. Font names appear only for a stated brand requirement. Each text role has a decided width class, posture, and baseline.
 
-**Reminders at the point of use:**
-- Value-key check is mandatory: compute the key from area proportions, counting the ground and every large band or block; eliminate any option whose key contradicts a quality requirement.
-- Describe colors to the model by named hues with qualifiers and roles; hex only for supplied brand colors or where precision is essential.
-- Color and type both realize Phase 3 style dimensions 6 and 7; they are provisional constraints for the mark until it is developed.
-- Fitting text is done by container size, line breaks, tier size, or the fit ladder, never by compressing, stretching, or slanting letterforms.
-- Describe type by characteristics; name a font only for a stated brand requirement; at most two families.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 4, 6, 8, 10; non-negotiables: fixed assets untouched, no stated quality contradicted.
 
 ## Next
 

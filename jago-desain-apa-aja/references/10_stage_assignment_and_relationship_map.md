@@ -6,18 +6,19 @@ An Execution Specification for each deliverable: a composition whose hierarchy, 
 
 **Inputs needed:** S (mandatory content, this deliverable's format and ratio, reproduction limits, exclusions, carrier map); Phase 4 Forward; Phase 3 Forward; Phase 2 Forward (message, Environment Profile).
 
-**Contents:** Phase card · 1. Process · Section map (sections of this phase and the file that holds each) · 2. Guidance · B9 and B1. Format and stage assignment (items 9 and 1 of section B) · A2. Relationship map and grouping
+**Contents:** Phase sheet · 1. Process · Section map (sections of this phase and the file that holds each) · 2. Guidance · B9 and B1. Format and stage assignment (items 9 and 1 of section B) · A2. Relationship map and grouping
 
-## Phase card
+## Phase sheet
 
 | Item | Content |
 |---|---|
 | Goal | An Execution Specification for each deliverable: a composition whose hierarchy, space, scale, and placement are decided for its format, relative to the audience's encounter stages and its surroundings, every decision realizing the plan and element system |
-| Receives | S (mandatory content, this deliverable's format and ratio, reproduction limits, exclusions, carrier map); Phase 4 Forward (element system with purpose lines and specs, counterweight); Phase 3 Forward (core idea, hero with hosting capacity, style's compositional behavior and balance type, space intent, mark role, integration, layering, density, point of tension, boundaries, character carriers and links); Phase 2 Forward (message; Environment Profile: encounter stages, reading path, surroundings, medium reading, departure and fit) |
-| Decisions | Confirmation of the message; stage assignment; relationship map and coupling modes; space plan with proportions; spatial strategy; hierarchy, reading sequence and placement (agreeing), plane order; placement, scale, weight, color, and treatment of every element and text item; balance remedy; load check, capacity check, and size freeze; reproduction-condition adjustments; consistency across the set; review result |
+| Receives | S (mandatory content, this deliverable's format and ratio, reproduction limits, exclusions, carrier map); Phase 4 Forward (element system with purpose lines and specs, counterweight); Phase 3 Forward (core idea, hero with hosting capacity, style's compositional behavior and balance type, space intent, mark role, integration, layering, tone and positioning, density, point of tension, boundaries, character carriers and links); Phase 2 Forward (message; Environment Profile: encounter stages, reading path, surroundings, medium reading, departure and fit) |
+| Decisions | Confirmation of the message; stage assignment; relationship map and coupling modes; space plan with proportions; spatial strategy; hierarchy, reading sequence and placement (agreeing), plane order; placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2); balance remedy; load check, capacity check, and size freeze; reproduction-condition adjustments; consistency across the set; review result |
 | Exploration | Full protocol for the **spatial strategy** (`11_space_plan_and_spatial_strategy.md` C). Stage assignment, space plan, and hierarchy follow the rules below; record reasons, not candidate comparisons |
 | Output | The Execution Specification |
-| Forward | The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; space plan with proportions (the open regions named by what they separate or frame, and the density level); spatial strategy; placement, scale, weight, color, and treatment of every element and text item (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record |
+| Entry fields | (the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): the reading order in brief (what is taken in at each encounter stage); what is attached to the picture and what stands apart; the arrangement chosen with at most two alternatives and their weakness; and the share of quiet space (rows for a deliverable only where it differs). The capacity check passes silently. |
+| Forward | The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; space plan with proportions (the open regions named by what they separate or frame, and the density level); spatial strategy; placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2) (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record |
 
 ## 1. Process
 
@@ -27,9 +28,9 @@ Order logic: steps 2 to 5 run in a fixed order (stages, space plan, strategy, pl
 
 1. Confirm the message from Phase 2. Reword it only if triage or content volume changes what the glance viewer can take away, and record the change.
 2. Read the format (B9), assign every content item to an encounter stage (B1), and map referents and coupling modes (A2).
-3. Decide the space plan before placing anything: area shares that, with the quiet reserve, margin, and separations, account for the whole format, with the hero group's field reserved as one region (`11_space_plan_and_spatial_strategy.md` B2).
+3. Decide the space plan before placing anything: area shares that, with the quiet share, margin, and separations, account for the whole format, with the hero group's field reserved as one region (`11_space_plan_and_spatial_strategy.md` B2).
 4. Decide the spatial strategy by the protocol (`11_space_plan_and_spatial_strategy.md` C), each card tested for fit against the load budget.
-5. Rank and place content (`12_hierarchy_and_element_placement.md` A, D), settling each group's arrangement form (A2) against the region the space plan gives it, with provisional sizes derived top-down from each zone's share (`11_space_plan_and_spatial_strategy.md` B2): tiers at their legibility minimums plus the steps hierarchy needs, inside the zone and never enlarged to fill it. Run the load check and, if content or load exceeds the space plan, the fit ladder (`11_space_plan_and_spatial_strategy.md` B4; `13_load_balance_and_capacity_checks.md` B5). An item promoted to first or second rank with no treatment decision takes the Phase 4 treatment check (B2 in `06_identity_unit_and_copy_treatment.md`).
+5. Rank and place content (`12_hierarchy_and_element_placement.md` A, D), settling each group's arrangement form (A2) against the region the space plan gives it, with provisional sizes derived top-down from each zone's share (`11_space_plan_and_spatial_strategy.md` B2): tiers at their legibility minimums plus the steps hierarchy needs, inside the zone and never enlarged to fill it. Run the load check (`13_load_balance_and_capacity_checks.md` B5) and, if content or load exceeds the space plan, the fit ladder (`terms_design_system.md`, Fit ladder (full)) with the legibility minimums of `11_space_plan_and_spatial_strategy.md` B4. An item promoted to first or second rank with no treatment decision takes the Phase 4 treatment check (B2 in `06_identity_unit_and_copy_treatment.md`).
 6. Check balance (`13_load_balance_and_capacity_checks.md` A3) on the placed composition and remedy it.
 7. Run the capacity check (`13_load_balance_and_capacity_checks.md` B7) and freeze sizes. A remedy that moves or resizes an element re-estimates that element's balance only. If group-level remedies fail, the strategy does not fit the content: return to step 4 for the next strategy, never shrink to pass.
 8. Decide backgrounds, reproduction conditions, and the set (`14_backgrounds_review_and_gate.md` E).
@@ -80,7 +81,7 @@ Where the hero carries the message alone, or coupling would dilute it, its text 
 **Rules**
 - **Most specific referent.** An item refers to the most specific thing it is about or evidence of: a claim that substantiates a depicted thing refers to that thing, not to the subject. Parallel items (several items doing the same job) are separate units, each placed by its own referent (in its own container only where `08_containers_and_ground.md`, D2's ladder requires one). They merge into one strip or group only when the viewer should read them as a single claim. Compactness is not a reason to merge.
 - **Hero stays dominant.** Integrated and attached text is subordinate in scale, weight, and contrast; the hero group reads as one object at glance, its details resolving at approach. The resting field around the hero can host the group's text, provided the isolation the hero needs and the field's open character survive. Text squeezed into a separate band beside open ground that could host it without losing either is a misallocation.
-- **Balance and clarity.** Integrated items counterbalance the hero's composition (one-sided only when the asymmetry is the plan). Integrate only as many items as stay readable at approach (typically five labels at most): one rail or radial rhythm, one short uncrossed pointer style ending on the part named, text on quiet ground, never across detailed parts of the hero.
+- **Balance and clarity.** Integrated items counterbalance the hero's composition (one-sided only when the asymmetry is the plan). Integrate only as many items as stay readable at approach (at most five labels): one rail or radial rhythm, one short uncrossed pointer style ending on the part named, text on quiet ground, never across detailed parts of the hero.
 - **Verbatim.** Integration changes position and form, never wording or order. Split a string across labels only if each fragment is verbatim, in order, and reads alone; otherwise attach it whole. A group title stays with its items.
 - **Group count.** Count perceptual groups at glance. Merging items that share a referent lowers the count, and units arranged around a shared referent read as one group; many equal separate bands make a list.
 - **Reliability and isolation.** Use only forms the model renders reliably (one short line on one smooth arc, straight pointers, few labels). An integrated form that overlaps or wraps the hero needs a clean isolated hero edge. If doubtful, attach.
@@ -103,11 +104,7 @@ Where the hero carries the message alone, or coupling would dilute it, its text 
 - Stage assignment is recorded.
 - No deliverable's composition was derived by resizing or cropping another's.
 
-**Reminders at the point of use:**
-- Every content item has one stage and tier, assigned by when the viewer needs it, not by how important the requester feels it is.
-- Every text item is mapped from its referent and content role to a coupling mode (integrated, attached, separate); the Phase 3 integration stance stands unless a named failure appears.
-- Integration changes position and form, never wording or order; integrate only as many items as stay readable at approach (typically five labels at most).
-- Compose for this deliverable's format; never derive it by scaling or cropping another deliverable's composition.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 6, 7, 10; non-negotiable: user text verbatim.
 
 ## Next
 

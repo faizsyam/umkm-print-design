@@ -4,7 +4,7 @@ Find what the piece lacks beyond text, identity unit, and a plain ground, and me
 
 **Read this when:** after `06_identity_unit_and_copy_treatment.md` (identity unit and copy treatments decided).
 
-**Inputs needed:** The element system so far (palette, type, identity unit, copy treatments); Phase 3 hero, imagery stance, supporter budget, treatment vocabulary, style dimensions 1, 4, 5; S quality requirements; Visual source inventory and seed bank.
+**Inputs needed:** The element system so far (palette, type, identity unit, copy treatments); Phase 3 hero, imagery stance, figure stance, supporter budget, treatment vocabulary, style dimensions 1, 4, 5; S quality requirements; Visual source inventory and seed bank.
 
 ## 2. Guidance (continued from `06_identity_unit_and_copy_treatment.md`)
 
@@ -35,7 +35,7 @@ Find what the piece lacks beyond text, identity unit, and a plain ground, and me
 4. *Small supporters:* simple icons, spot forms, dividers, an ownable recurring motif from the inventory.
 5. *Typographic and edge detail:* secondary-line detail, labels, container or border character.
 
-Each stays below the information it serves and inside the structure-and-decoration line of the space budget. A remedy from step 3 on is admitted only if it beats its lighter alternative (nothing, a smaller or simpler form, spacing) at its space cost. A family repeated across items (an icon per entry, a motif per card) is one supporter system: its cumulative footprint counts as a block and its quantity is fixed in its card. Where the allowance cannot hold a remedy, the deficit is accepted rather than met by consuming quiet.
+Each stays below the information it serves and inside the structure-and-decoration line of the space budget. A remedy from step 3 on is admitted only if it beats its lighter alternative (nothing, a smaller or simpler form, spacing) at its space cost. A family repeated across items is one supporter system: its cumulative footprint counts as a block and its quantity is fixed in its card. Where the allowance cannot hold a remedy, the deficit is accepted rather than met by consuming quiet.
 
 **Counterweight provision.** Balance depends on a layout Phase 5 settles, and repositioning existing elements is Phase 5's first remedy. Unless the stance is strictly symmetric, name a deployable counterweight drawn from what the system already has (the ground's tonal step, an extension or echo of an existing motif or of the hero, a large quiet tonal shape) before creating any new element; a new carrier is added only when none of these can serve. It is quiet, scalable, and low-intensity, in the shape and imagery language, and Phase 5 sets its scale and position from the structure-and-decoration line of the budget, never from the quiet share. A piece with none that later measures unbalanced returns here.
 
@@ -48,7 +48,7 @@ Each stays below the information it serves and inside the structure-and-decorati
 | Figures (see below) | One role per appearance | A role answers a real deficit and the figure is supplied or wanted | Unasked; another element holds the role; permission for a supplied person unknown; a real person's likeness or implied endorsement |
 | Spot illustration | Personality, story, or mood at a content block | A block needs a small visual cue | It only fills space or crowds content |
 | Image treatment and sets (cutout or mask; image set) | Cutout lets an image overlap, wrap, or host integrated text; set gives breadth across equally important images | The image must interact with layout and its edge reads clean; several subjects share equal importance and no hero leads | Original surroundings carry meaning; edge would render poorly; one message must dominate; set exceeds what the generator keeps consistent |
-| Pattern, texture, and ornament | Ownership and rhythm; material, craft, or cultural character; tactile richness; ornament gives an edge, break, or transition its character | The ground or an edge needs identity, material feel, or richness and the treatment can stay secondary to information | Information sits directly on a treatment strong enough to compete with it; it muddies fine content; it has no purpose beyond filling |
+| Pattern, texture, and ornament | Ownership and rhythm; material, craft, or cultural character; tactile richness; ornament gives an edge, break, or transition its character | The ground or an edge needs identity, material feel, or richness and the treatment can stay secondary to information | Information sits directly on a treatment of equal or higher salience; it muddies fine content; it has no purpose beyond filling |
 | Borders and frames | Border closes the composition; frame isolates one item | The composition needs closure, or one item needs emphasis | Near the trim (keep inside the safe margin or bleed deliberately); dense layout; many framed items so none stands out |
 | Dividers | Separate content groups | Space alone cannot separate | Spacing already does; an ornament interrupts reading |
 | Pointers, connectors, direction | Tie a depicted part to its label or an item to its value; direct attention; show a given sequence | A relationship, direction, or sequence would otherwise be unclear | Proximity already groups; no given order; pointers many or crossing |
@@ -83,12 +83,7 @@ Each supporter shares the style's form language, line quality, and finish; micro
 **Gate checks for this step (fails if any is false):**
 - The text-only baseline was run. Each supporter names its deficit, holds a distinct purpose, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design; no invented level, rating, or trust mark.
 
-**Reminders at the point of use:**
-- No supporter is a default; a piece that needs none is valid, and a user's exclusion of imagery stands.
-- Run the text-only baseline first; name deficits as concrete observations; remedy in the order enrich before add.
-- Each supporter names its deficit, holds a distinct purpose, stays below the information it serves, and fits the structure-and-decoration line of the space budget.
-- A figure has origin and one role per appearance, and shares one design everywhere.
-- Unless the stance is strictly symmetric, name a deployable counterweight drawn from what the system already has.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 5, 6; non-negotiables: no invented facts, no figure unasked.
 
 ## Next
 

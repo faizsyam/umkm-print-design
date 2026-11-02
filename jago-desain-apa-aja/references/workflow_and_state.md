@@ -9,10 +9,10 @@ Defines the phase order and exit artifacts, which phase owns and reads which dec
 ## 3. Workflow
 
 **Reading order.** The routing table in `SKILL.md` names which file to open at which step; each file's "Read this when" repeats the trigger.
-- On entering a phase: that phase's files, in order, never earlier, never skipped. The first file of each phase opens with a phase card listing what the phase reads, decides, and hands forward.
+- On entering a phase: that phase's files, in order, never earlier, never skipped. The first file of each phase opens with a phase sheet listing what the phase reads, decides, and hands forward.
 - Cross-phase files are read at the step the routing table names: the glossary parts at Phases 1 and 3, `exploration_protocol.md` and `global_standards.md` on entering Phase 2, this file and `quality_gates.md` at the first gate (Phase 1's).
 - Each file is read once and stays in context; reopen only a section a decision needs. If a standard or term referenced in a step file is no longer visible, re-open the file that defines it before continuing.
-- On a resumed or revision turn, read only the files of the phases being re-entered.
+- On a resumed or revision turn, read `workflow_and_state.md`, `quality_gates.md`, the files of the phases being re-entered, and the cross-phase files the routing table names for those phases (glossary parts, protocol, standards, UX, audit) when they are not in context.
 
 | Phase | Exit artifact | File |
 |---|---|---|
@@ -39,12 +39,15 @@ Each decision has one owning phase and reads only the inputs listed. **S** is th
 | 3 | Core idea → style → hero | message, inventory, differentiation, audience encounter, survey, criteria, S qualities, brand design (each reads the one before) | the three choices; hero's hosting capacity and permitted mark roles |
 | 3 | Governing principles, quality carrier map | the three choices, criteria, S qualities | space intent, imagery, integration, mark role and the rest; carrier map |
 | 4 | Color, type → mark and lockup | style dimensions 6 and 7, S fixed assets and reproduction limits, profile surroundings, encounter stages, and medium reading, carrier map, mark role, seed bank | palette with value key, type roles, identity unit |
-| 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, Communication Problem (objective, weakest link, message), encounter stages, hero, mark role, imagery stance, space intent, style dimensions 1, 4, and 5 (corner and edge geometry included), boundaries, character carriers, layering stance | element system with purpose lines |
+| 4 | Copy treatment (provisional rank), supporters, containers, ground | content roles, Communication Problem (objective, weakest link, message), encounter stages, hero, mark role, imagery stance, space intent, style dimensions 1, 4, and 5 (corner and edge geometry included), boundaries, character carriers, layering stance, tone and positioning, figure stance | element system with purpose lines |
 | 5 | Per deliverable: stages → space plan → strategy | S (that deliverable's format and ratio), message, profile (stages, reading path, medium reading), element system, hero hosting, integration stance, balance type, space budget and density level | stage assignment, space plan (area shares accounting for the whole format), strategy (each card tested for fit) |
-| 5 | Per deliverable: ranks, reading sequence, placement, balance, load and capacity freeze | strategy, element system with purpose lines, mark role, layering stance, density, point of tension, counterweight | Execution Specification |
+| 5 | Per deliverable: ranks, reading sequence, placement, balance, load and capacity freeze | strategy, element system with purpose lines, mark role, layering stance, tone and positioning, density, point of tension, counterweight | Execution Specification |
+| 5 | Per deliverable: realization of the Phase 4 ground and unifying devices; reproduction-condition adjustments; across the set: consistency | frozen composition, Phase 4 ground and unifying devices, S reproduction limits, profile (medium reading) | Execution Specification (backgrounds, adjustments, set rules) |
 | 6 | Prompt set, then each prompt | S, the Execution Specifications, the Phase 4 specs they name, style dimensions, hero specifics | prompts, labels, usage steps, notes |
 
 A later phase applies the decisions it reads and does not re-weigh them. Records are never inputs to a decision (section 4).
+
+Copy treatment has one owner: Phase 4, rule B2. An item first promoted to rank 1 or 2 in Phase 5 takes its treatment under the same rule; the result is logged as a Phase 5 item with Source "Phase 4 rule B2".
 
 ## 4. Execution rules
 
@@ -60,7 +63,7 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
 - **Gates and entries.** Each phase ends at its gate (`quality_gates.md` section 1).
   - Guided mode: show the entry immediately, in the user's language. Phase 2's findings lead the Phase 3 entry; there is no separate Phase 2 stop. End the turn with a confirmation question after Phases 3 and 4 and continue only on the go-ahead. Phase 5's entry is shown and Phase 6 follows without stopping.
   - Auto mode: show nothing at gates; the checks still run.
-- **Phase entry.** Read the phase's files in order, take S and the Forward fields its phase card lists from the Design Log or context, and decide one decision at a time, each against the whole (principle 1). When lost or overloaded, return to the phase card, then the log. Do not rush to the prompt.
+- **Phase entry.** Read the phase's files in order, take S and the Forward fields its phase sheet lists from the Design Log or context, and decide one decision at a time, each against the whole (principle 1). When lost or overloaded, return to the phase sheet, then the log. Do not rush to the prompt.
 - **Working notes** record decisions and reasons, not deliberation. Trivial decisions are made directly. A gate that passes is one line in the log; only failures, fixes, objections, and amendments are written out.
 
 **State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
@@ -73,24 +76,35 @@ A later phase applies the decisions it reads and does not re-weigh them. Records
   - quality requirements (user's words, translation); depth; mode.
 
   Phase 3 adds the quality carrier map. Apart from that, S changes only by user corrections.
-- **Forward block**, one per phase, appended at its gate. Each phase card lists its Forward fields. It holds:
-  - the phase's decisions as specifications later phases act on, each with its source tag;
+- **Forward block**, one per phase, appended at its gate. Each phase sheet lists its Forward fields. It holds:
+  - the phase's decisions as log items (Decision, Specification, Source, Constrains, Status; schema below), each a specification later phases act on;
   - **carry-forward obligations**: every mitigation, accepted cost, and "amplify here" move the protocol recorded, so a later phase can realize it;
   - **open flags**: assumptions, provisional items, unresolved uncertainty, kept apart from the decisions so nothing unresolved reads as settled.
 
   A decision that rests only on provisional items stays tagged and is disclosed in the summary or entry (auto mode: the key decisions).
-- **Record:** candidates and tables, runner-ups, decisive criteria, objections with resolutions, rejected directions, research notes, shown amendments. Read only by gates and audits, by revisions, and by the return rule; never passed to a later decision or to Phase 6.
+- **Record:** the Basis and Rejected fields of every log item, candidates and tables, objections with resolutions, research notes, shown amendments. Read only by gates and audits, by revisions, and by the return rule; never passed to a later decision or to Phase 6.
 
-**Persistence.** With file tools, keep the log at `/home/claude/design_log.md`: create it when the user confirms the summary (S and the Phase 1 Forward block); append one Forward block and its Record entries per later phase at its gate; read S and the Forward blocks when a turn resumes work and before any revision. It is never presented. Without file tools, keep it in notes. If it is lost, rebuild it from the confirmed summary, shown entries, prompts, and user messages, marking rebuilt items provisional.
+**Log item schema.** Every decision is one log item. Field names are fixed; phase sheets, gates, and revisions use them.
+
+| Field | Holds | Kept in |
+|---|---|---|
+| Decision | the decision's name exactly as in its phase sheet's Decisions row | Forward |
+| Specification | the chosen option, stated so a later phase can act on it without the Record | Forward |
+| Source | provenance tag (given, researched, inferred, creative choice) and the origin it traces to (ledger item, finding, plan commitment) | Forward |
+| Constrains | the later decisions whose Reads (ownership map) include this one | Forward |
+| Status | current, stale, or re-derived | Forward |
+| Basis | the principle number (`global_standards.md` section 5) or the evidence that decided it | Record |
+| Rejected | the runner-up, the decisive criterion, and the rejected alternatives | Record |
+
+A decision made directly logs Basis as one line and Rejected as none. A decision fixed by the user, a supplied asset, or evidence logs Source as fixed and Rejected as none.
+
+**Stale flag.** When a decision changes, set Status to stale on every item whose Decision is in the changed item's Constrains, transitively. Re-derive stale items in phase order and set them to re-derived. An item whose inputs did not materially change is re-checked and set to current without being redecided.
+
+**Persistence.** With file tools, keep the log at `/home/claude/design_log.md`: create it when the user confirms the summary (S and the Phase 1 Forward block); append one Forward block and its Record items per later phase at its gate; read S and the Forward blocks when a turn resumes work and before any revision. It is never presented. Without file tools, keep it in notes. If it is lost, rebuild it from the confirmed summary, shown entries, prompts, and user messages, marking rebuilt items provisional.
 
 ## Quality checks
 
-- Phase N+1 starts only when Phase N's required decisions are made, its exit artifact exists, and its gate has passed; no phase is skipped, merged, or deferred.
-- Each phase read only S and the Forward fields its phase card lists; candidates, rejected options, survey detail, research notes, and rationale stayed in the Record.
-- Every decision names its source; every quality requirement traces Phase 1 translation -> plan carrier -> value key and element carrier -> placement -> prompt clause; every carry-forward obligation is realized or recorded as an accepted cost.
-- No number or decision is stated to the user before the checks that could change it have run.
-- A failed gate returns to the earliest responsible phase, redoes only the decisions that read the changed one, and caps each issue at two revision cycles.
-- The Design Log is kept at `/home/claude/design_log.md` with file tools (never presented), otherwise in notes.
+- Pass: the Order, Hand-offs, Traceability, Gate integrity, and Return rules of section 4 hold, and every log item has all Forward fields of the schema; `quality_gates.md` section 1 runs these at each gate.
 
 ## Next
 

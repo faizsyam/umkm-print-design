@@ -6,9 +6,9 @@ A complete, classified, verifiable record of what is known, required, and uncert
 
 **Inputs needed:** User message, attachments (logos, photos, references), prior conversation; for a revision, the log.
 
-**Contents:** Phase card · 1. Process · 2. Guidance · A. Deliverables, medium, and context · B. Subject and identity · C. Content · D. Preferences, constraints, quality requirements · E. Gaps
+**Contents:** Phase sheet · 1. Process · 2. Guidance · A. Deliverables, medium, and context · B. Subject and identity · C. Content · D. Preferences, constraints, quality requirements · E. Gaps
 
-## Phase card
+## Phase sheet
 
 | Item | Content |
 |---|---|
@@ -98,19 +98,19 @@ Record style, color, mood, theme, references, assets, exclusions, and cultural o
 - **Explicit:** record.
 - **Inferable:** infer and tag.
 - **Researchable:** pass to Phase 2 naming the decision it could change; drop it if it changes none.
-- **Materially uncertain:** a **blocking gap** when its answer would change which deliverable carries the message, the number or format of deliverables (when medium and purpose do not imply them), whether mandatory content exists, or whether the format can contain the content (the load read, A). Weigh the cost of a wrong guess against the cost of asking (`00_conversation_voice_modes_and_intake.md` section 3). Ask blocking gaps, and valuable gaps (answers that change story, setting, content, or look), through the intake. Never ask what can be derived or investigated.
+- **Materially uncertain:** a **blocking gap** when it passes the clarification test (`00_conversation_voice_modes_and_intake.md` section 3) and its answer decides one of four items: which deliverable carries the message; the number or format of deliverables (when medium and purpose do not imply them); whether mandatory content exists; whether the format can contain the content (the load read, A). Ask blocking gaps, and valuable gaps (answers that change story, setting, content, or look), through the intake. Never ask what can be derived or investigated.
 - Facts about the subject are never invented.
 - A missing aesthetic preference is never blocking (Phase 3 decides it). A vague quality statement is not a missing preference but the requirement.
 
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- A colleague could design from the ledger without the original message.
+- Every S field listed under State (`workflow_and_state.md` section 4) is filled, tagged (given, researched, inferred), or listed as an open gap with its gap class; every mandatory string is restated, so no later phase needs the original message.
 - Every mandatory string is exact; every item has necessity, provenance, and referent; fixed assets and exclusions are listed; no unsourced fact; no suggestion recorded as given.
-- Every stated quality and priority is kept in the user's words with a full translation (a mood-word brief that yields no qualities fails).
+- Every stated quality and priority is kept in the user's words with a full translation (each translation names at least one visible, checkable feature; a quality with none fails).
 - The deliverable set is recorded with each deliverable's purpose, format, ratio, content volume and load read, and setting (inferred and tagged if unstated); references are recorded as taste, never layout requirements; supplied visual material is listed as fixed assets.
 - Intake stayed within limits; every question passed the clarification test and, for a new user, had options or a default; none was answerable from the brief; the summary was shown with the mode question (Phase 2 starts only after the user confirms).
-- Objection (production specialist): are the deliverables, medium, format, reproduction limits, and encounter conditions captured well enough to design for, and does the content fit the format at a readable size, or has the over-capacity been raised rather than absorbed?
+- Objection (production specialist): does S record, for every deliverable, its medium, format, reproduction limits, and encounter conditions, and does the content volume fit the format at or above each tier's legibility minimum, or is the over-capacity raised as a blocking gap?
 - Depth is recorded with the Full condition that set it, or none.
 - Even a simple brief has a written ledger; simplicity shortens it, never removes it.
 

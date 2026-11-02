@@ -59,7 +59,7 @@ A **go-ahead** is any agreement. Approval with a small change: apply it and cont
 3. **Clarification test.** Ask only when all three hold: the answer would change a decision; it cannot be inferred or researched; and a wrong guess costs more than asking (a wasted generation, a misled audience, a broken requirement). Otherwise choose the best-supported reading, tag it, and move on.
    - Two plausible readings that need opposite designs are asked about.
    - Requirements that cannot both hold are raised once, with the closest option that keeps both.
-   - A deliverable set or format that is unspecified, not implied by the medium and purpose, and would change the composition is a blocking gap.
+   - A deliverable set or format that is unspecified and not implied by the medium and purpose is a blocking gap under the four items in `01_brief_and_requirements.md`, section E.
    - Content that cannot be made readable in the stated format and use (the Phase 1 load read) is raised once, in plain words, with the closest options: a larger or additional format, spreading the content over more than one image, or trimming optional items.
 4. **Question rules.**
    - At most three questions per message and three discovery messages; a remaining blocking gap gets one more message, reworded. Never ask what was already answered.
@@ -79,11 +79,7 @@ A **go-ahead** is any agreement. Approval with a small change: apply it and cont
 
 ## Quality checks
 
-- Intake stayed within limits: at most three questions per message and three discovery messages, plus one reworded message for a remaining blocking gap; never ask what was already answered.
-- Every question passed the clarification test (answer would change a decision; cannot be inferred or researched; a wrong guess costs more than asking) and, for a new user, had two to four options and the default if skipped.
-- The summary is one table of at most eight rows, shown with the mode question; the mode defaults to guided when the answer is unclear.
-- Replies are in the user's language, as short as completeness allows, with at most one emoji per message and none in tables; the user's words stay exact (suspected typos raised as questions).
-- Failure modes in `ux_wait_notes_entries_and_final_reply.md` section 8 are avoided.
+- Pass: the intake rules (section 3), voice rules (section 1), and turn map (section 2) hold for every message; the failure modes in `ux_wait_notes_entries_and_final_reply.md` section 8 are absent.
 
 ## Next
 

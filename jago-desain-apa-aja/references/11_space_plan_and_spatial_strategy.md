@@ -4,15 +4,15 @@ Decide the space plan before anything is placed, derive legibility minimums from
 
 **Read this when:** after `10_stage_assignment_and_relationship_map.md` (stages, coupling modes, and arrangement forms decided for this deliverable).
 
-**Inputs needed:** Stage assignment and relationship map from `10_stage_assignment_and_relationship_map.md`; Phase 3 space intent, density level, balance type; Phase 2 encounter stages with reading distances; S format and ratio.
+**Inputs needed:** Stage assignment and relationship map from `10_stage_assignment_and_relationship_map.md`; Phase 3 space intent, space budget (quiet share, role allocations), density level, balance type, hero hosting capacity, integration stance; Phase 4 element system; Phase 2 encounter stages with reading distances; S format and ratio.
 
 ## 2. Guidance (continued from `10_stage_assignment_and_relationship_map.md`)
 
 ### B2 to B4 and B6. Space plan, size follows stage, legibility minimum, space as visibility (items 2, 3, 4, and 6 of section B)
 
 2. **Space plan** before placing anything, as proportions of the full format at this deliverable's ratio. It honors the Phase 3 space intent.
-   - **Area shares:** each zone's portion of the format follows its communication role and rank (hero group and first-rank message largest, the identity unit per its mark role, supporting then utility information progressively smaller), so area agrees with rank before any content is placed. The shares are a budget that, with the quiet reserve, margin, and separations, accounts for the whole format with headroom (nothing is left unassigned to become filler); each share is a ceiling its content is fitted inside, never a floor it may grow past.
-   - **Order of reservation:** the quiet reserve, outer margin, and separations are set first, then the regions the longest and densest mandatory text needs (its width and line count at the legibility minimum, since it cannot compress), then the other zones in what remains, so the whole format is accounted for and a zone's region never includes its own separation. Fitting inside its region is never the test of adequacy; the room left around its items is.
+   - **Area shares:** each zone's portion of the format follows its communication role and rank (hero group and first-rank message largest, the identity unit per its mark role, supporting then utility information progressively smaller), so area agrees with rank before any content is placed. The shares are a budget that, with the quiet share, margin, and separations, accounts for the whole format with headroom (nothing is left unassigned to become filler); each share is a ceiling its content is fitted inside, never a floor it may grow past.
+   - **Order of reservation:** the quiet share, outer margin, and separations are set first, then the regions the longest and densest mandatory text needs (its width and line count at the legibility minimum, since it cannot compress), then the other zones in what remains, so the whole format is accounted for and a zone's region never includes its own separation. Fitting inside its region is never the test of adequacy; the room left around its items is.
    - **Spacing as a graded system,** each level distinct from the next:
      - an outer margin scaling with the format;
      - separations between zones and groups, clearly larger than the gaps inside a zone (space is the first separator, ahead of rules and boxes);
@@ -58,14 +58,10 @@ Judge with the protocol lenses. Density, scale, and finish are judged relative t
 **Gate checks for this step (fails if any is false):**
 - The strategy was chosen from three structurally different cards.
 - Only glance content is sized for the widest reach, and lower tiers are sized for their own stage's reach.
-- The space plan is stated with proportions: area shares that with the quiet reserve account for the whole format with headroom, graded spacing levels and relationship gaps included, and realized.
-- Every quiet area has a job and reads as contiguous, calm, undecorated relief.
+- The space plan is stated with proportions: area shares that with the quiet share account for the whole format with headroom, graded spacing levels and relationship gaps included, and realized.
+- Every quiet area has a stated job and is contiguous, free of content, and undecorated (`terms_design_system.md`, Quiet).
 
-**Reminders at the point of use:**
-- Space plan before placing anything, as proportions of the full format at this deliverable's ratio: the quiet reserve, outer margin, and separations are reserved first, then the longest and densest mandatory text, then the other zones.
-- Sizes derive top-down: format, then zones (area shares), then elements, then text tiers; an element's wish for size never sets its zone's share.
-- Size follows stage, not format; only glance content is sized for the widest reach; each tier's legibility minimum comes from its own stage.
-- Compare at least three structurally different strategies; a strategy that fits only by compression is eliminated.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 6, 10; conflict priority 2.
 
 ## Next
 

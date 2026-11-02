@@ -33,7 +33,7 @@ Balance is judged on the composed whole after placement. It is measured, not ass
   3. Deploy the Phase 4 counterweight on the light side, gaining weight from area and distance rather than intensity, linked to the composition, below every rank, never carrying required information.
   4. If the element system has none, return to Phase 4.
 
-  Counterweights count against the element allowance and space intent. No remedy takes area from the quiet reserve or from a separation, and any addition or resize is re-checked against the space plan's shares.
+  Counterweights count against the element allowance and space intent. No remedy takes area from the quiet share or from a separation, and any addition or resize is re-checked against the space plan's shares.
 
 ### B7 and B8. Capacity check; proportion, fill, and zone checks (items 7 and 8 of section B)
 
@@ -56,11 +56,7 @@ Balance is judged on the composed whole after placement. It is measured, not ass
 - The quiet share narrowed only at the last rung of the fit ladder (B5).
 - Balance was measured in A3 and remedied in order, with any counterweight named.
 
-**Reminders at the point of use:**
-- Visual load is cumulative: tally text groups, containers and edges, supporters, illustrations, designed and rendering treatments, surface detail, and color intensity by category against the density level; the composition fits only with headroom and with its quiet regions intact.
-- Never, at any rung of the fit ladder: shrink a tier below its minimum; compress, stretch, or slant letterforms; delete mandatory content; resize one member of an equivalent group; take separation from a neighbor.
-- Balance is measured (weights x coordinates, centroid), then remedied in order: reposition, rebalance within ranks, deploy the Phase 4 counterweight, else return to Phase 4.
-- The capacity check runs after balance and before any size is stated; remedies act on the group or role, never on one member; record final sizes and planned wraps.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principle 6; conflict priority 2; the fit ladder (`terms_design_system.md`).
 
 ## Next
 

@@ -2,15 +2,15 @@
 
 The three decision tiers (full protocol, compact comparison, direct), the seven-step full protocol, and the specialist terminology that names things precisely.
 
-**Read this when:** on entering Phase 2; reopen the section for the tier a decision uses. Phase files point here.
+**Read this when:** on entering Phase 2; reopen the section for the class a decision uses. Phase files point here.
 
 **Inputs needed:** The decision being made, its phase, and the depth recorded in S.
 
 Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_depth.md` section 6) scales card detail, never the steps.
 
-## 1. Three tiers
+## 1. Three decision classes
 
-| Tier | Decisions | Method |
+| Class | Decisions | Method |
 |---|---|---|
 | Full protocol | Core idea, style synthesis, hero (Phase 3); logo mark and lockup (Phase 4, plus its extended development); spatial strategy (Phase 5) | Section 2 |
 | Compact comparison | Phase 2: differentiation, weakest link, departure and fit dimensions. Phase 3: governing principles marked "compared". Phase 4: color strategy, typographic voice, copy treatments, supporters, containers and shape language, any open hero treatment | Section 3 |
@@ -18,7 +18,7 @@ Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_d
 
 - Phases 1 and 6 hold no exploration.
 - A Full decision resolved in one pass, with no recorded challenge, has not been decided.
-- A decision fixed by the user, a supplied asset, or evidence is recorded as fixed (`prompt_and_reply_audit.md` section 11) and gets no cards. Only what stays open inside it is explored (a user-named style fixes the lineage, not the seven-dimension synthesis).
+- A decision fixed by the user, a supplied asset, or evidence is recorded as fixed (`prompt_and_reply_audit.md` section 11) and gets no cards. Only what stays open inside it is explored: a user-named style fixes the lineage only, and the seven-dimension synthesis stays open.
 
 ## 2. Full protocol
 
@@ -36,13 +36,13 @@ Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_d
      - **coherence** with decisions already made: amplifies, conflicts, or neutral; flag weaknesses that would compound;
      - brand, audience, and cultural fit, where they differ.
 
-   An argument from a single lens ("it looks refined") is not an evaluation.
+   An argument from a single lens is not an evaluation.
 4. **Challenge before choosing.**
    - Name the runner-up.
    - State the strongest case against the leader and what must be true of the audience, context, and reproduction for it to work.
    - Remove the leader and see who wins.
    - State the leader's margin as one decisive criterion. If none can be stated, keep working.
-   - An apparent option wins only by naming the criterion on which the less obvious candidates fell short; "it is fitting" or "it is common for the category" is not one.
+   - An apparent option wins only by naming the criterion on which the less obvious candidates fell short; a criterion that names no observable property or comparison is not one.
 5. **Test the leader.**
    - *Predictable?* If a stranger could guess it from category and place, rebuild. This tests expression and identity; a convention the audience relies on to read or use the piece stays where the medium reading records that departing costs them.
    - *Specific?* It is nameable by lineage and defining traits, derived from this brief, and would fail unchanged for a competitor.

@@ -56,15 +56,15 @@ Reading the Full conditions:
 | | Full | Focused |
 |---|---|---|
 | Research (Phase 2) | every question that can change a decision | the one or two that can |
-| Territory survey (Phase 3) | 5 territories, 3 source families | 3 territories, 2 families |
+| Territory survey (Phase 3) | at least 5 territories from at least 3 source families | at least 3 territories from at least 2 families |
 | Candidate cards | every field the phase sets | fields that tell candidates apart, plus quality compatibility |
 | Governing principles (Phase 3) | compared: space intent, density and rhythm, imagery, integration, mark role, layering, tone and positioning | compared: space intent, density and rhythm, imagery, integration, mark role; rest decided directly |
-| New mark (Phase 4) | 6 seeds, every check recorded | 4 seeds, checks as pass/fail lines |
+| New mark (Phase 4) | at least 6 seeds, every check recorded | at least 4 seeds, checks as pass/fail lines |
 | Gate objections | two (the two riskiest decisions) | one |
 
 Depth never changes: naming the apparent option, three or more candidates, the runner-up and decisive criterion, the quality checks, the load budget test, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research.
 
-**Raising to Full** applies from the current phase on. Reduced work in an earlier phase is reopened only where the missing depth could change a decision already made (a Focused survey that must now feed six mark seeds gains territories first).
+**Raising to Full** applies from the current phase on. Reduced work in an earlier phase is reopened only where the missing depth could change a decision already made: the survey gains territories until it meets the Full count before the mark seeds are written.
 
 **Deliverable set.** Phase 1 records every deliverable the request needs, derived from what the user must accomplish and not only from what they named.
 - One deliverable per image that must exist: a distinct format or ratio, a distinct side, panel, or screen, or a variant or concept the user asked for.
@@ -85,10 +85,7 @@ Prompts delivered = deliverables × concepts. Never add a deliverable for a vari
 
 ## Quality checks
 
-- Depth is recorded with the Full condition that set it, or none; raise to Full as soon as any phase shows a Full condition.
-- Depth never drops a phase, decision, protocol step, or gate, and never changes the items listed under "Depth never changes".
-- The deliverable set holds one deliverable per image that must exist; prompts delivered = deliverables x concepts; no deliverable is derived by resizing or cropping another's composition.
-- Every gate objection comes from the role that owns the riskiest decision (section 2 table).
+- Pass: depth, deliverable set, and role ownership are recorded as sections 2 and 6 require, and the Phase 1 gate (`01_brief_and_requirements.md`) confirms them.
 
 ## Next
 

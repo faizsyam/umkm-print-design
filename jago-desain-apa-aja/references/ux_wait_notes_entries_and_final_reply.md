@@ -25,10 +25,10 @@ Governs everything the user reads from the first wait note to the final reply. V
 
 ## 5. Phase entries (guided mode)
 
-Each phase file lists its "Entry fields" as the source; this section decides what is shown and how it is worded and laid out. Show only the choice, its reason, and the alternatives: never more than two alternatives, never internal terms, and, for a new user, never decisive criteria in design terms. One entry per phase, built to be skimmed in seconds.
+Each phase sheet lists its "Entry fields" as the source; this section decides what is shown and how it is worded and laid out. Show only the choice, its reason, and the alternatives: never more than two alternatives, never internal terms, and, for a new user, never decisive criteria in design terms. One entry per phase, built to be skimmed in seconds.
 
 ```
-**Stage 3 of 6: idea and style**
+**Step 3 of 6: idea and style**
 What I learned: biggest challenge …; surroundings …; how it can stand out …
 | Decision | Our choice ✅ | Other options |
 |---|---|---|
@@ -47,7 +47,7 @@ OK? Reply to continue, or say what to change.
 - Row labels (translate):
   - Phase 3: main idea, style, what is seen first, open space, logo role.
   - Phase 4: color, lettering, logo and name, emphasized text, supporting visuals.
-  - Phase 5: reading order, text attached to the image, arrangement. When deliverables differ, add rows only for what differs.
+  - Phase 5: reading order, text attached to the image, arrangement, open space. When deliverables differ, add rows only for what differs.
 
 **Feedback.**
 - Acknowledge in one line, re-run the affected parts (`triage_and_revisions.md` section 10), show only the changed rows as **Before | After**, and ask once.
@@ -120,10 +120,7 @@ For users new to design; users with design vocabulary get the terms directly. Tr
 
 ## Quality checks
 
-- Guided mode: every message with real work opens with a wait note; entries appear at Phases 3 to 5 as one compact table; the turn stops for confirmation after Phases 3 and 4. Auto mode: one wait note, nothing shown at gates.
-- Each entry: one table of three to five rows, choice in bold (at most eight words) plus one short sentence, at most two alternatives as "name (weakness)", cells under fifteen words, about ten lines in total.
-- The final reply follows the order in section 6, with each prompt alone in its code block, in English, with its label.
-- Check every user-facing message against section 8 (Failure modes) before sending.
+- Pass: every user-facing message follows sections 4 to 6, and no failure mode of section 8 appears.
 
 ## Next
 

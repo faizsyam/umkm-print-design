@@ -26,29 +26,22 @@ Each element is judged in relation to the whole.
 - **Connection check:** every major element is tied to at least one other by a stated link.
 - **Character test:** with the name covered, the system still carries at least two ownable character carriers from different levers. Carriers sit first inside elements the system already needs (hero depth, letterform detail, color logic, container or edge character); a new element is added only where these cannot carry.
 
-## Forward block (restated word for word from the phase card in `05_color_and_typography.md`)
+## Forward block (restated word for word from the phase sheet in `05_color_and_typography.md`)
 
 The element system (each element: purpose line, treatment, plane, weight ceiling, space cost, the commitment it realizes); palette with value key; type roles; the identity unit with its mechanisms and identity forms; copy treatments with the provisional ranks they used; supporter set; shape language, containers, fill modes; ground and unifying devices; the deployable counterweight; constraints the prompt must preserve; carry-forward obligations; open flags
 
-**Entry fields** block (verbatim from the phase file):
+## Entry fields (restated word for word from the phase sheet in `05_color_and_typography.md`)
 
-**Entry fields** (the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown):
-- For color (with its light or dark feel), type (with how designed text looks by role), and any system decision with real alternatives: the choice, a one-sentence reason, at most two alternatives with their weakness.
-- For the logo and name: the idea it expresses in plain words, what it looks like, how name and symbol join (or "supplied, unchanged").
-- Each supporter with the lack it fills, or the finding that none is needed; any figure with its origin and role.
-- Construction families, distinction mechanisms, and runner-ups stay in the Record.
+(the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): For color (with its light or dark feel), type (with how designed text looks by role), and any system decision with real alternatives: the choice, a one-sentence reason, at most two alternatives with their weakness. For the logo and name: the idea it expresses in plain words, what it looks like, how name and symbol join (or "supplied, unchanged"). Each supporter with the lack it fills, or the finding that none is needed; any figure with its origin and role. Construction families, distinction mechanisms, and runner-ups stay in the Record.
 
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- A designer could build every element from the specification. Every element carries a purpose line whose function traces to a plan commitment, and every commitment is realized.
+- Every element's specification states form, color role, space cost, plane, and treatment, and the decided-attribute test (`quality_gates.md` section 1) finds no attribute left to the model's apparent value. Every element carries a purpose line whose function traces to a plan commitment, and every commitment is realized.
 - A deployable counterweight exists unless the stance is strictly symmetric. Character carriers and links are named for the system; the total fits the structure-and-decoration line and the cumulative load read fits the density level; rendering treatments stay within the vocabulary; shadow or glow exists only by decision.
-- Objection raised and resolved (owner of the riskiest decision per `scope_roles_and_depth.md` section 2, usually the mark: graphic designer or senior art director; two objections at Full depth, the second often from the prompt specialist on renderability).
+- Objection raised and resolved (owner of the riskiest decision per `scope_roles_and_depth.md` section 2, the mark unless another decision carries higher risk: graphic designer or senior art director; the second objection, where `quality_gates.md` section 1 requires one, comes from the prompt specialist on renderability).
 
-**Reminders at the point of use:**
-- Every element carries a purpose line whose function traces to a plan commitment; an element realizing none is removed; a commitment realized by no element is a gap. Every quality requirement needs a visible carrier.
-- The sum of element space costs fits the structure-and-decoration line with the quiet intact; if over, remove or merge elements before shrinking any, lowest rank first.
-- Run the removal test, distinct-purpose check, weight-ceiling check, subtraction pass, additive pass, connection check, and character test.
+**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 1, 5, 6, 7; non-negotiable: no stated quality contradicted.
 
 **Gate:** also run the gate checks of `05_color_and_typography.md` to `08_containers_and_ground.md` and the procedure in `quality_gates.md` section 1; append the Phase 4 Forward block and Record to the Design Log.
 

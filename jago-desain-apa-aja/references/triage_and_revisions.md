@@ -66,15 +66,18 @@ How a failure is classified (critical, major, minor), which phase owns each symp
 
 - **Re-entry point.** Re-enter at the earliest affected phase:
 
-  | Change | Phase |
-  |---|---|
-  | content, deliverables, format, or ratio | 1 |
-  | concept or mood | 3 |
-  | color, value key, type, copy treatment, mark, lockup, supporters | 4 |
-  | arrangement or emphasis | 5 |
-  | wording | 6 |
+  | Change | Re-enter at | Set to stale (`workflow_and_state.md` section 4) |
+  |---|---|---|
+  | content, deliverables, format, or ratio | Phase 1 | S and every later log item that reads it |
+  | audience, setting, medium, or reading conditions | Phase 2 | Phases 3 to 6 items that read the profile, encounter, or message |
+  | concept, mood, style, hero, mark role, space intent, or density | Phase 3 | Phase 4 to 6 items that read the changed decision |
+  | color, value key, type, copy treatment, mark, lockup, supporters, containers, or ground | Phase 4 | Execution Specification items that name the element; Phase 6 prompts that carry it |
+  | arrangement or emphasis | Phase 5 | the affected deliverable's Execution Specification and prompt |
+  | wording only | Phase 6 | the affected prompts |
 
-- **Scope.** Unaffected decisions stay settled. Read S and the Forward blocks of the re-entered and dependent phases (Records only where the return rule needs them), and only those phases' files.
+  A request that spans several rows re-enters at the earliest row. A request that fits no row is traced with the symptom list above.
+
+- **Scope.** Set the stale flags first. Unaffected decisions stay settled. Read S and the Forward blocks of the re-entered and dependent phases (Records only where the return rule needs them), and the files of those phases plus the cross-phase files their routing rows name.
 - **Rework.** Redo, in order, the decisions that read the changed one (`workflow_and_state.md` section 3 map). Tell the user briefly what is being redone and show only what changed, in a short Before | After table in the user's language.
 - **Checks.** Re-run only the design checks the change touches, plus the contradiction scan and any quality whose carrier changed. The prompt audit always runs in full on every fresh prompt.
 - **Feedback** at any confirmation takes the same route.
@@ -82,10 +85,7 @@ How a failure is classified (critical, major, minor), which phase owns each symp
 
 ## Quality checks
 
-- When several causes are possible, the earliest is chosen; a symptom is never patched while its cause stands.
-- Each issue is capped at two revision cycles, then the best available resolution is taken and recorded.
-- After any change, the contradiction scan and the checks the change touches are re-run, and no earlier text still states the old decision.
-- On a revision, only the affected phase files are read, and the prompt audit runs in full on every fresh prompt.
+- Pass: the routing rules of section 4 hold, and every stale item of a revision is re-derived or re-checked (section 10).
 
 ## Next
 
