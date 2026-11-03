@@ -31,26 +31,27 @@ Review the composed whole once against the checks below, each read through the r
   - Every stated quality requirement reads off the composed whole at the glance stage, value key included (recompute the key only if this phase changed the area of ground, bands, or hero).
   - Every element has a distinct purpose, and no decoration outranks the required information it serves.
   - Every placement traces to a plan or element decision, and every plan commitment is visibly realized.
-- **Legibility, balance, space.** Legibility; balance as measured in A3 (`13_load_balance_and_capacity_checks.md`); completeness; proportion and space (realized space matches the plan); cumulative load, tallied by category, fits the budget with headroom; breathing room is perceptible at every zone's perimeter and inside every container, and the quiet regions are contiguous, calm, and undecorated.
+- **Legibility, balance, space.** Legibility; balance as measured in A3 (`13_load_balance_and_capacity_checks.md`); completeness; proportion and space (realized space matches the plan); cumulative load, tallied by category, fits the budget with headroom; breathing room is perceptible at every zone's perimeter and inside every container, each group's space need is met inside the room it was given, and the quiet regions are contiguous, calm, and undecorated while any atmosphere fields sit in ground the quiet does not need.
 - **Context fit.** Fit with actual neighbors and light while departing on the intended dimension; would it fail unchanged for another subject?
 - **Relationships.**
   - Coupled items sit nearest their referents; no picture-with-captions bands; the hero is dominant (or isolated and dominant where it carries the message alone).
-  - Arrangement form is chosen per group from its function, not repeated by default.
+  - Arrangement form is chosen per group from its function, not repeated by default; supplementary information is composed as compact groups, never a row or container per item by default.
   - Neighbors have stated alignment, gap, and clearance; a near-touch is decided as separation or overlap; equivalent units are balanced inside (shared dimensions, rails, and treatment).
   - No zone is crowded at its own scale or takes separation from its neighbors; area shares agree with rank.
   - Cumulative visual load stays within what the space plan carries, and the open regions are contiguous and calm.
 - **Plan features.** The point of tension, if the plan set one, reads at glance. Layering: plane order reads at glance, agrees with hierarchy, leaves required information unoccluded, and a single plane is the style's choice with surface richness carried.
-- **Decided, not defaulted.** Every look-shaping attribute (`terms_brief_and_context.md`) traces to a decision; nothing is generic, templated, or overdecorated, and every rendering treatment in use is in the Phase 3 vocabulary.
+- **Decided, not defaulted.** Every look-shaping attribute (`terms_brief_and_context.md`) traces to a decision; nothing is generic, templated, overdecorated, or underdeveloped (the theme's world is realized, or its absence is a recorded decision), and every rendering treatment in use is in the Phase 3 vocabulary.
 - **Typography and containers.**
   - Equivalent items share one treatment whatever their length.
+  - Roles in a group differ by more than size, and no symbol repeats the words beside it.
   - Text keeps each role's decided proportions and level baseline, with no string compressed, stretched, or slanted to fit.
-  - Containers differ by information role and rank; parallel claims are separate units unless read as one.
+  - Containers differ by information role and rank, and each has its decided material impression; parallel claims remain distinct statements and are gathered by shared job unless read as one.
 - **Effect.** Each element's recorded effect registers at its stage, and none carries more weight than its function earns.
 - **Across the set.** Shared decisions appear identically in every deliverable, and composition differs only as format or encounter requires.
 
 ## Forward block (restated word for word from the phase sheet in `10_stage_assignment_and_relationship_map.md`)
 
-The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; space plan with proportions (the open regions named by what they separate or frame, and the density level); spatial strategy; placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2) (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record
+The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; information groups with arrangement forms and space needs; spatial strategy; space plan with proportions (the open regions, quiet and atmosphere, named by what they separate or frame, and the density level); placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2) (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record
 
 ## Entry fields (restated word for word from the phase sheet in `10_stage_assignment_and_relationship_map.md`)
 

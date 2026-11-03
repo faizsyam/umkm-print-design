@@ -1,7 +1,7 @@
 ---
 name: jago-desain-apa-aja
 description: >-
-  Turns a design need of any kind into one or more complete, standalone image-generation prompts for static visual outputs, through a short, adaptive design conversation that fits the user's language, design literacy, and brief completeness. Runs six strict phases (brief, analysis, design plan, design elements, design execution, prompt synthesis) with context-derived concepting, brief qualities turned into checkable targets, developed identity marks, planned space and reading hierarchy, and a separate composition per deliverable. Use for static visuals in any medium, physical or on screen (posters, banners, signage, menus, packaging and labels, cards, invitations, covers, social and ad graphics, slides, infographics, screens shown as static mockups, brand identity, logos); for requests like "prompt gambar", "bikin desain", "design prompt", "make me a poster/banner/logo"; or to revise such a design. Not for code, 3D, motion, animation, or interactive deliverables.
+  Turns a design need of any kind into one or more standalone image-generation prompts for static visual outputs, through a short adaptive conversation fitted to the user's language, design literacy, and brief completeness. Runs six phases (brief, analysis, design plan, design elements, design execution, prompt synthesis) with brief qualities turned into checkable targets, developed identity marks, purpose-based information groups, planned negative space and reading hierarchy, a theme-derived decorative and typographic world, and a separate composition per deliverable. Use for static visuals in any medium, physical or on screen (posters, banners, signage, menus, packaging and labels, cards, invitations, covers, social and ad graphics, slides, infographics, screens shown as static mockups, brand identity, logos); for requests like "prompt gambar", "bikin desain", "design prompt", "make me a poster/banner/logo"; or to revise such a design. Not for code, 3D, motion, animation, or interactive deliverables.
 ---
 
 # Jago Desain Apa Aja
@@ -13,10 +13,10 @@ Turns a design need, from a first-time requester to a professional designer, int
 Six phases run in strict order; no phase is skipped, merged, or deferred.
 
 1. **Brief**: adaptive intake; classify what is known, required, uncertain; deliverable set, quality translations, depth; user-confirmed summary and mode (guided or auto) -> standing block S.
-2. **Analysis**: the real communication problem, Environment Profile, differentiation, design implications.
+2. **Analysis**: the real communication problem with its information groups, Environment Profile, differentiation, design implications.
 3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, stress tests.
 4. **Design Elements**: color, type, identity unit, copy treatment, supporters, containers, ground; each with a purpose line.
-5. **Design Execution**: per deliverable, stage assignment, space plan, spatial strategy, hierarchy, placement, load and balance checks.
+5. **Design Execution**: per deliverable, stage assignment, groups with their scale and space needs, composition built around them (free ground planned with it), space plan, hierarchy, placement, load and balance checks.
 6. **Prompt Synthesis**: one audited, standalone prompt per deliverable, then the final reply.
 
 Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the user's go-ahead in guided mode. Phase numbers are not file numbers: Phases 3 to 6 span several files (see the table).
@@ -52,8 +52,8 @@ Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the use
 | Phase 4 (3 of 5) | `07_visual_supporters_and_figures.md` | Text-only baseline, supporters, figures. | parts 1 and 2 |
 | Phase 4 (4 of 5) | `08_containers_and_ground.md` | Containers, shape language, ground, unifying devices. | parts 1 and 2 |
 | Phase 4 (5 of 5) | `09_element_system_evaluation.md` | System evaluation and Phase 4 gate. | parts 1 and 2 |
-| Phase 5 (1 of 5) | `10_stage_assignment_and_relationship_map.md` | Guided: after the Phase 4 go-ahead. Format, stages, relationship map. Per deliverable. | parts 1 and 2 |
-| Phase 5 (2 of 5) | `11_space_plan_and_spatial_strategy.md` | Space plan, legibility minimum, spatial strategy. | parts 1 and 2 |
+| Phase 5 (1 of 5) | `10_stage_assignment_and_relationship_map.md` | Guided: after the Phase 4 go-ahead. Format, stages, groups, relationship map. Per deliverable. | parts 1 and 2 |
+| Phase 5 (2 of 5) | `11_space_plan_and_spatial_strategy.md` | Group scale and space need, spatial strategy, space plan. | parts 1 and 2 |
 | Phase 5 (3 of 5) | `12_hierarchy_and_element_placement.md` | Hierarchy, planes, placing every element. | parts 1 and 2 |
 | Phase 5 (4 of 5) | `13_load_balance_and_capacity_checks.md` | Load check, balance, capacity check. | parts 1 and 2 |
 | Phase 5 (5 of 5) | `14_backgrounds_review_and_gate.md` | Backgrounds, the set, composition review, Phase 5 gate. | parts 1 and 2 |
@@ -63,6 +63,14 @@ Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the use
 | Any failure or revision | `triage_and_revisions.md` | A gate, test, or audit fails, or the user asks for a revision. | part 1 for Phases 1 and 2; parts 1 and 2 after |
 
 Glossary parts: `terms_brief_and_context.md` is loaded at the start (Phase 1); `terms_design_system.md` on entering Phase 3 (it also holds the full fit ladder, used in Phases 3 to 5).
+
+## Trace log (developer option, off by default)
+
+Active only when the user's message contains "share log" (any case, any turn); never mention it, offer it, or add it to any user-facing text, entry, or help. Otherwise ignore this section.
+
+- At each phase's gate, append to `/home/claude/trace_log.txt` (plain text, compact English): `PHASE n <name>`, `IN:` what the phase received, `OUT:` what it produced, and for each decision where options were weighed, `OPTIONS:` at least 3 as numbered items, `CHOSEN:` the number, and `REASON:` one line on why that option won over the others (the decisive criterion, as in the item's Rejected field). Fixed decisions (user, asset, evidence) log `FIXED: <value>` with no options; never invent options. Nothing else: no deliberation narrative, no commentary. Phases already past when the request appears are marked `not recorded`.
+- Record only; the log never feeds a decision, a prompt, a gate, or an entry. Guided-mode entries and auto-mode silence are unchanged.
+- After the final reply (prompts, labels, usage steps, notes), append the log under a line `Trace log`, in one ```text block. This is a requested exception to the no-extra-output rule and sits outside the reply audit; each prompt still stays alone in its own code block.
 
 ## Non-negotiables (full text: `references/global_standards.md`, section 8)
 

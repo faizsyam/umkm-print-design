@@ -25,33 +25,34 @@ How a failure is classified (critical, major, minor), which phase owns each symp
   - unsupported narrative;
   - environment-blind profile;
   - a medium convention applied by default;
-  - weak inventory.
+  - weak inventory;
+  - information groups missing, taken from a template, or from the order of the user's list.
 - **Phase 3:**
   - generic idea, style, or hero (an image-making language that is only a medium name included);
   - a hero left standalone with no stated reason;
-  - no space budget (a quiet share without role allocations, or a plan that fits only with every item at its minimum); density or treatment vocabulary left unstated;
+  - no space budget (a quiet share without role allocations, or a plan that fits only with every item at its minimum); density or treatment vocabulary left unstated; a budget set from rank alone without the information groups; no decoration stance, or plainness left undecided;
   - tension unresolved.
 - **Phase 4** (Phase 3 if the plan caused it):
-  - containers that all share the model's default form or only solid-or-outline fills, or one container design across different information roles or ranks (Phase 3 if the plan set no corner and edge geometry);
+  - containers that all share the model's default form or only solid-or-outline fills, or one container design across different information roles or ranks (Phase 3 if the plan set no corner and edge geometry); containers with no material impression or relation to the hero or group they hold where integration was the plan;
   - an element or container with no purpose line;
   - weak or styled-name mark; clashing color or type; value-key drift;
-  - ranked text left as scaled plain type; plain-set voice copy; an item Phase 5 promoted to first or second rank with no treatment decision;
+  - ranked text left as scaled plain type; roles that differ only by size; plain-set voice copy; an item Phase 5 promoted to first or second rank with no treatment decision;
   - indistinguishable type roles or undecided letterform proportions;
   - blank or category-generic piece at its density (Phase 3 if no character carriers were planned);
-  - text-only look; a ground left uniform without a reason;
+  - text-only look; a ground left uniform without a reason; a theme whose world is unrealized with no recorded decision; supporters chosen without an information job; a generic symbol interchangeable between subjects or repeating the words beside it;
   - decoration with no deficit; duplicate purposes; decoration outranking information;
   - a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark;
   - element costs over the structure-and-decoration line, or a cumulative load that outgrows the density level; containers multiplied where spacing would serve; a counterweight or character carrier added as a new element while an existing one could serve; decorated ground counted as quiet; rendering treatments outside the vocabulary; a personality device that costs the name's legibility.
 - **Phase 5:**
   - hierarchy: competing elements or unclear first read; poor hierarchy; an element whose recorded effect does not register at its stage; a zone's area share or a secondary or utility text mass outranking its rank; a container or treatment lifting a secondary element into a higher rank's salience; a reading sequence that contradicts the placement;
-  - scale and space: every tier enlarged in a large format; crowding or filling; a zone crowded at its own scale; cumulative visual load beyond what the space plan carries; quiet that is leftover slivers, decorated, or parked in one band while zones are tight; an element sized by its own wish rather than its zone's share; the quiet share narrowed before the earlier rungs of the fit ladder;
+  - scale and space: every tier enlarged in a large format; crowding or filling; a zone crowded at its own scale; cumulative visual load beyond what the space plan carries; quiet that is leftover slivers, decorated, or parked in one band while zones are tight; an element sized by its own wish rather than its group's share; regions or area shares fixed before the groups' space needs were derived; a composition forced into pre-partitioned zones; free ground left as leftover instead of planned; the quiet share narrowed before the earlier rungs of the fit ladder;
   - composition: overlap hiding an essential part; unlinked elements; lopsided mass (Phase 4 if no counterweight was provided); wrong encounter stage; mark absorbed in composition; a deliverable composed by resizing or cropping another's layout; near-touching neighbors with no decided gap or overlap; a strategy locked in that the content cannot fill comfortably;
   - text fit: text overflowing its container, sizes changed late, or letters compressed, stretched, or slanted to fit; equivalent items typeset differently by length;
-  - grouping and arrangement: picture-with-captions; parallel claims merged into one strip without being one claim; one arrangement form repeated across groups of different function, or a long or comparable-item list left as one stacked column without a reason; equivalent cards or rows whose dimensions or internal alignment vary with their content length;
+  - grouping and arrangement: picture-with-captions or a field of separate labels; supplementary information set as one row or container per item by default; a hero isolated while the information that supports it sits apart; parallel claims merged into one statement without being one claim; one arrangement form repeated across groups of different function, or a long or comparable-item list left as one stacked column without a reason; equivalent cards or rows whose dimensions or internal alignment vary with their content length;
   - edges and references: bleed against content; a pointer with no referent; a figure covering information.
 - **Phase 6:**
   - rationale in the prompt; vague wording; mandatory text misplaced;
-  - space, proportions, or ground character not stated; quantities of repeated forms unstated; an ordering word that contradicts a position word;
+  - space, proportions, or ground character not stated; quantities of repeated forms unstated; an ordering word that contradicts a position word; partition words where the design has no such form; atmosphere fields not stated apart from the quiet;
   - a prompt that depends on another prompt, omits shared identity, or lacks its label.
 - **The earliest contradicting phase:** a stated quality contradicted by a decision.
 - **The phase that should have realized it:** a carry-forward obligation realized by no element, placement, or accepted-cost record.

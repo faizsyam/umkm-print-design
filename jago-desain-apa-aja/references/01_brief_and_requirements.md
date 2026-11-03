@@ -58,14 +58,14 @@ Record what is being presented and by whom (name, kind, offerings or content, op
 
 Capture all content that must or may appear: names and identifiers, text of every kind, data and figures, offers or instructions, contacts and handles, required or legal statements, trust indicators. For each item record the exact string, necessity, provenance, referent, deliverable, and share of content volume.
 
-- **Verbatim.** Keep spelling, capitalization, punctuation, numbers, price and contact formats, and non-standard brand spellings. A suspected typo is preserved and flagged for the notes.
+- **Verbatim.** Keep spelling, capitalization, punctuation, numbers, price and contact formats, and non-standard brand spellings. A suspected typo is preserved and flagged for the notes. Record each contact, handle, or similar item as its data string plus any label word the user wrote beside it. The label is the user's text and stays; where a recognizable symbol would say the same thing, carrying the label by the symbol alone is offered as a flagged assumption in the summary (data stays verbatim), and applies only on the user's confirmation.
 - **Never fabricate** figures, claims, testimonials, certifications, regulated or trust marks, contacts, credentials, dates, specifications, or statistics. Regulated or trust marks appear only when supplied.
 - **Supplied codes** (QR, QRIS, barcode) are fixed assets: record as attached, with the size needed to scan. Never imitate one.
 - **Supplied visuals and structure.**
   - Record images, depicted people, mascots, characters, and handles as fixed assets: what is fixed, and whether permission to show a depicted person is known.
   - Record whether the user wants a figure created and what it should do. An unmentioned figure is not assumed; it may be offered once as a suggestion.
   - Record structure the content already has (sequence, levels, item-value rows). Later phases may express structure visually only from what is given.
-- **Generated copy.** Functional labels derived from supplied content are acceptable. Write a headline, tagline, or descriptor only when the piece cannot function without one or the user requested copy. It must be factual, modest, tagged creative choice, and flagged in the notes.
+- **Generated copy.** Functional labels derived from supplied content are acceptable only where they say something the content's own form or a recognizable symbol does not; a label that a symbol already says is not added, and the data itself (a handle, number, address, time) always stays. Write a headline, tagline, or descriptor only when the piece cannot function without one or the user requested copy. It must be factual, modest, tagged creative choice, and flagged in the notes.
 - **Necessity.**
   - Mandatory: the user said it must appear, or the piece cannot work without it.
   - Optional: offered or helpful.

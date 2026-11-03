@@ -46,8 +46,8 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 - The overall look as seen (value key, dominant field, mood, finish).
 - What is depicted and how.
 - Composition and relationships; the hierarchy stated as first, second, third with the visible means each rank holds, and the reading route over the described regions, consistent with the placement.
-- Typography character per role and designed copy; mandatory text.
-- Supporters as concrete forms; color and surface; mark construction; background and unifying devices.
+- Typography character per role (spacing, case, alignment, orientation) and designed copy; mandatory text.
+- Supporters and decoration as concrete forms (motif, pattern, ornament, border character); color and surface; mark construction; background and unifying devices.
 - The few finishing details that matter; rendering technique; necessary exclusions.
 
 Express size as proportions and steps between elements. State emphasis only where the specification holds it, never as blanket emphasis words.
@@ -57,7 +57,7 @@ Express size as proportions and steps between elements. State emphasis only wher
 Order by consequence:
 1. piece and format;
 2. overall look as seen (value key and dominant field first, so stated qualities govern generation);
-3. spatial composition (overall density, the open regions, separation between zones), then hierarchy;
+3. spatial composition (overall density, the quiet regions and any atmosphere fields, separation between groups), then hierarchy;
 4. hero and main visuals;
 5. identity unit;
 6. typography;

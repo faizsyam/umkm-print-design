@@ -45,7 +45,7 @@ OK? Reply to continue, or say what to change.
 - One line linking the user's own words to how they are carried. No other headings, no repeated inputs. About ten lines in total; cells under fifteen words.
 - Close with the confirmation line in Phases 3 and 4 only; Phase 5 ends with the table.
 - Row labels (translate):
-  - Phase 3: main idea, style, what is seen first, open space, logo role.
+  - Phase 3: main idea, style, what is seen first, open space and decoration, logo role.
   - Phase 4: color, lettering, logo and name, emphasized text, supporting visuals.
   - Phase 5: reading order, text attached to the image, arrangement, open space. When deliverables differ, add rows only for what differs.
 
@@ -84,6 +84,8 @@ For users new to design; users with design vocabulary get the terms directly. Tr
 | style synthesis | look and feel |
 | value key | how light or dark it looks |
 | space intent / negative space | breathing room so it is not crowded |
+| atmosphere / decoration | patterns, textures, and ornaments that give the design its world |
+| information group | information that belongs together |
 | visual load | how busy it looks |
 | mark role | the logo's role |
 | identity unit | logo and name together |

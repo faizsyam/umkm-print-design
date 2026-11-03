@@ -78,6 +78,7 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Rank here is provisional, taken from the message, content role, hero, and mark role; Phase 5 owns the final rank. If Phase 5 promotes an item to first or second rank, it returns to this section for that item only (a treatment check, not a re-run of Phase 4).
 - A ranked item left plain must have plain setting recorded as the style's intentional choice, and then holds its rank through the other levers (position, isolation, contrast).
 - Designing changes form only (letterform character, breaks, emphasis, mixed scale or weight within the line, container, integrated graphic detail) and never the words. Wording changes only for copy the skill itself wrote.
+- Roles are treated by their jobs and never inherit one treatment at a different size: the headline, tagline, description, promotional message, supporting details, and call to action each take the decided character of their role (`05_color_and_typography.md` B), with the case, spacing, weight, color role, and alignment that fit what the role does.
 
 **Grades**
 - **Designed:** items carrying voice, persuasion, or memory (hooks, slogans, taglines, headline claims) and the transaction itself (prices, sizes, offers). Graphic lettering with at least one deliberate device from the style's lettering lineage:
@@ -92,8 +93,8 @@ Every text item is an element with a purpose line (items of one role, rank, and 
   - a tag overlapping the hero;
   - text emerging from or carried by the depicted thing;
   - text passing in front of or behind part of the hero, with every letterform kept whole.
-- **Reassurance claims** that matter at approach: each independent claim is its own unit (spaced apart and positioned by its own referent, with its own marker where one does a job, and a container only where D2's ladder (`08_containers_and_ground.md`) requires one; never a regulated or trust mark). Claims share a unit or line only when the viewer should read them as one claim. A claim that substantiates a depicted thing is placed with that thing in Phase 5.
-- **Set:** informational and functional items (descriptions, item lists, addresses, contact lines). Plain typesetting in the informational face; hierarchy by size, weight, spacing, grouping.
+- **Reassurance claims** that matter at approach: each independent claim keeps its own statement (its own words, spaced from the others, with its own marker where one does a job) and is positioned by its own referent where it has one. Claims serving one purpose sit together as one compact group whose arrangement is decided in Phase 5 (`10_stage_assignment_and_relationship_map.md`, A2), with a container only where D2's ladder (`08_containers_and_ground.md`) requires one, and never a regulated or trust mark. Claims merge into one statement only when the viewer should read them as one claim. A claim that substantiates a depicted thing is placed with that thing in Phase 5.
+- **Set:** informational and functional items (descriptions, item lists, addresses, contact lines). Typeset in the informational face with the role's decided case, spacing, weight, color role, and alignment (deliberately set, never default text); hierarchy by size, weight, spacing, grouping.
 
 **Rules**
 - A voice-bearing line set in the informational face on bare ground is under-served.
@@ -107,7 +108,7 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 
 **Gate checks for this step (fails if any is false):**
 - Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; the originality tests (`quality_gates.md` section 1) pass for the mark; geometry is describable in a few concrete shapes.
-- Each text item's treatment grade is the grade its content role and provisional rank call for (B2). No first- or second-rank text is left as scaled plain type without a recorded style reason.
+- Each text item's treatment grade is the grade its content role and provisional rank call for (B2). No first- or second-rank text is left as scaled plain type without a recorded style reason, and roles that share a group differ by more than size.
 
 **Standards in force** (`global_standards.md` section 6 says where each is checked): principles 2, 4, 5; non-negotiables: supplied logos and characters, no styled-name-only identifier, user text verbatim.
 

@@ -68,8 +68,9 @@ Name things at a specialist's precision, and use a term only if it can be define
 - **Style:** lineage and defining traits.
 - **Imagery:** depiction mode, lineage, proportions, linework, technique, texture, detail level, color treatment, stylization, light, finish.
 - **Color:** hue family, value structure, chroma, temperature, harmony structure, area proportion.
-- **Type:** classification, stroke contrast, proportion, x-height, widths, spacing.
-- **Composition:** axis, alignment, grid logic, figure-ground, focal hierarchy, grouping, visual weight, tension.
+- **Type:** voice and lineage, classification, stroke contrast, proportion, x-height, widths, spacing and density, alignment, orientation.
+- **Composition:** axis, alignment, grid logic, figure-ground, negative-space shape, interlock and layering, focal hierarchy, grouping, visual weight, tension.
+- **Decoration:** motif family, repeat logic, scale, density, contrast, placement.
 - **Reproduction:** ink, substrate, finish, display.
 
 ## Quality checks

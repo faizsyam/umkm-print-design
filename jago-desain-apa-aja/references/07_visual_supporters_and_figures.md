@@ -4,7 +4,7 @@ Find what the piece lacks beyond text, identity unit, and a plain ground, and me
 
 **Read this when:** after `06_identity_unit_and_copy_treatment.md` (identity unit and copy treatments decided).
 
-**Inputs needed:** The element system so far (palette, type, identity unit, copy treatments); Phase 3 hero, imagery stance, figure stance, supporter budget, treatment vocabulary, style dimensions 1, 4, 5; S quality requirements; Visual source inventory and seed bank.
+**Inputs needed:** The element system so far (palette, type, identity unit, copy treatments); Phase 3 hero, imagery and decoration stance, figure stance, supporter budget, treatment vocabulary, style dimensions 1, 4, 5; S quality requirements; Visual source inventory and seed bank.
 
 ## 2. Guidance (continued from `06_identity_unit_and_copy_treatment.md`)
 
@@ -12,7 +12,7 @@ Find what the piece lacks beyond text, identity unit, and a plain ground, and me
 
 Find what the piece lacks beyond text, identity unit, and a plain ground, and meet each real lack with the best-suited resource in the piece's style.
 - No supporter is a default. A piece that needs none is a valid result, and a user's exclusion of imagery stands.
-- Equally, text-only presentation is a defect wherever information has a job no text does (identify, categorize, reinforce, or help the viewer interpret it). A supporter is chosen by that job, never to decorate.
+- Equally, text-only presentation is a defect wherever information has a job no text does (identify, categorize, reinforce, or help the viewer interpret it). A supporter is chosen by that job. Decoration is chosen by the world the plan's stance opens and is judged the same way, by what it adds to the piece, never as filler.
 
 **Step 1: text-only baseline.** Imagine only required text, identity unit, and a plain uniform ground in the palette.
 - Name deficits as concrete observations across:
@@ -22,33 +22,38 @@ Find what the piece lacks beyond text, identity unit, and a plain ground, and me
   - scanning and hierarchy aids (entry points, markers, category cues, rhythm along long lists);
   - balance (empty weight, lopsided mass);
   - brand personality, material, cultural grounding;
+  - the theme's visible world (the pattern, ornament, material, and atmosphere that style dimension 4 and the inventory offer) and how much of it the piece shows;
   - reading comfort of dense text;
   - quality requirements that type and color cannot carry alone.
-- A deficit is real when its absence would weaken a stated quality, the message, the reading, or the balance, or when the piece at its density would read as blank or category-generic (a character deficit). Generous quiet is not a deficit: a piece reads as blank only when the elements it does have carry no character.
+- A deficit is real when its absence would weaken a stated quality, the message, the reading, or the balance, or when the piece at its density would read as blank or category-generic (a character deficit), or when the plan's stance opens decoration and the piece leaves the visible world of its theme unrealized without a reason (a world deficit). Generous quiet is not a deficit: a piece reads as blank only when the elements it does have carry no character.
 - Variety of scale, form class, density, and surface is read from the whole system (hero, ground, type), never answered by a supporter with no deficit.
 - A text-dense piece usually shows deficits of interest, scanning, and rhythm; the answer is purposeful visuals and structure, never more words or filler.
+
+**Information-job pass.** Read each information group (Phase 2, refined in Phase 5) for a job that an image does better than words: identifying the subject at a glance, telling parallel items apart, categorizing, showing use or outcome, tying a label to a depicted part, or speeding the scan through dense content. Where a group has such a job and text alone leaves it undone, name it as a deficit. Where words or position already do the job, the group gets no visual: an unneeded icon, illustration, or decorative visual costs space and attention.
 
 **Order of remedy: enrich before add.** Close a deficit by the route that adds the least new weight:
 1. *Deepen the main elements:* integrate layered information into the hero and main text; give them finish, crop, or surface that rewards a closer look.
 2. *Link* the major elements (shared axis, overlap, shared color or shape, echoed motif, connector).
-3. *Quiet surface:* tonal steps and fine texture, or a subtle pattern confined to the zones and edges the plan assigned to decoration, so open fields stay genuinely open.
+3. *Atmosphere and surface:* the decoration the plan's stance opens (pattern, texture, ornament, border character, layered ground) placed in the free ground the plan assigned to atmosphere and at edges, with tonal steps and fine texture where a calmer surface serves, so quiet fields stay genuinely open.
 4. *Small supporters:* simple icons, spot forms, dividers, an ownable recurring motif from the inventory.
 5. *Typographic and edge detail:* secondary-line detail, labels, container or border character.
 
-Each stays below the information it serves and inside the structure-and-decoration line of the space budget. A remedy from step 3 on is admitted only if it beats its lighter alternative (nothing, a smaller or simpler form, spacing) at its space cost. A family repeated across items is one supporter system: its cumulative footprint counts as a block and its quantity is fixed in its card. Where the allowance cannot hold a remedy, the deficit is accepted rather than met by consuming quiet.
+Each stays below the information it serves and inside the structure-and-decoration line of the space budget. A remedy from step 3 on is judged against its lighter alternative (nothing, a smaller or simpler form, spacing) at its space cost, in both directions: added when it contributes more than it costs, omitted only for a reason the stance or the load gives; where the stance opened the family, plainness needs its reason. A family repeated across items is one supporter system: its cumulative footprint counts as a block and its quantity is fixed in its card. Where the allowance cannot hold a remedy, the deficit is accepted rather than met by consuming quiet.
 
 **Counterweight provision.** Balance depends on a layout Phase 5 settles, and repositioning existing elements is Phase 5's first remedy. Unless the stance is strictly symmetric, name a deployable counterweight drawn from what the system already has (the ground's tonal step, an extension or echo of an existing motif or of the hero, a large quiet tonal shape) before creating any new element; a new carrier is added only when none of these can serve. It is quiet, scalable, and low-intensity, in the shape and imagery language, and Phase 5 sets its scale and position from the structure-and-decoration line of the budget, never from the quiet share. A piece with none that later measures unbalanced returns here.
 
 **Step 2: weigh at least two families per real deficit** and adapt the chosen one to the style. Its line quality, weight, density, finish, and form language come from the style's dimensions (Phase 3 D: 1, 4, 5), so it reads as drawn by the same hand as the rest. Illustrated supporters and figures use the style's image-making language, never the medium's apparent default. A register word does not decide them. Draw forms from the inventory and seed bank; the category's obvious decorative signifiers are the benchmark to beat.
 
+**Representation follows the information's job,** the style, the detail the space allows, and renderability: a pictogram or styled icon where fast recognition or category at small size is the job; a spot or full illustration where character, story, or the thing's specifics matter; product or contextual photography where proof, appetite, scale, or place matter and a true depiction exists; an annotation (pointer, callout, label tied to a depicted part) where a relation needs showing; or none. A supporter depicts the specific thing it supports, in the style's image language, so it belongs to the piece's visual language; a generic glyph beside text, interchangeable between subjects, is the benchmark to beat. Where a recognizable symbol already says what an item is, the adjacent text carries only what the symbol cannot (a handle, number, address, time, a distinguishing word) and never repeats the symbol's meaning; where the symbol is ambiguous or the label adds meaning, the words stay. A label word the user wrote is handled per `01_brief_and_requirements.md` C.
+
 | Family | Job | Use when | Avoid when |
 |---|---|---|---|
-| Icons and symbols (icon set, pictogram, list marker, level mark, channel glyph) | Quick recognition of parallel items and categories; action understood without words; rhythm along a list; a supplied degree at a glance | Parallel items or lines need quick identification and meaning needs no explanation | Ambiguous or merely decorative; a lone self-evident item; imitating a regulated, safety, or trust symbol; a level mark showing anything not supplied (never a rating); a glyph of an unlisted channel or invented logo |
+| Icons and symbols (icon set, pictogram, list marker, level mark, channel glyph) | Quick recognition of parallel items and categories; action understood without words; rhythm along a list; a supplied degree at a glance | Parallel items or lines need quick identification and meaning needs no explanation | Ambiguous or merely decorative; generic and interchangeable between subjects; repeating the words beside it; a lone self-evident item; imitating a regulated, safety, or trust symbol; a level mark showing anything not supplied (never a rating); a glyph of an unlisted channel or invented logo |
 | Subject, in-use, place imagery | Proof of the offer; the outcome or experience; location and atmosphere; thumbnails that identify or differentiate listed items | The viewer must see or sense the offer, its benefit is experiential, or the place is part of the value, and the generator can depict it accurately | Appearance is irrelevant or not accurately renderable (a depiction that misrepresents the offer is a fault); generic place; complex hands, crowds, fine faces |
 | Figures (see below) | One role per appearance | A role answers a real deficit and the figure is supplied or wanted | Unasked; another element holds the role; permission for a supplied person unknown; a real person's likeness or implied endorsement |
 | Spot illustration | Personality, story, or mood at a content block | A block needs a small visual cue | It only fills space or crowds content |
 | Image treatment and sets (cutout or mask; image set) | Cutout lets an image overlap, wrap, or host integrated text; set gives breadth across equally important images | The image must interact with layout and its edge reads clean; several subjects share equal importance and no hero leads | Original surroundings carry meaning; edge would render poorly; one message must dominate; set exceeds what the generator keeps consistent |
-| Pattern, texture, and ornament | Ownership and rhythm; material, craft, or cultural character; tactile richness; ornament gives an edge, break, or transition its character | The ground or an edge needs identity, material feel, or richness and the treatment can stay secondary to information | Information sits directly on a treatment of equal or higher salience; it muddies fine content; it has no purpose beyond filling |
+| Pattern, texture, and ornament | Ownership and rhythm; material, craft, or cultural character; tactile richness; the atmosphere of the piece's world; ornament gives an edge, break, or transition its character | The ground, an edge, or free ground between groups can carry the piece's world, identity, material feel, or richness and the treatment can stay secondary to information | Information sits directly on a treatment of equal or higher salience; it muddies fine content; it has no purpose beyond filling |
 | Borders and frames | Border closes the composition; frame isolates one item | The composition needs closure, or one item needs emphasis | Near the trim (keep inside the safe margin or bleed deliberately); dense layout; many framed items so none stands out |
 | Dividers | Separate content groups | Space alone cannot separate | Spacing already does; an ornament interrupts reading |
 | Pointers, connectors, direction | Tie a depicted part to its label or an item to its value; direct attention; show a given sequence | A relationship, direction, or sequence would otherwise be unclear | Proximity already groups; no given order; pointers many or crossing |
@@ -81,7 +86,7 @@ Each supporter shares the style's form language, line quality, and finish; micro
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- The text-only baseline was run. Each supporter names its deficit, holds a distinct purpose, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design; no invented level, rating, or trust mark.
+- The text-only baseline, the information-job pass, and the world read were run; plainness is recorded as a decision where it holds. Each supporter names its deficit, holds a distinct purpose, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design; no invented level, rating, or trust mark.
 
 **Standards in force** (`global_standards.md` section 6 says where each is checked): principles 5, 6; non-negotiables: no invented facts, no figure unasked.
 

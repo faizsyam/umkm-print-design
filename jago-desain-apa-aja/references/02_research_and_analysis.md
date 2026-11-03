@@ -14,11 +14,11 @@ Establish the piece's real problem and setting well enough that every later deci
 |---|---|
 | Goal | Establish the piece's real problem and setting so that every later decision rests on a finding. Findings are reduced to design implications plus two creative inputs: the Environment Profile and the Visual source inventory |
 | Receives | S and the Phase 1 Forward block (research questions, tensions, open flags). Outside: research, only where it can change a decision |
-| Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; the message; medium reading and encounter stages; departure and fit dimensions; Visual source inventory; design implications |
+| Decisions | Which research questions to pursue; differentiation strategy (or execution-led); weakest link; the message; information groups; medium reading and encounter stages; departure and fit dimensions; Visual source inventory; design implications |
 | Exploration | Compact comparison (`exploration_protocol.md` section 3), genuine option sets only |
-| Output | Communication Problem (with the message); Environment Profile (encounter, medium reading, encounter stages); audience encounter; differentiation strategy; Visual source inventory; tagged design implications; tensions |
+| Output | Communication Problem (with the message and information groups); Environment Profile (encounter, medium reading, encounter stages); audience encounter; differentiation strategy; Visual source inventory; tagged design implications; tensions |
 | Entry fields | Guided mode: no separate stop. Findings lead the Phase 3 entry in two lines, from these fields: weakest link; the context and where the piece departs from it; how it stands out (or "fixed by evidence") |
-| Forward | Communication Problem (primary objective, weakest link, message, tensions with the lead side where `global_standards.md` section 7 decides it); Environment Profile with encounter, medium reading, encounter stages, departure and fit; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; open flags (provisional setting, unverified specifics). S is not restated |
+| Forward | Communication Problem (primary objective, weakest link, message, information groups, tensions with the lead side where `global_standards.md` section 7 decides it); Environment Profile with encounter, medium reading, encounter stages, departure and fit; audience encounter; differentiation strategy; Visual source inventory; tagged design implications; open flags (provisional setting, unverified specifics). S is not restated |
 
 ## 1. Process
 
@@ -26,7 +26,7 @@ Establish the piece's real problem and setting well enough that every later deci
 2. Read the brand (A) and run the research (F), early enough that the profile, differentiation, and inventory rest on it.
 3. Build the Environment Profile (C) and the audience encounter (D).
 4. Find differentiation (B) against the peers the profile identifies, and ground culturally to build the Visual source inventory (G).
-5. Build the Communication Problem (E), which reads the profile, the encounter, and the differentiation.
+5. Build the Communication Problem and group the necessary information (E), which reads the profile, the encounter, and the differentiation.
 6. Convert findings into design implications (form: `terms_brief_and_context.md`, Design implication; tagged); discard any finding that yields none. Carry the Phase 1 quality translations forward as given implications.
 7. Gate.
 
@@ -78,6 +78,8 @@ Record cultural references, behavior, motivations, decision considerations, the 
 
 **Objectives and response.** A user-stated priority fixes the primary objective; the weakest link is chosen within it and never replaces it. Record the desired response, the necessary information, and the desired perception of the subject (quality requirements included).
 
+**Information groups.** Gather the necessary information into groups by the job each group does toward the objective and the weakest link. Jobs worth reading the brief for: carrying the primary proposition, supporting or explaining what the viewer sees first, enabling the offer and the action, substantiating trust, helping the viewer evaluate, giving practical and contact information, relating further offerings. These are lenses, never a fixed list; derive the groups this brief's content and objective actually form. For each group record its items, its stage, what it refers to, its internal hierarchy (a lead item and supporting items need not share prominence), and its volume. A group is formed by shared job, not by similar appearance or by the order the user listed the content. Later phases read the groups; Phase 5 refines them per deliverable.
+
 **Tensions.** List pairs of needs that compete for the same limited resource (attention at the glance stage, space, legibility distance, budget, register). State each as the two needs and the resource they share.
 
 **Weakest link.** Choose the link in the chain from encounter to the intended outcome (attention → comprehension → credibility → action, keeping the links the purpose needs) that is most likely to fail in this context, weighing the cost of each failure. Test the brief's own assumptions (the deliverables asked for, the audience assumed, the success measure): where one would undermine the objective, record it as a tension and handle it per `global_standards.md` section 7. Where `global_standards.md` section 7 or the user's stated priority decides a tension, record its lead side; Phase 3 decides the rest.
@@ -96,7 +98,7 @@ Research only what can change a decision; stop at diminishing returns; run indep
 ### G. Cultural grounding and the Visual source inventory
 
 - Identify the cultures, languages, religions, and commercial conventions actually relevant (a national or ethnic label names many aesthetics and audiences). Preserve the user's register. Use regional or traditional references only where the subject genuinely connects to them.
-- Mine deeper specifics across seven dimensions: practices and rituals; materials and tools; how things are made, handled, and shared; spatial and sensory details of daily life; language and its play; geography and seasons; the history of this subject.
+- Mine deeper specifics across seven dimensions: practices and rituals; materials and tools, with their surface, pattern, and ornament traditions; how things are made, handled, and shared; spatial and sensory details of daily life; language, its play, and its lettering traditions; geography and seasons; the history of this subject.
 - Screen each specific:
   - **true:** the subject can claim it;
   - **respectful:** no tokenism;
@@ -114,7 +116,7 @@ Record the inventory in three parts: (1) apparent associations as baseline; (2) 
 - The profile fills every part of the Environment Profile definition (`terms_brief_and_context.md`) for each deliverable and fails the context-swap test (substituting another setting of the same category invalidates at least one part). Departure names its dimension and the visible difference, differs in more than size or brightness, and contradicts no quality requirement.
 - Primary objective follows the user's stated priority; the weakest link is a secondary lens, not a replacement.
 - The inventory holds at least one source that is not an emblem (object, material, craft, place, or visual practice); every symbol is verified for the meaning it holds for this audience; no competitor is a source; every audience claim cites evidence.
-- The message is one takeaway, serves the primary objective, and contradicts no quality requirement.
+- The message is one takeaway, serves the primary objective, and contradicts no quality requirement. The information groups follow from the objective and the content, each with its job, stage, referents, and internal hierarchy; none comes from a template or from the order of the user's list.
 - Objection raised and resolved (owner of the riskiest decision: brand strategist or audience researcher).
 
 

@@ -22,7 +22,7 @@ Each element is judged in relation to the whole.
 - **Weight-ceiling check** at each encounter stage: no decoration outranks the required information it serves, a forward plane's prominence included. **Plane check:** each element sits on one plane and its cues agree.
 - **Single voice and consistency.** Line quality, finish, abstraction level, light direction, and rendering treatment read as one designer's work. Every rendering treatment in use is in the Phase 3 vocabulary and applied uniformly by role; one outside it is removed.
 - **Subtraction pass:** would removing one more thing improve the piece?
-- **Additive pass:** re-read the text-only baseline. If interest, evidence of the offer, scanning aids, or balance are still lacking, close each real gap by the order of remedy (`07_visual_supporters_and_figures.md` D), never filler.
+- **Additive pass:** re-read the text-only baseline. If interest, evidence of the offer, scanning aids, balance, or the world of the theme are still lacking without a recorded reason, close each real gap by the order of remedy (`07_visual_supporters_and_figures.md` D), never filler. Where the system stays plain, the plainness is a named decision backed by the character test below; otherwise it is underdevelopment and is treated as a gap.
 - **Connection check:** every major element is tied to at least one other by a stated link.
 - **Character test:** with the name covered, the system still carries at least two ownable character carriers from different levers. Carriers sit first inside elements the system already needs (hero depth, letterform detail, color logic, container or edge character); a new element is added only where these cannot carry.
 
@@ -32,7 +32,7 @@ The element system (each element: purpose line, treatment, plane, weight ceiling
 
 ## Entry fields (restated word for word from the phase sheet in `05_color_and_typography.md`)
 
-(the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): For color (with its light or dark feel), type (with how designed text looks by role), and any system decision with real alternatives: the choice, a one-sentence reason, at most two alternatives with their weakness. For the logo and name: the idea it expresses in plain words, what it looks like, how name and symbol join (or "supplied, unchanged"). Each supporter with the lack it fills, or the finding that none is needed; any figure with its origin and role. Construction families, distinction mechanisms, and runner-ups stay in the Record.
+(the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): For color (with its light or dark feel), type (with how designed text looks by role), and any system decision with real alternatives: the choice, a one-sentence reason, at most two alternatives with their weakness. For the logo and name: the idea it expresses in plain words, what it looks like, how name and symbol join (or "supplied, unchanged"). Each supporter with the lack it fills, or the finding that none is needed and what carries the character instead; the patterns, ornament, and frames chosen with the part of the theme each carries; any figure with its origin and role. Construction families, distinction mechanisms, and runner-ups stay in the Record.
 
 ## Quality checks
 

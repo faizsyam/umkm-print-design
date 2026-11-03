@@ -67,6 +67,7 @@ For each element specify role, scale, weight, color, treatment, plane, position,
   - a block or band holds one group;
   - a tag attaches to the one fact it flags without competing with the hero;
   - a scrim sits behind only the text zone it serves.
+  - atmosphere fields sit where the strategy placed them, below the information in contrast and detail, and never behind required text at a strength that competes with it;
 - A supplied asset the generator cannot reproduce faithfully (scannable code, supplied photograph, or logo file that cannot be attached) gets a **reserved asset panel**: its own region at the size it needs (a code sized to scan at its use distance, with quiet zone), inside the space plan, with isolation and a quiet frame in the system's colors. Never an invented stand-in.
 - Figures are placed by Phase 4 role: lead = the hero; demonstrate = within the hero group, subordinate to the offer; guide = gesture or gaze ending on the target, covering no information; mood = supporter scale; in the mark = inside the unit's region. One design everywhere; a supplied figure is never redrawn.
 

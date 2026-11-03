@@ -17,18 +17,18 @@ Run on the drafted prompt, then on the reply.
 - **Exclusions:** every user exclusion is respected; only minimal, specific exclusions are added. No invented facts about the subject. No competitor copying.
 - **Identifier:** not merely a styled name unless supplied or requested as plain text. A new mark is described by form class, geometry, silhouette, color, boundary, personality device, wordmark relationship, and separation from adjacent type; the unit is described as one object. The name's exact letters are stated and every letter stays fully formed and readable.
 - **Order and roles:** the hierarchy is stated with ranks and the reading route agrees with every position clause; type roles are distinguished; overlaps name the front element and the visible part of the covered one.
-- **Containers and balance:** every container states form, corner and edge geometry, and fill mode; any counterweight is a concrete form and region; none relies on a default.
+- **Containers and balance:** every container states form, corner and edge geometry, material impression, layering where it overlaps, and fill mode (open grouping is stated as such); any counterweight is a concrete form and region; none relies on a default.
 - **Space:**
   - The open regions are named by what they separate or frame, with their rough share and the overall density in plain words, placed ahead of element detail and consistent with every element clause (no wording that fills, spans, covers, or packs a zone; detail per element proportional to its rank).
   - Outer margin, separation between zones, isolation, internal zone spacing, and resting fields appear as concrete positive features, with proportions where they matter.
-  - Quiet regions are described as plain, undecorated ground; the quantity of every repeated or decorative form is stated; equivalent units are described with identical dimensions, internal structure, and field alignment; each zone's own breathing room is stated, not only the margin.
+  - Quiet regions are described as plain, undecorated ground, and any atmosphere fields as decorated fields apart from them; the quantity of every repeated or decorative form is stated; equivalent units are described with identical dimensions, internal structure, and field alignment; each zone's own breathing room is stated, not only the margin.
   - Each prompt states its own deliverable's ratio from S, unchanged.
 - **Qualities:** every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.
-- **Copy and supporters:** designed copy and each supporter are described by traits and forms, match the shown decisions, and none outweighs required text.
+- **Copy and supporters:** designed copy and each supporter are described by traits and forms, match the shown decisions, and none outweighs required text; no symbol repeats the words beside it; type roles state spacing and alignment as decided.
 - **Visual-effect and misread tests** on every sentence: would removing it change what is drawn (if not, delete it)? What is its likeliest wrong rendering (if that breaks the design, rewrite until the likeliest reading is the intended one)?
 - **Standalone:** each prompt is complete by itself (shared decisions restated in identical wording; no reference to another prompt, an earlier generation, or the brief), and the prompt count matches the deliverable set.
 - **Specifics:** depicted things appear by true specifics, in the decided illustration or photographic language; no look-shaping attribute is left to the model's apparent value.
-- **Hygiene:** no rationale, placeholders, or blank zones except a reserved asset panel; no post-generation editing instructions; no blanket emphasis; no crop marks or annotations unless requested; static artwork as seen unless a scene or mockup is the deliverable; readable by an illustrator who never saw the brief; one coherent style logic.
+- **Hygiene:** no rationale, no partition words (zone, section, panel, band) unless the design contains that form, placeholders, or blank zones except a reserved asset panel; no post-generation editing instructions; no blanket emphasis; no crop marks or annotations unless requested; static artwork as seen unless a scene or mockup is the deliverable; readable by an illustrator who never saw the brief; one coherent style logic.
 
 **Reply audit**
 - Each prompt has its label, and the usage steps state any needed attachment or order.
