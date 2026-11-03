@@ -43,7 +43,7 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 
 **In:**
 - Piece type and format (orientation, aspect ratio, sides or panels), which is all a prompt says about what the piece is for. The purpose and relationship go in the label outside the prompt.
-- The overall look as seen (value key, dominant field, mood, finish).
+- The overall look as seen, stated once as the unified art direction (value key, dominant field, mood, light, surface and material finish, depth cues, and how rendering treatments step down by rank), which the element clauses refer to instead of each repeating one recipe.
 - What is depicted and how.
 - Composition and relationships; the hierarchy stated as first, second, third with the visible means each rank holds, and the reading route over the described regions, consistent with the placement.
 - Typography character per role (spacing, case, alignment, orientation) and designed copy; mandatory text.

@@ -20,7 +20,7 @@ Run on the drafted prompt, then on the reply.
 - **Containers and balance:** every container states form, corner and edge geometry, material impression, layering where it overlaps, and fill mode (open grouping is stated as such); any counterweight is a concrete form and region; none relies on a default.
 - **Space:**
   - The open regions are named by what they separate or frame, with their rough share and the overall density in plain words, placed ahead of element detail and consistent with every element clause (no wording that fills, spans, covers, or packs a zone; detail per element proportional to its rank).
-  - Outer margin, separation between zones, isolation, internal zone spacing, and resting fields appear as concrete positive features, with proportions where they matter.
+  - Outer margin, separation between zones, isolation, internal zone spacing, and resting fields appear as concrete positive features, with proportions where they matter; each group and container carries its share of the governing dimension, and text roles carry their proportions of the format.
   - Quiet regions are described as plain, undecorated ground, and any atmosphere fields as decorated fields apart from them; the quantity of every repeated or decorative form is stated; equivalent units are described with identical dimensions, internal structure, and field alignment; each zone's own breathing room is stated, not only the margin.
   - Each prompt states its own deliverable's ratio from S, unchanged.
 - **Qualities:** every quality requirement shows in the opening lines through named features; the value key is stated; nothing contradicts a quality.

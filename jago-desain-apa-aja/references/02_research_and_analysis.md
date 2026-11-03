@@ -67,7 +67,7 @@ One profile per distinct context; deliverables that share a context share its pr
 - **Impression versus expression.** Hold the **impression** constant and let the setting decide the **expression**. The impression is what the viewer should feel and conclude about the subject (from the desired perception and the quality requirements). The expression is the visual means that deliver it (palette, density, scale, form), chosen to suit this context.
 - **Departure and fit.**
   - Find where neighbors are uniform on a dimension (color, density, scale, order, finish, form). Distinctness is relative to neighbors on a dimension and can lie in either direction; more intensity is not by itself departure.
-  - Choose the **departure** dimensions where the piece differs, and record the **fit** dimensions where it must still conform (conventions the audience relies on, credibility cues) so it is not rejected or misread. The departure is a decision with a reason, never a default.
+  - Choose the **departure** dimensions where the piece differs, and record the **fit** dimensions where it must still conform (conventions the audience relies on, credibility cues) so it is not rejected or misread. The occasion, culture, and atmosphere the brief names are fit dimensions: departure beats their apparent signifiers by specificity and craft (a particular pattern, material, or custom drawn from the inventory), never by omitting them. The departure is a decision with a reason, never a default.
 - If the context cannot be established, state the most probable one and mark it provisional.
 
 ### D. Audience encounter
