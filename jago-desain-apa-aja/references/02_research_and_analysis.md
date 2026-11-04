@@ -88,7 +88,7 @@ Record cultural references, behavior, motivations, decision considerations, the 
 
 ### F. Research
 
-Research only what can change a decision; stop at diminishing returns; run independent searches together.
+Research only what can change a decision; stop at diminishing returns; run independent searches together. If Phase 1 passed no research question that names a decision, record "no research needed" and proceed.
 
 - **Priority:** the subject and its public materials; visual conventions of the category and medium to differ from or conform to; peers and alternatives; the environment; cultural references; the offering's reality.
 - **Sources:** prefer authoritative and first-hand ones. Reviews show perception, not fact. Confirm that a found subject is the right one (same name is not same subject). Competitor visuals are a baseline to differ from, never a model.
@@ -119,9 +119,8 @@ Record the inventory in three parts: (1) apparent associations as baseline; (2) 
 - The message is one takeaway, serves the primary objective, and contradicts no quality requirement. The information groups follow from the objective and the content, each with its job, stage, referents, and internal hierarchy; none comes from a template or from the order of the user's list.
 - Objection raised and resolved (owner of the riskiest decision: brand strategist or audience researcher).
 
-
 **Entry fields:** in the phase sheet; mark decisions fixed by evidence as such.
 
 ## Next
 
-Run the gate (`quality_gates.md` section 1, then the checks above) and append the Phase 2 Forward block to the Design Log. Guided mode: no separate stop; Phase 2's findings lead the Phase 3 entry. Read `terms_design_system.md` and then `03_core_idea_style_and_hero.md`. Carry forward: the Phase 2 Forward fields.
+Run the gate (`quality_gates.md` section 1, then the checks above) and append the Phase 2 Forward block to the Design Log. Guided mode: no separate stop; Phase 2's findings lead the Phase 3 entry. Read `terms_design_system.md` and then `03_core_idea_style_and_hero.md`.

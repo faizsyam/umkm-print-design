@@ -89,4 +89,4 @@ Prompts delivered = deliverables × concepts. Never add a deliverable for a vari
 
 ## Next
 
-Read `terms_brief_and_context.md` if not yet read, then `01_brief_and_requirements.md`. Carry forward: scope, the role table, the depth rules, and the deliverable-set rules.
+Read `terms_brief_and_context.md` if not yet read, then `01_brief_and_requirements.md`.

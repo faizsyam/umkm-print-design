@@ -89,7 +89,8 @@ Where the hero carries the message alone, or coupling would dilute it, its text 
 - **Reliability and isolation.** Use only forms the model renders reliably (one short line on one smooth arc, straight pointers, few labels). An integrated form that overlaps or wraps the hero needs a clean isolated hero edge. If doubtful, attach.
 - **Row guidance.** Where a label and value sit far apart, a fine leader or shared rail ties the pair; where proximity already does, add nothing.
 - **Arrangement form per group.**
-  - **Choose** each group's form from its function, its relations (sequence, comparison, parallel items, label and value), content length, neighbors, and the room the composition gives it: stacked, inline or run-in, a compact horizontal run, columns or grid, table, clustered or radiating around its referent, floating or overlapping at the hero's edge, a staggered or asymmetric run, or set into a container shape, with separators, markers, or icons only where they do a job (`07_visual_supporters_and_figures.md`, D). Supplementary information takes the most compact form its relations allow; where a recognizable symbol says what an item is, its text carries only the data (`07_visual_supporters_and_figures.md`, D, representation).
+  - **Phase 4 pairing stands.** Where Phase 4 fixed a container with a provisional arrangement form for the group, that pairing stands unless a named failure (it overflows its room, hides the hero, or breaks equivalence); then change the arrangement first and the container only if the arrangement cannot fix it.
+  - **Choose** each remaining group's form from its function, its relations (sequence, comparison, parallel items, label and value), content length, neighbors, and the room the composition gives it: stacked, inline or run-in, a compact horizontal run, columns or grid, table, clustered or radiating around its referent, floating or overlapping at the hero's edge, a staggered or asymmetric run, or set into a container shape, with separators, markers, or icons only where they do a job (`07_visual_supporters_and_figures.md`, D). Supplementary information takes the most compact form its relations allow; where a recognizable symbol says what an item is, its text carries only the data (`07_visual_supporters_and_figures.md`, D, representation).
   - **Fit to region and quantity:** a long list, or several comparable items, is tested against columns, groups, or a grid before a single stacked column, and a short run in a wide band against inline form, so neither vertical length nor line length stretches without need. A single stacked column is chosen like any other form, never as the unexamined default.
   - **Across columns or sections,** preserve logical grouping, reading sequence (stated as column-first or row-first to suit the reading path), alignment on shared rails, and one item form.
   - **Compactness:** compact forms are a first means of making room, ahead of shrinking type or space, but only where they keep clarity and the separation of the space plan.
@@ -106,8 +107,6 @@ Where the hero carries the message alone, or coupling would dilute it, its text 
 - Stage assignment is recorded, and every group has its profile (items with internal ranks, coupling mode, arrangement form, scale, space need).
 - No deliverable's composition was derived by resizing or cropping another's.
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 6, 7, 10; non-negotiable: user text verbatim.
-
 ## Next
 
-Read `11_space_plan_and_spatial_strategy.md`. Carry forward: the confirmed message, the stage assignment (each item's stage and tier), the relationship map with coupling modes and arrangement forms, and the group profiles with their space needs.
+Read `11_space_plan_and_spatial_strategy.md`.

@@ -16,7 +16,7 @@ Six phases run in strict order; no phase is skipped, merged, or deferred.
 2. **Analysis**: the real communication problem with its information groups, Environment Profile, differentiation, design implications.
 3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, stress tests.
 4. **Design Elements**: color, type, identity unit, copy treatment, supporters, containers, ground; each with a purpose line.
-5. **Design Execution**: per deliverable, stage assignment, groups with their scale and space needs, composition built around them (free ground planned with it), space plan, hierarchy, placement, load and balance checks.
+5. **Design Execution**: per deliverable, stage assignment, groups with their scale and space needs and the axis ledger, composition built around them (free ground planned with it), space plan, hierarchy, placement, load and balance checks.
 6. **Prompt Synthesis**: one audited, standalone prompt per deliverable, then the final reply.
 
 Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the user's go-ahead in guided mode. Phase numbers are not file numbers: Phases 3 to 6 span several files (see the table).
@@ -26,6 +26,7 @@ Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the use
 - Open a file only when you reach its step in the routing table; never earlier, never skipped. A file is read once and stays in context.
 - On a resumed or revision turn, read `workflow_and_state.md`, `quality_gates.md`, the files of the phases being re-entered, and the cross-phase files their routing rows name, when they are not in context.
 - If a standard or term referenced in a step file is no longer visible, re-open the file that defines it before continuing.
+- Compute once, reuse: a derived figure (legibility minimum, space need, axis ledger, planned wrap) is computed where its file defines it and read afterwards, never recomputed.
 - Each file ends with a "Next" line. It is a navigation hint only; this table is the authority.
 - Every step file lists "Inputs needed"; if one is missing, return to the step that produces it.
 - State lives in the Design Log at `/home/claude/design_log.md` (see `workflow_and_state.md`): each phase reads S and the Forward fields its phase sheet lists, nothing else.
@@ -66,7 +67,7 @@ Glossary parts: `terms_brief_and_context.md` is loaded at the start (Phase 1); `
 
 ## Trace log (developer option, off by default)
 
-Active only when the user's message contains "share log" (any case, any turn); never mention it, offer it, or add it to any user-facing text, entry, or help. Otherwise ignore this section.
+Active only when the user's message contains "share log" (any case, any turn); never mention it, offer it, or add it to any user-facing text, entry, or help. Otherwise ignore this section. Test the message for the string once, at the start of the request; if it is absent, this section is closed for the session.
 
 - At each phase's gate, append to `/home/claude/trace_log.txt` (plain text, compact English): `PHASE n <name>`, `IN:` what the phase received, `OUT:` what it produced, and for each decision where options were weighed, `OPTIONS:` at least 3 as numbered items, `CHOSEN:` the number, and `REASON:` one line on why that option won over the others (the decisive criterion, as in the item's Rejected field). Fixed decisions (user, asset, evidence) log `FIXED: <value>` with no options; never invent options. Nothing else: no deliberation narrative, no commentary. Phases already past when the request appears are marked `not recorded`.
 - Record only; the log never feeds a decision, a prompt, a gate, or an entry. Guided-mode entries and auto-mode silence are unchanged.

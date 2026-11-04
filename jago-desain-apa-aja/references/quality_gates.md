@@ -35,15 +35,15 @@ Run these checks, then the phase file's own "Gate checks".
 | 5 | the earliest responsible step: stages and map (`10_stage_assignment_and_relationship_map.md`), group scale, strategy, and space plan (`11_space_plan_and_spatial_strategy.md`), placement (`12_hierarchy_and_element_placement.md`), load, balance, capacity (`13_load_balance_and_capacity_checks.md`), review (`14_backgrounds_review_and_gate.md`); Phase 4 when an element is the cause | the failed check; the deliverable; the log items concerned; frozen sizes are discarded when the return precedes the capacity check |
 | 6 | the earliest cause per `triage_and_revisions.md` section 4: a clause (`16_prompt_clauses_and_delivery.md`), the prompt set or structure (`15_prompt_set_and_structure.md`), or the owning earlier phase when a decision the prompt needs does not exist | the failed audit item; the sentence; the Execution Specification field concerned |
 
-**Cross-phase tests.** Each is defined once, here; a phase file names where it runs. Run them at the listed gates and again, scoped to what changed, when a decision changes.
+**Cross-phase tests.** Each is defined once, here; a phase file names where it runs. Run them at the listed gates and again, scoped to what changed, when a decision changes; a test that passed is not re-run unless a decision it reads changed.
 
 | Test | Question | Runs at | Routes to |
 |---|---|---|---|
 | Contradiction scan | Do brand design, theme, idea, style, hero, color, type, mark, and composition agree, and from Phase 5 do the attention hierarchy, reading sequence, and placement agree? Across the set: are shared decisions identical in every deliverable, with composition differences explained by format or encounter? | 3 (plan stress tests), 4, 5 | the earliest conflicting phase |
 | Brief-quality | Does each stated quality have a visible carrier at this phase's level of realization (plan, elements, composed glance stage), and does any decision signal its opposite? | 3, 4, 5 | Phase 1 for the translation, otherwise the earliest contradicting phase |
-| Decided-attribute | Is any look-shaping attribute left to the model's apparent value? | 5, 6 | the phase that should own it |
+| Decided-attribute | Is any look-shaping attribute left to the model's apparent value? | 4, 5, 6 | the phase that should own it |
 | Originality | The protocol's three tests (predictable, specific, ambitious) | 3, 4, 5 | the deciding phase |
-| Load and fit | Does the cumulative visual load (information, imagery, supporters, containers, treatments, surface, color intensity) fit the space budget with headroom, with the quiet open per the glossary (Quiet) and every addition beating its next-lighter alternative (nothing, spacing alone, a smaller or simpler form) at its space cost? | 3 (load budget test), 4 (element allowance and load read), 5 (load and capacity checks) | the earliest phase whose allocation or addition broke it |
+| Load and fit | Does the cumulative visual load (information, imagery, supporters, containers, treatments, surface, color intensity) fit the space budget with headroom, by area and along the governing axis (axis ledger), with the quiet open per the glossary (Quiet) and every addition beating its next-lighter alternative (nothing, spacing alone, a smaller or simpler form) at its space cost? | 3 (load budget test), 4 (element allowance and load read), 5 (load and capacity checks) | the earliest phase whose allocation or addition broke it |
 
 ## 2. Composition review
 

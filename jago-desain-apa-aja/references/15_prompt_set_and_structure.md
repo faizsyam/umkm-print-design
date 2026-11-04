@@ -86,8 +86,6 @@ Adapt the order to complexity, and keep one coherent style logic from first sent
 
 ## Quality checks
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 4, 8; non-negotiables: no invented facts, user text verbatim.
-
 ## Next
 
-Read `16_prompt_clauses_and_delivery.md` and write each prompt separately. Carry forward: the prompt set (how many, what each is for), the in/out sort, and the chosen structure.
+Read `16_prompt_clauses_and_delivery.md` and write each prompt separately.

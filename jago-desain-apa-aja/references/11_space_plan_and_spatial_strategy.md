@@ -21,6 +21,7 @@ Order of work in this file: B3 and B4 (scale and space need), then C (strategy),
 
 4. **Legibility is a minimum** per tier, from its own stage. Size beyond it buys emphasis, which works only when most elements lack it. Derive it as `terms_brief_and_context.md` (Legibility minimum) describes, and express it as a fraction of the format's governing dimension: that fraction is the tier's floor in the load and capacity checks. If the format cannot physically carry a tier's content at its reach, the content moves to a nearer stage, is demoted out, or is recorded as a volume risk before any layout is drawn.
    - **Scale and space need per group.** Each group's text tiers are set at their stage's legibility minimum plus the steps its internal hierarchy needs, never enlarged to fill room. The group's **space need** (`terms_design_system.md`) is the area that content takes at that scale with the breathing room inside it (line spacing, gaps between items, padding where contained) and the open ground it needs around it to read as one unit, computed from reach, the format's physical size, line counts, and the arrangement form chosen in A2. The physical format enters here: the same text height is a smaller fraction of a larger piece, so on a large format approach and close groups need a smaller share of area while the glance message and the hero group do not automatically grow; on a small format the same groups may not fit at their reach, and the fit ladder decides before any layout is drawn.
+   - **Axis ledger, computed once.** List the groups in reading order along the governing axis with each one's extent and the separations between them (`terms_design_system.md`, Governing axis), total them against the axis, and state headroom or shortfall. A shortfall takes the fit ladder now (`terms_design_system.md`, Applying the ladder), before any strategy card is written. Record the planned wrap of every multi-line string here. Every later size and fit test reads this ledger instead of recomputing it.
 
 6. **Space as visibility and scale as relationships.** Isolation raises glance visibility more reliably than size. Express scale as proportions and steps between tiers.
 
@@ -36,14 +37,16 @@ Compare at least three structurally different strategies (different organizing l
 7. Behavior at each stage, fit with and departure from neighbors.
 8. Where supporters and designed copy sit and how they relieve, group, and balance text areas.
 9. Coupling: what content and supporters are integrated, attached, separate, and the resulting group count.
-10. Fit: each group's space need against the room the composition gives it, with headroom; a strategy that fits only by compression is eliminated.
+10. Fit (screened first): the axis ledger and each group's space need against the room the composition gives it, with headroom; a strategy that fits only by compression is eliminated.
 
 Judge with the protocol lenses. Density, scale, and finish are judged relative to the surroundings. No universal grid, fixed zone count, or stock layout without compelling reason. Unless the stance is a hero carrying the message alone, at least one card couples the hero's related content to it; message coherence outweighs tidy zoning.
+
+Screen first: test each card against field 10 before writing its other fields; a card that fails is dropped, and a new card is written only if fewer than three structurally different cards survive. If capacity later fails (`13_load_balance_and_capacity_checks.md` B7), the next strategy is the next surviving card, re-tested against the ledger; a new set is written only when none survives, and then the cause is upstream (the fit ladder from rung 5, or Phase 3's budget).
 
 ### B2. Space plan (item 2 of section B)
 
 2. **Space plan** after the strategy and before placing anything, as proportions of the full format at this deliverable's ratio (for groups arranged along one dimension, as shares of that dimension, summed with their separations): the chosen composition made quantitative. It honors the Phase 3 space intent and the free ground the strategy planned.
-   - **Area shares:** each group's or zone's portion starts from its space need and is bounded by its rank. Need is a floor: a share is never smaller than its content needs to be read comfortably at its scale. Rank is a ceiling: a share is never larger than its rank earns (hero group and first-rank message largest, the identity unit per its mark role, supporting then utility information progressively smaller), so area agrees with rank before any content is placed. Where need exceeds what rank allows, the fit ladder (`13_load_balance_and_capacity_checks.md` B5), not a squeezed zone, resolves it. The shares, with the free ground, margin, and separations, account for the whole format with headroom (nothing is left unassigned to become filler).
+   - **Area shares:** each group's or zone's portion starts from its space need (along the governing axis, its row in the axis ledger) and is bounded by its rank. Need is a floor: a share is never smaller than its content needs to be read comfortably at its scale. Rank is a ceiling: a share is never larger than its rank earns (hero group and first-rank message largest, the identity unit per its mark role, supporting then utility information progressively smaller), so area agrees with rank before any content is placed. Where need exceeds what rank allows, the fit ladder (`13_load_balance_and_capacity_checks.md` B5), not a squeezed zone, resolves it. The shares, with the free ground, margin, and separations, account for the whole format with headroom (nothing is left unassigned to become filler).
    - **Order of reservation:** the composition has already fixed where quiet separates and rests; the plan sets its proportions first (outer margin, separations between zones and groups, isolation), then the regions the longest and densest mandatory text needs (its width and line count at the legibility minimum, since it cannot compress), then the other groups in what remains, so a group's region never includes its own separation. Fitting inside its region is never the test of adequacy; the room left around its items is.
    - **Spacing as a graded system,** each level distinct from the next:
      - an outer margin scaling with the format;
@@ -67,8 +70,6 @@ Judge with the protocol lenses. Density, scale, and finish are judged relative t
 - The space plan is stated with proportions: area shares (each between its group's space need and its rank's ceiling) that with the free ground account for the whole format with headroom, graded spacing levels, relationship gaps, and any atmosphere fields included, and realized.
 - Every quiet area has a stated job and is contiguous, free of content, and undecorated (`terms_design_system.md`, Quiet).
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 6, 10; conflict priority 2.
-
 ## Next
 
-Read `12_hierarchy_and_element_placement.md`. Carry forward: each group's scale and space need, the legibility minimum of each tier as a fraction of the format, the chosen spatial strategy, and the space plan with area shares and graded spacing.
+Read `12_hierarchy_and_element_placement.md`.

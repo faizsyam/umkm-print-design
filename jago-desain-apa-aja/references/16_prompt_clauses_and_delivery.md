@@ -75,8 +75,6 @@ The prompt audit (`prompt_and_reply_audit.md` section 3) is this phase's gate. I
 
 Objection (senior art director or prompt specialist): where would the model's apparent value silently replace a decision?
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 4, 7, 8; non-negotiables: user text verbatim, supplied assets, no placeholders.
-
 ## Next
 
 Read `prompt_and_reply_audit.md` and run the prompt audit on every prompt and on the set; on failure read `triage_and_revisions.md` and return to the earliest cause (show an amendment first if a shown decision changes). Then compose each prompt's label, the usage steps, and the notes, and deliver per `ux_wait_notes_entries_and_final_reply.md` section 6.

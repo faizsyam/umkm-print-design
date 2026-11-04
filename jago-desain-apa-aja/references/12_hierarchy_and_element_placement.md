@@ -80,8 +80,6 @@ For each element specify role, scale, weight, color, treatment, plane, position,
 - Every pointer ends on its referent; no figure covers information.
 - Every major element is linked; every overlap passes the function test.
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 6, 7; non-negotiable: no placeholders or blank zones.
-
 ## Next
 
-Read `13_load_balance_and_capacity_checks.md`. Carry forward: the ranked, placed composition (ranks per stage, reading sequence as a route, placement, relationships) with provisional sizes.
+Read `13_load_balance_and_capacity_checks.md`.

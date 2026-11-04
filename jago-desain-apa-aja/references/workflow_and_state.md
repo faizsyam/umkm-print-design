@@ -58,12 +58,12 @@ Copy treatment has one owner: Phase 4, rule B2. An item first promoted to rank 1
   - Every decision names its source: Ledger item or finding → implication → plan → element → execution → prompt clause. A decision with no nameable source was made from habit and fails its gate.
   - Every quality requirement traces Phase 1 translation → plan carrier → value key and element carrier → placement → prompt clause. A requirement that any phase contradicts, or that reaches no visible carrier, fails that gate.
   - Every carry-forward obligation is realized by a named later decision or recorded as an accepted cost.
-- **Gate integrity.** State no number or decision to the user until the checks that could change it have run (load budget test in Phase 3, value key in Phase 4, load and capacity checks in Phase 5). Amendments are for genuine returns only.
-- **Return, then re-run forward.** A failed gate, or a flaw exposed later, goes to the earliest responsible phase. Redo, in order, only the decisions that read the changed one (section 3 map); a dependent whose inputs did not materially change is re-checked, not redecided. Cap each issue at two revision cycles, then take the best available resolution and record it. Never patch the prompt for an upstream cause.
+- **Gate integrity.** State no number or decision to the user until the checks that could change it have run (load budget test in Phase 3, value key in Phase 4, load and capacity checks in Phase 5). Amendments are for genuine returns only. A check that passed is re-run only when a decision it reads has changed.
+- **Return, then re-run forward.** A failed gate, or a flaw exposed later, goes to the earliest responsible phase. Redo, in order, only the decisions that read the changed one (section 3 map); a dependent whose inputs did not materially change is re-checked, not redecided. Cap each issue, and every loop inside a phase (a protocol rebuild, a fit remedy, a strategy swap), at two cycles, then take the best available resolution and record it. Never patch the prompt for an upstream cause.
 - **Gates and entries.** Each phase ends at its gate (`quality_gates.md` section 1).
   - Guided mode: show the entry immediately, in the user's language. Phase 2's findings lead the Phase 3 entry; there is no separate Phase 2 stop. End the turn with a confirmation question after Phases 3 and 4 and continue only on the go-ahead. Phase 5's entry is shown and Phase 6 follows without stopping.
   - Auto mode: show nothing at gates; the checks still run.
-- **Phase entry.** Read the phase's files in order, take S and the Forward fields its phase sheet lists from the Design Log or context, and decide one decision at a time, each against the whole (principle 1). When lost or overloaded, return to the phase sheet, then the log. Do not rush to the prompt.
+- **Phase entry.** Read the phase's files in order, take S and the Forward fields its phase sheet lists from the Design Log or context, and decide one decision at a time, each against what it reads and the commitment it realizes (principle 1); decisions that read each other are one decision (`exploration_protocol.md` section 1). When lost or overloaded, return to the phase sheet, then the log. Do not rush to the prompt.
 - **Working notes** record decisions and reasons, not deliberation. Trivial decisions are made directly. A gate that passes is one line in the log; only failures, fixes, objections, and amendments are written out.
 
 **State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
@@ -91,14 +91,14 @@ Copy treatment has one owner: Phase 4, rule B2. An item first promoted to rank 1
 | Decision | the decision's name exactly as in its phase sheet's Decisions row | Forward |
 | Specification | the chosen option, stated so a later phase can act on it without the Record | Forward |
 | Source | provenance tag (given, researched, inferred, creative choice) and the origin it traces to (ledger item, finding, plan commitment) | Forward |
-| Constrains | the later decisions whose Reads (ownership map) include this one | Forward |
+| Constrains | dependents beyond what the ownership map already gives; blank when it is only the map | Forward |
 | Status | current, stale, or re-derived | Forward |
 | Basis | the principle number (`global_standards.md` section 5) or the evidence that decided it | Record |
 | Rejected | the runner-up, the decisive criterion, and the rejected alternatives | Record |
 
 A decision made directly logs Basis as one line and Rejected as none. A decision fixed by the user, a supplied asset, or evidence logs Source as fixed and Rejected as none.
 
-**Stale flag.** When a decision changes, set Status to stale on every item whose Decision is in the changed item's Constrains, transitively. Re-derive stale items in phase order and set them to re-derived. An item whose inputs did not materially change is re-checked and set to current without being redecided.
+**Stale flag.** When a decision changes, set Status to stale on every item whose Decision is in the changed item's Constrains or is its dependent in the ownership map, transitively. Re-derive stale items in phase order and set them to re-derived. An item whose inputs did not materially change is re-checked and set to current without being redecided.
 
 **Persistence.** With file tools, keep the log at `/home/claude/design_log.md`: create it when the user confirms the summary (S and the Phase 1 Forward block); append one Forward block and its Record items per later phase at its gate; read S and the Forward blocks when a turn resumes work and before any revision. It is never presented. Without file tools, keep it in notes. If it is lost, rebuild it from the confirmed summary, shown entries, prompts, and user messages, marking rebuilt items provisional.
 

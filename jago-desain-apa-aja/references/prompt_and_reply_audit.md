@@ -43,12 +43,10 @@ Run on the drafted prompt, then on the reply.
 
 ## 5. Release checklist
 
-Gates and audits cover the detail. Before delivering, confirm:
-1. Phases 1 to 6 ran in order and every gate passed; every gate has its log line; the pre-synthesis check (`quality_gates.md` section 9) is complete; every consequential decision has its record (or is marked fixed by the user or evidence).
-2. The prompt audit passed for every prompt and the reply audit passed; shown decisions match the prompt (amendments where they changed).
-3. The Phase 1 summary and mode were confirmed, and guided-mode go-aheads obtained.
-4. Disclosure is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, and volume or rendering risk reached the user once, with no design rationale.
-5. If a blocking gap exists and no urgency was signaled, the reply is the intake questions only.
+Gates and audits cover the detail: their log lines, the confirmed summary, and the go-aheads are the evidence for the phases, gates, audits, and confirmations, and are read, not re-run. Before delivering, confirm only:
+1. every gate has its log line, the pre-synthesis check (`quality_gates.md` section 9) is complete, and the prompt and reply audits passed with shown decisions matching the prompts (amendments where they changed);
+2. disclosure is complete: every consequential assumption, yielded preference, written copy, suspected typo, supplied asset, reserved asset panel, and volume or rendering risk reached the user once, with no design rationale;
+3. if a blocking gap exists and no urgency was signaled, the reply is the intake questions only.
 
 ## 11. Output contract
 
@@ -67,7 +65,7 @@ Gates and audits cover the detail. Before delivering, confirm:
 
 ## Quality checks
 
-- Pass: every item of section 3 holds for every prompt and the reply, and all five items of section 5 are confirmed.
+- Pass: every item of section 3 holds for every prompt and the reply, and the three items of section 5 are confirmed.
 
 ## Next
 

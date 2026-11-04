@@ -86,8 +86,6 @@ Typography is part of the art direction: it carries the subject's personality an
 - Color, type, and mark each show their comparison (apparent option named, options, decisive criterion). Palette and type were each compared against the Environment Profile's surroundings and light, and the comparison is recorded. The value key supports every quality requirement, and color intensity follows rank.
 - Type has a stated voice drawn from this subject. Roles in one group differ on at least one named typographic attribute other than scale (classification, weight, width, posture, case, spacing, color), and same-role items share one style. Font names appear only for a stated brand requirement. Each text role has a decided width class, posture, baseline, spacing, and alignment.
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 4, 6, 8, 10; non-negotiables: fixed assets untouched, no stated quality contradicted.
-
 ## Next
 
-Read `06_identity_unit_and_copy_treatment.md`. Carry forward: palette with value key and color roles, type roles with decided width class, posture, and baseline (provisional until the mark is developed).
+Read `06_identity_unit_and_copy_treatment.md`.

@@ -19,7 +19,7 @@ Realize backgrounds and transitions, apply reproduction conditions, align the se
 
 ### F. Composition review
 
-Review the composed whole once against the checks below, each read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Check:
+Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Steps 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
 
 - **Message and hierarchy.**
   - The message is understood at first glance.
@@ -49,13 +49,9 @@ Review the composed whole once against the checks below, each read through the r
 - **Effect.** Each element's recorded effect registers at its stage, and none carries more weight than its function earns.
 - **Across the set.** Shared decisions appear identically in every deliverable, and composition differs only as format or encounter requires.
 
-## Forward block (restated word for word from the phase sheet in `10_stage_assignment_and_relationship_map.md`)
+## Forward block and entry fields
 
-The message; hierarchy, reading sequence (as a route over the placed regions), and placement; stage assignment; information groups with arrangement forms and space needs; spatial strategy; space plan with proportions (each group's and container's extent as a share of the governing dimension; the open regions, quiet and atmosphere, with their shares and what they separate or frame; and the density level, read from the counted load rather than an adjective); placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2) (mandatory text included), referring to Phase 4 element specifications by name rather than restating them; background and transition behavior; reproduction-condition adjustments; carry-forward obligations realized or accepted; open flags. The review result goes to the Record
-
-## Entry fields (restated word for word from the phase sheet in `10_stage_assignment_and_relationship_map.md`)
-
-(the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): the reading order in brief (what is taken in at each encounter stage); what is attached to the picture and what stands apart; the arrangement chosen with at most two alternatives (differing in how the groups are composed, not only in where the hero sits) and their weakness; and the share of quiet space (rows for a deliverable only where it differs). The capacity check passes silently to the user; its numbers stay in the specification.
+As listed in the phase sheet of `10_stage_assignment_and_relationship_map.md`.
 
 ## Quality checks
 
@@ -65,10 +61,8 @@ The message; hierarchy, reading sequence (as a route over the placed regions), a
 - The composition review passed; failures were routed to their earliest cause.
 - Objection raised and resolved (owner of the riskiest decision: visual communication specialist, production specialist, audience researcher, or senior art director).
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 1, 7; non-negotiable: fixed assets untouched.
-
 **Gate:** also run the gate checks of `10_stage_assignment_and_relationship_map.md` to `13_load_balance_and_capacity_checks.md` for every deliverable and the procedure in `quality_gates.md` section 1. Then run the pre-synthesis check (`quality_gates.md` section 9, "Ready for Phase 6"). Append the Phase 5 Forward block and Record to the Design Log.
 
 ## Next
 
-Guided mode: show the Phase 5 entry and continue to Phase 6 without stopping; auto mode: continue silently. Read `15_prompt_set_and_structure.md`. Carry forward: each deliverable's Execution Specification.
+Guided mode: show the Phase 5 entry and continue to Phase 6 without stopping; auto mode: continue silently. Read `15_prompt_set_and_structure.md`.

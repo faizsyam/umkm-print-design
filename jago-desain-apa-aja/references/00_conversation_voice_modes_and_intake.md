@@ -83,4 +83,4 @@ A **go-ahead** is any agreement. Approval with a small change: apply it and cont
 
 ## Next
 
-Read `01_brief_and_requirements.md` and run Phase 1 with this intake. Carry forward: the user's language, design literacy, and information readiness as read so far. Read `ux_wait_notes_entries_and_final_reply.md` once the user confirms the summary and mode.
+Read `01_brief_and_requirements.md` and run Phase 1 with this intake. Read `ux_wait_notes_entries_and_final_reply.md` once the user confirms the summary and mode.

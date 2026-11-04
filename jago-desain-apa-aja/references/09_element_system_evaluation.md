@@ -16,7 +16,7 @@ Each element is judged in relation to the whole.
 - **Effect and interaction.**
   - For each element, check that its treatment can deliver the effect in its purpose line within its weight ceiling and stage, and note where it strains the plan, the audience encounter, the environment, capacity, or renderability.
   - For each pair of major elements (identity unit and type, hero and background, color and imagery, supporters and hero), say whether they amplify, compete, or are neutral, and repair any competition.
-- **Element allowance and load read.** An element's space cost is its footprint plus the open ground it needs around it to read as designed. The sum of all costs (supporters, containers, counterweights, surface detail, designed treatments) fits the structure-and-decoration line of the space budget with the quiet intact. Then tally the cumulative load by category (information, imagery, containers and edges, supporters, designed and rendering treatments, surface, color intensity) against the Phase 3 density level: a category that dominates the tally without being the hero or the information is cut back. If over, remove or merge elements before shrinking any, lowest rank first.
+- **Element allowance and load read.** An element's space cost is its footprint plus the open ground it needs around it to read as designed. The sum of all costs (supporters, containers, counterweights, surface detail, designed treatments) fits the structure-and-decoration line of the space budget with the quiet intact; elements that stack along the governing axis also close on the rough axis ledger (`terms_design_system.md`). Then tally the cumulative load by category (information, imagery, containers and edges, supporters, designed and rendering treatments, surface, color intensity) against the Phase 3 density level: a category that dominates the tally without being the hero or the information is cut back. If over, remove or merge elements before shrinking any, lowest rank first.
 - **Removal test.** If an element's loss is nothing the piece needs, remove it, after asking whether a second purpose its form could carry earns it a place (extra purposes never raise space cost or weight above its ceiling). An element that stays must also beat its next-lighter alternative (nothing, spacing, a rule, a smaller form) at its space cost.
 - **Distinct-purpose check.** Two elements with the same function merge toward the one serving the hierarchy better.
 - **Weight-ceiling check** at each encounter stage: no decoration outranks the required information it serves, a forward plane's prominence included. **Plane check:** each element sits on one plane and its cues agree.
@@ -26,13 +26,9 @@ Each element is judged in relation to the whole.
 - **Connection check:** every major element is tied to at least one other by a stated link.
 - **Character test:** with the name covered, the system still carries at least two ownable character carriers from different levers. Carriers sit first inside elements the system already needs (hero depth, letterform detail, color logic, container or edge character); a new element is added only where these cannot carry.
 
-## Forward block (restated word for word from the phase sheet in `05_color_and_typography.md`)
+## Forward block and entry fields
 
-The element system (each element: purpose line, treatment, plane, weight ceiling, space cost, the commitment it realizes); palette with value key; type roles; the identity unit with its mechanisms and identity forms; copy treatments with the provisional ranks they used; supporter set; shape language, containers, fill modes; ground and unifying devices; the deployable counterweight; constraints the prompt must preserve; carry-forward obligations; open flags
-
-## Entry fields (restated word for word from the phase sheet in `05_color_and_typography.md`)
-
-(the source for the user's table; `ux_wait_notes_entries_and_final_reply.md` section 5 decides what is shown): For color (with its light or dark feel), type (with how designed text looks by role), and any system decision with real alternatives: the choice, a one-sentence reason, at most two alternatives with their weakness. For the logo and name: the idea it expresses in plain words, what it looks like, how name and symbol join (or "supplied, unchanged"). Each supporter with the lack it fills, or the finding that none is needed and what carries the character instead; the patterns, ornament, and frames chosen with the part of the theme each carries; any figure with its origin and role. Construction families, distinction mechanisms, and runner-ups stay in the Record.
+As listed in the phase sheet of `05_color_and_typography.md`.
 
 ## Quality checks
 
@@ -41,10 +37,8 @@ The element system (each element: purpose line, treatment, plane, weight ceiling
 - A deployable counterweight exists unless the stance is strictly symmetric. Character carriers and links are named for the system; the total fits the structure-and-decoration line and the cumulative load read fits the density level; rendering treatments stay within the vocabulary; shadow or glow exists only by decision.
 - Objection raised and resolved (owner of the riskiest decision per `scope_roles_and_depth.md` section 2, the mark unless another decision carries higher risk: graphic designer or senior art director; the second objection, where `quality_gates.md` section 1 requires one, comes from the prompt specialist on renderability).
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 1, 5, 6, 7; non-negotiable: no stated quality contradicted.
-
 **Gate:** also run the gate checks of `05_color_and_typography.md` to `08_containers_and_ground.md` and the procedure in `quality_gates.md` section 1; append the Phase 4 Forward block and Record to the Design Log.
 
 ## Next
 
-Guided mode: show the Phase 4 entry and stop for the go-ahead; auto mode: continue silently. Then read `10_stage_assignment_and_relationship_map.md`. Carry forward: the Phase 4 Forward fields listed above.
+Guided mode: show the Phase 4 entry and stop for the go-ahead; auto mode: continue silently. Then read `10_stage_assignment_and_relationship_map.md`.

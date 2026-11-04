@@ -116,4 +116,4 @@ Record style, color, mood, theme, references, assets, exclusions, and cultural o
 
 ## Next
 
-Read `workflow_and_state.md` and `quality_gates.md` (first gate), run the gate checks above, show the compact summary with the mode question, and stop for the user's answer. On confirmation, create the Design Log (S and the Phase 1 Forward block), read `ux_wait_notes_entries_and_final_reply.md`, then `exploration_protocol.md`, `global_standards.md`, and `02_research_and_analysis.md`. Carry forward: S (ledger fields, deliverable set, quality translations, depth, mode, user language and literacy), research questions, tensions, open flags.
+Read `workflow_and_state.md` and `quality_gates.md` (first gate), run the gate checks above, show the compact summary with the mode question, and stop for the user's answer. On confirmation, create the Design Log (S and the Phase 1 Forward block), read `ux_wait_notes_entries_and_final_reply.md`, then `exploration_protocol.md`, `global_standards.md`, and `02_research_and_analysis.md`.

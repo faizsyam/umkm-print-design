@@ -102,7 +102,7 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Designed treatments cost space and attention: no more than the tiers can carry, one lettering logic, none competing with the identity unit.
 - Write each as a concise spec: letterform character, line breaks, emphasis, container, color role, relation to neighbors.
 - Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
-- Compare two treatments per designed item in one line, and test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank.
+- Compare two treatments per group of items sharing a role and rank, in one line and together with that group's container and fill (`08_containers_and_ground.md` D2), and test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Decide it with the group's provisional arrangement form (`10_stage_assignment_and_relationship_map.md` A2), which Phase 5 confirms.
 
 ## Quality checks
 
@@ -110,8 +110,6 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; the originality tests (`quality_gates.md` section 1) pass for the mark; geometry is describable in a few concrete shapes.
 - Each text item's treatment grade is the grade its content role and provisional rank call for (B2). No first- or second-rank text is left as scaled plain type without a recorded style reason, and roles that share a group differ by more than size.
 
-**Standards in force** (`global_standards.md` section 6 says where each is checked): principles 2, 4, 5; non-negotiables: supplied logos and characters, no styled-name-only identifier, user text verbatim.
-
 ## Next
 
-Read `07_visual_supporters_and_figures.md`. Carry forward: the identity unit with its mechanisms and identity forms, copy treatments with the provisional ranks they used.
+Read `07_visual_supporters_and_figures.md`.
