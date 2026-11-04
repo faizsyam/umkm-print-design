@@ -43,7 +43,7 @@ Run these checks, then the phase file's own "Gate checks".
 | Brief-quality | Does each stated quality have a visible carrier at this phase's level of realization (plan, elements, composed glance stage), and does any decision signal its opposite? | 3, 4, 5 | Phase 1 for the translation, otherwise the earliest contradicting phase |
 | Decided-attribute | Is any look-shaping attribute left to the model's apparent value? | 4, 5, 6 | the phase that should own it |
 | Originality | The protocol's three tests (predictable, specific, ambitious) | 3, 4, 5 | the deciding phase |
-| Load and fit | Does the cumulative visual load (information, imagery, supporters, containers, treatments, surface, color intensity) fit the space budget with headroom, by area and along the governing axis (axis ledger), with the quiet open per the glossary (Quiet) and every addition beating its next-lighter alternative (nothing, spacing alone, a smaller or simpler form) at its space cost? | 3 (load budget test), 4 (element allowance and load read), 5 (load and capacity checks) | the earliest phase whose allocation or addition broke it |
+| Load and fit | Does the cumulative visual load (information, imagery, supporters, containers, treatments, surface, color intensity) fit the space budget with headroom, by area (and, at Phase 5, along the governing axis), with the quiet open per the glossary (Quiet) and every addition beating its next-lighter alternative (nothing, spacing alone, a smaller or simpler form) at its space cost? | 3 (load budget test), 4 (element allowance and load read), 5 (load and capacity checks) | the earliest phase whose allocation or addition broke it |
 
 ## 2. Composition review
 

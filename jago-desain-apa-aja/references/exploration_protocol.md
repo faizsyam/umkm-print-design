@@ -19,7 +19,7 @@ Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_d
 - Phases 1 and 6 hold no exploration.
 - **Cluster rule.** Decisions that read each other and apply to the same group or element are one decision with one decisive criterion. A choice an earlier decision already fixes (a corner geometry, a type role, a palette role) is applied, not compared.
 - A Full decision resolved in one pass, with no recorded challenge, has not been decided.
-- A decision fixed by the user, a supplied asset, or evidence is recorded as fixed (`prompt_and_reply_audit.md` section 11) and gets no cards. Only what stays open inside it is explored: a user-named style fixes the lineage only, and the seven-dimension synthesis stays open.
+- A decision fixed by the user, a supplied asset, or evidence is recorded as fixed (`prompt_and_reply_audit.md` section 11) and gets no cards. Only what stays open inside it is explored: a user-named style fixes the lineage only, and the seven-dimension synthesis stays open. When the brief also fixes most of that synthesis (palette, hero subject, type voice, mood), the dimensions still open take a compact comparison, not the full protocol, and an open remainder with one defensible option is decided directly.
 
 ## 2. Full protocol
 
@@ -27,7 +27,7 @@ Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_d
 2. **Write at least three cards.**
    - At most one is apparent; at least one comes from beyond it. They differ on a structural axis and are sourced differently (product truth, audience moment, environment, differentiator, category tension, name or origin, material, Visual source inventory, territory survey).
    - Fill every field the phase sets, in specialist terms (section 4). Finish all cards before judging any.
-   - Where the core idea already fixes the hero's subject, hero cards differ by depiction mode, crop and scale, or how the hero hosts text instead, and need not be sourced differently. A card whose depiction mode is ineligible (`03_core_idea_style_and_hero.md`, E) is dropped, never kept as a candidate. The same holds for a card that fails a hard constraint before it is judged (a spatial strategy that fails the axis ledger, `11_space_plan_and_spatial_strategy.md` C): it is dropped, not finished.
+   - Where the core idea already fixes the hero's subject, hero cards differ by depiction mode, crop and scale, or how the hero hosts text instead, and need not be sourced differently. A card whose depiction mode is ineligible (`03_core_idea_style_and_hero.md`, E) is dropped, never kept as a candidate. The same holds for a card that fails a hard constraint before it is judged (a spatial strategy that fails the fit screen, `11_space_plan_and_spatial_strategy.md` C): it is dropped after its one-line sketch, not finished.
 3. **Judge, last-written card first.**
    - Eliminate any card that contradicts a quality requirement or mandatory content (unless `global_standards.md` section 7 forces the trade).
    - Rate survivors, one line each and only where cards differ, on the lenses that discriminate:

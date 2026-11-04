@@ -6,14 +6,14 @@ An Execution Specification for each deliverable: a composition whose hierarchy, 
 
 **Inputs needed:** S (mandatory content, this deliverable's format and ratio, reproduction limits, exclusions, carrier map); Phase 4 Forward; Phase 3 Forward; Phase 2 Forward (message, Environment Profile).
 
-**Contents:** Phase sheet · 1. Process · Section map (sections of this phase and the file that holds each) · 2. Guidance · B9 and B1. Format and stage assignment (items 9 and 1 of section B) · A2. Relationship map and grouping
+**Contents:** Phase sheet · 1. Process · 2. Guidance · B9 and B1. Format and stage assignment (items 9 and 1 of section B) · A2. Relationship map and grouping
 
 ## Phase sheet
 
 | Item | Content |
 |---|---|
 | Goal | An Execution Specification for each deliverable: a composition whose hierarchy, space, scale, and placement are decided for its format, relative to the audience's encounter stages and its surroundings, every decision realizing the plan and element system |
-| Receives | S (mandatory content, this deliverable's format and ratio, reproduction limits, exclusions, carrier map); Phase 4 Forward (element system with purpose lines and specs, counterweight); Phase 3 Forward (core idea, hero with hosting capacity, style's compositional behavior and balance type, space intent, mark role, integration, layering, tone and positioning, density, point of tension, boundaries, character carriers and links); Phase 2 Forward (message, information groups; Environment Profile: encounter stages, reading path, surroundings, medium reading, departure and fit) |
+| Receives | As under Inputs needed above |
 | Decisions | Confirmation of the message; stage assignment; information groups refined into relationship map, coupling modes, arrangement forms, and space needs; spatial strategy (composition around the groups, free ground planned with it); space plan with proportions; hierarchy, reading sequence and placement (agreeing), plane order; placement, scale, weight, and color of every element and text item, each in the Phase 4 treatment (an item promoted to rank 1 or 2 takes treatment by rule B2); balance remedy; load check, capacity check, and size freeze; reproduction-condition adjustments; consistency across the set; review result |
 | Exploration | Full protocol for the **spatial strategy** (`11_space_plan_and_spatial_strategy.md` C). Stage assignment, space plan, and hierarchy follow the rules below; record reasons, not candidate comparisons |
 | Output | The Execution Specification |
@@ -22,29 +22,14 @@ An Execution Specification for each deliverable: a composition whose hierarchy, 
 
 ## 1. Process
 
-Run these steps for each deliverable, using the shared decisions as inputs.
+Per deliverable, with the shared decisions as inputs. Files 10 to 14 are read together at phase entry; the work runs in this order, and each step fixes what the next carries unchanged.
 
-Order logic: steps 2 to 5 run in a fixed order (stages and groups with their space needs, strategy, space plan, placement), because the groups and their needs say what the composition must hold. The strategy composes around them, with the free ground planned as part of the composition, instead of filling regions reserved before the content's needs were known; the space plan then quantifies the chosen composition. Balance is measured before the capacity check, because balance remedies can change sizes and positions; the capacity check then freezes the sizes.
-
-1. Confirm the message from Phase 2. Reword it only if triage or content volume changes what the glance viewer can take away, and record the change.
-2. Read the format (B9), assign every content item to an encounter stage (B1), refine the information groups and map their referents, coupling modes, and arrangement forms (A2), and derive each group's scale and space need (`11_space_plan_and_spatial_strategy.md`, B3 and B4).
-3. Decide the spatial strategy by the protocol (`11_space_plan_and_spatial_strategy.md` C): a composition built around the hero, the groups with their space needs, and the free ground (quiet and atmosphere) planned with them, in amount, placement, and proportions; each card tested for fit against the space needs.
-4. Decide the space plan (`11_space_plan_and_spatial_strategy.md` B2) as the chosen composition made quantitative: area shares derived from the space needs and bounded by rank, with margin, separations, isolation, internal spacing, relationship gaps, resting fields, and atmosphere fields, accounting for the whole format with headroom.
-5. Rank and place content (`12_hierarchy_and_element_placement.md` A, D), settling each group's arrangement form (A2) within the room the composition gives it, with provisional sizes derived top-down from each group's share (`11_space_plan_and_spatial_strategy.md` B2): tiers at their legibility minimums plus the steps hierarchy needs, inside the share and never enlarged to fill it. Run the load check and, if content or load exceeds the plan, the fit ladder (`13_load_balance_and_capacity_checks.md` B5). An item promoted to first or second rank with no treatment decision takes the Phase 4 treatment check (B2 in `06_identity_unit_and_copy_treatment.md`).
-6. Check balance (`13_load_balance_and_capacity_checks.md` A3) on the placed composition and remedy it.
-7. Run the capacity check (`13_load_balance_and_capacity_checks.md` B7) and freeze sizes. A remedy that moves or resizes an element re-estimates that element's balance only. If group-level remedies fail, the strategy does not fit the content: return to step 3 for the next strategy and re-derive the space plan from it, never shrink to pass.
-8. Decide backgrounds, reproduction conditions, and the set (`14_backgrounds_review_and_gate.md` E).
-9. Review the composition (`14_backgrounds_review_and_gate.md` F). On failure, return to the earliest responsible decision and re-run forward. Gate.
-
-### Section map (sections of this phase and the file that holds each)
-
-| Sections | File |
-|---|---|
-| B9 Format; B1 Stage assignment; A2 Relationship map and grouping | `10_stage_assignment_and_relationship_map.md` |
-| B3 Size follows stage; B4 Legibility minimum and group space need; C Spatial strategy; B2 Space plan (this order of work); B6 Space as visibility | `11_space_plan_and_spatial_strategy.md` |
-| A Visual hierarchy and planes; D Implementing elements | `12_hierarchy_and_element_placement.md` |
-| B5 Budget the content (load check; fit ladder in `terms_design_system.md`); A3 Balance; B7 Capacity check; B8 Proportion, fill, and zone checks | `13_load_balance_and_capacity_checks.md` |
-| E Backgrounds, reproduction conditions, the set; F Composition review; gate checks; entry fields | `14_backgrounds_review_and_gate.md` |
+1. **Frame** (this file): confirm the message from Phase 2 (reword only if triage or volume changes what the glance viewer can take away, and record it); read the format (B9); assign every item to a stage (B1); profile the groups with their referents, coupling modes, internal ranks, and arrangement forms (A2). No sizes yet.
+2. **Needs** (`11_space_plan_and_spatial_strategy.md` B3, B4): each group's space need as an area share, computed once from the Phase 2 tier floors.
+3. **Compose** (`11_space_plan_and_spatial_strategy.md` C): decide the spatial strategy. The chosen card is the **composition sketch**: the groups' regions in order along the governing axis, how hero, unit, and groups relate, where the free ground sits, the rank order with the lever that holds each rank, the reading route, and the balance relation with its counterweight. Hierarchy, route, and balance are decided here; later steps carry the sketch and do not re-derive it.
+4. **Measure** (`11_space_plan_and_spatial_strategy.md` B2): the space plan on the sketch, computed once: each group's extent from its need and the width its region gives it, wraps recorded, separations and margins in a few graded steps, totals against the axis and the area, headroom or shortfall, the fit ladder applied once as a batch to any shortfall. These are the sizes later steps use.
+5. **Specify** (`12_hierarchy_and_element_placement.md`; backgrounds, reproduction conditions, and the set in `14_backgrounds_review_and_gate.md` E): every element and text item inside the sketch's regions, its levers set to deliver the sketch's ranks, with planes, overlaps, and relationships. An item promoted to first or second rank with no treatment decision takes the Phase 4 treatment check (B2 in `06_identity_unit_and_copy_treatment.md`).
+6. **Verify once** (`13_load_balance_and_capacity_checks.md`; `14_backgrounds_review_and_gate.md` F): one pass over the specified composition: rank order, route, and balance against the sketch; load; capacity for the strings in doubt, then the size freeze; proportion, fill, and zones; the composed-whole reads. A failure returns to the earliest step that owns it (cap: two cycles). Gate.
 
 ## 2. Guidance
 
@@ -70,7 +55,7 @@ Group content by the job it does together and by what it refers to, not only by 
 
 Where the hero carries the message alone, or coupling would dilute it, its text stays separate by stage and the hero keeps its isolation (the modes below then apply only to what is still coupled). On a named failure, return to Phase 3 and amend the stated stance.
 
-**Profile every group** before any region exists: its items and volume; its internal hierarchy (a lead item, supporting items, and fine details each hold their own rank inside the group, so related items read as one visual unit without sharing prominence); its referent and coupling mode; the visual resources Phase 4 gave it (supporters, container form, copy treatments); its stage and legibility tier, hence the scale of its text; its arrangement form (below); and its **space need** (`11_space_plan_and_spatial_strategy.md`, B3 and B4). Supplementary information (secondary, utility, contact, social) is profiled the same way: one or a few compact groups, never a row or container per item by default.
+**Profile every group** before any region exists: its items and volume; its internal hierarchy (a lead item, supporting items, and fine details each hold their own rank inside the group, so related items read as one visual unit without sharing prominence); its referent and coupling mode; the visual resources Phase 4 gave it (supporters, container form, copy treatments); its stage and legibility tier, hence the scale of its text; and its arrangement form (below). Its **space need** is computed next (`11_space_plan_and_spatial_strategy.md`, B4). Supplementary information (secondary, utility, contact, social) is profiled the same way: one or a few compact groups, never a row or container per item by default.
 
 **Map every text item** from its referent and content role: what it refers to, whether the hero's form can host it, and its mode.
 

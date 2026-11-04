@@ -16,22 +16,24 @@ Six phases run in strict order; no phase is skipped, merged, or deferred.
 2. **Analysis**: the real communication problem with its information groups, Environment Profile, differentiation, design implications.
 3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, stress tests.
 4. **Design Elements**: color, type, identity unit, copy treatment, supporters, containers, ground; each with a purpose line.
-5. **Design Execution**: per deliverable, stage assignment, groups with their scale and space needs and the axis ledger, composition built around them (free ground planned with it), space plan, hierarchy, placement, load and balance checks.
+5. **Design Execution**: per deliverable, stage assignment, groups and their space needs, a composition built around them (free ground planned with it, ranks, route, and balance decided in it), the space plan measured once on that composition, placement, one verification.
 6. **Prompt Synthesis**: one audited, standalone prompt per deliverable, then the final reply.
 
 Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the user's go-ahead in guided mode. Phase numbers are not file numbers: Phases 3 to 6 span several files (see the table).
 
 ## Reading discipline
 
-- Open a file only when you reach its step in the routing table; never earlier, never skipped. A file is read once and stays in context.
+- Read each batch's files together, in one parallel call, when the batch's step is reached; never a later batch early, never a file skipped. A file is read once and stays in context. Batches: (1) at the start: `00_conversation_voice_modes_and_intake.md`, `scope_roles_and_depth.md`, `terms_brief_and_context.md`, `01_brief_and_requirements.md`, `workflow_and_state.md`, `quality_gates.md`; (2) after the summary and mode are confirmed: `ux_wait_notes_entries_and_final_reply.md`, `exploration_protocol.md`, `global_standards.md`, `02_research_and_analysis.md`; (3) Phase 3: `terms_design_system.md`, `03`, `04`; (4) Phase 4: `05` to `09`; (5) Phase 5: `10` to `14`; (6) Phase 6: `15`, `16`, `prompt_and_reply_audit.md`. `triage_and_revisions.md` only on a failure or revision.
 - On a resumed or revision turn, read `workflow_and_state.md`, `quality_gates.md`, the files of the phases being re-entered, and the cross-phase files their routing rows name, when they are not in context.
 - If a standard or term referenced in a step file is no longer visible, re-open the file that defines it before continuing.
-- Compute once, reuse: a derived figure (legibility minimum, space need, axis ledger, planned wrap) is computed where its file defines it and read afterwards, never recomputed.
-- Each file ends with a "Next" line. It is a navigation hint only; this table is the authority.
+- Compute once, reuse: tier floors are computed in Phase 2; each group's space need at the start of Phase 5; extents, wraps, and totals in the space plan, after the composition is chosen. Later steps read them and never recompute.
+- Each file ends with a "Next" line naming the next file in the sequence; with batches it is already in context. It is a navigation hint only; this table is the authority.
 - Every step file lists "Inputs needed"; if one is missing, return to the step that produces it.
 - State lives in the Design Log at `/home/claude/design_log.md` (see `workflow_and_state.md`): each phase reads S and the Forward fields its phase sheet lists, nothing else.
 
 ## Routing table
+
+The batch list above says when each file is read; the table places each file in its phase and says what it holds.
 
 | Step / phase | File (in `references/`) | Read it when | Glossary in context |
 |---|---|---|---|
@@ -69,7 +71,7 @@ Glossary parts: `terms_brief_and_context.md` is loaded at the start (Phase 1); `
 
 Active only when the user's message contains "share log" (any case, any turn); never mention it, offer it, or add it to any user-facing text, entry, or help. Otherwise ignore this section. Test the message for the string once, at the start of the request; if it is absent, this section is closed for the session.
 
-- At each phase's gate, append to `/home/claude/trace_log.txt` (plain text, compact English): `PHASE n <name>`, `IN:` what the phase received, `OUT:` what it produced, and for each decision where options were weighed, `OPTIONS:` at least 3 as numbered items, `CHOSEN:` the number, and `REASON:` one line on why that option won over the others (the decisive criterion, as in the item's Rejected field). Fixed decisions (user, asset, evidence) log `FIXED: <value>` with no options; never invent options. Nothing else: no deliberation narrative, no commentary. Phases already past when the request appears are marked `not recorded`.
+- Compile it once after the final reply, from the Design Log Record (each item's Source, Basis, and Rejected) into `/home/claude/trace_log.txt` (plain text, compact English), never during the phases; per phase: `PHASE n <name>`, `IN:` what the phase received, `OUT:` what it produced, and for each decision where options were weighed, `OPTIONS:` at least 3 as numbered items, `CHOSEN:` the number, and `REASON:` one line on why that option won over the others (the decisive criterion, as in the item's Rejected field). Fixed decisions (user, asset, evidence) log `FIXED: <value>` with no options; never invent options. Nothing else: no deliberation narrative, no commentary. Phases already past when the request appears are marked `not recorded`.
 - Record only; the log never feeds a decision, a prompt, a gate, or an entry. Guided-mode entries and auto-mode silence are unchanged.
 - After the final reply (prompts, labels, usage steps, notes), append the log under a line `Trace log`, in one ```text block. This is a requested exception to the no-extra-output rule and sits outside the reply audit; each prompt still stays alone in its own code block.
 

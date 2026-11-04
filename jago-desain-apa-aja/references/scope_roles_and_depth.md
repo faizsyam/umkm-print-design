@@ -58,7 +58,7 @@ Reading the Full conditions:
 | Research (Phase 2) | every question that can change a decision | the one or two that can |
 | Territory survey (Phase 3) | at least 5 territories from at least 3 source families | at least 3 territories from at least 2 families |
 | Candidate cards | every field the phase sets | fields that tell candidates apart, plus quality compatibility |
-| Governing principles (Phase 3) | compared: space intent, density and rhythm, imagery and decoration, integration, mark role, layering, tone and positioning | compared: space intent, density and rhythm, imagery and decoration, integration, mark role; rest decided directly |
+| Governing principles (Phase 3) | compared: space intent with density and rhythm (one comparison), imagery and decoration, integration, mark role, layering, tone and positioning | compared: space intent with density and rhythm (one comparison), imagery and decoration, integration, mark role; rest decided directly |
 | New mark (Phase 4) | at least 6 seeds, every check recorded | at least 4 seeds, checks as pass/fail lines |
 | Gate objections | two (the two riskiest decisions) | one |
 

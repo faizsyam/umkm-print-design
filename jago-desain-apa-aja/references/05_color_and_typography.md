@@ -73,7 +73,7 @@ Typography is part of the art direction: it carries the subject's personality an
   - The wordmark's lettering must differ from the informational type in construction, weight, or treatment (`06_identity_unit_and_copy_treatment.md` C).
   - Dense text raises rendering risk: plan structure (grouping, rows, fewer styles).
   - Describe type by characteristics; name a font only for a stated brand requirement.
-- **Readability and expression.** Each role is legible at the physical size and viewing distance of its stage and in the real light (`11_space_plan_and_spatial_strategy.md`, B3 and B4). Expression never costs legibility: the more expressive the voice, the fewer the roles that carry it, and the informational roles stay easy to read.
+- **Readability and expression.** Each role is legible at the physical size and viewing distance of its stage and in the real light (the Phase 2 tier floors). Expression never costs legibility: the more expressive the voice, the fewer the roles that carry it, and the informational roles stay easy to read.
 
 **Letterform proportions.** Each role's width class, posture, and baseline are decided and named, never left to the model.
 - Informational and plain-set text keeps natural proportions and a level baseline.

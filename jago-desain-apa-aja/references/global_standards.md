@@ -34,37 +34,8 @@ The ten design principles every decision obeys, the order in which colliding req
    - **Hierarchy, sequence, and placement agree.** The attention hierarchy (what is noticed first), the reading sequence (the order content is taken in), and the placement (where each item sits) are planned together and stated without contradiction through the final prompt. Relationships are specified, not implied: each element's alignment, gap, relative position, and overlap or clearance to its neighbors.
    - **Equivalent items** (same role, rank, and function) share one typographic treatment wherever they sit, regardless of length: size encodes role and rank, never length, and layout absorbs length. Variation needs a difference in importance, role, emphasis, or purpose. Equivalent units presented as repeated containers (cards, rows, panels) also share outer dimensions and internal structure, so differing content volume is absorbed inside a constant frame.
 8. **Fidelity to the brief.** Mandatory content, user text, exclusions, fixed assets, stated qualities (named style, color, technique included), and priorities are never silently overridden, not even by the skill's own strategy. Constraints are material: seek distinction inside them by committing fully, never by diluting or evading them.
-9. **Effort follows impact.** Deliberate longest on the mark, core idea, hero, and space plan (the plan is computed once from the axis ledger, not found by trial layouts); move briskly on routine decisions. A decision is closed when its decisive criterion is stated and no recorded check fails it; it reopens only by naming a failed check (`workflow_and_state.md` section 4). A choice an earlier decision already fixes is applied, not decided again.
+9. **Effort follows impact.** Deliberate longest on the mark, core idea, hero, and space plan (the plan is measured once on the chosen composition, not found by trial layouts); move briskly on routine decisions. A decision is closed when its decisive criterion is stated and no recorded check fails it; it reopens only by naming a failed check (`workflow_and_state.md` section 4). A choice an earlier decision already fixes is applied, not decided again.
 10. **Context before convention.** Universal principles (purpose, hierarchy, coherence, specificity) hold in every medium. What the medium imposes, what its audience relies on, and what it affords are derived from the actual deliverable in Phase 2, never assumed from the medium's name. Keep any convention the audience relies on to read or use a piece wherever departing would cost them effort or credibility; spend distinction on expression and identity.
-
-## 6. Enforcement map
-
-Every standard has a step that enforces it and a check that tests it. A gate check with no source here is sourced in its own file.
-
-| Standard | Enforced at | Checked by |
-|---|---|---|
-| 1 Whole-system thinking | each decision judged against the whole (`workflow_and_state.md` section 4, Phase entry); system evaluation (`09_element_system_evaluation.md`); composition review (`14_backgrounds_review_and_gate.md`) | contradiction scan (Phases 3 to 5) |
-| 2 Structured exploration | `exploration_protocol.md` | gate step 2 (`quality_gates.md` section 1) |
-| 3 Evidence-informed judgment | provenance tags in the ledger (`01_brief_and_requirements.md`) and implications (`02_research_and_analysis.md`) | gates 1 and 2; gate step 3 (every decision names its source) |
-| 4 Contextual specificity | stress tests (`04_principles_and_plan_evaluation.md` G); decided-attribute rule | swap, context-swap, and decided-attribute tests; prompt audit, Specifics |
-| 5 Functional creativity and restraint | purpose line per element (`05` to `08`); imagery and decoration stance (`04_principles_and_plan_evaluation.md` F); text-only baseline, information-job pass, and world read (`07_visual_supporters_and_figures.md` D); removal, distinct-purpose, and additive checks (`09_element_system_evaluation.md`) | gate 4; originality and load-and-fit tests |
-| 6 Rank, planned space, cumulative load | `04_principles_and_plan_evaluation.md` (space intent), `10_stage_assignment_and_relationship_map.md` (group profiles and space needs), `11_space_plan_and_spatial_strategy.md`, `12_hierarchy_and_element_placement.md`, `13_load_balance_and_capacity_checks.md` | load budget test (3); element allowance (4); load and capacity checks (5); load-and-fit test |
-| 7 Internal consistency | `02_research_and_analysis.md` E (information groups), `10_stage_assignment_and_relationship_map.md`, `12_hierarchy_and_element_placement.md`, `16_prompt_clauses_and_delivery.md` | contradiction scan; composition review; prompt audit, Order and roles |
-| 8 Fidelity to the brief | `01_brief_and_requirements.md`; every later phase | brief-quality test; prompt audit, Mandatory content, Fixed assets, Qualities |
-| 9 Effort follows impact | decision classes (`exploration_protocol.md` section 1) | gate step 4 (objection on the riskiest decision) |
-| 10 Context before convention | Environment Profile (`02_research_and_analysis.md` C) | gate 2 (profile checks) |
-| NN: no invented facts | `01` E; `02` G; `07` | gate 1; prompt audit, Exclusions |
-| NN: user text verbatim | `01` C; `16` E | prompt audit, Mandatory content |
-| NN: supplied logos and characters | `01` D; `06` C; `07` | gates 4; prompt audit, Fixed assets |
-| NN: no copying | `02` G; `03` B | gates 2 and 3; prompt audit, Exclusions |
-| NN: no styled-name-only identifier | `06` C | gate 4; prompt audit, Identifier |
-| NN: no placeholders or blank zones | `12` D (reserved asset panel) | prompt audit, Hygiene |
-| NN: no stated quality contradicted | `01` D; carrier map (Phase 3) | brief-quality test; `quality_gates.md` section 9 |
-| NN: no suggestion without the user's yes | `00_conversation_voice_modes_and_intake.md` section 3 | reply audit |
-| NN: no unfamiliar jargon, no walls of text | `ux_wait_notes_entries_and_final_reply.md` sections 5 to 8 | reply audit |
-| NN: no workflow output beyond the defined messages | turn map (`00_conversation_voice_modes_and_intake.md`) | reply audit |
-
-NN = non-negotiable (section 8). Phase file letters (`01` E) name the section of that file.
 
 ## 7. Conflict priority
 
@@ -93,7 +64,7 @@ A lower priority yields only to a higher one and keeps its closest surviving exp
 
 ## Quality checks
 
-- Pass: each standard is checked where the enforcement map (section 6) says, and every collision was resolved in the order of section 7.
+- Pass: each standard is checked where its phase file's gate checks say, and every collision was resolved in the order of section 7.
 
 ## Next
 

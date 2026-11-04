@@ -9,7 +9,7 @@ Defines the phase order and exit artifacts, which phase owns and reads which dec
 ## 3. Workflow
 
 **Reading order.** The routing table in `SKILL.md` names which file to open at which step; each file's "Read this when" repeats the trigger.
-- On entering a phase: that phase's files, in order, never earlier, never skipped. The first file of each phase opens with a phase sheet listing what the phase reads, decides, and hands forward.
+- On entering a phase: that phase's batch (`SKILL.md`, Reading discipline), read together, never earlier, never skipped. The first file of each phase opens with a phase sheet listing what the phase reads, decides, and hands forward.
 - Cross-phase files are read at the step the routing table names: the glossary parts at Phases 1 and 3, `exploration_protocol.md` and `global_standards.md` on entering Phase 2, this file and `quality_gates.md` at the first gate (Phase 1's).
 - Each file is read once and stays in context; reopen only a section a decision needs. If a standard or term referenced in a step file is no longer visible, re-open the file that defines it before continuing.
 - On a resumed or revision turn, read `workflow_and_state.md`, `quality_gates.md`, the files of the phases being re-entered, and the cross-phase files the routing table names for those phases (glossary parts, protocol, standards, UX, audit) when they are not in context.
@@ -63,7 +63,7 @@ Copy treatment has one owner: Phase 4, rule B2. An item first promoted to rank 1
 - **Gates and entries.** Each phase ends at its gate (`quality_gates.md` section 1).
   - Guided mode: show the entry immediately, in the user's language. Phase 2's findings lead the Phase 3 entry; there is no separate Phase 2 stop. End the turn with a confirmation question after Phases 3 and 4 and continue only on the go-ahead. Phase 5's entry is shown and Phase 6 follows without stopping.
   - Auto mode: show nothing at gates; the checks still run.
-- **Phase entry.** Read the phase's files in order, take S and the Forward fields its phase sheet lists from the Design Log or context, and decide one decision at a time, each against what it reads and the commitment it realizes (principle 1); decisions that read each other are one decision (`exploration_protocol.md` section 1). When lost or overloaded, return to the phase sheet, then the log. Do not rush to the prompt.
+- **Phase entry.** Read the phase's batch in one call, work in the order its first file's process gives, take S and the Forward fields its phase sheet lists from the Design Log or context, and decide one decision at a time, each against what it reads and the commitment it realizes (principle 1); decisions that read each other are one decision (`exploration_protocol.md` section 1). When lost or overloaded, return to the phase sheet, then the log. Do not rush to the prompt.
 - **Working notes** record decisions and reasons, not deliberation. Trivial decisions are made directly. A gate that passes is one line in the log; only failures, fixes, objections, and amendments are written out.
 
 **State: the Design Log.** The only carrier of state between phases and turns. Compact English, in three parts:
@@ -84,7 +84,7 @@ Copy treatment has one owner: Phase 4, rule B2. An item first promoted to rank 1
   A decision that rests only on provisional items stays tagged and is disclosed in the summary or entry (auto mode: the key decisions).
 - **Record:** the Basis and Rejected fields of every log item, candidates and tables, objections with resolutions, research notes, shown amendments. Read only by gates and audits, by revisions, and by the return rule; never passed to a later decision or to Phase 6.
 
-**Log item schema.** Every decision is one log item. Field names are fixed; phase sheets, gates, and revisions use them.
+**Log item schema.** Every decision a later phase reads (the ownership map's Reads column) is one log item; the others are named in one line of the Record. Field names are fixed; phase sheets, gates, and revisions use them.
 
 | Field | Holds | Kept in |
 |---|---|---|

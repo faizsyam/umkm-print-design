@@ -19,7 +19,7 @@ Realize backgrounds and transitions, apply reproduction conditions, align the se
 
 ### F. Composition review
 
-Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Steps 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
+Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Steps 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. Hierarchy, route, balance, and capacity were verified once in steps 12 and 13 and are not re-read here. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
 
 - **Message and hierarchy.**
   - The message is understood at first glance.
