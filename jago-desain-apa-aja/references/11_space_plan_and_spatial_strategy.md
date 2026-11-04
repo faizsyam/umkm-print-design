@@ -2,7 +2,7 @@
 
 Derive each group's scale and space need from its stage, choose the spatial strategy by the full protocol as a composition built around the groups with the free ground planned in it, then quantify the chosen composition as the space plan.
 
-**Read this when:** after `10_stage_assignment_and_relationship_map.md` (stages, groups, coupling modes, and arrangement forms decided for this deliverable).
+**Read this when:** in the Phase 5 batch; used at steps 2 to 4 of the process in `10_stage_assignment_and_relationship_map.md`, after the stages, groups, coupling modes, and arrangement forms are decided.
 
 **Inputs needed:** Stage assignment, group profiles, and relationship map from `10_stage_assignment_and_relationship_map.md`; Phase 3 space intent, space budget (free ground as quiet share and any atmosphere, role needs), density level, balance type, hero hosting capacity, integration stance; Phase 4 element system; Phase 2 encounter stages with reading distances; S format and ratio.
 

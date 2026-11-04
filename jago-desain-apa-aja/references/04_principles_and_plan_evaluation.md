@@ -71,9 +71,8 @@ Return to the responsible decision on a conflict (two cycles per issue). Then ru
 2. **Context-swap:** is it equally right in another setting? Then it ignores the environment.
 3. **Distance and attention:** does the first impression hold at the glance stage in the real setting?
 4. **Contradiction scan** (`quality_gates.md` section 1): do all plan decisions agree?
-5. **Ambition:** does it fit content, budget, and format?
-6. **Brief-quality** (`quality_gates.md` section 1), against the carrier map: does each stated quality have a carrier at the glance stage, and does any decision signal its opposite? This run is also the gate's quality check.
-7. **Crowding, restraint, and development:** squint the assembled plan. Is there contiguous, undecorated quiet ground with a job, and does the load budget hold with headroom? Could any element, treatment, or supporter be removed so the plan reads better? Equally, is every plainness a decision: does the style's world, the inventory, or the information hold something the plan leaves unrealized without a reason, and do the character carriers hold if the plan stays plain? Does one category (decoration, containers, imagery) rival the hero or the required information?
+5. **Brief-quality** (`quality_gates.md` section 1), against the carrier map: does each stated quality have a carrier at the glance stage, and does any decision signal its opposite? This run is also the gate's quality check.
+6. **Crowding, restraint, and development:** squint the assembled plan. Is there contiguous, undecorated quiet ground with a job? Could any element, treatment, or supporter be removed so the plan reads better? Equally, is every plainness a decision: does the style's world, the inventory, or the information hold something the plan leaves unrealized without a reason, and do the character carriers hold if the plan stays plain? Does one category (decoration, containers, imagery) rival the hero or the required information?
 
 ## Forward block and entry fields
 
@@ -83,7 +82,7 @@ As listed in the phase sheet of `03_core_idea_style_and_hero.md`.
 
 **Gate checks for this step (fails if any is false):**
 - Compared principles show their options. Space intent states the budget (free ground as quiet share with its jobs and location and any atmosphere, role needs, density level) and passed the load budget test for every deliverable at its own ratio. Imagery and decoration stance evaluates each family, excludes none by blanket default, states plainness as a decision where it holds, and names the treatment vocabulary.
-- Character carriers and linking logic are named; seven stress tests are recorded; every quality requirement has carriers in the plan; every Phase 2 tension is carried.
+- Character carriers and linking logic are named; six stress tests are recorded; every quality requirement has carriers in the plan; every Phase 2 tension is carried.
 - Objection raised and resolved (owner of the riskiest decision: senior art director or brand strategist, or the visual communication specialist where it is the space budget).
 
 **Gate:** also run the gate checks of `03_core_idea_style_and_hero.md` and the procedure in `quality_gates.md` section 1; append the Phase 3 Forward block and Record to the Design Log.

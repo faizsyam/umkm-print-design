@@ -2,7 +2,7 @@
 
 Rank every element, verify the attention sequence, decide planes and overlap, and specify role, scale, weight, color, treatment, plane, position, and relationships of every element and text item.
 
-**Read this when:** after `11_space_plan_and_spatial_strategy.md` (space plan and strategy decided); this is step 5 of the Phase 5 process.
+**Read this when:** in the Phase 5 batch; used at step 5 (Specify), after the strategy is chosen and the space plan measured.
 
 **Inputs needed:** Everything from `10_stage_assignment_and_relationship_map.md` and `11_space_plan_and_spatial_strategy.md`; Phase 4 element system with purpose lines and weight ceilings; Phase 3 mark role, layering stance, tone and positioning (price visibility, scale, space cues), density, point of tension; Phase 4 counterweight.
 

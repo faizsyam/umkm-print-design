@@ -2,7 +2,7 @@
 
 Realize backgrounds and transitions, apply reproduction conditions, align the set, review the composition once, and close Phase 5 at its gate.
 
-**Read this when:** after `13_load_balance_and_capacity_checks.md` (sizes frozen); this covers steps 8 and 9 of the Phase 5 process.
+**Read this when:** in the Phase 5 batch; backgrounds, reproduction conditions, and the set (E) belong to step 5 (Specify); the review (F) and the gate to step 6 (Verify once).
 
 **Inputs needed:** The frozen composition from `13_load_balance_and_capacity_checks.md`; Phase 4 ground, scrim, edge behavior, zone transitions, surface; Phase 2 medium reading.
 
@@ -19,33 +19,26 @@ Realize backgrounds and transitions, apply reproduction conditions, align the se
 
 ### F. Composition review
 
-Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Steps 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. Hierarchy, route, balance, and capacity were verified once in steps 12 and 13 and are not re-read here. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
+Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Files 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. Hierarchy, route, balance, load, and capacity were verified once in files 12 and 13 and are not re-read here. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
 
 - **Message and hierarchy.**
   - The message is understood at first glance.
-  - The predicted attention sequence (`12_hierarchy_and_element_placement.md`, A, Verification) equals the recorded ranks, and no element, secondary or utility information included, competes with its rank.
-  - The reading sequence runs as a route over the placed regions and agrees with the attention hierarchy and the placement; each element is judged as drawn, with its container and treatment.
+  - Each element is judged as drawn, with its container and treatment; none, secondary or utility information included, competes with its rank.
   - The piece carries character at its density, not blank or category-generic.
   - The unit is integrated, distinctive, and passes the text-neighborhood test.
 - **Quality and traceability.**
   - Every stated quality requirement reads off the composed whole at the glance stage, value key included (recompute the key only if this phase changed the area of ground, bands, or hero).
   - Every element has a distinct purpose, and no decoration outranks the required information it serves.
   - Every placement traces to a plan or element decision, and every plan commitment is visibly realized.
-- **Legibility, balance, space.** Legibility; balance as measured in A3 (`13_load_balance_and_capacity_checks.md`); completeness; proportion and space (realized space matches the plan); cumulative load, tallied by category, fits the budget with headroom; breathing room is perceptible at every zone's perimeter and inside every container, each group's space need is met inside the room it was given, and the quiet regions are contiguous, calm, and undecorated while any atmosphere fields sit in ground the quiet does not need.
+- **Space as drawn.** Realized space matches the plan; breathing room is perceptible at every zone's perimeter and inside every container, and the quiet regions are contiguous, calm, and undecorated while any atmosphere fields sit in ground the quiet does not need.
 - **Context fit.** Fit with actual neighbors and light while departing on the intended dimension; would it fail unchanged for another subject?
 - **Relationships.**
   - Coupled items sit nearest their referents; no picture-with-captions bands; the hero is dominant (or isolated and dominant where it carries the message alone).
   - Arrangement form is chosen per group from its function, not repeated by default; supplementary information is composed as compact groups, never a row or container per item by default.
   - Neighbors have stated alignment, gap, and clearance; a near-touch is decided as separation or overlap; equivalent units are balanced inside (shared dimensions, rails, and treatment).
-  - No zone is crowded at its own scale or takes separation from its neighbors; area shares agree with rank.
-  - Cumulative visual load stays within what the space plan carries, and the open regions are contiguous and calm.
 - **Plan features.** The point of tension, if the plan set one, reads at glance. Layering: plane order reads at glance, agrees with hierarchy, leaves required information unoccluded, and a single plane is the style's choice with surface richness carried.
 - **Decided, not defaulted.** Every look-shaping attribute (`terms_brief_and_context.md`) traces to a decision; nothing is generic, templated, overdecorated, or underdeveloped (the theme's world is realized, or its absence is a recorded decision), and every rendering treatment in use is in the Phase 3 vocabulary.
-- **Typography and containers.**
-  - Equivalent items share one treatment whatever their length.
-  - Roles in a group differ by more than size, and no symbol repeats the words beside it.
-  - Text keeps each role's decided proportions and level baseline, with no string compressed, stretched, or slanted to fit.
-  - Containers differ by information role and rank, and each has its decided material impression; parallel claims remain distinct statements and are gathered by shared job unless read as one.
+- **Typography and containers.** The Phase 4 treatments hold as specified: equivalent items share one treatment whatever their length, no string is compressed, stretched, or slanted to fit, and containers keep their role differences.
 - **Effect.** Each element's recorded effect registers at its stage, and none carries more weight than its function earns.
 - **Across the set.** Shared decisions appear identically in every deliverable, and composition differs only as format or encounter requires.
 
