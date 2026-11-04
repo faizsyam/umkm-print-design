@@ -24,7 +24,7 @@ A basic, generic, or forgettable identifier fails even if it passes every test; 
 - **The device never costs the name.** Every letter of the name stays complete, in order, and recognizable as itself. A symbol that replaces, merges with, or distorts a letter is allowed only where a first-time viewer still reads the exact name at once, at the stage where it must be read.
 - An emblematic form never borrows the look of an official seal or certification.
 
-**Extended development** (do not collapse into one pass)
+**Extended development** (do not collapse into one pass; it is also the method for a created lead figure, `07_visual_supporters_and_figures.md`, where a candidate is a figure design and the lockup test is replaced by silhouette and expression range)
 1. **Concept mining.** Write raw seeds (minimum count by depth: `scope_roles_and_depth.md` section 6) from different sources: the name's meaning, sound, shape, or initials; the product's defining truth; process or craft; origin; the audience's ritual or use; the inventory and the Phase 3 seed bank; the environment; a visual signature of the subject. Include seeds beyond the apparent. Keep only seeds that are true, ownable, and visually workable; discard any the subject cannot honestly claim.
 2. **Three developed candidates,** each a complete identity-unit idea: seed and personality device; construction family; lockup (arrangement, proportion, shared construction logic); behavior at small size. They differ in concept source or construction; at most one is apparent. Construction families to weigh:
    - **enclosed:** symbol held within a boundary;

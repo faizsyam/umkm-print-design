@@ -64,7 +64,7 @@ Short, in this order:
 4. **How to use:** at most three steps, in the user's language:
    1. copy the whole of one prompt (each works by itself);
    2. paste it into the image generator, unchanged and untranslated, attaching any supplied assets the notes name;
-   3. check all text in the result (names, numbers, addresses), ask the generator to fix errors, and, for a physically produced piece, ask the producer about final size and resolution.
+   3. check all text in the result (names, numbers, addresses), ask the generator to fix errors, and, for a physically produced piece, ask the producer about final size and resolution; for print, generate at the largest size the generator offers and enlarge afterward with an upscaler (an A3 print at 300 dpi is about 3,500 × 4,950 px), checking the small text first.
 
    Add a line only where something differs across prompts: an asset to attach to a specific prompt, or an order that matters. Order matters only when the user wants consistency by reusing a finished result as a visual reference; say that it is optional, because every prompt is complete alone.
 5. **Notes:** only when needed, at most three one-line bullets ordered by consequence, merging related ones. Candidates: a suspected typo as a question, copy written for them, a supplied asset to attach, a reserved asset panel to replace, or a volume or rendering risk (a long string, digits, or non-Latin script to check in the result). Never design rationale; assumptions live in the summary, entries, or (auto mode) the key decisions.

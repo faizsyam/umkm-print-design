@@ -12,7 +12,7 @@ Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_d
 
 | Class | Decisions | Method |
 |---|---|---|
-| Full protocol | Core idea, style synthesis, hero (Phase 3); logo mark and lockup (Phase 4, plus its extended development); spatial strategy (Phase 5) | Section 2 |
+| Full protocol | Core idea, style synthesis, hero (Phase 3); logo mark and lockup, and a created lead figure (Phase 4, plus the extended development in `06_identity_unit_and_copy_treatment.md` C); spatial strategy (Phase 5) | Section 2 |
 | Compact comparison | Phase 2: differentiation, weakest link, departure and fit dimensions. Phase 3: governing principles marked "compared". Phase 4: color strategy, typographic voice, shape language (once, for the system), then per information group one comparison covering its copy treatment, container, fill, and supporter; any open hero treatment | Section 3 |
 | Direct | Everything else | Decide with a one-line basis |
 

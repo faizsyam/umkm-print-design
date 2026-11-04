@@ -70,7 +70,7 @@ Each stays below the information it serves and inside the structure-and-decorati
 | Guide | Leads the eye or hand to a target | Below the information it points to | Gesture or gaze ends on the target, covers nothing |
 | Carry mood | Humanity at small scale | Below required information | Same figure, reduced, in the system's line quality |
 
-- One figure, one design, defined once (form class, proportions, silhouette, signature trait, rendering language, palette) and described identically everywhere, so roles change scale and detail, never identity.
+- One figure, one design, described identically everywhere, so roles change scale and detail, never identity. A created figure that leads or identifies is developed like a mark (`06_identity_unit_and_copy_treatment.md` C, steps 1 to 6, at the depth's counts): seeds from the subject's true traits (the species' anatomy and distinctive features, the brand's name and ritual, the audience's world); three candidates that differ in construction (the basic shapes it is built from and the proportion logic), silhouette, and personality, at most one apparent; scrutiny for generic (would it pass as another brand's mascot), cliché (first association, stock palette or accessories), silhouette in one color, expression range, small-size behavior, and renderability; one revision pass. The chosen design card states form class and construction, proportions, silhouette, signature trait, personality with its expression and pose language, linework and rendering as the style's dimension 5 states them for this image type, palette, and what it wears or carries as character traits (props that serve the story, not stock accessories).
 - A figure in the mark recurs elsewhere only for a purpose the mark does not serve, never as a second identifier.
 - A created figure is fictional and non-identifiable, never a real person's likeness or an implied customer, staff member, or endorsement. Check dress, features, and gesture for cultural fit; render only in forms the generator holds reliably.
 
@@ -86,7 +86,7 @@ Each supporter shares the style's form language, line quality, and finish; micro
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- The text-only baseline, the information-job pass, and the world read were run; plainness is recorded as a decision where it holds. Each supporter names its deficit, holds a distinct purpose, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design; no invented level, rating, or trust mark.
+- The text-only baseline, the information-job pass, and the world read were run; plainness is recorded as a decision where it holds. Each supporter names its deficit, holds a distinct purpose, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design, and a created lead figure shows its developed candidates and passed the generic and cliché scrutiny; no invented level, rating, or trust mark.
 
 ## Next
 

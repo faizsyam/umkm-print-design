@@ -27,16 +27,6 @@ A coherent visual system of color, type, identity unit (mark, wordmark, lockup),
 5. Decide background and unifying devices (`08_containers_and_ground.md` E).
 6. Evaluate the system as a whole (`09_element_system_evaluation.md` F); gate.
 
-### Section map (sections of this phase and the file that holds each)
-
-| Sections | File |
-|---|---|
-| A Color; B Typography | `05_color_and_typography.md` |
-| C Identity unit (mark, wordmark, lockup); B2 Content roles and copy treatment | `06_identity_unit_and_copy_treatment.md` |
-| D Visual supporters (text-only baseline, remedies, families, figures, supporter card) | `07_visual_supporters_and_figures.md` |
-| D2 Containers and shape language; E Background, unifying devices, other systems | `08_containers_and_ground.md` |
-| F Element evaluation in the system; gate checks; entry fields | `09_element_system_evaluation.md` |
-
 ## 2. Guidance
 
 ### A. Color

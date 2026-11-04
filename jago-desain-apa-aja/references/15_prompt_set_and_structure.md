@@ -28,13 +28,6 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 5. Run the prompt audit (`prompt_and_reply_audit.md` section 3) on every prompt and on the set; on failure, return to the earliest cause. If the audit forces a change to a shown decision, show the amendment first.
 6. Compose each prompt's label, the usage steps, and the notes, and deliver.
 
-### Section map (sections of this phase and the file that holds each)
-
-| Sections | File |
-|---|---|
-| A In and out; B Structure; C Specificity; G Language and the prompt set | `15_prompt_set_and_structure.md` |
-| D Relationships and space; E Text, marks, and fixed assets; F Length, static artwork, exclusions; gate checks | `16_prompt_clauses_and_delivery.md` |
-
 ## 2. Guidance
 
 ### A. In and out
@@ -43,7 +36,7 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 
 **In:**
 - Piece type and format (orientation, aspect ratio, sides or panels), which is all a prompt says about what the piece is for. The purpose and relationship go in the label outside the prompt.
-- The overall look as seen, stated once as the unified art direction (value key, dominant field, mood, light, surface and material finish, depth cues, and how rendering treatments step down by rank), which the element clauses refer to instead of each repeating one recipe.
+- The overall look as seen, stated once as the unified art direction (value key, dominant field, mood, light, surface and material finish, depth cues, how rendering treatments step down by rank, and the illustration language: its lineage and borrowed traits, how shapes are built and proportioned, line behavior, how form is rendered, surface and detail steps, as visible traits and never as a category or medium name), which the element clauses refer to instead of each repeating one recipe.
 - What is depicted and how.
 - Composition and relationships; the hierarchy stated as first, second, third with the visible means each rank holds, and the reading route over the described regions, consistent with the placement.
 - Typography character per role (spacing, case, alignment, orientation) and designed copy; mandatory text.

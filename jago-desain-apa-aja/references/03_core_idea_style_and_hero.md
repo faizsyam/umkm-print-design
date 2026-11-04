@@ -6,14 +6,14 @@ One unified, defensible, original direction: plan criteria, brand design and the
 
 **Inputs needed:** S; Phase 2 Forward (Communication Problem with message, information groups, and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation strategy, tagged design implications).
 
-**Contents:** Phase sheet · 1. Process · Section map (sections of this phase and the file that holds each) · 2. Guidance · Plan criteria (set before any card) · A. Brand design and theme · B. Territory survey · C. Core idea · D. Style · E. Hero
+**Contents:** Phase sheet · 1. Process · 2. Guidance · Plan criteria (set before any card) · A. Brand design and theme · B. Territory survey · C. Core idea · D. Style · E. Hero
 
 ## Phase sheet
 
 | Item | Content |
 |---|---|
 | Goal | One unified, defensible, original direction: brand design, theme, core idea, style, hero, and governing principles (including space intent and mark role). It synthesizes all findings into a single concept, not a style assigned to each insight |
-| Receives | S; Phase 2 Forward (Communication Problem with message, information groups, and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation strategy, tagged design implications) |
+| Receives | As under Inputs needed above |
 | Decisions | Plan criteria (space budget, tension leads, carry targets); territory survey; brand design and theme; core idea; style (seven dimensions); hero or its deliberate absence; governing principles (`04_principles_and_plan_evaluation.md` F); the quality carrier map; how each Phase 2 tension is carried; stress-test results |
 | Exploration | Full protocol (`exploration_protocol.md` section 2) for core idea, style, and hero, in that order: the winning idea is a criterion for style, and the winning style a criterion for the hero. Write no style card before the core idea is chosen. Each decision has at least one card from the survey, inventory, or departure dimensions. Check renderability and fit throughout |
 | Output | The Design Plan (Forward) and the record of rejected directions (Record) |
@@ -26,13 +26,6 @@ One unified, defensible, original direction: plan criteria, brand design and the
 2. Decide the core idea (C), then style (D), then hero (E), each by the full protocol.
 3. Decide the governing principles and confirm how each Phase 2 tension is carried (`04_principles_and_plan_evaluation.md` F).
 4. Evaluate the assembled plan as one system and run the stress tests (`04_principles_and_plan_evaluation.md` G); gate.
-
-### Section map (sections of this phase and the file that holds each)
-
-| Sections | File |
-|---|---|
-| Plan criteria; A Brand design and theme; B Territory survey; C Core idea; D Style; E Hero | `03_core_idea_style_and_hero.md` |
-| F Governing principles; G Assembled-plan evaluation and stress tests; gate checks; entry fields | `04_principles_and_plan_evaluation.md` |
 
 ## 2. Guidance
 
@@ -69,7 +62,7 @@ Record each territory in one table row:
 - behavior at glance and approach in the real setting;
 - reproduction and renderability demands.
 
-With search tools, look at real precedents first; without them, reason from knowledge and mark the survey provisional. Study precedents for principles, never copy a competitor or an existing design. Verify any culturally loaded territory or omit it.
+With search tools, look at real precedents first, even when Phase 2's triage ran no research: this survey is not governed by it, because a style is judged on real work and not on its label; record the traits observed, not the label. Without search tools, reason from knowledge and mark the survey provisional. Study precedents for principles, never copy a competitor or an existing design. Verify any culturally loaded territory or omit it.
 
 ### C. Core idea
 
@@ -109,11 +102,15 @@ One synthesis resolved across seven dimensions, each in specialist terms:
 
 **Card:** one entry per dimension, plus territories drawn on, the core idea realized, and quality compatibility. Mood adjectives are not a card. For each dimension of the leading cards, compare at least two options and repair any conflicting dimension before choosing. Style comes from synthesis of this brief's conditions, not arbitrary additions; a familiar combination needs an evaluated justification. Options differ in lineage, surface, light, and finish, not in medium names alone. Renderability is judged on what must be exact (text, counted forms, mark geometry), never as a reason to take the plainest illustration language: a concretely described rich style is usually rendered well.
 
+**Per-zone application.** A style is one visual language applied differently by zone: fully drawn in the illustration and its ground, calm where information is read. Texture, grain, or detail that would harm text stays out of the text zones; it does not disqualify a lineage.
+
+**Specificity test (the card is not accepted until it passes).** Strike the medium and category words (flat, vector, sticker, kawaii, cartoon, pop, pastel, modern, minimal) from dimensions 1, 4, and 5. What remains must still describe a distinct, drawable look: the lineage, how shapes are built and proportioned, line behavior, how form is rendered, surface, and detail steps by rank. If it does not, rewrite the dimension; relabeling the option does not pass.
+
 ### E. Hero
 
 - **Options:** symbolic marks, objects, products, in-use scenes, places, figures (supplied or wanted), illustrations, photography, abstract forms, typography-led concepts, an equal set of images, or no hero.
 - **When to choose a hero:** only when one subject deserves primary attention and a renderable depiction exists. When several messages weigh equally or no suitable depiction exists, choose no hero or a small equal set, never a forced focal image.
-- **Figures:** a figure leads only when supplied or wanted, as a designed character (Phase 4), never a stock figure or a real person's likeness.
+- **Figures:** a figure leads only when supplied or wanted, as a designed character (Phase 4), never a stock figure or a real person's likeness. This card fixes the figure's role, depiction mode, and pose family; its identity is developed in Phase 4 (`07_visual_supporters_and_figures.md`).
 - **Depiction mode** follows what must be true: where the viewer must see exactly what is sold, a mode that stylizes it away is ineligible.
 - **Standalone logo request:** the mark is the hero by definition (the protocol still runs for idea and style).
 
@@ -138,7 +135,7 @@ The hero's scale, crop, and edge behavior must express the message, not merely f
 **Gate checks for this step (fails if any is false):**
 - The survey meets the depth minimum; no direction derives from a competitor or existing design; no territory is used as surface without its lineage understood.
 - Every card field the phase sets is filled in the protocol's specialist terms (`exploration_protocol.md` section 4); no apparent option won without a decisive criterion; the leaders passed the protocol's three tests; every material weakness has a move or an accepted cost.
-- The core idea fits one sentence and shows the five properties. Style is one synthesis across all seven dimensions, its image-making language names a method (not only a medium) and passes the swap test against a peer brand. The hero has a stated stage and reach, depicts only what is sold, was chosen under the hero rule (one subject deserves primary attention and a renderable depiction exists; otherwise no hero or an equal set), and has its reinforcing content and supporters decided or a recorded reason to stand alone. A figure exists only if supplied or wanted, and has a role.
+- The core idea fits one sentence and shows the five properties. Style is one synthesis across all seven dimensions, its image-making language passes the specificity test (section D) and the swap test against a peer brand, and no style option was dropped on renderability or load alone without naming what would fail and whether per-zone application removes it. The hero has a stated stage and reach, depicts only what is sold, was chosen under the hero rule (one subject deserves primary attention and a renderable depiction exists; otherwise no hero or an equal set), and has its reinforcing content and supporters decided or a recorded reason to stand alone. A figure exists only if supplied or wanted, and has a role.
 - Plan criteria were set before the first card, and any change to them is recorded.
 
 ## Next
