@@ -69,7 +69,7 @@ The fixed order in which things give way when content or load exceeds the plan. 
   5. stage: demote content to the later stage where it is needed (`10_stage_assignment_and_relationship_map.md`, B1);
   6. optional content, lowest value first;
   7. rescaling within rank: the hero group and identity unit down toward what their role at their stage needs (never below what the message needs), with no other tier inflated into the freed area;
-  8. only then the quiet share, narrowed to the least that still isolates glance content, with the capacity finding recorded for the notes: this content at its floors is dense for this format, and the way out is a larger format, less text, or a second deliverable.
+  8. only then the quiet share, narrowed to the least that still isolates glance content, with a volume risk recorded for the notes (this content at its floors is dense for this format).
 - **Applying the ladder.** Measure the shortfall once on the axis ledger (or the area total), walk the rungs in order adding what each recovers until the shortfall closes, apply those rungs together, and re-check once. Trial layouts are not an application of the ladder.
 - **Never, at any rung:** shrink a tier below its floor; take any spacing level (container padding, line spacing, item gaps, separations, margin) below its floor; compress, stretch, or slant letterforms; delete mandatory content; resize one member of an equivalent group; take separation from a neighbor. If mandatory content cannot fit at its minimums after rung 8, `global_standards.md` section 7 decides and the volume risk is reported.
 

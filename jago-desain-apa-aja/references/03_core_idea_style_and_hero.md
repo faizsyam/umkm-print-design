@@ -6,13 +6,11 @@ One unified, defensible, original direction: plan criteria, brand design and the
 
 **Inputs needed:** S; Phase 2 Forward (Communication Problem with message, information groups, and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation strategy, tagged design implications).
 
-**Contents:** Phase sheet · 1. Process · 2. Guidance · Plan criteria (set before any card) · A. Brand design and theme · B. Territory survey · C. Core idea · D. Style · E. Hero
-
 ## Phase sheet
 
 | Item | Content |
 |---|---|
-| Goal | One unified, defensible, original direction: brand design, theme, core idea, style, hero, and governing principles (including space intent and mark role). It synthesizes all findings into a single concept, not a style assigned to each insight |
+| Goal | As in the opening paragraph: one unified, defensible, original direction, synthesizing all findings into a single concept |
 | Receives | As under Inputs needed above |
 | Decisions | Plan criteria (space budget, tension leads, carry targets); territory survey; brand design and theme; core idea; style (seven dimensions); hero or its deliberate absence; governing principles (`04_principles_and_plan_evaluation.md` F); the quality carrier map; how each Phase 2 tension is carried; stress-test results |
 | Exploration | Full protocol (`exploration_protocol.md` section 2) for core idea, style, and hero, in that order: the winning idea is a criterion for style, and the winning style a criterion for the hero. Write no style card before the core idea is chosen. Each decision has at least one card from the survey, inventory, or departure dimensions. Check renderability and fit throughout |
@@ -90,7 +88,7 @@ Also check its interaction with brand design and theme.
 
 One synthesis resolved across seven dimensions, each in specialist terms:
 1. **Visual language:** form and line behavior, corner and edge geometry (the root of the shape language), abstraction, geometric or organic.
-2. **Influences,** named by lineage and the traits borrowed.
+2. **Influences,** named by lineage and the traits borrowed (traditions, movements, eras, techniques, materials, and regional print cultures; never an individual living artist, studio, or protected character or brand).
 3. **Compositional behavior:** axis, alignment, grid logic, figure-ground, plane behavior and layer cues, balance type (symmetric, asymmetric equilibrium, radial, deliberate tension), tension, rhythm.
 4. **Material character and visual world:** surface, texture, the physical process evoked, and the decorative vocabulary the territories and inventory offer (pattern and motif families, ornament, border and framing character, how the ground is layered), stated as what this piece's world contains and where it would live in the composition, or as a decision that it holds none.
 5. **Image-making technique and rendering logic,** stated as a specific language for each image type the piece uses, derived from this brand and its territories and never a medium or category name (a medium plus "flat" or "sticker" states no style), each property stated so a prompt can carry it:
@@ -104,7 +102,7 @@ One synthesis resolved across seven dimensions, each in specialist terms:
 
 **Per-zone application.** A style is one visual language applied differently by zone: fully drawn in the illustration and its ground, calm where information is read. Texture, grain, or detail that would harm text stays out of the text zones; it does not disqualify a lineage.
 
-**Specificity test (the card is not accepted until it passes).** Strike the medium and category words (flat, vector, sticker, kawaii, cartoon, pop, pastel, modern, minimal) from dimensions 1, 4, and 5. What remains must still describe a distinct, drawable look: the lineage, how shapes are built and proportioned, line behavior, how form is rendered, surface, and detail steps by rank. If it does not, rewrite the dimension; relabeling the option does not pass.
+**Specificity test (the card is not accepted until it passes).** Strike the medium and category words (flat, vector, sticker, kawaii, cartoon, pop) and bare mood adjectives (cute, playful, friendly, modern, minimal, clean) from dimensions 1, 4, and 5. What remains must still describe a distinct, drawable look: the lineage, how shapes are built and proportioned, line behavior, how form is rendered, surface, and detail steps by rank. If it does not, rewrite the dimension; relabeling the option does not pass.
 
 ### E. Hero
 
