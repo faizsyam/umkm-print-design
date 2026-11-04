@@ -2,8 +2,6 @@
 
 Rank every element, verify the attention sequence, decide planes and overlap, and specify role, scale, weight, color, treatment, plane, position, and relationships of every element and text item.
 
-**Read this when:** in the Phase 5 batch; used at step 5 (Specify), after the strategy is chosen and the space plan measured.
-
 **Inputs needed:** Everything from `10_stage_assignment_and_relationship_map.md` and `11_space_plan_and_spatial_strategy.md`; Phase 4 element system with purpose lines and weight ceilings; Phase 3 mark role, layering stance, tone and positioning (price visibility, scale, space cues), density, point of tension; Phase 4 counterweight.
 
 ## 2. Guidance (continued from `11_space_plan_and_spatial_strategy.md`)
@@ -22,7 +20,7 @@ Decide the order in which the audience should notice, interpret, and use the inf
   - Secondary and utility information stays findable by position, grouping, and a legible tier, not by size or weight. Brand identity, hero, essential information, and utility details each hold the prominence their role earns: utility details (contacts, addresses, fine print) take the lowest prominence that stays findable and legible, and essential information (prices, hours, the action) is clear by position, grouping, and legibility, never by competing with the hero or the first-rank message.
   - A large volume of secondary text is contained by compact arrangement and by weight and contrast kept to what legibility needs, so its area mass does not outrank the hero group or the first-rank message.
 - **Rank separation.**
-  - Each rank leads the next on at least two levers, one of them primary (size, value contrast, isolation, position), so the step is decisive. A step that is only slight is a hedge: merge the ranks or separate them.
+  - Each rank leads the next on at least two levers, one of them primary (size, value contrast, isolation, position), so the step is decisive. A step that is only slight is a hedge: merge the ranks or separate them. Take the primary lever that costs the least area first: value contrast, isolation, and position cost none, while scale costs area and is used only as far as the step needs.
   - Levers are scarce: the strongest value contrast, heaviest weight, largest scale, and accent color each belong to the first rank only, because a lever spent on many elements ranks none. The first rank holds exactly one element; a hero group (the hero with its coupled text) or an equal image set chosen as the hero counts as one element. First-rank pairing is not allowed.
   - Spacing groups: distance within a group is clearly less than between groups.
 - **Verification (the one hierarchy check).** Predict the attention sequence from the placed composition itself, not from recorded intent.
@@ -80,6 +78,3 @@ For each element specify role, scale, weight, color, treatment, plane, position,
 - Every pointer ends on its referent; no figure covers information.
 - Every major element is linked; every overlap passes the function test.
 
-## Next
-
-Read `13_load_balance_and_capacity_checks.md`.

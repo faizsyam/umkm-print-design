@@ -2,8 +2,6 @@
 
 The three decision tiers (full protocol, compact comparison, direct), the seven-step full protocol, and the specialist terminology that names things precisely.
 
-**Read this when:** on entering Phase 2; reopen the section for the class a decision uses. Phase files point here.
-
 **Inputs needed:** The decision being made, its phase, and the depth recorded in S.
 
 Read once on entering Phase 2. Phase files point here. Depth (`scope_roles_and_depth.md` section 6) scales card detail, never the steps.

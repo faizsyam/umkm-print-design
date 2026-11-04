@@ -2,8 +2,6 @@
 
 Find what the piece lacks beyond text, identity unit, and a plain ground, and meet each real lack with the best-suited resource in the piece's style.
 
-**Read this when:** after `06_identity_unit_and_copy_treatment.md` (identity unit and copy treatments decided).
-
 **Inputs needed:** The element system so far (palette, type, identity unit, copy treatments); Phase 3 hero, imagery and decoration stance, figure stance, supporter budget, treatment vocabulary, style dimensions 1, 4, 5; S quality requirements; Visual source inventory and seed bank.
 
 ## 2. Guidance (continued from `06_identity_unit_and_copy_treatment.md`)
@@ -88,6 +86,3 @@ Each supporter shares the style's form language, line quality, and finish; micro
 **Gate checks for this step (fails if any is false):**
 - The text-only baseline, the information-job pass, and the world read were run; plainness is recorded as a decision where it holds. Each supporter names its deficit, holds a distinct purpose, and stays below the information it serves; whole families were not dismissed without comparison; each figure names origin and role and shares one design, and a created lead figure shows its developed candidates and passed the generic and cliché scrutiny; no invented level, rating, or trust mark.
 
-## Next
-
-Read `08_containers_and_ground.md`.

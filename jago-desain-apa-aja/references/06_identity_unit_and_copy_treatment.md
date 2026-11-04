@@ -2,11 +2,7 @@
 
 Develop the identifier by the full protocol with the extended mark development, then decide the treatment of every text item by content role and provisional rank.
 
-**Read this when:** after `05_color_and_typography.md` (color and type decided); if the mark exposes a conflict with color or type, adjust them within this phase.
-
 **Inputs needed:** Palette and type roles from `05_color_and_typography.md`; Phase 3 mark role, hero, style dimensions, seed bank; S fixed assets and reproduction limits and content roles; Phase 2 message. Provisional ranks are derived in B2 from the message, content role, hero, and mark role.
-
-**Contents:** 2. Guidance (continued from `05_color_and_typography.md`) · C. The identity unit: mark, wordmark, lockup · B2. Content roles and copy treatment
 
 ## 2. Guidance (continued from `05_color_and_typography.md`)
 
@@ -110,6 +106,3 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; the originality tests (`quality_gates.md` section 1) pass for the mark; geometry is describable in a few concrete shapes.
 - Each text item's treatment grade is the grade its content role and provisional rank call for (B2). No first- or second-rank text is left as scaled plain type without a recorded style reason, and roles that share a group differ by more than size.
 
-## Next
-
-Read `07_visual_supporters_and_figures.md`.

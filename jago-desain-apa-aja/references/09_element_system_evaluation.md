@@ -2,8 +2,6 @@
 
 Judge each element in relation to the whole, then close Phase 4 at its gate.
 
-**Read this when:** after `08_containers_and_ground.md` (all elements decided).
-
 **Inputs needed:** The complete element system from files `05_color_and_typography.md` to `08_containers_and_ground.md`; Phase 3 Forward (density level, space budget, treatment vocabulary).
 
 ## 2. Guidance (continued from `08_containers_and_ground.md`)

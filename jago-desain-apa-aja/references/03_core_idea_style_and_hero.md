@@ -2,8 +2,6 @@
 
 One unified, defensible, original direction: plan criteria, brand design and theme, a territory survey, and the core idea, style, and hero chosen in that order by the full protocol.
 
-**Read this when:** on entering Phase 3, after Phase 2's gate and once `terms_design_system.md` has been read (it holds the full fit ladder used by the load budget test).
-
 **Inputs needed:** S; Phase 2 Forward (Communication Problem with message, information groups, and tension leads, Environment Profile, audience encounter, Visual source inventory, differentiation strategy, tagged design implications).
 
 ## Phase sheet
@@ -30,7 +28,7 @@ One unified, defensible, original direction: plan criteria, brand design and the
 ### Plan criteria (set before any card)
 
 Fix what every card is judged against, so no choice is made blind to a constraint it must meet.
-1. **Space budget** (provisional space intent): an envelope the plan must stay inside, set from the information groups before any card and re-derived in Phase 5 from the real groups and composition. State (a) the **free ground** (everything that carries no information) as a range, in its two kinds: the **quiet share**, with its jobs and where it tends to live (`terms_design_system.md`, Space intent), and any **atmosphere** the style's world may call for (decorated fields, never counted as quiet); (b) the rough share each occupying role takes (hero group, identity unit, information groups, structure and decoration), as proportions derived from the Phase 1 load class and the Phase 2 groups' volumes, the densest first, and not from the role's rank alone; which with the free ground accounts for the whole format with headroom. Derive it from the format's proportion and orientation, the tier floors in the Environment Profile, and the positioning the brief implies. It is an envelope of proportions: do not size strings, arrange rows, or draw a layout here; Phase 5 does that once, on the chosen composition. It must pass the load budget test (`04_principles_and_plan_evaluation.md` F), for every deliverable at its own ratio. F finalizes it once the hero's space cost is known. It narrows only through the fit ladder (`terms_design_system.md`, Fit ladder (full)), never because an attractive card needs room.
+1. **Space budget** (provisional space intent): an envelope the plan must stay inside, set from the information groups before any card and re-derived in Phase 5 from the real groups and composition. State (a) the **free ground** (everything that carries no information) as a range, in its two kinds: the **quiet share**, with its jobs and where it tends to live (`terms_design_system.md`, Space intent), and any **atmosphere** the style's world may call for (decorated fields, never counted as quiet); (b) the rough share each occupying role takes (hero group, identity unit, information groups, structure and decoration), as proportions read from the Phase 2 load table (the hero from what its message needs), the densest first, and not from the role's rank alone; which with the free ground accounts for the whole format with headroom. Derive it from the format's proportion and orientation, the role floors in the Environment Profile, and the positioning the brief implies. It is an envelope of proportions: do not size strings, arrange rows, or draw a layout here; Phase 5 does that once, on the chosen composition. It must pass the load budget test (`04_principles_and_plan_evaluation.md` F), for every deliverable at its own ratio. F finalizes it once the hero's space cost is known. It narrows only through the fit ladder (`terms_design_system.md`, Fit ladder (full)), never because an attractive card needs room.
 2. **Tension leads:** for each Phase 2 tension still open, the side that leads (by `global_standards.md` section 7, the user's priority, and the Communication Problem) and the minimum the other side keeps.
 3. **Carry targets:** the Phase 2 message and the quality requirements the core idea must be able to carry.
 
@@ -136,6 +134,3 @@ The hero's scale, crop, and edge behavior must express the message, not merely f
 - The core idea fits one sentence and shows the five properties. Style is one synthesis across all seven dimensions, its image-making language passes the specificity test (section D) and the swap test against a peer brand, and no style option was dropped on renderability or load alone without naming what would fail and whether per-zone application removes it. The hero has a stated stage and reach, depicts only what is sold, was chosen under the hero rule (one subject deserves primary attention and a renderable depiction exists; otherwise no hero or an equal set), and has its reinforcing content and supporters decided or a recorded reason to stand alone. A figure exists only if supplied or wanted, and has a role.
 - Plan criteria were set before the first card, and any change to them is recorded.
 
-## Next
-
-Read `04_principles_and_plan_evaluation.md`.

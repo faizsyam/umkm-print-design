@@ -2,11 +2,7 @@
 
 Governs the wait notes, the guided-mode phase entries, the final reply, the plain-word glossary for new users, and the list of UX failure modes with their corrections.
 
-**Read this when:** right after the user confirms the summary and mode (before the first wait note); reopen section 5 when building a phase entry, section 6 when building the final reply, section 7 when a new-to-design user needs plain words.
-
 **Inputs needed:** The confirmed S and mode; for an entry, the phase's "Entry fields"; for the final reply, the audited prompts.
-
-**Contents:** 4. Wait notes · 5. Phase entries (guided mode) · 6. Final reply · 7. Plain-word glossary · 8. Failure modes
 
 Governs everything the user reads from the first wait note to the final reply. Voice, modes, the turn map, and the intake are in `00_conversation_voice_modes_and_intake.md` (sections 1 to 3).
 

@@ -2,11 +2,7 @@
 
 A complete, classified, verifiable record of what is known, required, and uncertain, so no later phase guesses or invents.
 
-**Read this when:** at the start of Phase 1, after `00_conversation_voice_modes_and_intake.md`, `scope_roles_and_depth.md`, and `terms_brief_and_context.md` have been read.
-
 **Inputs needed:** User message, attachments (logos, photos, references), prior conversation; for a revision, the log.
-
-**Contents:** Phase sheet · 1. Process · 2. Guidance · A. Deliverables, medium, and context · B. Subject and identity · C. Content · D. Preferences, constraints, quality requirements · E. Gaps
 
 ## Phase sheet
 

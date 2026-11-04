@@ -2,9 +2,7 @@
 
 Check the whole composition for cumulative load and fit, measure and remedy balance, run the capacity check that freezes sizes, and test proportion, fill, and zones.
 
-**Read this when:** in the Phase 5 batch; used at step 6 (Verify once), after every element is ranked and placed; the fit ladder is in `terms_design_system.md` (read at Phase 3).
-
-**Inputs needed:** The placed composition from `12_hierarchy_and_element_placement.md` and the sizes from the space plan; the space plan and legibility minimums from `11_space_plan_and_spatial_strategy.md`; Phase 3 density level; Phase 4 counterweight.
+**Inputs needed:** The placed composition from `12_hierarchy_and_element_placement.md` and the sizes from the space plan; the space plan and role floors from `11_space_plan_and_spatial_strategy.md`; Phase 3 density level; Phase 4 counterweight.
 
 ## 2. Guidance (continued from `12_hierarchy_and_element_placement.md`)
 

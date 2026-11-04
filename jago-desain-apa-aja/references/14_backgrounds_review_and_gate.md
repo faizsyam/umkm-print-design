@@ -2,8 +2,6 @@
 
 Realize backgrounds and transitions, apply reproduction conditions, align the set, review the composition once, and close Phase 5 at its gate.
 
-**Read this when:** in the Phase 5 batch; backgrounds, reproduction conditions, and the set (E) belong to step 5 (Specify); the review (F) and the gate to step 6 (Verify once).
-
 **Inputs needed:** The frozen composition from `13_load_balance_and_capacity_checks.md`; Phase 4 ground, scrim, edge behavior, zone transitions, surface; Phase 2 medium reading.
 
 ## 2. Guidance (continued from `13_load_balance_and_capacity_checks.md`)

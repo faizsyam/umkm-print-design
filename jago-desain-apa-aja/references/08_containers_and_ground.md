@@ -2,8 +2,6 @@
 
 Decide container jobs, shape language, and fill modes, then the ground, scrim, edge behavior, zone transitions, surface, and other systems.
 
-**Read this when:** after `07_visual_supporters_and_figures.md` (supporters decided).
-
 **Inputs needed:** The element system so far; Phase 3 style dimensions 1, 4, 5 (corner and edge geometry included), treatment vocabulary, layering stance, density, quiet share, positioning cues (finish, scale, space); content roles.
 
 ## 2. Guidance (continued from `07_visual_supporters_and_figures.md`)
@@ -49,6 +47,3 @@ Each only where the piece needs it; none is a default.
 - Every container carries a purpose line and names the rung it needed. One shape language holds across the system, while each information role and rank has its own form and fill mode, so no two roles share one container design. The apparent form appears only by decisive criterion; material impression and layering are decided, and open grouping was weighed.
 - The ground's surface character is decided against the plain-ground baseline and the style's material character; a uniform ground carries a recorded reason; any surface stays below the information it sits behind, and no visible pattern or ornament sits in a field the plan holds as quiet; where the stance opens atmosphere, its fields are placed by the composition and take their vocabulary from the style's world.
 
-## Next
-
-Read `09_element_system_evaluation.md`.

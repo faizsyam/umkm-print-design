@@ -2,8 +2,6 @@
 
 The ten design principles every decision obeys, the order in which colliding requirements are resolved, and the rules that are never broken.
 
-**Read this when:** on entering Phase 2 (and reopen a principle, the conflict order, or a non-negotiable whenever a decision is in doubt). The non-negotiables are also summarized in `SKILL.md`.
-
 **Inputs needed:** S and the Phase 1 Forward block.
 
 ## 5. Principles

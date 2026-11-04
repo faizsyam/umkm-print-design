@@ -2,8 +2,6 @@
 
 Defines what the skill delivers, who owns and objects to which decisions, how depth scales the work, and how the deliverable set and several concepts are counted.
 
-**Read this when:** at the start of every new request, before the first user message is answered (Phase 1 sets the depth and the deliverable set); reopen section 2 whenever a gate objection is raised.
-
 **Inputs needed:** The user's first message and any attachments. No earlier step output.
 
 ## 1. Mission and scope

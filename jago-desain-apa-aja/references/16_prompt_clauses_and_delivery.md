@@ -2,8 +2,6 @@
 
 Write the clauses of each prompt (relationships, space, balance, text, marks, fixed assets, figures, grounds), calibrate length, state the ratio, and pass the prompt audit.
 
-**Read this when:** after `15_prompt_set_and_structure.md` (prompt set fixed and structure chosen); write each prompt separately from S, the shared specifications, and that deliverable's Execution Specification.
-
 **Inputs needed:** The prompt set and structure from `15_prompt_set_and_structure.md`; each deliverable's Execution Specification and the Phase 4 specifications it names.
 
 ## 2. Guidance (continued from `15_prompt_set_and_structure.md`)
@@ -62,7 +60,7 @@ Write the clauses of each prompt (relationships, space, balance, text, marks, fi
 
 ### F. Length, static artwork, exclusions
 
-- **Numbers.** No pixel measurements, coordinates, or exact angles unless essential. State a proportion only where the model's default would break the design (the margin, the hero's share, the large scale steps); elsewhere use relational words. A prompt crowded with percentages dilutes the decisions that matter.
+- **Numbers.** No pixel measurements, coordinates, or exact angles unless essential. State a proportion only where the model's default would break the design (the margin, the hero's share, the large scale steps); elsewhere use relational words. A prompt crowded with percentages dilutes the decisions that matter. Sizes that are stated come from the role floors and the plan, never from conventional or remembered sizes.
 - **Length.** Length is proportional to complexity: every sentence carries a decision or a relationship. Word count signals importance and density to the generator, so describe each element in proportion to its rank and give the open regions the same specificity as the elements. Cut filler before specifics; restore specifics before adding length.
 - **Static artwork.** Describe finished flat artwork unless a mockup is requested or the physical form is the deliverable. No crop marks, bleed guides, or annotations unless requested.
 - **Exclusions.** Express traits positively. Use exclusions only for explicit user exclusions, high-probability failures that matter, and cultural or factual risks. An exclusion never substitutes for a decision: it does not remove the occasion's own world, which Phases 3 and 4 decided how to render.

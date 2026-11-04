@@ -8,7 +8,7 @@ Defines the phase order and exit artifacts, which phase owns and reads which dec
 
 ## 3. Workflow
 
-**Reading order.** The routing table in `SKILL.md` names which file to open at which step; each file's "Read this when" repeats the trigger.
+**Reading order.** The batch list in `SKILL.md` names which files to open at which step.
 - On entering a phase: that phase's batch (`SKILL.md`, Reading discipline), read together, never earlier, never skipped. The first file of each phase opens with a phase sheet listing what the phase reads, decides, and hands forward.
 - Cross-phase files are read at the step the routing table names: the glossary parts at Phases 1 and 3, `exploration_protocol.md` and `global_standards.md` on entering Phase 2, this file and `quality_gates.md` at the first gate (Phase 1's).
 - Each file is read once and stays in context; reopen only a section a decision needs. If a standard or term referenced in a step file is no longer visible, re-open the file that defines it before continuing.

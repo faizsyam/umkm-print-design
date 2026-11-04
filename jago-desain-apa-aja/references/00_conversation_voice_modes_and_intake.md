@@ -2,8 +2,6 @@
 
 Governs how every user-facing message sounds, the guided and auto modes with the turn map, and the Phase 1 adaptive intake from first message to confirmed summary and mode.
 
-**Read this when:** before the first user message of a new request is answered; reopen a section only when its rule is in doubt.
-
 **Inputs needed:** The user's first message and any attachments (the Brief Ledger starts here).
 
 Governs everything the user reads. Working notes, reasoning, and the Design Log are in English; prompts are in English by default (`15_prompt_set_and_structure.md`, G); everything else is in the user's language. Read once before the first user message; reopen a section only when its rule is in doubt.

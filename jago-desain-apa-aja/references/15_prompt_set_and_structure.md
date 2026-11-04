@@ -2,8 +2,6 @@
 
 A set of standalone image-generation prompts, one per deliverable, each describing its finished static design so exactly that an illustrator who never saw the brief or the other prompts could produce it.
 
-**Read this when:** on entering Phase 6, after the Phase 5 gate and the pre-synthesis check (`quality_gates.md` section 9) have passed.
-
 **Inputs needed:** S (deliverable set, mandatory strings verbatim, fixed assets, exclusions, quality requirements with carriers, generator and language if named); each deliverable's Execution Specification; the Phase 4 specifications it names; Phase 3 style dimensions and hero specifics. Not received: any Record, candidate, research, tension, rationale text, or purpose line.
 
 ## Phase sheet

@@ -2,8 +2,6 @@
 
 A coherent visual system of color, type, identity unit (mark, wordmark, lockup), supporters, and background and unifying devices; this part decides color (with value key) and typography as provisional constraints for the mark.
 
-**Read this when:** on entering Phase 4 (guided mode: after the Phase 3 go-ahead).
-
 **Inputs needed:** S (content, fixed assets, exclusions, reproduction limits, quality requirements, carrier map); Phase 3 Forward (style dimensions 6 and 7, dimension 7 holding the chromatic stance; boundaries; tone and positioning; seed bank; carry-forward obligations); Phase 2 Forward (surroundings, light, encounter stages, medium reading).
 
 ## Phase sheet
@@ -63,7 +61,7 @@ Typography is part of the art direction: it carries the subject's personality an
   - The wordmark's lettering must differ from the informational type in construction, weight, or treatment (`06_identity_unit_and_copy_treatment.md` C).
   - Dense text raises rendering risk: plan structure (grouping, rows, fewer styles).
   - Describe type by characteristics; name a font only for a stated brand requirement.
-- **Readability and expression.** Each role is legible at the physical size and viewing distance of its stage and in the real light (the Phase 2 tier floors). Expression never costs legibility: the more expressive the voice, the fewer the roles that carry it, and the informational roles stay easy to read.
+- **Readability and expression.** Each role is legible at the physical size and viewing distance of its stage and in the real light (the Phase 2 role floors). Expression never costs legibility: the more expressive the voice, the fewer the roles that carry it, and the informational roles stay easy to read.
 
 **Letterform proportions.** Each role's width class, posture, and baseline are decided and named, never left to the model.
 - Informational and plain-set text keeps natural proportions and a level baseline.
@@ -76,6 +74,3 @@ Typography is part of the art direction: it carries the subject's personality an
 - Color, type, and mark each show their comparison (apparent option named, options, decisive criterion). Palette and type were each compared against the Environment Profile's surroundings and light, and the comparison is recorded. The value key supports every quality requirement, and color intensity follows rank.
 - Type has a stated voice drawn from this subject. Roles in one group differ on at least one named typographic attribute other than scale (classification, weight, width, posture, case, spacing, color), and same-role items share one style. Font names appear only for a stated brand requirement. Each text role has a decided width class, posture, baseline, spacing, and alignment.
 
-## Next
-
-Read `06_identity_unit_and_copy_treatment.md`.

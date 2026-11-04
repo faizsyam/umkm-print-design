@@ -2,11 +2,7 @@
 
 An Execution Specification for each deliverable: a composition whose hierarchy, space, scale, and placement are decided for its format. This part reads the format, assigns every item to a stage, and maps referents, coupling modes, and arrangement forms.
 
-**Read this when:** on entering Phase 5 (guided mode: after the Phase 4 go-ahead); run the whole phase once per deliverable.
-
 **Inputs needed:** S (mandatory content, this deliverable's format and ratio, reproduction limits, exclusions, carrier map); Phase 4 Forward; Phase 3 Forward; Phase 2 Forward (message, Environment Profile).
-
-**Contents:** Phase sheet · 1. Process · 2. Guidance · B9 and B1. Format and stage assignment (items 9 and 1 of section B) · A2. Relationship map and grouping
 
 ## Phase sheet
 
@@ -25,11 +21,11 @@ An Execution Specification for each deliverable: a composition whose hierarchy, 
 Per deliverable, with the shared decisions as inputs. Files 10 to 14 are read together at phase entry; the work runs in this order, and each step fixes what the next carries unchanged.
 
 1. **Frame** (this file): confirm the message from Phase 2 (reword only if triage or volume changes what the glance viewer can take away, and record it); read the format (B9); assign every item to a stage (B1); profile the groups with their referents, coupling modes, internal ranks, and arrangement forms (A2). No sizes yet.
-2. **Needs** (`11_space_plan_and_spatial_strategy.md` B3, B4): each group's space need as an area share, computed once from the Phase 2 tier floors.
-3. **Compose** (`11_space_plan_and_spatial_strategy.md` C): decide the spatial strategy. The chosen card is the **composition sketch**: the groups' regions in order along the governing axis, how hero, unit, and groups relate, where the free ground sits, the rank order with the lever that holds each rank, the reading route, and the balance relation with its counterweight. Hierarchy, route, and balance are decided here; later steps carry the sketch and do not re-derive it.
+2. **Needs** (`11_space_plan_and_spatial_strategy.md` B3, B4): each group's space need, read from the Phase 2 load table and completed with the breathing room its arrangement needs.
+3. **Compose** (`11_space_plan_and_spatial_strategy.md` C): decide the spatial strategy. The chosen card is the **composition sketch**, kept as a region table (`11_space_plan_and_spatial_strategy.md` C): regions in order along the governing axis with their shares, the hero's and headline stack's footprints and clearance, where the free ground sits, the rank order with its levers, the reading route, and the balance relation with its counterweight. Hierarchy, route, and balance are decided here; later steps carry the table and edit its rows, never re-derive it.
 4. **Measure** (`11_space_plan_and_spatial_strategy.md` B2): the space plan on the sketch, computed once: each group's extent from its need and the width its region gives it, wraps recorded, separations and margins in a few graded steps, totals against the axis and the area, headroom or shortfall, the fit ladder applied once as a batch to any shortfall. These are the sizes later steps use.
 5. **Specify** (`12_hierarchy_and_element_placement.md`; backgrounds, reproduction conditions, and the set in `14_backgrounds_review_and_gate.md` E): every element and text item inside the sketch's regions, its levers set to deliver the sketch's ranks, with planes, overlaps, and relationships. An item promoted to first or second rank with no treatment decision takes the Phase 4 treatment check (B2 in `06_identity_unit_and_copy_treatment.md`).
-6. **Verify once** (`13_load_balance_and_capacity_checks.md`; `14_backgrounds_review_and_gate.md` F): one pass over the specified composition: rank order, route, and balance against the sketch; load; capacity for the strings in doubt, then the size freeze; proportion, fill, and zones; the composed-whole reads. A failure returns to the earliest step that owns it (cap: two cycles). Gate.
+6. **Verify once** (`13_load_balance_and_capacity_checks.md`; `14_backgrounds_review_and_gate.md` F): one pass over the specified composition: rank order, route, and balance against the sketch; load; capacity for the strings in doubt, then the size freeze; proportion, fill, and zones; the composed-whole reads. A failure returns to the earliest step that owns it (cap: two cycles). Fit edits and verification do not interleave: close the ledger first, then verify after the last fit edit; a later fit edit that changes no region order, rank, or side does not reopen it. Gate.
 
 ## 2. Guidance
 
@@ -42,7 +38,7 @@ Visibility requirements guide prioritization; they do not entitle every element 
    - A size change at the same ratio and encounter changes nothing; a changed ratio, orientation, or encounter changes reach, regions, and path and is recomposed.
    - Extreme proportions change the strategy path (`11_space_plan_and_spatial_strategy.md` C): decide it explicitly.
 
-1. **Stage assignment.** Assign by when the viewer needs each item, not by how important the requester feels it is. Stages come from the Environment Profile; only glance-stage content is sized for the widest reach. Record each item's stage and tier.
+1. **Stage assignment.** Assign by when the viewer needs each item, not by how important the requester feels it is. Stages come from the Environment Profile; only glance-stage content is sized for the widest reach, and glance holds only what a passing viewer needs (the hero, the identity, at most a few words) because exposure time bounds it; everything else is assigned to the stage at which the viewer has chosen to read it. Record each item's stage and tier.
 
 ### A2. Relationship map and grouping
 
@@ -92,6 +88,3 @@ Where the hero carries the message alone, or coupling would dilute it, its text 
 - Stage assignment is recorded, and every group has its profile (items with internal ranks, coupling mode, arrangement form, scale, space need).
 - No deliverable's composition was derived by resizing or cropping another's.
 
-## Next
-
-Read `11_space_plan_and_spatial_strategy.md`.

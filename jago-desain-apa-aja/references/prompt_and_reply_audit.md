@@ -2,8 +2,6 @@
 
 The audit every prompt and the final reply must pass, the checklist confirmed before delivery, and the output contract for what the user receives.
 
-**Read this when:** in Phase 6, once the prompts are drafted (step 5 of `15_prompt_set_and_structure.md`), and again before delivering a revision.
-
 **Inputs needed:** The drafted prompts, S, the Execution Specifications, and the guided/auto record of what was shown to the user.
 
 ## 3. Prompt audit and reply audit

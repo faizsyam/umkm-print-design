@@ -2,8 +2,6 @@
 
 The procedure run at the end of every phase, the five cross-phase tests, the composition-review pointer, and the completeness check run at the Phase 5 gate.
 
-**Read this when:** at the first gate (Phase 1's) and again at the end of every phase; run section 9 at the Phase 5 gate.
-
 **Inputs needed:** The phase just completed, its phase file's gate checks, and S plus the Forward blocks so far.
 
 No gate is skipped. Read this file at the first gate; afterwards reopen the section the moment requires.
