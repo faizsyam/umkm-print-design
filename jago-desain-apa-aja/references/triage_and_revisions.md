@@ -2,7 +2,7 @@
 
 How a failure is classified (critical, major, minor), which phase owns each symptom, the routing rules for returns, and how a revision request re-enters the workflow.
 
-**Inputs needed:** The failed check or the user's revision request; S and the Forward blocks of the phases being re-entered.
+**Inputs needed:** The failed check or the user's revision request; S, D, and P for the phases being re-entered.
 
 ## 4. Triage and routing
 
@@ -78,7 +78,7 @@ How a failure is classified (critical, major, minor), which phase owns each symp
 
   A request that spans several rows re-enters at the earliest row. A request that fits no row is traced with the symptom list above.
 
-- **Scope.** Set the stale flags first. Unaffected decisions stay settled. Read S and the Forward blocks of the re-entered and dependent phases (Records only where the return rule needs them), and the files of those phases plus the cross-phase files their routing rows name.
+- **Scope.** Set the stale flags first. Unaffected decisions stay settled. Read S, D, and P for the re-entered and dependent phases (Basis and Rejected only where the return rule needs them), and the batches of those phases when not in context.
 - **Rework.** Redo, in order, the decisions that read the changed one (`workflow_and_state.md` section 3 map). Tell the user briefly what is being redone and show only what changed, in a short Before | After table in the user's language.
 - **Checks.** Re-run only the design checks the change touches, plus the contradiction scan and any quality whose carrier changed. The prompt audit always runs in full on every fresh prompt.
 - **Feedback** at any confirmation takes the same route.

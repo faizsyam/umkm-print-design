@@ -17,7 +17,7 @@ Realize backgrounds and transitions, apply reproduction conditions, align the se
 
 ### F. Composition review
 
-Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Files 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. Hierarchy, route, balance, load, and capacity were verified once in files 12 and 13 and are not re-read here. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
+This is the one assembled review (`quality_gates.md` section 2: the cross-phase tests and one objection run with it). Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Files 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. Hierarchy, route, balance, load, and capacity were verified once in files 12 and 13 and are not re-read here. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
 
 - **Message and hierarchy.**
   - The message is understood at first glance.
@@ -47,12 +47,11 @@ As listed in the phase sheet of `10_stage_assignment_and_relationship_map.md`.
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- The Execution Specification states, for every element and text item, its region, rank, size, and relationship to its neighbors, and the decided-attribute test (`quality_gates.md` section 1) finds no attribute left to the model's apparent value.
+- The Execution Specification states, for every element and text item, its region, rank, size, and relationship to its neighbors, and the decided-attribute test (`quality_gates.md` section 2) finds no attribute left to the model's apparent value.
 - Bleed never meets mandatory content, the unit, or fine borders.
-- The composition review passed; failures were routed to their earliest cause.
-- Objection raised and resolved (owner of the riskiest decision: visual communication specialist, production specialist, audience researcher, or senior art director).
+- The assembled review passed (`quality_gates.md` section 2); failures were routed to their earliest cause.
 
-**Gate:** also run the gate checks of `10_stage_assignment_and_relationship_map.md` to `13_load_balance_and_capacity_checks.md` for every deliverable and the procedure in `quality_gates.md` section 1. Then run the pre-synthesis check (`quality_gates.md` section 9, "Ready for Phase 6"). Append the Phase 5 Forward block and Record to the Design Log.
+**Gate:** also run the gate checks of `10_stage_assignment_and_relationship_map.md` to `13_load_balance_and_capacity_checks.md` for every deliverable and the hand-off check in `quality_gates.md` section 1. Then run the pre-synthesis check (`quality_gates.md` section 9, "Ready for Phase 6"). Append the Phase 5 decisions (D) and the composition and space clauses (P) to the Design Log.
 
 ## Next
 

@@ -72,7 +72,6 @@ Write the clauses of each prompt (relationships, space, balance, text, marks, fi
 
 The prompt audit (`prompt_and_reply_audit.md` section 3) is this phase's gate. It covers plan fidelity, verbatim content, fixed assets, quality carriers in the opening lines, space, identifier description, standalone completeness of every prompt, the visual-effect and misread tests on every sentence, and the absence of rationale, placeholders, blanket emphasis, and unstated look-shaping attributes.
 
-Objection (senior art director or prompt specialist): where would the model's apparent value silently replace a decision?
 
 ## Next
 

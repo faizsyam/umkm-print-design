@@ -1,6 +1,6 @@
 # Phase 3: Design Plan, part 2 of 2: governing principles, plan evaluation, gate
 
-Decide the governing principles (including space intent and mark role), carry each Phase 2 tension, evaluate the assembled plan as one system, run the stress tests, and close the phase at its gate.
+Decide the governing principles (including space intent and mark role), carry each Phase 2 tension, evaluate the assembled plan as one system, run the direction check, and close the phase at its gate.
 
 **Inputs needed:** S; Phase 2 Forward; from `03_core_idea_style_and_hero.md`: plan criteria, brand design and theme, seed bank, core idea, style, hero with hosting capacity.
 
@@ -11,9 +11,9 @@ Decide the governing principles (including space intent and mark role), carry ea
 Each is a decision, not a default.
 - **Compared** principles: two or more options, one line of strength and weakness each, judged against the core idea, style, hero, and quality requirements (compact comparison).
 - **Decided directly:** a one-line basis.
-- The depth table in `scope_roles_and_depth.md` section 6 says which are compared.
+- The openness table in `scope_roles_and_depth.md` section 6 says which are compared.
 
-**Compared at every depth**
+**Compared in every plan**
 - **Space intent.**
   - **Definition:** the space budget as `terms_design_system.md` (Space intent) defines it: free ground as quiet (with its jobs) and atmosphere (decided here from the style's world), the breathing room each group keeps, and the rough range each occupying role needs.
   - **Derived from** the plan-criteria budget (`03_core_idea_style_and_hero.md`), confirmed or narrowed once the hero's space cost is known. It is an envelope: Phase 5 re-derives amounts and placement from the groups' space needs and the chosen composition.
@@ -38,7 +38,7 @@ Each is a decision, not a default.
   - Density: the plan's visual-load level, stated per category (information, imagery, structure and containers, decoration and surface, rendering treatments), bounded by the space budget and the hero's need to dominate; no one category may rival the hero or the required information. Content beyond it is triaged now by the fit ladder, not shrunk. Higher density demands stricter grouping, never more decoration on or beside the information.
   - Rhythm: the glance stage needs a clear first beat; uniform loudness or quiet is no rhythm.
 
-**Compared at Full depth (direct at Focused)**
+**Compared when open (direct when steered)**
 - **Layering stance.** One to three planes, what each carries (hero, information, supporters, base field), and how strongly the order is expressed. Plane order ranks content, integrates it with the hero, and adds richness.
   - Compare options with a single plane among them; more planes only for a named gain.
   - A flat style keeps one picture plane and gains richness from tonal steps, quiet surface detail, and overlap of flat shapes.
@@ -56,21 +56,15 @@ Each is a decision, not a default.
 
 **Carry the Phase 2 tensions** one by one: confirm the lead side set in the plan criteria against the assembled plan and record what the other side keeps. A lead the plan cannot honor returns to the decision that broke it.
 
-### G. Assembled-plan evaluation and stress tests
+### G. Direction check (once, before the Phase 3 hand-off)
 
-Check the plan as one system:
-- Do brand design, theme, idea, style, hero, and principles reinforce one another?
-- Does the plan answer the weakest link in the real setting?
-- Do content volume, space intent, medium, budget, and renderability fit together?
-- Do accepted costs compound?
+Read the assembled plan as one system, once:
+- Do brand design, theme, idea, style, hero, and principles reinforce one another, and do accepted costs compound?
+- Does the plan answer the weakest link in the real setting, and does the first impression hold at the glance stage (with a competitor's name or the product removed, and in another setting, does it still work unchanged)?
+- Does each stated quality have a carrier in the plan (carrier map), and does any decision signal its opposite?
+- Squint: is there contiguous, undecorated quiet ground with a job; could any element or supporter go; is every plainness a decision; does one category (decoration, containers, imagery) rival the hero or the information? Do content volume, space intent, medium, and renderability fit together (the load budget test)?
 
-Return to the responsible decision on a conflict (two cycles per issue). Then run and record:
-1. **Swap / category:** with a competitor's name, or the product removed, does it still work unchanged? If so it is generic or stereotyped.
-2. **Context-swap:** is it equally right in another setting? Then it ignores the environment.
-3. **Distance and attention:** does the first impression hold at the glance stage in the real setting?
-4. **Contradiction scan** (`quality_gates.md` section 1): do all plan decisions agree?
-5. **Brief-quality** (`quality_gates.md` section 1), against the carrier map: does each stated quality have a carrier at the glance stage, and does any decision signal its opposite? This run is also the gate's quality check.
-6. **Crowding, restraint, and development:** squint the assembled plan. Is there contiguous, undecorated quiet ground with a job? Could any element, treatment, or supporter be removed so the plan reads better? Equally, is every plainness a decision: does the style's world, the inventory, or the information hold something the plan leaves unrealized without a reason, and do the character carriers hold if the plan stays plain? Does one category (decoration, containers, imagery) rival the hero or the required information?
+Return to the responsible decision on a conflict (two cycles per issue). The cross-phase tests run once, on the assembled design (`quality_gates.md` section 2).
 
 ## Forward block and entry fields
 
@@ -80,10 +74,9 @@ As listed in the phase sheet of `03_core_idea_style_and_hero.md`.
 
 **Gate checks for this step (fails if any is false):**
 - Compared principles show their options. Space intent states the budget (free ground as quiet share with its jobs and location and any atmosphere, role needs, density level) and passed the load budget test for every deliverable at its own ratio. Imagery and decoration stance evaluates each family, excludes none by blanket default, states plainness as a decision where it holds, and names the treatment vocabulary.
-- Character carriers and linking logic are named; six stress tests are recorded; every quality requirement has carriers in the plan; every Phase 2 tension is carried.
-- Objection raised and resolved (owner of the riskiest decision: senior art director or brand strategist, or the visual communication specialist where it is the space budget).
+- Character carriers and linking logic are named; the direction check passed; every quality requirement has carriers in the plan; every Phase 2 tension is carried.
 
-**Gate:** also run the gate checks of `03_core_idea_style_and_hero.md` and the procedure in `quality_gates.md` section 1; append the Phase 3 Forward block and Record to the Design Log.
+**Gate:** also run the gate checks of `03_core_idea_style_and_hero.md` and the hand-off check in `SKILL.md` (Checks); append the Phase 3 decisions (D) and the idea, style, and hero clauses (P) to the Design Log.
 
 ## Next
 

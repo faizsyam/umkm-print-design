@@ -21,7 +21,7 @@ One unified, defensible, original direction: plan criteria, brand design and the
 1. Set the plan criteria, decide brand design and theme (A), and survey territories (B).
 2. Decide the core idea (C), then style (D), then hero (E), each by the full protocol.
 3. Decide the governing principles and confirm how each Phase 2 tension is carried (`04_principles_and_plan_evaluation.md` F).
-4. Evaluate the assembled plan as one system and run the stress tests (`04_principles_and_plan_evaluation.md` G); gate.
+4. Evaluate the assembled plan as one system and run the direction check (`04_principles_and_plan_evaluation.md` G); gate.
 
 ## 2. Guidance
 
@@ -44,7 +44,7 @@ Check that the theme does not contradict the brand design (otherwise the theme i
 
 ### B. Territory survey
 
-Shallow options come from the model's category associations; widen the field before writing any card. Survey territories across source families (minimum counts by depth: `scope_roles_and_depth.md` section 6):
+Shallow options come from the model's category associations; widen the field before writing any card. Survey territories across source families (counts by openness: `scope_roles_and_depth.md` section 6):
 - historical and movement lineages in design, illustration, lettering, and print;
 - regional and vernacular traditions of the subject's place or community;
 - craft, material, and production traditions;
@@ -58,7 +58,7 @@ Record each territory in one table row:
 - behavior at glance and approach in the real setting;
 - reproduction and renderability demands.
 
-With search tools, look at real precedents first, even when Phase 2's triage ran no research: this survey is not governed by it, because a style is judged on real work and not on its label; record the traits observed, not the label. Without search tools, reason from knowledge and mark the survey provisional. Study precedents for principles, never copy a competitor or an existing design. Verify any culturally loaded territory or omit it.
+Work from knowledge first and record each territory's traits, not its label. Run a targeted query only for a territory whose traits are uncertain (one query, at most one page read; trend and listicle pages are not evidence of traits) and mark what stays unverified provisional. Study precedents for principles, never copy a competitor or an existing design. Verify any culturally loaded territory or omit it.
 
 ### C. Core idea
 
@@ -129,7 +129,7 @@ The hero's scale, crop, and edge behavior must express the message, not merely f
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- The survey meets the depth minimum; no direction derives from a competitor or existing design; no territory is used as surface without its lineage understood.
+- The survey meets the openness minimum; no direction derives from a competitor or existing design; no territory is used as surface without its lineage understood.
 - Every card field the phase sets is filled in the protocol's specialist terms (`exploration_protocol.md` section 4); no apparent option won without a decisive criterion; the leaders passed the protocol's three tests; every material weakness has a move or an accepted cost.
 - The core idea fits one sentence and shows the five properties. Style is one synthesis across all seven dimensions, its image-making language passes the specificity test (section D) and the swap test against a peer brand, and no style option was dropped on renderability or load alone without naming what would fail and whether per-zone application removes it. The hero has a stated stage and reach, depicts only what is sold, was chosen under the hero rule (one subject deserves primary attention and a renderable depiction exists; otherwise no hero or an equal set), and has its reinforcing content and supporters decided or a recorded reason to stand alone. A figure exists only if supplied or wanted, and has a role.
 - Plan criteria were set before the first card, and any change to them is recorded.

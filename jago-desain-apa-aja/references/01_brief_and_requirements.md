@@ -10,10 +10,10 @@ A complete, classified, verifiable record of what is known, required, and uncert
 |---|---|
 | Goal | A complete, classified, verifiable record of what is known, required, and uncertain, so no later phase guesses or invents |
 | Receives | User message, attachments (logos, photos, references), prior conversation; for a revision, the log |
-| Decisions | The deliverable set (each deliverable's purpose, format, ratio, load read); necessity and provenance of every item; verbatim form of every mandatory string; gap class of every gap, and which are blocking; quality translation of every stated quality and priority; intake questions; depth |
+| Decisions | The deliverable set (each deliverable's purpose, format, ratio, load read); necessity and provenance of every item; verbatim form of every mandatory string; gap class of every gap, and which are blocking; quality translation of every stated quality and priority; intake questions; openness map |
 | Exploration | None: record and classify. An ambiguous phrase takes the interpretation best supported by the rest of the brief, tagged |
 | Output | Brief Ledger (with the deliverable set and quality translations), research questions (each naming the decision it could change), tensions; then the guided intake and the confirmed summary and mode (`00_conversation_voice_modes_and_intake.md` section 3). On confirmation the ledger becomes S (`workflow_and_state.md` section 4) |
-| Forward | S (ledger fields, deliverable set, quality translations, depth, mode, user language and literacy); research questions; tensions; open flags (inferred setting and other tagged assumptions) |
+| Forward | S (ledger fields, deliverable set, quality translations, openness map, mode, user language and literacy); research questions; tensions; open flags (inferred setting and other tagged assumptions) |
 
 ## 1. Process
 
@@ -21,8 +21,8 @@ A complete, classified, verifiable record of what is known, required, and uncert
 2. Capture subject and identity (B), content (C), preferences, fixed assets, exclusions, and sensitivities (D). Treat references as evidence of taste, never as templates.
 3. Record every stated quality and priority in the user's words and translate it (D).
 4. Sort every gap (E). Infer the inferable (tagged), pass the researchable to Phase 2, and ask about blocking and valuable gaps through the guided intake.
-5. Note tensions; set the depth.
-6. Run the gate checks (`quality_gates.md` section 1), show the compact summary, ask for confirmation and mode, and wait. Corrections update the ledger and show only changed rows. Phase 1 closes on the user's confirmation; then create the Design Log with S and the Phase 1 Forward block.
+5. Note tensions; read the openness of each Direction decision (Open, Steered, or Fixed) into S.
+6. Run the gate checks below and the hand-off check (`SKILL.md`, Checks), show the compact summary, ask for confirmation and mode, and wait. Corrections update the ledger and show only changed rows. Phase 1 closes on the user's confirmation; then create the Design Log with S and the Phase 1 Forward block.
 
 ## 2. Guidance
 
@@ -106,10 +106,10 @@ Record style, color, mood, theme, references, assets, exclusions, and cultural o
 - Every stated quality and priority is kept in the user's words with a full translation (each translation names at least one visible, checkable feature; a quality with none fails).
 - The deliverable set is recorded with each deliverable's purpose, format, ratio, content volume and load read, and setting (inferred and tagged if unstated); references are recorded as taste, never layout requirements; supplied visual material is listed as fixed assets.
 - Intake stayed within limits; every question passed the clarification test and, for a new user, had options or a default; none was answerable from the brief; the summary was shown with the mode question (Phase 2 starts only after the user confirms).
-- Objection (production specialist): does S record, for every deliverable, its medium, format, reproduction limits, and encounter conditions, and does the content volume fit the format at or above each tier's legibility minimum, or is the over-capacity raised as a blocking gap?
-- Depth is recorded with the Full condition that set it, or none.
+- Production check: does S record, for every deliverable, its medium, format, reproduction limits, and encounter conditions, and does the content volume fit the format at or above each tier's legibility minimum, or is the over-capacity raised as a blocking gap?
+- The openness map is recorded (`exploration_protocol.md` section 1).
 - Even a simple brief has a written ledger; simplicity shortens it, never removes it.
 
 ## Next
 
-Read `workflow_and_state.md` and `quality_gates.md` (first gate), run the gate checks above, show the compact summary with the mode question, and stop for the user's answer. On confirmation, create the Design Log (S and the Phase 1 Forward block), read `ux_wait_notes_entries_and_final_reply.md`, then `exploration_protocol.md`, `global_standards.md`, and `02_research_and_analysis.md`.
+Run the gate checks above, show the compact summary with the mode question, and stop for the user's answer. On confirmation, create the Design Log (S and the Phase 1 Forward block), read `ux_wait_notes_entries_and_final_reply.md`, then `exploration_protocol.md`, `global_standards.md`, and `02_research_and_analysis.md`.

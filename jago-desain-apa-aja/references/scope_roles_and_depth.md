@@ -1,6 +1,6 @@
-# Scope, team roles, depth, and the deliverable set (all phases)
+# Scope, team roles, openness, and the deliverable set (all phases)
 
-Defines what the skill delivers, who owns and objects to which decisions, how depth scales the work, and how the deliverable set and several concepts are counted.
+Defines what the skill delivers, who owns and objects to which decisions, how openness scales exploration, and how the deliverable set and several concepts are counted.
 
 **Inputs needed:** The user's first message and any attachments. No earlier step output.
 
@@ -8,7 +8,7 @@ Defines what the skill delivers, who owns and objects to which decisions, how de
 
 Turn a design need, from anyone between a first-time requester and a professional designer, into one or more finished, standalone image-generation prompts for static visual outputs, through a short design conversation.
 
-- **Adaptation.** Language, register, terminology, and the depth of questions and guidance adapt to the user's design literacy and the completeness of the brief. The depth of design reasoning never adapts.
+- **Adaptation.** Language, register, terminology, and the depth of questions and guidance adapt to the user's design literacy and the completeness of the brief. The rigor of design reasoning never adapts; its exploration follows openness (section 6).
 - **What the user reads.** The intake questions; the confirmed summary with its mode choice (**guided**: confirm at key points; **auto**: leave everything to the AI); wait notes; short phase entries; amendments and revision tables; and a final reply with the prompts and brief usage steps. `00_conversation_voice_modes_and_intake.md` and `ux_wait_notes_entries_and_final_reply.md` govern every user message.
 - **Language.** Working notes and the Design Log are in English and stay internal unless the user asks. Prompts are in English by default, with on-image text kept verbatim in its original language.
 
@@ -39,30 +39,21 @@ Roles are decision owners and gate objectors, not extra work.
 | Visual communication specialist | Hierarchy, reading sequence, grouping and group space needs, comprehension speed, space budget and plan, load and fit | 3, 5 |
 | Image-generation prompt specialist | Renderability (checked in 3 to 5), prompt boundary, standalone completeness, phrasing | 4, 6 |
 
-## 6. Depth and the deliverable set
+## 6. Openness and the deliverable set
 
-Phase 1 sets the depth and records it in the log. Depth scales the work inside every phase and never drops a phase, decision, protocol step, or gate. (It is unrelated to the picture's front-to-back order, which is layering.)
+Phase 1 reads, for each Direction decision (core idea, style, hero, a new mark or lead figure, spatial strategy), whether the brief leaves it Open, Steers it, or Fixes it, and records this openness map in S (`exploration_protocol.md` section 1). Openness scales exploration inside Direction decisions; it never drops a phase, a hand-off check, verbatim content, or the audits. (It is unrelated to the picture's front-to-back order, which is layering.)
 
-- **Full:** a new identity mark must be created, or any deliverable is contested, or the set has several deliverables, or content is dense for its format.
-- **Focused:** everything else. Raise to Full as soon as any phase shows a Full condition.
-
-Reading the Full conditions:
-- **Contested:** the deliverable must win attention against its neighbors from beyond arm's reach or in a crowded field.
-- **Several deliverables:** the set holds more than one.
-- **Dense:** content volume is high for the format; judged from the Phase 1 load read and re-judged by Phase 3's load budget test.
-
-| | Full | Focused |
+| | Open | Steered |
 |---|---|---|
-| Research (Phase 2) | every question that can change a decision | the one or two that can |
-| Territory survey (Phase 3) | at least 5 territories from at least 3 source families | at least 3 territories from at least 2 families |
+| Research (Phase 2) | each question that can change the decision, targeted (`02_research_and_analysis.md` F) | the one that can |
+| Territory survey (Phase 3) | 4 territories from 3 source families, from knowledge | 3 from 2 families, for the open dimensions only |
 | Candidate cards | every field the phase sets | fields that tell candidates apart, plus quality compatibility |
-| Governing principles (Phase 3) | compared: space intent with density and rhythm (one comparison), imagery and decoration, integration, mark role, layering, tone and positioning | compared: space intent with density and rhythm (one comparison), imagery and decoration, integration, mark role; rest decided directly |
-| New mark (Phase 4) | at least 6 seeds, every check recorded | at least 4 seeds, checks as pass/fail lines |
-| Gate objections | two (the two riskiest decisions) | one |
+| Governing principles (Phase 3) | compared: space intent with density and rhythm, imagery and decoration, integration, mark role, layering, tone and positioning | compared: space intent with density and rhythm, imagery and decoration, integration, mark role; rest decided directly |
+| New mark or lead figure (Phase 4) | at least 6 seeds, every check recorded | at least 4 seeds, checks as pass/fail lines |
 
-Depth never changes: naming the apparent option, three or more candidates, the runner-up and decisive criterion, the quality checks, the load budget test, the capacity check, verbatim content, or the audits. A rich brief shortens Phase 1 and 2 notes; a sparse brief deepens research.
+Fixed decisions take none of this. Never reduced: naming the apparent option, the runner-up and decisive criterion, the quality checks, the load budget test, the capacity check, verbatim content, the assembled review, and the audits. Openness is re-read when a phase shows the brief leaves more open than assumed; the missing exploration is then done before the decision is used.
 
-**Raising to Full** applies from the current phase on. Reduced work in an earlier phase is reopened only where the missing depth could change a decision already made: the survey gains territories until it meets the Full count before the mark seeds are written.
+Content volume, crowded surroundings, and several deliverables do not raise openness. They raise the load and fit work: the load table, the load budget test, and one composition per deliverable.
 
 **Deliverable set.** Phase 1 records every deliverable the request needs, derived from what the user must accomplish and not only from what they named.
 - One deliverable per image that must exist: a distinct format or ratio, a distinct side, panel, or screen, or a variant or concept the user asked for.
@@ -77,13 +68,13 @@ Depth never changes: naming the apparent option, three or more candidates, the r
 **Several concepts.**
 - Run Phases 1 and 2 once; run each of Phases 3 to 5 across all concepts before moving on.
 - Each concept starts from a core-idea candidate that differs on a structural axis (never only color or decoration) and ends in its own standalone prompt per deliverable.
-- One entry per phase, with a short subsection per concept. Forward blocks and Records are kept per concept; S is shared.
+- One entry per phase, with a short subsection per concept. D and P are kept per concept; S is shared.
 
 Prompts delivered = deliverables × concepts. Never add a deliverable for a variation the user did not need, and never split content that is one image.
 
 ## Quality checks
 
-- Pass: depth, deliverable set, and role ownership are recorded as sections 2 and 6 require, and the Phase 1 gate (`01_brief_and_requirements.md`) confirms them.
+- Pass: the openness map, deliverable set, and role ownership are recorded as sections 2 and 6 require, and the Phase 1 gate (`01_brief_and_requirements.md`) confirms them.
 
 ## Next
 

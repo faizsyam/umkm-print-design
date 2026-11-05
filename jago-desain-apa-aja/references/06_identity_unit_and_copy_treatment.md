@@ -21,7 +21,7 @@ A basic, generic, or forgettable identifier fails even if it passes every test; 
 - An emblematic form never borrows the look of an official seal or certification.
 
 **Extended development** (do not collapse into one pass; it is also the method for a created lead figure, `07_visual_supporters_and_figures.md`, where a candidate is a figure design and the lockup test is replaced by silhouette and expression range)
-1. **Concept mining.** Write raw seeds (minimum count by depth: `scope_roles_and_depth.md` section 6) from different sources: the name's meaning, sound, shape, or initials; the product's defining truth; process or craft; origin; the audience's ritual or use; the inventory and the Phase 3 seed bank; the environment; a visual signature of the subject. Include seeds beyond the apparent. Keep only seeds that are true, ownable, and visually workable; discard any the subject cannot honestly claim.
+1. **Concept mining.** Write raw seeds (count by openness: `scope_roles_and_depth.md` section 6) from different sources: the name's meaning, sound, shape, or initials; the product's defining truth; process or craft; origin; the audience's ritual or use; the inventory and the Phase 3 seed bank; the environment; a visual signature of the subject. Include seeds beyond the apparent. Keep only seeds that are true, ownable, and visually workable; discard any the subject cannot honestly claim.
 2. **Three developed candidates,** each a complete identity-unit idea: seed and personality device; construction family; lockup (arrangement, proportion, shared construction logic); behavior at small size. They differ in concept source or construction; at most one is apparent. Construction families to weigh:
    - **enclosed:** symbol held within a boundary;
    - **contained:** elements held by a frame or shape;
@@ -98,11 +98,11 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Designed treatments cost space and attention: no more than the tiers can carry, one lettering logic, none competing with the identity unit.
 - Write each as a concise spec: letterform character, line breaks, emphasis, container, color role, relation to neighbors.
 - Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
-- Compare two treatments per group of items sharing a role and rank, in one line and together with that group's container and fill (`08_containers_and_ground.md` D2), and test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Decide it with the group's provisional arrangement form (`10_stage_assignment_and_relationship_map.md` A2), which Phase 5 confirms.
+- Treatments follow the system decision; a group's treatment is compared only as an Escalation and is otherwise specified directly in the prompt draft. Test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Decide it with the group's provisional arrangement form (`10_stage_assignment_and_relationship_map.md` A2), which Phase 5 confirms.
 
 ## Quality checks
 
 **Gate checks for this step (fails if any is false):**
-- Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; the originality tests (`quality_gates.md` section 1) pass for the mark; geometry is describable in a few concrete shapes.
+- Mark: fixed asset untouched, or the extended development is recorded (seeds, three candidates, scrutiny, revision, tests). Personality device present; mark and wordmark pass the unit and disconnection tests; the name stays readable as its exact letters; the unit passes text-neighborhood with named distinction mechanisms; no second identifier; the originality tests (`exploration_protocol.md` section 2, step 5) pass for the mark; geometry is describable in a few concrete shapes.
 - Each text item's treatment grade is the grade its content role and provisional rank call for (B2). No first- or second-rank text is left as scaled plain type without a recorded style reason, and roles that share a group differ by more than size.
 

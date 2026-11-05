@@ -6,74 +6,61 @@ description: >-
 
 # Jago Desain Apa Aja
 
-Turns a design need, from a first-time requester to a professional designer, into finished, standalone image-generation prompts for static visuals, through a short design conversation. All methodology lives in `references/`; this file routes you to it.
+Turns a design need, from a first-time requester to a professional designer, into finished, standalone image-generation prompts for static visuals, through a short design conversation. This file is the runbook; `references/` holds the methods it loads on demand.
 
-## Workflow
+## Runbook
 
-Six phases run in strict order; no phase is skipped, merged, or deferred.
+Six phases run in order; none is skipped, merged, or deferred. Each phase: read its batch once, make its decisions by class, append them to the Design Log, pass its hand-off check.
 
-1. **Brief**: adaptive intake; classify what is known, required, uncertain; deliverable set, quality translations, depth; user-confirmed summary and mode (guided or auto) -> standing block S.
-2. **Analysis**: the real communication problem with its information groups, Environment Profile, differentiation, design implications.
-3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, stress tests.
-4. **Design Elements**: color, type, identity unit, copy treatment, supporters, containers, ground; each with a purpose line.
-5. **Design Execution**: per deliverable, stage assignment, groups and their space needs, a composition built around them (free ground planned with it, ranks, route, and balance decided in it), the space plan measured once on that composition, placement, one verification.
-6. **Prompt Synthesis**: one audited, standalone prompt per deliverable, then the final reply.
+1. **Brief**: adaptive intake; known, required, uncertain; deliverable set, quality translations, openness map; user-confirmed summary and mode (guided or auto) -> standing block S.
+2. **Analysis**: the real communication problem, information groups and load table, Environment Profile with role floors, differentiation, design implications.
+3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, one direction check.
+4. **Design System**: color, type, shape and container language, supporter policy, and ground as one system decision; a new mark or lead figure by the direction protocol.
+5. **Design Execution**: per deliverable, stages and groups; a composition built around the groups and kept as a region table; the space plan measured once; placement; one assembled review.
+6. **Prompt Synthesis**: the drafted clauses assembled into one audited, standalone prompt per deliverable; the final reply.
 
-Every phase ends at a gate (`quality_gates.md`). Phases 3 and 4 stop for the user's go-ahead in guided mode. Phase numbers are not file numbers: Phases 3 to 6 span several files (see the table).
+Guided mode stops for the user's go-ahead after Phases 3 and 4; Phase 5's entry is shown and Phase 6 follows. Auto mode shows nothing at gates.
 
-## Reading discipline
+## Decisions (`references/exploration_protocol.md`)
 
-- Open only the current batch, all its files in one call, when its step is reached. Never preload a later batch, never open a file twice (a file in context stays there), never skip a file. Batches: (1) at the start: `00_conversation_voice_modes_and_intake.md`, `scope_roles_and_depth.md`, `terms_brief_and_context.md`, `01_brief_and_requirements.md`, `workflow_and_state.md`, `quality_gates.md`; (2) after the summary and mode are confirmed: `ux_wait_notes_entries_and_final_reply.md`, `exploration_protocol.md`, `global_standards.md`, `02_research_and_analysis.md`; (3) Phase 3: `terms_design_system.md`, `03`, `04`; (4) Phase 4: `05` to `09`; (5) Phase 5: `10` to `14`; (6) Phase 6: `15`, `16`, `prompt_and_reply_audit.md`. `triage_and_revisions.md` only on a failure or revision.
-- On a resumed or revision turn, read `workflow_and_state.md`, `quality_gates.md`, the files of the phases being re-entered, and the cross-phase files their routing rows name, when they are not in context.
-- If a standard or term referenced in a step file is no longer visible, re-open the file that defines it before continuing.
-- Compute once, reuse: role floors and the load table (text area per group) are computed in Phase 2; breathing room, extents, wraps, and totals in the space plan, after the composition is chosen. Later steps read them and never recompute.
-- A "Next" line, where a file has one, is a navigation hint only; the batch list is the authority.
-- Every step file lists "Inputs needed"; if one is missing, return to the step that produces it.
-- State lives in the Design Log at `/home/claude/design_log.md` (see `workflow_and_state.md`): each phase reads S and the Forward fields its phase sheet lists, nothing else.
+- **Direction** (core idea, style, hero, a new mark or lead figure, spatial strategy) is explored, sized by how much the brief leaves open: Open, Steered, or Fixed. Fixed takes no exploration.
+- **System** (palette, type roles, shape and container language, supporter policy, ground) is derived from the direction in one comparison.
+- **Execution** (copy treatments, line breaks, non-mandatory wording, small items, icons, edge details) is specified directly while drafting the prompt: no log item, no comparison.
+- **Escalation**: a System or Execution choice with a named risk gets its own compact comparison.
+- A decision is closed when its decisive criterion is stated and no recorded check fails it; it reopens only by naming a failed check. What an earlier decision fixes is inherited, not decided again.
 
-## Routing table
+## One working file
 
-The batch list above says when each file is read; the table places each file in its phase and says what it holds.
+The Design Log (`/home/claude/design_log.md`; `references/workflow_and_state.md`) holds S (the standing block), D (the decisions), and P (the prompt draft). Each phase appends its decisions to D and the clauses it fixed to P, in prompt-ready wording. Phase 6 assembles P; nothing is written twice.
 
-| Step / phase | File (in `references/`) | Read it when | Glossary in context |
-|---|---|---|---|
-| Start of every request | `00_conversation_voice_modes_and_intake.md` | Before replying to the first user message (voice, modes, turn map, intake). | none yet |
-| Start of every request | `scope_roles_and_depth.md` | Same moment: scope, team roles, depth, deliverable set. | none yet |
-| Start of every request | `terms_brief_and_context.md` | Same moment: glossary part 1 (ledger, qualities, context, decisions, renderability). | loads here (part 1) |
-| Phase 1 Brief | `01_brief_and_requirements.md` | After the three files above; run the intake and build S. | part 1 |
-| Phase 1 gate (first gate) | `workflow_and_state.md` | Before creating the Design Log; ownership map and execution rules. | part 1 |
-| Phase 1 gate (every gate) | `quality_gates.md` | At the first gate and at every later gate; section 9 at the Phase 5 gate. | part 1 |
-| After summary and mode confirmed | `ux_wait_notes_entries_and_final_reply.md` | Before the first wait note; entries and final reply formats. | part 1 |
-| Entering Phase 2 | `exploration_protocol.md` | Decision classes, full protocol, specialist terms. | part 1 |
-| Entering Phase 2 | `global_standards.md` | Principles, conflict priority, full non-negotiables. | part 1 |
-| Phase 2 Analysis | `02_research_and_analysis.md` | After the two files above. | part 1 |
-| Entering Phase 3 | `terms_design_system.md` | Glossary part 2 and the full fit ladder; read before 03. | loads here (part 2) |
-| Phase 3 (1 of 2) | `03_core_idea_style_and_hero.md` | Plan criteria, survey, core idea, style, hero. | parts 1 and 2 |
-| Phase 3 (2 of 2) | `04_principles_and_plan_evaluation.md` | Governing principles, stress tests, Phase 3 gate. | parts 1 and 2 |
-| Phase 4 (1 of 5) | `05_color_and_typography.md` | Guided: after the Phase 3 go-ahead. Color and typography. | parts 1 and 2 |
-| Phase 4 (2 of 5) | `06_identity_unit_and_copy_treatment.md` | Identity unit (mark, lockup), copy treatment. | parts 1 and 2 |
-| Phase 4 (3 of 5) | `07_visual_supporters_and_figures.md` | Text-only baseline, supporters, figures. | parts 1 and 2 |
-| Phase 4 (4 of 5) | `08_containers_and_ground.md` | Containers, shape language, ground, unifying devices. | parts 1 and 2 |
-| Phase 4 (5 of 5) | `09_element_system_evaluation.md` | System evaluation and Phase 4 gate. | parts 1 and 2 |
-| Phase 5 (1 of 5) | `10_stage_assignment_and_relationship_map.md` | Guided: after the Phase 4 go-ahead. Format, stages, groups, relationship map. Per deliverable. | parts 1 and 2 |
-| Phase 5 (2 of 5) | `11_space_plan_and_spatial_strategy.md` | Group scale and space need, spatial strategy, space plan. | parts 1 and 2 |
-| Phase 5 (3 of 5) | `12_hierarchy_and_element_placement.md` | Hierarchy, planes, placing every element. | parts 1 and 2 |
-| Phase 5 (4 of 5) | `13_load_balance_and_capacity_checks.md` | Load check, balance, capacity check. | parts 1 and 2 |
-| Phase 5 (5 of 5) | `14_backgrounds_review_and_gate.md` | Backgrounds, the set, composition review, Phase 5 gate. | parts 1 and 2 |
-| Phase 6 (1 of 2) | `15_prompt_set_and_structure.md` | After the pre-synthesis check passes. Prompt set, in/out, structure. | parts 1 and 2 |
-| Phase 6 (2 of 2) | `16_prompt_clauses_and_delivery.md` | Clauses, text, assets, length, exclusions. | parts 1 and 2 |
-| Phase 6 audit and delivery | `prompt_and_reply_audit.md` | Once prompts are drafted; release checklist and output contract. | parts 1 and 2 |
-| Any failure or revision | `triage_and_revisions.md` | A gate, test, or audit fails, or the user asks for a revision. | part 1 for Phases 1 and 2; parts 1 and 2 after |
+## Checks
 
-Glossary parts: `terms_brief_and_context.md` is loaded at the start (Phase 1); `terms_design_system.md` on entering Phase 3 (it also holds the full fit ladder, used in Phases 3 to 5).
+One hand-off check per phase: every decision made by its class; sources named and each quality carried at this phase's level; the phase's decisions consistent with those it reads; the user-facing steps of the mode done; D and P appended (failure routes and the full wording: `references/quality_gates.md` section 1); one assembled review with the cross-phase tests and one objection at the end of Phase 5 (section 2, with `14_backgrounds_review_and_gate.md` F); one prompt audit in Phase 6. A check that passed is re-run only when a decision it reads changed. Cap each issue and every loop at two cycles.
+
+## Research
+
+A question, not a phase: only for a question that names a Direction decision it could change and that the brief and knowledge cannot answer; at most three targeted queries and one page read per question, stopping at the first sufficient answer; no trend surveys.
+
+## Loading
+
+Open only the current batch, all its files in one call, when its step is reached. Never preload a later batch, never reopen a file already in context, never skip a file. All files are in `references/`.
+
+1. **Start:** `00_conversation_voice_modes_and_intake.md`, `scope_roles_and_depth.md`, `terms_brief_and_context.md`, `01_brief_and_requirements.md`.
+2. **After the summary and mode are confirmed:** `ux_wait_notes_entries_and_final_reply.md`, `exploration_protocol.md`, `02_research_and_analysis.md`, `workflow_and_state.md`.
+3. **Phase 3:** `terms_design_system.md`, `global_standards.md`, `03_core_idea_style_and_hero.md`, `04_principles_and_plan_evaluation.md`.
+4. **Phase 4:** `05`, `06`, `08`, `09` (`05_color_and_typography.md`, `06_identity_unit_and_copy_treatment.md`, `08_containers_and_ground.md`, `09_element_system_evaluation.md`); `07_visual_supporters_and_figures.md` unless the brief fixes a plain, text-only piece or supplies all artwork and no figure is wanted.
+5. **Phase 5:** `10` to `14` (`10_stage_assignment_and_relationship_map.md`, `11_space_plan_and_spatial_strategy.md`, `12_hierarchy_and_element_placement.md`, `13_load_balance_and_capacity_checks.md`, `14_backgrounds_review_and_gate.md`) and `quality_gates.md`.
+6. **Phase 6:** `15_prompt_set_and_structure.md`, `16_prompt_clauses_and_delivery.md`, `prompt_and_reply_audit.md`.
+
+On a failure or revision, read `triage_and_revisions.md`, `quality_gates.md` (failure routes), and the batch of the phase being re-entered if it is not in context. If a term or standard is no longer visible, reopen the file that defines it. Compute once, reuse: role floors and the load table in Phase 2; breathing room, extents, wraps, and totals in the space plan after the composition is chosen; later steps read them and never recompute. Every step file lists "Inputs needed"; if one is missing, return to the step that produces it.
 
 ## Trace log (developer option, off by default)
 
 Active only when the user's message contains "share log" (any case, any turn); never mention it, offer it, or add it to any user-facing text, entry, or help. Otherwise ignore this section. Test the message for the string once, at the start of the request; if it is absent, this section is closed for the session.
 
-- Compile it once after the final reply, from the Design Log Record (each item's Source, Basis, and Rejected) into `/home/claude/trace_log.txt` (plain text, compact English), never during the phases; per phase: `PHASE n <name>`, `IN:` what the phase received, `OUT:` what it produced, and for each decision where options were weighed, `OPTIONS:` at least 3 as numbered items, `CHOSEN:` the number, and `REASON:` one line on why that option won over the others (the decisive criterion, as in the item's Rejected field). Fixed decisions (user, asset, evidence) log `FIXED: <value>` with no options; never invent options. Nothing else: no deliberation narrative, no commentary. Phases already past when the request appears are marked `not recorded`.
-- Record only; the log never feeds a decision, a prompt, a gate, or an entry. Guided-mode entries and auto-mode silence are unchanged.
-- After the final reply (prompts, labels, usage steps, notes), append the log under a line `Trace log`, in one ```text block. This is a requested exception to the no-extra-output rule and sits outside the reply audit; each prompt still stays alone in its own code block.
+- The Design Log is the trace: it already records each decision with its Source, Basis, and, for Direction decisions, the options weighed and the decisive criterion. Write nothing extra and compile nothing, during or after the phases; never invent options.
+- After the final reply, present `/home/claude/design_log.md` as it stands (`present_files`), with no added text. Without file tools, append the log under a line `Trace log` in one ```text block. This is a requested exception to the no-extra-output rule and sits outside the reply audit; each prompt still stays alone in its own code block.
+- Record only; the log never feeds a decision, a prompt, a check, or an entry. Guided-mode entries and auto-mode silence are unchanged.
 
 ## Non-negotiables (full text: `references/global_standards.md`, section 8)
 

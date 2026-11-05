@@ -84,7 +84,7 @@ Record cultural references, behavior, motivations, decision considerations, the 
 
 ### F. Research
 
-Research only what can change a decision; stop at diminishing returns; run independent searches together. If Phase 1 passed no research question that names a decision, record "no research needed" and proceed.
+Research is a question, not a phase. Run it only for a question that names a Direction decision it could change and that the brief and knowledge cannot answer: at most three targeted queries and one page read per question, stopping at the first sufficient answer; independent questions run together. If Phase 1 passed no such question, record "no research needed" and proceed. Trend articles and listicles are not evidence of visual traits, and no search is run to survey a category.
 
 - **Priority:** the subject and its public materials; visual conventions of the category and medium to differ from or conform to; peers and alternatives; the environment; cultural references; the offering's reality.
 - **Sources:** prefer authoritative and first-hand ones. Reviews show perception, not fact. Confirm that a found subject is the right one (same name is not same subject). Competitor visuals are a baseline to differ from, never a model.
@@ -113,10 +113,9 @@ Record the inventory in three parts: (1) apparent associations as baseline; (2) 
 - Primary objective follows the user's stated priority; the weakest link is a secondary lens, not a replacement.
 - The inventory holds at least one source that is not an emblem (object, material, craft, place, or visual practice); every symbol is verified for the meaning it holds for this audience; no competitor is a source; every audience claim cites evidence.
 - The message is one takeaway, serves the primary objective, and contradicts no quality requirement. The information groups follow from the objective and the content, each with its job, stage, referents, and internal hierarchy; none comes from a template or from the order of the user's list.
-- Objection raised and resolved (owner of the riskiest decision: brand strategist or audience researcher).
 
 **Entry fields:** in the phase sheet; mark decisions fixed by evidence as such.
 
 ## Next
 
-Run the gate (`quality_gates.md` section 1, then the checks above) and append the Phase 2 Forward block to the Design Log. Guided mode: no separate stop; Phase 2's findings lead the Phase 3 entry. Read `terms_design_system.md` and then `03_core_idea_style_and_hero.md`.
+Run the gate (the checks above, then the hand-off check in `SKILL.md`, Checks) and append the Phase 2 decisions (D) to the Design Log. Guided mode: no separate stop; Phase 2's findings lead the Phase 3 entry. Read `terms_design_system.md` and then `03_core_idea_style_and_hero.md`.

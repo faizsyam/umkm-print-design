@@ -18,7 +18,7 @@ A set of standalone image-generation prompts, one per deliverable, each describi
 
 1. Confirm entry: the Phase 5 gate passed and the pre-synthesis check (`quality_gates.md` section 9) is complete.
 2. Fix the prompt set from the deliverable set (G). Sort every design element into "in the prompt" or "stays out" (A).
-3. Write each prompt separately from S, the shared specifications, and that deliverable's Execution Specification.
+3. Assemble each prompt separately from its drafted clauses (P) and complete it from S, the shared specifications, and that deliverable's Execution Specification. Execution decisions (line breaks, non-mandatory wording, small item and icon details) are made here, directly.
    - Choose a structure suited to the design's complexity (B).
    - Write each clause specifically, as relationships, with space as a positive feature (C in this file; D and E in `16_prompt_clauses_and_delivery.md`).
    - Place text and describe marks and fixed assets exactly (`16_prompt_clauses_and_delivery.md` E).

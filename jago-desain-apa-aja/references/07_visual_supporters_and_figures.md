@@ -2,6 +2,8 @@
 
 Find what the piece lacks beyond text, identity unit, and a plain ground, and meet each real lack with the best-suited resource in the piece's style.
 
+**Skip this file only when** the brief fixes a plain, text-only piece or supplies all artwork and no figure is wanted; record that as the plainness decision.
+
 **Inputs needed:** The element system so far (palette, type, identity unit, copy treatments); Phase 3 hero, imagery and decoration stance, figure stance, supporter budget, treatment vocabulary, style dimensions 1, 4, 5; S quality requirements; Visual source inventory and seed bank.
 
 ## 2. Guidance (continued from `06_identity_unit_and_copy_treatment.md`)
