@@ -76,7 +76,7 @@ As listed in the phase sheet of `03_core_idea_style_and_hero.md`.
 - Compared principles show their options. Space intent states the budget (free ground as quiet share with its jobs and location and any atmosphere, role needs, density level) and passed the load budget test for every deliverable at its own ratio. Imagery and decoration stance evaluates each family, excludes none by blanket default, states plainness as a decision where it holds, and names the treatment vocabulary.
 - Character carriers and linking logic are named; the direction check passed; every quality requirement has carriers in the plan; every Phase 2 tension is carried.
 
-**Gate:** also run the gate checks of `03_core_idea_style_and_hero.md` and the hand-off check in `SKILL.md` (Checks); append the Phase 3 decisions (D) and the idea, style, and hero clauses (P) to the Design Log.
+**Gate:** also run the gate checks of `03_core_idea_style_and_hero.md` and the hand-off check in `SKILL.md` (Checks); append the Phase 3 decisions (D) to the Design Log.
 
 ## Next
 

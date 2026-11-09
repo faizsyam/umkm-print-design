@@ -13,7 +13,7 @@ Run these, then the phase file's own "Gate checks".
 2. Sources and qualities: every decision names its source (`workflow_and_state.md` section 4) and was made after its inputs existed (a decision resting on a later phase's output is provisional and tagged). Each stated quality has a visible carrier at this phase's level of realization (plan, system, composed glance stage), and no decision signals its opposite. At Phases 1, 2, and 6 the phase file's own quality checks apply.
 3. Consistency: this phase's decisions agree with the decisions it reads; a conflict returns to the earliest conflicting decision.
 4. User-facing: Phase 1 closes only on the user's confirmed summary and mode. Guided mode: each message with real work opened with a wait note; entries for Phases 3 to 5 shown at their gates as one compact table in the user's language (Phase 2's findings lead the Phase 3 entry); the turn stopped for confirmation after Phases 3 and 4. Auto mode: one wait note, nothing shown at gates. Phase 6 is the final reply.
-5. The phase's decisions (D), carry-forward obligations, open flags, and drafted clauses (P) are appended to the Design Log. A passing check is one line; failures and fixes are written out.
+5. The phase's decisions (D), carry-forward obligations, and open flags are appended to the Design Log. A passing check is one line; failures and fixes are written out.
 6. **Failure route.** Return as the table says, carry back what it lists, set dependents stale (`workflow_and_state.md` section 4), re-run forward, and count the return against the issue's two-cycle cap (`triage_and_revisions.md` section 4).
 
 | Gate | Return to | Carry back |
@@ -43,7 +43,7 @@ A defect is traced to the earliest responsible decision (`triage_and_revisions.m
 
 ## 9. Ready for Phase 6
 
-A completeness check on the Design Log, run at the Phase 5 gate. It confirms that each commitment exists as a visible, drawable specification, and that P holds its drafted clauses. Reasons were verified at their own hand-offs; they are not re-argued here or passed to Phase 6. A missing or vague item returns to its owning phase. A reason that names no observable property or comparison fails its check.
+A completeness check on the Design Log, run at the Phase 5 gate. It confirms that each commitment exists as a visible, drawable specification, and that every Specification is prompt-ready. Reasons were verified at their own hand-offs; they are not re-argued here or passed to Phase 6. A missing or vague item returns to its owning phase. A reason that names no observable property or comparison fails its check.
 
 | Commitment | Must exist as |
 |---|---|

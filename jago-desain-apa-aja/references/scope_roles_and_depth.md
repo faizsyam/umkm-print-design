@@ -68,7 +68,7 @@ Content volume, crowded surroundings, and several deliverables do not raise open
 **Several concepts.**
 - Run Phases 1 and 2 once; run each of Phases 3 to 5 across all concepts before moving on.
 - Each concept starts from a core-idea candidate that differs on a structural axis (never only color or decoration) and ends in its own standalone prompt per deliverable.
-- One entry per phase, with a short subsection per concept. D and P are kept per concept; S is shared.
+- One entry per phase, with a short subsection per concept. D is kept per concept; S is shared.
 
 Prompts delivered = deliverables × concepts. Never add a deliverable for a variation the user did not need, and never split content that is one image.
 

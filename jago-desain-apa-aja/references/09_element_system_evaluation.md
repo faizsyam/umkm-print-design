@@ -27,7 +27,7 @@ As listed in the phase sheet of `05_color_and_typography.md`.
 - The system decision exists in drawable terms (palette with value key, type roles, shape and container language, supporter policy, ground) and no look-shaping attribute is left to the model's apparent value. Each addition carries a purpose line tracing to a plan commitment, and every commitment is realized.
 - A deployable counterweight exists unless the stance is strictly symmetric; the additions fit the structure-and-decoration line and the load read fits the density level; rendering treatments stay within the vocabulary; shadow or glow exists only by decision.
 
-**Gate:** also run the gate checks of `05_color_and_typography.md` to `08_containers_and_ground.md` and the hand-off check in `SKILL.md` (Checks); append the Phase 4 decisions (D) and the system and figure clauses (P) to the Design Log.
+**Gate:** also run the gate checks of `05_color_and_typography.md` to `08_containers_and_ground.md` and the hand-off check in `SKILL.md` (Checks); append the Phase 4 decisions (D) to the Design Log.
 
 ## Next
 

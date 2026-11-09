@@ -98,7 +98,7 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Designed treatments cost space and attention: no more than the tiers can carry, one lettering logic, none competing with the identity unit.
 - Write each as a concise spec: letterform character, line breaks, emphasis, container, color role, relation to neighbors.
 - Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
-- Treatments follow the system decision; a group's treatment is compared only as an Escalation and is otherwise specified directly in the prompt draft. Test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Decide it with the group's provisional arrangement form (`10_stage_assignment_and_relationship_map.md` A2), which Phase 5 confirms.
+- Treatments follow the system decision; a group's treatment is compared only as an Escalation and is otherwise specified directly in the Phase 6 prompt. Test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Decide it with the group's provisional arrangement form (`10_stage_assignment_and_relationship_map.md` A2), which Phase 5 confirms.
 
 ## Quality checks
 

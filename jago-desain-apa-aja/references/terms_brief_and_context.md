@@ -19,7 +19,7 @@ One meaning per term in every file. Only terms used in more than one file are he
 | Gap classes | **explicit**, **inferable**, **researchable**, **materially uncertain**. A **blocking gap** is a materially uncertain gap that passes the clarification test (`00_conversation_voice_modes_and_intake.md` section 3) and whose answer decides one of the four items listed in `01_brief_and_requirements.md`, section E |
 | Subject | What a deliverable represents: a business, organization, product, event, person, or topic. **Brand** is the subject's identity as perceived |
 | Deliverable | One image the request needs, with its own purpose in the whole request, medium and use, format and ratio, and relationship to the others. The **deliverable set** is all of them; each gets its own composition (Phase 5) and standalone prompt (Phase 6) |
-| Design Log | The persisted state record (`workflow_and_state.md` section 4): the standing block **S**, the decisions **D** (Specification, Source, Basis, Rejected, Status; carry-forward obligations; open flags), and the prompt draft **P**; Basis and Rejected never travel forward |
+| Design Log | The persisted state record (`workflow_and_state.md` section 4): the standing block **S**, the decisions **D** (Specification, Source, Basis, Rejected, Status; carry-forward obligations; open flags), with Specifications in prompt-ready wording; Basis and Rejected never travel forward |
 | Carry-forward obligation | A mitigation, accepted cost, or "amplify here" move recorded by the protocol that a later phase must realize or record as accepted |
 
 ## Qualities (Phase 1 terms moved here from "Qualities, copy, supporters" in `terms_design_system.md`)

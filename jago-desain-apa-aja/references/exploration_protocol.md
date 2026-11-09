@@ -14,7 +14,7 @@ Exploration is spent where a wrong choice is costly and the brief leaves the cho
 |---|---|---|
 | Direction | Core idea, style, hero (Phase 3); a new logo mark and lockup, a created lead figure (Phase 4, with the extended development in `06_identity_unit_and_copy_treatment.md` C); spatial strategy (Phase 5) | Section 2, sized by openness |
 | System | Phase 4: palette and value key, type roles, shape and container language, supporter policy, ground, derived from the Direction choices as one decision | Section 3, one comparison for the whole system |
-| Execution | Copy treatments, line breaks, wording of non-mandatory text, small item art, icons, edge and surface details, decorative placement | Specified directly while drafting the prompt (P): no log item, no comparison, no purpose line |
+| Execution | Copy treatments, line breaks, wording of non-mandatory text, small item art, icons, edge and surface details, decorative placement | Specified directly in the Phase 6 prompt: no log item, no comparison, no purpose line |
 | Escalation | Any System or Execution choice with a named risk: it conflicts with a quality requirement or fixed asset, exact text is at renderability risk, it contradicts an earlier decision, or the user doubted it | Section 3, for that choice only |
 
 Phase 2's differentiation, weakest link, and departure take a compact comparison when the brief leaves them open and are decided directly otherwise. Phases 1 and 6 hold no exploration.

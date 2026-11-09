@@ -51,7 +51,7 @@ As listed in the phase sheet of `10_stage_assignment_and_relationship_map.md`.
 - Bleed never meets mandatory content, the unit, or fine borders.
 - The assembled review passed (`quality_gates.md` section 2); failures were routed to their earliest cause.
 
-**Gate:** also run the gate checks of `10_stage_assignment_and_relationship_map.md` to `13_load_balance_and_capacity_checks.md` for every deliverable and the hand-off check in `quality_gates.md` section 1. Then run the pre-synthesis check (`quality_gates.md` section 9, "Ready for Phase 6"). Append the Phase 5 decisions (D) and the composition and space clauses (P) to the Design Log.
+**Gate:** also run the gate checks of `10_stage_assignment_and_relationship_map.md` to `13_load_balance_and_capacity_checks.md` for every deliverable and the hand-off check in `quality_gates.md` section 1. Then run the pre-synthesis check (`quality_gates.md` section 9, "Ready for Phase 6"). Append the Phase 5 decisions (D) to the Design Log.
 
 ## Next
 

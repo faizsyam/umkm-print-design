@@ -17,7 +17,7 @@ Six phases run in order; none is skipped, merged, or deferred. Each phase: read 
 3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, one direction check.
 4. **Design System**: color, type, shape and container language, supporter policy, and ground as one system decision; a new mark or lead figure by the direction protocol.
 5. **Design Execution**: per deliverable, stages and groups; a composition built around the groups and kept as a region table; the space plan measured once; placement; one assembled review.
-6. **Prompt Synthesis**: the drafted clauses assembled into one audited, standalone prompt per deliverable; the final reply.
+6. **Prompt Synthesis**: each decision's prompt-ready specification assembled into one audited, standalone prompt per deliverable; the final reply.
 
 Guided mode stops for the user's go-ahead after Phases 3 and 4; Phase 5's entry is shown and Phase 6 follows. Auto mode shows nothing at gates.
 
@@ -31,11 +31,11 @@ Guided mode stops for the user's go-ahead after Phases 3 and 4; Phase 5's entry 
 
 ## One working file
 
-The Design Log (`/home/claude/design_log.md`; `references/workflow_and_state.md`) holds S (the standing block), D (the decisions), and P (the prompt draft). Each phase appends its decisions to D and the clauses it fixed to P, in prompt-ready wording. Phase 6 assembles P; nothing is written twice.
+The Design Log (`/home/claude/design_log.md`; `references/workflow_and_state.md`) holds S (the standing block) and D (the decisions). Each phase appends its decisions to D, each Specification written in prompt-ready wording (traits as seen, no rationale) with dimensions as shares of the format. Phase 6 assembles and audits them; nothing is written twice.
 
 ## Checks
 
-One hand-off check per phase: every decision made by its class; sources named and each quality carried at this phase's level; the phase's decisions consistent with those it reads; the user-facing steps of the mode done; D and P appended (failure routes and the full wording: `references/quality_gates.md` section 1); one assembled review with the cross-phase tests and one objection at the end of Phase 5 (section 2, with `14_backgrounds_review_and_gate.md` F); one prompt audit in Phase 6. A check that passed is re-run only when a decision it reads changed. Cap each issue and every loop at two cycles.
+One hand-off check per phase: every decision made by its class; sources named and each quality carried at this phase's level; the phase's decisions consistent with those it reads; the user-facing steps of the mode done; D appended (failure routes and the full wording: `references/quality_gates.md` section 1); one assembled review with the cross-phase tests and one objection at the end of Phase 5 (section 2, with `14_backgrounds_review_and_gate.md` F); one prompt audit in Phase 6. A check that passed is re-run only when a decision it reads changed. Cap each issue and every loop at two cycles.
 
 ## Research
 
