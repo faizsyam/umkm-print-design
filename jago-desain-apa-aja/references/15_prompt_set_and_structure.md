@@ -77,6 +77,8 @@ Adapt the order to complexity, and keep one coherent style logic from first sent
 
 ## Quality checks
 
+- Pass: the prompt set equals the deliverable set; every design element is sorted in or out (A); the structure, specificity, and language rules hold; the prompt audit (`prompt_and_reply_audit.md` section 3) is the gate.
+
 ## Next
 
 Read `16_prompt_clauses_and_delivery.md` and write each prompt separately.

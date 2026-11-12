@@ -29,7 +29,8 @@ How a failure is classified (critical, major, minor), which phase owns each symp
   - generic idea, style, or hero (an image-making language that is only a medium name included);
   - a hero left standalone with no stated reason;
   - no space budget (a quiet share without role allocations, or a plan that fits only with every item at its minimum); density or treatment vocabulary left unstated; a budget set from rank alone without the information groups; no decoration stance, or plainness left undecided;
-  - tension unresolved.
+  - tension unresolved;
+  - a hero footprint above its budget row, a budget of ranges that does not sum or sizes the hero before the information groups, or a hero whose host cannot hold its text by geometry.
 - **Phase 4** (Phase 3 if the plan caused it):
   - containers that all share the model's default form or only solid-or-outline fills, or one container design across different information roles or ranks (Phase 3 if the plan set no corner and edge geometry); containers with no material impression or relation to the hero or group they hold where integration was the plan;
   - an element or container with no purpose line;
@@ -39,7 +40,8 @@ How a failure is classified (critical, major, minor), which phase owns each symp
   - blank or category-generic piece at its density (Phase 3 if no character carriers were planned);
   - text-only look; a ground left uniform without a reason; a theme whose world is unrealized with no recorded decision; supporters chosen without an information job; a generic symbol interchangeable between subjects or repeating the words beside it;
   - a style or figure named by category or medium (flat, vector, sticker, kawaii, cartoon) that fails the specificity test (Phase 3 D); a lead figure defined in one pass with no developed candidates (Phase 4, `07_visual_supporters_and_figures.md`); a survey with no real precedents looked at;
-  - decoration with no deficit; duplicate purposes; decoration outranking information;
+  - decoration with no deficit; duplicate purposes; decoration outranking information; supporter, ornament, container, or treatment counts above the density caps;
+  - a name, copy treatment, or container arrangement fixed in line counts before Phase 5; a mark candidate that contradicts the form the hero fixed;
   - a second identifier; an unwanted, roleless, or inconsistent figure; an invented level mark;
   - element costs over the structure-and-decoration line, or a cumulative load that outgrows the density level; containers multiplied where spacing would serve; a counterweight or character carrier added as a new element while an existing one could serve; decorated ground counted as quiet; rendering treatments outside the vocabulary; a personality device that costs the name's legibility.
 - **Phase 5:**
@@ -48,7 +50,8 @@ How a failure is classified (critical, major, minor), which phase owns each symp
   - composition: overlap hiding an essential part; unlinked elements; lopsided mass (Phase 4 if no counterweight was provided); wrong encounter stage; mark absorbed in composition; a deliverable composed by resizing or cropping another's layout; near-touching neighbors with no decided gap or overlap; a strategy locked in that the content cannot fill comfortably;
   - text fit: text overflowing its container, sizes changed late, or letters compressed, stretched, or slanted to fit; equivalent items typeset differently by length;
   - grouping and arrangement: picture-with-captions or a field of separate labels; supplementary information set as one row or container per item by default; a hero isolated while the information that supports it sits apart; parallel claims merged into one statement without being one claim; one arrangement form repeated across groups of different function, or a long or comparable-item list left as one stacked column without a reason; equivalent cards or rows whose dimensions or internal alignment vary with their content length;
-  - edges and references: bleed against content; a pointer with no referent; a figure covering information.
+  - edges and references: bleed against content; a pointer with no referent; a figure covering information;
+  - floors and units: the glance floor applied to a whole name or phrase; core content (menu, prices) demoted to the deliberate-reading floor; sizes or regions in physical units; balance by coordinates; a legibility objection accepted; the same host and text retried by trial instead of by geometry and the ladder.
 - **Phase 6:**
   - rationale in the prompt; vague wording; mandatory text misplaced;
   - container height stated beside text sizes and row counts that leave less than the stated padding; padding stated only as "generous"; a look clause that survives no strike test (category and medium words struck);

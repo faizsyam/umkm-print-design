@@ -17,27 +17,14 @@ Realize backgrounds and transitions, apply reproduction conditions, align the se
 
 ### F. Composition review
 
-This is the one assembled review (`quality_gates.md` section 2: the cross-phase tests and one objection run with it). Review the composed whole once, each check read through the role that owns it (`scope_roles_and_depth.md` section 2); a borderline check draws that role's objection. Files 10 to 13 already passed their own checks on the frozen composition; re-run one only if a later decision changed what it reads. Hierarchy, route, balance, load, and capacity were verified once in files 12 and 13 and are not re-read here. The reads that exist only on the composed whole are: message at glance, quality carriers, character, context fit, decided not defaulted, and the set. Check:
+This is the one assembled review (`quality_gates.md` section 2: the cross-phase tests and one objection run with it). Files 10 to 13 already verified hierarchy, route, balance, load, capacity, proportion, fill, and zones on the frozen composition; re-run one only if a later decision changed what it reads. The reads that exist only on the composed whole, each through the role that owns it (`scope_roles_and_depth.md` section 2; a borderline check draws that role's objection):
 
-- **Message and hierarchy.**
-  - The message is understood at first glance.
-  - Each element is judged as drawn, with its container and treatment; none, secondary or utility information included, competes with its rank.
-  - The piece carries character at its density, not blank or category-generic.
-  - The unit is integrated, distinctive, and passes the text-neighborhood test.
-- **Quality and traceability.**
-  - Every stated quality requirement reads off the composed whole at the glance stage, value key included (recompute the key only if this phase changed the area of ground, bands, or hero).
-  - Every element has a distinct purpose, and no decoration outranks the required information it serves.
-  - Every placement traces to a plan or element decision, and every plan commitment is visibly realized.
-- **Space as drawn.** Realized space matches the plan; breathing room is perceptible at every zone's perimeter and inside every container, and the quiet regions are contiguous, calm, and undecorated while any atmosphere fields sit in ground the quiet does not need.
-- **Context fit.** Fit with actual neighbors and light while departing on the intended dimension; would it fail unchanged for another subject?
-- **Relationships.**
-  - Coupled items sit nearest their referents; no picture-with-captions bands; the hero is dominant (or isolated and dominant where it carries the message alone).
-  - Arrangement form is chosen per group from its function, not repeated by default; supplementary information is composed as compact groups, never a row or container per item by default.
-  - Neighbors have stated alignment, gap, and clearance; a near-touch is decided as separation or overlap; equivalent units are balanced inside (shared dimensions, rails, and treatment).
-- **Plan features.** The point of tension, if the plan set one, reads at glance. Layering: plane order reads at glance, agrees with hierarchy, leaves required information unoccluded, and a single plane is the style's choice with surface richness carried.
-- **Decided, not defaulted.** Every look-shaping attribute (`terms_brief_and_context.md`) traces to a decision; nothing is generic, templated, overdecorated, or underdeveloped (the theme's world is realized, or its absence is a recorded decision), and every rendering treatment in use is in the Phase 3 vocabulary.
-- **Typography and containers.** The Phase 4 treatments hold as specified: equivalent items share one treatment whatever their length, no string is compressed, stretched, or slanted to fit, and containers keep their role differences.
-- **Effect.** Each element's recorded effect registers at its stage, and none carries more weight than its function earns.
+- **Message and unit.** The message is understood at first glance; the unit is integrated, distinctive, and passes the text-neighborhood test; no element, secondary or utility information included, competes with its rank as drawn (content with its container and treatment).
+- **Qualities.** Every stated quality reads off the composed whole at the glance stage, value key included (recompute the key only if this phase changed the area of ground, bands, or hero); every placement traces to a plan or element decision and every plan commitment is visibly realized.
+- **Character at density.** The piece is neither blank nor category-generic, its decoration stays within the density caps, and the point of tension and the layering, if the plan set them, read at glance.
+- **Context fit.** Fit with the actual neighbors and light while departing on the intended dimension; it would fail unchanged for another subject.
+- **Decided, not defaulted.** Every look-shaping attribute (`terms_brief_and_context.md`) traces to a decision; nothing is generic, templated, overdecorated, or underdeveloped (the theme's world is realized, or its absence is a recorded decision); every rendering treatment in use is in the Phase 3 vocabulary.
+- **As drawn.** Only where a later edit changed them: quiet regions stay contiguous and undecorated, coupled items sit nearest their referents, near-touches are decided as separation or overlap, and equivalent units are balanced inside.
 - **Across the set.** Shared decisions appear identically in every deliverable, and composition differs only as format or encounter requires.
 
 ## Forward block and entry fields

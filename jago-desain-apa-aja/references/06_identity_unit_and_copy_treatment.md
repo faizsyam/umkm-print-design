@@ -10,6 +10,8 @@ Develop the identifier by the full protocol with the extended mark development, 
 
 A basic, generic, or forgettable identifier fails even if it passes every test; one settled quickly was not scrutinized.
 
+**Inheritance.** When the core idea or hero already fixes the form class or construction (the hero is the mark's container, the idea is the shape), the development runs on the open remainder: seeds and candidates differ in personality device and lockup, never in a new construction, and a candidate that contradicts the fixed form is not written. Scrutiny keeps the tests that can still fail (generic, name legibility, device necessity, renderability).
+
 **Hard rules**
 - A new identifier is never only a styled name. It carries a personality device (transformed lettering, a symbol integrated with the name, a distinctive silhouette or container, a symbol beside the name, or a combination), never decoration added to look designed.
 - A supplied logo, plain wordmark included, is used as given: not redesigned, restyled, simplified, or recolored unless the user asks. An explicit request for plain text governs.
@@ -38,15 +40,16 @@ A basic, generic, or forgettable identifier fails even if it passes every test; 
    - *cliché:* is it the first association?
    - *renderability* (`terms_brief_and_context.md`): can a model reproduce the geometry from a description?
 4. **Revision pass.** At least one genuine revision after critique (transplant a strength, sharpen the idea, remove excess, make it more ownable while true). Then choose by the protocol, with runner-up and decisive criterion.
-5. **Winner tests:** *lockup* (below); *separation* from hero, lettering, and decoration; *text-neighborhood* (distinct beside the densest text, squinting). If the winner still feels basic, return to mining with the weakness named.
+5. **Winner tests:** *lockup* (below); *separation* from hero, lettering, and decoration; *text-neighborhood* (differs from the densest adjacent text on at least two distinction mechanisms). If the winner still feels basic, return to mining with the weakness named.
 6. **Generation preparation.** Models render simple, geometric, clearly described forms far more reliably than intricate ones. Simplify the execution of the idea, never the idea into something generic. Define geometry, key shapes, relationships, and color concretely.
 
 **Lockup integration** (one unit, not two objects near each other). Decide:
 - **Arrangement** (beside, stacked, held in one container, mark integrated into lettering), weighed against encounter stage and the region it occupies.
 - **Shared construction logic:** a module from the mark (stroke weight, curvature, angle, proportion) that the lettering echoes, so both look drawn by one hand; spacing derived from a measurable unit of the mark; a shared alignment axis; optical balance of mass.
 - **Fixed scale proportion** between mark and wordmark (the unit scales as one); **one color role scheme** for the unit; which element leads inside it.
+- **Name hierarchy:** a name's words take their size from their job: the distinctive word carries the glance part and the glance floor, category or descriptive words step down to the next stage's floor, so the wordmark is two sizes at most. The name stays one size only when the glance floor still fits the hero's footprint. Spelling and word order never change.
 - **Separability:** the mark works alone; the wordmark alone still carries the construction logic. Mark and wordmark share logic but not form class (the mark reads as shape and mass first, the wordmark as lettering), so integration never becomes blending.
-- **Tests:** *unit* (squint: one object?); *disconnection* (cover each in turn: does the other remain recognizably the same identity?).
+- **Tests:** *unit* (one shared outline or container, or one shared construction module: one object?); *disconnection* (cover each in turn: does the other remain recognizably the same identity?).
 
 **Distinction from type and content.**
 - A mark reads as more type when it shares a form class with surrounding text, worst in text-heavy layouts; the wordmark is also not body type.
@@ -98,7 +101,7 @@ Every text item is an element with a purpose line (items of one role, rank, and 
 - Designed treatments cost space and attention: no more than the tiers can carry, one lettering logic, none competing with the identity unit.
 - Write each as a concise spec: letterform character, line breaks, emphasis, container, color role, relation to neighbors.
 - Treatment never alters verbatim text: line breaks, scale, and emphasis only; no word omitted, added, or reordered.
-- Treatments follow the system decision; a group's treatment is compared only as an Escalation and is otherwise specified directly in the Phase 6 prompt. Test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Decide it with the group's provisional arrangement form (`10_stage_assignment_and_relationship_map.md` A2), which Phase 5 confirms.
+- Treatments follow the system decision; a group's treatment is compared only as an Escalation and is otherwise specified directly in the Phase 6 prompt. Test fit to purpose: the treatment delivers the stated effect at the item's stage within its rank. Phase 4 fixes the grade, device, and color role per content role; line breaks and line counts are planned in Phase 5 (planned wrap, `11_space_plan_and_spatial_strategy.md` B4) and executed in Phase 6.
 
 ## Quality checks
 

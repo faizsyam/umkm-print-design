@@ -35,9 +35,10 @@ Run on the assembled design with the composition checklist (`14_backgrounds_revi
 | Brief-quality | Does each stated quality have a visible carrier in the composed glance stage, and does any decision signal its opposite? | Phase 1 for the translation, otherwise the earliest contradicting phase |
 | Decided-attribute | Is any look-shaping attribute left to the model's apparent value? | the phase that should own it |
 | Originality | The protocol's three tests: predictable, specific, ambitious | the deciding phase |
-| Load and fit | Does the cumulative visual load (information, imagery, supporters, containers, treatments, surface, color intensity) fit the space budget with headroom, by area and along the governing axis, with the quiet open (glossary: Quiet) and every addition beating its next-lighter alternative (nothing, spacing alone, a smaller or simpler form) at its space cost? | the earliest phase whose allocation or addition broke it |
 
-**One objection:** the strongest case against the riskiest decision of the design (highest consequence on thinnest evidence, or an interaction or compounding accepted cost), raised by the role that owns it (`scope_roles_and_depth.md` section 2), then resolved or accepted with a recorded reason. It must add something the protocol's challenge did not.
+Load and fit ran once in `13_load_balance_and_capacity_checks.md` B5 and are re-run only when a later decision changed an extent or an addition.
+
+**One objection:** the strongest case against the riskiest decision of the design (highest consequence on thinnest evidence, or an interaction or compounding accepted cost), raised by the role that owns it (`scope_roles_and_depth.md` section 2), then resolved or accepted with a recorded reason. It must add something the protocol's challenge did not. An objection that names a legibility, floor, or mandatory-content failure is resolved by a change on the ladder, never accepted; acceptance is for risks of taste and originality.
 
 A defect is traced to the earliest responsible decision (`triage_and_revisions.md` section 4).
 
@@ -57,7 +58,7 @@ A completeness check on the Design Log, run at the Phase 5 gate. It confirms tha
 | Core idea, style, hero | the chosen option in drawable terms, with the true specifics of what is depicted and the image-making language it is drawn or shot in; the hero's reinforcing content and supporters, or the reason it stands alone; the treatment vocabulary (the few rendering treatments in use, each with its job) |
 | Identifier | a fixed asset, or a new mark: personality device, geometry, integration logic, distinction mechanisms, and which identity forms appear where |
 | Shape language and balance | each container's function, form, and fill mode; the balance type and its counterweight |
-| Space plan | area shares (each between its group's space need and its rank's ceiling) that with the free ground account for the whole format with headroom; the quiet regions and any atmosphere fields by what they separate or frame; internal spacing of each zone; gap and clearance steps between neighbors; the reading sequence as a route over the placed regions, agreeing with the attention hierarchy and the placement; the arrangement form of each information group; the quantity of every repeated form; the planned wrap of every multi-line string; and the placement and role of every mandatory text item, per deliverable |
+| Space plan | the region table complete (every region's shares of the format, rank, mass class and side, clearance step; each supporter's host and count); the budget rows and free ground accounting for the whole format with headroom; the quiet regions and any atmosphere fields by what they separate or frame; the reading sequence as a route over the placed regions, agreeing with the hierarchy and the placement; each group's arrangement form; the quantity of every repeated form; the planned wrap of every multi-line string; the placement and role of every mandatory text item, per deliverable |
 | Distinguishing traits | the traits that set the design apart from the peers it will be seen beside |
 | Carry-forward obligations | each realized by a named decision or recorded as an accepted cost |
 

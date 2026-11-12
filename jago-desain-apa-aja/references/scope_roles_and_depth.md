@@ -46,12 +46,12 @@ Phase 1 reads, for each Direction decision (core idea, style, hero, a new mark o
 | | Open | Steered |
 |---|---|---|
 | Research (Phase 2) | each question that can change the decision, targeted (`02_research_and_analysis.md` F) | the one that can |
-| Territory survey (Phase 3) | 4 territories from 3 source families, from knowledge | 3 from 2 families, for the open dimensions only |
+| Territory survey (Phase 3) | 4 territories from 3 source families, from knowledge | 2 (the named lineage as the apparent option, one from beyond it), for the open dimensions only |
 | Candidate cards | every field the phase sets | fields that tell candidates apart, plus quality compatibility |
 | Governing principles (Phase 3) | compared: space intent with density and rhythm, imagery and decoration, integration, mark role, layering, tone and positioning | compared: space intent with density and rhythm, imagery and decoration, integration, mark role; rest decided directly |
 | New mark or lead figure (Phase 4) | at least 6 seeds, every check recorded | at least 4 seeds, checks as pass/fail lines |
 
-Fixed decisions take none of this. Never reduced: naming the apparent option, the runner-up and decisive criterion, the quality checks, the load budget test, the capacity check, verbatim content, the assembled review, and the audits. Openness is re-read when a phase shows the brief leaves more open than assumed; the missing exploration is then done before the decision is used.
+A mark or figure whose form class the core idea or hero already fixes (the hero is the mark's container, say) is Steered on the open remainder only, its device and lockup: 2 or 3 seeds and 2 developed candidates, never a new construction (`06_identity_unit_and_copy_treatment.md` C). Fixed decisions take none of this. Never reduced: naming the apparent option, the runner-up and decisive criterion, the quality checks, the load budget test, the capacity check, verbatim content, the assembled review, and the audits. Openness is re-read when a phase shows the brief leaves more open than assumed; the missing exploration is then done before the decision is used.
 
 Content volume, crowded surroundings, and several deliverables do not raise openness. They raise the load and fit work: the load table, the load budget test, and one composition per deliverable.
 

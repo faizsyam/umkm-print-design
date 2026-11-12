@@ -14,9 +14,9 @@ Six phases run in order; none is skipped, merged, or deferred. Each phase: read 
 
 1. **Brief**: adaptive intake; known, required, uncertain; deliverable set, quality translations, openness map; user-confirmed summary and mode (guided or auto) -> standing block S.
 2. **Analysis**: the real communication problem, information groups and load table, Environment Profile with role floors, differentiation, design implications.
-3. **Design Plan**: plan criteria, core idea, style, hero, governing principles, one direction check.
-4. **Design System**: color, type, shape and container language, supporter policy, and ground as one system decision; a new mark or lead figure by the direction protocol.
-5. **Design Execution**: per deliverable, stages and groups; a composition built around the groups and kept as a region table; the space plan measured once; placement; one assembled review.
+3. **Design Plan**: plan criteria with a binding space budget (the hero is the residual), core idea, style, hero (footprint and hosting screened), governing principles with density caps, one direction check.
+4. **Design System**: color, type, shape and container language, supporter policy, and ground as one system decision; copy treatments by grade and device; a new mark or lead figure by the direction protocol, on what the hero left open.
+5. **Design Execution**: per deliverable, stages (glance parts split out) and groups; a composition built around the groups and kept as a region table in shares of the format; the space plan measured once; placement; one assembled review.
 6. **Prompt Synthesis**: each decision's prompt-ready specification assembled into one audited, standalone prompt per deliverable; the final reply.
 
 Guided mode stops for the user's go-ahead after Phases 3 and 4; Phase 5's entry is shown and Phase 6 follows. Auto mode shows nothing at gates.
@@ -25,9 +25,20 @@ Guided mode stops for the user's go-ahead after Phases 3 and 4; Phase 5's entry 
 
 - **Direction** (core idea, style, hero, a new mark or lead figure, spatial strategy) is explored, sized by how much the brief leaves open: Open, Steered, or Fixed. Fixed takes no exploration.
 - **System** (palette, type roles, shape and container language, supporter policy, ground) is derived from the direction in one comparison.
-- **Execution** (copy treatments, line breaks, non-mandatory wording, small items, icons, edge details) is specified directly while drafting the prompt: no log item, no comparison.
+- **Execution** (the details of a copy treatment: line breaks, emphasis, small devices; non-mandatory wording; small items; icons; edge details) is specified directly while drafting the prompt: no log item, no comparison.
 - **Escalation**: a System or Execution choice with a named risk gets its own compact comparison.
 - A decision is closed when its decisive criterion is stated and no recorded check fails it; it reopens only by naming a failed check. What an earlier decision fixes is inherited, not decided again.
+
+## Solve once
+
+Each quantity is solved by one recipe and then read, never re-derived or found by trial layouts.
+
+- **Budget:** one table of single numbers summing to 100: information groups from the load table first, then structure and decoration, quiet, margins, headroom; the hero is the residual, and a hero footprint above its row is dropped at the screen.
+- **Floors:** the glance floor applies to an item's glance part only; core content (offers, prices, choices) never takes the deliberate-reading floor.
+- **Hosts:** text in a circular or arched host is solved by geometry in one pass (`03_core_idea_style_and_hero.md` E); the host follows the text.
+- **Units:** after Phase 2 every size and region is a share of the format; the region table carries a mass class and side per region, so balance is read off it, not measured.
+- **Fit failure:** the fit ladder as one batch (`terms_design_system.md`); after two cycles take the next strategy and record the risk; never redraw.
+- **Caps:** supporter and ornament families, container designs, and rendering treatments stay within the density caps (`04_principles_and_plan_evaluation.md` F).
 
 ## One working file
 
@@ -35,7 +46,7 @@ The Design Log (`/home/claude/design_log.md`; `references/workflow_and_state.md`
 
 ## Checks
 
-One hand-off check per phase: every decision made by its class; sources named and each quality carried at this phase's level; the phase's decisions consistent with those it reads; the user-facing steps of the mode done; D appended (failure routes and the full wording: `references/quality_gates.md` section 1); one assembled review with the cross-phase tests and one objection at the end of Phase 5 (section 2, with `14_backgrounds_review_and_gate.md` F); one prompt audit in Phase 6. A check that passed is re-run only when a decision it reads changed. Cap each issue and every loop at two cycles.
+One hand-off check per phase: every decision made by its class; sources named and each quality carried at this phase's level; the phase's decisions consistent with those it reads; the user-facing steps of the mode done; D appended (failure routes and the full wording: `references/quality_gates.md` section 1); one assembled review with the cross-phase tests and one objection at the end of Phase 5 (a legibility objection against mandatory or core content is resolved by change, never accepted) (section 2, with `14_backgrounds_review_and_gate.md` F); one prompt audit in Phase 6. A check that passed is re-run only when a decision it reads changed. Cap each issue and every loop at two cycles.
 
 ## Research
 
@@ -52,7 +63,7 @@ Open only the current batch, all its files in one call, when its step is reached
 5. **Phase 5:** `10` to `14` (`10_stage_assignment_and_relationship_map.md`, `11_space_plan_and_spatial_strategy.md`, `12_hierarchy_and_element_placement.md`, `13_load_balance_and_capacity_checks.md`, `14_backgrounds_review_and_gate.md`) and `quality_gates.md`.
 6. **Phase 6:** `15_prompt_set_and_structure.md`, `16_prompt_clauses_and_delivery.md`, `prompt_and_reply_audit.md`.
 
-On a failure or revision, read `triage_and_revisions.md`, `quality_gates.md` (failure routes), and the batch of the phase being re-entered if it is not in context. If a term or standard is no longer visible, reopen the file that defines it. Compute once, reuse: role floors and the load table in Phase 2; breathing room, extents, wraps, and totals in the space plan after the composition is chosen; later steps read them and never recompute. Every step file lists "Inputs needed"; if one is missing, return to the step that produces it.
+On a failure or revision, read `triage_and_revisions.md`, `quality_gates.md` (failure routes), and the batch of the phase being re-entered if it is not in context. If a term or standard is no longer visible, reopen the file that defines it. Compute once, reuse: role floors and the load table in Phase 2; breathing room, extents, wraps, and totals in the space plan after the composition is chosen; later steps read them and never recompute. Every step file lists "Inputs needed"; if one is missing, return to the step that produces it. A "Next" line in a step file is a hint; this batch list is the authority.
 
 ## Trace log (developer option, off by default)
 

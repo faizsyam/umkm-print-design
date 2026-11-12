@@ -13,14 +13,14 @@ Exploration is spent where a wrong choice is costly and the brief leaves the cho
 | Class | Decisions | Method |
 |---|---|---|
 | Direction | Core idea, style, hero (Phase 3); a new logo mark and lockup, a created lead figure (Phase 4, with the extended development in `06_identity_unit_and_copy_treatment.md` C); spatial strategy (Phase 5) | Section 2, sized by openness |
-| System | Phase 4: palette and value key, type roles, shape and container language, supporter policy, ground, derived from the Direction choices as one decision | Section 3, one comparison for the whole system |
-| Execution | Copy treatments, line breaks, wording of non-mandatory text, small item art, icons, edge and surface details, decorative placement | Specified directly in the Phase 6 prompt: no log item, no comparison, no purpose line |
+| System | Phase 4: palette and value key, type roles, treatment grade and device per content role, shape and container language, supporter policy, ground, derived from the Direction choices as one decision | Section 3, one comparison for the whole system |
+| Execution | The details of a copy treatment (line breaks, emphasis, small devices), wording of non-mandatory text, small item art, icons, edge and surface details, decorative placement by host and count | Specified directly in the Phase 6 prompt: no log item, no comparison, no purpose line |
 | Escalation | Any System or Execution choice with a named risk: it conflicts with a quality requirement or fixed asset, exact text is at renderability risk, it contradicts an earlier decision, or the user doubted it | Section 3, for that choice only |
 
 Phase 2's differentiation, weakest link, and departure take a compact comparison when the brief leaves them open and are decided directly otherwise. Phases 1 and 6 hold no exploration.
 
 - **Openness.** For each Direction decision the brief is read as **Open** (only function and subject given), **Steered** (some attributes fixed: hero subject, palette, mood, a named style, a stated placement), or **Fixed** (the user, a supplied asset, or evidence decides). Fixed: record as fixed (`prompt_and_reply_audit.md` section 11), no cards. Steered: the protocol runs on the open remainder only, with at least two candidates. Open: the protocol with at least three. A rich brief shortens the work and a blank one deepens it. Content volume, crowded surroundings, and several deliverables never raise openness; they raise the load and fit work.
-- **Inheritance.** A decision an earlier decision fixes (a corner geometry, a type role, a palette role, the treatment vocabulary) is applied, not compared. Decisions that read each other and apply to the same group are one decision with one decisive criterion.
+- **Inheritance.** A decision an earlier decision fixes (a corner geometry, a type role, a palette role, the treatment vocabulary, the hero's footprint and form, a mark's form class) is applied, not compared; a Direction decision made later explores only what the earlier ones left open. Decisions that read each other and apply to the same group are one decision with one decisive criterion.
 - **Stop rule.** A decision is closed when its decisive criterion is stated and no recorded check fails it. It reopens only by naming a failed check (`workflow_and_state.md` section 4). Loops cap at two cycles.
 
 ## 2. Direction protocol

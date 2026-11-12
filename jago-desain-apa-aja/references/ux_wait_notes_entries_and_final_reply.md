@@ -122,4 +122,4 @@ For users new to design; users with design vocabulary get the terms directly. Tr
 
 ## Next
 
-Read `exploration_protocol.md`, `global_standards.md`, then `02_research_and_analysis.md` (Phase 2). Reopen this file at each gate that shows an entry and at Phase 6.
+Continue with batch 2 (`SKILL.md`, Loading). Reopen this file at each gate that shows an entry and at Phase 6.
