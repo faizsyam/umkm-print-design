@@ -26,7 +26,7 @@ Six phases in order; none skipped, merged, or deferred. Each phase: read its bat
 |---|---|---|
 | 1 | **Brief** | adaptive intake; ledger, deliverable set, quality translations, openness map; confirmed summary and mode (guided/auto) → S |
 | 2 | **Analysis** | real communication problem, information groups, load table, Environment Profile with floors, differentiation, implications |
-| 3 | **Design Plan** | binding space budget (the hero is the residual), core idea, style, hero (footprint and hosting screened), principles with density caps, direction check |
+| 3 | **Design Plan** | binding space budget in axis extent (the hero is the residual), core idea, style, hero (footprint and hosting screened), principles with density caps, direction check |
 | 4 | **Design Elements** | one system decision (color, type, shape and container language, supporters, ground); copy treatments by grade and device; a mark or figure on what the hero left open |
 | 5 | **Design Execution** | per deliverable: stages (glance parts split), groups, composition as a region table in shares of the format, space plan measured once, placement, one assembled review |
 | 6 | **Prompt Synthesis** | one audited standalone prompt per deliverable; the final reply |
@@ -41,7 +41,9 @@ Guided mode stops for the go-ahead after Phases 3 and 4; Phase 5's entry is show
 - A decision closes when its decisive criterion is stated and no recorded check fails it; it reopens only by naming a failed check. What an earlier decision fixes is inherited, not decided again.
 
 ## Solve once (reason: trial layouts were the largest source of wasted effort and weaker designs)
-- **Budget:** one table of single numbers summing to 100: information groups from the load table first, then structure and decoration, quiet, margins, headroom; the hero is the residual; a hero footprint above its row is dropped at the screen.
+- **Budget:** one table of single numbers summing to 100, in axis extent (planned lines × pitch, never area), the same unit from the Phase 2 load table to the Phase 5 ledger: information groups first, then structure and decoration, quiet, margins, headroom; the hero is the residual, and a hero footprint above its row is dropped at the screen.
+- **Arrangements:** a column arrangement or a container tier is pre-applied only after its width floor passes, recorded in Phase 3, and inherited by Phases 4 and 5.
+- **Yields:** each ladder rung's saving is arithmetic on ledger rows (`references/2_glossary.md`), summed and applied as one batch; a ledger shortfall above ≈ 10% of the axis returns to the Phase 3 budget once.
 - **Floors:** the glance floor applies to an item's glance part only; core content (offers, prices, choices) never takes the deliberate-reading floor.
 - **Hosts:** text in a circular or arched host is solved by geometry in one pass; the host follows the text.
 - **Units:** after Phase 2 every size and region is a share of the format; the region table carries a mass class and side per region, so balance is read, not measured.
@@ -53,6 +55,8 @@ Guided mode stops for the go-ahead after Phases 3 and 4; Phase 5's entry is show
 - Applying the largest size to every word of a name; set only its distinctive word at glance size.
 - Fixing line counts, name stacks, or container arrangements in Phase 4, then reopening them in Phase 5.
 - Re-opening a mark's construction after the hero fixed its form.
+- Pre-applying columns or per-unit containers without the width-floor test, then undoing them in Phase 5.
+- Trying layouts to close the ledger instead of summing rung yields.
 - Piling decorative systems on a dense piece; the caps decide, character comes from depth in the hero and lettering.
 - Accepting a legibility objection in the review instead of fixing it on the ladder.
 - Writing millimeters, coordinates, or many percentages into a prompt.
@@ -64,7 +68,7 @@ One hand-off check per phase (`references/10_gates_and_revisions.md`): decisions
 A question, not a phase: only for a question that names a Direction decision it could change and that the brief and knowledge cannot answer; at most three targeted queries and one page read per question; no trend surveys.
 
 ## Loading (all in `references/`, one level deep)
-Open only the current batch, all its files in one call, when its step is reached. Never preload a later batch, reopen a file already in context, or skip a file. Each file's header says what it needs and produces; if an input is missing, return to the step that produces it. If a term is no longer visible, reopen `2_glossary.md`.
+Open only the current batch, when its step is reached, all its files in one `cat` command (one call per batch). Never preload a later batch, reopen a file already in context, or skip a file. Each file's header says what it needs and produces; if an input is missing, return to the step that produces it. If a term is no longer visible, reopen `2_glossary.md`.
 1. **Start:** `1_intake_and_brief.md`, `2_glossary.md`.
 2. **After summary and mode are confirmed:** `12_user_messages.md`, `3_standards_and_protocol.md`, `4_analysis.md`.
 3. **Phase 3:** `5_plan.md`.

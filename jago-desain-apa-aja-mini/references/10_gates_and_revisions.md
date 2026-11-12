@@ -17,7 +17,7 @@ Run these, then the phase file's own gate.
 | 2 | the Phase 2 step that produced the failed artifact (research, profile, differentiation/inventory, problem, implications) | check; finding or implication |
 | 3 | the failed decision's card (criteria, survey, idea, style, hero, principles); a failed direction check goes to the earliest decision it implicates (idea, style, hero, principles) | check; decisions implicated; tension or obligation |
 | 4 | the Phase 4 file owning the failed part, or Phase 3 principles if the plan caused it | check; the part, its purpose line, the commitment it realizes |
-| 5 | the earliest responsible step: stages and map, needs/composition/space plan (`8`), placement, load, balance, capacity, review (`9`); Phase 4 if the system is the cause | check; deliverable; decisions; frozen sizes are discarded when the return precedes the capacity check |
+| 5 | the earliest responsible step: stages and map, needs/composition/space plan (`8`), placement, load, balance, capacity, review (`9`); Phase 4 if the system is the cause | check; deliverable; decisions; frozen sizes are discarded when the return precedes the capacity check; a ledger shortfall above ≈ 10% of the axis returns to the Phase 3 budget |
 | 6 | the earliest cause: a clause, the prompt set or structure, or the owning earlier phase when a needed decision does not exist | failed audit item; the sentence; the Specification field |
 
 ## 2. Assembled review (once, at the Phase 5 gate)
