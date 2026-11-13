@@ -43,11 +43,12 @@ Guided mode stops for the go-ahead after Phases 3 and 4; Phase 5's entry is show
 ## Solve once (reason: trial layouts were the largest source of wasted effort and weaker designs)
 - **Budget:** one table of single numbers summing to 100, in axis extent (planned lines × pitch, never area), the same unit from the Phase 2 load table to the Phase 5 ledger: information groups first, then structure and decoration, quiet, margins, headroom; the hero is the residual, and a hero footprint above its row is dropped at the screen.
 - **Arrangements:** a column arrangement or a container tier is pre-applied only after its width floor passes, recorded in Phase 3, and inherited by Phases 4 and 5.
-- **Yields:** each ladder rung's saving is arithmetic on ledger rows (`references/2_glossary.md`), summed and applied as one batch; a ledger shortfall above ≈ 10% of the axis returns to the Phase 3 budget once.
+- **Ladder:** Phase 3 walks the fit ladder as a rung ledger in rung order (`references/4_analysis.md` H): each rung's yield is arithmetic on rows, never a re-estimate; after rung 8 the overrun is recorded and the table is final. Phase 5 inherits it; a shortfall above ≈ 10% of the axis returns to the Phase 3 budget once.
+- **Claims:** a ladder move that changes a quality carrier updates the carrier map; no review or prompt states a relation the region table contradicts.
 - **Floors:** the glance floor applies to an item's glance part only; core content (offers, prices, choices) never takes the deliberate-reading floor.
 - **Hosts:** text in a circular or arched host is solved by geometry in one pass; the host follows the text.
 - **Units:** after Phase 2 every size and region is a share of the format; the region table carries a mass class and side per region, so balance is read, not measured.
-- **Fit failure:** the fit ladder as one batch; after two cycles take the next strategy and record the risk; never redraw or re-derive.
+- **Fit failure in Phase 5:** after two cycles take the next strategy and record the risk; never redraw or re-derive.
 - **Caps:** supporter and ornament families, container designs, rendering treatments stay within the density caps (`5_plan.md`).
 
 ## Gotchas (what goes wrong without this skill's rules)
@@ -56,7 +57,9 @@ Guided mode stops for the go-ahead after Phases 3 and 4; Phase 5's entry is show
 - Fixing line counts, name stacks, or container arrangements in Phase 4, then reopening them in Phase 5.
 - Re-opening a mark's construction after the hero fixed its form.
 - Pre-applying columns or per-unit containers without the width-floor test, then undoing them in Phase 5.
-- Trying layouts to close the ledger instead of summing rung yields.
+- Closing the budget by re-estimating pitch or gaps, or skipping a rung, instead of summing rung yields.
+- Splitting a user's line into label and value and losing its punctuation or parenthetical.
+- Sending a modifier away from the text it modifies to find room; counting decoration by theme instead of kind.
 - Piling decorative systems on a dense piece; the caps decide, character comes from depth in the hero and lettering.
 - Accepting a legibility objection in the review instead of fixing it on the ladder.
 - Writing millimeters, coordinates, or many percentages into a prompt.

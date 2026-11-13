@@ -50,13 +50,13 @@ Order by consequence: (1) piece and format; (2) overall look (value key and domi
 
 ## G. Prompt audit (the Phase 6 gate; runs on every prompt, then the set)
 - **Plan fidelity:** every Execution Specification decision present; nothing new; every shown or amended decision visible and none contradicted.
-- **Mandatory content:** every string present, verbatim, once, with role and position; suspected typos preserved and flagged.
+- **Mandatory content:** every string present, verbatim once, with role and position, checked against the Brief Ledger's whole line (label, separator, parenthetical, value), not against split fields; suspected typos preserved and flagged.
 - **Fixed assets:** reproduced as provided. **Exclusions** respected; only minimal specific ones added; no invented facts; no competitor copying.
 - **Identifier:** not merely a styled name unless supplied or requested; new mark described by form class, geometry, silhouette, color, boundary, device, wordmark relation, separation; unit as one object; exact letters stated and whole.
 - **Order and roles:** ranks stated and the route agrees with every position clause; type roles distinguished; overlaps name front element and visible covered part.
 - **Containers and balance:** each container states form, corner/edge geometry, material impression, layering, fill (or open grouping); any counterweight a concrete form and region; none relies on a default.
 - **Space:** open regions named by what they separate or frame with rough share and plain-word density, before element detail and consistent with every clause; margin, separation, isolation, internal spacing, resting fields as positive features; each group and container carries its share of the governing dimension, text roles their ratios to one another; quiet described as plain and atmosphere apart; every repeated form's quantity stated; equivalent units identical; each zone's own breathing room stated; for the densest container, text sizes, line counts, padding, width, height consistent; the ratio from S unchanged.
-- **Qualities:** each shows in the opening lines through named features; value key stated; nothing contradicts a quality.
+- **Qualities:** each shows in the opening lines through named features; value key stated; nothing contradicts a quality; no relation (largest, first, central) the region table contradicts.
 - **Copy and supporters:** described by traits and forms, matching the shown decisions, none outweighing required text; no symbol repeats adjacent words.
 - **Visual-effect and misread tests on every sentence:** would removing it change what is drawn (if not, delete)? What is its likeliest wrong rendering (if that breaks the design, rewrite until the likeliest reading is the intended)?
 - **Standalone:** complete alone; prompt count matches the set.
