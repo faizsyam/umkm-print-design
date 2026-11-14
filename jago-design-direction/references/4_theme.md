@@ -5,12 +5,12 @@
 ## 1. What the theme is
 The brand is who the business is, visually, and it lasts. The theme is the **one visual concept** through which that brand does the job of *this* design: it translates the identity for this purpose, this audience in this moment, and this context, and every later decision (composition, how information is presented, lettering, imagery, shapes, supporting graphics, surface) is judged by whether it serves it.
 A theme is not a palette, a shape set, a container style, or decoration; those are what a theme *produces*. A theme has **a world or a logic** from which its parts follow: a situation the picture takes place in, a way the design organizes seeing, a relationship among its parts. It is judged by how the finished design looks, never by how clever its premise is.
-**Frame** (one sentence, which everything below answers): "make [business] unmistakably itself and effective at [purpose] for [audience], in [context], so that they [response]", with the lead side of each tension and the intensity at which the user's qualities must show.
+**Frame** (one sentence, which everything below answers): "make [business] unmistakably itself and effective at [purpose] for [audience], in [context], so that they [response], reading as the perception contract requires", with the lead side of each tension and the intensity at which the user's qualities must show.
 Images that serve one purpose and audience share one theme, each adapting composition and tiers to its own encounter; images with different purposes get their own theme and share the brand.
 
 ## 2. Two roots
 - **Brand root:** which parts of the brand language carry into this design, and at what intensity: the mark's standing, the language, the signatures. The brand's constants hold; the theme moves only within the **flex**.
-- **Purpose root:** the strategic core and the theme mandates: perception shift, message, response, weakest link, atmosphere, encounter, groups and tiers. The theme must do work: help carry the message and answer the weakest link, for instance through how it organizes what the viewer meets first, second, and last before acting.
+- **Purpose root:** the strategic core and the theme mandates: perception shift, message, perception contract, response, weakest link, atmosphere, encounter, groups and tiers. The theme must do work: help carry the message and answer the weakest link, for instance through how it organizes what the viewer meets first, second, and last before acting.
 - **Dual-root test** (a candidate passes only if both answers are no): could it serve any other design of this same brand equally well (then it is a style, not a theme)? Could another business with the same purpose use it unchanged once the mark is swapped (then it is a template)?
 - Under a fixed spine (a stated look, hero, or palette) the theme is derived inside it; the spine candidate is the theme at full craft.
 
@@ -30,7 +30,7 @@ Method: `choose.md` §3.
   - **Against the prior read:** raises, fixes, keeps. **Risk and move.**
 
 ## 5. The picture review
-One instrument, run on each narrated picture here, on the assembled direction in `5_system.md` §3, and on the brief in `6_compose.md` §4. Each question answers yes or names a move.
+One instrument, run on each narrated picture here, on the assembled direction in `5_elements.md` §4, and on the brief in `6_compose.md` §4. Each question answers yes or names a move.
 1. **First read:** exactly one dominant element, with a decisive contrast (scale, value, chroma, or form), still dominant when squinted at from the farthest distance?
 2. **Weight ladder:** do group sizes and visual weights (ground, contrast, richness, space) step by tier and rank with clear differences, near-equals only where rank is equal?
 3. **Interlock:** do the hero and the main lettering belong to one composition (overlap, shared contour, gesture or gaze leading into content) rather than sitting as stacked blocks?
@@ -41,9 +41,10 @@ One instrument, run on each narrated picture here, on the assembled direction in
 8. **Dependability:** does any element need what the maker cannot deliver reliably, and does any exclusion name something the maker would not add unprompted?
 9. **Theme:** is one concept recognizable at the first read and carried in at least three layers, information presentation included, with no layer left to a default shape or container?
 10. **Brand:** does the mark stand apart as a distinct object with its own clear field, and does the design still read as this brand with the mark covered?
+11. **Positioning:** do finish, material richness, ornament, polish, and imagery signal the perception contract's position on every binding dimension, and nothing it rules out?
 
 ## 6. Choose, cards, record
-Judge and choose by `choose.md` §4. The gates are First read, Dependability, quality intensity, and the dual-root test; the added ranking criterion is **Purposeful** (does the concept carry the message and answer the weakest link?). Card:
+Judge and choose by `choose.md` §4. The gates are First read, Dependability, quality intensity, Positioning, and the dual-root test; the added ranking criterion is **Purposeful** (does the concept carry the message and answer the weakest link?). Card:
 ```
 **Step 4 of 5: creative theme** (3 of 4 when no brand cards were shown)
 Your identity: [one line: the brand design carrying into this piece]
@@ -61,4 +62,4 @@ OK, or tell me what to change?
 The brand record is the subject: its mark narration is the picture, and the brand cards are the direction cards. Phase 4 runs silently and decides only the presentation: what surrounds the mark and how an identity is shown (the mark alone on a field, or in application). The mark and its language are never altered by it, and no theme cards appear.
 
 ## Gate (adds to `choose.md`)
-The theme answers the frame and passes the dual-root test · it is carried by at least three layers, information presentation included · it honors every brand constant and uses only the flex · every theme mandate is answered by a named carrier and device · it does work for the message or the weakest link · the narrated picture passed the picture review.
+The theme answers the frame and passes the dual-root test · it is carried by at least three layers, information presentation included · it honors every brand constant and uses only the flex · it signals the perception contract · every theme mandate is answered by a named carrier and device · it does work for the message or the weakest link · the narrated picture passed the picture review.

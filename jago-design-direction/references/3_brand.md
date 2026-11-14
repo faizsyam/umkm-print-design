@@ -15,7 +15,7 @@ The mark is the anchor; the rest of the identity is its language, extended. Deci
 The mark is decided whenever the design will carry the business's identifier. If only a plain-text name is supplied or requested, the lettering voice is the identifier and the language is still decided.
 
 ## 2. The identity brief
-Before any candidate, turn the interpretation into what the identity must answer, as a short list: the **stance** it makes visible; the **distinctive truth** it rests on; what the **audience's eye** trusts and desires, and the codes to meet or depart; the **default territory** to be plainly distinct from; the **use conditions** it must survive (smallest size, one color, light and dark grounds, the media it will live in). Add a **trait-to-form map**: each trait of the stance and the distinctive truth, paired with the form consequence the mark and language will carry (shape, proportion, line behavior, color behavior); a trait with no form consequence is dropped from the brief for the identity. Every brand decision names the item it serves, and every brand mandate is answered by id.
+Before any candidate, turn the interpretation into what the identity must answer, as a short list: the **stance** it makes visible; the **distinctive truth** it rests on; what the **audience's eye** trusts and desires, and the codes to meet or depart; the **perception contract** (what the identity must read as, and never read as, on each binding dimension); the **default territory** to be plainly distinct from; the **use conditions** it must survive (smallest size, one color, light and dark grounds, the media it will live in). Add a **trait-to-form map**: each trait of the stance and the distinctive truth, paired with the form consequence the mark and language will carry (shape, proportion, line behavior, color behavior); each "never read as" of the contract is paired with the cues the identity avoids; a trait with no form consequence is dropped from the brief for the identity. Every brand decision names the item it serves, and every brand mandate is answered by id.
 
 ## 3. Reading a supplied identity
 A logo or identity set supplied at exact or faithful fidelity makes the brand **Fixed by the asset**: no candidates. Reading it is the creative work of this phase. Look at it; never assume it; never redesign it. Record:
@@ -27,8 +27,8 @@ A logo or identity set supplied at exact or faithful fidelity makes the brand **
 At conceptual or free fidelity the asset is read the same way and the mark becomes Steered: candidates explore within that fidelity. A supplied asset that cannot be seen is asked for once.
 
 ## 4. Candidates (Open and Steered)
-- **Seeds for the mark** come from the identity-level raw material: the name and its own letters, origin, how the business works or behaves, its craft or process, the audience's own objects, the founder's truth. A seed's yield is a form, a construction, or a relation (figure and ground, a gesture, an interplay), never a metaphor alone and never a stock device of the category.
-- **Structural axes:** the mark's core idea and its source; the mark's kind and its relation to the name; the form logic and lineage (how it builds form, handles edges, uses space); the color behavior.
+- **Seeds for the mark** come from the identity-level raw material: the proposition itself, the name and its own letters, origin, how the business works or behaves, its craft or process, the audience's own objects, the founder's truth. A seed's yield is a form, a construction, or a relation (figure and ground, a gesture, an interplay), never a metaphor alone and never a stock device of the category.
+- **Structural axes:** the mark's core idea and its source; the mark's kind and its relation to the name; the form logic and lineage (how it builds form, handles edges, uses space); the color behavior; the register its finish signals.
 - **Develop each:**
   - **The mark, narrated:** three to five plain sentences, as seen alone on a plain field: what it is, its silhouette, its construction (geometry, proportion, weight, terminals, negative space), the one feature that makes it ownable, and how it sits with the name. Specific enough that two skilled designers would draw recognizably related marks.
   - **Idea:** one sentence, with the true thing and the recognition it relies on.
@@ -45,7 +45,8 @@ Run on each candidate, and again on the chosen record. Each question answers yes
 6. **Appeal and respect:** would the audience find it beautiful and trustworthy, and does it carry no unintended meaning, resemblance, or cultural reading?
 7. **Dependability:** can the maker draw it consistently: few parts, no reliance on fine detail, exact geometry, or small lettering inside the mark?
 8. **Not generic:** does it avoid the category's stock device, and is it more than a styled name?
-**Gates:** Distinct, Standalone, Embodies, Dependability.
+9. **Positioning:** do its finish, material richness, ornament, and polish signal the perception contract's position on every binding dimension, and nothing the contract rules out?
+**Gates:** Distinct, Standalone, Embodies, Dependability, Positioning.
 
 ## 6. Choose, cards, record
 Judge and choose by `choose.md` §4, with the added ranking criterion **Durable** (would it still serve this business across designs, years, and sizes?). Card:
@@ -62,4 +63,4 @@ OK, or tell me what to change?
 **The brand record:** the identity brief answered (one line) · the mark (narrated, or read from the asset): construction, lockup, behavior alone · the language: lettering voice, color identity, shape logic, imagery stance, signatures with scope · constants and flex · a because-clause per decision · the **handoff** to Theme: constants it must keep, flex it may use, what the identity needs the theme to achieve.
 
 ## Gate (adds to `choose.md`)
-The identity brief was derived from the interpretation and every decision names its item · a supplied asset was read, not redesigned · the chosen mark passes the four gates and the swap test · the mark stands alone and the language is generated from it · the handoff separates constants from flex.
+The identity brief was derived from the interpretation and every decision names its item · a supplied asset was read, not redesigned · the chosen mark passes its gates and the swap test · the mark stands alone and the language is generated from it · the handoff separates constants from flex.

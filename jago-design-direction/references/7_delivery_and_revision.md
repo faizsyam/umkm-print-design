@@ -15,7 +15,7 @@
 
 ## 3. Revision mode
 Triggered by a result, a screenshot, or feedback after delivery. Read S and the records first (alternatives only where needed).
-1. **Evaluate** a shared image against the brief and the direction: text accuracy (every string exact, nothing added), one first read and clear groups, richness and depth at the user's intensity, hero and lettering interlocked rather than stacked, a clean surface with no unintended material, texture, or object look, the mark whole, distinct, and unfused, the theme visible in at least three layers, the brand recognizable with the mark covered, elements treated by role and not alike, the ownable traits present, ownable with the name removed, beats the prior read, coherence, unwanted additions (and whether a guard primed one), asset fidelity. Name what works (to keep) before what does not. Without an image, work from the user's description and ask for the image only if it would change the route.
+1. **Evaluate** a shared image against the brief and the direction: text accuracy (every string exact, nothing added), one first read and clear groups, richness and depth at the user's intensity, hero and lettering interlocked rather than stacked, a clean surface with no unintended material, texture, or object look, the register signaling the offer's tier and category, the mark whole, distinct, and unfused, the theme visible in at least three layers, the brand recognizable with the mark covered, elements treated by role and not alike, the ownable traits present, ownable with the name removed, beats the prior read, coherence, unwanted additions (and whether a guard primed one), asset fidelity. Name what works (to keep) before what does not. Without an image, work from the user's description and ask for the image only if it would change the route.
 2. **Route each problem to its cause:**
 | Problem | Route |
 |---|---|
@@ -24,6 +24,7 @@ Triggered by a result, a screenshot, or feedback after delivery. Read S and the 
 | Plain, flat, sparse, or generic result where the picture was rich | raise: restate the rendering depth, finish level, and lost richness traits, and remove any wording that narrowed the look; if it persists, re-enter Phase 4 |
 | Hero and type stacked, no interlock; weak first read | restate the composition relations (what overlaps, what the hero leads into, what dominates) and the scale ladder; keep the rest |
 | Groups merged, a selling point buried, or words where a visual would communicate | restate the affected groups' roles and forms; if the grouping itself is wrong, re-enter Phase 2 and redo the layers below |
+| The look signals the wrong tier or category for the offer | restate the register through its visible carriers and remove the cues that signal against the proposition; if the identity itself signals wrong, re-enter Phase 3 |
 | Drifting look; ownable traits missing | sharpen the art direction (lineage and axes) and restate the traits that were lost; if the idea itself fails, re-enter Phase 4 |
 | Mark redrawn, altered, fused with or overlapped by other elements | restate the mark's narration or fidelity and its clear field, as a distinct object standing apart; if it persists, a separate logo brief, then attach it as an asset |
 | Theme reads as a skin: plain shapes, default containers, decoration with no concept | restate the carriers, above all how each group is presented; remove wording that narrowed the look; if it persists, re-enter Phase 4 |
@@ -53,7 +54,7 @@ brief → the request the image is made from · brand identity → the logo and 
 | An interpretation that restates the brief or the category in nicer words | deepen it with the user's specifics or drop it (`2_interpret.md` §3) |
 | Brand cards that differ only in adjectives or color, a mark that is a styled name or a stock device | rebuild on a structural axis (`3_brand.md` §4) |
 | A theme that lives only in color, shapes, or containers | rebuild with carriers (`4_theme.md` §3) |
-| Elements all styled alike, or each styled alone; a decision with no parent | derive each from job, rank, and theme (`5_system.md` §2) |
+| Elements all styled alike, or each styled alone; a decision with no parent | derive each from job, rank, and theme (`5_elements.md` §3) |
 | A brief in which restricting sentences outnumber enriching ones | rewrite toward the picture (`6_compose.md` §4) |
 | The brief carries layout numbers, coordinates, or a technical-specification style | rewrite as intent and relations |
 | Brief not in English, hedged wording, or a closing list of open decisions | rewrite in English, firm decisions, open items omitted |
