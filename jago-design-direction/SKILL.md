@@ -1,7 +1,7 @@
 ---
 name: jago-design-direction
 description: >-
-  Turns a design need of any kind into expert creative direction and one ready-to-use English design brief per image, through a short adaptive conversation fitted to the user's language, design literacy, and brief completeness. Interprets the brief like a brand strategist (business, positioning, audience, perception, purpose, response, mood), designs the brand anchored by a distinct logo, develops a purpose-driven theme from brand and purpose, then derives every element from them at the finish level of the audience's visual world, calibrated against what an image generator would do unaided. Shows brand and theme options as cards. Also refines an existing result. Use for static visuals in any medium (posters, banners, menus, packaging, social graphics, covers, invitations, slides, infographics, logos, brand identity); for requests like "prompt gambar", "bikin desain", "design brief", "buatkan poster/banner/logo"; or to improve a result. Not for code, 3D models, motion, animation, or interactive deliverables.
+  Turns a design need of any kind into expert creative direction and one ready-to-use English design brief per image, through a short adaptive conversation fitted to the user's language, design literacy, and brief completeness. Interprets the brief like a brand strategist (business, positioning, audience, perception, purpose, response, mood), designs the brand anchored by a distinct logo, develops a purpose-driven theme from brand and purpose, then derives every element from them at the finish level of the audience's visual world, calibrated against an unaided first attempt. Shows brand and theme options as cards. Also refines an existing result. Use for static visuals in any medium (posters, banners, menus, packaging, social graphics, covers, invitations, slides, infographics, logos, brand identity); for requests like "bikin desain", "design brief", "buatkan poster/banner/logo"; or to improve a result. Not for code, 3D models, motion, animation, or interactive deliverables.
 ---
 
 # Jago Design Direction
@@ -9,21 +9,22 @@ description: >-
 Interprets a business and its design need, designs its identity and a theme for this design, and writes the result as one standalone design brief per image, in English. The **maker** is whoever produces the image from the brief alone. The conversation stays in the user's language. This file is the runbook and the hard rules; `references/` holds the methods, loaded one batch at a time. A rule lives in one place only.
 
 ## What this skill is for
-The maker already carries a strong aesthetic prior, and the user's own words call it up. A brief earns its existence only if the finished image is **better than what the maker would make from the user's words alone**: more specific, richer, better composed, truer to the business, and never worse. The skill adds four things a raw request cannot:
+The maker already carries a strong aesthetic prior, and the user's own words call it up. A brief earns its existence only if the finished image is **better than what the maker would make from the user's words alone**: more specific, richer, better composed, truer to the business, and never worse. The skill adds five things a raw request cannot:
 - **Foundation:** the business and its audience interpreted deeply, an identity designed from that reading and anchored by a distinct mark, and a theme conceived for this purpose, so every decision has a parent instead of a default.
 - **Vision:** the finished picture conceived whole, so composition, depth, rendering, and lettering are designed instead of left to chance.
 - **Craft:** the finish level of the best work in the audience's visual world, stated as visible traits.
-- **Tool sense:** a brief that leans on what the maker does dependably and fences what it does not (long exact text, counts, precise geometry).
+- **Visual communication:** information grouped by what it does for the viewer and shown in the form that communicates it best (words, pictogram, or depiction), so the design is neither a wall of text nor decorated.
+- **Dependability:** a brief that leans on what the maker does dependably and fences what it does not (long exact text, counts, precise geometry).
 Rules lower the floor; only specificity raises the ceiling. A brief that mostly restricts is a failure even when every rule is obeyed.
 
 ## Hard rules
-- No invented facts, and no implied claim, endorsement, or authority the business lacks. A conclusion about the business, audience, or perception carries its basis and never enters the brief as a fact. User text is verbatim, punctuation included; suspected typos are flagged, never fixed.
+- No invented facts, and no implied claim, endorsement, or authority the business lacks. A conclusion about the business, audience, or perception carries its basis and never enters the brief as a fact. User text is verbatim, punctuation included; suspected typos are flagged, never fixed. A line may be divided into units for placement and a data label shown as a pictogram, each flagged in the notes (`6_compose.md` §3); no word is ever changed.
 - **Language:** the brief is in English. Verbatim text is never translated or altered. Everything else the user reads is in their language.
 - **Spine:** the user's stated look, hero, palette, mood, qualities, and any supplied identity are the spine. The brand design, the theme, and every later decision deepen them with craft and specificity, at the user's intensity or above; none replaces, dilutes, or competes with them unless the user left that decision Open.
 - A supplied logo, character, or photo is never redesigned; each asset has a role and a fidelity level. **A mark, supplied or new, stands as a distinct object with its own clear field, never fused with, overlapped by, or restyled by the surrounding graphics.** A new mark has its own idea (never only a styled name, unless a plain-text wordmark is supplied or requested). Never a real person's likeness. Never a copy of a competitor or an existing design.
 - No placeholders for content the skill should create. No stated quality contradicted by a decision, weakened below the user's words, or carried only by an accent.
 - No suggestion enters the brief without the user's yes; a skill proposal is never worded as the user's requirement.
-- The brief carries no coordinates, layout percentages, millimeters, pixels, font names or sizes, tool settings, or prompt-syntax tricks. Spatial intent in plain words (zones, overlap, scale relations, what stays open) is required wherever it shapes the picture.
+- The brief carries no coordinates, layout percentages, millimeters, pixels, font names or sizes, production settings, or wording tricks. Spatial intent in plain words (zones, overlap, scale relations, what stays open) is required wherever it shapes the picture.
 - The user sees only the defined messages; no jargon they have not shown.
 - **Conflict priority** (a lower item yields only to a higher one, keeping its closest surviving expression): (1) factual integrity, mandatory content, exclusions, assets; (2) perception and comprehension under real conditions, by restructuring, never by deleting mandatory content; (3) the user's stated requirements and qualities; (4) the objective and strategy; (5) the established brand design, then the theme; (6) creative ambition.
 - **Value order for creative decisions** (inside what the conflict priority leaves open): appeal and craft, then clarity, then fit to business and audience, then ownability, then novelty. Departing from what the audience's world rewards needs a named gain in appeal or clarity, never difference alone.
@@ -77,11 +78,12 @@ Open only the current batch, when its step is reached, all its files in one `cat
 - An interpretation that restates the brief or the category in nicer words, or whose conclusions the evidence would support equally in reverse: it feeds every layer below with nothing.
 - Brand options that differ only in style words or color; a mark that is a styled name, a stock device of the category, or a symbol set beside generic type; a supplied logo altered, or any mark fused with or overlapped by other elements.
 - A theme that lives only in color, shapes, or containers, or that any business with the same purpose could use unchanged; elements styled alike, or each styled alone; a decision with no parent.
+- Groups of different roles merged into one container or zone for being small; a stated differentiator demoted to small print; labels spelled out where a pictogram would be recognized faster; named items left as text rows where a depiction would communicate; a decorative marker repeated where information belongs.
 - A plainer look (flat, unlit, shallow, minimal) chosen only because it is safer to render, while the user's words and the audience's world ask for richness.
 - A quality carried by one accent or one channel while the dominant masses stay neutral.
 - A direction described but never seen: if the finished image cannot be narrated whole, top to bottom, it is not finished.
 - Hero and type in separate stacked blocks with no interlock, so the piece reads as parts instead of one composition.
-- The idea as an overlaid device that needs what the tool cannot deliver (exact paths, counts, alignment), or as a material or object-as-surface that renders as literal texture.
+- The idea as an overlaid device that needs what the maker cannot deliver (exact paths, counts, alignment), or as a material or object-as-surface that renders as literal texture.
 - Distinctiveness bought by removing the audience's own signifiers instead of executing them with specificity.
 - Naming a style by medium, format, or mood adjective and calling it art direction; adopting a lineage's simplifications without its richness logic.
 - Fixing what the maker would decide as well; letting the skill's taste pass as the user's requirement.
