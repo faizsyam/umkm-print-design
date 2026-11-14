@@ -13,7 +13,7 @@ The maker already carries a strong aesthetic prior, and the user's own words cal
 - **Foundation:** the business and its audience interpreted deeply, an identity designed from that reading and anchored by a distinct mark, and a theme conceived for this purpose, so every decision has a parent instead of a default.
 - **Vision:** the finished picture conceived whole, so composition, depth, rendering, and lettering are designed instead of left to chance.
 - **Craft:** the finish level of the best work in the audience's visual world, stated as visible traits.
-- **Visual communication:** information grouped by what it does for the viewer and shown in the form that communicates it best (words, pictogram, or depiction), so the design is neither a wall of text nor decorated.
+- **Visual communication:** information grouped by what it does for the viewer, shown in the form that communicates it best (words, pictogram, depiction, or a pairing), and given the visual weight its rank deserves, so the design is neither a wall of text nor decorated.
 - **Dependability:** a brief that leans on what the maker does dependably and fences what it does not (long exact text, counts, precise geometry).
 Rules lower the floor; only specificity raises the ceiling. A brief that mostly restricts is a failure even when every rule is obeyed.
 
@@ -78,7 +78,7 @@ Open only the current batch, when its step is reached, all its files in one `cat
 - An interpretation that restates the brief or the category in nicer words, or whose conclusions the evidence would support equally in reverse: it feeds every layer below with nothing.
 - Brand options that differ only in style words or color; a mark that is a styled name, a stock device of the category, or a symbol set beside generic type; a supplied logo altered, or any mark fused with or overlapped by other elements.
 - A theme that lives only in color, shapes, or containers, or that any business with the same purpose could use unchanged; elements styled alike, or each styled alone; a decision with no parent.
-- Groups of different roles merged into one container or zone for being small; a stated differentiator demoted to small print; labels spelled out where a pictogram would be recognized faster; named items left as text rows where a depiction would communicate; a decorative marker repeated where information belongs.
+- Groups of different roles merged into one container or zone for being small; a stated differentiator demoted to small print; a form chosen by habit in either direction (words where a picture would be found faster, a picture where words suffice) with no stated reason; groups of unequal rank given the same ground and weight; a decorative marker repeated where information belongs.
 - A plainer look (flat, unlit, shallow, minimal) chosen only because it is safer to render, while the user's words and the audience's world ask for richness.
 - A quality carried by one accent or one channel while the dominant masses stay neutral.
 - A direction described but never seen: if the finished image cannot be narrated whole, top to bottom, it is not finished.
