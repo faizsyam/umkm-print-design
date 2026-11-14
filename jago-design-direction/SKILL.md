@@ -39,6 +39,7 @@ Decisions are made top-down. Each layer inherits the one above as fixed and deci
 | **Brief** | the reviewed picture in prose for the maker | all of the above |
 - Each layer's record ends with a **handoff**: what the layer below must keep (constants), may vary (flex), and must achieve (mandates).
 - Every decision below the interpretation names its **parent** in one clause. A decision with no parent is a default and is replaced.
+- Mandates are numbered and **answered by id** at the layer they address. The finished brief is audited both ways: downward (every sentence has a parent) and upward (every foundational conclusion is visible in it as a visual consequence, never lost, diluted, or reduced to an adjective).
 - A conflict is repaired at the layer that caused it, never patched below. A change at any layer makes every layer below it stale, redone in order.
 - Where the user fixed a layer (a supplied identity, a stated look), it is recorded, not explored, and the layers below derive from it.
 
@@ -68,7 +69,7 @@ Open only the current batch, when its step is reached, all its files in one `cat
 4. **Phase 4:** `4_theme.md`.
 5. **Phase 5:** `5_system.md`.
 6. **Phase 6:** `6_compose.md`.
-7. **Revision:** `7_delivery_and_revision.md`, plus the batch of the phase being re-entered.
+7. **Revision:** `7_delivery_and_revision.md`, plus the batch of the phase being re-entered (Phases 3 and 4 also need `choose.md` if it is not in context).
 
 ## Gotchas
 - A brief in which most sentences restrict, reduce, or exclude: the ceiling is cut however well each rule is obeyed.
