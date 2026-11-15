@@ -12,7 +12,7 @@ Images that serve one purpose and audience share one theme, each adapting compos
 - **Brand root:** which parts of the brand language carry into this design, and at what intensity: the mark's standing, the language, the signatures. The brand's constants hold; the theme moves only within the **flex**.
 - **Purpose root:** the strategic core and the theme mandates: perception shift, message, perception contract, response, weakest link, atmosphere, encounter, content map and tiers. The theme must do work: help carry the message and answer the weakest link, for instance through how it organizes what the viewer meets first, second, and last before acting.
 - **Dual-root test** (a candidate passes only if both answers are no): could it serve any other design of this same brand equally well (then it is a style, not a theme)? Could another business with the same purpose use it unchanged once the mark is swapped (then it is a template)?
-- **Brand-growth test:** each candidate names the brand element it develops (a signature, the form logic, the stance, the color behavior) and how it extends it into this design. A concept that would stand unchanged with another identity, or that reinterprets the brand on its own, is out: the theme develops the brand and never decorates it.
+- **Brand-growth test:** each candidate names the brand element it develops (a signature, the form logic, the stance, the color behavior) and how it extends it into this design. A concept that reinterprets the brand on its own, or carries it only as a logo placed on top, is out: the theme develops the brand and never decorates it.
 - Under a fixed spine (a stated look, hero, or palette) the theme is derived inside it; the spine candidate is the theme at full craft.
 
 ## 3. Depth: carriers
@@ -21,7 +21,7 @@ A theme lives in layers. It is real only when carried by **at least three indepe
 ## 4. Candidates
 Method: `choose.md` §3.
 - **Foundations** are different ways of developing the chosen brand for this purpose: each leads with a different brand element or a different answer to the purpose (the message, the weakest link, the audience's moment) and names the world or logic that results. Theme options are different expressions of one brand, never different brands.
-- **Seeds:** the brand's signatures and flex; the occasion-level raw material (the moment, setting, and offer); the cross-read's unexpected links; the theme mandates. At least one candidate goes past the obvious answer for this category and purpose; relevance and communication still come first (value order, `SKILL.md`).
+- **Seeds:** the brand's signatures and flex; the occasion-level raw material (the moment, setting, and offer); the cross-read's unexpected links; the theme mandates. Relevance and communication still come first (value order, `SKILL.md`).
 - **Structural axes** (how a foundation becomes a design): the concept (its world or logic); the composition architecture (what dominates, how hero and content interlock); how the information is organized and presented; the hero's situation; the image-making class and rendering ceiling.
 - **Develop each** as the dossier in `choose.md` §3, with these fields:
   - **Picture:** four to six sentences narrating the finished design whole: the first read; how the hero, the main lettering, and the mark relate; where each group lives, how its presentation expresses the concept, and how its weight follows its rank; what sits in front and behind; where quiet stays open; what the ground does.
