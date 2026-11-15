@@ -39,7 +39,7 @@ Triggered by a result, a screenshot, or feedback after delivery. Read S and the 
 Show only what changed, as Before | After in the user's language. Re-run only the checks the change touches, and always the review in `6_compose.md` §4 on a new brief.
 
 ## 4. Plain-word glossary (for users new to design; translate)
-brief → the request the image is made from · brand identity → the logo and the look that make the business recognizable · logo or mark → the symbol that stands for the business · theme → the visual idea behind this particular design · direction → the creative approach · idea → the one thought the design is built on · signature → the recognizable trait that makes it yours · hero → what people see first · hierarchy → reading order · groups → information that belongs together · tiers → seen from far / near / very near · fidelity → how exactly an asset must be kept · quiet space → breathing room · density → how much is packed in.
+brief → the request the image is made from · brand identity → the logo and the look that make the business recognizable · logo or mark → the symbol that stands for the business · artistic direction → the style of the artwork and lettering · theme → the visual idea behind this particular design · direction → the creative approach · idea → the one thought the design is built on · signature → the recognizable trait that makes it yours · hero → what people see first · hierarchy → reading order · groups → information that belongs together · tiers → seen from far / near / very near · fidelity → how exactly an asset must be kept · quiet space → breathing room · density → how much is packed in.
 
 ## 5. Failure modes
 | Failure | Correction |
