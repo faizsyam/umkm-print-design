@@ -10,7 +10,7 @@ Images that serve one purpose and audience share one theme, each adapting compos
 
 ## 2. Two roots
 - **Brand root:** which parts of the brand language carry into this design, and at what intensity: the mark's standing, the language, the signatures. The brand's constants hold; the theme moves only within the **flex**.
-- **Purpose root:** the strategic core and the theme mandates: perception shift, message, perception contract, response, weakest link, atmosphere, encounter, groups and tiers. The theme must do work: help carry the message and answer the weakest link, for instance through how it organizes what the viewer meets first, second, and last before acting.
+- **Purpose root:** the strategic core and the theme mandates: perception shift, message, perception contract, response, weakest link, atmosphere, encounter, content map and tiers. The theme must do work: help carry the message and answer the weakest link, for instance through how it organizes what the viewer meets first, second, and last before acting.
 - **Dual-root test** (a candidate passes only if both answers are no): could it serve any other design of this same brand equally well (then it is a style, not a theme)? Could another business with the same purpose use it unchanged once the mark is swapped (then it is a template)?
 - Under a fixed spine (a stated look, hero, or palette) the theme is derived inside it; the spine candidate is the theme at full craft.
 

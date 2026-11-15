@@ -1,7 +1,7 @@
 ---
 name: jago-design-direction
 description: >-
-  Turns a design need of any kind into expert creative direction and one ready-to-use English design brief per image, through a short adaptive conversation fitted to the user's language, design literacy, and brief completeness. Interprets the brief like a brand strategist (business, positioning, audience, perception, purpose, response, mood), designs the brand anchored by a distinct logo, develops a purpose-driven theme from brand and purpose, then derives every element from them at the finish level of the audience's visual world, calibrated against an unaided first attempt. Shows brand and theme options as cards. Also refines an existing result. Use for static visuals in any medium (posters, banners, menus, packaging, social graphics, covers, invitations, slides, infographics, logos, brand identity); for requests like "bikin desain", "design brief", "buatkan poster/banner/logo"; or to improve a result. Not for code, 3D models, motion, animation, or interactive deliverables.
+  Turns a design need of any kind into expert creative direction and one ready-to-use English design brief per image, through a short adaptive conversation fitted to the user's language, design literacy, and brief completeness. Interprets the brief like a brand strategist (business, positioning, audience, perception, purpose, mood), designs the brand anchored by a distinct logo, develops a purpose-driven theme from brand and purpose, then derives every element from them at the craft level of the audience's visual world, within the register the offer requires, calibrated against an unaided first attempt. Shows brand and theme options as cards. Also refines an existing result. Use for static visuals in any medium (posters, banners, menus, packaging, social graphics, covers, invitations, slides, infographics, logos, brand identity); for requests like "bikin desain", "design brief", "buatkan poster/banner/logo"; or to improve a result. Not for code, 3D models, motion, animation, or interactive deliverables.
 ---
 
 # Jago Design Direction
@@ -61,7 +61,7 @@ Every decision has one owner and is stated once: the **user** (Fixed: facts, exa
 **Necessity test (two-sided):** a decision is made beforehand only if leaving it open would likely make the image blander, more generic, or less composed than the decision (**raise**), or would likely harm the objective, a stated quality, or the truth of the content (**guard**). A matter only the user can resolve is asked in Phase 1 (or as a Phase 2 fork) or settled by a flagged default; the brief never carries an unresolved item.
 
 ## Working record
-Keep one compact English file (`/home/claude/design_log.md`; without file tools, keep it in notes): the ledger (S), the interpretation (strategic core, mandates, appeal bar, prior read), the brand record, the theme record, the direction record, each choice's runner-up and decisive criterion, the ownership sort, the prescription setting, and outcomes of use. It is the only state between turns; create it when the user confirms the summary. The brand record is kept for reuse: later designs for the same business in the conversation inherit it as Fixed. Rebuild from the conversation if lost, marking items provisional.
+Keep one compact English file (`/home/claude/design_log.md`; without file tools, keep it in notes): the ledger (S), the interpretation (strategic core with its perception contract, content map, mandates, appeal bar, prior read), the brand record, the theme record, the direction record, each choice's runner-up and decisive criterion, the ownership sort, the prescription setting, and outcomes of use. It is the only state between turns; create it when the user confirms the summary. The brand record is kept for reuse: later designs for the same business in the conversation inherit it as Fixed. Rebuild from the conversation if lost, marking items provisional.
 
 ## Loading (all in `references/`, one level deep)
 Open only the current batch, when its step is reached, all its files in one `cat` command. Never preload a later batch or reopen a file already in context.
@@ -90,7 +90,7 @@ Open only the current batch, when its step is reached, all its files in one `cat
 - Naming a style by medium, format, or mood adjective and calling it art direction; adopting a lineage's simplifications without its richness logic.
 - Fixing what the maker would decide as well; letting the skill's taste pass as the user's requirement.
 - Hedged wording ("prefer", "may", "ideally") or a closing list of decisions handed back to the user.
-- Splitting or "cleaning" a user's line and losing its punctuation or clarifier.
+- Dividing or "cleaning" a user's line so that a word, its punctuation, or a clarifier is lost.
 - Converting a dense-content verdict into sizes instead of tiers, grouping, and a density note.
 
 ## Trace option (developer, off by default)

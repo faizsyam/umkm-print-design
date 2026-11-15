@@ -22,7 +22,7 @@
 ## 5. The appeal bar and the category field
 The output is judged by the audience's eye, not the brief's logic. Establish what this audience finds beautiful and trustworthy **now**, and what professional work in their visual world looks like at this price tier: rendering depth, finish, color energy, density, lettering sophistication, composition habits.
 - **Sources:** the user's references and tastes; your knowledge; with a search tool and an image-led piece, targeted looks (within the limit in `2_interpret.md` §1) at current strong work in that world and at peers' identities. Extract craft level and logic; a competitor is a measure, never a model. Without tools, reason and mark provisional.
-- **The bar:** the craft a viewer would call professional for an offer of this tier, as visible traits (how forms are modelled, light behaves, lettering is built, the whole is composed). Craft is not register: a higher bar means better making, never a dearer-looking offer; the register stays the perception contract's. A floor for every layer, never below what the user's words imply.
+- **The bar:** the craft a viewer would call professional for an offer of this tier, as visible traits (how forms are modelled, light behaves, lettering is built, the whole is composed). A higher bar means better making, never a dearer-looking offer: the register stays the perception contract's. A floor for every layer, never below what the user's words imply.
 - **The audience's codes:** signifiers saying "this is for me" (occasion, age, culture, category), each marked **meet** (carry its function through specific, well-made execution) or **depart** (only for a named gain in appeal or clarity). A signifier the audience relies on is not a cliché by default: meet it, made distinct through execution.
 - **The category field:** how peers and the category habitually look (marks, color behavior, lettering, imagery, composition): the **default territory** the identity and theme must read as different from, never imitate.
 
@@ -37,7 +37,7 @@ The maker has a strong prior. Write what it would most likely make from the user
 Every later decision names the list it serves; one on none is noise. The prior is the bar to beat, not a strawman: when the user fixed the look, craft and specificity do the raising.
 
 ## 8. Mandates, handoff, gate
-Write each finding as a numbered line, "B1 / T1 / P1: because [finding], the [layer] must / should / must avoid [consequence]", tagged given, researched, or inferred, and addressed to one layer. Each perception-contract entry yields at least one brand and one theme mandate, and every mandate states a consequence checkable on a finished design, never a bare quality. Each layer answers its mandates by id (`choose.md` §4); the brief is audited against all (`6_compose.md` §4):
+Write each finding as a numbered line, "B1 / T1 / P1: because [finding], the [layer] must / should / must avoid [consequence]", tagged given, researched, inferred, or open, and addressed to one layer. Each perception-contract entry yields at least one brand and one theme mandate, and every mandate states a consequence checkable on a finished design, never a bare quality. Each layer answers its mandates by id (`choose.md` §4); the brief is audited against all (`6_compose.md` §4):
 - **Brand** (lasting identity): what it must signal, never signal, and survive.
 - **Theme** (this design): what it must do for the perception shift, response, atmosphere, and encounter.
 - **Picture** (execution): legibility, hierarchy, density, dependability.

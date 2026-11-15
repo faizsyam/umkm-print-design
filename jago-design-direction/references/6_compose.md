@@ -28,13 +28,13 @@ Mark          Only when the image carries the business's identifier. Supplied: t
 Text          Every mandatory line in quotes, once (whole, or as its units), grouped by role, each group with its role, its relation to the picture,
               and its derived presentation (form, lettering, grouping device, rendering). The rule: "Render exactly the quoted strings, each once. Add, translate, or correct nothing,
               and write no other text."
-Look          Art direction at ceiling (lineage, construction, line, rendering and light, finish level) · the register, stated through its
+Look          Art direction at ceiling (lineage, construction, line, rendering and light, craft level) · the register, stated through its
               visible carriers (finish, material richness, ornament, polish) · hero design and situation ·
               the brand language as applied (shape logic, color roles and value key, lettering construction) · ownable traits with scope ·
               supporting graphics and their logic.
 Requirements  Assets and fidelity; fixed palette; stated hero traits; the user's exclusions; what to preserve.
 Guards        At most three, as positive opposites where possible.
-Close         "Decide every unstated detail with craft judgment, at the same finish level. Ask no questions; invent no facts, text, or decoration without a purpose."
+Close         "Decide every unstated detail with craft judgment, at the same craft level. Ask no questions; invent no facts, text, or decoration without a purpose."
 ```
 - The picture and the look lead, so the maker can restate the idea in one sentence and render the whole consistently.
 - **Core** (Request to Requirements) is always present. **Precision** (reference map, fidelity, tiers, density note) appears only when the task needs control.
@@ -61,7 +61,7 @@ Close         "Decide every unstated detail with craft judgment, at the same fin
 3. **Meaning and intensity:** every ledger requirement is present at its priority; reread the user's original words on look, mood, and hero, and confirm each descriptive attribute survived compression in substance and has two carriers on the dominant masses; nothing Decided reads as the user's requirement.
 4. **Hierarchy, downward:** the picture in the brief shows the theme through at least three carriers, information presentation included; the mark stands apart and whole; the brand reads with the mark covered; every Decided sentence traces to a parent in the theme, the brand, or a mandate, and one without a parent is cut.
 5. **Coverage, upward:** check the foundations against the brief item by item, as visible statements, not as strategy. The message is what the first read delivers; the perception shift and atmosphere are carried by named devices on the dominant masses; the design truth and the stance appear as the idea and the ownable traits; each form consequence in the brand's trait-to-form map appears in the mark's narration or the language as applied; each brand constant and each signature in use appears within its scope; each theme carrier appears; each perception-contract position is stated through its visible carriers and none of its ruled-out cues appears; each stated differentiator is visible at the tier its importance deserves or consciously ranked lower with a reason on record; each mandate (B, T, P) is visible or consciously declined with a reason on record. An item missing or reduced to an adjective is rewritten as its visual consequence, never added as an abstract word.
-6. **Specificity:** remove the business name and the quoted text: does the brief still point to this business, this audience, and this purpose? A sentence that would serve any other business with the same purpose is struck and rewritten from the true specifics, or cut.
+6. **Swap test:** remove the business name and the quoted text: does the brief still point to this business, this audience, and this purpose? A sentence that would serve any other business with the same purpose is struck and rewritten from the true specifics, or cut.
 7. **Picture review** (`4_theme.md` §5) on the narrated picture inside the brief.
 8. **Verbatim:** every quoted string is a ledger line or a unit of one, verbatim, appears once, and no extra text is invited; every division and pictogram replacement is in the notes.
 9. **Truth:** no invented fact, claim, contact, date, or mark; no placeholder.

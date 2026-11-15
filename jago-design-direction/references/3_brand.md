@@ -1,7 +1,7 @@
 # Phase 3: brand design
 
 **Needs:** S; the interpretation. **Produces:** the **brand record**: the visual identity and design language, anchored by the mark, that the theme and every later decision inherit. The method for candidates, judging, and cards is `choose.md`; this file supplies the brand's specifics. **Guided:** brand cards (§6) and stop, unless the identity is Fixed.
-The brand is the business's lasting visual identity. It is derived from who the business is (the interpretation's stance, distinctive truth, audience's eye, default territory, and brand mandates), not from the design at hand, and it is decided once per business: later designs in the conversation inherit this record as Fixed unless the user reopens it.
+The brand is the business's lasting visual identity. It is derived from who the business is (the interpretation's stance, distinctive truth, perception contract, audience's eye, default territory, and brand mandates), not from the design at hand, and it is decided once per business: later designs in the conversation inherit this record as Fixed unless the user reopens it.
 
 ## 1. What the brand design is
 The mark is the anchor; the rest of the identity is its language, extended. Decide only the facets this business and its designs will use, scaled to the business (a small one needs a compact identity, a complex one more); never invent a facet for completeness.
@@ -36,7 +36,7 @@ At conceptual or free fidelity the asset is read the same way and the mark becom
   - **Against the default territory:** how it is plainly distinct, and which of the audience's codes it keeps. **Risk and move.**
 
 ## 5. The brand review
-Run on each candidate, and again on the chosen record. Each question answers yes or names a move.
+Run on each candidate, and again on the chosen record (for a supplied asset it guides the surroundings and never judges the mark). Each question answers yes or names a move.
 1. **Distinct:** is the silhouette recognizable by form alone and plainly different from the peers' and the category's habitual marks?
 2. **Standalone:** does the mark work alone, with no name, in one color, and small, and does it stand clear of anything around it?
 3. **Embodies:** does each trait in the trait-to-form map have its carrier in the form, and does the mark fail the swap test?
@@ -52,7 +52,7 @@ Run on each candidate, and again on the chosen record. Each question answers yes
 Judge and choose by `choose.md` §4, with the added ranking criterion **Durable** (would it still serve this business across designs, years, and sizes?). Card:
 ```
 **Step 3 of 5: brand identity**
-What I learned: [one or two lines: who the business is, who it is for, what makes it distinctive]
+What I learned: [one or two lines: who the business is, who it is for, what makes it distinctive, what the look must and must not signal]
 | Identity | What you will see | Why / trade-off |
 |---|---|---|
 | ✅ **[name]**: [idea, ≤ 12 words] | [two or three sentences: the logo as seen alone, then the look around it] | [reason tied to this business] · [weakness] |
