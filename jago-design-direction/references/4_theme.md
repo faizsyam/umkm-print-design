@@ -12,6 +12,7 @@ Images that serve one purpose and audience share one theme, each adapting compos
 - **Brand root:** which parts of the brand language carry into this design, and at what intensity: the mark's standing, the language, the signatures. The brand's constants hold; the theme moves only within the **flex**.
 - **Purpose root:** the strategic core and the theme mandates: perception shift, message, perception contract, response, weakest link, atmosphere, encounter, content map and tiers. The theme must do work: help carry the message and answer the weakest link, for instance through how it organizes what the viewer meets first, second, and last before acting.
 - **Dual-root test** (a candidate passes only if both answers are no): could it serve any other design of this same brand equally well (then it is a style, not a theme)? Could another business with the same purpose use it unchanged once the mark is swapped (then it is a template)?
+- **Brand-growth test:** each candidate names the brand element it develops (a signature, the form logic, the stance, the color behavior) and how it extends it into this design. A concept that would stand unchanged with another identity, or that reinterprets the brand on its own, is out: the theme develops the brand and never decorates it.
 - Under a fixed spine (a stated look, hero, or palette) the theme is derived inside it; the spine candidate is the theme at full craft.
 
 ## 3. Depth: carriers
@@ -19,15 +20,14 @@ A theme lives in layers. It is real only when carried by **at least three indepe
 
 ## 4. Candidates
 Method: `choose.md` §3.
+- **Foundations** are different ways of developing the chosen brand for this purpose: each leads with a different brand element or a different answer to the purpose (the message, the weakest link, the audience's moment) and names the world or logic that results. Theme options are different expressions of one brand, never different brands.
 - **Seeds:** the brand's signatures and flex; the occasion-level raw material (the moment, setting, and offer); the cross-read's unexpected links; the theme mandates. At least one candidate goes past the obvious answer for this category and purpose; relevance and communication still come first (value order, `SKILL.md`).
-- **Structural axes:** the concept (its world or logic); the composition architecture (what dominates, how hero and content interlock); how the information is organized and presented; the hero's situation; the image-making class and rendering ceiling.
-- **Develop each:**
+- **Structural axes** (how a foundation becomes a design): the concept (its world or logic); the composition architecture (what dominates, how hero and content interlock); how the information is organized and presented; the hero's situation; the image-making class and rendering ceiling.
+- **Develop each** as the dossier in `choose.md` §3, with these fields:
   - **Picture:** four to six sentences narrating the finished design whole: the first read; how the hero, the main lettering, and the mark relate; where each group lives, how its presentation expresses the concept, and how its weight follows its rank; what sits in front and behind; where quiet stays open; what the ground does.
-  - **Concept:** one picture-level sentence, naming the true thing and the job it does for the purpose.
   - **Carriers:** the three or more layers, one clause each (§3).
-  - **Brand in it:** which signatures and language lead, what flexed, where the mark stands.
+  - **Brand in it:** the element developed and how, which signatures and language lead, what flexed, where the mark stands.
   - **Look:** the brand's lineage extended to this design's image-making class, and the rendering ceiling (`5_system.md` §2).
-  - **Against the prior read:** raises, fixes, keeps. **Risk and move.**
 
 ## 5. The picture review
 One instrument, run on each narrated picture here, on the assembled direction in `5_elements.md` §4, and on the brief in `6_compose.md` §4. Each question answers yes or names a move.
@@ -44,22 +44,23 @@ One instrument, run on each narrated picture here, on the assembled direction in
 11. **Positioning:** do finish, material richness, ornament, polish, and imagery signal the perception contract's position on every binding dimension, and nothing it rules out?
 
 ## 6. Choose, cards, record
-Judge and choose by `choose.md` §4. The gates are First read, Dependability, quality intensity, Positioning, and the dual-root test; the added ranking criterion is **Purposeful** (does the concept carry the message and answer the weakest link?). Card:
+Judge and choose by `choose.md` §4. **R** is measured against the brand record (constants honored, a named element developed) and the purpose roots (message, perception contract, weakest link, atmosphere); **D** against the prior read and the category's habitual treatment of this purpose. The gates are First read, Dependability, quality intensity, Positioning, the dual-root test, and the brand-growth test; the added ranking criterion is **Purposeful** (does the concept carry the message and answer the weakest link?). Card:
 ```
 **Step 4 of 5: creative theme** (3 of 4 when no brand cards were shown)
 Your identity: [one line: the brand design carrying into this piece]
 What I learned: [one or two lines: the purpose, the audience's moment, how this can stand out]
 | Theme | What you will see | Why / trade-off |
 |---|---|---|
-| ✅ **[name]**: [idea, ≤ 12 words] | [two sentences narrating the picture, including how the information is presented and where the logo stands] | [reason tied to this purpose] · [weakness] |
+| ✅ **[name]**: [idea, ≤ 12 words] | [two sentences narrating the picture, including how the information is presented and where the logo stands] | [the perception it builds for this purpose] · [weakness] |
+| [name] | ... | ... |
 | [name] | ... | ... |
 You said "…" → carried as: …
 OK, or tell me what to change?
 ```
-**The theme record:** the picture · the concept and its true thing · the carriers with their clauses · the brand constants honored and the flex used · runner-up and decisive criterion · the **handoff** to Phase 5: the concept, the carriers each with its logic, the mandates still open, and the obligations.
+**The theme record:** the picture · the idea and its true thing · the brand element developed · the carriers with their clauses · the brand constants honored and the flex used · runner-up and decisive criterion · the **handoff** to Phase 5: the concept, the carriers each with its logic, the mandates still open, and the obligations.
 
 ## 7. When the deliverable is the mark or the identity
 The brand record is the subject: its mark narration is the picture, and the brand cards are the direction cards. Phase 4 runs silently and decides only the presentation: what surrounds the mark and how an identity is shown (the mark alone on a field, or in application). The mark and its language are never altered by it, and no theme cards appear.
 
 ## Gate (adds to `choose.md`)
-The theme answers the frame and passes the dual-root test · it is carried by at least three layers, information presentation included · it honors every brand constant and uses only the flex · it signals the perception contract · every theme mandate is answered by a named carrier and device · it does work for the message or the weakest link · the narrated picture passed the picture review.
+The candidates express the brand through different foundations · the theme answers the frame and passes the dual-root and brand-growth tests · it is carried by at least three layers, information presentation included · it honors every brand constant and uses only the flex · it signals the perception contract · every theme mandate is answered by a named carrier and device · it does work for the message or the weakest link · the narrated picture passed the picture review.

@@ -52,7 +52,9 @@ brief → the request the image is made from · brand identity → the logo and 
 | A suggestion treated as fact, or worded as the user's requirement | remove it or label it Decided |
 | Direction that is the prior read with better adjectives | return to the layer that produced it and rebuild from another seed |
 | An interpretation that restates the brief or the category in nicer words | deepen it with the user's specifics or drop it (`2_interpret.md` §3) |
-| Brand cards that differ only in adjectives or color, a mark that is a styled name or a stock device | rebuild on a structural axis (`3_brand.md` §4) |
+| Options that are variants of one idea, or scored without evidence | rebuild on different foundations (`choose.md` §3) |
+| A generic option chosen because it is easy to justify, or a novel one that misfits the business | re-score on relatability and distinctiveness (`choose.md` §4) |
+| A mark that is a styled name or a stock device | rebuild the mark from another seed (`3_brand.md` §4) |
 | A theme that lives only in color, shapes, or containers | rebuild with carriers (`4_theme.md` §3) |
 | Elements all styled alike, or each styled alone; a decision with no parent | derive each from job, rank, and theme (`5_elements.md` §3) |
 | A brief in which restricting sentences outnumber enriching ones | rewrite toward the picture (`6_compose.md` §4) |
